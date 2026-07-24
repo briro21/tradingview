@@ -104,7 +104,7 @@ mcp = FastMCP(
     instructions=(
         "Multi-market screener backed by TradingView. "
         "Supports crypto exchanges (KuCoin, Binance, Bybit, MEXC, etc.), stock markets "
-        "(EGX, BIST, NASDAQ, NYSE, Bursa Malaysia, HKEX, SSE, SZSE, TWSE, TPEX), "
+        "(EGX, BIST, NASDAQ, NYSE, Bursa Malaysia, HKEX, SSE, SZSE, TWSE, TPEX, IDX), "
         "and futures markets (CME, COMEX, NYMEX, CBOT — equity index, energy, metals, "
         "agriculture, rates, forex, crypto futures). "
         "Tools: top_gainers, top_losers, bollinger_scan, coin_analysis, multi_agent_analysis, "
@@ -239,8 +239,8 @@ def coin_analysis(symbol: str, exchange: str = "KUCOIN", timeframe: str = "15m")
     Example: coin_analysis(symbol="BTCUSDT", exchange="BINANCE", timeframe="1h")
 
     Args:
-        symbol: Bare ticker, no exchange prefix — crypto: "BTCUSDT", "ETHUSDT"; stocks: "COMI" (EGX), "THYAO" (BIST), "600519" (SSE), "300251" (SZSE), "2330" (TWSE), "3105" (TPEX)
-        exchange: Exchange — crypto: KUCOIN, BINANCE, MEXC; stocks: EGX, BIST, NASDAQ, NYSE, BURSA, HKEX, SSE, SZSE, TWSE, TPEX. If the symbol isn't listed there, the error's `listed_on` field names exchanges that do list it.
+        symbol: Bare ticker, no exchange prefix — crypto: "BTCUSDT", "ETHUSDT"; stocks: "COMI" (EGX), "THYAO" (BIST), "600519" (SSE), "300251" (SZSE), "2330" (TWSE), "3105" (TPEX), "ENRG" (IDX)
+        exchange: Exchange — crypto: KUCOIN, BINANCE, MEXC; stocks: EGX, BIST, NASDAQ, NYSE, BURSA, HKEX, SSE, SZSE, TWSE, TPEX, IDX. If the symbol isn't listed there, the error's `listed_on` field names exchanges that do list it.
         timeframe: Time interval (5m, 15m, 1h, 4h, 1D, 1W, 1M)
 
     Returns:
@@ -429,8 +429,8 @@ def multi_agent_analysis(symbol: str, exchange: str = "KUCOIN", timeframe: str =
     """Run a multi-agent debate (Technical, Sentiment, Risk) for a specific symbol.
 
     Args:
-        symbol: Symbol — crypto: "BTCUSDT"; stocks: "COMI" (EGX), "THYAO" (BIST), "600519" (SSE), "300251" (SZSE), "2330" (TWSE), "3105" (TPEX), "GDX" (AMEX)
-        exchange: Exchange — crypto: KUCOIN, BINANCE, MEXC; stocks: EGX, BIST, NASDAQ, NYSE, AMEX, NYSEARCA, PCX, SSE, SZSE, TWSE, TPEX
+        symbol: Symbol — crypto: "BTCUSDT"; stocks: "COMI" (EGX), "THYAO" (BIST), "600519" (SSE), "300251" (SZSE), "2330" (TWSE), "3105" (TPEX), "GDX" (AMEX), "ENRG" (IDX)
+        exchange: Exchange — crypto: KUCOIN, BINANCE, MEXC; stocks: EGX, BIST, NASDAQ, NYSE, AMEX, NYSEARCA, PCX, SSE, SZSE, TWSE, TPEX, IDX
         timeframe: Time interval (5m, 15m, 1h, 4h, 1D, 1W)
 
     Returns:
@@ -620,7 +620,7 @@ async def combined_analysis(symbol: str, exchange: str = "NASDAQ", timeframe: st
 
     Args:
         symbol: Bare ticker, no exchange prefix ("AAPL", "BTCUSDT", "THYAO", "GDX")
-        exchange: Exchange (NASDAQ, NYSE, AMEX, NYSEARCA, PCX, BINANCE, KUCOIN, MEXC, BIST, EGX, TWSE, TPEX)
+        exchange: Exchange (NASDAQ, NYSE, AMEX, NYSEARCA, PCX, BINANCE, KUCOIN, MEXC, BIST, EGX, TWSE, TPEX, IDX)
         timeframe: Analysis timeframe (5m, 15m, 1h, 4h, 1D, 1W)
     """
     exchange_clean = sanitize_exchange(exchange, "NASDAQ")

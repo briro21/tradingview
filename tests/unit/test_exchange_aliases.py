@@ -183,3 +183,32 @@ class TestExistingExchangesUnchanged:
     @pytest.mark.parametrize("exchange", ["kucoin", "binance", "bybit", "mexc"])
     def test_crypto_not_in_stock_exchanges(self, exchange):
         assert exchange not in STOCK_EXCHANGES
+
+
+# ── Indonesia Stock Exchange (IDX) support ─────────────────────────────────────
+
+class TestIdxSupport:
+    """IDX (Bursa Efek Indonesia) — e.g. ENRG, BBCA, TLKM — must resolve like
+    the other single-country stock venues (EGX, BIST, TWSE, ...)."""
+
+    def test_idx_is_recognised(self):
+        assert sanitize_exchange("IDX", "KUCOIN") == "idx"
+
+    def test_idx_lowercase_is_recognised(self):
+        assert sanitize_exchange("idx", "KUCOIN") == "idx"
+
+    def test_idx_routes_to_indonesia_screener(self):
+        assert EXCHANGE_SCREENER["idx"] == "indonesia"
+
+    def test_idx_is_stock_exchange(self):
+        assert "idx" in STOCK_EXCHANGES
+        assert is_stock_exchange("IDX") is True
+
+    def test_idx_prefix_is_idx(self):
+        assert get_tv_exchange_prefix("idx") == "IDX"
+
+    def test_full_symbol_construction_idx(self):
+        assert normalize_tradingview_symbol("ENRG", "idx") == "IDX:ENRG"
+
+    def test_prequalified_idx_symbol_is_not_reprefixed(self):
+        assert normalize_tradingview_symbol("IDX:ENRG", "idx") == "IDX:ENRG"

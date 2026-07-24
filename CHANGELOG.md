@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+- **Indonesia Stock Exchange (IDX) support** (`exchange="IDX"`):
+  - `coin_analysis`, `combined_analysis`, `multi_timeframe_analysis`,
+    `multi_agent_analysis`, `backtest_strategy` and friends now resolve IDX
+    symbols (e.g. `ENRG`, `BBCA`, `TLKM`) to TradingView's `IDX:` prefix and
+    the `indonesia` screener market.
+  - Added `coinlist/idx.txt` — a curated starter list of ~90 liquid IDX
+    tickers (banks, telco, consumer, mining/energy, property, infra,
+    industrials) so exchange-wide scans (`top_gainers`, `bollinger_scan`,
+    `consecutive_candles_scan`, etc.) also work for `exchange="IDX"`. This
+    list is not exhaustive of all ~900 IDX-listed companies.
+
 ### Fixed
 - **`coin_analysis` ATR null bug**: `tradingview_ta` omits the `ATR` column from
   its analysis payload, which left `indicators["ATR"]` (and every downstream
