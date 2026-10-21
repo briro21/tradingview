@@ -1,0 +1,768 @@
+1
+00:00:00,300 --> 00:00:02,734
+Bayangkan sebuah klub eksklusif, tempat uang
+
+2
+00:00:02,734 --> 00:00:04,780
+triliunan dolar berputar setiap hari.
+
+3
+00:00:05,230 --> 00:00:07,974
+Indonesia sudah lama menjadi anggotanya.
+
+4
+00:00:07,974 --> 00:00:10,032
+Tapi suatu pagi, datang sebuah
+
+5
+00:00:10,032 --> 00:00:12,982
+surat: keanggotaanmu sedang ditinjau ulang.
+
+6
+00:00:13,432 --> 00:00:15,253
+Dan begitu surat itu dibaca publik,
+
+7
+00:00:15,253 --> 00:00:17,437
+pasar saham Indonesia mengalami salah satu
+
+8
+00:00:17,437 --> 00:00:19,622
+hari terburuknya dalam hampir tiga dekade.
+
+9
+00:00:20,072 --> 00:00:21,599
+Ini bukan perumpamaan kosong.
+
+10
+00:00:22,499 --> 00:00:24,430
+Tanggal lima belas Oktober dua ribu
+
+11
+00:00:24,430 --> 00:00:26,692
+dua puluh enam, MSCI, perusahaan penyusun
+
+12
+00:00:26,692 --> 00:00:28,899
+indeks yang menjadi acuan dana investasi
+
+13
+00:00:28,899 --> 00:00:31,217
+di seluruh dunia, membuka konsultasi untuk
+
+14
+00:00:31,217 --> 00:00:33,424
+menurunkan status pasar saham Indonesia.
+
+15
+00:00:33,874 --> 00:00:35,871
+Dari emerging market, atau pasar
+
+16
+00:00:35,871 --> 00:00:38,242
+berkembang, menjadi standalone market.
+
+17
+00:00:38,692 --> 00:00:41,310
+Keesokan harinya, IHSG ambruk sebelas koma
+
+18
+00:00:41,310 --> 00:00:43,429
+lima tujuh persen dalam satu hari.
+
+19
+00:00:43,429 --> 00:00:45,860
+Asing mencatat jual bersih sekitar tiga
+
+20
+00:00:45,860 --> 00:00:47,793
+koma tiga empat triliun rupiah.
+
+21
+00:00:48,243 --> 00:00:51,606
+Ini baru usulan. Belum keputusan final.
+
+22
+00:00:52,056 --> 00:00:54,891
+Tapi bagaimana kalau usulan ini benar-benar disetujui?
+
+23
+00:00:55,341 --> 00:00:57,139
+Di video ini, kita jalani
+
+24
+00:00:57,139 --> 00:00:59,153
+skenarionya, hari demi hari.
+
+25
+00:00:59,603 --> 00:01:01,468
+Dan tonton sampai akhir, karena ada
+
+26
+00:01:01,468 --> 00:01:03,066
+satu sisi dari cerita ini yang
+
+27
+00:01:03,066 --> 00:01:05,357
+hampir tidak dibahas, padahal bisa mengubah
+
+28
+00:01:05,357 --> 00:01:06,848
+masa depan pasar modal kita.
+
+29
+00:01:07,298 --> 00:01:09,980
+Pertama, kita harus paham dulu, apa itu
+
+30
+00:01:09,980 --> 00:01:13,005
+MSCI, dan kenapa pendapatnya begitu penting.
+
+31
+00:01:13,455 --> 00:01:17,170
+MSCI adalah penyusun indeks. Mereka mengelompokkan pasar
+
+32
+00:01:17,170 --> 00:01:19,557
+saham dunia ke dalam beberapa kelas.
+
+33
+00:01:20,007 --> 00:01:23,095
+Ada developed market, atau pasar maju,
+
+34
+00:01:23,095 --> 00:01:25,938
+seperti Amerika, Jepang, dan Eropa.
+
+35
+00:01:26,388 --> 00:01:29,294
+Ada emerging market, pasar berkembang,
+
+36
+00:01:29,294 --> 00:01:32,124
+seperti Indonesia, India, dan Brasil.
+
+37
+00:01:32,574 --> 00:01:34,118
+Ada frontier market, pasar
+
+38
+00:01:34,118 --> 00:01:35,780
+perbatasan yang lebih kecil.
+
+39
+00:01:36,230 --> 00:01:39,245
+Dan ada standalone market. Pasar yang berdiri
+
+40
+00:01:39,245 --> 00:01:42,260
+sendiri, di luar kelompok-kelompok utama itu.
+
+41
+00:01:42,710 --> 00:01:44,864
+Kenapa ini penting? Karena triliunan
+
+42
+00:01:44,864 --> 00:01:46,479
+dolar uang di seluruh dunia
+
+43
+00:01:46,479 --> 00:01:48,693
+mengikuti indeks ini secara otomatis.
+
+44
+00:01:49,143 --> 00:01:52,412
+Banyak dana investasi, terutama dana pasif dan
+
+45
+00:01:52,412 --> 00:01:55,183
+ETF, tidak memilih saham satu per satu.
+
+46
+00:01:55,183 --> 00:01:57,386
+Mereka cukup meniru isi indeks.
+
+47
+00:01:57,836 --> 00:02:00,406
+Kalau sebuah negara masuk indeks emerging market,
+
+48
+00:02:00,406 --> 00:02:02,924
+dana-dana ini otomatis membeli saham negara itu.
+
+49
+00:02:03,374 --> 00:02:06,503
+Dan kalau negara itu dikeluarkan, mereka otomatis
+
+50
+00:02:06,503 --> 00:02:10,335
+menjualnya. Tanpa melihat bagus atau tidaknya perusahaannya.
+
+51
+00:02:10,785 --> 00:02:13,004
+Bayangkan dana pasif seperti robot belanja
+
+52
+00:02:13,004 --> 00:02:14,588
+yang membawa daftar dari MSCI.
+
+53
+00:02:15,038 --> 00:02:17,441
+Robot ini tidak membaca laporan keuangan.
+
+54
+00:02:17,441 --> 00:02:19,668
+Tidak peduli apakah sebuah bank untung
+
+55
+00:02:19,668 --> 00:02:21,719
+besar atau perusahaan tumbuh pesat.
+
+56
+00:02:22,169 --> 00:02:24,265
+Ia hanya melihat satu hal: apakah nama
+
+57
+00:02:24,265 --> 00:02:26,141
+negara itu masih ada di daftarnya.
+
+58
+00:02:26,591 --> 00:02:28,586
+Kalau namanya dicoret, robot ini
+
+59
+00:02:28,586 --> 00:02:30,706
+akan menjual, berapa pun harganya.
+
+60
+00:02:31,156 --> 00:02:33,538
+Lalu kenapa MSCI mempertimbangkan langkah ini?
+
+61
+00:02:33,988 --> 00:02:37,834
+Menurut pengumumannya, ada kekhawatiran soal investability.
+
+62
+00:02:37,834 --> 00:02:40,507
+Seberapa mudah investor global bisa masuk
+
+63
+00:02:40,507 --> 00:02:42,006
+dan keluar dengan adil.
+
+64
+00:02:42,456 --> 00:02:45,549
+Yang disorot antara lain transparansi struktur kepemilikan
+
+65
+00:02:45,549 --> 00:02:48,589
+saham, dan dugaan praktik perdagangan yang terkoordinasi.
+
+66
+00:02:49,039 --> 00:02:51,280
+Dengan kata lain, investor besar ingin yakin
+
+67
+00:02:51,280 --> 00:02:53,419
+bahwa harga yang mereka lihat adalah harga
+
+68
+00:02:53,419 --> 00:02:55,405
+yang wajar, dan bahwa mereka tahu siapa
+
+69
+00:02:55,405 --> 00:02:57,544
+sebenarnya pemilik saham yang mereka beli.
+
+70
+00:02:57,994 --> 00:03:00,148
+Apakah ini pernah terjadi pada negara lain?
+
+71
+00:03:00,598 --> 00:03:01,048
+Pernah.
+
+72
+00:03:01,948 --> 00:03:04,859
+Argentina dipindahkan ke status standalone market beberapa
+
+73
+00:03:04,859 --> 00:03:07,267
+tahun lalu, karena pembatasan modal yang membuat
+
+74
+00:03:07,267 --> 00:03:09,475
+investor asing sulit membawa uangnya keluar.
+
+75
+00:03:09,925 --> 00:03:11,870
+Pakistan pernah diturunkan dari emerging
+
+76
+00:03:11,870 --> 00:03:13,378
+market menjadi frontier market.
+
+77
+00:03:13,828 --> 00:03:16,447
+Bagi negara-negara itu, perubahan status berarti
+
+78
+00:03:16,447 --> 00:03:18,412
+aliran dana asing yang menyusut, dan
+
+79
+00:03:18,412 --> 00:03:20,650
+perhatian investor global yang berkurang.
+
+80
+00:03:21,100 --> 00:03:24,264
+Sekarang, kita mulai skenarionya. Bagaimana jika
+
+81
+00:03:24,264 --> 00:03:27,429
+Indonesia benar-benar menjadi standalone market?
+
+82
+00:03:27,879 --> 00:03:28,741
+Hari pertama.
+
+83
+00:03:29,641 --> 00:03:33,028
+MSCI mengumumkan keputusan finalnya. Indonesia resmi
+
+84
+00:03:33,028 --> 00:03:35,765
+dikeluarkan dari kelompok emerging market.
+
+85
+00:03:36,215 --> 00:03:39,633
+Pasar sebenarnya sudah menduga. Sebagian investor
+
+86
+00:03:39,633 --> 00:03:41,935
+asing sudah menjual sejak isu ini
+
+87
+00:03:41,935 --> 00:03:45,144
+muncul. Tapi kepastian membawa gelombang baru.
+
+88
+00:03:45,594 --> 00:03:48,709
+Dana-dana pasif yang mengikuti indeks emerging market
+
+89
+00:03:48,709 --> 00:03:51,764
+mulai menghitung. Berapa banyak saham Indonesia yang
+
+90
+00:03:51,764 --> 00:03:53,527
+harus mereka lepas, dan kapan.
+
+91
+00:03:53,977 --> 00:03:56,327
+Mereka tidak punya pilihan. Aturan
+
+92
+00:03:56,327 --> 00:03:58,470
+mereka adalah mengikuti indeks.
+
+93
+00:03:58,920 --> 00:04:00,155
+Satu minggu kemudian.
+
+94
+00:04:01,055 --> 00:04:03,383
+Tanggal efektif semakin dekat. Ini
+
+95
+00:04:03,383 --> 00:04:05,368
+yang disebut penjualan paksa.
+
+96
+00:04:05,818 --> 00:04:09,261
+Saham-saham terbesar, yang paling banyak dimiliki
+
+97
+00:04:09,261 --> 00:04:12,635
+asing, menjadi sasaran pertama. Bank-bank besar,
+
+98
+00:04:12,635 --> 00:04:15,938
+perusahaan telekomunikasi, perusahaan konsumen.
+
+99
+00:04:16,388 --> 00:04:18,781
+Ironisnya, saham yang paling bagus justru
+
+100
+00:04:18,781 --> 00:04:21,290
+yang paling banyak dijual. Karena merekalah
+
+101
+00:04:21,290 --> 00:04:23,566
+yang paling banyak dimiliki dana asing.
+
+102
+00:04:24,016 --> 00:04:26,429
+Antrean jual menebal. Batas ARB tujuh
+
+103
+00:04:26,429 --> 00:04:29,561
+persen menahan penurunan harian, tapi tekanannya
+
+104
+00:04:29,561 --> 00:04:31,257
+menyebar ke beberapa hari.
+
+105
+00:04:31,707 --> 00:04:33,806
+Rupiah ikut tertekan, karena dana asing
+
+106
+00:04:33,806 --> 00:04:35,367
+yang keluar ditukar ke dolar.
+
+107
+00:04:35,817 --> 00:04:37,084
+Satu bulan kemudian.
+
+108
+00:04:37,984 --> 00:04:41,497
+Gelombang penjualan paksa mulai mereda. Tapi masalah
+
+109
+00:04:41,497 --> 00:04:44,064
+baru muncul: pasar menjadi lebih sepi.
+
+110
+00:04:44,514 --> 00:04:47,154
+Nilai transaksi harian turun. Banyak analis
+
+111
+00:04:47,154 --> 00:04:49,979
+asing berhenti meliput saham Indonesia, karena
+
+112
+00:04:49,979 --> 00:04:52,558
+klien mereka tidak lagi wajib memilikinya.
+
+113
+00:04:53,008 --> 00:04:55,416
+Bagi perusahaan, ini berarti mencari modal
+
+114
+00:04:55,416 --> 00:04:57,308
+jadi lebih sulit dan lebih mahal.
+
+115
+00:04:57,758 --> 00:05:00,527
+Dan efeknya tidak berhenti di bursa. Pemilik
+
+116
+00:05:00,527 --> 00:05:03,546
+reksa dana saham, termasuk pekerja yang menabung
+
+117
+00:05:03,546 --> 00:05:07,070
+lewat investasi rutin, melihat nilai investasinya turun.
+
+118
+00:05:07,520 --> 00:05:10,063
+Perusahaan yang ingin melantai di bursa, atau
+
+119
+00:05:10,063 --> 00:05:12,946
+menerbitkan saham baru, mungkin menunda rencananya.
+
+120
+00:05:13,396 --> 00:05:14,676
+Satu tahun kemudian.
+
+121
+00:05:15,576 --> 00:05:18,326
+Valuasi saham Indonesia bisa tertinggal dari
+
+122
+00:05:18,326 --> 00:05:21,576
+negara-negara tetangga. Perusahaan yang sama, dengan
+
+123
+00:05:21,576 --> 00:05:23,889
+laba yang sama, dihargai lebih murah,
+
+124
+00:05:23,889 --> 00:05:26,139
+hanya karena label pasarnya berubah.
+
+125
+00:05:26,589 --> 00:05:29,430
+Sebagian perusahaan besar mungkin mempertimbangkan untuk
+
+126
+00:05:29,430 --> 00:05:31,408
+mencatatkan saham di bursa luar negeri,
+
+127
+00:05:31,408 --> 00:05:33,590
+supaya tetap terlihat oleh investor global.
+
+128
+00:05:34,040 --> 00:05:35,788
+Dan pasar saham Indonesia semakin
+
+129
+00:05:35,788 --> 00:05:37,431
+bergantung pada investor lokal.
+
+130
+00:05:37,881 --> 00:05:39,309
+Itulah skenario buruknya.
+
+131
+00:05:40,209 --> 00:05:42,173
+Tapi sekarang, ingat sisi cerita yang
+
+132
+00:05:42,173 --> 00:05:43,607
+saya janjikan di awal tadi?
+
+133
+00:05:44,057 --> 00:05:44,757
+Ini dia.
+
+134
+00:05:45,657 --> 00:05:48,453
+Pengumuman MSCI ini bukan hanya ancaman.
+
+135
+00:05:48,453 --> 00:05:51,109
+Ia juga sebuah daftar pekerjaan rumah.
+
+136
+00:05:51,559 --> 00:05:55,425
+MSCI pada dasarnya mengatakan: perbaiki transparansi, perbaiki
+
+137
+00:05:55,425 --> 00:05:59,229
+struktur kepemilikan, dan pastikan perdagangan berjalan adil.
+
+138
+00:05:59,679 --> 00:06:02,139
+Kalau Indonesia menjawabnya dengan reformasi yang
+
+139
+00:06:02,139 --> 00:06:03,896
+nyata, pasar saham kita bisa keluar
+
+140
+00:06:03,896 --> 00:06:05,603
+dari krisis ini dalam kondisi yang
+
+141
+00:06:05,603 --> 00:06:07,009
+lebih sehat dari sebelumnya.
+
+142
+00:06:07,459 --> 00:06:10,589
+Status pasar bukan hukuman seumur hidup. Negara
+
+143
+00:06:10,589 --> 00:06:13,852
+bisa naik kelas lagi, setelah memenuhi syaratnya.
+
+144
+00:06:14,302 --> 00:06:15,849
+Dan ada satu kekuatan yang
+
+145
+00:06:15,849 --> 00:06:17,872
+sering diremehkan: investor lokal.
+
+146
+00:06:18,322 --> 00:06:21,357
+Ingat tanggal dua puluh Oktober? Asing menjual
+
+147
+00:06:21,357 --> 00:06:23,996
+lebih dari dua triliun rupiah, tapi IHSG
+
+148
+00:06:23,996 --> 00:06:26,570
+justru naik lebih dari lima persen. Itu
+
+149
+00:06:26,570 --> 00:06:29,011
+adalah uang lokal yang menahan pasar.
+
+150
+00:06:29,461 --> 00:06:31,977
+Jumlah investor pasar modal Indonesia terus
+
+151
+00:06:31,977 --> 00:06:34,610
+bertambah, kini mencapai jutaan orang. Mereka
+
+152
+00:06:34,610 --> 00:06:37,009
+adalah fondasi yang tidak bergantung pada
+
+153
+00:06:37,009 --> 00:06:38,354
+label dari luar negeri.
+
+154
+00:06:38,804 --> 00:06:41,655
+Bahkan bagi investor jangka panjang, penjualan
+
+155
+00:06:41,655 --> 00:06:44,568
+paksa bisa membuka kesempatan. Saham perusahaan
+
+156
+00:06:44,568 --> 00:06:47,109
+yang bagus dijual bukan karena kinerjanya
+
+157
+00:06:47,109 --> 00:06:49,154
+buruk, tapi karena aturan indeks.
+
+158
+00:06:49,604 --> 00:06:52,058
+Tapi hati-hati, saham murah tidak selalu
+
+159
+00:06:52,058 --> 00:06:54,697
+berarti saham bagus. Tetap pilih perusahaan
+
+160
+00:06:54,697 --> 00:06:56,477
+dengan fundamental yang kuat.
+
+161
+00:06:56,927 --> 00:06:58,070
+Lalu, apa yang bisa
+
+162
+00:06:58,070 --> 00:06:59,814
+dipelajari dari skenario ini?
+
+163
+00:07:00,264 --> 00:07:03,008
+Pertama, pahami siapa pemilik saham yang kamu
+
+164
+00:07:03,008 --> 00:07:05,690
+beli. Saham yang banyak dimiliki asing lebih
+
+165
+00:07:05,690 --> 00:07:07,824
+rentan terhadap aliran dana keluar.
+
+166
+00:07:08,274 --> 00:07:11,287
+Kedua, bedakan antara usulan, keputusan,
+
+167
+00:07:11,287 --> 00:07:13,772
+dan tanggal efektif. Pasar sering
+
+168
+00:07:13,772 --> 00:07:16,784
+bereaksi berlebihan pada berita pertama.
+
+169
+00:07:17,234 --> 00:07:20,444
+Ketiga, perhatikan tata kelola dan transparansi
+
+170
+00:07:20,444 --> 00:07:23,723
+perusahaan. Inilah yang dinilai investor global,
+
+171
+00:07:23,723 --> 00:07:25,840
+dan seharusnya juga kita nilai.
+
+172
+00:07:26,290 --> 00:07:29,921
+Keempat, jangan panik mengikuti arus. Penjualan paksa
+
+173
+00:07:29,921 --> 00:07:33,484
+digerakkan oleh aturan, bukan oleh nilai perusahaan.
+
+174
+00:07:33,934 --> 00:07:36,862
+Ingat, ini bukan saran investasi. Ini
+
+175
+00:07:36,862 --> 00:07:39,315
+cara memahami cara kerja pasar.
+
+176
+00:07:39,765 --> 00:07:42,883
+Karena pertanyaannya bukan, apakah MSCI akan
+
+177
+00:07:42,883 --> 00:07:46,567
+menurunkan status Indonesia. Keputusannya belum ada.
+
+178
+00:07:47,017 --> 00:07:49,632
+Pertanyaannya adalah, apakah kita akan menjadikan
+
+179
+00:07:49,632 --> 00:07:51,606
+momen ini sebagai alasan untuk panik,
+
+180
+00:07:51,606 --> 00:07:53,047
+atau alasan untuk berbenah?
+
+181
+00:07:53,497 --> 00:07:56,436
+Jadi, menurut kamu, kalau Indonesia benar-benar
+
+182
+00:07:56,436 --> 00:07:59,063
+menjadi standalone market, ini kiamat bagi
+
+183
+00:07:59,063 --> 00:08:01,251
+pasar saham kita, atau titik balik?
+
+184
+00:08:01,701 --> 00:08:04,204
+Tulis pendapatmu di kolom komentar.
+
+185
+00:08:04,204 --> 00:08:05,919
+Saya baca satu per satu.
+
+186
+00:08:06,369 --> 00:08:08,679
+Kalau video ini membuka wawasanmu, bagikan
+
+187
+00:08:08,679 --> 00:08:10,383
+ke satu teman yang punya saham.
+
+188
+00:08:10,833 --> 00:08:12,645
+Dan subscribe, supaya kamu tidak
+
+189
+00:08:12,645 --> 00:08:14,909
+ketinggalan skenario what if berikutnya.
+
+190
+00:08:15,359 --> 00:08:18,011
+Video ini bukan ajakan untuk membeli atau
+
+191
+00:08:18,011 --> 00:08:20,856
+menjual saham. Selalu lakukan riset sendiri.
+
+192
+00:08:21,306 --> 00:08:23,227
+Sampai jumpa di skenario berikutnya.
+
