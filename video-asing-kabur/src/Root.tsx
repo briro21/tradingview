@@ -2,7 +2,7 @@ import {Composition} from 'remotion';
 import {DURATION_SEC, PasarHijau} from './pasar-hijau/Video';
 import {AsingKabur, TOTAL_FRAMES} from './Video';
 import {CinematicDemo} from './cinematic/Demo';
-import {ThumbA, ThumbB, ThumbC} from './thumbs/Thumbs';
+import {ThumbA, ThumbB, ThumbC, ThumbR1, ThumbR2, ThumbR3} from './thumbs/Thumbs';
 import {DURATION_SEC as RP_SEC, RupiahVideo} from './rupiah/Video';
 import {AsingKaburVO, DURATION_SEC as AK_SEC} from './asing-kabur/Video';
 
@@ -17,5 +17,8 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="ThumbB" component={ThumbB} durationInFrames={1} fps={30} width={1280} height={720} />
     <Composition id="ThumbC" component={ThumbC} durationInFrames={1} fps={30} width={1280} height={720} />
     <Composition id="Rupiah20000" component={RupiahVideo} durationInFrames={RP_SEC * 30} fps={30} width={1920} height={1080} />
+    <Composition id="ThumbR1" component={ThumbR1} durationInFrames={1} fps={30} width={1280} height={720} />
+    <Composition id="ThumbR2" component={ThumbR2} durationInFrames={1} fps={30} width={1280} height={720} />
+    <Composition id="ThumbR3" component={ThumbR3} durationInFrames={1} fps={30} width={1280} height={720} />
   </>
 );
