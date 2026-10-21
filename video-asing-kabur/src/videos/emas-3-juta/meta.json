@@ -1,0 +1,23 @@
+{
+  "slug": "emas-3-juta",
+  "titles": [
+    "What If Harga Emas Tembus Rp3 Juta per Gram? Jangan Beli Sebelum Tahu Ini",
+    "Emas Antam Rp3 Juta/Gram: Siapa Untung, Siapa Terpukul?",
+    "Harga Emas Naik tapi Kamu Rugi? Skenario Emas Rp3 Juta per Gram"
+  ],
+  "intro": "Harga emas Antam per 21 Oktober 2026 ada di sekitar Rp2.554.000 per gram. Untuk menembus Rp3 juta, emas hanya perlu naik sekitar 17%. Apa yang terjadi kalau itu benar-benar terjadi?\n\nKita bahas dua mesin penggerak harga emas di Indonesia (harga dunia dan kurs rupiah), sejarah lonjakannya, lalu skenario hari demi hari: antrean butik emas, calon pengantin yang menghitung ulang mahar, gelombang penjualan emas lama, tabungan emas digital, sampai satu jebakan yang membuat banyak orang rugi padahal harga emas naik: spread harga beli dan buyback.",
+  "question": "Kalau emas tembus Rp3 juta per gram, kamu termasuk yang menjual atau yang membeli?",
+  "sources": [
+    "Harga emas Antam Rp2.554.000/gram & buyback Rp2.369.000/gram, 21 Okt 2026 (ANTARA, Logam Mulia)",
+    "Kurs USD/IDR ±Rp18.000 pertengahan Okt 2026 (JISDOR BI)"
+  ],
+  "note": "Grafik tren historis dan contoh perhitungan kurs adalah ilustrasi.",
+  "chapters": [[0, "Emas Rp3 juta per gram"], [4, "Fakta: harga emas hari ini"], [10, "Dua mesin penggerak harga emas"], [23, "Sejarah lonjakan emas"], [31, "Hari 1: FOMO & antrean butik"], [39, "Minggu 1: calon pengantin terpukul"], [46, "Bulan 1: pemilik lama menjual"], [55, "Tahun 1: bertahan atau terkoreksi?"], [61, "Jebakan: spread beli vs buyback"], [71, "5 pelajaran"], [80, "Menjual atau membeli?"]],
+  "tags": ["harga emas", "emas Antam", "harga emas hari ini", "emas 3 juta", "investasi emas", "buyback emas", "spread emas", "Logam Mulia", "emas naik", "beli emas", "tabungan emas", "emas digital", "kurs rupiah", "rupiah melemah", "mahar emas", "what if", "skenario ekonomi", "keuangan pribadi", "investasi pemula", "Pegadaian"],
+  "hashtags": ["#HargaEmas", "#EmasAntam", "#InvestasiEmas", "#WhatIf", "#Keuangan"],
+  "thumbs": {
+    "v1": {"top": "EMAS", "main": "Rp3 JUTA/gr?", "badge": "+17%", "emoji": "🪙"},
+    "v2": {"kicker": "WHAT IF", "main": "EMAS\nRp3 JUTA?", "bottom": "JANGAN FOMO", "emoji": "💰"},
+    "v3": {"top": "EMAS Rp3 JUTA:", "left": "RUGI", "right": "UNTUNG", "leftEmoji": "💍", "rightEmoji": "🪙"}
+  }
+}

@@ -6,9 +6,10 @@ import os
 import subprocess
 import sys
 import tempfile
+import time
 
 VOICE = 'id-ID-ArdiNeural'
-RATE = '+0%'
+RATE = os.environ.get('TTS_RATE', '+0%')
 GAP = 0.45        # jeda antar kalimat (detik)
 CHAPTER_GAP = 0.9  # jeda lebih panjang setelah baris pendek seperti "Hari pertama."
 MAX_WORDS = 7
@@ -34,7 +35,13 @@ def main(src, mp3, srt):
         cmd = ['edge-tts', '--voice', VOICE, f'--rate={RATE}', '--text', line, '--write-media', raw]
         if os.environ.get('HTTPS_PROXY'):
             cmd[1:1] = ['--proxy', os.environ['HTTPS_PROXY']]
-        subprocess.run(cmd, check=True, capture_output=True)
+        # Layanan TTS kadang gagal sesaat: coba ulang beberapa kali.
+        for attempt in range(5):
+            if subprocess.run(cmd, capture_output=True).returncode == 0:
+                break
+            time.sleep(2 ** attempt)
+        else:
+            raise RuntimeError(f'TTS gagal untuk baris {i + 1}: {line}')
         wav = os.path.join(tmp, f'{i:03}.wav')
         # Buang hening bawaan TTS di awal & akhir kalimat agar jeda dan waktu subtitle akurat.
         trim = 'silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse'

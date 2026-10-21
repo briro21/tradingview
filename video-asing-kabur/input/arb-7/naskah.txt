@@ -1,0 +1,93 @@
+Bayangkan kamu pegang saham yang sedang jatuh, dan kamu ingin menjualnya, sekarang juga.
+Kamu tekan tombol jual. Tapi tidak ada yang terjadi.
+Harganya sudah mentok di batas bawah. Antrean jual menumpuk ribuan lot di depanmu. Dan pembelinya, tidak ada.
+Besok, hal yang sama terulang. Lusa juga.
+Uangmu tidak hilang, tapi juga tidak bisa keluar.
+Ini bukan skenario fiksi.
+Mulai sembilan belas Oktober dua ribu dua puluh enam, Bursa Efek Indonesia memangkas batas auto rejection bawah, atau ARB, dari lima belas persen menjadi tujuh persen.
+Artinya, dalam satu hari, sebuah saham hanya boleh turun maksimal tujuh persen.
+Tapi batas naiknya, atau ARA, tidak diubah. Jadi sekarang, saham bisa naik jauh lebih cepat daripada turunnya.
+Aturan ini berlaku sementara, sampai tiga puluh satu Desember.
+Tapi bagaimana kalau aturan ini tidak pernah dicabut?
+Bagaimana kalau ARB tujuh persen berlaku selamanya?
+Di video ini, kita jalani skenarionya, hari demi hari.
+Dan tonton sampai akhir, karena ada satu efek samping yang jarang dibicarakan, padahal bisa menentukan nasib pasar saham kita.
+Pertama, kita pahami dulu apa itu ARB.
+Bayangkan setiap saham punya lantai dan langit-langit harian.
+Langit-langitnya disebut ARA, auto rejection atas. Lantainya disebut ARB, auto rejection bawah.
+Kalau ada order jual di bawah lantai itu, sistem bursa otomatis menolaknya.
+Tujuannya sederhana: mencegah harga bergerak terlalu liar dalam satu hari.
+Sebelumnya, lantainya ada di minus lima belas persen. Sekarang, dinaikkan menjadi minus tujuh persen.
+Lantainya jadi jauh lebih dangkal.
+Kenapa BEI melakukan ini?
+Jawabannya ada di tanggal enam belas Oktober.
+Hari itu, IHSG ambruk sebelas koma lima tujuh persen dalam satu hari, ke level lima ribu seratus delapan puluh lima.
+Pemicunya adalah pengumuman MSCI, yang membuka konsultasi untuk menurunkan status pasar saham Indonesia.
+Itu adalah salah satu penurunan harian terdalam sejak krisis sembilan belas sembilan puluh delapan.
+Investor panik. Asing menjual triliunan rupiah.
+Tiga hari kemudian, BEI memangkas batas ARB, dengan dukungan OJK.
+Ibaratnya, bursa memasang rem darurat. Supaya kepanikan tidak berubah menjadi longsor.
+Dan ini bukan pertama kalinya.
+Saat pandemi melanda di tahun dua ribu dua puluh, BEI juga pernah memberlakukan ARB tujuh persen yang asimetris, untuk meredam kepanikan.
+Aturan itu baru dikembalikan secara bertahap, bertahun-tahun kemudian.
+Jadi pertanyaan "bagaimana kalau berlaku lama" bukan pertanyaan yang mengada-ada.
+Sekarang, kita mulai skenarionya. Bagaimana jika rem darurat ini tidak pernah dilepas?
+Hari pertama.
+Pasar dibuka dengan tekanan jual. Tapi kali ini, penurunannya tertahan.
+Saham yang biasanya bisa jatuh lima belas persen, berhenti di minus tujuh.
+Di permukaan, grafik terlihat lebih tenang. Banyak investor ritel merasa lega.
+Tapi di balik layar, sesuatu menumpuk.
+Ingat, rem ARB tidak menghapus keinginan orang untuk menjual. Ia hanya menahan harganya.
+Orang yang ingin keluar tetap ingin keluar. Mereka hanya harus mengantre.
+Di order book, antrean jual di harga ARB menebal. Ribuan lot. Puluhan ribu lot. Sementara kolom beli, kosong. Melihat antrean sepanjang itu, investor lain ikut gelisah. Mereka ikut memasang order jual, supaya tidak ketinggalan keluar. Kepanikan yang tadinya tertahan di harga, kini berpindah ke antrean.
+Satu minggu kemudian.
+Muncul fenomena yang ditakuti trader: ARB berjilid.
+Saham yang seharusnya turun tiga puluh persen untuk menemukan harga wajarnya, sekarang butuh empat atau lima hari berturut-turut menyentuh batas bawah.
+Coba kita hitung. Saham seharga seribu rupiah.
+Hari pertama, ARB, turun ke sembilan ratus tiga puluh.
+Hari kedua, ke delapan ratus enam puluh lima.
+Hari ketiga, ke delapan ratus lima.
+Hari keempat, ke tujuh ratus lima puluh. Hari kelima, ke tujuh ratus.
+Lima hari, turun tiga puluh persen. Dan selama itu, hampir tidak ada yang bisa menjual.
+Setiap pagi, harga dibuka langsung di ARB. Setiap pagi, antrean jual bertambah panjang.
+Investor yang terjebak di dalamnya tidak bisa keluar.
+Bayangkan berada di dalam lift yang turun pelan-pelan, lantai demi lantai, dan pintunya tidak mau terbuka.
+Inilah efek samping pertama: rem yang terlalu pakem bisa menunda rasa sakit, tapi juga memperpanjangnya.
+Satu bulan kemudian.
+Investor mulai menyesuaikan diri.
+Trader jangka pendek menemukan pola baru. Karena batas naik jauh lebih lebar daripada batas turun, saham gorengan jadi semakin menarik untuk dimainkan.
+Naik bisa tiga puluh lima persen sehari, turun cuma tujuh persen. Kedengarannya seperti risiko kecil, untung besar.
+Tapi jangan tertipu.
+Ketika saham yang sudah naik tinggi akhirnya berbalik, ia tidak jatuh sekaligus. Ia jatuh berhari-hari, dengan antrean jual yang tidak pernah habis.
+Banyak trader ritel baru sadar, risiko tidak hilang. Risiko hanya dipindahkan ke hari-hari berikutnya.
+Satu tahun kemudian.
+Di sinilah efek samping yang paling jarang dibicarakan mulai terasa.
+Investor institusi asing menilai sebuah pasar dari satu hal penting: seberapa mudah mereka bisa masuk, dan seberapa mudah mereka bisa keluar.
+Mereka menyebutnya investability.
+Bagi manajer dana dengan uang miliaran dolar, pasar yang tidak bisa dijual dengan cepat adalah pasar yang berisiko. Bayangkan kamu mengelola dana pensiun jutaan orang. Kalau kamu tidak yakin bisa menjual saat dibutuhkan, kamu akan memilih pasar lain yang lebih mudah.
+Batas ARB yang sempit, kalau berlaku permanen, bisa dibaca sebagai tanda bahwa harga tidak dibiarkan bergerak bebas.
+Dan ironisnya, kekhawatiran soal investability inilah yang menjadi alasan MSCI mempertanyakan status pasar Indonesia.
+Jadi, rem yang dipasang untuk menenangkan pasar, kalau dipakai terlalu lama, justru bisa membuat investor besar ragu untuk kembali.
+Itulah skenario buruknya.
+Tapi tunggu dulu. Apakah ARB tujuh persen itu murni buruk?
+Tidak juga.
+Ada alasan kuat kenapa banyak bursa di dunia memakai pembatas harga.
+Pertama, ARB melindungi dari kepanikan sesaat. Penurunan tajam karena rumor atau kesalahan input order, bisa diredam sebelum menyebar.
+Kedua, ARB memberi waktu. Waktu bagi perusahaan untuk memberi klarifikasi. Waktu bagi investor untuk berpikir, bukan sekadar bereaksi.
+Ketiga, ARB melindungi investor ritel yang memakai margin, dari penjualan paksa berantai dalam satu hari.
+Dan ingat, tanggal dua puluh Oktober, sehari setelah aturan ini berlaku, IHSG justru melonjak lebih dari lima persen. Investor lokal kembali membeli.
+Jadi masalahnya bukan pada remnya. Masalahnya ada pada berapa lama rem itu diinjak.
+Rem darurat sangat berguna saat mobil hampir menabrak. Tapi tidak ada yang menyetir dengan rem tangan terus-menerus ditarik.
+Lalu, apa yang bisa dipelajari dari skenario ini?
+Pertama, pahami aturan mainnya. Cek batas ARA dan ARB sebelum membeli saham, terutama saham yang bergerak liar.
+Kedua, perhatikan likuiditas. Saham yang ramai transaksi lebih mudah dijual saat kondisi buruk, dibanding saham yang sepi.
+Ketiga, jangan menganggap batas turun yang kecil sebagai risiko yang kecil. Kerugian bisa datang dalam beberapa hari, bukan satu hari.
+Keempat, hindari memakai utang atau margin berlebihan di saham yang sedang bergejolak. Saat ARB berjilid, kamu tidak bisa keluar.
+Ingat, ini bukan saran investasi. Ini cara memahami aturan main.
+Jadi, menurut kamu, ARB tujuh persen ini pelindung investor, atau jebakan likuiditas?
+Haruskah aturan ini dicabut akhir tahun, atau dipertahankan?
+Tulis pendapatmu di kolom komentar. Saya baca satu per satu.
+Kalau video ini membantu, bagikan ke satu teman yang baru mulai main saham.
+Dan subscribe, karena di video berikutnya kita akan membahas apa yang terjadi kalau MSCI benar-benar menurunkan status pasar saham Indonesia.
+Video ini bukan ajakan untuk membeli atau menjual saham. Selalu lakukan riset sendiri.
+Sampai jumpa di skenario berikutnya.

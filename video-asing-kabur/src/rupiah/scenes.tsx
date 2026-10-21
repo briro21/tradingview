@@ -11,9 +11,9 @@ export type Line = {text: string; at: number; color?: string; size?: number};
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 export const fmt = (n: number, d = 0) => n.toLocaleString('id-ID', {minimumFractionDigits: d, maximumFractionDigits: d});
 const ease = (t: number) => t * t * (3 - 2 * t);
-const ramp = (sec: number, a: number, b: number) => ease(interpolate(sec, [a, b], [0, 1], clamp));
+export const ramp = (sec: number, a: number, b: number) => ease(interpolate(sec, [a, b], [0, 1], clamp));
 
-const Lines: React.FC<{lines: Line[]; x?: number; y?: number; align?: 'left' | 'right' | 'center'; color?: string}> = ({lines, x = 90, y = 60, align = 'left', color}) => (
+export const Lines: React.FC<{lines: Line[]; x?: number; y?: number; align?: 'left' | 'right' | 'center'; color?: string}> = ({lines, x = 90, y = 60, align = 'left', color}) => (
   <div
     style={{
       position: 'absolute',
@@ -34,15 +34,21 @@ const Lines: React.FC<{lines: Line[]; x?: number; y?: number; align?: 'left' | '
   </div>
 );
 
-const Card: React.FC<{children: React.ReactNode; w?: number; h?: number; style?: React.CSSProperties}> = ({children, w, h, style}) => (
+export const Card: React.FC<{children: React.ReactNode; w?: number; h?: number; style?: React.CSSProperties}> = ({children, w, h, style}) => (
   <Panel style={{width: w, height: h, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 12, padding: 24, ...style}}>{children}</Panel>
 );
-const Ink: React.FC<{t: string; s?: number; c?: string}> = ({t, s = 40, c = C.ink}) => (
+export const Ink: React.FC<{t: string; s?: number; c?: string}> = ({t, s = 40, c = C.ink}) => (
   <div style={{fontFamily: FONT, fontWeight: 900, fontSize: s, color: c, textAlign: 'center', lineHeight: 1.1, whiteSpace: 'pre-line'}}>{t}</div>
 );
 
 // ───────── Hook ─────────
-export const NewsRoom: React.FC<{headlineAt: number; shockAt: number}> = ({headlineAt, shockAt}) => {
+export const NewsRoom: React.FC<{headlineAt: number; shockAt: number; title1?: string; title2?: string; kicker?: string}> = ({
+  headlineAt,
+  shockAt,
+  title1 = 'RUPIAH TEMBUS',
+  title2 = 'Rp20.000/$',
+  kicker = 'BREAKING NEWS',
+}) => {
   const sec = useSec();
   const show = sec > headlineAt;
   const flash = show && Math.floor(sec * 3) % 2 === 0;
@@ -52,11 +58,11 @@ export const NewsRoom: React.FC<{headlineAt: number; shockAt: number}> = ({headl
         <NightRoom
           screen={
             <div style={{height: '100%', background: show ? (flash ? '#b3121b' : '#7a0d13') : '#141225', padding: 24, fontFamily: FONT, fontWeight: 900, color: '#fff'}}>
-              <div style={{fontSize: 24, background: '#fff', color: '#b3121b', display: 'inline-block', padding: '2px 10px'}}>BREAKING NEWS</div>
+              <div style={{fontSize: 24, background: '#fff', color: '#b3121b', display: 'inline-block', padding: '2px 10px'}}>{kicker}</div>
               {show && (
                 <>
-                  <div style={{fontSize: 46, marginTop: 18, lineHeight: 1.05}}>RUPIAH TEMBUS</div>
-                  <div style={{fontSize: 66, color: C.yellow}}>Rp20.000/$</div>
+                  <div style={{fontSize: 46, marginTop: 18, lineHeight: 1.05}}>{title1}</div>
+                  <div style={{fontSize: 66, color: C.yellow}}>{title2}</div>
                 </>
               )}
             </div>
@@ -353,7 +359,7 @@ export const Dark: React.FC<{lines: Line[]}> = ({lines}) => (
 );
 
 // ───────── Hari 1 ─────────
-export const Queue: React.FC<{lines: Line[]; growAt: number}> = ({lines, growAt}) => {
+export const Queue: React.FC<{lines: Line[]; growAt: number; sign?: string; board?: string; value?: string; color?: string}> = ({lines, growAt, sign = 'MONEY CHANGER', board = 'USD JUAL', value = '20.150', color = '#3b7be0'}) => {
   const sec = useSec();
   const n = Math.round(interpolate(sec, [growAt, growAt + 4], [3, 9], clamp));
   return (
@@ -361,10 +367,10 @@ export const Queue: React.FC<{lines: Line[]; growAt: number}> = ({lines, growAt}
       <AbsoluteFill style={{background: 'linear-gradient(180deg, #ffd9a8, #f5f0e6)'}} />
       <div style={{position: 'absolute', left: 0, right: 0, top: 860, bottom: 0, background: '#d8c7a6'}} />
       <Abs x={1380} y={180}>
-        <div style={{width: 470, height: 680, background: '#3b7be0', border: `10px solid ${C.ink}`, borderRadius: 16, display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: 30, gap: 20}}>
-          <Txt text="MONEY CHANGER" size={44} color="#fff" />
+        <div style={{width: 470, height: 680, background: color, border: `10px solid ${C.ink}`, borderRadius: 16, display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: 30, gap: 20}}>
+          <Txt text={sign} size={44} color="#fff" />
           <div style={{background: '#10141f', border: `6px solid ${C.ink}`, borderRadius: 10, padding: '14px 26px', fontFamily: FONT, fontWeight: 900, color: '#fff', fontSize: 34}}>
-            USD JUAL <span style={{color: C.red}}>20.150</span>
+            {board} <span style={{color: C.red}}>{value}</span>
           </div>
           <div style={{width: 300, height: 300, background: '#bfe3ff', border: `8px solid ${C.ink}`, marginTop: 20}} />
         </div>

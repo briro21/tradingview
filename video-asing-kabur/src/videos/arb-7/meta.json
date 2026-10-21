@@ -1,0 +1,24 @@
+{
+  "slug": "arb-7",
+  "titles": [
+    "What If ARB 7% Berlaku Selamanya? Saham Bisa Terkunci Berhari-hari",
+    "BEI Pangkas ARB Jadi 7%: Pelindung Investor atau Jebakan Likuiditas?",
+    "ARB 7% Permanen: Siapa Untung, Siapa Terjebak?"
+  ],
+  "intro": "Mulai 19 Oktober 2026, Bursa Efek Indonesia memangkas batas auto rejection bawah (ARB) dari 15% menjadi 7%, sementara batas ARA tidak berubah. Aturan ini berlaku sementara sampai 31 Desember 2026. Tapi bagaimana kalau ARB 7% berlaku selamanya?\n\nDi video ini kita bahas apa itu ARA dan ARB, kenapa BEI memasang \"rem darurat\" setelah IHSG anjlok 11,57% pada 16 Oktober, lalu kita jalani skenarionya hari demi hari: dari antrean jual yang menumpuk, ARB berjilid, saham gorengan, sampai efek samping yang jarang dibahas, yaitu investability di mata MSCI.",
+  "question": "Menurut kamu, ARB 7% ini pelindung investor atau jebakan likuiditas? Dicabut akhir tahun atau dipertahankan?",
+  "sources": [
+    "BEI: SK Direksi No. Kep-00157/BEI/10-2026, ARB 7% berlaku 19 Okt s/d 31 Des 2026 (Bareksa, Bisnis.com, Kontan)",
+    "IHSG -11,57% ke 5.185 pada 16 Okt 2026 (BCA Sekuritas, FXStreet)",
+    "IHSG +5,65% pada 20 Okt 2026 (Mediakeuangan)"
+  ],
+  "note": "Contoh harga saham Rp1.000 dan pola saham gorengan adalah ilustrasi.",
+  "chapters": [[0, "Saham yang tidak bisa dijual"], [5, "Fakta: BEI pangkas ARB jadi 7%"], [14, "Apa itu ARA dan ARB?"], [21, "Kenapa BEI melakukannya? (16 Oktober)"], [29, "Pernah terjadi: pandemi 2020"], [34, "Hari 1: penurunan tertahan"], [42, "Minggu 1: ARB berjilid"], [55, "Bulan 1: saham gorengan"], [62, "Tahun 1: masalah investability"], [71, "Twist: kenapa ARB tetap berguna"], [80, "4 pelajaran"], [86, "Pelindung atau jebakan?"]],
+  "tags": ["ARB 7%", "auto rejection bawah", "ARB saham", "ARA ARB", "BEI", "Bursa Efek Indonesia", "IHSG", "IHSG anjlok", "aturan baru BEI", "saham gorengan", "ARB berjilid", "trading saham", "saham pemula", "MSCI Indonesia", "investability", "OJK", "what if", "skenario pasar saham", "edukasi saham", "investasi saham"],
+  "hashtags": ["#ARB", "#IHSG", "#SahamIndonesia", "#WhatIf", "#BEI"],
+  "thumbs": {
+    "v1": {"top": "SAHAM", "main": "TERKUNCI?", "badge": "ARB -7%", "emoji": "🔒"},
+    "v2": {"kicker": "WHAT IF", "main": "ARB 7%\nSELAMANYA?", "bottom": "REM DARURAT", "emoji": "🛑"},
+    "v3": {"top": "ARB 7%:", "left": "JEBAKAN", "right": "PELINDUNG", "leftEmoji": "🪤", "rightEmoji": "🛡️"}
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "msci-standalone",
+  "titles": [
+    "What If MSCI Benar-benar Turunkan Status Pasar Saham Indonesia?",
+    "Indonesia Jadi Standalone Market MSCI: Kiamat atau Titik Balik IHSG?",
+    "MSCI Ancam Turunkan Indonesia: Apa yang Terjadi ke Saham dan Uangmu?"
+  ],
+  "intro": "Pada 15 Oktober 2026, MSCI membuka konsultasi untuk menurunkan status pasar saham Indonesia dari emerging market menjadi standalone market. Keesokan harinya, IHSG ambruk 11,57% dan asing mencatat jual bersih sekitar Rp3,34 triliun. Ini baru usulan, tapi bagaimana kalau benar-benar disetujui?\n\nKita bahas apa itu MSCI dan kelas-kelas pasar, kenapa dana pasif dan ETF \"wajib\" menjual, apa alasan MSCI khawatir (investability dan transparansi kepemilikan), contoh Argentina dan Pakistan, lalu skenario hari demi hari: penjualan paksa, pasar yang sepi, valuasi yang tertinggal, sampai sisi cerita yang jarang dibahas, yaitu reformasi dan kekuatan investor lokal.",
+  "question": "Kalau Indonesia benar-benar jadi standalone market, ini kiamat bagi pasar saham kita atau titik balik?",
+  "sources": [
+    "Pengumuman konsultasi MSCI 15 Okt 2026 (Kontan, ANTARA)",
+    "IHSG -11,57% pada 16 Okt 2026; net sell asing Rp3,34 T (Kompas, IDN Financials)",
+    "IHSG +5,65% pada 20 Okt 2026 meski asing jual (Mediakeuangan)"
+  ],
+  "note": "Grafik skenario penurunan dan perbandingan valuasi adalah ilustrasi, bukan proyeksi.",
+  "chapters": [[0, "Surat untuk anggota klub"], [3, "Fakta: konsultasi MSCI & IHSG -11,57%"], [11, "Apa itu MSCI & kelas pasar"], [21, "Robot dana pasif"], [25, "Kenapa MSCI khawatir?"], [29, "Pernah terjadi: Argentina & Pakistan"], [35, "Hari 1: keputusan final"], [40, "Minggu 1: penjualan paksa"], [46, "Bulan 1: pasar jadi sepi"], [52, "Tahun 1: valuasi tertinggal"], [57, "Sisi lain: pekerjaan rumah & investor lokal"], [68, "4 pelajaran"], [76, "Kiamat atau titik balik?"]],
+  "tags": ["MSCI", "MSCI Indonesia", "standalone market", "emerging market", "IHSG", "IHSG anjlok", "reklasifikasi MSCI", "investor asing", "net sell asing", "ETF", "dana pasif", "pasar saham Indonesia", "investability", "free float", "BEI", "saham Indonesia", "what if", "skenario pasar saham", "edukasi saham", "investasi saham"],
+  "hashtags": ["#MSCI", "#IHSG", "#SahamIndonesia", "#WhatIf", "#InvestorAsing"],
+  "thumbs": {
+    "v1": {"top": "INDONESIA", "main": "TURUN KELAS?", "badge": "MSCI", "emoji": "📉"},
+    "v2": {"kicker": "WHAT IF", "main": "MSCI CORET\nINDONESIA?", "bottom": "JUAL PAKSA", "emoji": "🤖"},
+    "v3": {"top": "STANDALONE MARKET:", "left": "KIAMAT", "right": "TITIK BALIK", "leftEmoji": "💥", "rightEmoji": "🌱"}
+  }
+}
