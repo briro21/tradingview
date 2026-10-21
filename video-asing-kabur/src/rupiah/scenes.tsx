@@ -790,7 +790,7 @@ export const Lessons: React.FC<{items: {t: string; sub: string; e: string; at: n
     <AbsoluteFill>
       <Background glow="rgba(62,207,107,0.25)" />
       <Abs x={90} y={50}>
-        <Txt text="4 PELAJARAN" size={90} color={C.yellow} />
+        <Txt text={`${items.length} PELAJARAN`} size={90} color={C.yellow} />
       </Abs>
       <div style={{position: 'absolute', left: 80, right: 80, top: 220, display: 'flex', gap: 28}}>
         {items.map((r, i) => {

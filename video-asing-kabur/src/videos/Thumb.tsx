@@ -11,7 +11,7 @@ export type ThumbData = {
 };
 
 const T: React.FC<{text: string; size: number; color?: string; style?: React.CSSProperties}> = ({text, size, color = '#fff', style}) => (
-  <div style={{fontFamily: FONT, fontWeight: 900, fontSize: size, color, lineHeight: 0.95, WebkitTextStroke: `${size / 14}px ${C.ink}`, paintOrder: 'stroke fill', textShadow: `0 ${size / 12}px 0 ${C.ink}`, ...style}}>
+  <div style={{fontFamily: FONT, fontWeight: 900, fontSize: size, color, lineHeight: 0.95, whiteSpace: 'pre-line', WebkitTextStroke: `${size / 14}px ${C.ink}`, paintOrder: 'stroke fill', textShadow: `0 ${size / 12}px 0 ${C.ink}`, ...style}}>
     {text}
   </div>
 );
@@ -58,8 +58,8 @@ export const Thumb: React.FC<{data: ThumbData; variant: 1 | 2 | 3}> = ({data, va
           </div>
           {data.v3.leftEmoji && <div style={{position: 'absolute', left: 420, top: 440, fontSize: 120}}>{data.v3.leftEmoji}</div>}
           {data.v3.rightEmoji && <div style={{position: 'absolute', left: 1060, top: 440, fontSize: 120}}>{data.v3.rightEmoji}</div>}
-          <T text={data.v3.left} size={96} color={C.red} style={{position: 'absolute', left: 40, top: 140, width: 560, textAlign: 'center'}} />
-          <T text={data.v3.right} size={96} color={C.green} style={{position: 'absolute', left: 680, top: 140, width: 560, textAlign: 'center'}} />
+          <T text={data.v3.left} size={Math.min(96, 740 / data.v3.left.length)} color={C.red} style={{position: 'absolute', left: 40, top: 140, width: 560, textAlign: 'center'}} />
+          <T text={data.v3.right} size={Math.min(96, 740 / data.v3.right.length)} color={C.green} style={{position: 'absolute', left: 680, top: 140, width: 560, textAlign: 'center'}} />
           <T text={data.v3.top} size={78} style={{position: 'absolute', left: 0, right: 0, top: 24, textAlign: 'center'}} />
         </AbsoluteFill>
       )}

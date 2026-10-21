@@ -51,3 +51,20 @@ scripts/make_sfx.sh                       # efek suara sintetis (whoosh, boom, d
 npx remotion render Rupiah20000 out/what-if-rupiah-20000.mp4
 ```
 Adegan di `src/rupiah/Video.tsx` memakai `L(i)` = detik mulai kalimat ke-i, jadi tetap sinkron kalau VO dibuat ulang.
+
+## Produksi batch (What If)
+Satu perintah untuk beberapa video sekaligus:
+
+```bash
+scripts/batch.sh arb-7 emas-3-juta msci-standalone      # TTS → timing → 3 thumbnail → SEO → render
+SKIP_TTS=1 scripts/batch.sh arb-7                      # pakai VO yang sudah ada (mis. rekaman suara sendiri)
+```
+
+Menambah video baru:
+1. `input/<slug>/naskah.txt`: satu kalimat/paragraf pendek per baris.
+2. `src/videos/<slug>/storyboard.tsx`: daftar adegan, memakai `L(i)` = detik mulai baris ke-i.
+3. `src/videos/<slug>/meta.json`: judul, deskripsi, bab (indeks baris), tag, teks thumbnail.
+4. Daftarkan di `src/videos/registry.tsx`.
+
+Kalau merekam suara sendiri: simpan sebagai `public/vo_<slug>.mp3` dan SRT per kalimat di `input/<slug>/vo_<slug>.srt` (format sama dengan keluaran `tts_vo.py`), lalu jalankan dengan `SKIP_TTS=1`.
+Hasil: `out/what-if-<slug>.mp4`, `youtube/<slug>-thumb-{1,2,3}.png`, `youtube/<slug>.md`.

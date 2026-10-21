@@ -4,9 +4,9 @@ import {AsingKabur, TOTAL_FRAMES} from './Video';
 import {CinematicDemo} from './cinematic/Demo';
 import {ThumbA, ThumbB, ThumbC, ThumbR1, ThumbR2, ThumbR3} from './thumbs/Thumbs';
 import {DURATION_SEC as RP_SEC, RupiahVideo} from './rupiah/Video';
-import {VIDEOS} from './videos/registry';
+import {VIDEOS, WhatIfBySlug} from './videos/registry';
 import {Thumb} from './videos/Thumb';
-import {durationOf, makeL, WhatIf} from './videos/WhatIf';
+import {durationOf} from './videos/WhatIf';
 import {AsingKaburVO, DURATION_SEC as AK_SEC} from './asing-kabur/Video';
 
 export const RemotionRoot: React.FC = () => (
@@ -27,8 +27,8 @@ export const RemotionRoot: React.FC = () => (
       <Composition
         key={v.slug}
         id={`WhatIf-${v.slug}`}
-        component={WhatIf}
-        defaultProps={{timeline: v.timeline(makeL(v.lines)), captions: v.captions, audio: `vo_${v.slug}.mp3`, duration: durationOf(v.lines)}}
+        component={WhatIfBySlug}
+        defaultProps={{slug: v.slug}}
         durationInFrames={durationOf(v.lines) * 30}
         fps={30}
         width={1920}

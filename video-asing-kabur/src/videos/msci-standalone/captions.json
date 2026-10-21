@@ -1,0 +1,992 @@
+[
+{
+"start": 0.3,
+"end": 2.8129999999999997,
+"text": "Bayangkan sebuah klub eksklusif, tempat uang"
+},
+{
+"start": 2.8129999999999997,
+"end": 4.927,
+"text": "triliunan dolar berputar setiap hari."
+},
+{
+"start": 5.377,
+"end": 8.212,
+"text": "Indonesia sudah lama menjadi anggotanya."
+},
+{
+"start": 8.212,
+"end": 10.339,
+"text": "Tapi suatu pagi, datang sebuah"
+},
+{
+"start": 10.339,
+"end": 13.387,
+"text": "surat: keanggotaanmu sedang ditinjau ulang."
+},
+{
+"start": 13.837,
+"end": 15.718,
+"text": "Dan begitu surat itu dibaca publik,"
+},
+{
+"start": 15.718,
+"end": 17.974,
+"text": "pasar saham Indonesia mengalami salah satu"
+},
+{
+"start": 17.974,
+"end": 20.231,
+"text": "hari terburuknya dalam hampir tiga dekade."
+},
+{
+"start": 20.681,
+"end": 22.259,
+"text": "Ini bukan perumpamaan kosong."
+},
+{
+"start": 23.159,
+"end": 25.155,
+"text": "Tanggal lima belas Oktober dua ribu"
+},
+{
+"start": 25.155,
+"end": 27.492,
+"text": "dua puluh enam, MSCI, perusahaan penyusun"
+},
+{
+"start": 27.492,
+"end": 29.772,
+"text": "indeks yang menjadi acuan dana investasi"
+},
+{
+"start": 29.772,
+"end": 32.166,
+"text": "di seluruh dunia, membuka konsultasi untuk"
+},
+{
+"start": 32.166,
+"end": 34.446,
+"text": "menurunkan status pasar saham Indonesia."
+},
+{
+"start": 34.896,
+"end": 36.961,
+"text": "Dari emerging market, atau pasar"
+},
+{
+"start": 36.961,
+"end": 39.412,
+"text": "berkembang, menjadi standalone market."
+},
+{
+"start": 39.862,
+"end": 42.564,
+"text": "Keesokan harinya, IHSG ambruk sebelas koma"
+},
+{
+"start": 42.564,
+"end": 44.752,
+"text": "lima tujuh persen dalam satu hari."
+},
+{
+"start": 44.752,
+"end": 47.262,
+"text": "Asing mencatat jual bersih sekitar tiga"
+},
+{
+"start": 47.262,
+"end": 49.257,
+"text": "koma tiga empat triliun rupiah."
+},
+{
+"start": 49.707,
+"end": 53.184,
+"text": "Ini baru usulan. Belum keputusan final."
+},
+{
+"start": 53.634,
+"end": 56.566,
+"text": "Tapi bagaimana kalau usulan ini benar-benar disetujui?"
+},
+{
+"start": 57.016,
+"end": 58.876,
+"text": "Di video ini, kita jalani"
+},
+{
+"start": 58.876,
+"end": 60.958,
+"text": "skenarionya, hari demi hari."
+},
+{
+"start": 61.408,
+"end": 63.333,
+"text": "Dan tonton sampai akhir, karena ada"
+},
+{
+"start": 63.333,
+"end": 64.984,
+"text": "satu sisi dari cerita ini yang"
+},
+{
+"start": 64.984,
+"end": 67.349,
+"text": "hampir tidak dibahas, padahal bisa mengubah"
+},
+{
+"start": 67.349,
+"end": 68.889,
+"text": "masa depan pasar modal kita."
+},
+{
+"start": 69.339,
+"end": 72.109,
+"text": "Pertama, kita harus paham dulu, apa itu"
+},
+{
+"start": 72.109,
+"end": 75.234,
+"text": "MSCI, dan kenapa pendapatnya begitu penting."
+},
+{
+"start": 75.684,
+"end": 79.526,
+"text": "MSCI adalah penyusun indeks. Mereka mengelompokkan pasar"
+},
+{
+"start": 79.526,
+"end": 81.995,
+"text": "saham dunia ke dalam beberapa kelas."
+},
+{
+"start": 82.445,
+"end": 85.633,
+"text": "Ada developed market, atau pasar maju,"
+},
+{
+"start": 85.633,
+"end": 88.568,
+"text": "seperti Amerika, Jepang, dan Eropa."
+},
+{
+"start": 89.018,
+"end": 92.024,
+"text": "Ada emerging market, pasar berkembang,"
+},
+{
+"start": 92.024,
+"end": 94.951,
+"text": "seperti Indonesia, India, dan Brasil."
+},
+{
+"start": 95.401,
+"end": 96.995,
+"text": "Ada frontier market, pasar"
+},
+{
+"start": 96.995,
+"end": 98.71,
+"text": "perbatasan yang lebih kecil."
+},
+{
+"start": 99.16,
+"end": 102.275,
+"text": "Dan ada standalone market. Pasar yang berdiri"
+},
+{
+"start": 102.275,
+"end": 105.389,
+"text": "sendiri, di luar kelompok-kelompok utama itu."
+},
+{
+"start": 105.839,
+"end": 108.065,
+"text": "Kenapa ini penting? Karena triliunan"
+},
+{
+"start": 108.065,
+"end": 109.734,
+"text": "dolar uang di seluruh dunia"
+},
+{
+"start": 109.734,
+"end": 112.022,
+"text": "mengikuti indeks ini secara otomatis."
+},
+{
+"start": 112.472,
+"end": 115.847,
+"text": "Banyak dana investasi, terutama dana pasif dan"
+},
+{
+"start": 115.847,
+"end": 118.709,
+"text": "ETF, tidak memilih saham satu per satu."
+},
+{
+"start": 118.709,
+"end": 120.983,
+"text": "Mereka cukup meniru isi indeks."
+},
+{
+"start": 121.433,
+"end": 124.086,
+"text": "Kalau sebuah negara masuk indeks emerging market,"
+},
+{
+"start": 124.086,
+"end": 126.685,
+"text": "dana-dana ini otomatis membeli saham negara itu."
+},
+{
+"start": 127.135,
+"end": 130.366,
+"text": "Dan kalau negara itu dikeluarkan, mereka otomatis"
+},
+{
+"start": 130.366,
+"end": 134.323,
+"text": "menjualnya. Tanpa melihat bagus atau tidaknya perusahaannya."
+},
+{
+"start": 134.773,
+"end": 137.067,
+"text": "Bayangkan dana pasif seperti robot belanja"
+},
+{
+"start": 137.067,
+"end": 138.705,
+"text": "yang membawa daftar dari MSCI."
+},
+{
+"start": 139.155,
+"end": 141.639,
+"text": "Robot ini tidak membaca laporan keuangan."
+},
+{
+"start": 141.639,
+"end": 143.942,
+"text": "Tidak peduli apakah sebuah bank untung"
+},
+{
+"start": 143.942,
+"end": 146.063,
+"text": "besar atau perusahaan tumbuh pesat."
+},
+{
+"start": 146.513,
+"end": 148.676,
+"text": "Ia hanya melihat satu hal: apakah nama"
+},
+{
+"start": 148.676,
+"end": 150.612,
+"text": "negara itu masih ada di daftarnya."
+},
+{
+"start": 151.062,
+"end": 153.121,
+"text": "Kalau namanya dicoret, robot ini"
+},
+{
+"start": 153.121,
+"end": 155.308,
+"text": "akan menjual, berapa pun harganya."
+},
+{
+"start": 155.758,
+"end": 158.224,
+"text": "Lalu kenapa MSCI mempertimbangkan langkah ini?"
+},
+{
+"start": 158.674,
+"end": 162.642,
+"text": "Menurut pengumumannya, ada kekhawatiran soal investability."
+},
+{
+"start": 162.642,
+"end": 165.4,
+"text": "Seberapa mudah investor global bisa masuk"
+},
+{
+"start": 165.4,
+"end": 166.947,
+"text": "dan keluar dengan adil."
+},
+{
+"start": 167.397,
+"end": 170.593,
+"text": "Yang disorot antara lain transparansi struktur kepemilikan"
+},
+{
+"start": 170.593,
+"end": 173.734,
+"text": "saham, dan dugaan praktik perdagangan yang terkoordinasi."
+},
+{
+"start": 174.184,
+"end": 176.497,
+"text": "Dengan kata lain, investor besar ingin yakin"
+},
+{
+"start": 176.497,
+"end": 178.706,
+"text": "bahwa harga yang mereka lihat adalah harga"
+},
+{
+"start": 178.706,
+"end": 180.757,
+"text": "yang wajar, dan bahwa mereka tahu siapa"
+},
+{
+"start": 180.757,
+"end": 182.965,
+"text": "sebenarnya pemilik saham yang mereka beli."
+},
+{
+"start": 183.415,
+"end": 185.644,
+"text": "Apakah ini pernah terjadi pada negara lain?"
+},
+{
+"start": 186.094,
+"end": 186.555,
+"text": "Pernah."
+},
+{
+"start": 187.455,
+"end": 190.46,
+"text": "Argentina dipindahkan ke status standalone market beberapa"
+},
+{
+"start": 190.46,
+"end": 192.946,
+"text": "tahun lalu, karena pembatasan modal yang membuat"
+},
+{
+"start": 192.946,
+"end": 195.226,
+"text": "investor asing sulit membawa uangnya keluar."
+},
+{
+"start": 195.676,
+"end": 197.684,
+"text": "Pakistan pernah diturunkan dari emerging"
+},
+{
+"start": 197.684,
+"end": 199.24,
+"text": "market menjadi frontier market."
+},
+{
+"start": 199.69,
+"end": 202.395,
+"text": "Bagi negara-negara itu, perubahan status berarti"
+},
+{
+"start": 202.395,
+"end": 204.423,
+"text": "aliran dana asing yang menyusut, dan"
+},
+{
+"start": 204.423,
+"end": 206.733,
+"text": "perhatian investor global yang berkurang."
+},
+{
+"start": 207.183,
+"end": 210.449,
+"text": "Sekarang, kita mulai skenarionya. Bagaimana jika"
+},
+{
+"start": 210.449,
+"end": 213.715,
+"text": "Indonesia benar-benar menjadi standalone market?"
+},
+{
+"start": 214.165,
+"end": 215.048,
+"text": "Hari pertama."
+},
+{
+"start": 215.948,
+"end": 219.442,
+"text": "MSCI mengumumkan keputusan finalnya. Indonesia resmi"
+},
+{
+"start": 219.442,
+"end": 222.263,
+"text": "dikeluarkan dari kelompok emerging market."
+},
+{
+"start": 222.713,
+"end": 226.242,
+"text": "Pasar sebenarnya sudah menduga. Sebagian investor"
+},
+{
+"start": 226.242,
+"end": 228.618,
+"text": "asing sudah menjual sejak isu ini"
+},
+{
+"start": 228.618,
+"end": 231.931,
+"text": "muncul. Tapi kepastian membawa gelombang baru."
+},
+{
+"start": 232.381,
+"end": 235.6,
+"text": "Dana-dana pasif yang mengikuti indeks emerging market"
+},
+{
+"start": 235.6,
+"end": 238.757,
+"text": "mulai menghitung. Berapa banyak saham Indonesia yang"
+},
+{
+"start": 238.757,
+"end": 240.579,
+"text": "harus mereka lepas, dan kapan."
+},
+{
+"start": 241.029,
+"end": 244.224,
+"text": "Mereka tidak punya pilihan. Aturan mereka adalah"
+},
+{
+"start": 244.224,
+"end": 247.819,
+"text": "mengikuti indeks. Bahkan sebelum tanggal efektif tiba,"
+},
+{
+"start": 247.819,
+"end": 250.747,
+"text": "trader yang gesit sudah bergerak lebih dulu."
+},
+{
+"start": 250.747,
+"end": 253.942,
+"text": "Mereka menjual lebih awal, berharap bisa membeli"
+},
+{
+"start": 253.942,
+"end": 257.204,
+"text": "kembali lebih murah saat penjualan paksa terjadi."
+},
+{
+"start": 257.654,
+"end": 258.921,
+"text": "Satu minggu kemudian."
+},
+{
+"start": 259.821,
+"end": 262.22,
+"text": "Tanggal efektif semakin dekat. Ini"
+},
+{
+"start": 262.22,
+"end": 264.267,
+"text": "yang disebut penjualan paksa."
+},
+{
+"start": 264.717,
+"end": 268.275,
+"text": "Saham-saham terbesar, yang paling banyak dimiliki"
+},
+{
+"start": 268.275,
+"end": 271.76,
+"text": "asing, menjadi sasaran pertama. Bank-bank besar,"
+},
+{
+"start": 271.76,
+"end": 275.172,
+"text": "perusahaan telekomunikasi, perusahaan konsumen."
+},
+{
+"start": 275.622,
+"end": 278.094,
+"text": "Ironisnya, saham yang paling bagus justru"
+},
+{
+"start": 278.094,
+"end": 280.687,
+"text": "yang paling banyak dijual. Karena merekalah"
+},
+{
+"start": 280.687,
+"end": 283.039,
+"text": "yang paling banyak dimiliki dana asing."
+},
+{
+"start": 283.489,
+"end": 285.98,
+"text": "Antrean jual menebal. Batas ARB tujuh"
+},
+{
+"start": 285.98,
+"end": 289.212,
+"text": "persen menahan penurunan harian, tapi tekanannya"
+},
+{
+"start": 289.212,
+"end": 290.962,
+"text": "menyebar ke beberapa hari."
+},
+{
+"start": 291.412,
+"end": 293.579,
+"text": "Rupiah ikut tertekan, karena dana asing"
+},
+{
+"start": 293.579,
+"end": 295.19,
+"text": "yang keluar ditukar ke dolar."
+},
+{
+"start": 295.64,
+"end": 296.954,
+"text": "Satu bulan kemudian."
+},
+{
+"start": 297.854,
+"end": 301.48,
+"text": "Gelombang penjualan paksa mulai mereda. Tapi masalah"
+},
+{
+"start": 301.48,
+"end": 304.129,
+"text": "baru muncul: pasar menjadi lebih sepi."
+},
+{
+"start": 304.579,
+"end": 307.303,
+"text": "Nilai transaksi harian turun. Banyak analis"
+},
+{
+"start": 307.303,
+"end": 310.217,
+"text": "asing berhenti meliput saham Indonesia, karena"
+},
+{
+"start": 310.217,
+"end": 312.878,
+"text": "klien mereka tidak lagi wajib memilikinya."
+},
+{
+"start": 313.328,
+"end": 315.812,
+"text": "Bagi perusahaan, ini berarti mencari modal"
+},
+{
+"start": 315.812,
+"end": 317.765,
+"text": "jadi lebih sulit dan lebih mahal."
+},
+{
+"start": 318.215,
+"end": 321.075,
+"text": "Dan efeknya tidak berhenti di bursa. Pemilik"
+},
+{
+"start": 321.075,
+"end": 324.194,
+"text": "reksa dana saham, termasuk pekerja yang menabung"
+},
+{
+"start": 324.194,
+"end": 327.834,
+"text": "lewat investasi rutin, melihat nilai investasinya turun."
+},
+{
+"start": 328.284,
+"end": 330.912,
+"text": "Perusahaan yang ingin melantai di bursa, atau"
+},
+{
+"start": 330.912,
+"end": 333.891,
+"text": "menerbitkan saham baru, mungkin menunda rencananya."
+},
+{
+"start": 334.341,
+"end": 335.661,
+"text": "Satu tahun kemudian."
+},
+{
+"start": 336.561,
+"end": 339.4,
+"text": "Valuasi saham Indonesia bisa tertinggal dari"
+},
+{
+"start": 339.4,
+"end": 342.754,
+"text": "negara-negara tetangga. Perusahaan yang sama, dengan"
+},
+{
+"start": 342.754,
+"end": 345.141,
+"text": "laba yang sama, dihargai lebih murah,"
+},
+{
+"start": 345.141,
+"end": 347.463,
+"text": "hanya karena label pasarnya berubah."
+},
+{
+"start": 347.913,
+"end": 350.846,
+"text": "Sebagian perusahaan besar mungkin mempertimbangkan untuk"
+},
+{
+"start": 350.846,
+"end": 352.888,
+"text": "mencatatkan saham di bursa luar negeri,"
+},
+{
+"start": 352.888,
+"end": 355.14,
+"text": "supaya tetap terlihat oleh investor global."
+},
+{
+"start": 355.59,
+"end": 358.502,
+"text": "Dan pasar saham Indonesia semakin bergantung"
+},
+{
+"start": 358.502,
+"end": 360.951,
+"text": "pada investor lokal. Bagi orang awam,"
+},
+{
+"start": 360.951,
+"end": 363.532,
+"text": "ini mungkin terdengar jauh. Tapi ketika"
+},
+{
+"start": 363.532,
+"end": 366.378,
+"text": "perusahaan sulit mencari modal, mereka juga"
+},
+{
+"start": 366.378,
+"end": 369.092,
+"text": "lebih lambat membuka lapangan kerja baru."
+},
+{
+"start": 369.542,
+"end": 371.018,
+"text": "Itulah skenario buruknya."
+},
+{
+"start": 371.918,
+"end": 373.942,
+"text": "Tapi sekarang, ingat sisi cerita yang"
+},
+{
+"start": 373.942,
+"end": 375.419,
+"text": "saya janjikan di awal tadi?"
+},
+{
+"start": 375.869,
+"end": 376.594,
+"text": "Ini dia."
+},
+{
+"start": 377.494,
+"end": 380.378,
+"text": "Pengumuman MSCI ini bukan hanya ancaman."
+},
+{
+"start": 380.378,
+"end": 383.119,
+"text": "Ia juga sebuah daftar pekerjaan rumah."
+},
+{
+"start": 383.569,
+"end": 387.56,
+"text": "MSCI pada dasarnya mengatakan: perbaiki transparansi, perbaiki"
+},
+{
+"start": 387.56,
+"end": 391.486,
+"text": "struktur kepemilikan, dan pastikan perdagangan berjalan adil."
+},
+{
+"start": 391.936,
+"end": 394.474,
+"text": "Kalau Indonesia menjawabnya dengan reformasi yang"
+},
+{
+"start": 394.474,
+"end": 396.287,
+"text": "nyata, pasar saham kita bisa keluar"
+},
+{
+"start": 396.287,
+"end": 398.048,
+"text": "dari krisis ini dalam kondisi yang"
+},
+{
+"start": 398.048,
+"end": 399.499,
+"text": "lebih sehat dari sebelumnya."
+},
+{
+"start": 399.949,
+"end": 403.18,
+"text": "Status pasar bukan hukuman seumur hidup. Negara"
+},
+{
+"start": 403.18,
+"end": 406.55,
+"text": "bisa naik kelas lagi, setelah memenuhi syaratnya."
+},
+{
+"start": 407.0,
+"end": 408.596,
+"text": "Dan ada satu kekuatan yang"
+},
+{
+"start": 408.596,
+"end": 410.682,
+"text": "sering diremehkan: investor lokal."
+},
+{
+"start": 411.132,
+"end": 414.266,
+"text": "Ingat tanggal dua puluh Oktober? Asing menjual"
+},
+{
+"start": 414.266,
+"end": 416.991,
+"text": "lebih dari dua triliun rupiah, tapi IHSG"
+},
+{
+"start": 416.991,
+"end": 419.648,
+"text": "justru naik lebih dari lima persen. Itu"
+},
+{
+"start": 419.648,
+"end": 422.169,
+"text": "adalah uang lokal yang menahan pasar."
+},
+{
+"start": 422.619,
+"end": 425.215,
+"text": "Jumlah investor pasar modal Indonesia terus"
+},
+{
+"start": 425.215,
+"end": 427.932,
+"text": "bertambah, kini mencapai jutaan orang. Mereka"
+},
+{
+"start": 427.932,
+"end": 430.407,
+"text": "adalah fondasi yang tidak bergantung pada"
+},
+{
+"start": 430.407,
+"end": 431.795,
+"text": "label dari luar negeri."
+},
+{
+"start": 432.245,
+"end": 435.189,
+"text": "Bahkan bagi investor jangka panjang, penjualan"
+},
+{
+"start": 435.189,
+"end": 438.196,
+"text": "paksa bisa membuka kesempatan. Saham perusahaan"
+},
+{
+"start": 438.196,
+"end": 440.819,
+"text": "yang bagus dijual bukan karena kinerjanya"
+},
+{
+"start": 440.819,
+"end": 442.93,
+"text": "buruk, tapi karena aturan indeks."
+},
+{
+"start": 443.38,
+"end": 445.912,
+"text": "Tapi hati-hati, saham murah tidak selalu"
+},
+{
+"start": 445.912,
+"end": 448.634,
+"text": "berarti saham bagus. Tetap pilih perusahaan"
+},
+{
+"start": 448.634,
+"end": 450.47,
+"text": "dengan fundamental yang kuat."
+},
+{
+"start": 450.92,
+"end": 452.1,
+"text": "Lalu, apa yang bisa"
+},
+{
+"start": 452.1,
+"end": 453.902,
+"text": "dipelajari dari skenario ini?"
+},
+{
+"start": 454.352,
+"end": 457.186,
+"text": "Pertama, pahami siapa pemilik saham yang kamu"
+},
+{
+"start": 457.186,
+"end": 459.957,
+"text": "beli. Saham yang banyak dimiliki asing lebih"
+},
+{
+"start": 459.957,
+"end": 462.161,
+"text": "rentan terhadap aliran dana keluar."
+},
+{
+"start": 462.611,
+"end": 465.72,
+"text": "Kedua, bedakan antara usulan, keputusan,"
+},
+{
+"start": 465.72,
+"end": 468.285,
+"text": "dan tanggal efektif. Pasar sering"
+},
+{
+"start": 468.285,
+"end": 471.393,
+"text": "bereaksi berlebihan pada berita pertama."
+},
+{
+"start": 471.843,
+"end": 475.157,
+"text": "Ketiga, perhatikan tata kelola dan transparansi"
+},
+{
+"start": 475.157,
+"end": 478.542,
+"text": "perusahaan. Inilah yang dinilai investor global,"
+},
+{
+"start": 478.542,
+"end": 480.728,
+"text": "dan seharusnya juga kita nilai."
+},
+{
+"start": 481.178,
+"end": 484.925,
+"text": "Keempat, jangan panik mengikuti arus. Penjualan paksa"
+},
+{
+"start": 484.925,
+"end": 488.602,
+"text": "digerakkan oleh aturan, bukan oleh nilai perusahaan."
+},
+{
+"start": 489.052,
+"end": 492.073,
+"text": "Ingat, ini bukan saran investasi. Ini"
+},
+{
+"start": 492.073,
+"end": 494.604,
+"text": "cara memahami cara kerja pasar."
+},
+{
+"start": 495.054,
+"end": 498.272,
+"text": "Karena pertanyaannya bukan, apakah MSCI akan"
+},
+{
+"start": 498.272,
+"end": 502.075,
+"text": "menurunkan status Indonesia. Keputusannya belum ada."
+},
+{
+"start": 502.525,
+"end": 505.225,
+"text": "Pertanyaannya adalah, apakah kita akan menjadikan"
+},
+{
+"start": 505.225,
+"end": 507.264,
+"text": "momen ini sebagai alasan untuk panik,"
+},
+{
+"start": 507.264,
+"end": 508.753,
+"text": "atau alasan untuk berbenah?"
+},
+{
+"start": 509.203,
+"end": 512.238,
+"text": "Jadi, menurut kamu, kalau Indonesia benar-benar"
+},
+{
+"start": 512.238,
+"end": 514.951,
+"text": "menjadi standalone market, ini kiamat bagi"
+},
+{
+"start": 514.951,
+"end": 517.211,
+"text": "pasar saham kita, atau titik balik?"
+},
+{
+"start": 517.661,
+"end": 520.247,
+"text": "Tulis pendapatmu di kolom komentar."
+},
+{
+"start": 520.247,
+"end": 522.019,
+"text": "Saya baca satu per satu."
+},
+{
+"start": 522.469,
+"end": 524.85,
+"text": "Kalau video ini membuka wawasanmu, bagikan"
+},
+{
+"start": 524.85,
+"end": 526.608,
+"text": "ke satu teman yang punya saham."
+},
+{
+"start": 527.058,
+"end": 528.925,
+"text": "Dan subscribe, supaya kamu tidak"
+},
+{
+"start": 528.925,
+"end": 531.26,
+"text": "ketinggalan skenario what if berikutnya."
+},
+{
+"start": 531.71,
+"end": 534.445,
+"text": "Video ini bukan ajakan untuk membeli atau"
+},
+{
+"start": 534.445,
+"end": 537.381,
+"text": "menjual saham. Selalu lakukan riset sendiri."
+},
+{
+"start": 537.831,
+"end": 539.817,
+"text": "Sampai jumpa di skenario berikutnya."
+}
+]

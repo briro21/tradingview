@@ -1,0 +1,1012 @@
+[
+{
+"start": 0.3,
+"end": 3.066,
+"text": "Bayangkan kamu pegang saham yang sedang jatuh,"
+},
+{
+"start": 3.066,
+"end": 5.532,
+"text": "dan kamu ingin menjualnya, sekarang juga."
+},
+{
+"start": 5.982,
+"end": 8.132,
+"text": "Kamu tekan tombol jual. Tapi"
+},
+{
+"start": 8.132,
+"end": 9.898,
+"text": "tidak ada yang terjadi."
+},
+{
+"start": 10.348,
+"end": 13.279,
+"text": "Harganya sudah mentok di batas bawah."
+},
+{
+"start": 13.279,
+"end": 16.051,
+"text": "Antrean jual menumpuk ribuan lot di"
+},
+{
+"start": 16.051,
+"end": 18.823,
+"text": "depanmu. Dan pembelinya, tidak ada."
+},
+{
+"start": 19.273,
+"end": 23.255,
+"text": "Besok, hal yang sama terulang. Lusa juga."
+},
+{
+"start": 23.705,
+"end": 25.182,
+"text": "Uangmu tidak hilang, tapi"
+},
+{
+"start": 25.182,
+"end": 26.54,
+"text": "juga tidak bisa keluar."
+},
+{
+"start": 26.99,
+"end": 28.476,
+"text": "Ini bukan skenario fiksi."
+},
+{
+"start": 29.376,
+"end": 31.826999999999998,
+"text": "Mulai sembilan belas Oktober dua ribu dua"
+},
+{
+"start": 31.826999999999998,
+"end": 34.697,
+"text": "puluh enam, Bursa Efek Indonesia memangkas batas"
+},
+{
+"start": 34.697,
+"end": 37.148,
+"text": "auto rejection bawah, atau ARB, dari lima"
+},
+{
+"start": 37.148,
+"end": 39.18,
+"text": "belas persen menjadi tujuh persen."
+},
+{
+"start": 39.63,
+"end": 42.079,
+"text": "Artinya, dalam satu hari, sebuah saham"
+},
+{
+"start": 42.079,
+"end": 44.657,
+"text": "hanya boleh turun maksimal tujuh persen."
+},
+{
+"start": 45.107,
+"end": 47.82,
+"text": "Tapi batas naiknya, atau ARA, tidak"
+},
+{
+"start": 47.82,
+"end": 50.765,
+"text": "diubah. Jadi sekarang, saham bisa naik"
+},
+{
+"start": 50.765,
+"end": 53.477,
+"text": "jauh lebih cepat daripada turunnya."
+},
+{
+"start": 53.927,
+"end": 56.14,
+"text": "Aturan ini berlaku sementara, sampai"
+},
+{
+"start": 56.14,
+"end": 57.677,
+"text": "tiga puluh satu Desember."
+},
+{
+"start": 58.127,
+"end": 59.45,
+"text": "Tapi bagaimana kalau aturan"
+},
+{
+"start": 59.45,
+"end": 60.674,
+"text": "ini tidak pernah dicabut?"
+},
+{
+"start": 61.124,
+"end": 64.052,
+"text": "Bagaimana kalau ARB tujuh persen berlaku selamanya?"
+},
+{
+"start": 64.502,
+"end": 66.361,
+"text": "Di video ini, kita jalani"
+},
+{
+"start": 66.361,
+"end": 68.444,
+"text": "skenarionya, hari demi hari."
+},
+{
+"start": 68.894,
+"end": 71.159,
+"text": "Dan tonton sampai akhir, karena ada satu"
+},
+{
+"start": 71.159,
+"end": 73.99,
+"text": "efek samping yang jarang dibicarakan, padahal bisa"
+},
+{
+"start": 73.99,
+"end": 75.915,
+"text": "menentukan nasib pasar saham kita."
+},
+{
+"start": 76.365,
+"end": 79.158,
+"text": "Pertama, kita pahami dulu apa itu ARB."
+},
+{
+"start": 79.608,
+"end": 81.043,
+"text": "Bayangkan setiap saham punya"
+},
+{
+"start": 81.043,
+"end": 82.684,
+"text": "lantai dan langit-langit harian."
+},
+{
+"start": 83.134,
+"end": 87.314,
+"text": "Langit-langitnya disebut ARA, auto rejection atas."
+},
+{
+"start": 87.314,
+"end": 90.992,
+"text": "Lantainya disebut ARB, auto rejection bawah."
+},
+{
+"start": 91.442,
+"end": 93.098,
+"text": "Kalau ada order jual di bawah"
+},
+{
+"start": 93.098,
+"end": 95.669,
+"text": "lantai itu, sistem bursa otomatis menolaknya."
+},
+{
+"start": 96.119,
+"end": 98.756,
+"text": "Tujuannya sederhana: mencegah harga bergerak"
+},
+{
+"start": 98.756,
+"end": 100.494,
+"text": "terlalu liar dalam satu hari."
+},
+{
+"start": 100.944,
+"end": 104.3,
+"text": "Sebelumnya, lantainya ada di minus lima belas"
+},
+{
+"start": 104.3,
+"end": 108.401,
+"text": "persen. Sekarang, dinaikkan menjadi minus tujuh persen."
+},
+{
+"start": 108.851,
+"end": 110.874,
+"text": "Lantainya jadi jauh lebih dangkal."
+},
+{
+"start": 111.324,
+"end": 112.73,
+"text": "Kenapa BEI melakukan ini?"
+},
+{
+"start": 113.63,
+"end": 116.15,
+"text": "Jawabannya ada di tanggal enam belas Oktober."
+},
+{
+"start": 116.6,
+"end": 118.926,
+"text": "Hari itu, IHSG ambruk sebelas koma lima"
+},
+{
+"start": 118.926,
+"end": 121.191,
+"text": "tujuh persen dalam satu hari, ke level"
+},
+{
+"start": 121.191,
+"end": 123.397,
+"text": "lima ribu seratus delapan puluh lima."
+},
+{
+"start": 123.847,
+"end": 127.271,
+"text": "Pemicunya adalah pengumuman MSCI, yang membuka konsultasi"
+},
+{
+"start": 127.271,
+"end": 130.034,
+"text": "untuk menurunkan status pasar saham Indonesia."
+},
+{
+"start": 130.484,
+"end": 132.772,
+"text": "Itu adalah salah satu penurunan harian terdalam"
+},
+{
+"start": 132.772,
+"end": 135.254,
+"text": "sejak krisis sembilan belas sembilan puluh delapan."
+},
+{
+"start": 135.704,
+"end": 139.471,
+"text": "Investor panik. Asing menjual triliunan rupiah."
+},
+{
+"start": 139.921,
+"end": 142.372,
+"text": "Tiga hari kemudian, BEI memangkas"
+},
+{
+"start": 142.372,
+"end": 144.675,
+"text": "batas ARB, dengan dukungan OJK."
+},
+{
+"start": 145.125,
+"end": 148.447,
+"text": "Ibaratnya, bursa memasang rem darurat. Supaya"
+},
+{
+"start": 148.447,
+"end": 151.4,
+"text": "kepanikan tidak berubah menjadi longsor."
+},
+{
+"start": 151.85,
+"end": 153.478,
+"text": "Dan ini bukan pertama kalinya."
+},
+{
+"start": 153.928,
+"end": 156.073,
+"text": "Saat pandemi melanda di tahun dua ribu"
+},
+{
+"start": 156.073,
+"end": 158.556,
+"text": "dua puluh, BEI juga pernah memberlakukan ARB"
+},
+{
+"start": 158.556,
+"end": 161.547,
+"text": "tujuh persen yang asimetris, untuk meredam kepanikan."
+},
+{
+"start": 161.997,
+"end": 163.673,
+"text": "Aturan itu baru dikembalikan"
+},
+{
+"start": 163.673,
+"end": 166.127,
+"text": "secara bertahap, bertahun-tahun kemudian."
+},
+{
+"start": 166.578,
+"end": 168.867,
+"text": "Jadi pertanyaan \"bagaimana kalau berlaku"
+},
+{
+"start": 168.867,
+"end": 171.157,
+"text": "lama\" bukan pertanyaan yang mengada-ada."
+},
+{
+"start": 171.607,
+"end": 174.999,
+"text": "Sekarang, kita mulai skenarionya. Bagaimana jika"
+},
+{
+"start": 174.999,
+"end": 177.613,
+"text": "rem darurat ini tidak pernah dilepas?"
+},
+{
+"start": 178.063,
+"end": 178.946,
+"text": "Hari pertama."
+},
+{
+"start": 179.846,
+"end": 182.41,
+"text": "Pasar dibuka dengan tekanan jual."
+},
+{
+"start": 182.41,
+"end": 185.285,
+"text": "Tapi kali ini, penurunannya tertahan."
+},
+{
+"start": 185.735,
+"end": 187.687,
+"text": "Saham yang biasanya bisa jatuh lima"
+},
+{
+"start": 187.687,
+"end": 189.807,
+"text": "belas persen, berhenti di minus tujuh."
+},
+{
+"start": 190.257,
+"end": 193.516,
+"text": "Di permukaan, grafik terlihat lebih tenang."
+},
+{
+"start": 193.516,
+"end": 196.093,
+"text": "Banyak investor ritel merasa lega."
+},
+{
+"start": 196.543,
+"end": 198.97,
+"text": "Tapi di balik layar, sesuatu menumpuk."
+},
+{
+"start": 199.42,
+"end": 202.833,
+"text": "Ingat, rem ARB tidak menghapus keinginan orang"
+},
+{
+"start": 202.833,
+"end": 205.874,
+"text": "untuk menjual. Ia hanya menahan harganya."
+},
+{
+"start": 206.324,
+"end": 208.58,
+"text": "Orang yang ingin keluar tetap ingin"
+},
+{
+"start": 208.58,
+"end": 210.965,
+"text": "keluar. Mereka hanya harus mengantre."
+},
+{
+"start": 211.415,
+"end": 214.419,
+"text": "Di order book, antrean jual di harga"
+},
+{
+"start": 214.419,
+"end": 217.924,
+"text": "ARB menebal. Ribuan lot. Puluhan ribu lot."
+},
+{
+"start": 217.924,
+"end": 222.515,
+"text": "Sementara kolom beli, kosong. Melihat antrean sepanjang"
+},
+{
+"start": 222.515,
+"end": 226.187,
+"text": "itu, investor lain ikut gelisah. Mereka ikut"
+},
+{
+"start": 226.187,
+"end": 230.61,
+"text": "memasang order jual, supaya tidak ketinggalan keluar."
+},
+{
+"start": 230.61,
+"end": 234.45,
+"text": "Kepanikan yang tadinya tertahan di harga, kini"
+},
+{
+"start": 234.45,
+"end": 236.202,
+"text": "berpindah ke antrean."
+},
+{
+"start": 236.652,
+"end": 237.919,
+"text": "Satu minggu kemudian."
+},
+{
+"start": 238.819,
+"end": 242.189,
+"text": "Muncul fenomena yang ditakuti trader: ARB berjilid."
+},
+{
+"start": 242.639,
+"end": 244.867,
+"text": "Saham yang seharusnya turun tiga puluh persen"
+},
+{
+"start": 244.867,
+"end": 247.443,
+"text": "untuk menemukan harga wajarnya, sekarang butuh empat"
+},
+{
+"start": 247.443,
+"end": 250.018,
+"text": "atau lima hari berturut-turut menyentuh batas bawah."
+},
+{
+"start": 250.468,
+"end": 254.323,
+"text": "Coba kita hitung. Saham seharga seribu rupiah."
+},
+{
+"start": 254.773,
+"end": 256.819,
+"text": "Hari pertama, ARB, turun ke"
+},
+{
+"start": 256.819,
+"end": 258.789,
+"text": "sembilan ratus tiga puluh."
+},
+{
+"start": 259.239,
+"end": 260.634,
+"text": "Hari kedua, ke delapan"
+},
+{
+"start": 260.634,
+"end": 262.03,
+"text": "ratus enam puluh lima."
+},
+{
+"start": 262.48,
+"end": 264.867,
+"text": "Hari ketiga, ke delapan ratus lima."
+},
+{
+"start": 265.317,
+"end": 268.095,
+"text": "Hari keempat, ke tujuh ratus lima"
+},
+{
+"start": 268.095,
+"end": 271.041,
+"text": "puluh. Hari kelima, ke tujuh ratus."
+},
+{
+"start": 271.491,
+"end": 273.538,
+"text": "Lima hari, turun tiga puluh"
+},
+{
+"start": 273.538,
+"end": 275.812,
+"text": "persen. Dan selama itu, hampir"
+},
+{
+"start": 275.812,
+"end": 277.934,
+"text": "tidak ada yang bisa menjual."
+},
+{
+"start": 278.384,
+"end": 281.806,
+"text": "Setiap pagi, harga dibuka langsung di ARB."
+},
+{
+"start": 281.806,
+"end": 285.391,
+"text": "Setiap pagi, antrean jual bertambah panjang."
+},
+{
+"start": 285.841,
+"end": 287.106,
+"text": "Investor yang terjebak di"
+},
+{
+"start": 287.106,
+"end": 288.472,
+"text": "dalamnya tidak bisa keluar."
+},
+{
+"start": 288.922,
+"end": 290.912,
+"text": "Bayangkan berada di dalam lift yang"
+},
+{
+"start": 290.912,
+"end": 293.3,
+"text": "turun pelan-pelan, lantai demi lantai, dan"
+},
+{
+"start": 293.3,
+"end": 294.835,
+"text": "pintunya tidak mau terbuka."
+},
+{
+"start": 295.285,
+"end": 297.181,
+"text": "Inilah efek samping pertama: rem"
+},
+{
+"start": 297.181,
+"end": 299.018,
+"text": "yang terlalu pakem bisa menunda"
+},
+{
+"start": 299.018,
+"end": 301.329,
+"text": "rasa sakit, tapi juga memperpanjangnya."
+},
+{
+"start": 301.779,
+"end": 303.093,
+"text": "Satu bulan kemudian."
+},
+{
+"start": 303.993,
+"end": 305.895,
+"text": "Investor mulai menyesuaikan diri."
+},
+{
+"start": 306.795,
+"end": 309.318,
+"text": "Trader jangka pendek menemukan pola baru."
+},
+{
+"start": 309.318,
+"end": 311.411,
+"text": "Karena batas naik jauh lebih lebar"
+},
+{
+"start": 311.411,
+"end": 313.935,
+"text": "daripada batas turun, saham gorengan jadi"
+},
+{
+"start": 313.935,
+"end": 315.905,
+"text": "semakin menarik untuk dimainkan."
+},
+{
+"start": 316.355,
+"end": 318.528,
+"text": "Naik bisa tiga puluh lima persen"
+},
+{
+"start": 318.528,
+"end": 321.652,
+"text": "sehari, turun cuma tujuh persen. Kedengarannya"
+},
+{
+"start": 321.652,
+"end": 324.028,
+"text": "seperti risiko kecil, untung besar."
+},
+{
+"start": 324.478,
+"end": 325.641,
+"text": "Tapi jangan tertipu."
+},
+{
+"start": 326.541,
+"end": 328.772,
+"text": "Ketika saham yang sudah naik tinggi"
+},
+{
+"start": 328.772,
+"end": 331.575,
+"text": "akhirnya berbalik, ia tidak jatuh sekaligus."
+},
+{
+"start": 331.575,
+"end": 334.252,
+"text": "Ia jatuh berhari-hari, dengan antrean jual"
+},
+{
+"start": 334.252,
+"end": 335.781,
+"text": "yang tidak pernah habis."
+},
+{
+"start": 336.231,
+"end": 339.216,
+"text": "Banyak trader ritel baru sadar, risiko tidak"
+},
+{
+"start": 339.216,
+"end": 343.082,
+"text": "hilang. Risiko hanya dipindahkan ke hari-hari berikutnya."
+},
+{
+"start": 343.532,
+"end": 344.852,
+"text": "Satu tahun kemudian."
+},
+{
+"start": 345.752,
+"end": 347.151,
+"text": "Di sinilah efek samping yang"
+},
+{
+"start": 347.151,
+"end": 349.101,
+"text": "paling jarang dibicarakan mulai terasa."
+},
+{
+"start": 349.551,
+"end": 352.252,
+"text": "Investor institusi asing menilai sebuah pasar dari"
+},
+{
+"start": 352.252,
+"end": 354.63,
+"text": "satu hal penting: seberapa mudah mereka bisa"
+},
+{
+"start": 354.63,
+"end": 357.061,
+"text": "masuk, dan seberapa mudah mereka bisa keluar."
+},
+{
+"start": 357.511,
+"end": 359.438,
+"text": "Mereka menyebutnya investability."
+},
+{
+"start": 360.338,
+"end": 363.051,
+"text": "Bagi manajer dana dengan uang miliaran dolar,"
+},
+{
+"start": 363.051,
+"end": 365.524,
+"text": "pasar yang tidak bisa dijual dengan cepat"
+},
+{
+"start": 365.524,
+"end": 368.659,
+"text": "adalah pasar yang berisiko. Bayangkan kamu mengelola"
+},
+{
+"start": 368.659,
+"end": 371.252,
+"text": "dana pensiun jutaan orang. Kalau kamu tidak"
+},
+{
+"start": 371.252,
+"end": 373.966,
+"text": "yakin bisa menjual saat dibutuhkan, kamu akan"
+},
+{
+"start": 373.966,
+"end": 376.136,
+"text": "memilih pasar lain yang lebih mudah."
+},
+{
+"start": 376.586,
+"end": 378.797,
+"text": "Batas ARB yang sempit, kalau berlaku"
+},
+{
+"start": 378.797,
+"end": 381.315,
+"text": "permanen, bisa dibaca sebagai tanda bahwa"
+},
+{
+"start": 381.315,
+"end": 383.587,
+"text": "harga tidak dibiarkan bergerak bebas."
+},
+{
+"start": 384.037,
+"end": 387.425,
+"text": "Dan ironisnya, kekhawatiran soal investability inilah yang"
+},
+{
+"start": 387.425,
+"end": 390.813,
+"text": "menjadi alasan MSCI mempertanyakan status pasar Indonesia."
+},
+{
+"start": 391.263,
+"end": 394.222,
+"text": "Jadi, rem yang dipasang untuk menenangkan pasar,"
+},
+{
+"start": 394.222,
+"end": 397.12,
+"text": "kalau dipakai terlalu lama, justru bisa membuat"
+},
+{
+"start": 397.12,
+"end": 399.216,
+"text": "investor besar ragu untuk kembali."
+},
+{
+"start": 399.666,
+"end": 401.143,
+"text": "Itulah skenario buruknya."
+},
+{
+"start": 402.043,
+"end": 404.14,
+"text": "Tapi tunggu dulu. Apakah ARB"
+},
+{
+"start": 404.14,
+"end": 406.312,
+"text": "tujuh persen itu murni buruk?"
+},
+{
+"start": 406.762,
+"end": 407.527,
+"text": "Tidak juga."
+},
+{
+"start": 408.427,
+"end": 410.302,
+"text": "Ada alasan kuat kenapa banyak bursa"
+},
+{
+"start": 410.302,
+"end": 412.017,
+"text": "di dunia memakai pembatas harga."
+},
+{
+"start": 412.467,
+"end": 415.656,
+"text": "Pertama, ARB melindungi dari kepanikan sesaat."
+},
+{
+"start": 415.656,
+"end": 418.638,
+"text": "Penurunan tajam karena rumor atau kesalahan"
+},
+{
+"start": 418.638,
+"end": 421.62,
+"text": "input order, bisa diredam sebelum menyebar."
+},
+{
+"start": 422.07,
+"end": 424.994,
+"text": "Kedua, ARB memberi waktu. Waktu bagi"
+},
+{
+"start": 424.994,
+"end": 428.892,
+"text": "perusahaan untuk memberi klarifikasi. Waktu bagi"
+},
+{
+"start": 428.892,
+"end": 432.791,
+"text": "investor untuk berpikir, bukan sekadar bereaksi."
+},
+{
+"start": 433.241,
+"end": 435.535,
+"text": "Ketiga, ARB melindungi investor ritel"
+},
+{
+"start": 435.535,
+"end": 437.705,
+"text": "yang memakai margin, dari penjualan"
+},
+{
+"start": 437.705,
+"end": 439.627,
+"text": "paksa berantai dalam satu hari."
+},
+{
+"start": 440.077,
+"end": 442.684,
+"text": "Dan ingat, tanggal dua puluh Oktober,"
+},
+{
+"start": 442.684,
+"end": 445.432,
+"text": "sehari setelah aturan ini berlaku, IHSG"
+},
+{
+"start": 445.432,
+"end": 448.18,
+"text": "justru melonjak lebih dari lima persen."
+},
+{
+"start": 448.18,
+"end": 450.364,
+"text": "Investor lokal kembali membeli."
+},
+{
+"start": 450.814,
+"end": 454.027,
+"text": "Jadi masalahnya bukan pada remnya. Masalahnya ada"
+},
+{
+"start": 454.027,
+"end": 456.192,
+"text": "pada berapa lama rem itu diinjak."
+},
+{
+"start": 456.642,
+"end": 458.744,
+"text": "Rem darurat sangat berguna saat mobil"
+},
+{
+"start": 458.744,
+"end": 460.79,
+"text": "hampir menabrak. Tapi tidak ada yang"
+},
+{
+"start": 460.79,
+"end": 463.574,
+"text": "menyetir dengan rem tangan terus-menerus ditarik."
+},
+{
+"start": 464.024,
+"end": 465.205,
+"text": "Lalu, apa yang bisa"
+},
+{
+"start": 465.205,
+"end": 467.006,
+"text": "dipelajari dari skenario ini?"
+},
+{
+"start": 467.456,
+"end": 470.432,
+"text": "Pertama, pahami aturan mainnya. Cek batas"
+},
+{
+"start": 470.432,
+"end": 472.899,
+"text": "ARA dan ARB sebelum membeli saham,"
+},
+{
+"start": 472.899,
+"end": 475.367,
+"text": "terutama saham yang bergerak liar."
+},
+{
+"start": 475.817,
+"end": 479.037,
+"text": "Kedua, perhatikan likuiditas. Saham yang ramai"
+},
+{
+"start": 479.037,
+"end": 481.907,
+"text": "transaksi lebih mudah dijual saat kondisi"
+},
+{
+"start": 481.907,
+"end": 484.217,
+"text": "buruk, dibanding saham yang sepi."
+},
+{
+"start": 484.667,
+"end": 487.791,
+"text": "Ketiga, jangan menganggap batas turun yang kecil"
+},
+{
+"start": 487.791,
+"end": 490.849,
+"text": "sebagai risiko yang kecil. Kerugian bisa datang"
+},
+{
+"start": 490.849,
+"end": 493.258,
+"text": "dalam beberapa hari, bukan satu hari."
+},
+{
+"start": 493.708,
+"end": 497.223,
+"text": "Keempat, hindari memakai utang atau margin berlebihan"
+},
+{
+"start": 497.223,
+"end": 499.943,
+"text": "di saham yang sedang bergejolak. Saat ARB"
+},
+{
+"start": 499.943,
+"end": 502.132,
+"text": "berjilid, kamu tidak bisa keluar."
+},
+{
+"start": 502.582,
+"end": 505.351,
+"text": "Ingat, ini bukan saran investasi."
+},
+{
+"start": 505.351,
+"end": 507.868,
+"text": "Ini cara memahami aturan main."
+},
+{
+"start": 508.318,
+"end": 510.958,
+"text": "Jadi, menurut kamu, ARB tujuh persen"
+},
+{
+"start": 510.958,
+"end": 514.48,
+"text": "ini pelindung investor, atau jebakan likuiditas?"
+},
+{
+"start": 514.93,
+"end": 516.556,
+"text": "Haruskah aturan ini dicabut"
+},
+{
+"start": 516.556,
+"end": 518.484,
+"text": "akhir tahun, atau dipertahankan?"
+},
+{
+"start": 518.934,
+"end": 521.52,
+"text": "Tulis pendapatmu di kolom komentar."
+},
+{
+"start": 521.52,
+"end": 523.292,
+"text": "Saya baca satu per satu."
+},
+{
+"start": 523.742,
+"end": 526.034,
+"text": "Kalau video ini membantu, bagikan ke satu"
+},
+{
+"start": 526.034,
+"end": 527.879,
+"text": "teman yang baru mulai main saham."
+},
+{
+"start": 528.329,
+"end": 530.859,
+"text": "Dan subscribe, karena di video berikutnya kita"
+},
+{
+"start": 530.859,
+"end": 533.113,
+"text": "akan membahas apa yang terjadi kalau MSCI"
+},
+{
+"start": 533.113,
+"end": 535.973,
+"text": "benar-benar menurunkan status pasar saham Indonesia."
+},
+{
+"start": 536.423,
+"end": 539.158,
+"text": "Video ini bukan ajakan untuk membeli atau"
+},
+{
+"start": 539.158,
+"end": 542.094,
+"text": "menjual saham. Selalu lakukan riset sendiri."
+},
+{
+"start": 542.544,
+"end": 544.53,
+"text": "Sampai jumpa di skenario berikutnya."
+}
+]

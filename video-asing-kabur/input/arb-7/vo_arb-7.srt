@@ -1,0 +1,808 @@
+1
+00:00:00,300 --> 00:00:03,066
+Bayangkan kamu pegang saham yang sedang jatuh,
+
+2
+00:00:03,066 --> 00:00:05,532
+dan kamu ingin menjualnya, sekarang juga.
+
+3
+00:00:05,982 --> 00:00:08,132
+Kamu tekan tombol jual. Tapi
+
+4
+00:00:08,132 --> 00:00:09,898
+tidak ada yang terjadi.
+
+5
+00:00:10,348 --> 00:00:13,279
+Harganya sudah mentok di batas bawah.
+
+6
+00:00:13,279 --> 00:00:16,051
+Antrean jual menumpuk ribuan lot di
+
+7
+00:00:16,051 --> 00:00:18,823
+depanmu. Dan pembelinya, tidak ada.
+
+8
+00:00:19,273 --> 00:00:23,255
+Besok, hal yang sama terulang. Lusa juga.
+
+9
+00:00:23,705 --> 00:00:25,182
+Uangmu tidak hilang, tapi
+
+10
+00:00:25,182 --> 00:00:26,540
+juga tidak bisa keluar.
+
+11
+00:00:26,990 --> 00:00:28,476
+Ini bukan skenario fiksi.
+
+12
+00:00:29,376 --> 00:00:31,827
+Mulai sembilan belas Oktober dua ribu dua
+
+13
+00:00:31,827 --> 00:00:34,697
+puluh enam, Bursa Efek Indonesia memangkas batas
+
+14
+00:00:34,697 --> 00:00:37,148
+auto rejection bawah, atau ARB, dari lima
+
+15
+00:00:37,148 --> 00:00:39,180
+belas persen menjadi tujuh persen.
+
+16
+00:00:39,630 --> 00:00:42,079
+Artinya, dalam satu hari, sebuah saham
+
+17
+00:00:42,079 --> 00:00:44,657
+hanya boleh turun maksimal tujuh persen.
+
+18
+00:00:45,107 --> 00:00:47,820
+Tapi batas naiknya, atau ARA, tidak
+
+19
+00:00:47,820 --> 00:00:50,765
+diubah. Jadi sekarang, saham bisa naik
+
+20
+00:00:50,765 --> 00:00:53,477
+jauh lebih cepat daripada turunnya.
+
+21
+00:00:53,927 --> 00:00:56,140
+Aturan ini berlaku sementara, sampai
+
+22
+00:00:56,140 --> 00:00:57,677
+tiga puluh satu Desember.
+
+23
+00:00:58,127 --> 00:00:59,450
+Tapi bagaimana kalau aturan
+
+24
+00:00:59,450 --> 00:01:00,674
+ini tidak pernah dicabut?
+
+25
+00:01:01,124 --> 00:01:04,052
+Bagaimana kalau ARB tujuh persen berlaku selamanya?
+
+26
+00:01:04,502 --> 00:01:06,361
+Di video ini, kita jalani
+
+27
+00:01:06,361 --> 00:01:08,444
+skenarionya, hari demi hari.
+
+28
+00:01:08,894 --> 00:01:11,159
+Dan tonton sampai akhir, karena ada satu
+
+29
+00:01:11,159 --> 00:01:13,990
+efek samping yang jarang dibicarakan, padahal bisa
+
+30
+00:01:13,990 --> 00:01:15,915
+menentukan nasib pasar saham kita.
+
+31
+00:01:16,365 --> 00:01:19,158
+Pertama, kita pahami dulu apa itu ARB.
+
+32
+00:01:19,608 --> 00:01:21,043
+Bayangkan setiap saham punya
+
+33
+00:01:21,043 --> 00:01:22,684
+lantai dan langit-langit harian.
+
+34
+00:01:23,134 --> 00:01:27,314
+Langit-langitnya disebut ARA, auto rejection atas.
+
+35
+00:01:27,314 --> 00:01:30,992
+Lantainya disebut ARB, auto rejection bawah.
+
+36
+00:01:31,442 --> 00:01:33,098
+Kalau ada order jual di bawah
+
+37
+00:01:33,098 --> 00:01:35,669
+lantai itu, sistem bursa otomatis menolaknya.
+
+38
+00:01:36,119 --> 00:01:38,756
+Tujuannya sederhana: mencegah harga bergerak
+
+39
+00:01:38,756 --> 00:01:40,494
+terlalu liar dalam satu hari.
+
+40
+00:01:40,944 --> 00:01:44,300
+Sebelumnya, lantainya ada di minus lima belas
+
+41
+00:01:44,300 --> 00:01:48,401
+persen. Sekarang, dinaikkan menjadi minus tujuh persen.
+
+42
+00:01:48,851 --> 00:01:50,874
+Lantainya jadi jauh lebih dangkal.
+
+43
+00:01:51,324 --> 00:01:52,730
+Kenapa BEI melakukan ini?
+
+44
+00:01:53,630 --> 00:01:56,150
+Jawabannya ada di tanggal enam belas Oktober.
+
+45
+00:01:56,600 --> 00:01:58,926
+Hari itu, IHSG ambruk sebelas koma lima
+
+46
+00:01:58,926 --> 00:02:01,191
+tujuh persen dalam satu hari, ke level
+
+47
+00:02:01,191 --> 00:02:03,397
+lima ribu seratus delapan puluh lima.
+
+48
+00:02:03,847 --> 00:02:07,271
+Pemicunya adalah pengumuman MSCI, yang membuka konsultasi
+
+49
+00:02:07,271 --> 00:02:10,034
+untuk menurunkan status pasar saham Indonesia.
+
+50
+00:02:10,484 --> 00:02:12,772
+Itu adalah salah satu penurunan harian terdalam
+
+51
+00:02:12,772 --> 00:02:15,254
+sejak krisis sembilan belas sembilan puluh delapan.
+
+52
+00:02:15,704 --> 00:02:19,471
+Investor panik. Asing menjual triliunan rupiah.
+
+53
+00:02:19,921 --> 00:02:22,372
+Tiga hari kemudian, BEI memangkas
+
+54
+00:02:22,372 --> 00:02:24,675
+batas ARB, dengan dukungan OJK.
+
+55
+00:02:25,125 --> 00:02:28,447
+Ibaratnya, bursa memasang rem darurat. Supaya
+
+56
+00:02:28,447 --> 00:02:31,400
+kepanikan tidak berubah menjadi longsor.
+
+57
+00:02:31,850 --> 00:02:33,478
+Dan ini bukan pertama kalinya.
+
+58
+00:02:33,928 --> 00:02:36,073
+Saat pandemi melanda di tahun dua ribu
+
+59
+00:02:36,073 --> 00:02:38,556
+dua puluh, BEI juga pernah memberlakukan ARB
+
+60
+00:02:38,556 --> 00:02:41,547
+tujuh persen yang asimetris, untuk meredam kepanikan.
+
+61
+00:02:41,997 --> 00:02:43,673
+Aturan itu baru dikembalikan
+
+62
+00:02:43,673 --> 00:02:46,127
+secara bertahap, bertahun-tahun kemudian.
+
+63
+00:02:46,578 --> 00:02:48,867
+Jadi pertanyaan "bagaimana kalau berlaku
+
+64
+00:02:48,867 --> 00:02:51,157
+lama" bukan pertanyaan yang mengada-ada.
+
+65
+00:02:51,607 --> 00:02:54,999
+Sekarang, kita mulai skenarionya. Bagaimana jika
+
+66
+00:02:54,999 --> 00:02:57,613
+rem darurat ini tidak pernah dilepas?
+
+67
+00:02:58,063 --> 00:02:58,946
+Hari pertama.
+
+68
+00:02:59,846 --> 00:03:02,410
+Pasar dibuka dengan tekanan jual.
+
+69
+00:03:02,410 --> 00:03:05,285
+Tapi kali ini, penurunannya tertahan.
+
+70
+00:03:05,735 --> 00:03:07,687
+Saham yang biasanya bisa jatuh lima
+
+71
+00:03:07,687 --> 00:03:09,807
+belas persen, berhenti di minus tujuh.
+
+72
+00:03:10,257 --> 00:03:13,516
+Di permukaan, grafik terlihat lebih tenang.
+
+73
+00:03:13,516 --> 00:03:16,093
+Banyak investor ritel merasa lega.
+
+74
+00:03:16,543 --> 00:03:18,970
+Tapi di balik layar, sesuatu menumpuk.
+
+75
+00:03:19,420 --> 00:03:22,833
+Ingat, rem ARB tidak menghapus keinginan orang
+
+76
+00:03:22,833 --> 00:03:25,874
+untuk menjual. Ia hanya menahan harganya.
+
+77
+00:03:26,324 --> 00:03:28,580
+Orang yang ingin keluar tetap ingin
+
+78
+00:03:28,580 --> 00:03:30,965
+keluar. Mereka hanya harus mengantre.
+
+79
+00:03:31,415 --> 00:03:34,419
+Di order book, antrean jual di harga
+
+80
+00:03:34,419 --> 00:03:37,924
+ARB menebal. Ribuan lot. Puluhan ribu lot.
+
+81
+00:03:37,924 --> 00:03:42,515
+Sementara kolom beli, kosong. Melihat antrean sepanjang
+
+82
+00:03:42,515 --> 00:03:46,187
+itu, investor lain ikut gelisah. Mereka ikut
+
+83
+00:03:46,187 --> 00:03:50,610
+memasang order jual, supaya tidak ketinggalan keluar.
+
+84
+00:03:50,610 --> 00:03:54,450
+Kepanikan yang tadinya tertahan di harga, kini
+
+85
+00:03:54,450 --> 00:03:56,202
+berpindah ke antrean.
+
+86
+00:03:56,652 --> 00:03:57,919
+Satu minggu kemudian.
+
+87
+00:03:58,819 --> 00:04:02,189
+Muncul fenomena yang ditakuti trader: ARB berjilid.
+
+88
+00:04:02,639 --> 00:04:04,867
+Saham yang seharusnya turun tiga puluh persen
+
+89
+00:04:04,867 --> 00:04:07,443
+untuk menemukan harga wajarnya, sekarang butuh empat
+
+90
+00:04:07,443 --> 00:04:10,018
+atau lima hari berturut-turut menyentuh batas bawah.
+
+91
+00:04:10,468 --> 00:04:14,323
+Coba kita hitung. Saham seharga seribu rupiah.
+
+92
+00:04:14,773 --> 00:04:16,819
+Hari pertama, ARB, turun ke
+
+93
+00:04:16,819 --> 00:04:18,789
+sembilan ratus tiga puluh.
+
+94
+00:04:19,239 --> 00:04:20,634
+Hari kedua, ke delapan
+
+95
+00:04:20,634 --> 00:04:22,030
+ratus enam puluh lima.
+
+96
+00:04:22,480 --> 00:04:24,867
+Hari ketiga, ke delapan ratus lima.
+
+97
+00:04:25,317 --> 00:04:28,095
+Hari keempat, ke tujuh ratus lima
+
+98
+00:04:28,095 --> 00:04:31,041
+puluh. Hari kelima, ke tujuh ratus.
+
+99
+00:04:31,491 --> 00:04:33,538
+Lima hari, turun tiga puluh
+
+100
+00:04:33,538 --> 00:04:35,812
+persen. Dan selama itu, hampir
+
+101
+00:04:35,812 --> 00:04:37,934
+tidak ada yang bisa menjual.
+
+102
+00:04:38,384 --> 00:04:41,806
+Setiap pagi, harga dibuka langsung di ARB.
+
+103
+00:04:41,806 --> 00:04:45,391
+Setiap pagi, antrean jual bertambah panjang.
+
+104
+00:04:45,841 --> 00:04:47,106
+Investor yang terjebak di
+
+105
+00:04:47,106 --> 00:04:48,472
+dalamnya tidak bisa keluar.
+
+106
+00:04:48,922 --> 00:04:50,912
+Bayangkan berada di dalam lift yang
+
+107
+00:04:50,912 --> 00:04:53,300
+turun pelan-pelan, lantai demi lantai, dan
+
+108
+00:04:53,300 --> 00:04:54,835
+pintunya tidak mau terbuka.
+
+109
+00:04:55,285 --> 00:04:57,181
+Inilah efek samping pertama: rem
+
+110
+00:04:57,181 --> 00:04:59,018
+yang terlalu pakem bisa menunda
+
+111
+00:04:59,018 --> 00:05:01,329
+rasa sakit, tapi juga memperpanjangnya.
+
+112
+00:05:01,779 --> 00:05:03,093
+Satu bulan kemudian.
+
+113
+00:05:03,993 --> 00:05:05,895
+Investor mulai menyesuaikan diri.
+
+114
+00:05:06,795 --> 00:05:09,318
+Trader jangka pendek menemukan pola baru.
+
+115
+00:05:09,318 --> 00:05:11,411
+Karena batas naik jauh lebih lebar
+
+116
+00:05:11,411 --> 00:05:13,935
+daripada batas turun, saham gorengan jadi
+
+117
+00:05:13,935 --> 00:05:15,905
+semakin menarik untuk dimainkan.
+
+118
+00:05:16,355 --> 00:05:18,528
+Naik bisa tiga puluh lima persen
+
+119
+00:05:18,528 --> 00:05:21,652
+sehari, turun cuma tujuh persen. Kedengarannya
+
+120
+00:05:21,652 --> 00:05:24,028
+seperti risiko kecil, untung besar.
+
+121
+00:05:24,478 --> 00:05:25,641
+Tapi jangan tertipu.
+
+122
+00:05:26,541 --> 00:05:28,772
+Ketika saham yang sudah naik tinggi
+
+123
+00:05:28,772 --> 00:05:31,575
+akhirnya berbalik, ia tidak jatuh sekaligus.
+
+124
+00:05:31,575 --> 00:05:34,252
+Ia jatuh berhari-hari, dengan antrean jual
+
+125
+00:05:34,252 --> 00:05:35,781
+yang tidak pernah habis.
+
+126
+00:05:36,231 --> 00:05:39,216
+Banyak trader ritel baru sadar, risiko tidak
+
+127
+00:05:39,216 --> 00:05:43,082
+hilang. Risiko hanya dipindahkan ke hari-hari berikutnya.
+
+128
+00:05:43,532 --> 00:05:44,852
+Satu tahun kemudian.
+
+129
+00:05:45,752 --> 00:05:47,151
+Di sinilah efek samping yang
+
+130
+00:05:47,151 --> 00:05:49,101
+paling jarang dibicarakan mulai terasa.
+
+131
+00:05:49,551 --> 00:05:52,252
+Investor institusi asing menilai sebuah pasar dari
+
+132
+00:05:52,252 --> 00:05:54,630
+satu hal penting: seberapa mudah mereka bisa
+
+133
+00:05:54,630 --> 00:05:57,061
+masuk, dan seberapa mudah mereka bisa keluar.
+
+134
+00:05:57,511 --> 00:05:59,438
+Mereka menyebutnya investability.
+
+135
+00:06:00,338 --> 00:06:03,051
+Bagi manajer dana dengan uang miliaran dolar,
+
+136
+00:06:03,051 --> 00:06:05,524
+pasar yang tidak bisa dijual dengan cepat
+
+137
+00:06:05,524 --> 00:06:08,659
+adalah pasar yang berisiko. Bayangkan kamu mengelola
+
+138
+00:06:08,659 --> 00:06:11,252
+dana pensiun jutaan orang. Kalau kamu tidak
+
+139
+00:06:11,252 --> 00:06:13,966
+yakin bisa menjual saat dibutuhkan, kamu akan
+
+140
+00:06:13,966 --> 00:06:16,136
+memilih pasar lain yang lebih mudah.
+
+141
+00:06:16,586 --> 00:06:18,797
+Batas ARB yang sempit, kalau berlaku
+
+142
+00:06:18,797 --> 00:06:21,315
+permanen, bisa dibaca sebagai tanda bahwa
+
+143
+00:06:21,315 --> 00:06:23,587
+harga tidak dibiarkan bergerak bebas.
+
+144
+00:06:24,037 --> 00:06:27,425
+Dan ironisnya, kekhawatiran soal investability inilah yang
+
+145
+00:06:27,425 --> 00:06:30,813
+menjadi alasan MSCI mempertanyakan status pasar Indonesia.
+
+146
+00:06:31,263 --> 00:06:34,222
+Jadi, rem yang dipasang untuk menenangkan pasar,
+
+147
+00:06:34,222 --> 00:06:37,120
+kalau dipakai terlalu lama, justru bisa membuat
+
+148
+00:06:37,120 --> 00:06:39,216
+investor besar ragu untuk kembali.
+
+149
+00:06:39,666 --> 00:06:41,143
+Itulah skenario buruknya.
+
+150
+00:06:42,043 --> 00:06:44,140
+Tapi tunggu dulu. Apakah ARB
+
+151
+00:06:44,140 --> 00:06:46,312
+tujuh persen itu murni buruk?
+
+152
+00:06:46,762 --> 00:06:47,527
+Tidak juga.
+
+153
+00:06:48,427 --> 00:06:50,302
+Ada alasan kuat kenapa banyak bursa
+
+154
+00:06:50,302 --> 00:06:52,017
+di dunia memakai pembatas harga.
+
+155
+00:06:52,467 --> 00:06:55,656
+Pertama, ARB melindungi dari kepanikan sesaat.
+
+156
+00:06:55,656 --> 00:06:58,638
+Penurunan tajam karena rumor atau kesalahan
+
+157
+00:06:58,638 --> 00:07:01,620
+input order, bisa diredam sebelum menyebar.
+
+158
+00:07:02,070 --> 00:07:04,994
+Kedua, ARB memberi waktu. Waktu bagi
+
+159
+00:07:04,994 --> 00:07:08,892
+perusahaan untuk memberi klarifikasi. Waktu bagi
+
+160
+00:07:08,892 --> 00:07:12,791
+investor untuk berpikir, bukan sekadar bereaksi.
+
+161
+00:07:13,241 --> 00:07:15,535
+Ketiga, ARB melindungi investor ritel
+
+162
+00:07:15,535 --> 00:07:17,705
+yang memakai margin, dari penjualan
+
+163
+00:07:17,705 --> 00:07:19,627
+paksa berantai dalam satu hari.
+
+164
+00:07:20,077 --> 00:07:22,684
+Dan ingat, tanggal dua puluh Oktober,
+
+165
+00:07:22,684 --> 00:07:25,432
+sehari setelah aturan ini berlaku, IHSG
+
+166
+00:07:25,432 --> 00:07:28,180
+justru melonjak lebih dari lima persen.
+
+167
+00:07:28,180 --> 00:07:30,364
+Investor lokal kembali membeli.
+
+168
+00:07:30,814 --> 00:07:34,027
+Jadi masalahnya bukan pada remnya. Masalahnya ada
+
+169
+00:07:34,027 --> 00:07:36,192
+pada berapa lama rem itu diinjak.
+
+170
+00:07:36,642 --> 00:07:38,744
+Rem darurat sangat berguna saat mobil
+
+171
+00:07:38,744 --> 00:07:40,790
+hampir menabrak. Tapi tidak ada yang
+
+172
+00:07:40,790 --> 00:07:43,574
+menyetir dengan rem tangan terus-menerus ditarik.
+
+173
+00:07:44,024 --> 00:07:45,205
+Lalu, apa yang bisa
+
+174
+00:07:45,205 --> 00:07:47,006
+dipelajari dari skenario ini?
+
+175
+00:07:47,456 --> 00:07:50,432
+Pertama, pahami aturan mainnya. Cek batas
+
+176
+00:07:50,432 --> 00:07:52,899
+ARA dan ARB sebelum membeli saham,
+
+177
+00:07:52,899 --> 00:07:55,367
+terutama saham yang bergerak liar.
+
+178
+00:07:55,817 --> 00:07:59,037
+Kedua, perhatikan likuiditas. Saham yang ramai
+
+179
+00:07:59,037 --> 00:08:01,907
+transaksi lebih mudah dijual saat kondisi
+
+180
+00:08:01,907 --> 00:08:04,217
+buruk, dibanding saham yang sepi.
+
+181
+00:08:04,667 --> 00:08:07,791
+Ketiga, jangan menganggap batas turun yang kecil
+
+182
+00:08:07,791 --> 00:08:10,849
+sebagai risiko yang kecil. Kerugian bisa datang
+
+183
+00:08:10,849 --> 00:08:13,258
+dalam beberapa hari, bukan satu hari.
+
+184
+00:08:13,708 --> 00:08:17,223
+Keempat, hindari memakai utang atau margin berlebihan
+
+185
+00:08:17,223 --> 00:08:19,943
+di saham yang sedang bergejolak. Saat ARB
+
+186
+00:08:19,943 --> 00:08:22,132
+berjilid, kamu tidak bisa keluar.
+
+187
+00:08:22,582 --> 00:08:25,351
+Ingat, ini bukan saran investasi.
+
+188
+00:08:25,351 --> 00:08:27,868
+Ini cara memahami aturan main.
+
+189
+00:08:28,318 --> 00:08:30,958
+Jadi, menurut kamu, ARB tujuh persen
+
+190
+00:08:30,958 --> 00:08:34,480
+ini pelindung investor, atau jebakan likuiditas?
+
+191
+00:08:34,930 --> 00:08:36,556
+Haruskah aturan ini dicabut
+
+192
+00:08:36,556 --> 00:08:38,484
+akhir tahun, atau dipertahankan?
+
+193
+00:08:38,934 --> 00:08:41,520
+Tulis pendapatmu di kolom komentar.
+
+194
+00:08:41,520 --> 00:08:43,292
+Saya baca satu per satu.
+
+195
+00:08:43,742 --> 00:08:46,034
+Kalau video ini membantu, bagikan ke satu
+
+196
+00:08:46,034 --> 00:08:47,879
+teman yang baru mulai main saham.
+
+197
+00:08:48,329 --> 00:08:50,859
+Dan subscribe, karena di video berikutnya kita
+
+198
+00:08:50,859 --> 00:08:53,113
+akan membahas apa yang terjadi kalau MSCI
+
+199
+00:08:53,113 --> 00:08:55,973
+benar-benar menurunkan status pasar saham Indonesia.
+
+200
+00:08:56,423 --> 00:08:59,158
+Video ini bukan ajakan untuk membeli atau
+
+201
+00:08:59,158 --> 00:09:02,094
+menjual saham. Selalu lakukan riset sendiri.
+
+202
+00:09:02,544 --> 00:09:04,530
+Sampai jumpa di skenario berikutnya.
+

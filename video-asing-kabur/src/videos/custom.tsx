@@ -74,18 +74,19 @@ export const Asymmetric: React.FC<{lines: Line[]; at: number; oldAt?: number}> =
   const up = ramp(sec, at, at + 1.2);
   const dn = ramp(sec, at + 0.8, at + 2);
   const old = oldAt ? ramp(sec, oldAt, oldAt + 1) : 0;
-  const H = 380;
+  const H = 330;
+  const base = 620;
   return (
     <AbsoluteFill>
       <Background glow="rgba(255,201,60,0.22)" />
-      <div style={{position: 'absolute', left: 0, top: 560, width: '100%', height: 8, background: useTheme().text}} />
-      <div style={{position: 'absolute', left: 520, top: 560 - H * up, width: 300, height: H * up, background: C.green, border: `8px solid ${C.ink}`, borderRadius: '16px 16px 0 0'}} />
-      <div style={{position: 'absolute', left: 1100, top: 560, width: 300, height: (H * 7 * dn) / 35, background: C.red, border: `8px solid ${C.ink}`, borderRadius: '0 0 16px 16px'}} />
-      {old > 0 && <div style={{position: 'absolute', left: 1100, top: 560, width: 300, height: (H * 15 * old) / 35, border: `8px dashed ${C.red}`, borderRadius: '0 0 16px 16px', opacity: 0.7}} />}
-      <Abs x={520} y={140}>
+      <div style={{position: 'absolute', left: 0, top: base, width: '100%', height: 8, background: useTheme().text}} />
+      <div style={{position: 'absolute', left: 620, top: base - H * up, width: 300, height: H * up, background: C.green, border: `8px solid ${C.ink}`, borderRadius: '16px 16px 0 0'}} />
+      <div style={{position: 'absolute', left: 1100, top: base, width: 300, height: (H * 7 * dn) / 35, background: C.red, border: `8px solid ${C.ink}`, borderRadius: '0 0 16px 16px'}} />
+      {old > 0 && <div style={{position: 'absolute', left: 1100, top: base, width: 300, height: (H * 15 * old) / 35, border: `8px dashed ${C.red}`, borderRadius: '0 0 16px 16px', opacity: 0.7}} />}
+      <Abs x={180} y={460}>
         <Txt text="ARA s/d +35%" size={56} color={C.green} />
       </Abs>
-      <Abs x={1100} y={680}>
+      <Abs x={1440} y={640}>
         <Txt text="ARB -7%" size={56} color={C.red} />
         {old > 0 && <Txt text="(dulu -15%)" size={40} color={useTheme().muted} />}
       </Abs>
@@ -129,7 +130,7 @@ export const GoldBoard: React.FC<{price: number; to?: number; at?: number; buyba
     <AbsoluteFill>
       <AbsoluteFill style={{background: 'linear-gradient(180deg, #3a2a1a, #6b4a2a)'}} />
       <AbsoluteFill style={{background: 'radial-gradient(circle at 70% 60%, rgba(255,215,120,0.45), transparent 45%)'}} />
-      <Abs x={140} y={230}>
+      <Abs x={140} y={330}>
         <Panel style={{width: 860, padding: '30px 44px', background: '#10141f'}}>
           <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 34, color: '#ffd77a'}}>EMAS 1 GRAM</div>
           <div style={{display: 'flex', justifyContent: 'space-between', marginTop: 16}}>
@@ -279,9 +280,9 @@ export const Letter: React.FC<{openAt: number; lines: Line[]}> = ({openAt, lines
     <Camera zoom={[1, 1.1]} pan={[0, -20]}>
       <AbsoluteFill style={{background: 'linear-gradient(180deg, #1d1a2e, #3a2f5e)'}} />
       <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 55%, rgba(255,215,120,0.35), transparent 50%)'}} />
-      <Abs x={560} y={300}>
+      <Abs x={560} y={470}>
         <div style={{position: 'relative', width: 800, height: 520}}>
-          <div style={{position: 'absolute', left: 60, right: 60, top: 40 - open * 260, height: 460, background: '#fffaf0', border: `8px solid ${C.ink}`, padding: 40}}>
+          <div style={{position: 'absolute', left: 60, right: 60, top: 40 - open * 240, height: 460, background: '#fffaf0', border: `8px solid ${C.ink}`, padding: 40}}>
             <Ink t="KLUB EMERGING MARKET" s={36} c="#555" />
             <Ink t="Keanggotaan Indonesia" s={50} />
             <Ink t="SEDANG DITINJAU" s={62} c={C.red} />
