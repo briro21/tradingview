@@ -40,3 +40,14 @@ npm run captions:asing-kabur   # transkrip -> src/asing-kabur/captions.json (kor
 npm run render:asing-kabur     # hasil: out/what-if-asing-kabur.mp4
 ```
 Adegan: `src/asing-kabur/scenes.tsx`; urutan & detik mulai: `src/asing-kabur/Video.tsx`.
+
+## Video 4: What If Rupiah Tembus Rp20.000 per Dolar?
+VO dibuat dari naskah dengan TTS (`scripts/tts_vo.py`), lalu waktu per kalimat diambil dari SRT-nya.
+
+```bash
+python3 scripts/tts_vo.py input/rupiah-20000/naskah.txt public/vo_rupiah_20000.mp3 input/rupiah-20000/vo_rupiah_20000.srt
+python3 scripts/srt_lines.py input/rupiah-20000/naskah.txt input/rupiah-20000/vo_rupiah_20000.srt src/rupiah
+scripts/make_sfx.sh                       # efek suara sintetis (whoosh, boom, ding, pad)
+npx remotion render Rupiah20000 out/what-if-rupiah-20000.mp4
+```
+Adegan di `src/rupiah/Video.tsx` memakai `L(i)` = detik mulai kalimat ke-i, jadi tetap sinkron kalau VO dibuat ulang.

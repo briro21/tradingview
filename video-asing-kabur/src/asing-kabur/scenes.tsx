@@ -10,7 +10,7 @@ type Line = {text: string; at: number; color?: string; size?: number};
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const fmt = (n: number, d = 0) => n.toLocaleString('id-ID', {minimumFractionDigits: d, maximumFractionDigits: d});
 
-const Lines: React.FC<{lines: Line[]; x?: number; y?: number; right?: boolean; center?: boolean}> = ({lines, x = 100, y = 70, right, center}) => (
+export const Lines: React.FC<{lines: Line[]; x?: number; y?: number; right?: boolean; center?: boolean}> = ({lines, x = 100, y = 70, right, center}) => (
   <div
     style={{
       position: 'absolute',
@@ -32,7 +32,7 @@ const Lines: React.FC<{lines: Line[]; x?: number; y?: number; right?: boolean; c
 );
 
 // Denyut merah di tepi layar untuk membangun ketegangan.
-const Pulse: React.FC<{color?: string; speed?: number}> = ({color = 'rgba(255,40,40,0.45)', speed = 5}) => {
+export const Pulse: React.FC<{color?: string; speed?: number}> = ({color = 'rgba(255,40,40,0.45)', speed = 5}) => {
   const sec = useSec();
   const k = Math.pow(Math.max(0, Math.sin(sec * speed)), 6);
   return <AbsoluteFill style={{pointerEvents: 'none', boxShadow: `inset 0 0 ${120 + 120 * k}px ${color}`, opacity: 0.4 + 0.6 * k}} />;
@@ -124,7 +124,7 @@ export const Facts: React.FC = () => {
 };
 
 // Kotak misteri: membuka "open loop" agar penonton bertahan sampai akhir.
-const MysteryBox: React.FC<{openAt?: number; size?: number}> = ({openAt = 1e9, size = 320}) => {
+export const MysteryBox: React.FC<{openAt?: number; size?: number}> = ({openAt = 1e9, size = 320}) => {
   const sec = useSec();
   const open = interpolate(sec, [openAt, openAt + 0.8], [0, 1], clamp);
   const shake = open === 0 ? Math.sin(sec * 30) * Math.max(0, Math.sin(sec * 1.5)) * 6 : 0;
@@ -162,7 +162,7 @@ export const OpenLoop: React.FC = () => {
 };
 
 // Lapak pasar tradisional sebagai analogi saham besar.
-const Stall: React.FC<{name: string; price: string; priceColor?: string}> = ({name, price, priceColor = C.ink}) => (
+export const Stall: React.FC<{name: string; price: string; priceColor?: string}> = ({name, price, priceColor = C.ink}) => (
   <div style={{width: 440, position: 'relative'}}>
     <svg width={440} height={120} style={{display: 'block'}}>
       {Array.from({length: 8}, (_, i) => (
