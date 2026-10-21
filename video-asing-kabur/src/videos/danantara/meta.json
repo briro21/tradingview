@@ -1,0 +1,24 @@
+{
+  "slug": "danantara",
+  "titles": [
+    "What If Danantara Borong Saham Saat IHSG Jatuh? Penyelamat atau Bom Waktu?",
+    "Negara Beli Saham Saat IHSG Anjlok: Bisa Selamatkan Pasar?",
+    "Danantara Jadi Standby Buyer: Siapa Untung, Siapa Menanggung Risiko?"
+  ],
+  "intro": "Pada 10 Oktober 2026, Danantara menyampaikan telah mengalokasikan sekitar USD3 miliar untuk saham dan obligasi, dan berencana menambah sekitar USD1 miliar hingga akhir 2026. Enam hari kemudian, saat IHSG ambruk lebih dari 11%, Danantara menyatakan siap menjadi standby buyer. Tapi bagaimana kalau Danantara benar-benar memborong saham saat IHSG jatuh?\n\nKita bahas apa itu Danantara dan sovereign wealth fund, contoh intervensi di Hong Kong 1998, Tiongkok 2015, dan Jepang, lalu skenario hari demi hari: efek pengumuman, seberapa besar Rp18 triliun dibanding net sell asing, moral hazard, tata kelola, sampai pertanyaan terpenting: uang siapa yang sebenarnya dipakai?",
+  "question": "Kalau Danantara memborong saham saat IHSG jatuh, ini penyelamat pasar atau intervensi yang berisiko?",
+  "sources": [
+    "Danantara: alokasi ±USD3 miliar, tambahan ±USD1 miliar s/d akhir 2026 (Kabar Bursa, 10 Okt 2026)",
+    "Danantara siap jadi standby buyer saat IHSG anjlok, 16 Okt 2026 (Suara.com)",
+    "Net sell asing ±Rp88 T sepanjang 2026 (Kontan)"
+  ],
+  "note": "Grafik pergerakan IHSG dalam skenario dan komposisi kepemilikan adalah ilustrasi. Kurs ±Rp18.000/USD.",
+  "chapters": [[0, "Pembeli raksasa saat pasar panik"], [4, "Fakta: dana & sikap Danantara"], [12, "Apa itu Danantara?"], [16, "Kenapa pasar butuh penahan?"], [20, "Hong Kong, Tiongkok, Jepang"], [27, "Hari 1: efek pengumuman"], [33, "Minggu 1: seberapa besar Rp18 triliun?"], [41, "Bulan 1: moral hazard"], [48, "Tahun 1: dua kemungkinan"], [54, "Uang siapa sebenarnya?"], [61, "4 pelajaran"], [67, "Penyelamat atau intervensi berisiko?"]],
+  "tags": ["Danantara", "Danantara beli saham", "standby buyer", "IHSG", "IHSG anjlok", "intervensi pasar", "sovereign wealth fund", "BUMN", "saham BUMN", "investor asing", "net sell asing", "MSCI Indonesia", "moral hazard", "pasar saham Indonesia", "what if", "skenario pasar saham", "edukasi saham", "investasi saham", "ekonomi Indonesia", "Rosan Roeslani"],
+  "hashtags": ["#Danantara", "#IHSG", "#SahamIndonesia", "#WhatIf", "#BUMN"],
+  "thumbs": {
+    "v1": {"top": "NEGARA", "main": "BORONG SAHAM?", "badge": "Rp18 T", "emoji": "🏛️"},
+    "v2": {"kicker": "WHAT IF", "main": "DANANTARA\nSELAMATKAN IHSG?", "bottom": "ATAU BOM WAKTU", "emoji": "🛟"},
+    "v3": {"top": "DANANTARA BORONG SAHAM:", "left": "BERISIKO", "right": "PENYELAMAT", "leftEmoji": "💣", "rightEmoji": "🛟"}
+  }
+}
