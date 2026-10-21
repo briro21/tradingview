@@ -1,268 +1,904 @@
 1
-00:00:00,300 --> 00:00:02,977
+00:00:00,300 --> 00:00:02,619
 Bayangkan kamu bangun pagi, buka berita,
 
 2
-00:00:02,977 --> 00:00:05,520
+00:00:02,619 --> 00:00:04,823
 dan judulnya cuma satu: "Rupiah tembus
 
 3
-00:00:05,520 --> 00:00:07,260
+00:00:04,823 --> 00:00:06,330
 dua puluh ribu per dolar."
 
 4
-00:00:07,710 --> 00:00:09,716
-Gak ada yang berubah di
+00:00:06,780 --> 00:00:10,007
+Gak ada yang berubah di dompetmu. Uangnya
 
 5
-00:00:09,716 --> 00:00:12,246
-dompetmu. Uangnya masih sama.
+00:00:10,007 --> 00:00:12,761
+masih sama. Gajimu juga masih sama.
 
 6
-00:00:12,696 --> 00:00:16,296
+00:00:13,211 --> 00:00:15,730
 Tapi diam-diam, nilainya baru saja menyusut.
 
 7
-00:00:16,746 --> 00:00:19,146
-Dan ini bukan angka asal.
+00:00:16,180 --> 00:00:18,136
+Uang seratus ribu di dompetmu, hari
 
 8
-00:00:19,596 --> 00:00:22,206
-Pertengahan Oktober, rupiah sudah menembus
+00:00:18,136 --> 00:00:20,483
+ini, belinya sudah tidak sebanyak kemarin.
 
 9
-00:00:22,206 --> 00:00:24,444
-level psikologis delapan belas ribu.
+00:00:20,933 --> 00:00:22,280
+Dan ini bukan angka asal.
 
 10
-00:00:24,894 --> 00:00:26,673
-Dari sini, dua puluh ribu
+00:00:22,730 --> 00:00:25,110
+Pertengahan Oktober, rupiah sudah menembus level
 
 11
-00:00:26,673 --> 00:00:29,022
-cuma sekitar sebelas persen lagi.
+00:00:25,110 --> 00:00:27,094
+psikologis delapan belas ribu per dolar.
 
 12
-00:00:29,472 --> 00:00:31,612
-Di video ini, kita jalani
+00:00:27,544 --> 00:00:28,914
+Dari sini, dua puluh ribu
 
 13
-00:00:31,612 --> 00:00:34,008
-skenarionya, hari demi hari.
+00:00:28,914 --> 00:00:30,722
+cuma sekitar sebelas persen lagi.
 
 14
-00:00:34,458 --> 00:00:36,250
-Tapi tonton sampai akhir, karena
+00:00:31,172 --> 00:00:33,599
+Sebelas persen. Itu bukan jarak yang
 
 15
-00:00:36,250 --> 00:00:37,818
-ada satu kelompok orang yang
+00:00:33,599 --> 00:00:35,217
+jauh di pasar mata uang.
 
 16
-00:00:37,818 --> 00:00:39,834
-justru diam-diam menunggu momen ini.
+00:00:35,667 --> 00:00:37,376
+Di video ini, kita jalani
 
 17
-00:00:40,284 --> 00:00:42,660
-Kenapa rupiah bisa melemah?
+00:00:37,376 --> 00:00:39,290
+skenarionya, hari demi hari.
 
 18
-00:00:43,560 --> 00:00:45,713
-Bayangkan rupiah dan dolar seperti
+00:00:39,740 --> 00:00:41,972
+Siapa yang paling terpukul, apa saja yang
 
 19
-00:00:45,713 --> 00:00:47,232
-dua barang di timbangan.
+00:00:41,972 --> 00:00:44,313
+harganya naik, dan kenapa ini bisa terjadi.
 
 20
-00:00:47,682 --> 00:00:49,899
-Kalau lebih banyak orang ingin dolar
+00:00:44,763 --> 00:00:46,262
+Tapi tonton sampai akhir, karena
 
 21
-00:00:49,899 --> 00:00:52,362
-daripada rupiah, dolar jadi lebih mahal.
+00:00:46,262 --> 00:00:47,574
+ada satu kelompok orang yang
 
 22
-00:00:52,812 --> 00:00:55,188
-Asing yang menjual saham, perusahaan
+00:00:47,574 --> 00:00:49,261
+justru diam-diam menunggu momen ini.
 
 23
-00:00:55,188 --> 00:00:57,102
-yang bayar utang luar negeri,
+00:00:49,711 --> 00:00:50,957
+Dan mungkin, kamu bisa
 
 24
-00:00:57,102 --> 00:00:59,412
-impor minyak, semuanya butuh dolar.
+00:00:50,957 --> 00:00:52,316
+jadi bagian dari mereka.
 
 25
-00:00:59,862 --> 00:01:01,782
-Hari pertama.
+00:00:52,766 --> 00:00:55,167
+Pertama, kita harus paham dulu satu hal.
 
 26
-00:01:02,682 --> 00:01:05,115
-Angka dua puluh ribu muncul
+00:00:55,617 --> 00:00:56,875
+Kenapa rupiah bisa melemah?
 
 27
-00:01:05,115 --> 00:01:07,098
-di layar. Pasar panik.
+00:00:57,775 --> 00:00:59,380
+Bayangkan rupiah dan dolar seperti
 
 28
-00:01:07,548 --> 00:01:09,678
-Orang ramai-ramai ke money
+00:00:59,380 --> 00:01:00,844
+dua barang di sebuah timbangan.
 
 29
-00:01:09,678 --> 00:01:12,300
-changer. Antrean dolar mengular.
+00:01:01,294 --> 00:01:03,211
+Harga keduanya ditentukan oleh satu hal
 
 30
-00:01:12,750 --> 00:01:14,958
-Satu minggu kemudian.
+00:01:03,211 --> 00:01:05,865
+sederhana: seberapa banyak orang yang menginginkannya.
 
 31
-00:01:15,858 --> 00:01:18,067
-Perusahaan yang punya utang dalam dolar
+00:01:06,315 --> 00:01:08,112
+Kalau lebih banyak orang ingin dolar
 
 32
-00:01:18,067 --> 00:01:20,445
-tiba-tiba harus bayar lebih mahal, padahal
+00:01:08,112 --> 00:01:10,109
+daripada rupiah, dolar jadi lebih mahal.
 
 33
-00:01:20,445 --> 00:01:22,314
-pendapatannya tetap dalam rupiah.
+00:01:10,559 --> 00:01:11,523
+Sesederhana itu.
 
 34
-00:01:22,764 --> 00:01:26,220
-Labanya tergerus, tanpa mereka salah apa-apa.
+00:01:12,423 --> 00:01:13,787
+Nah, sekarang lihat siapa
 
 35
-00:01:26,670 --> 00:01:28,926
-Satu bulan kemudian.
+00:01:13,787 --> 00:01:14,988
+saja yang butuh dolar.
 
 36
-00:01:29,826 --> 00:01:33,131
-Harga barang impor naik. Gadget,
+00:01:15,438 --> 00:01:18,174
+Investor asing yang menjual saham dan obligasi
 
 37
-00:01:33,131 --> 00:01:35,610
-obat, bahan baku pabrik.
+00:01:18,174 --> 00:01:21,147
+di Indonesia. Mereka dapat rupiah, lalu menukarnya
 
 38
-00:01:36,060 --> 00:01:38,142
-Tiket pesawat dan liburan ke luar
+00:01:21,147 --> 00:01:22,872
+ke dolar untuk dibawa pulang.
 
 39
-00:01:38,142 --> 00:01:39,972
-negeri jadi jauh lebih mahal.
+00:01:23,322 --> 00:01:25,694
+Perusahaan yang punya utang luar negeri.
 
 40
-00:01:40,422 --> 00:01:43,356
-Bensin? Kalau subsidi tak sanggup
+00:01:25,694 --> 00:01:28,007
+Mereka harus bayar cicilan dalam dolar.
 
 41
-00:01:43,356 --> 00:01:45,846
-menahan, harganya ikut naik.
+00:01:28,457 --> 00:01:31,989
+Importir. Mulai dari minyak, gandum, sampai
 
 42
-00:01:46,296 --> 00:01:48,576
-Satu tahun kemudian.
+00:01:31,989 --> 00:01:36,179
+komponen elektronik. Semuanya dibayar dengan dolar.
 
 43
-00:01:49,476 --> 00:01:51,724
-Bank Indonesia mungkin menaikkan suku
+00:01:36,629 --> 00:01:38,680
+Bahkan kamu, waktu belanja online dari
 
 44
-00:01:51,724 --> 00:01:53,364
-bunga untuk menahan rupiah.
+00:01:38,680 --> 00:01:41,055
+luar negeri atau berlangganan aplikasi luar,
 
 45
-00:01:53,814 --> 00:01:56,742
-Cicilan rumah dan kendaraan ikut naik.
+00:01:41,055 --> 00:01:42,458
+ujungnya juga butuh dolar.
 
 46
-00:01:57,192 --> 00:01:59,823
-Daya beli turun, dan perlambatan ekonomi
+00:01:42,908 --> 00:01:43,935
+Di sisi lain, siapa
 
 47
-00:01:59,823 --> 00:02:02,256
-bisa terasa sampai ke lapangan kerja.
+00:01:43,935 --> 00:01:45,285
+yang membawa dolar masuk?
 
 48
-00:02:02,706 --> 00:02:05,658
-Tapi ingat kelompok yang saya janjikan tadi?
+00:01:45,735 --> 00:01:48,874
+Eksportir yang menjual batu bara, sawit, dan
 
 49
-00:02:06,108 --> 00:02:09,732
-Ini dia. Para eksportir.
+00:01:48,874 --> 00:01:51,585
+nikel ke luar negeri. Turis asing. Dan
 
 50
-00:02:10,632 --> 00:02:13,190
-Petani sawit, penambang batu bara,
+00:01:51,585 --> 00:01:54,723
+investor asing yang menanam uangnya di sini.
 
 51
-00:02:13,190 --> 00:02:15,222
-pabrik yang menjual ke luar
+00:01:55,174 --> 00:01:57,830
+Selama dolar yang keluar lebih banyak daripada
 
 52
-00:02:15,222 --> 00:02:17,856
-negeri. Mereka dibayar dalam dolar.
+00:01:57,830 --> 00:02:00,832
+yang masuk, timbangannya miring. Dan rupiah melemah.
 
 53
-00:02:18,306 --> 00:02:20,767
-Saat rupiah melemah, satu dolar yang
+00:02:01,282 --> 00:02:02,405
+Lalu ada faktor dari luar
 
 54
-00:02:20,767 --> 00:02:22,818
-sama jadi lebih banyak rupiah.
+00:02:02,405 --> 00:02:03,709
+yang tidak bisa kita kontrol.
 
 55
-00:02:23,268 --> 00:02:25,381
-Ditambah pekerja remote yang digaji
+00:02:04,159 --> 00:02:06,067
+Ketika bank sentral Amerika menahan suku
 
 56
-00:02:25,381 --> 00:02:27,252
-dolar, dan wisatawan asing yang
+00:02:06,067 --> 00:02:07,880
+bunga tetap tinggi, menaruh uang dalam
 
 57
-00:02:27,252 --> 00:02:29,244
-tiba-tiba merasa Bali jadi murah.
+00:02:07,880 --> 00:02:09,072
+dolar jadi lebih menarik.
 
 58
-00:02:29,694 --> 00:02:31,398
-Melemahnya mata uang selalu
+00:02:09,522 --> 00:02:11,595
+Uang dari seluruh dunia mengalir
 
 59
-00:02:31,398 --> 00:02:33,606
-menciptakan pemenang dan pecundang.
+00:02:11,595 --> 00:02:13,732
+ke sana. Termasuk dari Indonesia.
 
 60
-00:02:34,056 --> 00:02:37,759
-Pertanyaannya bukan, apakah ini buruk. Tapi,
+00:02:14,182 --> 00:02:17,435
+Ditambah ketegangan geopolitik dan harga minyak yang
 
 61
-00:02:37,759 --> 00:02:40,368
-kamu berdiri di sisi yang mana?
+00:02:17,435 --> 00:02:20,063
+naik. Investor cenderung lari ke aset yang
 
 62
-00:02:40,818 --> 00:02:43,293
-Jadi, kalau rupiah benar-benar tembus
+00:02:20,063 --> 00:02:22,440
+dianggap aman. Dan aset paling aman di
 
 63
-00:02:43,293 --> 00:02:45,233
-dua puluh ribu, kamu termasuk
+00:02:22,440 --> 00:02:24,067
+mata mereka, adalah dolar.
 
 64
-00:02:45,233 --> 00:02:47,106
-yang rugi, atau yang untung?
+00:02:24,517 --> 00:02:26,062
+Mungkin kamu bertanya, apakah
 
 65
-00:02:47,556 --> 00:02:49,596
-Tulis di komentar.
+00:02:26,062 --> 00:02:27,661
+ini pernah terjadi sebelumnya?
 
 66
-00:02:50,496 --> 00:02:52,809
-Video ini bukan ajakan untuk membeli
+00:02:28,111 --> 00:02:28,532
+Pernah.
 
 67
-00:02:52,809 --> 00:02:54,480
-atau menjual aset apa pun.
+00:02:29,432 --> 00:02:31,757
+Tahun sembilan belas sembilan puluh delapan, saat
+
+68
+00:02:31,757 --> 00:02:33,892
+krisis moneter, rupiah jatuh dari sekitar dua
+
+69
+00:02:33,892 --> 00:02:35,647
+ribu lima ratus ke hampir tujuh belas
+
+70
+00:02:35,647 --> 00:02:37,687
+ribu per dolar, hanya dalam hitungan bulan.
+
+71
+00:02:38,137 --> 00:02:41,903
+Harga-harga melonjak. Banyak perusahaan bangkrut.
+
+72
+00:02:41,903 --> 00:02:44,516
+Jutaan orang kehilangan pekerjaan.
+
+73
+00:02:44,966 --> 00:02:46,469
+Tapi ada satu perbedaan penting
+
+74
+00:02:46,469 --> 00:02:47,681
+antara dulu dan sekarang.
+
+75
+00:02:48,131 --> 00:02:50,173
+Dulu, rupiah jatuh lebih dari enam
+
+76
+00:02:50,173 --> 00:02:52,334
+kali lipat dalam waktu singkat. Kali
+
+77
+00:02:52,334 --> 00:02:54,856
+ini, kita bicara pelemahan sekitar sebelas
+
+78
+00:02:54,856 --> 00:02:56,537
+persen dari posisi sekarang.
+
+79
+00:02:56,987 --> 00:02:59,957
+Jadi skenario dua puluh ribu bukan krismon
+
+80
+00:02:59,957 --> 00:03:02,927
+jilid dua. Tapi dampaknya tetap nyata. Dan
+
+81
+00:03:02,927 --> 00:03:05,543
+pelan-pelan, akan sampai ke dompetmu.
+
+82
+00:03:05,993 --> 00:03:08,053
+Sekarang, kita mulai skenarionya.
+
+83
+00:03:08,953 --> 00:03:09,766
+Hari pertama.
+
+84
+00:03:10,666 --> 00:03:12,442
+Angka dua puluh ribu muncul
+
+85
+00:03:12,442 --> 00:03:14,940
+di layar. Semua media memberitakannya.
+
+86
+00:03:15,390 --> 00:03:17,597
+Pasar panik. Banyak orang merasa
+
+87
+00:03:17,597 --> 00:03:20,287
+harus melakukan sesuatu, sekarang juga.
+
+88
+00:03:20,737 --> 00:03:22,439
+Orang ramai-ramai ke money
+
+89
+00:03:22,439 --> 00:03:24,534
+changer. Antrean dolar mengular.
+
+90
+00:03:24,984 --> 00:03:28,038
+Ironisnya, kepanikan inilah yang membuat dolar
+
+91
+00:03:28,038 --> 00:03:30,694
+makin dicari. Dan rupiah makin tertekan.
+
+92
+00:03:31,144 --> 00:03:34,289
+Bank Indonesia turun tangan. Mereka menjual sebagian
+
+93
+00:03:34,289 --> 00:03:37,375
+cadangan dolar ke pasar, untuk menenangkan situasi.
+
+94
+00:03:37,825 --> 00:03:41,084
+Bayangkan seperti pemadam kebakaran yang menyiramkan
+
+95
+00:03:41,084 --> 00:03:43,404
+air. Tapi persediaan airnya terbatas.
+
+96
+00:03:43,854 --> 00:03:46,131
+Di bursa saham, investor asing makin
+
+97
+00:03:46,131 --> 00:03:48,913
+gelisah. Karena setiap rupiah melemah, nilai
+
+98
+00:03:48,913 --> 00:03:51,633
+investasi mereka dalam dolar ikut menyusut.
+
+99
+00:03:52,083 --> 00:03:53,248
+Satu minggu kemudian.
+
+100
+00:03:54,148 --> 00:03:55,644
+Perusahaan yang punya utang dalam
+
+101
+00:03:55,644 --> 00:03:56,914
+dolar mulai berhitung ulang.
+
+102
+00:03:57,364 --> 00:03:59,286
+Misalnya, sebuah perusahaan punya
+
+103
+00:03:59,286 --> 00:04:00,741
+utang seratus juta dolar.
+
+104
+00:04:01,191 --> 00:04:03,243
+Saat kurs delapan belas ribu, utang itu
+
+105
+00:04:03,243 --> 00:04:05,348
+setara satu koma delapan triliun rupiah.
+
+106
+00:04:05,798 --> 00:04:07,067
+Di kurs dua puluh ribu,
+
+107
+00:04:07,067 --> 00:04:09,053
+utangnya menjadi dua triliun rupiah.
+
+108
+00:04:09,503 --> 00:04:12,257
+Dua ratus miliar rupiah tambahan. Padahal mereka
+
+109
+00:04:12,257 --> 00:04:14,723
+tidak meminjam satu dolar pun lebih banyak.
+
+110
+00:04:15,173 --> 00:04:17,937
+Pendapatan mereka tetap dalam rupiah. Labanya
+
+111
+00:04:17,937 --> 00:04:21,069
+tergerus, tanpa mereka melakukan kesalahan apa-apa.
+
+112
+00:04:21,519 --> 00:04:24,815
+Beberapa perusahaan mulai menunda proyek baru.
+
+113
+00:04:24,815 --> 00:04:27,537
+Ada yang mulai berhemat. Dan biasanya,
+
+114
+00:04:27,537 --> 00:04:31,119
+penghematan dimulai dari biaya terbesar: karyawan.
+
+115
+00:04:31,569 --> 00:04:32,772
+Satu bulan kemudian.
+
+116
+00:04:33,672 --> 00:04:35,057
+Di sinilah kenaikan kurs mulai
+
+117
+00:04:35,057 --> 00:04:36,949
+terasa langsung di kehidupan sehari-hari.
+
+118
+00:04:37,399 --> 00:04:40,079
+Harga barang impor naik. Gadget,
+
+119
+00:04:40,079 --> 00:04:43,345
+laptop, obat-obatan, bahan baku pabrik.
+
+120
+00:04:43,795 --> 00:04:46,784
+Contohnya, sebuah ponsel seharga seribu dolar.
+
+121
+00:04:46,784 --> 00:04:49,123
+Di kurs delapan belas ribu, harganya
+
+122
+00:04:49,123 --> 00:04:51,332
+sekitar delapan belas juta rupiah.
+
+123
+00:04:51,782 --> 00:04:54,122
+Di kurs dua puluh ribu, harganya bisa
+
+124
+00:04:54,122 --> 00:04:56,526
+menjadi dua puluh juta. Dua juta lebih
+
+125
+00:04:56,526 --> 00:04:58,867
+mahal, untuk barang yang sama persis.
+
+126
+00:04:59,317 --> 00:05:01,229
+Tiket pesawat ikut naik, karena bahan
+
+127
+00:05:01,229 --> 00:05:02,883
+bakar avtur dibeli dengan dolar.
+
+128
+00:05:03,333 --> 00:05:04,438
+Liburan ke luar negeri
+
+129
+00:05:04,438 --> 00:05:05,542
+jadi jauh lebih mahal.
+
+130
+00:05:05,992 --> 00:05:07,916
+Orang tua yang anaknya kuliah di luar
+
+131
+00:05:07,916 --> 00:05:10,569
+negeri merasakan pukulan paling keras. Biaya kuliah
+
+132
+00:05:10,569 --> 00:05:12,649
+dua puluh ribu dolar setahun, kini perlu
+
+133
+00:05:12,649 --> 00:05:14,365
+tambahan empat puluh juta rupiah.
+
+134
+00:05:14,815 --> 00:05:15,674
+Lalu bensin.
+
+135
+00:05:16,574 --> 00:05:20,055
+Indonesia mengimpor sebagian kebutuhan minyaknya. Saat
+
+136
+00:05:20,055 --> 00:05:22,376
+dolar mahal, biaya impor membengkak.
+
+137
+00:05:22,826 --> 00:05:26,150
+Kalau subsidi tak sanggup menahan, harga bahan
+
+138
+00:05:26,150 --> 00:05:28,968
+bakar ikut naik. Dan ketika bahan bakar
+
+139
+00:05:28,968 --> 00:05:32,147
+naik, ongkos kirim naik. Harga sayur, beras,
+
+140
+00:05:32,147 --> 00:05:34,676
+dan kebutuhan pokok, ikut terseret.
+
+141
+00:05:35,126 --> 00:05:36,335
+Satu tahun kemudian.
+
+142
+00:05:37,235 --> 00:05:39,318
+Bank Indonesia mungkin menaikkan suku bunga,
+
+143
+00:05:39,318 --> 00:05:41,116
+untuk membuat rupiah lebih menarik dan
+
+144
+00:05:41,116 --> 00:05:42,584
+menahan uang agar tidak keluar.
+
+145
+00:05:43,034 --> 00:05:44,727
+Tapi obat ini ada efek sampingnya.
+
+146
+00:05:45,177 --> 00:05:48,308
+Bunga naik, berarti cicilan rumah dan kendaraan
+
+147
+00:05:48,308 --> 00:05:51,039
+ikut naik. Kredit usaha jadi lebih mahal.
+
+148
+00:05:51,489 --> 00:05:53,224
+Pengusaha kecil yang butuh pinjaman
+
+149
+00:05:53,224 --> 00:05:55,207
+untuk berkembang, akhirnya menahan diri.
+
+150
+00:05:55,657 --> 00:05:58,450
+Daya beli masyarakat turun. Toko-toko
+
+151
+00:05:58,450 --> 00:06:01,545
+lebih sepi. Pertumbuhan ekonomi melambat.
+
+152
+00:06:01,995 --> 00:06:04,264
+Dan perlambatan ini, pelan-pelan, bisa
+
+153
+00:06:04,264 --> 00:06:06,174
+terasa sampai ke lapangan kerja.
+
+154
+00:06:06,624 --> 00:06:09,304
+Kalau kamu sedang mencari kerja, persaingan bisa
+
+155
+00:06:09,304 --> 00:06:11,761
+jadi lebih ketat. Kalau kamu sedang menunggu
+
+156
+00:06:11,761 --> 00:06:14,497
+kenaikan gaji, mungkin harus menunggu lebih lama.
+
+157
+00:06:14,947 --> 00:06:16,299
+Itulah skenario buruknya.
+
+158
+00:06:17,199 --> 00:06:18,906
+Tapi sekarang, ingat kelompok yang
+
+159
+00:06:18,906 --> 00:06:20,260
+saya janjikan di awal tadi?
+
+160
+00:06:20,710 --> 00:06:21,370
+Ini dia.
+
+161
+00:06:22,270 --> 00:06:23,182
+Para eksportir.
+
+162
+00:06:24,082 --> 00:06:26,941
+Petani sawit di Kalimantan. Penambang batu
+
+163
+00:06:26,941 --> 00:06:29,527
+bara. Pabrik tekstil dan furnitur yang
+
+164
+00:06:29,527 --> 00:06:31,501
+menjual ke Amerika dan Eropa.
+
+165
+00:06:31,951 --> 00:06:34,551
+Mereka dibayar dalam dolar, tapi biaya
+
+166
+00:06:34,551 --> 00:06:37,767
+operasional mereka sebagian besar dalam rupiah.
+
+167
+00:06:37,767 --> 00:06:40,162
+Gaji karyawan, sewa tanah, listrik.
+
+168
+00:06:40,612 --> 00:06:42,448
+Saat rupiah melemah, satu dolar yang
+
+169
+00:06:42,448 --> 00:06:44,540
+sama berubah menjadi lebih banyak rupiah.
+
+170
+00:06:44,990 --> 00:06:47,717
+Penjualan seribu dolar yang dulu bernilai delapan
+
+171
+00:06:47,717 --> 00:06:50,166
+belas juta, sekarang menjadi dua puluh juta.
+
+172
+00:06:50,166 --> 00:06:52,559
+Tanpa menjual satu barang pun lebih banyak.
+
+173
+00:06:53,009 --> 00:06:54,307
+Lalu ada kelompok baru yang
+
+174
+00:06:54,307 --> 00:06:55,605
+makin besar di era digital.
+
+175
+00:06:56,055 --> 00:06:58,716
+Pekerja remote yang digaji dalam dolar.
+
+176
+00:06:58,716 --> 00:07:01,923
+Desainer, programmer, penulis, dan kreator yang
+
+177
+00:07:01,923 --> 00:07:04,038
+dibayar oleh klien luar negeri.
+
+178
+00:07:04,488 --> 00:07:07,695
+Dan jangan lupakan pariwisata. Bagi wisatawan
+
+179
+00:07:07,695 --> 00:07:10,332
+asing, Bali dan Labuan Bajo tiba-tiba
+
+180
+00:07:10,332 --> 00:07:13,254
+terasa lebih murah. Hotel ramai, restoran
+
+181
+00:07:13,254 --> 00:07:16,175
+penuh, pemandu wisata kebanjiran pesanan.
+
+182
+00:07:16,625 --> 00:07:19,193
+Bahkan produk lokal bisa diuntungkan. Ketika
+
+183
+00:07:19,193 --> 00:07:21,352
+barang impor jadi mahal, banyak orang
+
+184
+00:07:21,352 --> 00:07:23,161
+beralih ke produk dalam negeri.
+
+185
+00:07:23,611 --> 00:07:25,326
+Jadi, melemahnya mata uang bukan
+
+186
+00:07:25,326 --> 00:07:26,987
+cuma cerita tentang yang kalah.
+
+187
+00:07:27,437 --> 00:07:29,574
+Ia selalu menciptakan pemenang dan pecundang.
+
+188
+00:07:30,024 --> 00:07:32,764
+Masalahnya, kebanyakan orang baru sadar mereka ada
+
+189
+00:07:32,764 --> 00:07:35,176
+di sisi yang mana, setelah semuanya terjadi.
+
+190
+00:07:35,626 --> 00:07:36,712
+Lalu, apa yang bisa
+
+191
+00:07:36,712 --> 00:07:38,371
+dipelajari dari skenario ini?
+
+192
+00:07:38,821 --> 00:07:42,453
+Pertama, pahami di mana posisimu. Apakah penghasilanmu
+
+193
+00:07:42,453 --> 00:07:45,950
+dalam rupiah, tapi pengeluaranmu banyak yang terkait
+
+194
+00:07:45,950 --> 00:07:48,439
+dolar? Itu posisi yang paling rentan.
+
+195
+00:07:48,889 --> 00:07:51,267
+Kedua, hati-hati dengan utang dalam mata
+
+196
+00:07:51,267 --> 00:07:53,943
+uang asing, kalau penghasilanmu dalam rupiah.
+
+197
+00:07:53,943 --> 00:07:56,322
+Karena kurs bisa mengubah besar utangmu,
+
+198
+00:07:56,322 --> 00:07:58,284
+tanpa kamu meminjam lebih banyak.
+
+199
+00:07:58,734 --> 00:08:01,308
+Ketiga, dana darurat. Saat harga naik dan
+
+200
+00:08:01,308 --> 00:08:04,134
+ekonomi melambat, uang tunai yang cukup untuk
+
+201
+00:08:04,134 --> 00:08:06,394
+beberapa bulan bisa jadi penyelamat.
+
+202
+00:08:06,844 --> 00:08:09,505
+Dan keempat, terus tingkatkan kemampuan. Di era
+
+203
+00:08:09,505 --> 00:08:12,448
+digital, keahlian yang dihargai secara global adalah
+
+204
+00:08:12,448 --> 00:08:15,052
+salah satu cara terbaik untuk tidak bergantung
+
+205
+00:08:15,052 --> 00:08:16,467
+pada satu mata uang saja.
+
+206
+00:08:16,917 --> 00:08:18,751
+Ingat, ini bukan saran
+
+207
+00:08:18,751 --> 00:08:21,167
+investasi. Ini cara berpikir.
+
+208
+00:08:21,617 --> 00:08:24,056
+Karena pertanyaannya bukan, apakah rupiah
+
+209
+00:08:24,056 --> 00:08:25,959
+akan melemah atau menguat. Tidak
+
+210
+00:08:25,959 --> 00:08:27,684
+ada yang bisa memastikan itu.
+
+211
+00:08:28,134 --> 00:08:29,996
+Pertanyaannya adalah, kamu berdiri
+
+212
+00:08:29,996 --> 00:08:30,981
+di sisi yang mana?
+
+213
+00:08:31,431 --> 00:08:33,591
+Jadi, kalau rupiah benar-benar tembus
+
+214
+00:08:33,591 --> 00:08:35,284
+dua puluh ribu, kamu termasuk
+
+215
+00:08:35,284 --> 00:08:36,918
+yang rugi, atau yang untung?
+
+216
+00:08:37,368 --> 00:08:39,767
+Tulis jawabanmu di kolom komentar.
+
+217
+00:08:39,767 --> 00:08:41,460
+Saya baca satu per satu.
+
+218
+00:08:41,910 --> 00:08:44,151
+Kalau video ini membuka cara pandangmu, bagikan
+
+219
+00:08:44,151 --> 00:08:46,391
+ke satu orang yang menurutmu perlu menontonnya.
+
+220
+00:08:46,841 --> 00:08:49,015
+Dan jangan lupa subscribe, karena skenario what
+
+221
+00:08:49,015 --> 00:08:51,096
+if berikutnya akan membahas sesuatu yang jauh
+
+222
+00:08:51,096 --> 00:08:52,669
+lebih dekat dengan kehidupan kita.
+
+223
+00:08:53,119 --> 00:08:54,813
+Video ini bukan ajakan untuk
+
+224
+00:08:54,813 --> 00:08:56,569
+membeli atau menjual aset apa
+
+225
+00:08:56,569 --> 00:08:58,626
+pun. Selalu lakukan riset sendiri.
+
+226
+00:08:59,076 --> 00:09:00,898
+Sampai jumpa di skenario berikutnya.
 

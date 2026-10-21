@@ -8,7 +8,7 @@ import sys
 import tempfile
 
 VOICE = 'id-ID-ArdiNeural'
-RATE = '+4%'
+RATE = '+0%'
 GAP = 0.45        # jeda antar kalimat (detik)
 CHAPTER_GAP = 0.9  # jeda lebih panjang setelah baris pendek seperti "Hari pertama."
 MAX_WORDS = 7
@@ -36,7 +36,9 @@ def main(src, mp3, srt):
             cmd[1:1] = ['--proxy', os.environ['HTTPS_PROXY']]
         subprocess.run(cmd, check=True, capture_output=True)
         wav = os.path.join(tmp, f'{i:03}.wav')
-        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', raw, '-ar', '24000', '-ac', '1', wav], check=True)
+        # Buang hening bawaan TTS di awal & akhir kalimat agar jeda dan waktu subtitle akurat.
+        trim = 'silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse'
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', raw, '-af', trim, '-ar', '24000', '-ac', '1', wav], check=True)
         d = dur(wav)
         # Bagi kalimat menjadi potongan subtitle, waktu proporsional dengan jumlah huruf.
         words = line.split()
