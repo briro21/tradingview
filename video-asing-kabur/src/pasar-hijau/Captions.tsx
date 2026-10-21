@@ -1,12 +1,14 @@
 import {AbsoluteFill} from 'remotion';
 import {C, FONT} from '../theme';
-import captions from './captions.json';
+import defaultCaptions from './captions.json';
 import {useSec} from './lib';
 
 // Subtitle di bawah layar, diambil dari SRT voice-over.
-export const Captions: React.FC = () => {
+type Cap = {start: number; end: number; text: string};
+
+export const Captions: React.FC<{data?: Cap[]}> = ({data = defaultCaptions}) => {
   const sec = useSec();
-  const cur = captions.find((c) => sec >= c.start && sec <= c.end + 0.25);
+  const cur = data.find((c) => sec >= c.start && sec <= c.end + 0.25);
   if (!cur) return null;
   return (
     <AbsoluteFill style={{justifyContent: 'flex-end', alignItems: 'center', paddingBottom: 46}}>

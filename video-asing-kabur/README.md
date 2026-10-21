@@ -30,3 +30,13 @@ npm run render:pasar-hijau   # hasil: out/ihsg-hijau-fomo.mp4
 ## Tema terang / gelap
 Atur di `src/theme.ts`: `DEFAULT_THEME = 'light'` dipakai untuk video baru. Per video bisa dipaksa lewat prop `theme`
 (lihat `src/Root.tsx`: `PasarHijau` = gelap, `PasarHijauLight` = terang).
+
+## Video 3: What If Semua Investor Asing Kabur dari IHSG? (gaya sinematik + infografis)
+SRT yang diterima tidak cocok dengan audionya, jadi waktu & teks diambil dari transkripsi Whisper atas
+`public/vo_asing_keluar.mp3` (`input/vo_asing_keluar.whisper.json`).
+
+```bash
+npm run captions:asing-kabur   # transkrip -> src/asing-kabur/captions.json (koreksi teks di scripts/whisper_to_captions.py)
+npm run render:asing-kabur     # hasil: out/what-if-asing-kabur.mp4
+```
+Adegan: `src/asing-kabur/scenes.tsx`; urutan & detik mulai: `src/asing-kabur/Video.tsx`.

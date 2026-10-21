@@ -1,7 +1,7 @@
 import {useCurrentFrame} from 'remotion';
 import {C} from '../theme';
 
-export type Pose = 'stand' | 'sit' | 'armUp' | 'headInHands' | 'point' | 'typing';
+export type Pose = 'stand' | 'sit' | 'armUp' | 'headInHands' | 'point' | 'typing' | 'walk' | 'cheer';
 export type Face = 'netral' | 'kaget' | 'sedih' | 'serius' | 'senang';
 
 // Sudut (derajat, 0 = ke bawah, positif = ke depan/kanan) untuk [lengan atas, lengan bawah] dan [paha, betis].
@@ -12,6 +12,8 @@ const POSES: Record<Pose, {armF: [number, number]; armB: [number, number]; legF:
   armUp: {armF: [165, 175], armB: [-10, -5], legF: [6, 0], legB: [-6, 0], lean: -4},
   headInHands: {armF: [140, -95], armB: [130, -100], legF: [90, -90], legB: [85, -85], lean: 18},
   point: {armF: [95, 95], armB: [-8, -4], legF: [6, 0], legB: [-6, 0], lean: 3},
+  walk: {armF: [0, 0], armB: [0, 0], legF: [0, 0], legB: [0, 0], lean: 4},
+  cheer: {armF: [160, 10], armB: [-160, -10], legF: [8, 0], legB: [-8, 0], lean: 0},
 };
 
 const rad = (d: number) => (d * Math.PI) / 180;
@@ -28,7 +30,11 @@ export const Character: React.FC<{
   glowEye?: boolean;
 }> = ({pose = 'stand', face = 'netral', jacket = C.red, rim = '#ffb26b', height = 700, flip, glowEye}) => {
   const frame = useCurrentFrame();
-  const p = POSES[pose];
+  const sw = Math.sin(frame / 4);
+  const p =
+    pose === 'walk'
+      ? {...POSES.walk, armF: [-sw * 30, 15] as [number, number], armB: [sw * 30, 15] as [number, number], legF: [sw * 28, -Math.max(0, sw) * 30] as [number, number], legB: [-sw * 28, -Math.max(0, -sw) * 30] as [number, number]}
+      : POSES[pose];
   const breathe = Math.sin(frame / 18) * 2;
   const blink = frame % 100 > 95 ? 0.1 : 1;
   const sitting = pose === 'sit' || pose === 'typing' || pose === 'headInHands';
