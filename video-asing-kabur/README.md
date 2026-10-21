@@ -26,3 +26,7 @@ npm run render:pasar-hijau   # hasil: out/ihsg-hijau-fomo.mp4
 
 - `src/pasar-hijau/timeline.tsx` — daftar segmen: detik mulai (dari SRT) + visualnya. Edit di sini untuk mengganti teks/visual.
 - `src/pasar-hijau/scenes-a.tsx`, `scenes-b.tsx` — komponen scene (kolam likuiditas, magnet, order book, divergensi, Ichimoku, VWAP, Fibonacci, dll.).
+
+## Tema terang / gelap
+Atur di `src/theme.ts`: `DEFAULT_THEME = 'light'` dipakai untuk video baru. Per video bisa dipaksa lewat prop `theme`
+(lihat `src/Root.tsx`: `PasarHijau` = gelap, `PasarHijauLight` = terang).

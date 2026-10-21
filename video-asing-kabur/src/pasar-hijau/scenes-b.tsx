@@ -1,7 +1,7 @@
 import {AbsoluteFill, interpolate} from 'remotion';
 import {Background} from '../components/Background';
 import {Stickman} from '../components/Stickman';
-import {C, FONT} from '../theme';
+import {C, FONT, useTheme} from '../theme';
 import {Abs, Panel, Pop, Txt, usePop, useSec} from './lib';
 
 type Line = {text: string; at: number; color?: string; size?: number};
@@ -204,6 +204,7 @@ export const Vwap: React.FC<{lines: Line[]}> = ({lines}) => {
     const y = 300 + Math.sin(i / 3) * 70 + (i > 25 ? 40 : 0) + Math.sin(i * 1.7) * 18;
     return `${i ? 'L' : 'M'}${x} ${Math.max(y, 250)}`;
   });
+  const th = useTheme();
   const shown = interpolate(sec, [327.8, 334], [0, 1], clamp);
   return (
     <AbsoluteFill>
@@ -212,7 +213,7 @@ export const Vwap: React.FC<{lines: Line[]}> = ({lines}) => {
         <svg width={1200} height={500} style={{overflow: 'visible'}}>
           <line x1={0} y1={230} x2={1200} y2={230} stroke={C.yellow} strokeWidth={10} strokeDasharray="30 14" />
           <text x={1000} y={210} fontFamily={FONT} fontWeight={900} fontSize={44} fill={C.yellow}>VWAP</text>
-          <path d={pts.join(' ')} stroke="#fff" strokeWidth={8} fill="none" pathLength={1} strokeDasharray={`${shown} 1`} />
+          <path d={pts.join(' ')} stroke={th.line} strokeWidth={8} fill="none" pathLength={1} strokeDasharray={`${shown} 1`} />
         </svg>
       </Abs>
       <Labels lines={lines} />
@@ -257,7 +258,7 @@ export const Code: React.FC<{start: number; resultAt: number; lines: Line[]}> = 
               <div style={{height: 50, width: 360 * (v as number) * res, background: C.green, border: `6px solid ${C.ink}`, borderRadius: 10}} />
             </div>
           ))}
-          <Txt text="(ilustrasi)" size={28} color="#9aa3b8" />
+          <Txt text="(ilustrasi)" size={28} color={useTheme().muted} />
         </Abs>
       )}
       <Labels lines={lines} y={50} />
@@ -286,6 +287,7 @@ export const Screener: React.FC<{items: Line[]; title: Line}> = ({items, title})
 
 export const Fibonacci: React.FC<{goldenAt: number; lines: Line[]}> = ({goldenAt, lines}) => {
   const sec = useSec();
+  const th = useTheme();
   const levels = [0, 23.6, 38.2, 50, 61.8, 78.6, 100];
   const t = interpolate(sec, [384, 392], [0, 1], clamp);
   const priceY = 40 + t * 0.618 * 520;
@@ -299,12 +301,12 @@ export const Fibonacci: React.FC<{goldenAt: number; lines: Line[]}> = ({goldenAt
             const gold = l === 61.8;
             return (
               <g key={l} opacity={gold || sec < goldenAt ? 1 : 0.35}>
-                <line x1={0} x2={1150} y1={y} y2={y} stroke={gold ? C.yellow : '#9fb3e0'} strokeWidth={gold ? 10 : 4} />
-                <text x={1160} y={y + 14} fontFamily={FONT} fontWeight={900} fontSize={gold ? 44 : 32} fill={gold ? C.yellow : '#9fb3e0'}>{`${l}%`.replace('.', ',')}</text>
+                <line x1={0} x2={1150} y1={y} y2={y} stroke={gold ? C.yellow : th.muted} strokeWidth={gold ? 10 : 4} />
+                <text x={1160} y={y + 14} fontFamily={FONT} fontWeight={900} fontSize={gold ? 44 : 32} fill={gold ? C.yellow : th.muted}>{`${l}%`.replace('.', ',')}</text>
               </g>
             );
           })}
-          <path d={`M0 40 L${300 + t * 500} ${priceY}`} stroke="#fff" strokeWidth={10} />
+          <path d={`M0 40 L${300 + t * 500} ${priceY}`} stroke={th.line} strokeWidth={10} />
           <circle cx={300 + t * 500} cy={priceY} r={18} fill={C.red} stroke={C.ink} strokeWidth={5} />
         </svg>
       </Abs>
@@ -385,7 +387,7 @@ export const Outro: React.FC<{at: number}> = ({at}) => {
         <Txt text="TERIMA KASIH!" size={90} color={C.yellow} />
       </Abs>
       <Abs x={820} y={580}>
-        <Txt text="Bukan ajakan jual/beli saham. Lakukan riset sendiri." size={34} color="#c9cfdb" />
+        <Txt text="Bukan ajakan jual/beli saham. Lakukan riset sendiri." size={34} color={useTheme().muted} />
       </Abs>
     </AbsoluteFill>
   );

@@ -295,7 +295,7 @@ export const TIMELINE: {start: number; el: React.ReactNode}[] = [
   },
   {
     start: 475.6,
-    el: <A.Statement mood="serius" lines={[{text: 'KEPANIKAN =', at: 475.8}, {text: 'MUSUH PROFIT', at: 476.6, color: C.red}, {text: 'Tetap dingin.', at: 478.6, size: 70, color: '#9fe0ff'}, {text: 'Biarkan data memutuskan.', at: 480.8, size: 60, color: C.green}]} />,
+    el: <A.Statement mood="serius" lines={[{text: 'KEPANIKAN =', at: 475.8}, {text: 'MUSUH PROFIT', at: 476.6, color: C.red}, {text: 'Tetap dingin.', at: 478.6, size: 70, color: '#3aa0ff'}, {text: 'Biarkan data memutuskan.', at: 480.8, size: 60, color: C.green}]} />,
   },
   {start: 483.7, el: <B.Outro at={483.7} />},
 ];

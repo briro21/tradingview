@@ -1,6 +1,6 @@
 import {createContext, useContext} from 'react';
 import {spring, useCurrentFrame, useVideoConfig} from 'remotion';
-import {C, FONT} from '../theme';
+import {C, FONT, useTheme} from '../theme';
 
 // Detik awal segmen; scene membandingkan waktu dengan detik absolut di file SRT.
 export const T0 = createContext(0);
@@ -27,25 +27,30 @@ export const Pop: React.FC<{at: number; children: React.ReactNode; style?: React
 export const Txt: React.FC<{text: string; size?: number; color?: string; style?: React.CSSProperties}> = ({
   text,
   size = 110,
-  color = C.white,
+  color,
   style,
-}) => (
+}) => {
+  const t = useTheme();
+  const fill = color ?? t.text;
+  const dark = (fill === t.text || fill === t.muted) && t.text !== '#ffffff';
+  return (
   <div
     style={{
       fontFamily: FONT,
       fontWeight: 900,
       fontSize: size,
-      color,
+      color: fill,
       lineHeight: 1.08,
-      WebkitTextStroke: `${Math.max(4, size / 20)}px ${C.ink}`,
+      WebkitTextStroke: dark ? undefined : `${Math.max(4, size / 20)}px ${C.ink}`,
       paintOrder: 'stroke fill',
-      textShadow: `0 ${size / 18}px 0 ${C.ink}`,
+      textShadow: dark ? undefined : `0 ${size / 18}px 0 ${C.ink}`,
       ...style,
     }}
   >
     {text}
   </div>
-);
+  );
+};
 
 export const Coin: React.FC<{size?: number; label?: string}> = ({size = 70, label = 'Rp'}) => (
   <div

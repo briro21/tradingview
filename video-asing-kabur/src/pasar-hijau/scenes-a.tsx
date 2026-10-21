@@ -2,7 +2,7 @@ import {AbsoluteFill, interpolate, useCurrentFrame} from 'remotion';
 import {Background} from '../components/Background';
 import {IhsgChart} from '../components/IhsgChart';
 import {Mood, Stickman} from '../components/Stickman';
-import {C, FONT} from '../theme';
+import {C, FONT, useTheme} from '../theme';
 import {Abs, Coin, Panel, Pop, Txt, usePop, useSec} from './lib';
 
 type Line = {text: string; at: number; color?: string; size?: number};
@@ -117,7 +117,7 @@ export const TitleCard: React.FC<{top: string; main: string[]; at: number}> = ({
     </Pop>
     {main.map((m, i) => (
       <Pop key={m} at={at + 0.6 + i * 0.5}>
-        <Txt text={m} size={110} color={i === main.length - 1 ? C.yellow : C.white} style={{textAlign: 'center'}} />
+        <Txt text={m} size={110} color={i === main.length - 1 ? C.yellow : undefined} style={{textAlign: 'center'}} />
       </Pop>
     ))}
   </AbsoluteFill>
@@ -208,7 +208,7 @@ export const SectionCard: React.FC<{num: string; title: string; sub?: string; at
       </Pop>
       <Pop at={at + 0.3} style={{position: 'absolute', top: 520, textAlign: 'center', padding: '0 80px'}}>
         <Txt text={title} size={110} />
-        {sub && <Txt text={sub} size={60} color="#9fb3e0" style={{marginTop: 20}} />}
+        {sub && <Txt text={sub} size={60} color={useTheme().muted} style={{marginTop: 20}} />}
       </Pop>
     </AbsoluteFill>
   );
@@ -294,7 +294,9 @@ export const Magnet: React.FC<{onAt: number; pullAt: number; labels: Line[]}> = 
   );
 };
 
-export const Reasons: React.FC<{items: (Line & {ok: boolean})[]; title: Line}> = ({items, title}) => (
+export const Reasons: React.FC<{items: (Line & {ok: boolean})[]; title: Line}> = ({items, title}) => {
+  const {muted} = useTheme();
+  return (
   <AbsoluteFill>
     <Background glow="rgba(255,201,60,0.25)" glowX="75%" />
     <Pop at={title.at} style={{position: 'absolute', left: 110, top: 60, transformOrigin: 'left'}}>
@@ -306,7 +308,7 @@ export const Reasons: React.FC<{items: (Line & {ok: boolean})[]; title: Line}> =
           <div style={{width: 96, height: 96, borderRadius: 20, background: it.ok ? C.green : C.red, border: `7px solid ${C.ink}`, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
             <Txt text={it.ok ? '✓' : '✕'} size={70} />
           </div>
-          <Txt text={it.text} size={84} color={it.ok ? C.green : '#c9cfdb'} style={it.ok ? undefined : {textDecoration: 'line-through'}} />
+          <Txt text={it.text} size={84} color={it.ok ? C.green : muted} style={it.ok ? undefined : {textDecoration: 'line-through'}} />
         </Pop>
       ))}
     </div>
@@ -315,6 +317,7 @@ export const Reasons: React.FC<{items: (Line & {ok: boolean})[]; title: Line}> =
     </Abs>
   </AbsoluteFill>
 );
+};
 
 export const SupplyDemand: React.FC<{at: number; lawAt: number}> = ({at, lawAt}) => {
   const sell = usePop(at, 16);
