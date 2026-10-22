@@ -35,19 +35,19 @@ Dan hari ini, angka itu
 sedang menjadi perhatian banyak orang.
 
 10
-00:00:23,241 --> 00:00:24,912
+00:00:23,241 --> 00:00:24,913
 Pada dua puluh satu Oktober dua
 
 11
-00:00:24,912 --> 00:00:26,799
+00:00:24,913 --> 00:00:26,800
 ribu dua puluh enam, Bank Indonesia
 
 12
-00:00:26,799 --> 00:00:28,686
+00:00:26,800 --> 00:00:28,687
 memutuskan menahan BI Rate di level
 
 13
-00:00:28,686 --> 00:00:30,196
+00:00:28,687 --> 00:00:30,196
 lima koma tujuh lima persen.
 
 14
@@ -59,11 +59,11 @@ Tapi di saat yang sama, BI menaikkan
 suku bunga deposit facility menjadi lima persen.
 
 16
-00:00:36,078 --> 00:00:39,569
+00:00:36,078 --> 00:00:39,570
 Dan sebelum rapat, sejumlah ekonom sudah memperkirakan
 
 17
-00:00:39,569 --> 00:00:41,121
+00:00:39,570 --> 00:00:41,121
 kenaikan ke enam persen.
 
 18
@@ -87,11 +87,11 @@ punya lebih banyak dana untuk disalurkan.
 Jadi BI sedang menyeimbangkan dua hal
 
 23
-00:00:54,003 --> 00:00:57,118
+00:00:54,003 --> 00:00:57,119
 sekaligus: menjaga rupiah, tanpa mencekik ekonomi.
 
 24
-00:00:57,568 --> 00:00:59,532
+00:00:57,569 --> 00:00:59,532
 Tahun ini, BI juga sudah beberapa
 
 25
@@ -127,47 +127,47 @@ skenarionya, hari demi hari.
 Dan tonton sampai akhir, karena ada
 
 33
-00:01:18,304 --> 00:01:20,739
+00:01:18,304 --> 00:01:20,740
 satu kelompok yang justru diam-diam diuntungkan
 
 34
-00:01:20,739 --> 00:01:21,827
+00:01:20,740 --> 00:01:21,828
 saat suku bunga naik.
 
 35
-00:01:22,277 --> 00:01:24,587
+00:01:22,278 --> 00:01:24,588
 Pertama, kita harus paham dulu,
 
 36
-00:01:24,587 --> 00:01:25,779
+00:01:24,588 --> 00:01:25,780
 apa itu BI Rate.
 
 37
-00:01:26,229 --> 00:01:28,069
+00:01:26,230 --> 00:01:28,070
 BI Rate adalah suku bunga acuan
 
 38
-00:01:28,069 --> 00:01:30,563
+00:01:28,070 --> 00:01:30,563
 Bank Indonesia. Bayangkan ia sebagai keran
 
 39
-00:01:30,563 --> 00:01:32,937
+00:01:30,563 --> 00:01:32,938
 utama yang mengatur seberapa mahal harga
 
 40
-00:01:32,937 --> 00:01:34,302
+00:01:32,938 --> 00:01:34,303
 uang di seluruh negeri.
 
 41
-00:01:34,752 --> 00:01:37,708
+00:01:34,753 --> 00:01:37,709
 Kalau keran dibuka, suku bunga turun,
 
 42
-00:01:37,708 --> 00:01:40,424
+00:01:37,709 --> 00:01:40,425
 uang jadi murah. Orang lebih mudah
 
 43
-00:01:40,424 --> 00:01:43,540
+00:01:40,425 --> 00:01:43,540
 meminjam, berbelanja, dan berinvestasi.
 
 44
@@ -175,11 +175,11 @@ meminjam, berbelanja, dan berinvestasi.
 Kalau keran diputar, suku bunga naik,
 
 45
-00:01:46,659 --> 00:01:49,399
+00:01:46,659 --> 00:01:49,400
 uang jadi mahal. Pinjaman lebih berat,
 
 46
-00:01:49,399 --> 00:01:51,491
+00:01:49,400 --> 00:01:51,491
 orang lebih memilih menabung.
 
 47
@@ -195,11 +195,11 @@ membuat uang jadi mahal?
 Ada dua alasan utama: inflasi dan rupiah.
 
 50
-00:01:58,042 --> 00:02:00,394
+00:01:58,042 --> 00:02:00,395
 Saat harga-harga naik terlalu cepat, suku
 
 51
-00:02:00,394 --> 00:02:03,034
+00:02:00,395 --> 00:02:03,034
 bunga tinggi membantu mengerem belanja, supaya
 
 52
@@ -207,15 +207,15 @@ bunga tinggi membantu mengerem belanja, supaya
 inflasi tidak lepas kendali.
 
 53
-00:02:05,091 --> 00:02:07,340
+00:02:05,091 --> 00:02:07,341
 Dan saat rupiah tertekan, suku bunga tinggi
 
 54
-00:02:07,340 --> 00:02:09,956
+00:02:07,341 --> 00:02:09,957
 membuat menyimpan uang dalam rupiah lebih menarik,
 
 55
-00:02:09,956 --> 00:02:12,939
+00:02:09,957 --> 00:02:12,939
 sehingga investor tidak buru-buru membawa uangnya keluar.
 
 56
@@ -243,35 +243,35 @@ Pernah. Bahkan lebih tinggi.
 Di akhir tahun dua ribu lima, BI
 
 62
-00:02:27,122 --> 00:02:29,703
+00:02:27,122 --> 00:02:29,704
 Rate pernah mencapai dua belas koma tujuh
 
 63
-00:02:29,703 --> 00:02:32,411
+00:02:29,704 --> 00:02:32,411
 lima persen. Dan beberapa tahun lalu, untuk
 
 64
-00:02:32,411 --> 00:02:35,244
+00:02:32,411 --> 00:02:35,245
 menahan rupiah, BI Rate juga pernah dinaikkan
 
 65
-00:02:35,244 --> 00:02:37,070
+00:02:35,245 --> 00:02:37,071
 ke enam koma dua lima persen.
 
 66
-00:02:37,520 --> 00:02:40,134
+00:02:37,521 --> 00:02:40,134
 Jadi tujuh persen bukan angka yang mustahil.
 
 67
-00:02:40,134 --> 00:02:42,806
+00:02:40,134 --> 00:02:42,807
 Tapi bagi generasi yang terbiasa dengan bunga
 
 68
-00:02:42,806 --> 00:02:45,360
+00:02:42,807 --> 00:02:45,361
 rendah, angka ini akan terasa sangat berat.
 
 69
-00:02:45,810 --> 00:02:49,302
+00:02:45,811 --> 00:02:49,302
 Sekarang, kita mulai skenarionya. Bagaimana jika
 
 70
@@ -283,31 +283,31 @@ BI Rate naik ke tujuh persen?
 Hari pertama.
 
 72
-00:02:53,645 --> 00:02:55,756
+00:02:53,645 --> 00:02:55,757
 Pengumuman keluar. BI Rate
 
 73
-00:02:55,756 --> 00:02:57,462
+00:02:55,757 --> 00:02:57,462
 naik ke tujuh persen.
 
 74
-00:02:57,912 --> 00:03:00,496
+00:02:57,912 --> 00:03:00,497
 Pasar saham langsung bereaksi. Saham
 
 75
-00:03:00,496 --> 00:03:03,439
+00:03:00,497 --> 00:03:03,440
 properti, otomotif, dan perusahaan dengan
 
 76
-00:03:03,439 --> 00:03:05,665
+00:03:03,440 --> 00:03:05,665
 utang besar paling cepat turun.
 
 77
-00:03:06,115 --> 00:03:08,953
+00:03:06,115 --> 00:03:08,954
 Kenapa? Karena bunga yang lebih tinggi berarti
 
 78
-00:03:08,953 --> 00:03:11,731
+00:03:08,954 --> 00:03:11,731
 biaya pinjaman mereka naik, dan pembeli rumah
 
 79
@@ -323,11 +323,11 @@ Di sisi lain, rupiah justru
 menguat. Investor asing tertarik dengan
 
 82
-00:03:18,716 --> 00:03:20,732
+00:03:18,716 --> 00:03:20,733
 imbal hasil yang lebih tinggi.
 
 83
-00:03:21,182 --> 00:03:23,513
+00:03:21,183 --> 00:03:23,513
 Inilah dilema suku bunga: obat untuk
 
 84
@@ -335,11 +335,11 @@ Inilah dilema suku bunga: obat untuk
 rupiah, tapi pahit untuk pertumbuhan.
 
 85
-00:03:26,358 --> 00:03:29,585
+00:03:26,358 --> 00:03:29,586
 Pemerintah juga ikut merasakannya. Imbal hasil surat
 
 86
-00:03:29,585 --> 00:03:32,565
+00:03:29,586 --> 00:03:32,565
 utang negara naik, sehingga biaya untuk meminjam
 
 87
@@ -347,11 +347,11 @@ utang negara naik, sehingga biaya untuk meminjam
 uang bagi negara ikut bertambah.
 
 88
-00:03:35,001 --> 00:03:36,268
+00:03:35,001 --> 00:03:36,267
 Satu minggu kemudian.
 
 89
-00:03:37,168 --> 00:03:40,938
+00:03:37,167 --> 00:03:40,938
 Bank-bank mulai menyesuaikan suku bunga. Bunga
 
 90
@@ -359,11 +359,11 @@ Bank-bank mulai menyesuaikan suku bunga. Bunga
 deposito naik. Bunga kredit juga naik.
 
 91
-00:03:44,502 --> 00:03:46,140
+00:03:44,502 --> 00:03:46,139
 Bagi pemilik KPR dengan bunga
 
 92
-00:03:46,140 --> 00:03:48,962
+00:03:46,139 --> 00:03:48,962
 mengambang, surat pemberitahuan mulai berdatangan.
 
 93
@@ -379,43 +379,43 @@ Misalnya kamu punya KPR lima ratus
 juta rupiah, tenor dua puluh tahun.
 
 96
-00:03:56,050 --> 00:03:58,890
+00:03:56,050 --> 00:03:58,889
 Dengan bunga delapan persen, cicilannya sekitar empat
 
 97
-00:03:58,890 --> 00:04:01,033
+00:03:58,889 --> 00:04:01,032
 koma satu delapan juta rupiah per bulan.
 
 98
-00:04:01,483 --> 00:04:03,361
+00:04:01,482 --> 00:04:03,361
 Kalau bunganya naik menjadi sepuluh
 
 99
-00:04:03,361 --> 00:04:05,508
+00:04:03,361 --> 00:04:05,507
 persen, cicilannya menjadi sekitar empat
 
 100
-00:04:05,508 --> 00:04:07,118
+00:04:05,507 --> 00:04:07,117
 koma delapan tiga juta rupiah.
 
 101
-00:04:07,568 --> 00:04:10,255
+00:04:07,567 --> 00:04:10,254
 Naik lebih dari enam ratus ribu rupiah
 
 102
-00:04:10,255 --> 00:04:13,225
+00:04:10,254 --> 00:04:13,224
 setiap bulan. Hampir tujuh koma tujuh juta
 
 103
-00:04:13,225 --> 00:04:15,912
+00:04:13,224 --> 00:04:15,911
 rupiah setahun. Untuk rumah yang sama.
 
 104
-00:04:16,362 --> 00:04:17,676
+00:04:16,361 --> 00:04:17,675
 Satu bulan kemudian.
 
 105
-00:04:18,576 --> 00:04:21,096
+00:04:18,575 --> 00:04:21,096
 Efeknya mulai menyebar ke kehidupan sehari-hari.
 
 106
@@ -423,334 +423,354 @@ Efeknya mulai menyebar ke kehidupan sehari-hari.
 Kredit kendaraan, kartu kredit, dan
 
 107
-00:04:23,976 --> 00:04:26,198
+00:04:23,976 --> 00:04:26,197
 pinjaman usaha jadi lebih mahal.
 
 108
-00:04:26,648 --> 00:04:29,628
+00:04:26,647 --> 00:04:29,627
 Pengusaha kecil yang berencana membuka cabang
 
 109
-00:04:29,628 --> 00:04:32,145
+00:04:29,627 --> 00:04:32,144
 baru, memilih menunda. Toko yang ingin
 
 110
-00:04:32,145 --> 00:04:34,330
+00:04:32,144 --> 00:04:34,330
 menambah stok, berpikir dua kali.
 
 111
-00:04:34,780 --> 00:04:37,368
+00:04:34,780 --> 00:04:37,367
 Pengembang perumahan melihat penjualan
 
 112
-00:04:37,368 --> 00:04:39,411
+00:04:37,367 --> 00:04:39,410
 melambat. Proyek baru ditunda.
 
 113
-00:04:39,861 --> 00:04:41,578
-Di sisi lain, harga barang impor
+00:04:39,860 --> 00:04:42,102
+Di sisi lain, harga barang impor mulai
 
 114
-00:04:41,578 --> 00:04:43,617
-mulai lebih stabil karena rupiah tidak
+00:04:42,102 --> 00:04:44,758
+lebih stabil karena rupiah tidak lagi melemah
 
 115
-00:04:43,617 --> 00:04:45,334
-lagi melemah secepat sebelumnya.
+00:04:44,758 --> 00:04:47,649
+secepat sebelumnya. Bagi keluarga yang selama ini
 
 116
-00:04:45,784 --> 00:04:47,104
-Satu tahun kemudian.
+00:04:47,649 --> 00:04:50,422
+merasakan harga kebutuhan pokok terus naik, ini
 
 117
-00:04:48,004 --> 00:04:49,685
-Suku bunga tinggi bekerja seperti
+00:04:50,422 --> 00:04:52,133
+kabar yang sedikit melegakan.
 
 118
-00:04:49,685 --> 00:04:51,010
-rem yang ditekan perlahan.
+00:04:52,583 --> 00:04:53,903
+Satu tahun kemudian.
 
 119
-00:04:51,460 --> 00:04:54,226
-Dampaknya tidak terasa dalam semalam. Biasanya
+00:04:54,803 --> 00:04:56,485
+Suku bunga tinggi bekerja seperti
 
 120
-00:04:54,226 --> 00:04:57,113
-butuh berbulan-bulan sampai kebijakan suku bunga
+00:04:56,485 --> 00:04:57,809
+rem yang ditekan perlahan.
 
 121
-00:04:57,113 --> 00:04:59,820
-benar-benar mengalir ke seluruh perekonomian.
+00:04:58,259 --> 00:05:01,026
+Dampaknya tidak terasa dalam semalam. Biasanya
 
 122
-00:05:00,270 --> 00:05:03,814
-Inflasi mulai terkendali. Rupiah lebih
+00:05:01,026 --> 00:05:03,913
+butuh berbulan-bulan sampai kebijakan suku bunga
 
 123
-00:05:03,814 --> 00:05:06,706
-stabil. Itulah tujuan utamanya.
+00:05:03,913 --> 00:05:06,619
+benar-benar mengalir ke seluruh perekonomian.
 
 124
-00:05:07,156 --> 00:05:09,556
-Tapi harga yang harus dibayar juga
+00:05:07,069 --> 00:05:10,614
+Inflasi mulai terkendali. Rupiah lebih
 
 125
-00:05:09,556 --> 00:05:13,298
-nyata. Pertumbuhan ekonomi melambat. Perusahaan lebih
+00:05:10,614 --> 00:05:13,506
+stabil. Itulah tujuan utamanya.
 
 126
-00:05:13,298 --> 00:05:15,840
-berhati-hati merekrut karyawan baru.
+00:05:13,956 --> 00:05:16,356
+Tapi harga yang harus dibayar juga
 
 127
-00:05:16,290 --> 00:05:18,153
-Dan bagi mereka yang memiliki banyak
+00:05:16,356 --> 00:05:20,098
+nyata. Pertumbuhan ekonomi melambat. Perusahaan lebih
 
 128
-00:05:18,153 --> 00:05:20,275
-utang dengan bunga mengambang, satu tahun
+00:05:20,098 --> 00:05:22,639
+berhati-hati merekrut karyawan baru.
 
 129
-00:05:20,275 --> 00:05:21,620
-ini terasa sangat panjang.
+00:05:23,089 --> 00:05:24,952
+Dan bagi mereka yang memiliki banyak
 
 130
-00:05:22,070 --> 00:05:23,547
-Itulah skenario buruknya.
+00:05:24,952 --> 00:05:27,074
+utang dengan bunga mengambang, satu tahun
 
 131
-00:05:24,447 --> 00:05:26,302
-Tapi sekarang, ingat kelompok yang
+00:05:27,074 --> 00:05:28,420
+ini terasa sangat panjang.
 
 132
-00:05:26,302 --> 00:05:27,776
-saya janjikan di awal tadi?
+00:05:28,870 --> 00:05:30,346
+Itulah skenario buruknya.
 
 133
-00:05:28,226 --> 00:05:28,950
-Ini dia.
+00:05:31,246 --> 00:05:33,102
+Tapi sekarang, ingat kelompok yang
 
 134
-00:05:29,850 --> 00:05:30,716
-Para penabung.
+00:05:33,102 --> 00:05:34,575
+saya janjikan di awal tadi?
 
 135
-00:05:31,616 --> 00:05:34,240
-Saat suku bunga naik, bunga deposito dan
+00:05:35,025 --> 00:05:35,749
+Ini dia.
 
 136
-00:05:34,240 --> 00:05:36,668
-tabungan ikut naik. Uang yang diam di
+00:05:36,649 --> 00:05:37,515
+Para penabung.
 
 137
-00:05:36,668 --> 00:05:38,964
-bank tiba-tiba bekerja lebih keras.
+00:05:38,415 --> 00:05:41,040
+Saat suku bunga naik, bunga deposito dan
 
 138
-00:05:39,414 --> 00:05:42,284
-Misalnya kamu punya deposito seratus juta rupiah.
+00:05:41,040 --> 00:05:43,467
+tabungan ikut naik. Uang yang diam di
 
 139
-00:05:42,284 --> 00:05:44,919
-Kalau bunganya naik dari tiga setengah persen
+00:05:43,467 --> 00:05:45,763
+bank tiba-tiba bekerja lebih keras.
 
 140
-00:05:44,919 --> 00:05:47,672
-ke lima persen, setelah pajak, hasil setahunnya
+00:05:46,213 --> 00:05:49,083
+Misalnya kamu punya deposito seratus juta rupiah.
 
 141
-00:05:47,672 --> 00:05:49,956
-naik dari sekitar dua koma delapan juta
+00:05:49,083 --> 00:05:51,719
+Kalau bunganya naik dari tiga setengah persen
 
 142
-00:05:49,956 --> 00:05:51,479
-menjadi empat juta rupiah.
+00:05:51,719 --> 00:05:54,471
+ke lima persen, setelah pajak, hasil setahunnya
 
 143
-00:05:51,929 --> 00:05:54,997
-Lalu ada pembeli obligasi negara ritel, seperti
+00:05:54,471 --> 00:05:56,755
+naik dari sekitar dua koma delapan juta
 
 144
-00:05:54,997 --> 00:05:57,935
-ORI dan SBR. Kupon yang ditawarkan pemerintah
+00:05:56,755 --> 00:05:58,278
+menjadi empat juta rupiah.
 
 145
-00:05:57,935 --> 00:06:00,677
-biasanya ikut naik saat suku bunga tinggi.
+00:05:58,728 --> 00:06:01,797
+Lalu ada pembeli obligasi negara ritel, seperti
 
 146
-00:06:01,127 --> 00:06:02,959
-Dan mereka yang memegang uang tunai,
+00:06:01,797 --> 00:06:04,734
+ORI dan SBR. Kupon yang ditawarkan pemerintah
 
 147
-00:06:02,959 --> 00:06:05,148
-punya kesempatan membeli aset yang harganya
+00:06:04,734 --> 00:06:07,477
+biasanya ikut naik saat suku bunga tinggi.
 
 148
-00:06:05,148 --> 00:06:07,082
-sedang turun karena suku bunga tinggi.
+00:06:07,927 --> 00:06:10,580
+Dan mereka yang memegang uang tunai, punya
 
 149
-00:06:07,532 --> 00:06:10,191
-Tapi ada satu catatan penting. Simpanan di
+00:06:10,580 --> 00:06:13,740
+kesempatan membeli aset yang harganya sedang turun
 
 150
-00:06:10,191 --> 00:06:12,915
-bank hanya dijamin LPS kalau bunganya tidak
+00:06:13,740 --> 00:06:16,773
+karena suku bunga tinggi. Dalam dunia investasi,
 
 151
-00:06:12,915 --> 00:06:16,081
-melebihi tingkat bunga penjaminan. Jadi bunga yang
+00:06:16,773 --> 00:06:19,617
+ada ungkapan terkenal: uang tunai adalah raja
 
 152
-00:06:16,081 --> 00:06:18,551
-terlalu tinggi bukan selalu kabar baik.
+00:06:19,617 --> 00:06:22,397
+saat suku bunga tinggi. Mereka bisa menunggu
 
 153
-00:06:19,001 --> 00:06:21,505
-Jadi, suku bunga tinggi selalu menciptakan
+00:06:22,397 --> 00:06:25,304
+dengan tenang, sambil tetap mendapatkan bunga.
 
 154
-00:06:21,505 --> 00:06:23,949
-dua kelompok: mereka yang membayar bunga,
+00:06:25,754 --> 00:06:28,413
+Tapi ada satu catatan penting. Simpanan di
 
 155
-00:06:23,949 --> 00:06:25,797
-dan mereka yang menerima bunga.
+00:06:28,413 --> 00:06:31,136
+bank hanya dijamin LPS kalau bunganya tidak
 
 156
-00:06:26,247 --> 00:06:28,824
-Pertanyaannya, kamu ada di kelompok yang mana?
+00:06:31,136 --> 00:06:34,303
+melebihi tingkat bunga penjaminan. Jadi bunga yang
 
 157
-00:06:29,274 --> 00:06:30,454
-Lalu, apa yang bisa
+00:06:34,303 --> 00:06:36,773
+terlalu tinggi bukan selalu kabar baik.
 
 158
-00:06:30,454 --> 00:06:32,256
-dipelajari dari skenario ini?
+00:06:37,223 --> 00:06:39,727
+Jadi, suku bunga tinggi selalu menciptakan
 
 159
-00:06:32,706 --> 00:06:36,613
-Pertama, kenali jenis bunga pinjamanmu. Bunga tetap
+00:06:39,727 --> 00:06:42,171
+dua kelompok: mereka yang membayar bunga,
 
 160
-00:06:36,613 --> 00:06:40,598
-atau mengambang? Kapan masa bunga tetapnya berakhir?
+00:06:42,171 --> 00:06:44,019
+dan mereka yang menerima bunga.
 
 161
-00:06:41,048 --> 00:06:43,358
-Kedua, siapkan ruang di anggaran.
+00:06:44,469 --> 00:06:47,046
+Pertanyaannya, kamu ada di kelompok yang mana?
 
 162
-00:06:43,358 --> 00:06:46,019
-Jangan biarkan cicilan memakan seluruh
+00:06:47,496 --> 00:06:48,676
+Lalu, apa yang bisa
 
 163
-00:06:46,019 --> 00:06:48,750
-penghasilan, karena bunga bisa berubah.
+00:06:48,676 --> 00:06:50,478
+dipelajari dari skenario ini?
 
 164
-00:06:49,200 --> 00:06:51,536
-Ketiga, kalau punya utang berbunga tinggi
+00:06:50,928 --> 00:06:54,835
+Pertama, kenali jenis bunga pinjamanmu. Bunga tetap
 
 165
-00:06:51,536 --> 00:06:54,271
-seperti kartu kredit atau paylater, prioritaskan
+00:06:54,835 --> 00:06:58,819
+atau mengambang? Kapan masa bunga tetapnya berakhir?
 
 166
-00:06:54,271 --> 00:06:55,753
-untuk dilunasi lebih dulu.
+00:06:59,269 --> 00:07:01,580
+Kedua, siapkan ruang di anggaran.
 
 167
-00:06:56,203 --> 00:06:59,670
-Keempat, manfaatkan sisi baiknya. Saat bunga tinggi,
+00:07:01,580 --> 00:07:04,241
+Jangan biarkan cicilan memakan seluruh
 
 168
-00:06:59,670 --> 00:07:03,070
-instrumen seperti deposito dan obligasi negara bisa
+00:07:04,241 --> 00:07:06,972
+penghasilan, karena bunga bisa berubah.
 
 169
-00:07:03,070 --> 00:07:05,404
-menjadi pilihan yang lebih menarik.
+00:07:07,422 --> 00:07:09,758
+Ketiga, kalau punya utang berbunga tinggi
 
 170
-00:07:05,854 --> 00:07:07,847
-Ingat, ini bukan saran
+00:07:09,758 --> 00:07:12,493
+seperti kartu kredit atau paylater, prioritaskan
 
 171
-00:07:07,847 --> 00:07:10,475
-investasi. Ini cara berpikir.
+00:07:12,493 --> 00:07:13,975
+untuk dilunasi lebih dulu.
 
 172
-00:07:10,925 --> 00:07:13,735
-Karena pertanyaannya bukan, apakah BI Rate
+00:07:14,425 --> 00:07:17,892
+Keempat, manfaatkan sisi baiknya. Saat bunga tinggi,
 
 173
-00:07:13,735 --> 00:07:15,810
-akan naik atau turun. Tidak ada
+00:07:17,892 --> 00:07:21,293
+instrumen seperti deposito dan obligasi negara bisa
 
 174
-00:07:15,810 --> 00:07:17,483
-yang bisa memastikan itu.
+00:07:21,293 --> 00:07:23,628
+menjadi pilihan yang lebih menarik.
 
 175
-00:07:17,933 --> 00:07:21,691
-Pertanyaannya adalah, apakah keuanganmu siap menghadapi keduanya?
+00:07:24,078 --> 00:07:26,071
+Ingat, ini bukan saran
 
 176
-00:07:22,141 --> 00:07:24,273
-Jadi, kalau BI Rate benar-benar naik
+00:07:26,071 --> 00:07:28,698
+investasi. Ini cara berpikir.
 
 177
-00:07:24,273 --> 00:07:26,346
-ke tujuh persen, kamu termasuk yang
+00:07:29,148 --> 00:07:31,959
+Karena pertanyaannya bukan, apakah BI Rate
 
 178
-00:07:26,346 --> 00:07:28,775
-membayar bunga, atau yang menerima bunga?
+00:07:31,959 --> 00:07:34,033
+akan naik atau turun. Tidak ada
 
 179
-00:07:29,225 --> 00:07:31,834
-Tulis jawabanmu di kolom komentar.
+00:07:34,033 --> 00:07:35,706
+yang bisa memastikan itu.
 
 180
-00:07:31,834 --> 00:07:33,675
-Saya baca satu per satu.
+00:07:36,156 --> 00:07:39,914
+Pertanyaannya adalah, apakah keuanganmu siap menghadapi keduanya?
 
 181
-00:07:34,125 --> 00:07:36,453
-Kalau video ini bermanfaat, bagikan ke satu
+00:07:40,364 --> 00:07:42,497
+Jadi, kalau BI Rate benar-benar naik
 
 182
-00:07:36,453 --> 00:07:39,052
-orang yang sedang mencicil rumah atau kendaraan.
+00:07:42,497 --> 00:07:44,570
+ke tujuh persen, kamu termasuk yang
 
 183
-00:07:39,502 --> 00:07:41,822
-Dan subscribe, karena di video berikutnya kita
+00:07:44,570 --> 00:07:46,998
+membayar bunga, atau yang menerima bunga?
 
 184
-00:07:41,822 --> 00:07:43,890
-akan membahas apa yang terjadi kalau bank
+00:07:47,448 --> 00:07:50,057
+Tulis jawabanmu di kolom komentar.
 
 185
-00:07:43,890 --> 00:07:45,908
-tempat kamu menabung tiba-tiba bangkrut.
+00:07:50,057 --> 00:07:51,899
+Saya baca satu per satu.
 
 186
-00:07:46,358 --> 00:07:48,200
-Video ini bukan ajakan untuk
+00:07:52,349 --> 00:07:54,677
+Kalau video ini bermanfaat, bagikan ke satu
 
 187
-00:07:48,200 --> 00:07:50,107
-membeli atau menjual aset apa
+00:07:54,677 --> 00:07:57,275
+orang yang sedang mencicil rumah atau kendaraan.
 
 188
-00:07:50,107 --> 00:07:52,343
-pun. Selalu lakukan riset sendiri.
+00:07:57,725 --> 00:08:00,046
+Dan subscribe, karena di video berikutnya kita
 
 189
-00:07:52,793 --> 00:07:54,779
+00:08:00,046 --> 00:08:02,114
+akan membahas apa yang terjadi kalau bank
+
+190
+00:08:02,114 --> 00:08:04,131
+tempat kamu menabung tiba-tiba bangkrut.
+
+191
+00:08:04,581 --> 00:08:06,423
+Video ini bukan ajakan untuk
+
+192
+00:08:06,423 --> 00:08:08,330
+membeli atau menjual aset apa
+
+193
+00:08:08,330 --> 00:08:10,566
+pun. Selalu lakukan riset sendiri.
+
+194
+00:08:11,016 --> 00:08:13,003
 Sampai jumpa di skenario berikutnya.
 
