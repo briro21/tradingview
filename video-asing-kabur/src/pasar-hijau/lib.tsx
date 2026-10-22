@@ -20,8 +20,24 @@ export const usePop = (at: number, damping = 10) => {
 
 export const Pop: React.FC<{at: number; children: React.ReactNode; style?: React.CSSProperties}> = ({at, children, style}) => {
   const s = usePop(at);
-  if (useSec() < at) return null;
-  return <div style={{transform: `scale(${s})`, ...style}}>{children}</div>;
+  const sec = useSec();
+  if (sec < at) return null;
+  const k = (at * 7.3) % 6.28;
+  const floatY = Math.sin(sec * 1.6 + k) * 5;
+  const rot = Math.sin(sec * 0.9 + k) * 0.6;
+  return <div style={{...style, transform: `${style?.transform ?? ''} translateY(${floatY}px) rotate(${rot}deg) scale(${s})`}}>{children}</div>;
+};
+
+// Sebelum isinya muncul, tampilkan kerangka samar yang berdenyut (supaya layar tidak kosong).
+export const Slot: React.FC<{at: number; w?: number | string; h: number; children: React.ReactNode; style?: React.CSSProperties; round?: number}> = ({at, w, h, children, style, round = 28}) => {
+  const sec = useSec();
+  if (sec >= at) return <Pop at={at} style={style}>{children}</Pop>;
+  const pulse = 0.35 + 0.2 * Math.sin(sec * 4);
+  return (
+    <div style={{...style, width: w, height: h, borderRadius: round, border: `6px dashed rgba(120,120,140,${pulse + 0.2})`, background: `rgba(120,120,140,${pulse * 0.25})`, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+      <span style={{fontFamily: FONT, fontWeight: 900, fontSize: 90, color: `rgba(120,120,140,${pulse + 0.2})`}}>?</span>
+    </div>
+  );
 };
 
 export const Txt: React.FC<{text: string; size?: number; color?: string; style?: React.CSSProperties}> = ({

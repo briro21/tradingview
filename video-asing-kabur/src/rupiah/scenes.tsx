@@ -1,10 +1,11 @@
 import {AbsoluteFill, interpolate, useCurrentFrame} from 'remotion';
 import {MysteryBox, Pulse} from '../asing-kabur/scenes';
+import {Ambient} from '../components/Ambient';
 import {Background} from '../components/Background';
 import {Camera, Grade, Layer} from '../cinematic/Camera';
 import {Character, Face, Pose} from '../cinematic/Character';
 import {Chair, Monitor, NightRoom, SunsetOffice} from '../cinematic/Sets';
-import {Abs, Coin, Panel, Pop, Txt, usePop, useSec} from '../pasar-hijau/lib';
+import {Abs, Coin, Panel, Pop, Slot, Txt, usePop, useSec} from '../pasar-hijau/lib';
 import {C, FONT, useTheme} from '../theme';
 
 export type Line = {text: string; at: number; color?: string; size?: number};
@@ -259,14 +260,14 @@ export const Cards: React.FC<{title?: Line; cards: {e: string; t: string; sub?: 
         {cards.map((c) => {
           const on = c === active;
           return (
-            <Pop key={c.t} at={c.at}>
+            <Slot key={c.t} at={c.at} w={400} h={520}>
               <Card w={400} h={520} style={{transform: `translateY(${on ? -20 : 0}px)`, background: on ? '#fffaf0' : '#d9d3c4', boxShadow: on ? `0 14px 0 ${C.ink}, 0 0 60px ${c.color ?? (flow === 'in' ? C.green : C.red)}` : `0 14px 0 ${C.ink}`}}>
                 <div style={{fontSize: 140}}>{c.e}</div>
                 <Ink t={c.t} s={42} />
                 {c.sub && <Ink t={c.sub} s={28} c="#555" />}
                 {flow && <Ink t={flow === 'out' ? '$ keluar ↗' : '$ masuk ↙'} s={30} c={flow === 'out' ? C.red : C.green} />}
               </Card>
-            </Pop>
+            </Slot>
           );
         })}
       </div>
@@ -353,7 +354,8 @@ export const Bars: React.FC<{bars: {t: string; v: number; at: number; color?: st
 
 // Layar hitam dramatis.
 export const Dark: React.FC<{lines: Line[]}> = ({lines}) => (
-  <AbsoluteFill style={{background: '#0d0d10'}}>
+  <AbsoluteFill>
+    <Ambient />
     <Lines lines={lines} align="center" y={380} color="#fff" />
   </AbsoluteFill>
 );
@@ -796,7 +798,7 @@ export const Lessons: React.FC<{items: {t: string; sub: string; e: string; at: n
         {items.map((r, i) => {
           const active = sec >= r.at && (i === items.length - 1 || sec < items[i + 1].at);
           return (
-            <Pop key={r.t} at={r.at} style={{flex: 1}}>
+            <Slot key={r.t} at={r.at} h={560} style={{flex: 1}}>
               <Panel style={{padding: 30, minHeight: 540, background: active ? '#fffaf0' : '#a9a493', transform: `translateY(${active ? -18 : 0}px)`}}>
                 <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                   <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 100, color: active ? C.green : '#555'}}>{i + 1}</div>
@@ -805,7 +807,7 @@ export const Lessons: React.FC<{items: {t: string; sub: string; e: string; at: n
                 <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 46, color: C.ink, lineHeight: 1.1}}>{r.t}</div>
                 <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 28, color: '#555', marginTop: 18}}>{r.sub}</div>
               </Panel>
-            </Pop>
+            </Slot>
           );
         })}
       </div>

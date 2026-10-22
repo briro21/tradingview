@@ -1,4 +1,5 @@
-import {AbsoluteFill} from 'remotion';
+import {AbsoluteFill, useCurrentFrame} from 'remotion';
+import {Particles} from './Ambient';
 import {useTheme} from '../theme';
 
 // Latar biru gelap + grid tipis + glow opsional di belakang objek utama.
@@ -8,7 +9,10 @@ export const Background: React.FC<{glow?: string; glowX?: string; glowY?: string
   glowY = '50%',
 }) => {
   const t = useTheme();
+  const frame = useCurrentFrame();
+  const drift = (frame * 0.6) % 80;
   return (
+  <>
   <AbsoluteFill
     style={{
       backgroundColor: t.bg,
@@ -20,7 +24,10 @@ export const Background: React.FC<{glow?: string; glowX?: string; glowY?: string
         .filter(Boolean)
         .join(','),
       backgroundSize: glow ? '100% 100%, 80px 80px, 80px 80px' : '80px 80px, 80px 80px',
+      backgroundPosition: glow ? `0 0, ${drift}px ${drift}px, ${drift}px ${drift}px` : `${drift}px ${drift}px, ${drift}px ${drift}px`,
     }}
   />
+  <Particles n={14} color={t.text === '#ffffff' ? '#ffffff' : '#7b5cff'} opacity={0.18} />
+  </>
   );
 };

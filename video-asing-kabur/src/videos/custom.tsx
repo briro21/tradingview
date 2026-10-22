@@ -2,7 +2,7 @@ import {AbsoluteFill, interpolate} from 'remotion';
 import {Background} from '../components/Background';
 import {Camera, Grade} from '../cinematic/Camera';
 import {Character} from '../cinematic/Character';
-import {Abs, Coin, Panel, Pop, Txt, useSec} from '../pasar-hijau/lib';
+import {Abs, Coin, Panel, Pop, Slot, Txt, useSec} from '../pasar-hijau/lib';
 import {Card, fmt, Ink, Line, Lines, ramp} from '../rupiah/scenes';
 import {C, FONT, useTheme} from '../theme';
 
@@ -303,12 +303,12 @@ export const People: React.FC<{items: {t: string; face: 'senang' | 'sedih' | 'ka
     <Background glow="rgba(255,201,60,0.25)" />
     <div style={{position: 'absolute', left: 100, right: 100, top: 260, display: 'flex', justifyContent: 'space-around'}}>
       {items.map((p) => (
-        <Pop key={p.t} at={p.at}>
+        <Slot key={p.t} at={p.at} w={360} h={560} round={180}>
           <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10}}>
             <Character pose={p.face === 'senang' ? 'cheer' : p.face === 'sedih' ? 'headInHands' : 'stand'} face={p.face} jacket={p.jacket} rim="#ffffff" height={480} />
             <Txt text={p.t} size={44} />
           </div>
-        </Pop>
+        </Slot>
       ))}
     </div>
     <Lines lines={lines} align="center" />

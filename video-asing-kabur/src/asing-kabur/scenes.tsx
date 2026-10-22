@@ -1,4 +1,5 @@
 import {AbsoluteFill, interpolate} from 'remotion';
+import {Ambient} from '../components/Ambient';
 import {Background} from '../components/Background';
 import {Camera, Grade, Layer} from '../cinematic/Camera';
 import {Character} from '../cinematic/Character';
@@ -227,7 +228,8 @@ export const Chapter: React.FC<{label: string; sub: string; at: number; color?: 
     return `${i ? 'L' : 'M'}${x} ${y}`;
   }).join(' ');
   return (
-    <AbsoluteFill style={{background: '#0d0d10', alignItems: 'center', justifyContent: 'center'}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center'}}>
+      <Ambient color={color} base="#120e22" />
       <svg width={1920} height={400} style={{position: 'absolute', top: 340, opacity: 0.5}}>
         <path d={ecg} transform="translate(0 200)" stroke={color} strokeWidth={6} fill="none" />
       </svg>
@@ -477,7 +479,8 @@ export const Rates: React.FC = () => {
 
 // Jeda dramatis: "Belum."
 export const NotYet: React.FC = () => (
-  <AbsoluteFill style={{background: '#0d0d10', alignItems: 'center', justifyContent: 'center', gap: 30}}>
+  <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', gap: 30}}>
+    <Ambient color="#ff4b3e" />
     <Pop at={149.3}>
       <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 60, color: '#888'}}>Kalau kamu pikir ini sudah paling buruk...</div>
     </Pop>

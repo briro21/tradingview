@@ -1,4 +1,4 @@
-import {AbsoluteFill, Audio, Loop, Sequence, staticFile, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Audio, interpolate, Loop, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Captions} from '../pasar-hijau/Captions';
 import {T0} from '../pasar-hijau/lib';
 import {DEFAULT_THEME, ThemeCtx, ThemeName} from '../theme';
@@ -18,7 +18,9 @@ export const WhatIf: React.FC<{timeline: Seg[]; captions: Cue[]; audio: string; 
           const end = Math.round((timeline[i + 1]?.start ?? duration) * fps);
           return (
             <Sequence key={`${seg.start}-${i}`} from={from} durationInFrames={Math.max(1, end - from)}>
-              <T0.Provider value={seg.start}>{seg.el}</T0.Provider>
+              <T0.Provider value={seg.start}>
+                <SceneIn dir={i % 2 ? 1 : -1}>{seg.el}</SceneIn>
+              </T0.Provider>
             </Sequence>
           );
         })}
@@ -38,6 +40,21 @@ export const WhatIf: React.FC<{timeline: Seg[]; captions: Cue[]; audio: string; 
         </Loop>
       </AbsoluteFill>
     </ThemeCtx.Provider>
+  );
+};
+
+// Masuk adegan: zoom + blur singkat (±0,3 dtk), lalu kamera bergerak pelan selama adegan.
+const SceneIn: React.FC<{children: React.ReactNode; dir: number}> = ({children, dir}) => {
+  const frame = useCurrentFrame();
+  const {durationInFrames} = useVideoConfig();
+  const enter = interpolate(frame, [0, 9], [0, 1], {extrapolateRight: 'clamp', easing: (x) => 1 - Math.pow(1 - x, 3)});
+  const drift = interpolate(frame, [0, Math.max(durationInFrames, 30)], [0, 1]);
+  const scale = (1.12 - 0.12 * enter) * (1 + 0.045 * drift);
+  const x = (1 - enter) * 60 * dir + drift * 18 * dir;
+  return (
+    <AbsoluteFill style={{transform: `translateX(${x}px) scale(${scale})`, filter: enter < 1 ? `blur(${(1 - enter) * 12}px)` : undefined, opacity: 0.4 + 0.6 * enter}}>
+      {children}
+    </AbsoluteFill>
   );
 };
 
