@@ -14,6 +14,26 @@ GAP = 0.45        # jeda antar kalimat (detik)
 CHAPTER_GAP = 0.9  # jeda lebih panjang setelah baris pendek seperti "Hari pertama."
 MAX_WORDS = 7
 
+# Suara per tokoh untuk baris dialog berformat ">> Nama: teks".
+VOICES = {
+    'Kamu': ('id-ID-ArdiNeural', '+0%', '+12Hz'),
+    'Raka': ('id-ID-ArdiNeural', '+8%', '+25Hz'),
+    'Pak Joko': ('id-ID-ArdiNeural', '-14%', '-18Hz'),
+    'Bu Ana': ('id-ID-GadisNeural', '-6%', '-4Hz'),
+    'Petugas': ('id-ID-ArdiNeural', '-6%', '-10Hz'),
+    'Surat': ('id-ID-GadisNeural', '-18%', '-12Hz'),
+}
+
+
+def parse(line):
+    """Kembalikan (teks tampilan untuk subtitle, teks yang diucapkan, (voice, rate, pitch))."""
+    if line.startswith('>> ') and ':' in line:
+        name, said = line[3:].split(':', 1)
+        name, said = name.strip(), said.strip()
+        voice, rate, pitch = VOICES.get(name, (VOICE, RATE, '+0Hz'))
+        return f'{name}: {said}', said, (voice, rate, pitch)
+    return line, line, (VOICE, RATE, '+0Hz')
+
 
 def dur(path):
     out = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', path], capture_output=True, text=True)
@@ -32,7 +52,8 @@ def main(src, mp3, srt):
     silence = os.path.join(tmp, 'sil.wav')
     for i, line in enumerate(lines):
         raw = os.path.join(tmp, f'{i:03}.mp3')
-        cmd = ['edge-tts', '--voice', VOICE, f'--rate={RATE}', '--text', line, '--write-media', raw]
+        display, spoken, (voice, rate, pitch) = parse(line)
+        cmd = ['edge-tts', '--voice', voice, f'--rate={rate}', f'--pitch={pitch}', '--text', spoken, '--write-media', raw]
         if os.environ.get('HTTPS_PROXY'):
             cmd[1:1] = ['--proxy', os.environ['HTTPS_PROXY']]
         # Layanan TTS kadang gagal sesaat: coba ulang beberapa kali.
@@ -48,7 +69,7 @@ def main(src, mp3, srt):
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', raw, '-af', trim, '-ar', '24000', '-ac', '1', wav], check=True)
         d = dur(wav)
         # Bagi kalimat menjadi potongan subtitle, waktu proporsional dengan jumlah huruf.
-        words = line.split()
+        words = display.split()
         n = -(-len(words) // MAX_WORDS)
         size = -(-len(words) // n)
         chunks = [' '.join(words[k * size:(k + 1) * size]) for k in range(n)]

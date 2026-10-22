@@ -1,0 +1,22 @@
+{
+  "slug": "lihat-10-detik",
+  "titles": [
+    "What If Kamu Bisa Melihat Harga Saham 10 Detik Lebih Awal?",
+    "Dia Tidak Pernah Rugi di Saham... Sampai Harus Memilih Uang atau Ayahnya",
+    "Bisa Lihat Harga Saham 10 Detik ke Depan: Kaya Raya atau Celaka?"
+  ],
+  "intro": "Bagaimana kalau suatu pagi kamu bangun dan bisa melihat harga saham 10 detik sebelum terjadi? Bukan besok, bukan minggu depan, hanya 10 detik. Kedengarannya kecil, tapi di pasar saham, 10 detik itu sangat lama.\n\nDi cerita what if ini, kamu memulai dari sisa uang jajan, lalu membelikan rumah untuk orang tua, viral di media sosial, sampai diperiksa tim pengawasan pasar karena 1.000 transaksi tanpa rugi. Lalu tibalah satu pagi ketika kamu harus memilih dalam 10 detik: menyelamatkan uangmu sendiri, atau menyelamatkan tabungan pensiun ayahmu.\n\nDi dalam cerita fiksi ini ada pelajaran nyata soal investasi: tidak ada kepastian di pasar saham, jangan menaruh semua tabungan di satu tempat, jangan ikut-ikutan, dan waspadai siapa pun yang menjanjikan untung pasti.",
+  "question": "Kalau kamu bisa melihat harga saham 10 detik lebih awal, apa yang akan kamu lakukan pertama kali? Dan menurutmu, siapa pengirim amplop itu?",
+  "sources": [
+    "Cerita fiksi. Konsep pengawasan transaksi tidak wajar di bursa adalah praktik nyata di pasar modal."
+  ],
+  "note": "Semua tokoh, angka saldo, dan pergerakan harga dalam video adalah fiksi/ilustrasi.",
+  "chapters": [[0, "Membeli 10 detik sebelum naik"], [9, "Aturannya: hanya 10 detik"], [15, "Hari pertama: dari uang jajan"], [22, "Minggu pertama"], [30, "Rumah untuk Pak Joko & Bu Ana"], [35, "Viral & akun palsu"], [41, "Diperiksa tim pengawasan"], [56, "Harga yang harus dibayar"], [62, "Hari itu: 10 detik untuk memilih"], [82, "Telepon untuk Ayah"], [92, "Uang bisa dicari lagi"], [96, "Pelajaran"], [100, "Amplop misterius"], [106, "Apa yang akan kamu lakukan?"]],
+  "tags": ["what if", "what if saham", "cerita saham", "saham", "trading saham", "investasi saham", "IHSG", "insider trading", "pasar modal", "investor pemula", "penipuan sinyal saham", "grup sinyal saham", "cerita inspiratif", "kisah ayah dan anak", "keuangan keluarga", "dana pensiun", "melihat masa depan", "superpower", "animasi", "edukasi keuangan"],
+  "hashtags": ["#WhatIf", "#Saham", "#CeritaSaham", "#Investasi", "#IHSG"],
+  "thumbs": {
+    "v1": {"top": "10 DETIK", "main": "LEBIH AWAL?", "badge": "0 RUGI", "emoji": "⏱️"},
+    "v2": {"kicker": "WHAT IF", "main": "LIHAT HARGA\n10 DETIK KE DEPAN?", "bottom": "TIDAK PERNAH RUGI", "emoji": "👁️"},
+    "v3": {"top": "10 DETIK UNTUK MEMILIH:", "left": "UANGMU", "right": "AYAHMU", "leftEmoji": "💰", "rightEmoji": "👨"}
+  }
+}

@@ -98,7 +98,7 @@ export const Faucet: React.FC<{openAt: number; closeAt: number; lines: Line[]}> 
 // ───────── Bank ─────────
 
 // Pesan berantai WhatsApp di layar ponsel.
-export const ChatHoax: React.FC<{msgs: {text: string; at: number; me?: boolean}[]; lines: Line[]}> = ({msgs, lines}) => {
+export const ChatHoax: React.FC<{msgs: {text: string; at: number; me?: boolean}[]; lines: Line[]; title?: string}> = ({msgs, lines, title = '👨‍👩‍👧 Keluarga Besar'}) => {
   const sec = useSec();
   return (
     <Camera zoom={[1, 1.08]} pan={[0, -10]}>
@@ -108,7 +108,7 @@ export const ChatHoax: React.FC<{msgs: {text: string; at: number; me?: boolean}[
       </Abs>
       <Abs x={360} y={80}>
         <div style={{width: 600, height: 900, borderRadius: 60, background: '#0b141a', border: `14px solid ${C.ink}`, overflow: 'hidden', display: 'flex', flexDirection: 'column'}}>
-          <div style={{background: '#1f2c33', padding: '26px 30px', fontFamily: FONT, fontWeight: 900, fontSize: 34, color: '#fff'}}>👨‍👩‍👧 Keluarga Besar</div>
+          <div style={{background: '#1f2c33', padding: '26px 30px', fontFamily: FONT, fontWeight: 900, fontSize: 34, color: '#fff'}}>{title}</div>
           <div style={{flex: 1, padding: 24, display: 'flex', flexDirection: 'column', gap: 18}}>
             {msgs.map((m) =>
               sec > m.at ? (

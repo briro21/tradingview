@@ -23,7 +23,8 @@ def main(naskah, srt, outdir):
         cues.append({'start': ts(a), 'end': ts(b), 'text': ' '.join(l[2:])})
     lines, k = [], 0
     for i, line in enumerate(l.strip() for l in open(naskah, encoding='utf-8') if l.strip()):
-        n = -(-len(line.split()) // MAX_WORDS)
+        shown = line[3:] if line.startswith('>> ') and ':' in line else line  # sama dengan tts_vo.parse
+        n = -(-len(shown.split()) // MAX_WORDS)
         lines.append({'i': i, 'start': cues[k]['start'], 'end': cues[k + n - 1]['end'], 'text': line})
         k += n
     assert k == len(cues)

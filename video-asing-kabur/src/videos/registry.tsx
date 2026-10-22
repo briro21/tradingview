@@ -22,6 +22,10 @@ import {timeline as bank} from './bank-bangkrut/storyboard';
 import bankCaptions from './bank-bangkrut/captions.json';
 import bankLines from './bank-bangkrut/lines.json';
 import bankMeta from './bank-bangkrut/meta.json';
+import {timeline as lihat} from './lihat-10-detik/storyboard';
+import lihatCaptions from './lihat-10-detik/captions.json';
+import lihatLines from './lihat-10-detik/lines.json';
+import lihatMeta from './lihat-10-detik/meta.json';
 import {ThumbData} from './Thumb';
 import {Cue, durationOf, LineT, makeL, Seg, WhatIf} from './WhatIf';
 
@@ -35,6 +39,7 @@ export const VIDEOS: Video[] = [
   {slug: 'danantara', lines: danaLines, captions: danaCaptions, timeline: dana, thumbs: danaMeta.thumbs},
   {slug: 'bi-rate-7', lines: birateLines, captions: birateCaptions, timeline: birate, thumbs: birateMeta.thumbs},
   {slug: 'bank-bangkrut', lines: bankLines, captions: bankCaptions, timeline: bank, thumbs: bankMeta.thumbs},
+  {slug: 'lihat-10-detik', lines: lihatLines, captions: lihatCaptions, timeline: lihat, thumbs: lihatMeta.thumbs},
 ];
 
 // Komposisi hanya menerima slug (props Remotion harus bisa di-JSON-kan); storyboard dicari di sini.
