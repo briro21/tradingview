@@ -25,4 +25,8 @@ for slug in "$@"; do
   echo "== $slug: render video"
   npx remotion render WhatIf-$slug out/what-if-$slug.mp4 --browser-executable="$BROWSER" --concurrency=4 > out/render-$slug.log 2>&1
   ls -la out/what-if-$slug.mp4
+  # Salinan ringan (~5 Mbps) bila file asli terlalu besar untuk dikirim/diunduh cepat.
+  if [ "$(stat -c %s out/what-if-$slug.mp4)" -gt 390000000 ]; then
+    ffmpeg -v error -y -i out/what-if-$slug.mp4 -c:v libx264 -preset medium -b:v 4600k -maxrate 6000k -bufsize 9000k -pix_fmt yuv420p -c:a copy -movflags +faststart out/what-if-$slug-send.mp4
+  fi
 done
