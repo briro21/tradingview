@@ -28,7 +28,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   {start: L(26, -0.3), el: <Chapter at={L(26)} label="HARI 1" sub="Pengumuman keluar" />, sfx: 'boom'},
   {start: L(27, -0.3), el: <S.NewsRoom kicker="BANK INDONESIA" title1="BI RATE NAIK KE" title2="7,00%" headlineAt={L(27)} shockAt={L(28)} />},
   {start: L(28, 2), el: <S.Cards flow="out" title={{text: 'SAHAM PALING TERPUKUL', at: L(28, 2), size: 70, color: C.red}} cards={[{e: '🏘️', t: 'Properti', at: L(28, 3)}, {e: '🚗', t: 'Otomotif', at: L(28, 3.6)}, {e: '🧾', t: 'Utang besar', sub: 'biaya bunga naik', at: L(29)}]} />, sfx: 'whoosh'},
-  {start: L(30, -0.3), el: <S.Split at={L(30)} lines={[{text: 'Rupiah justru menguat', at: L(30), size: 60, color: C.green}, {text: 'Obat untuk rupiah, pahit untuk pertumbuhan', at: L(31), size: 46, color: C.yellow}, {text: 'Biaya utang negara ikut naik', at: L(32), size: 46, color: C.red}]} />},
+  {start: L(30, -0.3), el: <S.Split at={L(30)} left="PERTUMBUHAN" right="RUPIAH" lines={[{text: 'Rupiah justru menguat', at: L(30), size: 60, color: C.green}, {text: 'Obat untuk rupiah, pahit untuk pertumbuhan', at: L(31), size: 46, color: C.yellow}, {text: 'Biaya utang negara ikut naik', at: L(32), size: 46, color: C.red}]} />},
   {start: L(33, -0.3), el: <Chapter at={L(33)} label="MINGGU 1" sub="Surat dari bank" />, sfx: 'boom'},
   {start: L(34, -0.3), el: <S.Bars bars={[{t: 'Bunga deposito', v: 0.5, at: L(34, 2), color: C.green}, {t: 'Bunga kredit', v: 0.8, at: L(34, 3.5)}]} lines={[{text: 'BANK MENYESUAIKAN', at: L(34), size: 76}, {text: 'KPR bunga mengambang: surat datang', at: L(35), size: 46, color: C.red}]} />},
   {start: L(36, -0.3), el: <S.BigPrice e="🏠" label="KPR Rp500 juta · 20 tahun" from={4182000} to={4825000} at={L(39)} delta="+Rp643 RIBU/bln" lines={[{text: 'COBA KITA HITUNG', at: L(36), size: 70}, {text: 'Bunga 8% → 10%', at: L(38), size: 56, color: C.red}, {text: '≈ +Rp7,7 juta setahun', at: L(40, 2), size: 56, color: C.red}]} />, sfx: 'whoosh'},
@@ -43,7 +43,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   {start: L(57, -0.3), el: <S.BigPrice e="🏦" label="Deposito Rp100 juta · hasil setahun (setelah pajak)" from={2800000} to={4000000} at={L(58, 4)} delta="+Rp1,2 JUTA" lines={[{text: 'Uang di bank bekerja lebih keras', at: L(57), size: 56, color: C.green}, {text: 'Bunga 3,5% → 5%', at: L(58, 2), size: 56}]} />, sfx: 'whoosh'},
   {start: L(59, -0.3), el: <S.Cards flow="in" title={{text: 'YANG IKUT UNTUNG', at: L(59), size: 76, color: C.green}} cards={[{e: '📜', t: 'ORI & SBR', sub: 'kupon ikut naik', at: L(59, 1)}, {e: '💵', t: 'Pemegang tunai', sub: 'beli aset yang turun', at: L(60)}]} />},
   {start: L(61, -0.3), el: <S.Dark lines={[{text: 'TAPI INGAT:', at: L(61), size: 80, color: C.yellow}, {text: 'Bunga di atas batas LPS = tidak dijamin', at: L(61, 2), size: 54, color: C.red}]} />, sfx: 'boom'},
-  {start: L(62, -0.3), el: <S.Split at={L(62)} lines={[{text: 'Yang membayar bunga vs yang menerima bunga', at: L(62, 1), size: 50}, {text: 'Kamu di kelompok mana?', at: L(63), size: 60, color: C.yellow}]} />, sfx: 'whoosh'},
+  {start: L(62, -0.3), el: <S.Split at={L(62)} left="PEMBAYAR BUNGA" right="PENERIMA BUNGA" lines={[{text: 'Yang membayar bunga vs yang menerima bunga', at: L(62, 1), size: 50}, {text: 'Kamu di kelompok mana?', at: L(63), size: 60, color: C.yellow}]} />, sfx: 'whoosh'},
   {start: L(64, -0.3), el: <Chapter at={L(64)} label="PELAJARAN" sub="Cara berpikir, bukan saran investasi" color={C.green} />, sfx: 'boom'},
   {
     start: L(65, -0.3),

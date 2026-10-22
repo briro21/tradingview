@@ -571,7 +571,7 @@ export const BigPrice: React.FC<{e: string; label: string; from: number; to: num
         </Card>
       </Abs>
       {sec > at + 2.5 && (
-        <Pop at={at + 2.5} style={{position: 'absolute', left: 1200, top: 720}}>
+        <Pop at={at + 2.5} style={{position: 'absolute', right: 90, top: 720, transformOrigin: 'right'}}>
           <div style={{background: C.red, border: `10px solid ${C.ink}`, borderRadius: 20, padding: '10px 34px', transform: 'rotate(-5deg)'}}>
             <Txt text={delta} size={76} />
           </div>
@@ -760,24 +760,24 @@ export const Beach: React.FC<{lines: Line[]}> = ({lines}) => {
   );
 };
 
-export const Split: React.FC<{lines: Line[]; at: number}> = ({lines, at}) => {
+export const Split: React.FC<{lines: Line[]; at: number; left?: string; right?: string}> = ({lines, at, left = 'PECUNDANG', right = 'PEMENANG'}) => {
   const sec = useSec();
   const k = ramp(sec, at, at + 0.8);
   return (
     <AbsoluteFill>
       <AbsoluteFill style={{background: 'linear-gradient(90deg, #ffd6d2 0 50%, #d4f5df 50% 100%)'}} />
       <div style={{position: 'absolute', left: 955, top: 0, bottom: 0, width: 10, background: C.ink}} />
-      <Abs x={260} y={230} style={{transform: `translateX(${(1 - k) * -400}px)`}}>
+      <Abs x={260} y={300} style={{transform: `translateX(${(1 - k) * -400}px)`}}>
         <Character pose="headInHands" face="sedih" jacket={C.red} rim="#ffffff" height={560} />
       </Abs>
-      <Abs x={1240} y={230} style={{transform: `translateX(${(1 - k) * 400}px)`}}>
+      <Abs x={1240} y={300} style={{transform: `translateX(${(1 - k) * 400}px)`}}>
         <Character pose="cheer" face="senang" jacket={C.green} rim="#ffffff" height={560} />
       </Abs>
-      <Abs x={140} y={250}>
-        <Txt text="PECUNDANG" size={70} color={C.red} />
+      <Abs x={0} y={870} style={{width: 955, textAlign: 'center'}}>
+        <Txt text={left} size={Math.min(70, 1100 / left.length)} color={C.red} />
       </Abs>
-      <Abs x={1300} y={250}>
-        <Txt text="PEMENANG" size={70} color={C.green} />
+      <Abs x={965} y={870} style={{width: 955, textAlign: 'center'}}>
+        <Txt text={right} size={Math.min(70, 1100 / right.length)} color={C.green} />
       </Abs>
       <Lines lines={lines} align="center" />
     </AbsoluteFill>

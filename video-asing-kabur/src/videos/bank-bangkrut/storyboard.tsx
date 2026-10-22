@@ -51,7 +51,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   {start: L(50, -0.3), el: <S.Cards title={{text: 'PROSES LIKUIDASI', at: L(50), size: 80}} cards={[{e: '🏷️', t: 'Aset bank dijual', at: L(50, 1)}, {e: '🧾', t: 'Utang tetap utang', sub: 'peminjam wajib bayar', at: L(51)}, {e: '💡', t: 'Bukan cuma di mana', sub: 'tapi bagaimana menyimpan', at: L(52), color: C.green}]} />},
   {start: L(53, -0.3), el: <S.Dark lines={[{text: 'ITULAH SKENARIONYA.', at: L(53), size: 90}]} />, sfx: 'boom'},
   {start: L(54, -0.3), el: <S.Mystery openAt={L(55)} lines={[{text: 'Ingat "simpanan" yang dikira aman?', at: L(54), size: 60}]} reveal={{text: 'PRODUK INVESTASI DI BANK', at: L(56), size: 80, color: C.red}} />, sfx: 'ding'},
-  {start: L(57, -0.3), el: <S.Split at={L(59)} lines={[{text: 'Reksa dana · asuransi · obligasi', at: L(57), size: 50}, {text: 'PADAHAL TIDAK DIJAMIN LPS', at: L(58), size: 64, color: C.red}, {text: 'Hanya tabungan, giro, deposito', at: L(59), size: 50, color: C.green}]} />, sfx: 'whoosh'},
+  {start: L(57, -0.3), el: <S.Split at={L(59)} left="TIDAK DIJAMIN" right="DIJAMIN LPS" lines={[{text: 'Reksa dana · asuransi · obligasi', at: L(57), size: 50}, {text: 'PADAHAL TIDAK DIJAMIN LPS', at: L(58), size: 64, color: C.red}, {text: 'Hanya tabungan, giro, deposito', at: L(59), size: 50, color: C.green}]} />, sfx: 'whoosh'},
   {start: L(60, -0.3), el: <S.Dark lines={[{text: 'Tanyakan satu hal:', at: L(60, 2), size: 64}, {text: 'SIMPANAN', at: L(61, 2), size: 110, color: C.green}, {text: 'atau INVESTASI?', at: L(61, 3), size: 110, color: C.yellow}]} />, sfx: 'boom'},
   {start: L(62, -0.3), el: <Chapter at={L(62)} label="PELAJARAN" sub="Cara melindungi uangmu" color={C.green} />, sfx: 'boom'},
   {

@@ -1,0 +1,947 @@
+[
+{
+"start": 0.3,
+"end": 3.29,
+"text": "Bayangkan setiap bulan, kamu membayar cicilan rumah"
+},
+{
+"start": 3.29,
+"end": 6.046,
+"text": "dengan jumlah yang sama, selama bertahun-tahun."
+},
+{
+"start": 6.496,
+"end": 8.813,
+"text": "Lalu suatu hari, surat dari bank"
+},
+{
+"start": 8.813,
+"end": 11.781,
+"text": "datang. Cicilanmu naik. Bukan karena kamu"
+},
+{
+"start": 11.781,
+"end": 14.605,
+"text": "meminjam lebih banyak, tapi karena satu"
+},
+{
+"start": 14.605,
+"end": 16.995,
+"text": "angka yang diputuskan di Jakarta."
+},
+{
+"start": 17.445,
+"end": 18.851,
+"text": "Angka itu bernama BI Rate."
+},
+{
+"start": 19.301,
+"end": 20.617,
+"text": "Dan hari ini, angka itu"
+},
+{
+"start": 20.617,
+"end": 22.791,
+"text": "sedang menjadi perhatian banyak orang."
+},
+{
+"start": 23.241,
+"end": 24.912,
+"text": "Pada dua puluh satu Oktober dua"
+},
+{
+"start": 24.912,
+"end": 26.799,
+"text": "ribu dua puluh enam, Bank Indonesia"
+},
+{
+"start": 26.799,
+"end": 28.686,
+"text": "memutuskan menahan BI Rate di level"
+},
+{
+"start": 28.686,
+"end": 30.196,
+"text": "lima koma tujuh lima persen."
+},
+{
+"start": 30.646,
+"end": 32.974,
+"text": "Tapi di saat yang sama, BI menaikkan"
+},
+{
+"start": 32.974,
+"end": 36.078,
+"text": "suku bunga deposit facility menjadi lima persen."
+},
+{
+"start": 36.078,
+"end": 39.569,
+"text": "Dan sebelum rapat, sejumlah ekonom sudah memperkirakan"
+},
+{
+"start": 39.569,
+"end": 41.121,
+"text": "kenaikan ke enam persen."
+},
+{
+"start": 41.571,
+"end": 43.905,
+"text": "Menariknya, BI juga menurunkan giro wajib"
+},
+{
+"start": 43.905,
+"end": 46.637,
+"text": "minimum perbankan secara bertahap, dari sembilan"
+},
+{
+"start": 46.637,
+"end": 48.914,
+"text": "persen menjadi tujuh persen, supaya bank"
+},
+{
+"start": 48.914,
+"end": 51.248,
+"text": "punya lebih banyak dana untuk disalurkan."
+},
+{
+"start": 51.698,
+"end": 54.003,
+"text": "Jadi BI sedang menyeimbangkan dua hal"
+},
+{
+"start": 54.003,
+"end": 57.118,
+"text": "sekaligus: menjaga rupiah, tanpa mencekik ekonomi."
+},
+{
+"start": 57.568,
+"end": 59.532,
+"text": "Tahun ini, BI juga sudah beberapa"
+},
+{
+"start": 59.532,
+"end": 61.912,
+"text": "kali menaikkan suku bunga, bahkan sempat"
+},
+{
+"start": 61.912,
+"end": 63.876,
+"text": "di luar jadwal rapat rutin, untuk"
+},
+{
+"start": 63.876,
+"end": 65.542,
+"text": "menahan tekanan pada rupiah."
+},
+{
+"start": 65.992,
+"end": 69.491,
+"text": "Jadi pertanyaannya: bagaimana kalau tekanan terus berlanjut,"
+},
+{
+"start": 69.491,
+"end": 71.648,
+"text": "dan BI Rate naik sampai tujuh persen?"
+},
+{
+"start": 72.098,
+"end": 73.958,
+"text": "Di video ini, kita jalani"
+},
+{
+"start": 73.958,
+"end": 76.04,
+"text": "skenarionya, hari demi hari."
+},
+{
+"start": 76.49,
+"end": 78.304,
+"text": "Dan tonton sampai akhir, karena ada"
+},
+{
+"start": 78.304,
+"end": 80.739,
+"text": "satu kelompok yang justru diam-diam diuntungkan"
+},
+{
+"start": 80.739,
+"end": 81.827,
+"text": "saat suku bunga naik."
+},
+{
+"start": 82.277,
+"end": 84.587,
+"text": "Pertama, kita harus paham dulu,"
+},
+{
+"start": 84.587,
+"end": 85.779,
+"text": "apa itu BI Rate."
+},
+{
+"start": 86.229,
+"end": 88.069,
+"text": "BI Rate adalah suku bunga acuan"
+},
+{
+"start": 88.069,
+"end": 90.563,
+"text": "Bank Indonesia. Bayangkan ia sebagai keran"
+},
+{
+"start": 90.563,
+"end": 92.937,
+"text": "utama yang mengatur seberapa mahal harga"
+},
+{
+"start": 92.937,
+"end": 94.302,
+"text": "uang di seluruh negeri."
+},
+{
+"start": 94.752,
+"end": 97.708,
+"text": "Kalau keran dibuka, suku bunga turun,"
+},
+{
+"start": 97.708,
+"end": 100.424,
+"text": "uang jadi murah. Orang lebih mudah"
+},
+{
+"start": 100.424,
+"end": 103.54,
+"text": "meminjam, berbelanja, dan berinvestasi."
+},
+{
+"start": 103.99,
+"end": 106.659,
+"text": "Kalau keran diputar, suku bunga naik,"
+},
+{
+"start": 106.659,
+"end": 109.399,
+"text": "uang jadi mahal. Pinjaman lebih berat,"
+},
+{
+"start": 109.399,
+"end": 111.491,
+"text": "orang lebih memilih menabung."
+},
+{
+"start": 111.941,
+"end": 112.921,
+"text": "Lalu kenapa BI mau"
+},
+{
+"start": 112.921,
+"end": 114.227,
+"text": "membuat uang jadi mahal?"
+},
+{
+"start": 114.677,
+"end": 117.592,
+"text": "Ada dua alasan utama: inflasi dan rupiah."
+},
+{
+"start": 118.042,
+"end": 120.394,
+"text": "Saat harga-harga naik terlalu cepat, suku"
+},
+{
+"start": 120.394,
+"end": 123.034,
+"text": "bunga tinggi membantu mengerem belanja, supaya"
+},
+{
+"start": 123.034,
+"end": 124.641,
+"text": "inflasi tidak lepas kendali."
+},
+{
+"start": 125.091,
+"end": 127.34,
+"text": "Dan saat rupiah tertekan, suku bunga tinggi"
+},
+{
+"start": 127.34,
+"end": 129.956,
+"text": "membuat menyimpan uang dalam rupiah lebih menarik,"
+},
+{
+"start": 129.956,
+"end": 132.939,
+"text": "sehingga investor tidak buru-buru membawa uangnya keluar."
+},
+{
+"start": 133.389,
+"end": 135.708,
+"text": "Ingat, pertengahan Oktober ini rupiah sudah"
+},
+{
+"start": 135.708,
+"end": 137.758,
+"text": "menembus delapan belas ribu per dolar."
+},
+{
+"start": 138.208,
+"end": 139.527,
+"text": "Apakah suku bunga setinggi"
+},
+{
+"start": 139.527,
+"end": 140.948,
+"text": "tujuh persen pernah terjadi?"
+},
+{
+"start": 141.398,
+"end": 144.207,
+"text": "Pernah. Bahkan lebih tinggi."
+},
+{
+"start": 145.107,
+"end": 147.122,
+"text": "Di akhir tahun dua ribu lima, BI"
+},
+{
+"start": 147.122,
+"end": 149.703,
+"text": "Rate pernah mencapai dua belas koma tujuh"
+},
+{
+"start": 149.703,
+"end": 152.411,
+"text": "lima persen. Dan beberapa tahun lalu, untuk"
+},
+{
+"start": 152.411,
+"end": 155.244,
+"text": "menahan rupiah, BI Rate juga pernah dinaikkan"
+},
+{
+"start": 155.244,
+"end": 157.07,
+"text": "ke enam koma dua lima persen."
+},
+{
+"start": 157.52,
+"end": 160.134,
+"text": "Jadi tujuh persen bukan angka yang mustahil."
+},
+{
+"start": 160.134,
+"end": 162.806,
+"text": "Tapi bagi generasi yang terbiasa dengan bunga"
+},
+{
+"start": 162.806,
+"end": 165.36,
+"text": "rendah, angka ini akan terasa sangat berat."
+},
+{
+"start": 165.81,
+"end": 169.302,
+"text": "Sekarang, kita mulai skenarionya. Bagaimana jika"
+},
+{
+"start": 169.302,
+"end": 171.412,
+"text": "BI Rate naik ke tujuh persen?"
+},
+{
+"start": 171.862,
+"end": 172.745,
+"text": "Hari pertama."
+},
+{
+"start": 173.645,
+"end": 175.756,
+"text": "Pengumuman keluar. BI Rate"
+},
+{
+"start": 175.756,
+"end": 177.462,
+"text": "naik ke tujuh persen."
+},
+{
+"start": 177.912,
+"end": 180.496,
+"text": "Pasar saham langsung bereaksi. Saham"
+},
+{
+"start": 180.496,
+"end": 183.439,
+"text": "properti, otomotif, dan perusahaan dengan"
+},
+{
+"start": 183.439,
+"end": 185.665,
+"text": "utang besar paling cepat turun."
+},
+{
+"start": 186.115,
+"end": 188.953,
+"text": "Kenapa? Karena bunga yang lebih tinggi berarti"
+},
+{
+"start": 188.953,
+"end": 191.731,
+"text": "biaya pinjaman mereka naik, dan pembeli rumah"
+},
+{
+"start": 191.731,
+"end": 193.829,
+"text": "serta kendaraan akan menahan diri."
+},
+{
+"start": 194.279,
+"end": 196.094,
+"text": "Di sisi lain, rupiah justru"
+},
+{
+"start": 196.094,
+"end": 198.716,
+"text": "menguat. Investor asing tertarik dengan"
+},
+{
+"start": 198.716,
+"end": 200.732,
+"text": "imbal hasil yang lebih tinggi."
+},
+{
+"start": 201.182,
+"end": 203.513,
+"text": "Inilah dilema suku bunga: obat untuk"
+},
+{
+"start": 203.513,
+"end": 205.908,
+"text": "rupiah, tapi pahit untuk pertumbuhan."
+},
+{
+"start": 206.358,
+"end": 209.585,
+"text": "Pemerintah juga ikut merasakannya. Imbal hasil surat"
+},
+{
+"start": 209.585,
+"end": 212.565,
+"text": "utang negara naik, sehingga biaya untuk meminjam"
+},
+{
+"start": 212.565,
+"end": 214.551,
+"text": "uang bagi negara ikut bertambah."
+},
+{
+"start": 215.001,
+"end": 216.268,
+"text": "Satu minggu kemudian."
+},
+{
+"start": 217.168,
+"end": 220.938,
+"text": "Bank-bank mulai menyesuaikan suku bunga. Bunga"
+},
+{
+"start": 220.938,
+"end": 224.052,
+"text": "deposito naik. Bunga kredit juga naik."
+},
+{
+"start": 224.502,
+"end": 226.14,
+"text": "Bagi pemilik KPR dengan bunga"
+},
+{
+"start": 226.14,
+"end": 228.962,
+"text": "mengambang, surat pemberitahuan mulai berdatangan."
+},
+{
+"start": 229.412,
+"end": 230.457,
+"text": "Coba kita hitung."
+},
+{
+"start": 231.357,
+"end": 233.448,
+"text": "Misalnya kamu punya KPR lima ratus"
+},
+{
+"start": 233.448,
+"end": 235.6,
+"text": "juta rupiah, tenor dua puluh tahun."
+},
+{
+"start": 236.05,
+"end": 238.89,
+"text": "Dengan bunga delapan persen, cicilannya sekitar empat"
+},
+{
+"start": 238.89,
+"end": 241.033,
+"text": "koma satu delapan juta rupiah per bulan."
+},
+{
+"start": 241.483,
+"end": 243.361,
+"text": "Kalau bunganya naik menjadi sepuluh"
+},
+{
+"start": 243.361,
+"end": 245.508,
+"text": "persen, cicilannya menjadi sekitar empat"
+},
+{
+"start": 245.508,
+"end": 247.118,
+"text": "koma delapan tiga juta rupiah."
+},
+{
+"start": 247.568,
+"end": 250.255,
+"text": "Naik lebih dari enam ratus ribu rupiah"
+},
+{
+"start": 250.255,
+"end": 253.225,
+"text": "setiap bulan. Hampir tujuh koma tujuh juta"
+},
+{
+"start": 253.225,
+"end": 255.912,
+"text": "rupiah setahun. Untuk rumah yang sama."
+},
+{
+"start": 256.362,
+"end": 257.676,
+"text": "Satu bulan kemudian."
+},
+{
+"start": 258.576,
+"end": 261.096,
+"text": "Efeknya mulai menyebar ke kehidupan sehari-hari."
+},
+{
+"start": 261.546,
+"end": 263.976,
+"text": "Kredit kendaraan, kartu kredit, dan"
+},
+{
+"start": 263.976,
+"end": 266.198,
+"text": "pinjaman usaha jadi lebih mahal."
+},
+{
+"start": 266.648,
+"end": 269.628,
+"text": "Pengusaha kecil yang berencana membuka cabang"
+},
+{
+"start": 269.628,
+"end": 272.145,
+"text": "baru, memilih menunda. Toko yang ingin"
+},
+{
+"start": 272.145,
+"end": 274.33,
+"text": "menambah stok, berpikir dua kali."
+},
+{
+"start": 274.78,
+"end": 277.368,
+"text": "Pengembang perumahan melihat penjualan"
+},
+{
+"start": 277.368,
+"end": 279.411,
+"text": "melambat. Proyek baru ditunda."
+},
+{
+"start": 279.861,
+"end": 281.578,
+"text": "Di sisi lain, harga barang impor"
+},
+{
+"start": 281.578,
+"end": 283.617,
+"text": "mulai lebih stabil karena rupiah tidak"
+},
+{
+"start": 283.617,
+"end": 285.334,
+"text": "lagi melemah secepat sebelumnya."
+},
+{
+"start": 285.784,
+"end": 287.104,
+"text": "Satu tahun kemudian."
+},
+{
+"start": 288.004,
+"end": 289.685,
+"text": "Suku bunga tinggi bekerja seperti"
+},
+{
+"start": 289.685,
+"end": 291.01,
+"text": "rem yang ditekan perlahan."
+},
+{
+"start": 291.46,
+"end": 294.226,
+"text": "Dampaknya tidak terasa dalam semalam. Biasanya"
+},
+{
+"start": 294.226,
+"end": 297.113,
+"text": "butuh berbulan-bulan sampai kebijakan suku bunga"
+},
+{
+"start": 297.113,
+"end": 299.82,
+"text": "benar-benar mengalir ke seluruh perekonomian."
+},
+{
+"start": 300.27,
+"end": 303.814,
+"text": "Inflasi mulai terkendali. Rupiah lebih"
+},
+{
+"start": 303.814,
+"end": 306.706,
+"text": "stabil. Itulah tujuan utamanya."
+},
+{
+"start": 307.156,
+"end": 309.556,
+"text": "Tapi harga yang harus dibayar juga"
+},
+{
+"start": 309.556,
+"end": 313.298,
+"text": "nyata. Pertumbuhan ekonomi melambat. Perusahaan lebih"
+},
+{
+"start": 313.298,
+"end": 315.84,
+"text": "berhati-hati merekrut karyawan baru."
+},
+{
+"start": 316.29,
+"end": 318.153,
+"text": "Dan bagi mereka yang memiliki banyak"
+},
+{
+"start": 318.153,
+"end": 320.275,
+"text": "utang dengan bunga mengambang, satu tahun"
+},
+{
+"start": 320.275,
+"end": 321.62,
+"text": "ini terasa sangat panjang."
+},
+{
+"start": 322.07,
+"end": 323.547,
+"text": "Itulah skenario buruknya."
+},
+{
+"start": 324.447,
+"end": 326.302,
+"text": "Tapi sekarang, ingat kelompok yang"
+},
+{
+"start": 326.302,
+"end": 327.776,
+"text": "saya janjikan di awal tadi?"
+},
+{
+"start": 328.226,
+"end": 328.95,
+"text": "Ini dia."
+},
+{
+"start": 329.85,
+"end": 330.716,
+"text": "Para penabung."
+},
+{
+"start": 331.616,
+"end": 334.24,
+"text": "Saat suku bunga naik, bunga deposito dan"
+},
+{
+"start": 334.24,
+"end": 336.668,
+"text": "tabungan ikut naik. Uang yang diam di"
+},
+{
+"start": 336.668,
+"end": 338.964,
+"text": "bank tiba-tiba bekerja lebih keras."
+},
+{
+"start": 339.414,
+"end": 342.284,
+"text": "Misalnya kamu punya deposito seratus juta rupiah."
+},
+{
+"start": 342.284,
+"end": 344.919,
+"text": "Kalau bunganya naik dari tiga setengah persen"
+},
+{
+"start": 344.919,
+"end": 347.672,
+"text": "ke lima persen, setelah pajak, hasil setahunnya"
+},
+{
+"start": 347.672,
+"end": 349.956,
+"text": "naik dari sekitar dua koma delapan juta"
+},
+{
+"start": 349.956,
+"end": 351.479,
+"text": "menjadi empat juta rupiah."
+},
+{
+"start": 351.929,
+"end": 354.997,
+"text": "Lalu ada pembeli obligasi negara ritel, seperti"
+},
+{
+"start": 354.997,
+"end": 357.935,
+"text": "ORI dan SBR. Kupon yang ditawarkan pemerintah"
+},
+{
+"start": 357.935,
+"end": 360.677,
+"text": "biasanya ikut naik saat suku bunga tinggi."
+},
+{
+"start": 361.127,
+"end": 362.959,
+"text": "Dan mereka yang memegang uang tunai,"
+},
+{
+"start": 362.959,
+"end": 365.148,
+"text": "punya kesempatan membeli aset yang harganya"
+},
+{
+"start": 365.148,
+"end": 367.082,
+"text": "sedang turun karena suku bunga tinggi."
+},
+{
+"start": 367.532,
+"end": 370.191,
+"text": "Tapi ada satu catatan penting. Simpanan di"
+},
+{
+"start": 370.191,
+"end": 372.915,
+"text": "bank hanya dijamin LPS kalau bunganya tidak"
+},
+{
+"start": 372.915,
+"end": 376.081,
+"text": "melebihi tingkat bunga penjaminan. Jadi bunga yang"
+},
+{
+"start": 376.081,
+"end": 378.551,
+"text": "terlalu tinggi bukan selalu kabar baik."
+},
+{
+"start": 379.001,
+"end": 381.505,
+"text": "Jadi, suku bunga tinggi selalu menciptakan"
+},
+{
+"start": 381.505,
+"end": 383.949,
+"text": "dua kelompok: mereka yang membayar bunga,"
+},
+{
+"start": 383.949,
+"end": 385.797,
+"text": "dan mereka yang menerima bunga."
+},
+{
+"start": 386.247,
+"end": 388.824,
+"text": "Pertanyaannya, kamu ada di kelompok yang mana?"
+},
+{
+"start": 389.274,
+"end": 390.454,
+"text": "Lalu, apa yang bisa"
+},
+{
+"start": 390.454,
+"end": 392.256,
+"text": "dipelajari dari skenario ini?"
+},
+{
+"start": 392.706,
+"end": 396.613,
+"text": "Pertama, kenali jenis bunga pinjamanmu. Bunga tetap"
+},
+{
+"start": 396.613,
+"end": 400.598,
+"text": "atau mengambang? Kapan masa bunga tetapnya berakhir?"
+},
+{
+"start": 401.048,
+"end": 403.358,
+"text": "Kedua, siapkan ruang di anggaran."
+},
+{
+"start": 403.358,
+"end": 406.019,
+"text": "Jangan biarkan cicilan memakan seluruh"
+},
+{
+"start": 406.019,
+"end": 408.75,
+"text": "penghasilan, karena bunga bisa berubah."
+},
+{
+"start": 409.2,
+"end": 411.536,
+"text": "Ketiga, kalau punya utang berbunga tinggi"
+},
+{
+"start": 411.536,
+"end": 414.271,
+"text": "seperti kartu kredit atau paylater, prioritaskan"
+},
+{
+"start": 414.271,
+"end": 415.753,
+"text": "untuk dilunasi lebih dulu."
+},
+{
+"start": 416.203,
+"end": 419.67,
+"text": "Keempat, manfaatkan sisi baiknya. Saat bunga tinggi,"
+},
+{
+"start": 419.67,
+"end": 423.07,
+"text": "instrumen seperti deposito dan obligasi negara bisa"
+},
+{
+"start": 423.07,
+"end": 425.404,
+"text": "menjadi pilihan yang lebih menarik."
+},
+{
+"start": 425.854,
+"end": 427.847,
+"text": "Ingat, ini bukan saran"
+},
+{
+"start": 427.847,
+"end": 430.475,
+"text": "investasi. Ini cara berpikir."
+},
+{
+"start": 430.925,
+"end": 433.735,
+"text": "Karena pertanyaannya bukan, apakah BI Rate"
+},
+{
+"start": 433.735,
+"end": 435.81,
+"text": "akan naik atau turun. Tidak ada"
+},
+{
+"start": 435.81,
+"end": 437.483,
+"text": "yang bisa memastikan itu."
+},
+{
+"start": 437.933,
+"end": 441.691,
+"text": "Pertanyaannya adalah, apakah keuanganmu siap menghadapi keduanya?"
+},
+{
+"start": 442.141,
+"end": 444.273,
+"text": "Jadi, kalau BI Rate benar-benar naik"
+},
+{
+"start": 444.273,
+"end": 446.346,
+"text": "ke tujuh persen, kamu termasuk yang"
+},
+{
+"start": 446.346,
+"end": 448.775,
+"text": "membayar bunga, atau yang menerima bunga?"
+},
+{
+"start": 449.225,
+"end": 451.834,
+"text": "Tulis jawabanmu di kolom komentar."
+},
+{
+"start": 451.834,
+"end": 453.675,
+"text": "Saya baca satu per satu."
+},
+{
+"start": 454.125,
+"end": 456.453,
+"text": "Kalau video ini bermanfaat, bagikan ke satu"
+},
+{
+"start": 456.453,
+"end": 459.052,
+"text": "orang yang sedang mencicil rumah atau kendaraan."
+},
+{
+"start": 459.502,
+"end": 461.822,
+"text": "Dan subscribe, karena di video berikutnya kita"
+},
+{
+"start": 461.822,
+"end": 463.89,
+"text": "akan membahas apa yang terjadi kalau bank"
+},
+{
+"start": 463.89,
+"end": 465.908,
+"text": "tempat kamu menabung tiba-tiba bangkrut."
+},
+{
+"start": 466.358,
+"end": 468.2,
+"text": "Video ini bukan ajakan untuk"
+},
+{
+"start": 468.2,
+"end": 470.107,
+"text": "membeli atau menjual aset apa"
+},
+{
+"start": 470.107,
+"end": 472.343,
+"text": "pun. Selalu lakukan riset sendiri."
+},
+{
+"start": 472.793,
+"end": 474.779,
+"text": "Sampai jumpa di skenario berikutnya."
+}
+]

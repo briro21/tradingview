@@ -1,0 +1,927 @@
+[
+{
+"start": 0.3,
+"end": 3.364,
+"text": "Bayangkan kamu bangun pagi, membuka grup WhatsApp"
+},
+{
+"start": 3.364,
+"end": 5.99,
+"text": "keluarga, dan membaca satu pesan berantai."
+},
+{
+"start": 6.44,
+"end": 9.804,
+"text": "Isinya singkat: bank tempatmu menabung akan bangkrut"
+},
+{
+"start": 9.804,
+"end": 13.039,
+"text": "minggu ini. Segera tarik uangmu sebelum terlambat."
+},
+{
+"start": 13.489,
+"end": 16.548000000000002,
+"text": "Kamu membuka aplikasi bank. Saldo masih"
+},
+{
+"start": 16.548000000000002,
+"end": 18.979,
+"text": "ada. Tapi di luar sana, antrean"
+},
+{
+"start": 18.979,
+"end": 22.038,
+"text": "di depan kantor cabang mulai memanjang."
+},
+{
+"start": 22.488,
+"end": 26.439,
+"text": "Kamu ragu. Ikut mengantre, atau tetap tenang?"
+},
+{
+"start": 26.889,
+"end": 29.312,
+"text": "Pertanyaan ini terdengar seperti cerita"
+},
+{
+"start": 29.312,
+"end": 31.113,
+"text": "fiksi. Tapi bank yang ditutup"
+},
+{
+"start": 31.113,
+"end": 32.977,
+"text": "bukan hal langka di Indonesia."
+},
+{
+"start": 33.427,
+"end": 36.906,
+"text": "Hampir setiap tahun, ada bank perekonomian rakyat,"
+},
+{
+"start": 36.906,
+"end": 39.48,
+"text": "atau BPR, yang izin usahanya dicabut."
+},
+{
+"start": 39.93,
+"end": 42.12,
+"text": "Dan sejarah kita mencatat, kepanikan soal"
+},
+{
+"start": 42.12,
+"end": 44.096,
+"text": "bank pernah menjadi salah satu pemicu"
+},
+{
+"start": 44.096,
+"end": 45.538,
+"text": "krisis terbesar negeri ini."
+},
+{
+"start": 45.988,
+"end": 47.828,
+"text": "Jadi, bagaimana kalau bank tempat"
+},
+{
+"start": 47.828,
+"end": 49.779,
+"text": "kamu menabung benar-benar bangkrut?"
+},
+{
+"start": 50.229,
+"end": 53.412,
+"text": "Apa yang terjadi pada uangmu? Berapa"
+},
+{
+"start": 53.412,
+"end": 56.064,
+"text": "yang kembali? Dan berapa lama?"
+},
+{
+"start": 56.514,
+"end": 58.374,
+"text": "Di video ini, kita jalani"
+},
+{
+"start": 58.374,
+"end": 60.456,
+"text": "skenarionya, hari demi hari."
+},
+{
+"start": 60.906,
+"end": 62.861,
+"text": "Dan tonton sampai akhir, karena ada"
+},
+{
+"start": 62.861,
+"end": 64.983,
+"text": "satu jenis simpanan yang sering dikira"
+},
+{
+"start": 64.983,
+"end": 67.216,
+"text": "aman, padahal tidak dijamin sama sekali."
+},
+{
+"start": 67.666,
+"end": 69.77,
+"text": "Pertama, kita harus paham dulu,"
+},
+{
+"start": 69.77,
+"end": 72.078,
+"text": "bagaimana sebenarnya bank bekerja."
+},
+{
+"start": 72.528,
+"end": 74.397,
+"text": "Saat kamu menabung, uangmu tidak"
+},
+{
+"start": 74.397,
+"end": 75.857,
+"text": "disimpan utuh di brankas."
+},
+{
+"start": 76.307,
+"end": 79.807,
+"text": "Sebagian besar dipinjamkan lagi ke orang lain."
+},
+{
+"start": 79.807,
+"end": 83.383,
+"text": "Untuk kredit rumah, kendaraan, dan modal usaha."
+},
+{
+"start": 83.383,
+"end": 86.96,
+"text": "Dari selisih bunga itulah bank mendapat untung."
+},
+{
+"start": 87.41,
+"end": 89.521,
+"text": "Bank hanya menyimpan sebagian kecil uang"
+},
+{
+"start": 89.521,
+"end": 91.738,
+"text": "tunai, karena biasanya tidak semua nasabah"
+},
+{
+"start": 91.738,
+"end": 93.532,
+"text": "menarik uangnya di hari yang sama."
+},
+{
+"start": 93.982,
+"end": 96.229,
+"text": "Sistem ini berjalan baik, selama"
+},
+{
+"start": 96.229,
+"end": 98.054,
+"text": "ada satu hal: kepercayaan."
+},
+{
+"start": 98.504,
+"end": 101.076,
+"text": "Itulah kenapa bank diawasi ketat oleh OJK."
+},
+{
+"start": 101.076,
+"end": 103.464,
+"text": "Bank wajib menjaga modal yang cukup dan"
+},
+{
+"start": 103.464,
+"end": 106.465,
+"text": "uang tunai yang memadai, untuk berjaga-jaga kalau"
+},
+{
+"start": 106.465,
+"end": 108.363,
+"text": "banyak nasabah menarik dananya."
+},
+{
+"start": 108.813,
+"end": 111.026,
+"text": "Kalau kepercayaan itu hilang, dan semua"
+},
+{
+"start": 111.026,
+"end": 113.409,
+"text": "orang menarik uangnya bersamaan, bank yang"
+},
+{
+"start": 113.409,
+"end": 114.828,
+"text": "sehat pun bisa kesulitan."
+},
+{
+"start": 115.278,
+"end": 118.211,
+"text": "Inilah yang disebut bank run. Kepanikan yang"
+},
+{
+"start": 118.211,
+"end": 121.544,
+"text": "bisa menjadi kenyataan, justru karena orang panik."
+},
+{
+"start": 121.994,
+"end": 124.091,
+"text": "Apakah ini pernah terjadi di Indonesia?"
+},
+{
+"start": 124.541,
+"end": 125.002,
+"text": "Pernah."
+},
+{
+"start": 125.902,
+"end": 128.165,
+"text": "Pada November sembilan belas sembilan puluh"
+},
+{
+"start": 128.165,
+"end": 130.427,
+"text": "tujuh, di tengah krisis moneter, pemerintah"
+},
+{
+"start": 130.427,
+"end": 132.216,
+"text": "menutup enam belas bank sekaligus."
+},
+{
+"start": 132.666,
+"end": 135.695,
+"text": "Saat itu belum ada penjaminan simpanan seperti"
+},
+{
+"start": 135.695,
+"end": 139.448,
+"text": "sekarang. Masyarakat panik. Orang-orang menarik uang dari"
+},
+{
+"start": 139.448,
+"end": 141.95,
+"text": "bank lain yang sebenarnya masih sehat."
+},
+{
+"start": 142.4,
+"end": 145.772,
+"text": "Kepanikan menyebar, dan krisis perbankan semakin dalam."
+},
+{
+"start": 146.222,
+"end": 149.37,
+"text": "Dari pengalaman pahit itulah, Indonesia kemudian"
+},
+{
+"start": 149.37,
+"end": 152.386,
+"text": "membentuk Lembaga Penjamin Simpanan, atau LPS."
+},
+{
+"start": 152.836,
+"end": 155.986,
+"text": "Sekarang, kita mulai skenarionya. Bagaimana jika"
+},
+{
+"start": 155.986,
+"end": 159.07,
+"text": "bank tempat kamu menabung benar-benar bangkrut?"
+},
+{
+"start": 159.52,
+"end": 160.403,
+"text": "Hari pertama."
+},
+{
+"start": 161.303,
+"end": 163.728,
+"text": "Otoritas Jasa Keuangan mengumumkan pencabutan"
+},
+{
+"start": 163.728,
+"end": 165.075,
+"text": "izin usaha bank tersebut."
+},
+{
+"start": 165.525,
+"end": 168.982,
+"text": "Kantor cabang ditutup. Aplikasi tidak bisa"
+},
+{
+"start": 168.982,
+"end": 173.098,
+"text": "dipakai untuk bertransaksi. ATM berhenti melayani."
+},
+{
+"start": 173.548,
+"end": 176.411,
+"text": "Di depan kantor, nasabah berkumpul. Ada"
+},
+{
+"start": 176.411,
+"end": 178.907,
+"text": "yang marah, ada yang menangis, ada"
+},
+{
+"start": 178.907,
+"end": 181.329,
+"text": "yang sibuk menelepon keluarganya."
+},
+{
+"start": 181.779,
+"end": 184.788,
+"text": "Di media sosial, kabar simpang siur"
+},
+{
+"start": 184.788,
+"end": 188.227,
+"text": "beredar. Sebagian benar, sebagian hoaks."
+},
+{
+"start": 188.677,
+"end": 190.651,
+"text": "Dan pesan berantai seperti di awal"
+},
+{
+"start": 190.651,
+"end": 192.856,
+"text": "video sering menyebar jauh lebih cepat"
+},
+{
+"start": 192.856,
+"end": 195.12,
+"text": "daripada klarifikasi resmi. OJK dan LPS"
+},
+{
+"start": 195.12,
+"end": 197.441,
+"text": "beberapa kali harus membantah kabar bank"
+},
+{
+"start": 197.441,
+"end": 199.473,
+"text": "bangkrut yang ternyata tidak benar."
+},
+{
+"start": 199.923,
+"end": 202.679,
+"text": "Tapi di balik layar, LPS langsung bergerak."
+},
+{
+"start": 202.679,
+"end": 206.012,
+"text": "Mereka mengambil alih pengelolaan bank tersebut, dan"
+},
+{
+"start": 206.012,
+"end": 208.512,
+"text": "mulai mendata seluruh simpanan nasabah."
+},
+{
+"start": 208.962,
+"end": 211.129,
+"text": "Untuk bank besar yang dinilai bisa"
+},
+{
+"start": 211.129,
+"end": 214.38,
+"text": "mengganggu sistem keuangan, prosesnya bisa berbeda."
+},
+{
+"start": 214.38,
+"end": 216.993,
+"text": "Bank seperti itu bisa diselamatkan, bukan"
+},
+{
+"start": 216.993,
+"end": 220.053,
+"text": "langsung ditutup, karena dampaknya terlalu luas."
+},
+{
+"start": 220.503,
+"end": 221.77,
+"text": "Satu minggu kemudian."
+},
+{
+"start": 222.67,
+"end": 225.903,
+"text": "LPS melakukan verifikasi. Setiap rekening dicek:"
+},
+{
+"start": 225.903,
+"end": 228.664,
+"text": "apakah tercatat dengan benar di pembukuan"
+},
+{
+"start": 228.664,
+"end": 231.627,
+"text": "bank, dan apakah memenuhi syarat penjaminan."
+},
+{
+"start": 232.077,
+"end": 234.093,
+"text": "Di sinilah kamu perlu tahu aturannya."
+},
+{
+"start": 234.543,
+"end": 237.204,
+"text": "LPS menjamin simpanan sampai dua miliar"
+},
+{
+"start": 237.204,
+"end": 239.252,
+"text": "rupiah, per nasabah, per bank."
+},
+{
+"start": 239.702,
+"end": 243.62,
+"text": "Simpanan itu mencakup tabungan, giro, dan deposito."
+},
+{
+"start": 244.07,
+"end": 245.433,
+"text": "Tapi ada tiga syarat yang"
+},
+{
+"start": 245.433,
+"end": 246.632,
+"text": "sering disebut tiga T."
+},
+{
+"start": 247.082,
+"end": 250.218,
+"text": "Tercatat dalam pembukuan bank. Tingkat bunganya"
+},
+{
+"start": 250.218,
+"end": 253.154,
+"text": "tidak melebihi tingkat bunga penjaminan LPS."
+},
+{
+"start": 253.154,
+"end": 255.89,
+"text": "Dan nasabah tidak melakukan tindakan yang"
+},
+{
+"start": 255.89,
+"end": 259.026,
+"text": "merugikan bank, misalnya terlibat kredit macet."
+},
+{
+"start": 259.476,
+"end": 261.442,
+"text": "Pada pertengahan tahun dua ribu dua"
+},
+{
+"start": 261.442,
+"end": 263.689,
+"text": "puluh enam, tingkat bunga penjaminan LPS"
+},
+{
+"start": 263.689,
+"end": 265.823,
+"text": "adalah tiga setengah persen untuk bank"
+},
+{
+"start": 265.823,
+"end": 267.62,
+"text": "umum, dan enam persen untuk BPR."
+},
+{
+"start": 268.07,
+"end": 270.886,
+"text": "Artinya, kalau kamu menerima bunga lebih tinggi"
+},
+{
+"start": 270.886,
+"end": 273.642,
+"text": "dari batas itu, simpananmu bisa tidak dijamin."
+},
+{
+"start": 274.092,
+"end": 275.406,
+"text": "Satu bulan kemudian."
+},
+{
+"start": 276.306,
+"end": 278.905,
+"text": "Nasabah yang simpanannya dinyatakan layak bayar,"
+},
+{
+"start": 278.905,
+"end": 281.179,
+"text": "mulai menerima pembayaran dari LPS melalui"
+},
+{
+"start": 281.179,
+"end": 282.696,
+"text": "bank pembayar yang ditunjuk."
+},
+{
+"start": 283.146,
+"end": 286.147,
+"text": "Bagi sebagian besar orang, ini kabar melegakan."
+},
+{
+"start": 286.147,
+"end": 289.533,
+"text": "Hampir seluruh rekening nasabah BPR, sekitar sembilan"
+},
+{
+"start": 289.533,
+"end": 292.662,
+"text": "puluh sembilan koma sembilan tujuh persen, berada"
+},
+{
+"start": 292.662,
+"end": 294.77,
+"text": "di bawah batas dua miliar rupiah."
+},
+{
+"start": 295.22,
+"end": 296.782,
+"text": "Tapi tidak semua orang beruntung."
+},
+{
+"start": 297.232,
+"end": 300.343,
+"text": "Pemilik simpanan di atas dua miliar, hanya"
+},
+{
+"start": 300.343,
+"end": 304.047,
+"text": "dijamin sampai dua miliar. Sisanya menunggu proses"
+},
+{
+"start": 304.047,
+"end": 307.826,
+"text": "likuidasi, yaitu penjualan aset bank. Hasilnya bisa"
+},
+{
+"start": 307.826,
+"end": 309.826,
+"text": "lama, dan tidak pasti utuh."
+},
+{
+"start": 310.276,
+"end": 312.407,
+"text": "Dan nasabah yang tergiur bunga tinggi"
+},
+{
+"start": 312.407,
+"end": 314.711,
+"text": "di atas batas penjaminan, harus menerima"
+},
+{
+"start": 314.711,
+"end": 317.188,
+"text": "kenyataan pahit: simpanannya tidak dijamin."
+},
+{
+"start": 317.638,
+"end": 318.957,
+"text": "Satu tahun kemudian."
+},
+{
+"start": 319.857,
+"end": 323.213,
+"text": "Proses likuidasi bank berjalan. Aset bank dijual"
+},
+{
+"start": 323.213,
+"end": 325.94,
+"text": "satu per satu untuk membayar kewajiban."
+},
+{
+"start": 326.39,
+"end": 327.982,
+"text": "Peminjam di bank itu tetap"
+},
+{
+"start": 327.982,
+"end": 330.247,
+"text": "wajib melunasi kreditnya. Utang tidak"
+},
+{
+"start": 330.247,
+"end": 332.329,
+"text": "hilang hanya karena banknya tutup."
+},
+{
+"start": 332.779,
+"end": 335.104,
+"text": "Dan bagi banyak nasabah, pengalaman ini"
+},
+{
+"start": 335.104,
+"end": 337.668,
+"text": "meninggalkan satu pelajaran: uang yang aman"
+},
+{
+"start": 337.668,
+"end": 339.696,
+"text": "bukan hanya soal di mana disimpan,"
+},
+{
+"start": 339.696,
+"end": 341.425,
+"text": "tapi juga bagaimana disimpan."
+},
+{
+"start": 341.875,
+"end": 343.074,
+"text": "Itulah skenarionya."
+},
+{
+"start": 343.974,
+"end": 346.782,
+"text": "Sekarang, ingat simpanan yang sering dikira aman,"
+},
+{
+"start": 346.782,
+"end": 348.615,
+"text": "yang saya janjikan di awal tadi?"
+},
+{
+"start": 349.065,
+"end": 349.789,
+"text": "Ini dia."
+},
+{
+"start": 350.689,
+"end": 352.642,
+"text": "Produk investasi yang dijual di bank."
+},
+{
+"start": 353.092,
+"end": 356.682,
+"text": "Banyak orang membeli reksa dana, asuransi berbalut"
+},
+{
+"start": 356.682,
+"end": 360.343,
+"text": "investasi, atau obligasi lewat aplikasi atau kantor"
+},
+{
+"start": 360.343,
+"end": 363.359,
+"text": "bank. Dan mereka mengira, karena dibeli di"
+},
+{
+"start": 363.359,
+"end": 365.441,
+"text": "bank, produk itu dijamin LPS."
+},
+{
+"start": 365.891,
+"end": 366.724,
+"text": "Padahal tidak."
+},
+{
+"start": 367.624,
+"end": 371.366,
+"text": "LPS hanya menjamin simpanan: tabungan, giro, dan"
+},
+{
+"start": 371.366,
+"end": 375.652,
+"text": "deposito. Produk investasi dan asuransi bukan simpanan,"
+},
+{
+"start": 375.652,
+"end": 379.16,
+"text": "sehingga tidak termasuk dalam penjaminan LPS."
+},
+{
+"start": 379.61,
+"end": 382.329,
+"text": "Produk-produk ini punya perlindungan dan risikonya"
+},
+{
+"start": 382.329,
+"end": 384.558,
+"text": "sendiri, diatur oleh aturan yang berbeda."
+},
+{
+"start": 385.008,
+"end": 386.804,
+"text": "Jadi sebelum membeli apa pun"
+},
+{
+"start": 386.804,
+"end": 388.472,
+"text": "di bank, tanyakan satu hal"
+},
+{
+"start": 388.472,
+"end": 391.037,
+"text": "sederhana: ini simpanan, atau investasi?"
+},
+{
+"start": 391.487,
+"end": 392.668,
+"text": "Lalu, apa yang bisa"
+},
+{
+"start": 392.668,
+"end": 394.47,
+"text": "dipelajari dari skenario ini?"
+},
+{
+"start": 394.92,
+"end": 398.215,
+"text": "Pertama, pastikan banknya terdaftar dan menjadi"
+},
+{
+"start": 398.215,
+"end": 400.738,
+"text": "peserta LPS. Hampir semua bank resmi"
+},
+{
+"start": 400.738,
+"end": 403.192,
+"text": "di Indonesia wajib menjadi peserta."
+},
+{
+"start": 403.642,
+"end": 405.989,
+"text": "Kedua, jangan tergiur bunga terlalu"
+},
+{
+"start": 405.989,
+"end": 408.604,
+"text": "tinggi. Bandingkan dengan tingkat bunga"
+},
+{
+"start": 408.604,
+"end": 411.017,
+"text": "penjaminan LPS sebelum menaruh uang."
+},
+{
+"start": 411.467,
+"end": 414.474,
+"text": "Ketiga, kalau simpananmu besar, sebar ke"
+},
+{
+"start": 414.474,
+"end": 417.33,
+"text": "beberapa bank. Batas dua miliar rupiah"
+},
+{
+"start": 417.33,
+"end": 419.585,
+"text": "berlaku per nasabah, per bank."
+},
+{
+"start": 420.035,
+"end": 423.363,
+"text": "Keempat, bedakan simpanan dan investasi."
+},
+{
+"start": 423.363,
+"end": 426.025,
+"text": "Hanya simpanan yang dijamin LPS."
+},
+{
+"start": 426.475,
+"end": 428.826,
+"text": "Ini juga berlaku untuk bank digital."
+},
+{
+"start": 428.826,
+"end": 431.112,
+"text": "Selama bank itu berizin dan menjadi"
+},
+{
+"start": 431.112,
+"end": 433.79,
+"text": "peserta LPS, simpanan di dalamnya dijamin"
+},
+{
+"start": 433.79,
+"end": 435.358,
+"text": "dengan aturan yang sama."
+},
+{
+"start": 435.808,
+"end": 438.585,
+"text": "Dan kelima, jangan mudah percaya pesan"
+},
+{
+"start": 438.585,
+"end": 441.362,
+"text": "berantai. Cek informasi resmi dari OJK"
+},
+{
+"start": 441.362,
+"end": 443.336,
+"text": "dan LPS sebelum ikut panik."
+},
+{
+"start": 443.786,
+"end": 446.517,
+"text": "Ingat, ini bukan saran investasi."
+},
+{
+"start": 446.517,
+"end": 448.752,
+"text": "Ini cara melindungi uangmu."
+},
+{
+"start": 449.202,
+"end": 452.927,
+"text": "Karena pertanyaannya bukan, apakah bankmu akan bangkrut."
+},
+{
+"start": 452.927,
+"end": 456.452,
+"text": "Kemungkinannya kecil, terutama untuk bank yang sehat."
+},
+{
+"start": 456.902,
+"end": 459.947,
+"text": "Pertanyaannya adalah, kalau itu terjadi, apakah uangmu"
+},
+{
+"start": 459.947,
+"end": 462.09,
+"text": "sudah disimpan dengan cara yang benar?"
+},
+{
+"start": 462.54,
+"end": 464.916,
+"text": "Jadi, kalau kamu menerima pesan berantai"
+},
+{
+"start": 464.916,
+"end": 467.113,
+"text": "bahwa bankmu akan bangkrut, kamu akan"
+},
+{
+"start": 467.113,
+"end": 469.132,
+"text": "ikut mengantre, atau tetap tenang?"
+},
+{
+"start": 469.582,
+"end": 472.191,
+"text": "Tulis jawabanmu di kolom komentar."
+},
+{
+"start": 472.191,
+"end": 474.032,
+"text": "Saya baca satu per satu."
+},
+{
+"start": 474.482,
+"end": 476.669,
+"text": "Kalau video ini bermanfaat, bagikan ke"
+},
+{
+"start": 476.669,
+"end": 479.085,
+"text": "orang tuamu atau keluargamu, karena mereka"
+},
+{
+"start": 479.085,
+"end": 481.098,
+"text": "sering jadi sasaran pesan berantai."
+},
+{
+"start": 481.548,
+"end": 483.416,
+"text": "Dan subscribe, supaya kamu tidak"
+},
+{
+"start": 483.416,
+"end": 485.75,
+"text": "ketinggalan skenario what if berikutnya."
+},
+{
+"start": 486.2,
+"end": 488.042,
+"text": "Video ini bukan ajakan untuk"
+},
+{
+"start": 488.042,
+"end": 489.949,
+"text": "membeli atau menjual aset apa"
+},
+{
+"start": 489.949,
+"end": 492.185,
+"text": "pun. Selalu lakukan riset sendiri."
+},
+{
+"start": 492.635,
+"end": 494.622,
+"text": "Sampai jumpa di skenario berikutnya."
+}
+]

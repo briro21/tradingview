@@ -36,7 +36,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   {start: L(41, -0.3), el: <Chapter at={L(41)} label="BULAN 1" sub="Lantai tak terlihat" />, sfx: 'boom'},
   {start: L(42, -0.3), el: <S.LineChart data={[5280, 5150, 5050, 5000, 5000, 5000, 5000]} from={L(42, 0.5)} to={L(43, 3)} min={4600} max={5400} target={{v: 5000, label: '"Lantai negara"?', at: L(42, 2)}} lines={[{text: '"Kalau turun, pasti dibeli lagi"', at: L(43), size: 54}]} caption="Ilustrasi." />},
   {start: L(44, -0.3), el: <S.Dark lines={[{text: 'MORAL HAZARD', at: L(44), size: 120, color: C.red}, {text: 'Merasa diselamatkan → ambil risiko lebih besar', at: L(44, 3), size: 46}]} />, sfx: 'boom'},
-  {start: L(45, -0.3), el: <S.Split at={L(45, 1)} lines={[{text: 'Pasar terbelah', at: L(45), size: 64}, {text: 'Disukai negara vs tidak', at: L(46), size: 56, color: C.yellow}]} />, sfx: 'whoosh'},
+  {start: L(45, -0.3), el: <S.Split at={L(45, 1)} left="TIDAK DIBELI" right="DISUKAI NEGARA" lines={[{text: 'Pasar terbelah', at: L(45), size: 64}, {text: 'Disukai negara vs tidak', at: L(46), size: 56, color: C.yellow}]} />, sfx: 'whoosh'},
   {start: L(47, -0.3), el: <S.Cards title={{text: 'TATA KELOLA', at: L(47), size: 80}} cards={[{e: '🏛️', t: 'Pengelola BUMN', at: L(47, 2)}, {e: '🛒', t: 'Pembeli saham BUMN', at: L(47, 4)}, {e: '⚖️', t: 'Harus independen', at: L(47, 6), color: C.green}]} />},
   {start: L(48, -0.3), el: <Chapter at={L(48)} label="TAHUN 1" sub="Dua kemungkinan" />, sfx: 'boom'},
   {start: L(49, -0.3), el: <S.TwoDoors a={{text: 'MENUNDA MASALAH', at: L(51)}} b={{text: 'BERHASIL', at: L(50)}} lines={[{text: 'Ada dua kemungkinan', at: L(49), size: 64}]} />, sfx: 'whoosh'},
@@ -44,7 +44,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   {start: L(53, -0.3), el: <S.Dark lines={[{text: 'ITULAH DUA SISI SKENARIONYA.', at: L(53), size: 84}]} />, sfx: 'boom'},
   {start: L(54, -0.3), el: <S.Mystery openAt={L(55)} lines={[{text: 'Ingat pertanyaannya?', at: L(54), size: 70}]} reveal={{text: 'UANG SIAPA?', at: L(55), size: 120, color: C.yellow}} />, sfx: 'ding'},
   {start: L(56, -0.3), el: <S.Cards flow="in" title={{text: 'KEKAYAAN NEGARA = MILIK PUBLIK', at: L(56), size: 64}} cards={[{e: '🏭', t: 'Aset & laba BUMN', at: L(56, 2)}, {e: '👥', t: 'Untuk seluruh rakyat', at: L(56, 5)}, {e: '📆', t: 'Jangka panjang', at: L(56, 8), color: C.green}]} />, sfx: 'whoosh'},
-  {start: L(57, -0.3), el: <S.Split at={L(57)} lines={[{text: 'Beli murah + sabar = untung', at: L(57), size: 56, color: C.green}, {text: 'Tahan harga tanpa valuasi = risiko publik', at: L(58), size: 50, color: C.red}]} />},
+  {start: L(57, -0.3), el: <S.Split at={L(57)} left="RISIKO PUBLIK" right="INVESTASI BAIK" lines={[{text: 'Beli murah + sabar = untung', at: L(57), size: 56, color: C.green}, {text: 'Tahan harga tanpa valuasi = risiko publik', at: L(58), size: 50, color: C.red}]} />},
   {start: L(59, -0.3), el: <Checklistish L={L} />, sfx: 'whoosh'},
   {start: L(61, -0.3), el: <Chapter at={L(61)} label="PELAJARAN" sub="Cara kerja pasar" color={C.green} />, sfx: 'boom'},
   {
