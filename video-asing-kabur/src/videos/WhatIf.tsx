@@ -8,7 +8,7 @@ export type Cue = {start: number; end: number; text: string};
 export type LineT = {i: number; start: number; end: number; text: string};
 
 // Renderer generik untuk video "What If" dari storyboard + voice-over + subtitle.
-export const WhatIf: React.FC<{timeline: Seg[]; captions: Cue[]; audio: string; duration: number; theme?: ThemeName}> = ({timeline, captions, audio, duration, theme = DEFAULT_THEME}) => {
+export const WhatIf: React.FC<{timeline: Seg[]; captions: Cue[]; audio: string; duration: number; theme?: ThemeName; hideCaptions?: boolean}> = ({timeline, captions, audio, duration, theme = DEFAULT_THEME, hideCaptions}) => {
   const {fps} = useVideoConfig();
   return (
     <ThemeCtx.Provider value={theme}>
@@ -24,9 +24,11 @@ export const WhatIf: React.FC<{timeline: Seg[]; captions: Cue[]; audio: string; 
             </Sequence>
           );
         })}
-        <T0.Provider value={0}>
-          <Captions data={captions} />
-        </T0.Provider>
+        {!hideCaptions && (
+          <T0.Provider value={0}>
+            <Captions data={captions} />
+          </T0.Provider>
+        )}
         <Audio src={staticFile(audio)} />
         {timeline
           .filter((s) => s.sfx)

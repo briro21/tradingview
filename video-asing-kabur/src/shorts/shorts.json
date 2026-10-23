@@ -1,0 +1,128 @@
+[
+ {
+  "id": "arb-berjilid",
+  "slug": "arb-7",
+  "from": 238.52,
+  "to": 289.07,
+  "hook": "SAHAMMU TURUN\n5 HARI BERTURUT?",
+  "title": "Kenapa Saham Bisa ARB 5 Hari Berturut-turut? #ARB #saham",
+  "lastLine": 52
+ },
+ {
+  "id": "arb-gorengan",
+  "slug": "arb-7",
+  "from": 303.69,
+  "to": 343.68,
+  "hook": "NAIK 35%,\nTURUN CUMA 7%?",
+  "title": "ARB 7% Bikin Saham Gorengan Makin Menggoda? Hati-hati! #saham",
+  "lastLine": 61
+ },
+ {
+  "id": "msci-robot",
+  "slug": "msci-standalone",
+  "from": 105.54,
+  "to": 155.91,
+  "hook": "ROBOT INI BISA\nJUAL SAHAM INDONESIA",
+  "title": "Kenapa ETF Bisa Jual Saham Indonesia Tanpa Peduli Laba? #MSCI",
+  "lastLine": 24
+ },
+ {
+  "id": "msci-ihsg",
+  "slug": "msci-standalone",
+  "from": 20.38,
+  "to": 57.17,
+  "hook": "IHSG -11,57%\nDALAM SEHARI",
+  "title": "Apa yang Membuat IHSG Anjlok 11% dalam Sehari? #IHSG #MSCI",
+  "lastLine": 8
+ },
+ {
+  "id": "danantara-18t",
+  "slug": "danantara",
+  "from": 234.31,
+  "to": 284.14,
+  "hook": "Rp18 TRILIUN\nCUKUP?",
+  "title": "Danantara Siapkan Rp18 Triliun, Cukup Tahan IHSG? #Danantara",
+  "lastLine": 39
+ },
+ {
+  "id": "danantara-moral",
+  "slug": "danantara",
+  "from": 290.17,
+  "to": 339.83,
+  "hook": "NEGARA SELALU\nMENYELAMATKAN?",
+  "title": "Bahaya Moral Hazard Kalau Negara Borong Saham #Danantara #IHSG",
+  "lastLine": 47
+ },
+ {
+  "id": "bi-kpr",
+  "slug": "bi-rate-7",
+  "from": 214.7,
+  "to": 256.51,
+  "hook": "CICILAN KPR-MU\nBISA NAIK SEGINI",
+  "title": "BI Rate Naik, Cicilan KPR Rp500 Juta Naik Berapa? #KPR #BIRate",
+  "lastLine": 40
+ },
+ {
+  "id": "bi-penabung",
+  "slug": "bi-rate-7",
+  "from": 330.95,
+  "to": 385.9,
+  "hook": "BUNGA NAIK,\nSIAPA UNTUNG?",
+  "title": "Siapa yang Untung Saat Suku Bunga Naik? #BIRate #tabungan",
+  "lastLine": 60
+ },
+ {
+  "id": "bank-lps",
+  "slug": "bank-bangkrut",
+  "from": 220.2,
+  "to": 274.24,
+  "hook": "BANKMU BANGKRUT,\nUANGMU AMAN?",
+  "title": "Bank Bangkrut, Uang Kembali? Aturan LPS Rp2 Miliar #LPS",
+  "lastLine": 42
+ },
+ {
+  "id": "bank-investasi",
+  "slug": "bank-bangkrut",
+  "from": 343.67,
+  "to": 391.64,
+  "hook": "DIBELI DI BANK,\nTAPI TIDAK DIJAMIN",
+  "title": "Produk Bank Ini TIDAK Dijamin LPS! #LPS #reksadana",
+  "lastLine": 61
+ },
+ {
+  "id": "emas-spread",
+  "slug": "emas-3-juta",
+  "from": 354.0,
+  "to": 405.97,
+  "hook": "HARGA EMAS NAIK,\nKOK MASIH RUGI?",
+  "title": "Harga Emas Naik tapi Kamu Rugi? Ini Sebabnya #emas #Antam",
+  "lastLine": 70
+ },
+ {
+  "id": "emas-kurs",
+  "slug": "emas-3-juta",
+  "from": 90.37,
+  "to": 136.59,
+  "hook": "EMAS BISA NAIK\nTANPA HARGA DUNIA NAIK",
+  "title": "Kenapa Harga Emas Antam Naik Walau Harga Dunia Diam? #emas",
+  "lastLine": 22
+ },
+ {
+  "id": "lihat-hook",
+  "slug": "lihat-10-detik",
+  "from": 0,
+  "to": 51.56,
+  "hook": "KAMU BISA LIHAT HARGA\n10 DETIK KE DEPAN",
+  "title": "Bisa Lihat Harga Saham 10 Detik ke Depan? #whatif #saham",
+  "lastLine": 12
+ },
+ {
+  "id": "lihat-pilihan",
+  "slug": "lihat-10-detik",
+  "from": 308.34,
+  "to": 363.66,
+  "hook": "10 DETIK:\nUANGMU ATAU AYAHMU?",
+  "title": "10 Detik untuk Memilih: Uangmu atau Ayahmu? #whatif #cerita",
+  "lastLine": 81
+ }
+]

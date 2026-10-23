@@ -43,7 +43,7 @@ export const VIDEOS: Video[] = [
 ];
 
 // Komposisi hanya menerima slug (props Remotion harus bisa di-JSON-kan); storyboard dicari di sini.
-export const WhatIfBySlug: React.FC<{slug: string}> = ({slug}) => {
+export const WhatIfBySlug: React.FC<{slug: string; hideCaptions?: boolean}> = ({slug, hideCaptions}) => {
   const v = VIDEOS.find((x) => x.slug === slug)!;
-  return <WhatIf timeline={v.timeline(makeL(v.lines))} captions={v.captions} audio={`vo_${v.slug}.mp3`} duration={durationOf(v.lines)} />;
+  return <WhatIf timeline={v.timeline(makeL(v.lines))} captions={v.captions} audio={`vo_${v.slug}.mp3`} duration={durationOf(v.lines)} hideCaptions={hideCaptions} />;
 };

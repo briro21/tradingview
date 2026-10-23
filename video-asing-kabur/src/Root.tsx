@@ -7,6 +7,7 @@ import {DURATION_SEC as RP_SEC, RupiahVideo} from './rupiah/Video';
 import {VIDEOS, WhatIfBySlug} from './videos/registry';
 import {Thumb} from './videos/Thumb';
 import {durationOf} from './videos/WhatIf';
+import {Short, SHORTS} from './shorts/Short';
 import {AsingKaburVO, DURATION_SEC as AK_SEC} from './asing-kabur/Video';
 
 export const RemotionRoot: React.FC = () => (
@@ -40,5 +41,8 @@ export const RemotionRoot: React.FC = () => (
         <Composition key={`${v.slug}-t${n}`} id={`Thumb-${v.slug}-${n}`} component={Thumb} defaultProps={{data: v.thumbs, variant: n}} durationInFrames={1} fps={30} width={1280} height={720} />
       )),
     )}
+    {SHORTS.map((s) => (
+      <Composition key={s.id} id={`Short-${s.id}`} component={Short} defaultProps={{id: s.id}} durationInFrames={Math.round((s.to - s.from) * 30)} fps={30} width={1080} height={1920} />
+    ))}
   </>
 );
