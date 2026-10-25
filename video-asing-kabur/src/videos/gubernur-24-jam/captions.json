@@ -1,1 +1,917 @@
-[]
+[
+{
+"start": 0.3,
+"end": 2.576,
+"text": "Jam sembilan pagi. Kamu masuk ke"
+},
+{
+"start": 2.576,
+"end": 5.1370000000000005,
+"text": "sebuah ruang rapat besar di Jakarta."
+},
+{
+"start": 5.587,
+"end": 8.977,
+"text": "Dua belas orang berjas duduk mengelilingi meja"
+},
+{
+"start": 8.977,
+"end": 12.662,
+"text": "panjang. Semuanya berdiri saat kamu masuk. Ruangan"
+},
+{
+"start": 12.662,
+"end": 15.757,
+"text": "itu dingin, dan semua mata tertuju padamu."
+},
+{
+"start": 16.207,
+"end": 18.629,
+"text": "Deputi: Selamat pagi, Pak Gubernur."
+},
+{
+"start": 18.629,
+"end": 20.705,
+"text": "Kami menunggu keputusan Bapak."
+},
+{
+"start": 21.155,
+"end": 23.406,
+"text": "Gubernur? Kamu?"
+},
+{
+"start": 24.306,
+"end": 27.965,
+"text": "Kemarin, seorang tamu berjas mengetuk pintu rumahmu."
+},
+{
+"start": 27.965,
+"end": 30.569,
+"text": "Hari ini, papan nama di depan kursimu"
+},
+{
+"start": 30.569,
+"end": 33.384,
+"text": "tertulis jelas: Gubernur Bank Indonesia."
+},
+{
+"start": 33.834,
+"end": 35.435,
+"text": "Hanya untuk dua puluh empat jam."
+},
+{
+"start": 35.885,
+"end": 38.543,
+"text": "Jadi, bagaimana kalau kamu menjadi Gubernur Bank"
+},
+{
+"start": 38.543,
+"end": 40.591,
+"text": "Indonesia selama dua puluh empat jam?"
+},
+{
+"start": 41.041,
+"end": 42.329,
+"text": "Aturannya sederhana."
+},
+{
+"start": 43.229,
+"end": 46.185,
+"text": "Setiap keputusanmu langsung berlaku. Tidak"
+},
+{
+"start": 46.185,
+"end": 47.945,
+"text": "ada yang bisa dibatalkan."
+},
+{
+"start": 48.395,
+"end": 50.375,
+"text": "Dan kamu hanya punya tiga alat utama."
+},
+{
+"start": 50.825,
+"end": 55.245,
+"text": "Pertama, suku bunga acuan. Naikkan, dan uang"
+},
+{
+"start": 55.245,
+"end": 59.463,
+"text": "jadi mahal. Turunkan, dan uang jadi murah."
+},
+{
+"start": 59.913,
+"end": 63.482,
+"text": "Kedua, cadangan devisa. Tumpukan dolar milik negara"
+},
+{
+"start": 63.482,
+"end": 66.211,
+"text": "yang bisa dipakai untuk menahan rupiah."
+},
+{
+"start": 66.661,
+"end": 70.216,
+"text": "Ketiga, aturan untuk perbankan. Seberapa banyak uang"
+},
+{
+"start": 70.216,
+"end": 73.019,
+"text": "yang boleh disalurkan bank ke masyarakat."
+},
+{
+"start": 73.469,
+"end": 77.212,
+"text": "Kedengarannya sederhana. Sampai kamu melihat layar"
+},
+{
+"start": 77.212,
+"end": 80.131,
+"text": "besar di dinding. Grafik merah memenuhi"
+},
+{
+"start": 80.131,
+"end": 82.227,
+"text": "layar, turun seperti tangga."
+},
+{
+"start": 82.677,
+"end": 85.143,
+"text": "Deputi: Pak, rupiah melemah lagi"
+},
+{
+"start": 85.143,
+"end": 87.454,
+"text": "pagi ini. Investor asing terus"
+},
+{
+"start": 87.454,
+"end": 89.92,
+"text": "menjual. Harga impor mulai naik."
+},
+{
+"start": 90.37,
+"end": 91.954,
+"text": "Deputi: Kalau tidak ada tindakan,"
+},
+{
+"start": 91.954,
+"end": 93.585,
+"text": "inflasi bulan depan bisa melonjak."
+},
+{
+"start": 94.035,
+"end": 97.534,
+"text": "Jam sepuluh pagi. Keputusan pertamamu."
+},
+{
+"start": 97.984,
+"end": 100.546,
+"text": "Kamu memutuskan menaikkan suku bunga dengan tegas."
+},
+{
+"start": 100.996,
+"end": 104.706,
+"text": "Ruangan hening. Lalu semua orang mulai bekerja."
+},
+{
+"start": 105.156,
+"end": 107.739,
+"text": "Dalam satu jam, rupiah berhenti melemah."
+},
+{
+"start": 107.739,
+"end": 110.386,
+"text": "Investor asing mulai tertarik lagi karena"
+},
+{
+"start": 110.386,
+"end": 112.323,
+"text": "imbal hasil yang lebih tinggi."
+},
+{
+"start": 112.773,
+"end": 117.065,
+"text": "Di layar, grafik rupiah berbalik. Ruangan bertepuk"
+},
+{
+"start": 117.065,
+"end": 121.442,
+"text": "tangan. Untuk sesaat, kamu merasa seperti pahlawan."
+},
+{
+"start": 121.892,
+"end": 124.445,
+"text": "Tapi di luar sana, efeknya berbeda."
+},
+{
+"start": 124.895,
+"end": 126.692,
+"text": "Di sebuah rumah kecil di Depok,"
+},
+{
+"start": 126.692,
+"end": 128.663,
+"text": "Raka membaca notifikasi dari bank."
+},
+{
+"start": 129.113,
+"end": 131.771,
+"text": "Raka: Bunga KPR-ku naik? Cicilanku nambah"
+},
+{
+"start": 131.771,
+"end": 133.911,
+"text": "enam ratus ribu sebulan? Aku baru"
+},
+{
+"start": 133.911,
+"end": 135.273,
+"text": "akad tiga bulan lalu!"
+},
+{
+"start": 135.723,
+"end": 138.294,
+"text": "Di media sosial, namamu mulai menjadi"
+},
+{
+"start": 138.294,
+"end": 141.491,
+"text": "topik pembicaraan. Dalam hitungan menit, tagar"
+},
+{
+"start": 141.491,
+"end": 144.062,
+"text": "dengan namamu naik ke posisi teratas."
+},
+{
+"start": 144.512,
+"end": 146.887,
+"text": "Jam dua belas siang. Tagar tentang"
+},
+{
+"start": 146.887,
+"end": 149.333,
+"text": "Gubernur BI naik ke urutan pertama."
+},
+{
+"start": 149.783,
+"end": 152.111,
+"text": "Warganet: Gubernur baru nggak punya"
+},
+{
+"start": 152.111,
+"end": 154.106,
+"text": "hati! Cicilan rakyat dinaikin!"
+},
+{
+"start": 154.556,
+"end": 157.986,
+"text": "Kamu membaca komentar-komentar itu satu per satu."
+},
+{
+"start": 157.986,
+"end": 160.996,
+"text": "Ribuan orang marah. Dan mereka tidak salah."
+},
+{
+"start": 160.996,
+"end": 164.355,
+"text": "Mereka memang yang menanggung bebannya. Di balik"
+},
+{
+"start": 164.355,
+"end": 167.435,
+"text": "setiap angka di layar, ternyata ada keluarga"
+},
+{
+"start": 167.435,
+"end": 170.795,
+"text": "yang sedang menghitung ulang belanja bulanannya."
+},
+{
+"start": 171.245,
+"end": 175.231,
+"text": "Jam dua siang. Kamu mencoba memperbaiki keadaan."
+},
+{
+"start": 175.681,
+"end": 176.772,
+"text": "Kamu: Bagaimana kalau kita"
+},
+{
+"start": 176.772,
+"end": 177.948,
+"text": "turunkan lagi suku bunganya?"
+},
+{
+"start": 178.398,
+"end": 180.759,
+"text": "Deputi: Pak, kalau suku bunga diturunkan"
+},
+{
+"start": 180.759,
+"end": 182.883,
+"text": "hari ini juga, pasar akan menganggap"
+},
+{
+"start": 182.883,
+"end": 185.421,
+"text": "kebijakan kita tidak konsisten. Rupiah bisa"
+},
+{
+"start": 185.421,
+"end": 187.369,
+"text": "jatuh lebih dalam dari tadi pagi."
+},
+{
+"start": 187.819,
+"end": 190.306,
+"text": "Deputi: Kepercayaan itu mahal, Pak."
+},
+{
+"start": 190.306,
+"end": 193.22,
+"text": "Sekali hilang, sangat sulit dikembalikan."
+},
+{
+"start": 193.67,
+"end": 196.706,
+"text": "Kamu terdiam. Ternyata, di posisi ini,"
+},
+{
+"start": 196.706,
+"end": 199.742,
+"text": "berubah pikiran pun ada harganya. Kamu"
+},
+{
+"start": 199.742,
+"end": 203.018,
+"text": "menyadari, keputusan pagi tadi kini harus"
+},
+{
+"start": 203.018,
+"end": 204.856,
+"text": "kamu jaga sampai akhir."
+},
+{
+"start": 205.306,
+"end": 209.813,
+"text": "Jam tiga sore, ponselmu bergetar. Pak Joko."
+},
+{
+"start": 210.263,
+"end": 212.302,
+"text": "Pak Joko: Nak, Ayah lihat di"
+},
+{
+"start": 212.302,
+"end": 214.922,
+"text": "berita, bunga naik lagi. Untung Ayah"
+},
+{
+"start": 214.922,
+"end": 217.761,
+"text": "sudah tidak punya cicilan. Tapi kasihan"
+},
+{
+"start": 217.761,
+"end": 220.309,
+"text": "tetangga kita yang baru beli motor."
+},
+{
+"start": 220.759,
+"end": 222.988,
+"text": "Pak Joko: Tapi kata pedagang di"
+},
+{
+"start": 222.988,
+"end": 225.863,
+"text": "pasar, harga barang impor mulai berhenti"
+},
+{
+"start": 225.863,
+"end": 228.163,
+"text": "naik. Jadi ya, ada baiknya juga."
+},
+{
+"start": 228.613,
+"end": 231.104,
+"text": "Kamu menutup telepon. Satu keputusan,"
+},
+{
+"start": 231.104,
+"end": 232.989,
+"text": "dua cerita yang berbeda dari"
+},
+{
+"start": 232.989,
+"end": 235.076,
+"text": "dua orang yang sama-sama benar."
+},
+{
+"start": 235.526,
+"end": 237.859,
+"text": "Jam empat sore. Seorang pejabat"
+},
+{
+"start": 237.859,
+"end": 240.117,
+"text": "lain mengusulkan jalan pintas."
+},
+{
+"start": 240.567,
+"end": 242.499,
+"text": "Pejabat: Pak, bagaimana kalau kita"
+},
+{
+"start": 242.499,
+"end": 244.089,
+"text": "cetak uang saja? Bantu semua"
+},
+{
+"start": 244.089,
+"end": 246.078,
+"text": "orang yang kesulitan bayar cicilan."
+},
+{
+"start": 246.528,
+"end": 249.62,
+"text": "Usul itu terdengar sangat menggoda."
+},
+{
+"start": 249.62,
+"end": 252.8,
+"text": "Semua orang senang. Masalah selesai."
+},
+{
+"start": 253.25,
+"end": 254.943,
+"text": "Tapi kamu ingat dompet ajaibmu."
+},
+{
+"start": 255.393,
+"end": 258.194,
+"text": "Kamu pernah melihat sendiri apa yang terjadi"
+},
+{
+"start": 258.194,
+"end": 261.441,
+"text": "saat uang bertambah terlalu cepat, sementara barang"
+},
+{
+"start": 261.441,
+"end": 264.497,
+"text": "tidak bertambah. Harga melonjak. Dan yang paling"
+},
+{
+"start": 264.497,
+"end": 266.343,
+"text": "menderita justru orang kecil."
+},
+{
+"start": 266.793,
+"end": 268.409,
+"text": "Kamu: Tidak. Kita tidak akan"
+},
+{
+"start": 268.409,
+"end": 270.486,
+"text": "mencetak uang untuk menutup masalah."
+},
+{
+"start": 270.936,
+"end": 274.53,
+"text": "Jam enam sore. Kamu memanggil para bankir."
+},
+{
+"start": 274.98,
+"end": 277.38,
+"text": "Kamu meminta bank-bank memberi keringanan bagi"
+},
+{
+"start": 277.38,
+"end": 279.781,
+"text": "nasabah kecil yang kesulitan membayar cicilan,"
+},
+{
+"start": 279.781,
+"end": 282.442,
+"text": "seperti memperpanjang tenor, supaya cicilan bulanan"
+},
+{
+"start": 282.442,
+"end": 284.008,
+"text": "tidak melonjak terlalu tinggi."
+},
+{
+"start": 284.458,
+"end": 286.792,
+"text": "Kamu juga melonggarkan aturan cadangan bank,"
+},
+{
+"start": 286.792,
+"end": 288.754,
+"text": "supaya mereka punya lebih banyak dana"
+},
+{
+"start": 288.754,
+"end": 290.452,
+"text": "untuk disalurkan ke usaha kecil."
+},
+{
+"start": 290.902,
+"end": 293.86,
+"text": "Bukan solusi sempurna. Tapi beban tidak lagi"
+},
+{
+"start": 293.86,
+"end": 297.559,
+"text": "ditanggung oleh satu kelompok saja. Kamu menandatangani"
+},
+{
+"start": 297.559,
+"end": 300.383,
+"text": "berkas itu, dan untuk pertama kalinya hari"
+},
+{
+"start": 300.383,
+"end": 303.274,
+"text": "ini, kamu bisa bernapas sedikit lebih lega."
+},
+{
+"start": 303.724,
+"end": 306.0,
+"text": "Jam delapan malam. Datang kabar"
+},
+{
+"start": 306.0,
+"end": 307.908,
+"text": "yang paling kamu takutkan."
+},
+{
+"start": 308.358,
+"end": 311.322,
+"text": "Deputi: Pak, ada aksi jual besar-besaran."
+},
+{
+"start": 311.322,
+"end": 314.357,
+"text": "Sebuah dana asing raksasa menjual obligasi"
+},
+{
+"start": 314.357,
+"end": 316.96,
+"text": "pemerintah. Rupiah kembali tertekan."
+},
+{
+"start": 317.41,
+"end": 318.716,
+"text": "Kamu punya dua pilihan."
+},
+{
+"start": 319.616,
+"end": 322.782,
+"text": "Pilihan pertama: jual dolar dari cadangan devisa"
+},
+{
+"start": 322.782,
+"end": 325.881,
+"text": "dalam jumlah sangat besar. Rupiah akan tertahan"
+},
+{
+"start": 325.881,
+"end": 328.585,
+"text": "malam ini juga. Tapi cadangan negara akan"
+},
+{
+"start": 328.585,
+"end": 331.685,
+"text": "terkuras, dan kalau besok serangan datang lagi,"
+},
+{
+"start": 331.685,
+"end": 333.862,
+"text": "kamu mungkin tidak punya amunisi."
+},
+{
+"start": 334.312,
+"end": 337.641,
+"text": "Pilihan kedua: biarkan rupiah melemah sedikit, gunakan"
+},
+{
+"start": 337.641,
+"end": 340.908,
+"text": "cadangan secukupnya, dan percaya bahwa kebijakan pagi"
+},
+{
+"start": 340.908,
+"end": 342.819,
+"text": "tadi butuh waktu untuk bekerja."
+},
+{
+"start": 343.269,
+"end": 344.975,
+"text": "Pilihan pertama membuatmu terlihat"
+},
+{
+"start": 344.975,
+"end": 346.33,
+"text": "seperti pahlawan malam ini."
+},
+{
+"start": 346.78,
+"end": 350.324,
+"text": "Pilihan kedua membuatmu terlihat lemah, tapi menjaga"
+},
+{
+"start": 350.324,
+"end": 353.937,
+"text": "negara tetap punya tameng untuk hari-hari berikutnya."
+},
+{
+"start": 353.937,
+"end": 357.14,
+"text": "Ruangan hening. Semua orang menunggu jawabanmu."
+},
+{
+"start": 357.59,
+"end": 361.389,
+"text": "Kamu memandang layar. Lalu kamu memandang jam"
+},
+{
+"start": 361.389,
+"end": 364.344,
+"text": "di dinding. Tersisa tiga belas jam."
+},
+{
+"start": 364.794,
+"end": 367.199,
+"text": "Kamu: Kita intervensi secukupnya. Jangan"
+},
+{
+"start": 367.199,
+"end": 369.303,
+"text": "habiskan cadangan dalam satu malam."
+},
+{
+"start": 369.753,
+"end": 372.551,
+"text": "Para deputi saling berpandangan. Lalu salah"
+},
+{
+"start": 372.551,
+"end": 374.764,
+"text": "satu dari mereka mengangguk pelan."
+},
+{
+"start": 375.214,
+"end": 377.779,
+"text": "Deputi: Itu keputusan yang tidak populer,"
+},
+{
+"start": 377.779,
+"end": 379.968,
+"text": "Pak. Tapi itu keputusan yang benar."
+},
+{
+"start": 380.418,
+"end": 382.724,
+"text": "Jam dua belas malam. Rupiah"
+},
+{
+"start": 382.724,
+"end": 385.202,
+"text": "melemah sedikit, lalu stabil."
+},
+{
+"start": 385.652,
+"end": 389.474,
+"text": "Jam enam pagi. Pasar Asia dibuka. Tekanan"
+},
+{
+"start": 389.474,
+"end": 393.95,
+"text": "jual mereda. Investor melihat bahwa bank sentral"
+},
+{
+"start": 393.95,
+"end": 398.052,
+"text": "tidak panik. Kamu bersandar di kursi. Matamu"
+},
+{
+"start": 398.052,
+"end": 400.476,
+"text": "perih, tapi hatimu tenang."
+},
+{
+"start": 400.926,
+"end": 403.241,
+"text": "Jam delapan pagi, satu jam sebelum"
+},
+{
+"start": 403.241,
+"end": 406.168,
+"text": "masa jabatanmu berakhir, ponselmu bergetar."
+},
+{
+"start": 406.618,
+"end": 408.354,
+"text": "Raka: Bro, bank ngasih opsi"
+},
+{
+"start": 408.354,
+"end": 410.796,
+"text": "perpanjang tenor. Cicilanku jadi nggak"
+},
+{
+"start": 410.796,
+"end": 413.238,
+"text": "naik sebanyak kemarin. Lumayan banget."
+},
+{
+"start": 413.688,
+"end": 416.324,
+"text": "Kamu tersenyum. Tidak ada yang tahu bahwa"
+},
+{
+"start": 416.324,
+"end": 419.281,
+"text": "yang memutuskan itu adalah sahabatnya sendiri."
+},
+{
+"start": 419.731,
+"end": 422.443,
+"text": "Jam sembilan pagi. Papan nama di"
+},
+{
+"start": 422.443,
+"end": 426.088,
+"text": "mejamu menghilang. Kamu kembali ke kamarmu."
+},
+{
+"start": 426.538,
+"end": 428.701,
+"text": "Ada satu pelajaran nyata dari cerita ini."
+},
+{
+"start": 429.151,
+"end": 431.211,
+"text": "Kebijakan ekonomi hampir tidak pernah punya"
+},
+{
+"start": 431.211,
+"end": 433.031,
+"text": "pilihan yang menyenangkan semua orang."
+},
+{
+"start": 433.481,
+"end": 435.701,
+"text": "Suku bunga tinggi melindungi rupiah dan"
+},
+{
+"start": 435.701,
+"end": 438.148,
+"text": "menahan inflasi, tapi memberatkan peminjam."
+},
+{
+"start": 438.598,
+"end": 441.049,
+"text": "Suku bunga rendah meringankan cicilan, tapi"
+},
+{
+"start": 441.049,
+"end": 443.615,
+"text": "bisa membuat rupiah dan harga-harga tertekan."
+},
+{
+"start": 444.065,
+"end": 446.752,
+"text": "Mencetak uang terdengar mudah, tapi bisa memicu"
+},
+{
+"start": 446.752,
+"end": 449.554,
+"text": "inflasi yang justru paling merugikan orang kecil."
+},
+{
+"start": 449.554,
+"end": 451.955,
+"text": "Dan keputusan yang benar sering kali bukan"
+},
+{
+"start": 451.955,
+"end": 453.67,
+"text": "keputusan yang paling disukai."
+},
+{
+"start": 454.12,
+"end": 457.26,
+"text": "Karena itu, sebagai individu, cara terbaik melindungi"
+},
+{
+"start": 457.26,
+"end": 460.578,
+"text": "diri adalah menyiapkan keuanganmu untuk dua kemungkinan:"
+},
+{
+"start": 460.578,
+"end": 462.355,
+"text": "bunga naik maupun bunga turun."
+},
+{
+"start": 462.805,
+"end": 466.251,
+"text": "Kenali jenis bunga cicilanmu. Siapkan dana darurat."
+},
+{
+"start": 466.251,
+"end": 469.292,
+"text": "Dan jangan mengambil utang yang hanya sanggup"
+},
+{
+"start": 469.292,
+"end": 471.725,
+"text": "kamu bayar saat keadaan sedang baik."
+},
+{
+"start": 472.175,
+"end": 475.473,
+"text": "Siang harinya, sebuah jam saku tergeletak di"
+},
+{
+"start": 475.473,
+"end": 478.396,
+"text": "meja kamarmu. Jam saku milik Pak Harso."
+},
+{
+"start": 478.846,
+"end": 481.169,
+"text": "Di bawahnya, ada secarik kertas."
+},
+{
+"start": 481.619,
+"end": 484.849,
+"text": "Pak Harso: Kamu sudah melihat masa depan,"
+},
+{
+"start": 484.849,
+"end": 488.631,
+"text": "masa lalu, dan kursi kekuasaan. Ujian terakhirmu"
+},
+{
+"start": 488.631,
+"end": 491.861,
+"text": "adalah yang paling sulit: dirimu sendiri."
+},
+{
+"start": 492.311,
+"end": 494.939,
+"text": "Jadi, kalau kamu menjadi Gubernur Bank Indonesia"
+},
+{
+"start": 494.939,
+"end": 497.183,
+"text": "selama dua puluh empat jam, keputusan apa"
+},
+{
+"start": 497.183,
+"end": 499.045,
+"text": "yang akan kamu ambil pertama kali?"
+},
+{
+"start": 499.495,
+"end": 501.382,
+"text": "Tulis jawabanmu di kolom komentar."
+},
+{
+"start": 501.832,
+"end": 503.628,
+"text": "Dan kalau kamu ingin tahu ujian"
+},
+{
+"start": 503.628,
+"end": 506.061,
+"text": "terakhir dari Pak Harso, subscribe, karena"
+},
+{
+"start": 506.061,
+"end": 507.509,
+"text": "cerita ini belum selesai."
+},
+{
+"start": 507.959,
+"end": 510.638,
+"text": "Video ini adalah cerita fiksi untuk edukasi."
+},
+{
+"start": 510.638,
+"end": 513.681,
+"text": "Tokoh dan kejadian di dalamnya tidak menggambarkan"
+},
+{
+"start": 513.681,
+"end": 516.055,
+"text": "pejabat atau kebijakan yang sebenarnya."
+}
+]

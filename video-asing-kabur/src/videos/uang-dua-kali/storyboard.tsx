@@ -32,7 +32,6 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
           {name: 'Raka', who: 'raka', text: 'Gajiku sama, Bro. Tapi sekarang makan siang aja harus mikir dua kali.', at: L(43), side: 'left'},
           {name: 'Pak Joko', who: 'joko', text: 'Uang pensiun Ayah dulu cukup sebulan. Sekarang tiga minggu sudah habis.', at: L(44), side: 'right'},
         ]}
-        lines={[{text: 'Gaji, pensiun, tabungan: TETAP', at: L(42), size: 54}]}
       />
     ),
   },

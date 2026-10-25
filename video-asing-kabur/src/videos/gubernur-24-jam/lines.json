@@ -1,1 +1,470 @@
-[{"i": 0, "start": 0.0, "end": 4.0, "text": "x"}, {"i": 1, "start": 5.0, "end": 9.0, "text": "x"}, {"i": 2, "start": 10.0, "end": 14.0, "text": "x"}, {"i": 3, "start": 15.0, "end": 19.0, "text": "x"}, {"i": 4, "start": 20.0, "end": 24.0, "text": "x"}, {"i": 5, "start": 25.0, "end": 29.0, "text": "x"}, {"i": 6, "start": 30.0, "end": 34.0, "text": "x"}, {"i": 7, "start": 35.0, "end": 39.0, "text": "x"}, {"i": 8, "start": 40.0, "end": 44.0, "text": "x"}, {"i": 9, "start": 45.0, "end": 49.0, "text": "x"}, {"i": 10, "start": 50.0, "end": 54.0, "text": "x"}, {"i": 11, "start": 55.0, "end": 59.0, "text": "x"}, {"i": 12, "start": 60.0, "end": 64.0, "text": "x"}, {"i": 13, "start": 65.0, "end": 69.0, "text": "x"}, {"i": 14, "start": 70.0, "end": 74.0, "text": "x"}, {"i": 15, "start": 75.0, "end": 79.0, "text": "x"}, {"i": 16, "start": 80.0, "end": 84.0, "text": "x"}, {"i": 17, "start": 85.0, "end": 89.0, "text": "x"}, {"i": 18, "start": 90.0, "end": 94.0, "text": "x"}, {"i": 19, "start": 95.0, "end": 99.0, "text": "x"}, {"i": 20, "start": 100.0, "end": 104.0, "text": "x"}, {"i": 21, "start": 105.0, "end": 109.0, "text": "x"}, {"i": 22, "start": 110.0, "end": 114.0, "text": "x"}, {"i": 23, "start": 115.0, "end": 119.0, "text": "x"}, {"i": 24, "start": 120.0, "end": 124.0, "text": "x"}, {"i": 25, "start": 125.0, "end": 129.0, "text": "x"}, {"i": 26, "start": 130.0, "end": 134.0, "text": "x"}, {"i": 27, "start": 135.0, "end": 139.0, "text": "x"}, {"i": 28, "start": 140.0, "end": 144.0, "text": "x"}, {"i": 29, "start": 145.0, "end": 149.0, "text": "x"}, {"i": 30, "start": 150.0, "end": 154.0, "text": "x"}, {"i": 31, "start": 155.0, "end": 159.0, "text": "x"}, {"i": 32, "start": 160.0, "end": 164.0, "text": "x"}, {"i": 33, "start": 165.0, "end": 169.0, "text": "x"}, {"i": 34, "start": 170.0, "end": 174.0, "text": "x"}, {"i": 35, "start": 175.0, "end": 179.0, "text": "x"}, {"i": 36, "start": 180.0, "end": 184.0, "text": "x"}, {"i": 37, "start": 185.0, "end": 189.0, "text": "x"}, {"i": 38, "start": 190.0, "end": 194.0, "text": "x"}, {"i": 39, "start": 195.0, "end": 199.0, "text": "x"}, {"i": 40, "start": 200.0, "end": 204.0, "text": "x"}, {"i": 41, "start": 205.0, "end": 209.0, "text": "x"}, {"i": 42, "start": 210.0, "end": 214.0, "text": "x"}, {"i": 43, "start": 215.0, "end": 219.0, "text": "x"}, {"i": 44, "start": 220.0, "end": 224.0, "text": "x"}, {"i": 45, "start": 225.0, "end": 229.0, "text": "x"}, {"i": 46, "start": 230.0, "end": 234.0, "text": "x"}, {"i": 47, "start": 235.0, "end": 239.0, "text": "x"}, {"i": 48, "start": 240.0, "end": 244.0, "text": "x"}, {"i": 49, "start": 245.0, "end": 249.0, "text": "x"}, {"i": 50, "start": 250.0, "end": 254.0, "text": "x"}, {"i": 51, "start": 255.0, "end": 259.0, "text": "x"}, {"i": 52, "start": 260.0, "end": 264.0, "text": "x"}, {"i": 53, "start": 265.0, "end": 269.0, "text": "x"}, {"i": 54, "start": 270.0, "end": 274.0, "text": "x"}, {"i": 55, "start": 275.0, "end": 279.0, "text": "x"}, {"i": 56, "start": 280.0, "end": 284.0, "text": "x"}, {"i": 57, "start": 285.0, "end": 289.0, "text": "x"}, {"i": 58, "start": 290.0, "end": 294.0, "text": "x"}, {"i": 59, "start": 295.0, "end": 299.0, "text": "x"}, {"i": 60, "start": 300.0, "end": 304.0, "text": "x"}, {"i": 61, "start": 305.0, "end": 309.0, "text": "x"}, {"i": 62, "start": 310.0, "end": 314.0, "text": "x"}, {"i": 63, "start": 315.0, "end": 319.0, "text": "x"}, {"i": 64, "start": 320.0, "end": 324.0, "text": "x"}, {"i": 65, "start": 325.0, "end": 329.0, "text": "x"}, {"i": 66, "start": 330.0, "end": 334.0, "text": "x"}, {"i": 67, "start": 335.0, "end": 339.0, "text": "x"}, {"i": 68, "start": 340.0, "end": 344.0, "text": "x"}, {"i": 69, "start": 345.0, "end": 349.0, "text": "x"}, {"i": 70, "start": 350.0, "end": 354.0, "text": "x"}, {"i": 71, "start": 355.0, "end": 359.0, "text": "x"}, {"i": 72, "start": 360.0, "end": 364.0, "text": "x"}, {"i": 73, "start": 365.0, "end": 369.0, "text": "x"}, {"i": 74, "start": 370.0, "end": 374.0, "text": "x"}, {"i": 75, "start": 375.0, "end": 379.0, "text": "x"}, {"i": 76, "start": 380.0, "end": 384.0, "text": "x"}, {"i": 77, "start": 385.0, "end": 389.0, "text": "x"}, {"i": 78, "start": 390.0, "end": 394.0, "text": "x"}, {"i": 79, "start": 395.0, "end": 399.0, "text": "x"}, {"i": 80, "start": 400.0, "end": 404.0, "text": "x"}, {"i": 81, "start": 405.0, "end": 409.0, "text": "x"}, {"i": 82, "start": 410.0, "end": 414.0, "text": "x"}, {"i": 83, "start": 415.0, "end": 419.0, "text": "x"}, {"i": 84, "start": 420.0, "end": 424.0, "text": "x"}, {"i": 85, "start": 425.0, "end": 429.0, "text": "x"}, {"i": 86, "start": 430.0, "end": 434.0, "text": "x"}, {"i": 87, "start": 435.0, "end": 439.0, "text": "x"}, {"i": 88, "start": 440.0, "end": 444.0, "text": "x"}, {"i": 89, "start": 445.0, "end": 449.0, "text": "x"}]
+[
+{
+"i": 0,
+"start": 0.3,
+"end": 5.1370000000000005,
+"text": "Jam sembilan pagi. Kamu masuk ke sebuah ruang rapat besar di Jakarta."
+},
+{
+"i": 1,
+"start": 5.587,
+"end": 15.757,
+"text": "Dua belas orang berjas duduk mengelilingi meja panjang. Semuanya berdiri saat kamu masuk. Ruangan itu dingin, dan semua mata tertuju padamu."
+},
+{
+"i": 2,
+"start": 16.207,
+"end": 20.705,
+"text": ">> Deputi: Selamat pagi, Pak Gubernur. Kami menunggu keputusan Bapak."
+},
+{
+"i": 3,
+"start": 21.155,
+"end": 23.406,
+"text": "Gubernur? Kamu?"
+},
+{
+"i": 4,
+"start": 24.306,
+"end": 33.384,
+"text": "Kemarin, seorang tamu berjas mengetuk pintu rumahmu. Hari ini, papan nama di depan kursimu tertulis jelas: Gubernur Bank Indonesia."
+},
+{
+"i": 5,
+"start": 33.834,
+"end": 35.435,
+"text": "Hanya untuk dua puluh empat jam."
+},
+{
+"i": 6,
+"start": 35.885,
+"end": 40.591,
+"text": "Jadi, bagaimana kalau kamu menjadi Gubernur Bank Indonesia selama dua puluh empat jam?"
+},
+{
+"i": 7,
+"start": 41.041,
+"end": 42.329,
+"text": "Aturannya sederhana."
+},
+{
+"i": 8,
+"start": 43.229,
+"end": 47.945,
+"text": "Setiap keputusanmu langsung berlaku. Tidak ada yang bisa dibatalkan."
+},
+{
+"i": 9,
+"start": 48.395,
+"end": 50.375,
+"text": "Dan kamu hanya punya tiga alat utama."
+},
+{
+"i": 10,
+"start": 50.825,
+"end": 59.463,
+"text": "Pertama, suku bunga acuan. Naikkan, dan uang jadi mahal. Turunkan, dan uang jadi murah."
+},
+{
+"i": 11,
+"start": 59.913,
+"end": 66.211,
+"text": "Kedua, cadangan devisa. Tumpukan dolar milik negara yang bisa dipakai untuk menahan rupiah."
+},
+{
+"i": 12,
+"start": 66.661,
+"end": 73.019,
+"text": "Ketiga, aturan untuk perbankan. Seberapa banyak uang yang boleh disalurkan bank ke masyarakat."
+},
+{
+"i": 13,
+"start": 73.469,
+"end": 82.227,
+"text": "Kedengarannya sederhana. Sampai kamu melihat layar besar di dinding. Grafik merah memenuhi layar, turun seperti tangga."
+},
+{
+"i": 14,
+"start": 82.677,
+"end": 89.92,
+"text": ">> Deputi: Pak, rupiah melemah lagi pagi ini. Investor asing terus menjual. Harga impor mulai naik."
+},
+{
+"i": 15,
+"start": 90.37,
+"end": 93.585,
+"text": ">> Deputi: Kalau tidak ada tindakan, inflasi bulan depan bisa melonjak."
+},
+{
+"i": 16,
+"start": 94.035,
+"end": 97.534,
+"text": "Jam sepuluh pagi. Keputusan pertamamu."
+},
+{
+"i": 17,
+"start": 97.984,
+"end": 100.546,
+"text": "Kamu memutuskan menaikkan suku bunga dengan tegas."
+},
+{
+"i": 18,
+"start": 100.996,
+"end": 104.706,
+"text": "Ruangan hening. Lalu semua orang mulai bekerja."
+},
+{
+"i": 19,
+"start": 105.156,
+"end": 112.323,
+"text": "Dalam satu jam, rupiah berhenti melemah. Investor asing mulai tertarik lagi karena imbal hasil yang lebih tinggi."
+},
+{
+"i": 20,
+"start": 112.773,
+"end": 121.442,
+"text": "Di layar, grafik rupiah berbalik. Ruangan bertepuk tangan. Untuk sesaat, kamu merasa seperti pahlawan."
+},
+{
+"i": 21,
+"start": 121.892,
+"end": 124.445,
+"text": "Tapi di luar sana, efeknya berbeda."
+},
+{
+"i": 22,
+"start": 124.895,
+"end": 128.663,
+"text": "Di sebuah rumah kecil di Depok, Raka membaca notifikasi dari bank."
+},
+{
+"i": 23,
+"start": 129.113,
+"end": 135.273,
+"text": ">> Raka: Bunga KPR-ku naik? Cicilanku nambah enam ratus ribu sebulan? Aku baru akad tiga bulan lalu!"
+},
+{
+"i": 24,
+"start": 135.723,
+"end": 144.062,
+"text": "Di media sosial, namamu mulai menjadi topik pembicaraan. Dalam hitungan menit, tagar dengan namamu naik ke posisi teratas."
+},
+{
+"i": 25,
+"start": 144.512,
+"end": 149.333,
+"text": "Jam dua belas siang. Tagar tentang Gubernur BI naik ke urutan pertama."
+},
+{
+"i": 26,
+"start": 149.783,
+"end": 154.106,
+"text": ">> Warganet: Gubernur baru nggak punya hati! Cicilan rakyat dinaikin!"
+},
+{
+"i": 27,
+"start": 154.556,
+"end": 170.795,
+"text": "Kamu membaca komentar-komentar itu satu per satu. Ribuan orang marah. Dan mereka tidak salah. Mereka memang yang menanggung bebannya. Di balik setiap angka di layar, ternyata ada keluarga yang sedang menghitung ulang belanja bulanannya."
+},
+{
+"i": 28,
+"start": 171.245,
+"end": 175.231,
+"text": "Jam dua siang. Kamu mencoba memperbaiki keadaan."
+},
+{
+"i": 29,
+"start": 175.681,
+"end": 177.948,
+"text": ">> Kamu: Bagaimana kalau kita turunkan lagi suku bunganya?"
+},
+{
+"i": 30,
+"start": 178.398,
+"end": 187.369,
+"text": ">> Deputi: Pak, kalau suku bunga diturunkan hari ini juga, pasar akan menganggap kebijakan kita tidak konsisten. Rupiah bisa jatuh lebih dalam dari tadi pagi."
+},
+{
+"i": 31,
+"start": 187.819,
+"end": 193.22,
+"text": ">> Deputi: Kepercayaan itu mahal, Pak. Sekali hilang, sangat sulit dikembalikan."
+},
+{
+"i": 32,
+"start": 193.67,
+"end": 204.856,
+"text": "Kamu terdiam. Ternyata, di posisi ini, berubah pikiran pun ada harganya. Kamu menyadari, keputusan pagi tadi kini harus kamu jaga sampai akhir."
+},
+{
+"i": 33,
+"start": 205.306,
+"end": 209.813,
+"text": "Jam tiga sore, ponselmu bergetar. Pak Joko."
+},
+{
+"i": 34,
+"start": 210.263,
+"end": 220.309,
+"text": ">> Pak Joko: Nak, Ayah lihat di berita, bunga naik lagi. Untung Ayah sudah tidak punya cicilan. Tapi kasihan tetangga kita yang baru beli motor."
+},
+{
+"i": 35,
+"start": 220.759,
+"end": 228.163,
+"text": ">> Pak Joko: Tapi kata pedagang di pasar, harga barang impor mulai berhenti naik. Jadi ya, ada baiknya juga."
+},
+{
+"i": 36,
+"start": 228.613,
+"end": 235.076,
+"text": "Kamu menutup telepon. Satu keputusan, dua cerita yang berbeda dari dua orang yang sama-sama benar."
+},
+{
+"i": 37,
+"start": 235.526,
+"end": 240.117,
+"text": "Jam empat sore. Seorang pejabat lain mengusulkan jalan pintas."
+},
+{
+"i": 38,
+"start": 240.567,
+"end": 246.078,
+"text": ">> Pejabat: Pak, bagaimana kalau kita cetak uang saja? Bantu semua orang yang kesulitan bayar cicilan."
+},
+{
+"i": 39,
+"start": 246.528,
+"end": 252.8,
+"text": "Usul itu terdengar sangat menggoda. Semua orang senang. Masalah selesai."
+},
+{
+"i": 40,
+"start": 253.25,
+"end": 254.943,
+"text": "Tapi kamu ingat dompet ajaibmu."
+},
+{
+"i": 41,
+"start": 255.393,
+"end": 266.343,
+"text": "Kamu pernah melihat sendiri apa yang terjadi saat uang bertambah terlalu cepat, sementara barang tidak bertambah. Harga melonjak. Dan yang paling menderita justru orang kecil."
+},
+{
+"i": 42,
+"start": 266.793,
+"end": 270.486,
+"text": ">> Kamu: Tidak. Kita tidak akan mencetak uang untuk menutup masalah."
+},
+{
+"i": 43,
+"start": 270.936,
+"end": 274.53,
+"text": "Jam enam sore. Kamu memanggil para bankir."
+},
+{
+"i": 44,
+"start": 274.98,
+"end": 284.008,
+"text": "Kamu meminta bank-bank memberi keringanan bagi nasabah kecil yang kesulitan membayar cicilan, seperti memperpanjang tenor, supaya cicilan bulanan tidak melonjak terlalu tinggi."
+},
+{
+"i": 45,
+"start": 284.458,
+"end": 290.452,
+"text": "Kamu juga melonggarkan aturan cadangan bank, supaya mereka punya lebih banyak dana untuk disalurkan ke usaha kecil."
+},
+{
+"i": 46,
+"start": 290.902,
+"end": 303.274,
+"text": "Bukan solusi sempurna. Tapi beban tidak lagi ditanggung oleh satu kelompok saja. Kamu menandatangani berkas itu, dan untuk pertama kalinya hari ini, kamu bisa bernapas sedikit lebih lega."
+},
+{
+"i": 47,
+"start": 303.724,
+"end": 307.908,
+"text": "Jam delapan malam. Datang kabar yang paling kamu takutkan."
+},
+{
+"i": 48,
+"start": 308.358,
+"end": 316.96,
+"text": ">> Deputi: Pak, ada aksi jual besar-besaran. Sebuah dana asing raksasa menjual obligasi pemerintah. Rupiah kembali tertekan."
+},
+{
+"i": 49,
+"start": 317.41,
+"end": 318.716,
+"text": "Kamu punya dua pilihan."
+},
+{
+"i": 50,
+"start": 319.616,
+"end": 333.862,
+"text": "Pilihan pertama: jual dolar dari cadangan devisa dalam jumlah sangat besar. Rupiah akan tertahan malam ini juga. Tapi cadangan negara akan terkuras, dan kalau besok serangan datang lagi, kamu mungkin tidak punya amunisi."
+},
+{
+"i": 51,
+"start": 334.312,
+"end": 342.819,
+"text": "Pilihan kedua: biarkan rupiah melemah sedikit, gunakan cadangan secukupnya, dan percaya bahwa kebijakan pagi tadi butuh waktu untuk bekerja."
+},
+{
+"i": 52,
+"start": 343.269,
+"end": 346.33,
+"text": "Pilihan pertama membuatmu terlihat seperti pahlawan malam ini."
+},
+{
+"i": 53,
+"start": 346.78,
+"end": 357.14,
+"text": "Pilihan kedua membuatmu terlihat lemah, tapi menjaga negara tetap punya tameng untuk hari-hari berikutnya. Ruangan hening. Semua orang menunggu jawabanmu."
+},
+{
+"i": 54,
+"start": 357.59,
+"end": 364.344,
+"text": "Kamu memandang layar. Lalu kamu memandang jam di dinding. Tersisa tiga belas jam."
+},
+{
+"i": 55,
+"start": 364.794,
+"end": 369.303,
+"text": ">> Kamu: Kita intervensi secukupnya. Jangan habiskan cadangan dalam satu malam."
+},
+{
+"i": 56,
+"start": 369.753,
+"end": 374.764,
+"text": "Para deputi saling berpandangan. Lalu salah satu dari mereka mengangguk pelan."
+},
+{
+"i": 57,
+"start": 375.214,
+"end": 379.968,
+"text": ">> Deputi: Itu keputusan yang tidak populer, Pak. Tapi itu keputusan yang benar."
+},
+{
+"i": 58,
+"start": 380.418,
+"end": 385.202,
+"text": "Jam dua belas malam. Rupiah melemah sedikit, lalu stabil."
+},
+{
+"i": 59,
+"start": 385.652,
+"end": 400.476,
+"text": "Jam enam pagi. Pasar Asia dibuka. Tekanan jual mereda. Investor melihat bahwa bank sentral tidak panik. Kamu bersandar di kursi. Matamu perih, tapi hatimu tenang."
+},
+{
+"i": 60,
+"start": 400.926,
+"end": 406.168,
+"text": "Jam delapan pagi, satu jam sebelum masa jabatanmu berakhir, ponselmu bergetar."
+},
+{
+"i": 61,
+"start": 406.618,
+"end": 413.238,
+"text": ">> Raka: Bro, bank ngasih opsi perpanjang tenor. Cicilanku jadi nggak naik sebanyak kemarin. Lumayan banget."
+},
+{
+"i": 62,
+"start": 413.688,
+"end": 419.281,
+"text": "Kamu tersenyum. Tidak ada yang tahu bahwa yang memutuskan itu adalah sahabatnya sendiri."
+},
+{
+"i": 63,
+"start": 419.731,
+"end": 426.088,
+"text": "Jam sembilan pagi. Papan nama di mejamu menghilang. Kamu kembali ke kamarmu."
+},
+{
+"i": 64,
+"start": 426.538,
+"end": 428.701,
+"text": "Ada satu pelajaran nyata dari cerita ini."
+},
+{
+"i": 65,
+"start": 429.151,
+"end": 433.031,
+"text": "Kebijakan ekonomi hampir tidak pernah punya pilihan yang menyenangkan semua orang."
+},
+{
+"i": 66,
+"start": 433.481,
+"end": 438.148,
+"text": "Suku bunga tinggi melindungi rupiah dan menahan inflasi, tapi memberatkan peminjam."
+},
+{
+"i": 67,
+"start": 438.598,
+"end": 443.615,
+"text": "Suku bunga rendah meringankan cicilan, tapi bisa membuat rupiah dan harga-harga tertekan."
+},
+{
+"i": 68,
+"start": 444.065,
+"end": 453.67,
+"text": "Mencetak uang terdengar mudah, tapi bisa memicu inflasi yang justru paling merugikan orang kecil. Dan keputusan yang benar sering kali bukan keputusan yang paling disukai."
+},
+{
+"i": 69,
+"start": 454.12,
+"end": 462.355,
+"text": "Karena itu, sebagai individu, cara terbaik melindungi diri adalah menyiapkan keuanganmu untuk dua kemungkinan: bunga naik maupun bunga turun."
+},
+{
+"i": 70,
+"start": 462.805,
+"end": 471.725,
+"text": "Kenali jenis bunga cicilanmu. Siapkan dana darurat. Dan jangan mengambil utang yang hanya sanggup kamu bayar saat keadaan sedang baik."
+},
+{
+"i": 71,
+"start": 472.175,
+"end": 478.396,
+"text": "Siang harinya, sebuah jam saku tergeletak di meja kamarmu. Jam saku milik Pak Harso."
+},
+{
+"i": 72,
+"start": 478.846,
+"end": 481.169,
+"text": "Di bawahnya, ada secarik kertas."
+},
+{
+"i": 73,
+"start": 481.619,
+"end": 491.861,
+"text": ">> Pak Harso: Kamu sudah melihat masa depan, masa lalu, dan kursi kekuasaan. Ujian terakhirmu adalah yang paling sulit: dirimu sendiri."
+},
+{
+"i": 74,
+"start": 492.311,
+"end": 499.045,
+"text": "Jadi, kalau kamu menjadi Gubernur Bank Indonesia selama dua puluh empat jam, keputusan apa yang akan kamu ambil pertama kali?"
+},
+{
+"i": 75,
+"start": 499.495,
+"end": 501.382,
+"text": "Tulis jawabanmu di kolom komentar."
+},
+{
+"i": 76,
+"start": 501.832,
+"end": 507.509,
+"text": "Dan kalau kamu ingin tahu ujian terakhir dari Pak Harso, subscribe, karena cerita ini belum selesai."
+},
+{
+"i": 77,
+"start": 507.959,
+"end": 516.055,
+"text": "Video ini adalah cerita fiksi untuk edukasi. Tokoh dan kejadian di dalamnya tidak menggambarkan pejabat atau kebijakan yang sebenarnya."
+}
+]

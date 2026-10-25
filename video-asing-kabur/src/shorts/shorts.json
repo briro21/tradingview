@@ -124,5 +124,59 @@
   "hook": "10 DETIK:\nUANGMU ATAU AYAHMU?",
   "title": "10 Detik untuk Memilih: Uangmu atau Ayahmu? #whatif #cerita",
   "lastLine": 81
+ },
+ {
+  "id": "k98-hook",
+  "slug": "kembali-1998",
+  "from": 11.86,
+  "to": 65.7,
+  "hook": "BANGUN DI TAHUN 1998\nDENGAN INGATAN 2026",
+  "title": "Bangun di Tahun 1998 dengan Ingatan 2026? #whatif #krismon",
+  "lastLine": 11
+ },
+ {
+  "id": "k98-ayah",
+  "slug": "kembali-1998",
+  "from": 137.41,
+  "to": 191.32,
+  "hook": "BANK AYAHMU DITUTUP\n3 BULAN LAGI",
+  "title": "Kamu Tahu Bank Ayahmu Akan Ditutup di 1998 #whatif #cerita",
+  "lastLine": 33
+ },
+ {
+  "id": "udk-hook",
+  "slug": "uang-dua-kali",
+  "from": 0,
+  "to": 51.07,
+  "hook": "UANGMU KEMBALI\nDUA KALI LIPAT",
+  "title": "Setiap Belanja, Uangmu Kembali 2x Lipat #whatif #inflasi",
+  "lastLine": 11
+ },
+ {
+  "id": "udk-inflasi",
+  "slug": "uang-dua-kali",
+  "from": 151.03,
+  "to": 198.38,
+  "hook": "KENAPA HARGA\nBISA NAIK?",
+  "title": "Inflasi Dijelaskan dengan 10 Karung Beras #inflasi #ekonomi",
+  "lastLine": 35
+ },
+ {
+  "id": "gub-hook",
+  "slug": "gubernur-24-jam",
+  "from": 0,
+  "to": 50.98,
+  "hook": "KAMU JADI GUBERNUR BI\nSELAMA 24 JAM",
+  "title": "Jadi Gubernur Bank Indonesia 24 Jam? #whatif #bankindonesia",
+  "lastLine": 9
+ },
+ {
+  "id": "gub-malam",
+  "slug": "gubernur-24-jam",
+  "from": 303.42,
+  "to": 357.74,
+  "hook": "SERANGAN MALAM:\nPAHLAWAN ATAU TAMENG?",
+  "title": "Rupiah Diserang Tengah Malam, Apa Keputusanmu? #whatif #rupiah",
+  "lastLine": 53
  }
 ]
