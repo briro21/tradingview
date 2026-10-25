@@ -1,0 +1,23 @@
+{
+  "slug": "gubernur-24-jam",
+  "titles": [
+    "What If Kamu Jadi Gubernur Bank Indonesia Selama 24 Jam?",
+    "24 Jam Jadi Gubernur BI: Selamatkan Rupiah atau Cicilan Rakyat?",
+    "Kamu Punya 24 Jam untuk Menyelamatkan Rupiah... Tapi Semua Orang Marah"
+  ],
+  "intro": "Bagaimana kalau kamu terbangun di ruang rapat, dan semua orang memanggilmu Pak Gubernur? Selama 24 jam, kamu memegang kendali Bank Indonesia, saat rupiah sedang tertekan dan investor asing menjual.\n\nDi cerita what if ini kamu menaikkan suku bunga, rupiah menguat, tapi cicilan KPR Raka naik dan warganet marah. Ada usulan mencetak uang, ada serangan jual di malam hari, dan kamu harus memilih: habiskan cadangan devisa dalam satu malam, atau intervensi secukupnya.\n\nLewat cerita fiksi ini kamu akan memahami alat utama bank sentral (suku bunga, cadangan devisa, dan aturan perbankan), kenapa tidak ada keputusan yang menyenangkan semua orang, dan apa artinya bagi cicilan, tabungan, dan dana daruratmu.",
+  "question": "Kalau kamu jadi Gubernur BI selama 24 jam, kamu akan menaikkan atau menurunkan suku bunga? Kenapa?",
+  "sources": [
+    "Cerita fiksi. Tokoh dan kejadian bukan representasi pejabat Bank Indonesia yang sebenarnya.",
+    "Penjelasan kebijakan moneter dan instrumen BI: Bank Indonesia (bi.go.id)."
+  ],
+  "note": "Semua tokoh, kurs, dan angka dalam video adalah fiksi/ilustrasi. Bukan ajakan membeli atau menjual aset apa pun.",
+  "chapters": [[0, "Bangun di ruang rapat"], [7, "Tiga alat utama"], [14, "Laporan pagi"], [16, "Keputusan pertama: bunga naik"], [21, "Cicilan Raka naik"], [24, "Warganet marah"], [28, "Tidak bisa mundur"], [33, "Telepon Pak Joko"], [37, "Usulan cetak uang"], [43, "Bantuan untuk peminjam"], [47, "Serangan malam hari"], [58, "Rupiah stabil"], [64, "Pelajaran"], [71, "Pesan Pak Harso"], [74, "Apa keputusanmu?"]],
+  "tags": ["what if", "gubernur bank indonesia", "bank indonesia", "BI rate", "suku bunga", "kebijakan moneter", "rupiah melemah", "cadangan devisa", "KPR", "cicilan naik", "cetak uang", "inflasi", "ekonomi indonesia", "edukasi keuangan", "cerita ekonomi", "IHSG", "investor asing", "animasi", "literasi keuangan", "dana darurat"],
+  "hashtags": ["#WhatIf", "#BankIndonesia", "#BIRate", "#EkonomiIndonesia", "#Rupiah"],
+  "thumbs": {
+    "v1": {"top": "GUBERNUR BI", "main": "24 JAM", "badge": "RUPIAH JATUH", "emoji": "🏛️"},
+    "v2": {"kicker": "WHAT IF", "main": "KAMU JADI\nGUBERNUR BI?", "bottom": "SEMUA ORANG MARAH", "emoji": "🎚️"},
+    "v3": {"top": "24 JAM UNTUK MEMILIH:", "left": "RUPIAH", "right": "CICILAN", "leftEmoji": "💵", "rightEmoji": "🏠"}
+  }
+}

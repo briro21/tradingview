@@ -17,6 +17,11 @@ export const CAST = {
   joko: {jacket: '#8a5a3c', rim: '#ffcf9e'},
   ana: {jacket: '#ff7aa8', rim: '#ffd1e3'},
   petugas: {jacket: '#4a4f5c', rim: '#c9d3e6'},
+  harso: {jacket: '#7a7a82', rim: '#ffd59e'},
+  jokoMuda: {jacket: '#c98a3a', rim: '#ffe0b0'},
+  pedagang: {jacket: '#2e8b57', rim: '#c8f5d8'},
+  sri: {jacket: '#d35400', rim: '#ffd0a8'},
+  deputi: {jacket: '#22304d', rim: '#9fb3e0'},
 };
 type Who = keyof typeof CAST;
 
@@ -68,7 +73,7 @@ export const Bubble: React.FC<{name: string; text: string; color: string; side?:
   </div>
 );
 
-type SetName = 'room' | 'house' | 'white' | 'street';
+type SetName = 'room' | 'house' | 'white' | 'street' | 'shop' | 'old' | 'meeting' | 'warung';
 const SetBg: React.FC<{set: SetName}> = ({set}) => {
   if (set === 'room')
     return (
@@ -90,8 +95,68 @@ const SetBg: React.FC<{set: SetName}> = ({set}) => {
         <div style={{position: 'absolute', left: 360, right: 360, top: 700, height: 40, background: '#8d8a9c', border: `8px solid ${C.ink}`}} />
       </AbsoluteFill>
     );
+  if (set === 'shop')
+    return (
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, #2a1a10 0%, #4a2e1a 72%, #2a1a10 72%)'}}>
+        <AbsoluteFill style={{background: 'radial-gradient(circle at 50% 40%, rgba(255,200,120,0.35), transparent 50%)'}} />
+        {Array.from({length: 14}, (_, i) => (
+          <div key={i} style={{position: 'absolute', left: 80 + (i % 7) * 260, top: 80 + Math.floor(i / 7) * 220, width: 120, height: 120, borderRadius: '50%', background: '#f2ead8', border: `8px solid #6b4a2b`}}>
+            <div style={{position: 'absolute', left: 52, top: 18, width: 6, height: 44, background: C.ink, transformOrigin: 'bottom', transform: `rotate(${i * 47}deg)`}} />
+          </div>
+        ))}
+      </AbsoluteFill>
+    );
+  if (set === 'old')
+    return (
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, #d9c4a0 0%, #c9b088 72%, #8f7a5a 72%)', filter: 'sepia(0.5)'}}>
+        {[120, 520, 1300].map((x, i) => (
+          <div key={x} style={{position: 'absolute', left: x, top: 180 + i * 20, width: 300, height: 420, background: '#b59a6e', border: `8px solid #5a4630`}} />
+        ))}
+        <div style={{position: 'absolute', left: 900, top: 240, width: 110, height: 300, background: '#c0392b', border: `8px solid ${C.ink}`, borderRadius: 12}} />
+      </AbsoluteFill>
+    );
+  if (set === 'meeting')
+    return (
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, #1c2440 0%, #26304f 72%, #151b30 72%)'}}>
+        <div style={{position: 'absolute', left: 560, top: 70, width: 800, height: 330, background: '#0d1220', border: `10px solid ${C.ink}`, borderRadius: 14, overflow: 'hidden'}}>
+          <svg width={780} height={310}><path d="M0 60 L120 90 L240 80 L360 150 L480 190 L600 170 L780 240" stroke={C.red} strokeWidth={10} fill="none" /></svg>
+        </div>
+        <div style={{position: 'absolute', left: 260, right: 260, top: 720, height: 50, background: '#6b4a2b', border: `8px solid ${C.ink}`}} />
+      </AbsoluteFill>
+    );
+  if (set === 'warung')
+    return (
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, #ffe0b8 0%, #f5e1c8 72%, #c9a77c 72%)'}}>
+        <div style={{position: 'absolute', left: 560, top: 160, width: 800, height: 420, background: '#a8774c', border: `10px solid ${C.ink}`}}>
+          {['🍚', '🛢️', '🥚', '🍜', '🧂'].map((e, i) => (
+            <span key={e} style={{position: 'absolute', left: 40 + i * 150, top: 60 + (i % 2) * 160, fontSize: 90}}>{e}</span>
+          ))}
+        </div>
+      </AbsoluteFill>
+    );
   return (
     <AbsoluteFill style={{background: 'linear-gradient(180deg, #ffd9a8, #f5f0e6 72%, #d8c7a6 72%)'}} />
+  );
+};
+
+// Mesin waktu: jam berputar cepat, tahun menghitung mundur/maju.
+export const TimeWarp: React.FC<{from: number; to: number; at: number; lines?: Line[]}> = ({from, to, at, lines = []}) => {
+  const sec = useSec();
+  const t = ramp(sec, at, at + 3);
+  const year = Math.round(from + (to - from) * t);
+  const spin = sec * 720 * (1 - t * 0.7);
+  return (
+    <AbsoluteFill>
+      <Ambient color="#ffb26b" base="#140c06" particles={40} />
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center'}}>
+        {[700, 520, 340].map((d, i) => (
+          <div key={d} style={{position: 'absolute', width: d, height: d, borderRadius: '50%', border: `${10 - i * 2}px solid rgba(255,210,140,${0.3 + i * 0.2})`, transform: `rotate(${spin * (i % 2 ? -1 : 1)}deg)`, borderTopColor: '#ffd77a'}} />
+        ))}
+        <div style={{position: 'absolute', width: 12, height: 160, background: '#ffd77a', transformOrigin: 'bottom', transform: `translateY(-80px) rotate(${spin * 2}deg)`}} />
+        <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 200, color: '#fff', textShadow: '0 0 60px #ffb26b', filter: `blur(${(1 - t) * 4}px)`}}>{year}</div>
+      </AbsoluteFill>
+      <Lines lines={lines} align="center" y={60} color="#fff" />
+    </AbsoluteFill>
   );
 };
 
@@ -130,13 +195,13 @@ export const Dialog: React.FC<{
         </Pop>
       )}
       <Grade tint={dark ? 'rgba(120,60,200,0.2)' : 'rgba(255,170,90,0.1)'} />
-      <Lines lines={lines} color={dark ? '#fff' : undefined} align="center" y={40} />
+      <Lines lines={lines} color={dark ? '#fff' : undefined} align="center" y={80} />
     </Camera>
   );
 };
 
 // Saldo yang terus bertambah, koin berjatuhan.
-export const Balance: React.FC<{steps: {at: number; v: number}[]; lines: Line[]}> = ({steps, lines}) => {
+export const Balance: React.FC<{steps: {at: number; v: number}[]; lines: Line[]; label?: string; sub?: string}> = ({steps, lines, label = 'SALDO PORTOFOLIO', sub = '▲ tanpa satu pun rugi'}) => {
   const sec = useSec();
   let v = steps[0].v;
   for (let i = 1; i < steps.length; i++) v = sec < steps[i].at ? v : interpolate(sec, [steps[i].at, steps[i].at + 1.2], [steps[i - 1].v, steps[i].v], clamp);
@@ -153,9 +218,9 @@ export const Balance: React.FC<{steps: {at: number; v: number}[]; lines: Line[]}
       })}
       <Abs x={610} y={190}>
         <div style={{width: 700, height: 760, borderRadius: 60, background: '#10141f', border: `14px solid ${C.ink}`, padding: 50, display: 'flex', flexDirection: 'column', gap: 20}}>
-          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 36, color: '#9aa3b8'}}>SALDO PORTOFOLIO</div>
-          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 92, color: C.green}}>Rp{fmt(Math.round(v))}</div>
-          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 34, color: C.green}}>▲ tanpa satu pun rugi</div>
+          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 36, color: '#9aa3b8'}}>{label}</div>
+          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: Math.min(92, 1000 / (fmt(Math.round(v)).length + 2)), color: C.green}}>Rp{fmt(Math.round(v))}</div>
+          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 34, color: C.green}}>{sub}</div>
           <svg width={600} height={300}>
             <path d={`M0 280 ${Array.from({length: 12}, (_, i) => `L${(i + 1) * 50} ${280 - Math.min(1, v / steps[steps.length - 1].v) * (i + 1) * 22 - Math.sin(i) * 8}`).join(' ')}`} stroke={C.green} strokeWidth={10} fill="none" />
           </svg>

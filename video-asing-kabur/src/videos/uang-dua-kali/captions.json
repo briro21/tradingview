@@ -1,0 +1,902 @@
+[
+{
+"start": 0.3,
+"end": 2.002,
+"text": "Kamu membeli segelas kopi seharga"
+},
+{
+"start": 2.002,
+"end": 3.136,
+"text": "dua puluh ribu rupiah."
+},
+{
+"start": 3.586,
+"end": 5.998,
+"text": "Kamu membayar dengan selembar uang"
+},
+{
+"start": 5.998,
+"end": 8.268,
+"text": "dua puluh ribu. Dompetmu kosong."
+},
+{
+"start": 8.718,
+"end": 11.083,
+"text": "Lalu kamu membuka dompet lagi. Ada"
+},
+{
+"start": 11.083,
+"end": 13.1,
+"text": "empat puluh ribu di dalamnya."
+},
+{
+"start": 13.55,
+"end": 15.391,
+"text": "Raka: Lho, tadi dompetmu kosong"
+},
+{
+"start": 15.391,
+"end": 17.173,
+"text": "kan? Kok sekarang ada uangnya?"
+},
+{
+"start": 17.623,
+"end": 18.968,
+"text": "Kamu juga tidak mengerti."
+},
+{
+"start": 19.868,
+"end": 22.079,
+"text": "Kamu membeli roti sepuluh ribu."
+},
+{
+"start": 22.079,
+"end": 24.504,
+"text": "Dompetmu bertambah dua puluh ribu."
+},
+{
+"start": 24.954,
+"end": 27.325,
+"text": "Jadi, bagaimana kalau setiap rupiah yang"
+},
+{
+"start": 27.325,
+"end": 29.697,
+"text": "kamu belanjakan, kembali dua kali lipat?"
+},
+{
+"start": 30.147,
+"end": 31.435,
+"text": "Aturannya sederhana."
+},
+{
+"start": 32.335,
+"end": 34.658,
+"text": "Setiap uang yang kamu belanjakan, kembali"
+},
+{
+"start": 34.658,
+"end": 36.188,
+"text": "dua kali lipat ke dompetmu."
+},
+{
+"start": 36.638,
+"end": 39.731,
+"text": "Tapi uang yang kamu tabung, tidak bertambah"
+},
+{
+"start": 39.731,
+"end": 42.679,
+"text": "sama sekali. Uang yang kamu simpan, diam."
+},
+{
+"start": 43.129,
+"end": 45.174,
+"text": "Artinya, semakin banyak kamu"
+},
+{
+"start": 45.174,
+"end": 47.146,
+"text": "belanja, semakin kaya kamu."
+},
+{
+"start": 47.596,
+"end": 50.467,
+"text": "Hari pertama, kamu mencobanya dengan hati-hati."
+},
+{
+"start": 50.917,
+"end": 53.576,
+"text": "Makan siang lima puluh ribu, kembali"
+},
+{
+"start": 53.576,
+"end": 56.235,
+"text": "seratus ribu. Beli sepatu lima ratus"
+},
+{
+"start": 56.235,
+"end": 58.007,
+"text": "ribu, kembali satu juta."
+},
+{
+"start": 58.457,
+"end": 61.084,
+"text": "Sore harinya, kamu sudah punya lima"
+},
+{
+"start": 61.084,
+"end": 63.862,
+"text": "juta rupiah. Hanya dengan berbelanja."
+},
+{
+"start": 64.312,
+"end": 66.092,
+"text": "Raka: Bro, ini mah bukan"
+},
+{
+"start": 66.092,
+"end": 67.797,
+"text": "dompet. Ini mesin uang!"
+},
+{
+"start": 68.247,
+"end": 70.513,
+"text": "Minggu pertama, kamu mulai berani."
+},
+{
+"start": 70.963,
+"end": 73.881,
+"text": "Kamu membeli motor baru. Kembali"
+},
+{
+"start": 73.881,
+"end": 76.434,
+"text": "dua kali lipat. Kamu membeli"
+},
+{
+"start": 76.434,
+"end": 79.17,
+"text": "mobil. Kembali dua kali lipat."
+},
+{
+"start": 79.62,
+"end": 83.057,
+"text": "Kamu mentraktir satu kampung makan bakso. Penjual"
+},
+{
+"start": 83.057,
+"end": 86.073,
+"text": "bakso tersenyum lebar. Hari itu dia menjual"
+},
+{
+"start": 86.073,
+"end": 88.879,
+"text": "semua dagangannya sebelum jam dua siang."
+},
+{
+"start": 89.329,
+"end": 91.634,
+"text": "Kamu membelikan Bu Ana kulkas baru,"
+},
+{
+"start": 91.634,
+"end": 94.005,
+"text": "mesin cuci baru, dan televisi besar."
+},
+{
+"start": 94.455,
+"end": 98.591,
+"text": "Bulan berikutnya, kamu membeli rumah. Lalu rumah"
+},
+{
+"start": 98.591,
+"end": 102.555,
+"text": "kedua. Setiap pembelian, uangmu berlipat lagi."
+},
+{
+"start": 103.005,
+"end": 105.76,
+"text": "Kamu mulai menghitung. Kalau terus begini,"
+},
+{
+"start": 105.76,
+"end": 108.187,
+"text": "dalam setahun kamu bisa menjadi orang"
+},
+{
+"start": 108.187,
+"end": 109.63,
+"text": "terkaya di negeri ini."
+},
+{
+"start": 110.08,
+"end": 113.053,
+"text": "Bu Ana: Nak, Ibu nggak minta semua"
+},
+{
+"start": 113.053,
+"end": 115.763,
+"text": "ini. Kamu dapat uang dari mana?"
+},
+{
+"start": 116.213,
+"end": 119.355,
+"text": "Kamu: Rezeki, Bu. Tenang saja."
+},
+{
+"start": 119.805,
+"end": 121.45,
+"text": "Bulan pertama, kamu menjadi"
+},
+{
+"start": 121.45,
+"end": 123.095,
+"text": "pembeli terbesar di kotamu."
+},
+{
+"start": 123.545,
+"end": 126.189,
+"text": "Setiap hari kamu memborong. Toko"
+},
+{
+"start": 126.189,
+"end": 129.494,
+"text": "elektronik, toko bangunan, dealer mobil."
+},
+{
+"start": 129.494,
+"end": 132.715,
+"text": "Semua pedagang senang melihatmu datang."
+},
+{
+"start": 133.165,
+"end": 135.598,
+"text": "Tapi pelan-pelan, sesuatu mulai berubah."
+},
+{
+"start": 136.048,
+"end": 138.908,
+"text": "Toko-toko mulai kehabisan stok. Barang yang kamu"
+},
+{
+"start": 138.908,
+"end": 141.946,
+"text": "beli tidak bisa diproduksi secepat kamu membelinya."
+},
+{
+"start": 142.396,
+"end": 144.766,
+"text": "Dan ketika barang semakin langka, sementara"
+},
+{
+"start": 144.766,
+"end": 146.916,
+"text": "uang di kotamu semakin banyak, pedagang"
+},
+{
+"start": 146.916,
+"end": 148.955,
+"text": "melakukan hal yang paling masuk akal."
+},
+{
+"start": 149.405,
+"end": 150.751,
+"text": "Mereka menaikkan harga."
+},
+{
+"start": 151.651,
+"end": 153.329,
+"text": "Inilah yang disebut inflasi."
+},
+{
+"start": 154.229,
+"end": 156.93,
+"text": "Bayangkan sebuah pasar dengan sepuluh karung"
+},
+{
+"start": 156.93,
+"end": 159.079,
+"text": "beras dan sepuluh juta rupiah uang."
+},
+{
+"start": 159.079,
+"end": 161.412,
+"text": "Harga satu karung kira-kira satu juta."
+},
+{
+"start": 161.862,
+"end": 165.215,
+"text": "Sekarang bayangkan berasnya tetap sepuluh karung, tapi"
+},
+{
+"start": 165.215,
+"end": 167.388,
+"text": "uang di pasar itu menjadi dua puluh"
+},
+{
+"start": 167.388,
+"end": 170.058,
+"text": "juta. Orang akan berebut, dan harganya bisa"
+},
+{
+"start": 170.058,
+"end": 171.424,
+"text": "naik menjadi dua juta."
+},
+{
+"start": 171.874,
+"end": 175.575,
+"text": "Berasnya sama. Yang berubah hanya jumlah uangnya."
+},
+{
+"start": 176.025,
+"end": 178.554,
+"text": "Itulah kenapa terlalu banyak uang yang beredar,"
+},
+{
+"start": 178.554,
+"end": 181.137,
+"text": "tanpa barang yang bertambah, membuat harga naik."
+},
+{
+"start": 181.587,
+"end": 183.254,
+"text": "Dan ini bukan sekadar teori."
+},
+{
+"start": 183.704,
+"end": 186.22,
+"text": "Dalam sejarah, beberapa negara pernah mencetak"
+},
+{
+"start": 186.22,
+"end": 188.846,
+"text": "uang terlalu banyak untuk membayar kebutuhannya."
+},
+{
+"start": 189.296,
+"end": 192.411,
+"text": "Hasilnya, harga naik ratusan, bahkan ribuan"
+},
+{
+"start": 192.411,
+"end": 195.382,
+"text": "persen. Orang harus membawa uang setumpuk"
+},
+{
+"start": 195.382,
+"end": 197.193,
+"text": "hanya untuk membeli roti."
+},
+{
+"start": 197.643,
+"end": 199.59,
+"text": "Uang yang dicetak semakin banyak,"
+},
+{
+"start": 199.59,
+"end": 201.361,
+"text": "justru semakin tidak berharga."
+},
+{
+"start": 201.811,
+"end": 203.195,
+"text": "Bulan kedua, harga di"
+},
+{
+"start": 203.195,
+"end": 204.776,
+"text": "kotamu mulai naik tajam."
+},
+{
+"start": 205.226,
+"end": 207.926,
+"text": "Kopi yang dulu dua puluh ribu,"
+},
+{
+"start": 207.926,
+"end": 211.255,
+"text": "sekarang tiga puluh ribu. Beras naik."
+},
+{
+"start": 211.255,
+"end": 214.585,
+"text": "Minyak goreng naik. Ongkos ojek naik."
+},
+{
+"start": 215.035,
+"end": 217.494,
+"text": "Bagimu, tidak masalah. Uangmu"
+},
+{
+"start": 217.494,
+"end": 219.445,
+"text": "kembali dua kali lipat."
+},
+{
+"start": 219.895,
+"end": 221.285,
+"text": "Tapi tidak untuk orang lain."
+},
+{
+"start": 221.735,
+"end": 224.401,
+"text": "Gaji Raka tidak naik. Uang pensiun"
+},
+{
+"start": 224.401,
+"end": 226.91,
+"text": "Pak Joko tidak naik. Tabungan Bu"
+},
+{
+"start": 226.91,
+"end": 228.713,
+"text": "Ana di bank tidak naik."
+},
+{
+"start": 229.163,
+"end": 231.84,
+"text": "Raka: Gajiku sama, Bro. Tapi sekarang makan"
+},
+{
+"start": 231.84,
+"end": 233.77,
+"text": "siang aja harus mikir dua kali."
+},
+{
+"start": 234.22,
+"end": 236.579,
+"text": "Pak Joko: Uang pensiun Ayah dulu cukup"
+},
+{
+"start": 236.579,
+"end": 239.496,
+"text": "sebulan. Sekarang baru tiga minggu sudah habis."
+},
+{
+"start": 239.946,
+"end": 242.764,
+"text": "Harga naik, tapi uang mereka tetap."
+},
+{
+"start": 242.764,
+"end": 245.581,
+"text": "Artinya, daya beli mereka menyusut."
+},
+{
+"start": 246.031,
+"end": 247.603,
+"text": "Uang seratus ribu di dompet Bu"
+},
+{
+"start": 247.603,
+"end": 249.645,
+"text": "Ana, sekarang hanya bisa membeli barang"
+},
+{
+"start": 249.645,
+"end": 250.902,
+"text": "senilai enam puluh ribu."
+},
+{
+"start": 251.352,
+"end": 253.678,
+"text": "Bu Ana: Nak, harga di warung"
+},
+{
+"start": 253.678,
+"end": 257.0,
+"text": "naik terus. Beras sekarang mahal sekali."
+},
+{
+"start": 257.45,
+"end": 259.277,
+"text": "Dan kamu sadar, sebagian besar"
+},
+{
+"start": 259.277,
+"end": 260.8,
+"text": "kenaikan itu karena kamu."
+},
+{
+"start": 261.25,
+"end": 263.665,
+"text": "Bulan ketiga, keadaan semakin buruk."
+},
+{
+"start": 264.115,
+"end": 267.254,
+"text": "Warung langganan keluargamu tutup. Pemiliknya tidak"
+},
+{
+"start": 267.254,
+"end": 269.655,
+"text": "sanggup membeli stok dengan harga baru."
+},
+{
+"start": 270.105,
+"end": 272.455,
+"text": "Bu Sri: Nak, Ibu sudah tiga"
+},
+{
+"start": 272.455,
+"end": 275.24,
+"text": "puluh tahun jualan di sini. Baru"
+},
+{
+"start": 275.24,
+"end": 278.286,
+"text": "kali ini Ibu nggak sanggup kulakan."
+},
+{
+"start": 278.736,
+"end": 281.379,
+"text": "Bu Sri: Modal Ibu cuma cukup buat"
+},
+{
+"start": 281.379,
+"end": 284.743,
+"text": "setengah stok. Pembeli juga makin sedikit."
+},
+{
+"start": 285.193,
+"end": 286.728,
+"text": "Kamu ingat, dulu Bu Sri sering"
+},
+{
+"start": 286.728,
+"end": 288.826,
+"text": "memberimu permen gratis sepulang sekolah."
+},
+{
+"start": 289.276,
+"end": 291.601,
+"text": "Tetanggamu, seorang guru honorer, mulai"
+},
+{
+"start": 291.601,
+"end": 294.285,
+"text": "menjual barang-barangnya untuk membeli beras."
+},
+{
+"start": 294.735,
+"end": 297.713,
+"text": "Di televisi lokal, para ekonom berdebat. Mereka"
+},
+{
+"start": 297.713,
+"end": 300.247,
+"text": "bingung kenapa harga di kotamu naik jauh"
+},
+{
+"start": 300.247,
+"end": 302.275,
+"text": "lebih cepat dibanding kota lain."
+},
+{
+"start": 302.725,
+"end": 304.543,
+"text": "Raka: Bro... jujur deh."
+},
+{
+"start": 304.543,
+"end": 306.36,
+"text": "Ini gara-gara kamu, ya?"
+},
+{
+"start": 306.81,
+"end": 307.894,
+"text": "Kamu tidak menjawab."
+},
+{
+"start": 308.794,
+"end": 310.222,
+"text": "Malam itu, kamu duduk di"
+},
+{
+"start": 310.222,
+"end": 311.768,
+"text": "depan dompetmu yang tebal."
+},
+{
+"start": 312.218,
+"end": 313.524,
+"text": "Kamu punya dua pilihan."
+},
+{
+"start": 314.424,
+"end": 317.626,
+"text": "Pilihan pertama: terus belanja. Kamu akan menjadi"
+},
+{
+"start": 317.626,
+"end": 320.436,
+"text": "orang terkaya di Indonesia. Tapi harga akan"
+},
+{
+"start": 320.436,
+"end": 323.376,
+"text": "terus naik, dan orang-orang yang kamu sayangi"
+},
+{
+"start": 323.376,
+"end": 326.186,
+"text": "akan semakin sulit membeli kebutuhan pokok."
+},
+{
+"start": 326.636,
+"end": 331.251,
+"text": "Pilihan kedua: berhenti belanja. Kekuatanmu tidak berguna"
+},
+{
+"start": 331.251,
+"end": 334.975,
+"text": "lagi. Tapi harga perlahan bisa kembali normal."
+},
+{
+"start": 335.425,
+"end": 337.683,
+"text": "Kamu memandang foto keluargamu di dinding."
+},
+{
+"start": 338.133,
+"end": 339.752,
+"text": "Lalu kamu mengambil keputusan."
+},
+{
+"start": 340.652,
+"end": 341.933,
+"text": "Kamu berhenti belanja."
+},
+{
+"start": 342.833,
+"end": 346.933,
+"text": "Uangmu tidak bertambah lagi. Dompetmu kembali biasa."
+},
+{
+"start": 347.383,
+"end": 349.234,
+"text": "Tapi kamu tidak berhenti di situ."
+},
+{
+"start": 349.234,
+"end": 351.366,
+"text": "Kamu memakai sisa uangmu untuk membeli"
+},
+{
+"start": 351.366,
+"end": 354.172,
+"text": "barang-barang yang langka, lalu menjualnya kembali"
+},
+{
+"start": 354.172,
+"end": 356.135,
+"text": "ke warung-warung dengan harga lama."
+},
+{
+"start": 356.585,
+"end": 357.966,
+"text": "Kamu membantu pemilik warung"
+},
+{
+"start": 357.966,
+"end": 359.495,
+"text": "langganan membuka tokonya lagi."
+},
+{
+"start": 359.945,
+"end": 363.979,
+"text": "Perlahan, stok kembali tersedia. Harga mulai"
+},
+{
+"start": 363.979,
+"end": 367.188,
+"text": "turun. Warga kembali bisa bernapas."
+},
+{
+"start": 367.638,
+"end": 369.736,
+"text": "Bu Ana: Nak, harga beras"
+},
+{
+"start": 369.736,
+"end": 372.533,
+"text": "sudah turun lagi. Alhamdulillah."
+},
+{
+"start": 372.983,
+"end": 375.921,
+"text": "Kamu tersenyum. Hari itu, kamu tidak"
+},
+{
+"start": 375.921,
+"end": 379.021,
+"text": "punya uang sebanyak kemarin. Tapi kamu"
+},
+{
+"start": 379.021,
+"end": 380.898,
+"text": "merasa jauh lebih kaya."
+},
+{
+"start": 381.348,
+"end": 384.235,
+"text": "Bu Sri: Nak, warung Ibu buka"
+},
+{
+"start": 384.235,
+"end": 387.432,
+"text": "lagi. Ini permen, seperti dulu."
+},
+{
+"start": 387.882,
+"end": 391.945,
+"text": "Kamu menerimanya sambil tertawa. Rasanya masih sama."
+},
+{
+"start": 392.395,
+"end": 394.771,
+"text": "Ada pelajaran nyata dari cerita ini, yang"
+},
+{
+"start": 394.771,
+"end": 396.799,
+"text": "terjadi di dunia nyata setiap hari."
+},
+{
+"start": 397.249,
+"end": 399.722,
+"text": "Inflasi terjadi ketika uang dan permintaan tumbuh"
+},
+{
+"start": 399.722,
+"end": 401.842,
+"text": "lebih cepat daripada barang yang tersedia."
+},
+{
+"start": 402.292,
+"end": 404.841,
+"text": "Itulah kenapa Bank Indonesia menjaga jumlah uang"
+},
+{
+"start": 404.841,
+"end": 407.284,
+"text": "yang beredar, dan kadang menaikkan suku bunga,"
+},
+{
+"start": 407.284,
+"end": 409.302,
+"text": "supaya harga tidak naik terlalu cepat."
+},
+{
+"start": 409.752,
+"end": 412.526,
+"text": "Dan bagi kita, inflasi adalah pencuri yang"
+},
+{
+"start": 412.526,
+"end": 415.96,
+"text": "diam-diam. Uang yang hanya disimpan tanpa bertumbuh,"
+},
+{
+"start": 415.96,
+"end": 418.404,
+"text": "nilainya terus menyusut setiap tahun."
+},
+{
+"start": 418.854,
+"end": 421.777,
+"text": "Karena itu, pahami ke mana uangmu disimpan."
+},
+{
+"start": 421.777,
+"end": 424.972,
+"text": "Tabungan untuk dana darurat, dan sebagian untuk"
+},
+{
+"start": 424.972,
+"end": 428.439,
+"text": "instrumen yang bisa tumbuh, sesuai profil risikomu."
+},
+{
+"start": 428.889,
+"end": 431.946,
+"text": "Seminggu kemudian, seseorang mengetuk pintu rumahmu."
+},
+{
+"start": 432.396,
+"end": 434.514,
+"text": "Pria berjas, membawa map tebal dengan"
+},
+{
+"start": 434.514,
+"end": 436.06,
+"text": "logo yang tidak kamu kenal."
+},
+{
+"start": 436.51,
+"end": 440.237,
+"text": "Tamu: Selamat sore. Saya dari bagian pengendalian"
+},
+{
+"start": 440.237,
+"end": 443.584,
+"text": "moneter. Kami ingin bicara soal dompet Anda."
+},
+{
+"start": 444.034,
+"end": 446.27,
+"text": "Tamu: Dan soal bagaimana Anda menurunkan harga"
+},
+{
+"start": 446.27,
+"end": 447.923,
+"text": "di kota ini lebih cepat dari kami."
+},
+{
+"start": 448.373,
+"end": 449.677,
+"text": "Dia tersenyum tipis."
+},
+{
+"start": 450.577,
+"end": 453.348,
+"text": "Tamu: Kami butuh orang seperti Anda. Besok"
+},
+{
+"start": 453.348,
+"end": 456.25,
+"text": "jam sembilan, ada rapat yang sangat penting."
+},
+{
+"start": 456.7,
+"end": 458.624,
+"text": "Jadi, kalau setiap rupiah yang kamu"
+},
+{
+"start": 458.624,
+"end": 460.712,
+"text": "belanjakan kembali dua kali lipat, apa"
+},
+{
+"start": 460.712,
+"end": 462.525,
+"text": "yang akan kamu beli pertama kali?"
+},
+{
+"start": 462.975,
+"end": 464.863,
+"text": "Tulis jawabanmu di kolom komentar."
+},
+{
+"start": 465.313,
+"end": 466.676,
+"text": "Dan kalau kamu ingin tahu"
+},
+{
+"start": 466.676,
+"end": 468.421,
+"text": "rapat apa yang menunggumu besok,"
+},
+{
+"start": 468.421,
+"end": 470.547,
+"text": "subscribe, karena cerita ini berlanjut."
+},
+{
+"start": 470.997,
+"end": 472.988,
+"text": "Video ini adalah cerita fiksi untuk"
+},
+{
+"start": 472.988,
+"end": 475.262,
+"text": "edukasi, bukan ajakan untuk membeli atau"
+},
+{
+"start": 475.262,
+"end": 476.457,
+"text": "menjual aset apa pun."
+}
+]

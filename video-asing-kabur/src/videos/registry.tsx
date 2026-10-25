@@ -26,6 +26,18 @@ import {timeline as lihat} from './lihat-10-detik/storyboard';
 import lihatCaptions from './lihat-10-detik/captions.json';
 import lihatLines from './lihat-10-detik/lines.json';
 import lihatMeta from './lihat-10-detik/meta.json';
+import {timeline as k98} from './kembali-1998/storyboard';
+import k98Captions from './kembali-1998/captions.json';
+import k98Lines from './kembali-1998/lines.json';
+import k98Meta from './kembali-1998/meta.json';
+import {timeline as udk} from './uang-dua-kali/storyboard';
+import udkCaptions from './uang-dua-kali/captions.json';
+import udkLines from './uang-dua-kali/lines.json';
+import udkMeta from './uang-dua-kali/meta.json';
+import {timeline as gub} from './gubernur-24-jam/storyboard';
+import gubCaptions from './gubernur-24-jam/captions.json';
+import gubLines from './gubernur-24-jam/lines.json';
+import gubMeta from './gubernur-24-jam/meta.json';
 import {ThumbData} from './Thumb';
 import {Cue, durationOf, LineT, makeL, Seg, WhatIf} from './WhatIf';
 
@@ -40,6 +52,9 @@ export const VIDEOS: Video[] = [
   {slug: 'bi-rate-7', lines: birateLines, captions: birateCaptions, timeline: birate, thumbs: birateMeta.thumbs},
   {slug: 'bank-bangkrut', lines: bankLines, captions: bankCaptions, timeline: bank, thumbs: bankMeta.thumbs},
   {slug: 'lihat-10-detik', lines: lihatLines, captions: lihatCaptions, timeline: lihat, thumbs: lihatMeta.thumbs},
+  {slug: 'kembali-1998', lines: k98Lines, captions: k98Captions, timeline: k98, thumbs: k98Meta.thumbs},
+  {slug: 'uang-dua-kali', lines: udkLines, captions: udkCaptions, timeline: udk, thumbs: udkMeta.thumbs},
+  {slug: 'gubernur-24-jam', lines: gubLines, captions: gubCaptions, timeline: gub, thumbs: gubMeta.thumbs},
 ];
 
 // Komposisi hanya menerima slug (props Remotion harus bisa di-JSON-kan); storyboard dicari di sini.

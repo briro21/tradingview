@@ -1,0 +1,23 @@
+{
+  "slug": "uang-dua-kali",
+  "titles": [
+    "What If Setiap Rupiah yang Kamu Belanjakan Kembali Dua Kali Lipat?",
+    "Dompet Ajaib: Makin Banyak Belanja, Makin Kaya... Lalu Semua Harga Naik",
+    "Uangmu Kembali 2× Setiap Belanja: Kaya Raya atau Bikin Inflasi?"
+  ],
+  "intro": "Bagaimana kalau setiap rupiah yang kamu belanjakan langsung kembali dua kali lipat ke dompetmu? Beli kopi Rp20.000, dompetmu malah bertambah Rp40.000. Makin banyak belanja, makin kaya.\n\nDi cerita what if ini kamu memborong motor, mobil, rumah, sampai jadi pembeli terbesar di kota. Tapi pelan-pelan, barang mulai langka dan harga naik. Gaji Raka tetap, pensiun Pak Joko tak lagi cukup, dan warung Bu Sri tidak sanggup kulakan.\n\nLewat cerita fiksi ini kamu akan memahami inflasi dengan cara paling sederhana: ketika uang tumbuh lebih cepat daripada barang, harga naik dan daya beli turun. Kamu juga akan tahu kenapa bank sentral menjaga jumlah uang beredar, dan kenapa uang yang hanya didiamkan diam-diam menyusut.",
+  "question": "Kalau setiap uang yang kamu belanjakan kembali dua kali lipat, apa yang akan kamu beli pertama kali?",
+  "sources": [
+    "Cerita fiksi. Konsep inflasi, daya beli, dan peran bank sentral disederhanakan untuk edukasi.",
+    "Informasi resmi inflasi Indonesia: Badan Pusat Statistik (bps.go.id) dan Bank Indonesia (bi.go.id)."
+  ],
+  "note": "Semua tokoh, harga, dan angka dalam video adalah fiksi/ilustrasi. Bukan ajakan membeli atau menjual aset apa pun.",
+  "chapters": [[0, "Kopi yang membuatmu kaya"], [6, "Aturannya"], [11, "Hari pertama"], [15, "Minggu pertama: memborong"], [23, "Pembeli terbesar di kota"], [27, "Ini namanya inflasi"], [38, "Bulan kedua: harga naik"], [49, "Bulan ketiga: warung Bu Sri"], [58, "Dilema di depan dompet"], [64, "Berhenti belanja"], [73, "Pelajaran soal inflasi"], [78, "Tamu misterius"], [84, "Apa yang akan kamu beli?"]],
+  "tags": ["what if", "inflasi", "apa itu inflasi", "inflasi indonesia", "daya beli", "harga naik", "bank indonesia", "uang beredar", "cetak uang", "hiperinflasi", "ekonomi indonesia", "edukasi keuangan", "literasi keuangan", "cerita ekonomi", "dompet ajaib", "keuangan keluarga", "investasi pemula", "animasi", "belanja", "rupiah"],
+  "hashtags": ["#WhatIf", "#Inflasi", "#EkonomiIndonesia", "#EdukasiKeuangan", "#Rupiah"],
+  "thumbs": {
+    "v1": {"top": "BELANJA", "main": "KEMBALI 2×", "badge": "MAKIN KAYA?", "emoji": "💸"},
+    "v2": {"kicker": "WHAT IF", "main": "UANGMU KEMBALI\nDUA KALI LIPAT?", "bottom": "LALU HARGA NAIK", "emoji": "👛"},
+    "v3": {"top": "DOMPET AJAIB:", "left": "KAMU KAYA", "right": "SEMUA MAHAL", "leftEmoji": "🤑", "rightEmoji": "📈"}
+  }
+}

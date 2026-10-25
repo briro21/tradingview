@@ -22,6 +22,14 @@ VOICES = {
     'Bu Ana': ('id-ID-GadisNeural', '-6%', '-4Hz'),
     'Petugas': ('id-ID-ArdiNeural', '-6%', '-10Hz'),
     'Surat': ('id-ID-GadisNeural', '-18%', '-12Hz'),
+    'Pak Harso': ('id-ID-ArdiNeural', '-22%', '-24Hz'),
+    'Joko Muda': ('id-ID-ArdiNeural', '-2%', '+4Hz'),
+    'Pedagang': ('id-ID-ArdiNeural', '+4%', '-6Hz'),
+    'Bu Sri': ('id-ID-GadisNeural', '-10%', '+6Hz'),
+    'Tamu': ('id-ID-ArdiNeural', '-10%', '-14Hz'),
+    'Deputi': ('id-ID-ArdiNeural', '-4%', '-8Hz'),
+    'Pejabat': ('id-ID-ArdiNeural', '+2%', '-2Hz'),
+    'Warganet': ('id-ID-GadisNeural', '+10%', '+10Hz'),
 }
 
 

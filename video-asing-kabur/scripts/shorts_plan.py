@@ -22,6 +22,12 @@ PLAN = [
     ('emas-3-juta', 'emas-kurs', 17, 22, 'EMAS BISA NAIK\nTANPA HARGA DUNIA NAIK', 'Kenapa Harga Emas Antam Naik Walau Harga Dunia Diam? #emas'),
     ('lihat-10-detik', 'lihat-hook', 0, 14, 'KAMU BISA LIHAT HARGA\n10 DETIK KE DEPAN', 'Bisa Lihat Harga Saham 10 Detik ke Depan? #whatif #saham'),
     ('lihat-10-detik', 'lihat-pilihan', 68, 88, '10 DETIK:\nUANGMU ATAU AYAHMU?', '10 Detik untuk Memilih: Uangmu atau Ayahmu? #whatif #cerita'),
+    ('kembali-1998', 'k98-hook', 2, 16, 'BANGUN DI TAHUN 1998\nDENGAN INGATAN 2026', 'Bangun di Tahun 1998 dengan Ingatan 2026? #whatif #krismon'),
+    ('kembali-1998', 'k98-ayah', 24, 40, 'BANK AYAHMU DITUTUP\n3 BULAN LAGI', 'Kamu Tahu Bank Ayahmu Akan Ditutup di 1998 #whatif #cerita'),
+    ('uang-dua-kali', 'udk-hook', 0, 14, 'UANGMU KEMBALI\nDUA KALI LIPAT', 'Setiap Belanja, Uangmu Kembali 2x Lipat #whatif #inflasi'),
+    ('uang-dua-kali', 'udk-inflasi', 27, 37, 'KENAPA HARGA\nBISA NAIK?', 'Inflasi Dijelaskan dengan 10 Karung Beras #inflasi #ekonomi'),
+    ('gubernur-24-jam', 'gub-hook', 0, 15, 'KAMU JADI GUBERNUR BI\nSELAMA 24 JAM', 'Jadi Gubernur Bank Indonesia 24 Jam? #whatif #bankindonesia'),
+    ('gubernur-24-jam', 'gub-malam', 47, 57, 'SERANGAN MALAM:\nPAHLAWAN ATAU TAMENG?', 'Rupiah Diserang Tengah Malam, Apa Keputusanmu? #whatif #rupiah'),
 ]
 
 out = []

@@ -1,0 +1,23 @@
+{
+  "slug": "kembali-1998",
+  "titles": [
+    "What If Kamu Bangun di Tahun 1998 dengan Ingatan Tahun 2026?",
+    "Kembali ke Krisis 1998 dan Bertemu Ayahmu Sebelum Kamu Lahir",
+    "Kamu Tahu Bank Ayahmu Akan Ditutup 3 Bulan Lagi... Apa yang Kamu Lakukan?"
+  ],
+  "intro": "Bagaimana kalau kamu terbangun di Januari 1998, tepat di tengah krisis moneter, dengan seluruh ingatan dari tahun 2026? Tanpa ponsel, tanpa uang, hanya isi kepalamu.\n\nDi episode lanjutan cerita \"10 Detik\" ini, sebuah jam saku tua membawamu ke masa lalu. Kamu tahu rupiah akan jatuh, harga akan melonjak, dan banyak bank akan ditutup. Lalu kamu bertemu Joko, pemuda 25 tahun yang sedang menabung untuk menikahi gadis bernama Ana. Dia ayahmu, dan tabungannya ada di bank yang akan ditutup tiga bulan lagi.\n\nDi balik cerita fiksi ini ada pelajaran nyata: kepanikan bisa meruntuhkan bank yang sehat, krisis 1998 melahirkan lembaga penjamin simpanan, dan pentingnya menyebar simpanan di bank yang terdaftar serta tidak termakan hoaks.",
+  "question": "Kalau kamu kembali ke tahun 1998 dengan ingatan hari ini, apa yang akan kamu selamatkan pertama kali?",
+  "sources": [
+    "Cerita fiksi berlatar krisis moneter 1997–1998. Peristiwa umum (pelemahan rupiah, lonjakan harga, penutupan sejumlah bank) mengacu pada sejarah; detail dan angka disederhanakan.",
+    "Lembaga Penjamin Simpanan (LPS) dibentuk melalui UU No. 24 Tahun 2004."
+  ],
+  "note": "Semua tokoh, nama bank, dan angka dalam video adalah fiksi/ilustrasi. Bukan ajakan membeli atau menjual aset apa pun.",
+  "chapters": [[0, "Toko jam tua"], [8, "Jarum berputar mundur"], [12, "Aturannya"], [17, "Hari pertama di 1998"], [24, "Bertemu ayahmu"], [32, "Bank yang akan ditutup"], [36, "Peringatan yang ditertawakan"], [41, "Kota mulai panik"], [46, "Kaya, tapi tidak nyaman"], [57, "Dilema terbesar"], [61, "Ketukan menjelang subuh"], [67, "Hari bank ditutup"], [71, "Pernikahan Joko & Ana"], [76, "Pelajaran nyata"], [80, "Kembali ke 2026"], [85, "Apa yang akan kamu lakukan?"]],
+  "tags": ["what if", "krisis 1998", "krismon 1998", "krisis moneter", "rupiah 1998", "sejarah ekonomi indonesia", "bank ditutup 1998", "LPS", "kembali ke masa lalu", "time travel", "cerita ekonomi", "cerita inspiratif", "kisah ayah dan anak", "tabungan", "edukasi keuangan", "ekonomi indonesia", "IHSG", "animasi", "lihat 10 detik", "episode 2"],
+  "hashtags": ["#WhatIf", "#Krismon1998", "#EkonomiIndonesia", "#CeritaEkonomi", "#Rupiah"],
+  "thumbs": {
+    "v1": {"top": "BANGUN DI", "main": "TAHUN 1998", "badge": "INGATAN 2026", "emoji": "⏳"},
+    "v2": {"kicker": "WHAT IF", "main": "KEMBALI KE\nKRISMON 1998?", "bottom": "BERTEMU AYAHMU", "emoji": "🕰️"},
+    "v3": {"top": "BANK AYAHMU DITUTUP 3 BULAN LAGI:", "left": "DIAM", "right": "SELAMATKAN", "leftEmoji": "🤐", "rightEmoji": "🏦"}
+  }
+}

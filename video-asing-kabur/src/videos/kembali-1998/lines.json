@@ -1,0 +1,536 @@
+[
+{
+"i": 0,
+"start": 0.3,
+"end": 3.773,
+"text": "Alamat di balik foto itu membawamu ke sebuah gang sempit di Jakarta."
+},
+{
+"i": 1,
+"start": 4.223,
+"end": 11.712,
+"text": "Di ujungnya, ada toko jam tua. Ratusan jam berdetak, tapi tidak ada satu pun yang menunjukkan waktu yang sama."
+},
+{
+"i": 2,
+"start": 12.162,
+"end": 16.744,
+"text": "Seorang kakek berdiri di balik meja. Seolah sudah lama menunggumu."
+},
+{
+"i": 3,
+"start": 17.194,
+"end": 23.028,
+"text": ">> Pak Harso: Akhirnya kamu datang. Kamu yang bisa melihat sepuluh detik ke depan, kan?"
+},
+{
+"i": 4,
+"start": 23.478,
+"end": 25.035,
+"text": ">> Kamu: Bapak... yang mengirim amplop itu?"
+},
+{
+"i": 5,
+"start": 25.485,
+"end": 33.59,
+"text": ">> Pak Harso: Aku dulu sama sepertimu. Tapi aku melihat lebih jauh. Dan aku membuat pilihan yang salah."
+},
+{
+"i": 6,
+"start": 34.04,
+"end": 38.374,
+"text": "Dia mengambil sebuah jam saku dari laci, lalu memutar jarumnya ke belakang."
+},
+{
+"i": 7,
+"start": 38.824,
+"end": 40.543,
+"text": ">> Pak Harso: Sekarang giliranmu memilih."
+},
+{
+"i": 8,
+"start": 40.993,
+"end": 46.714,
+"text": "Jarum berputar. Dinding toko berputar. Kepalamu berputar."
+},
+{
+"i": 9,
+"start": 47.164,
+"end": 53.388,
+"text": "Dan ketika kamu membuka mata, kamu berdiri di trotoar yang sama. Tapi semuanya berbeda."
+},
+{
+"i": 10,
+"start": 53.838,
+"end": 60.466,
+"text": "Mobil-mobil kotak. Telepon umum di pinggir jalan. Koran di tangan seorang pedagang."
+},
+{
+"i": 11,
+"start": 60.916,
+"end": 65.098,
+"text": "Tanggalnya: Januari, tahun sembilan belas sembilan puluh delapan."
+},
+{
+"i": 12,
+"start": 65.548,
+"end": 72.425,
+"text": "Jadi, bagaimana kalau kamu bangun di tahun sembilan belas sembilan puluh delapan, dengan semua ingatan dari tahun dua ribu dua puluh enam?"
+},
+{
+"i": 13,
+"start": 72.875,
+"end": 74.163,
+"text": "Aturannya sederhana."
+},
+{
+"i": 14,
+"start": 75.063,
+"end": 87.046,
+"text": "Kamu mengingat semua yang akan terjadi. Tapi kamu tidak bisa membawa apa pun dari masa depan. Tidak ada ponsel. Tidak ada uang. Hanya isi kepalamu."
+},
+{
+"i": 15,
+"start": 87.496,
+"end": 91.3,
+"text": "Dan isi kepalamu tahu satu hal yang tidak diketahui orang-orang di sekitarmu."
+},
+{
+"i": 16,
+"start": 91.75,
+"end": 102.887,
+"text": "Tahun ini, rupiah akan jatuh sangat dalam. Harga-harga akan melonjak. Banyak bank akan ditutup. Jutaan orang akan kehilangan pekerjaan."
+},
+{
+"i": 17,
+"start": 103.337,
+"end": 105.799,
+"text": "Hari pertama, kamu tidak punya apa-apa."
+},
+{
+"i": 18,
+"start": 106.249,
+"end": 112.922,
+"text": "Kamu tidur di masjid. Kamu bekerja sebagai kuli angkut di pasar, dibayar beberapa ribu rupiah sehari."
+},
+{
+"i": 19,
+"start": 113.372,
+"end": 116.681,
+"text": "Setiap rupiah yang kamu dapat, langsung kamu tukar ke dolar."
+},
+{
+"i": 20,
+"start": 117.131,
+"end": 121.276,
+"text": ">> Pedagang: Ngapain anak muda nukar dolar? Rupiah aman, tenang saja."
+},
+{
+"i": 21,
+"start": 121.726,
+"end": 125.79,
+"text": "Kamu hanya tersenyum. Kamu tahu apa yang akan terjadi."
+},
+{
+"i": 22,
+"start": 126.24,
+"end": 133.433,
+"text": "Beberapa minggu kemudian, rupiah merosot tajam. Dolar yang kamu kumpulkan nilainya berlipat-lipat dalam rupiah."
+},
+{
+"i": 23,
+"start": 133.883,
+"end": 137.258,
+"text": "Uang kecil dari hasil kuli, kini cukup untuk menyewa kamar."
+},
+{
+"i": 24,
+"start": 137.708,
+"end": 142.984,
+"text": "Lalu, di sebuah warung kopi, kamu melihat seorang pemuda yang wajahnya sangat kamu kenal."
+},
+{
+"i": 25,
+"start": 143.434,
+"end": 148.882,
+"text": "Lebih muda. Lebih kurus. Rambutnya masih hitam semua."
+},
+{
+"i": 26,
+"start": 149.332,
+"end": 154.97,
+"text": "Ayahmu. Pak Joko. Usianya baru dua puluh lima tahun."
+},
+{
+"i": 27,
+"start": 155.42,
+"end": 157.224,
+"text": ">> Joko Muda: Mas, boleh pinjam korannya?"
+},
+{
+"i": 28,
+"start": 157.674,
+"end": 159.842,
+"text": "Tanganmu gemetar saat memberikan koran itu."
+},
+{
+"i": 29,
+"start": 160.292,
+"end": 165.731,
+"text": "Dia belum mengenalmu. Tentu saja. Kamu bahkan belum lahir."
+},
+{
+"i": 30,
+"start": 166.181,
+"end": 177.683,
+"text": "Kalian mulai sering mengobrol. Dia bercerita tentang pekerjaannya di pabrik. Tentang tabungannya di sebuah bank swasta. Tentang gadis bernama Ana yang ingin dia lamar."
+},
+{
+"i": 31,
+"start": 178.133,
+"end": 182.834,
+"text": ">> Joko Muda: Aku nabung buat nikah, Mas. Biar Ana nggak malu sama keluarganya."
+},
+{
+"i": 32,
+"start": 183.284,
+"end": 186.541,
+"text": "Dan saat itulah, ingatanmu menghantammu seperti petir."
+},
+{
+"i": 33,
+"start": 186.991,
+"end": 190.721,
+"text": "Kamu ingat cerita Bu Ana di meja makan, bertahun-tahun kemudian."
+},
+{
+"i": 34,
+"start": 191.171,
+"end": 201.632,
+"text": "Tentang bank tempat ayahmu menabung, yang ditutup tahun sembilan delapan. Tentang tabungan nikah yang tidak kembali utuh. Tentang pernikahan yang tertunda dua tahun."
+},
+{
+"i": 35,
+"start": 202.082,
+"end": 204.069,
+"text": "Bank itu akan ditutup tiga bulan lagi."
+},
+{
+"i": 36,
+"start": 204.519,
+"end": 207.385,
+"text": "Bulan pertama, kamu mencoba memperingatkannya."
+},
+{
+"i": 37,
+"start": 207.835,
+"end": 214.241,
+"text": ">> Kamu: Pak Joko... maksudku, Mas Joko. Pindahkan tabunganmu. Bank itu tidak aman."
+},
+{
+"i": 38,
+"start": 214.691,
+"end": 220.419,
+"text": ">> Joko Muda: Hah? Bank itu besar, Mas. Iklannya di televisi tiap malam."
+},
+{
+"i": 39,
+"start": 220.869,
+"end": 224.045,
+"text": "Dia tertawa. Dia tidak percaya."
+},
+{
+"i": 40,
+"start": 224.495,
+"end": 227.681,
+"text": "Dan kamu tidak bisa bilang, aku anakmu dari masa depan."
+},
+{
+"i": 41,
+"start": 228.131,
+"end": 230.403,
+"text": "Sementara itu, kota mulai berubah."
+},
+{
+"i": 42,
+"start": 230.853,
+"end": 237.568,
+"text": "Harga beras naik. Minyak goreng menghilang dari warung. Antrean panjang di depan bank-bank."
+},
+{
+"i": 43,
+"start": 238.018,
+"end": 245.204,
+"text": "Orang-orang menarik tabungan karena takut. Dan semakin banyak yang menarik, semakin cepat bank kehabisan uang tunai."
+},
+{
+"i": 44,
+"start": 245.654,
+"end": 247.742,
+"text": "Kamu tahu sesuatu yang lebih menakutkan."
+},
+{
+"i": 45,
+"start": 248.192,
+"end": 255.279,
+"text": "Kalau kamu memperingatkan semua orang, kepanikan akan semakin besar. Bank yang sebenarnya sehat pun bisa ikut runtuh."
+},
+{
+"i": 46,
+"start": 255.729,
+"end": 258.004,
+"text": "Bulan kedua, kamu semakin kaya."
+},
+{
+"i": 47,
+"start": 258.454,
+"end": 264.586,
+"text": "Dolar yang kamu simpan terus naik nilainya. Kamu membeli barang murah dari orang-orang yang terpaksa menjual."
+},
+{
+"i": 48,
+"start": 265.036,
+"end": 269.223,
+"text": "Dan untuk pertama kalinya, kamu merasa tidak nyaman dengan keuntunganmu sendiri."
+},
+{
+"i": 49,
+"start": 269.673,
+"end": 274.5,
+"text": "Setiap rupiah keuntunganmu, adalah kerugian seseorang yang tidak tahu apa yang kamu tahu."
+},
+{
+"i": 50,
+"start": 274.95,
+"end": 280.693,
+"text": "Suatu sore, seorang ibu datang menawarkan kalung emasnya. Separuh harga pasar."
+},
+{
+"i": 51,
+"start": 281.143,
+"end": 285.142,
+"text": ">> Pedagang: Anak saya sakit, Mas. Saya butuh uang hari ini juga."
+},
+{
+"i": 52,
+"start": 285.592,
+"end": 289.936,
+"text": "Kamu bisa membelinya dengan sangat murah. Itu keuntungan besar."
+},
+{
+"i": 53,
+"start": 290.386,
+"end": 294.978,
+"text": "Tapi kamu membayar dengan harga penuh. Lalu mengembalikan kalungnya."
+},
+{
+"i": 54,
+"start": 295.428,
+"end": 302.755,
+"text": "Ibu itu menangis. Dan malam itu, untuk pertama kalinya di tahun sembilan delapan, kamu merasa benar-benar kaya."
+},
+{
+"i": 55,
+"start": 303.205,
+"end": 305.717,
+"text": "Malam itu, Pak Harso muncul di mimpimu."
+},
+{
+"i": 56,
+"start": 306.167,
+"end": 317.686,
+"text": ">> Pak Harso: Dulu aku juga sepertimu. Aku kaya raya di tahun itu. Tapi aku tidak menolong siapa pun. Dan aku menyesalinya seumur hidup."
+},
+{
+"i": 57,
+"start": 318.136,
+"end": 321.865,
+"text": "Bulan ketiga. Dua hari sebelum bank itu ditutup."
+},
+{
+"i": 58,
+"start": 322.315,
+"end": 323.622,
+"text": "Kamu punya dua pilihan."
+},
+{
+"i": 59,
+"start": 324.522,
+"end": 337.038,
+"text": "Pilihan pertama: biarkan sejarah berjalan. Tabungan Mas Joko tertahan. Pernikahannya tertunda dua tahun. Tapi kamu tetap lahir, persis seperti seharusnya."
+},
+{
+"i": 60,
+"start": 337.488,
+"end": 345.86,
+"text": "Pilihan kedua: selamatkan tabungannya. Tapi kalau pernikahannya terjadi lebih cepat, apakah kamu masih akan lahir sebagai dirimu?"
+},
+{
+"i": 61,
+"start": 346.31,
+"end": 348.945,
+"text": "Kamu duduk di depan rumah kos Mas Joko sampai subuh."
+},
+{
+"i": 62,
+"start": 349.395,
+"end": 350.758,
+"text": "Lalu kamu mengetuk pintu."
+},
+{
+"i": 63,
+"start": 351.658,
+"end": 360.225,
+"text": ">> Kamu: Mas, dengar baik-baik. Besok pagi, ambil tabunganmu. Semuanya. Jangan tanya kenapa."
+},
+{
+"i": 64,
+"start": 360.675,
+"end": 362.084,
+"text": ">> Joko Muda: Mas ini siapa sih sebenarnya?"
+},
+{
+"i": 65,
+"start": 362.534,
+"end": 365.056,
+"text": ">> Kamu: Seseorang yang ingin melihat Mas bahagia dengan Mbak Ana."
+},
+{
+"i": 66,
+"start": 365.506,
+"end": 368.953,
+"text": "Dia menatapmu lama. Lalu mengangguk pelan."
+},
+{
+"i": 67,
+"start": 369.403,
+"end": 375.412,
+"text": "Dua hari kemudian, bank itu ditutup. Antrean nasabah mengular sampai ke jalan raya."
+},
+{
+"i": 68,
+"start": 375.862,
+"end": 381.528,
+"text": "Mas Joko berdiri di seberang jalan, memegang amplop berisi tabungannya. Utuh."
+},
+{
+"i": 69,
+"start": 381.978,
+"end": 383.751,
+"text": ">> Joko Muda: Mas... gimana Mas bisa tahu?"
+},
+{
+"i": 70,
+"start": 384.201,
+"end": 388.005,
+"text": "Kamu tidak menjawab. Kamu hanya menepuk pundaknya."
+},
+{
+"i": 71,
+"start": 388.455,
+"end": 393.243,
+"text": "Tiga bulan kemudian, kamu duduk di barisan paling belakang sebuah pernikahan sederhana."
+},
+{
+"i": 72,
+"start": 393.693,
+"end": 398.092,
+"text": "Mempelai pria bernama Joko. Mempelai wanita bernama Ana."
+},
+{
+"i": 73,
+"start": 398.542,
+"end": 401.774,
+"text": "Bu Ana muda tersenyum ke arahmu, tanpa tahu siapa kamu."
+},
+{
+"i": 74,
+"start": 402.224,
+"end": 406.067,
+"text": "Dan di saat itu, jam saku di sakumu mulai berdetak sangat keras."
+},
+{
+"i": 75,
+"start": 406.517,
+"end": 407.851,
+"text": "Dunia berputar lagi."
+},
+{
+"i": 76,
+"start": 408.751,
+"end": 412.939,
+"text": "Ada satu pelajaran nyata dari cerita ini, yang berlaku tanpa mesin waktu."
+},
+{
+"i": 77,
+"start": 413.389,
+"end": 418.423,
+"text": "Krisis tahun sembilan delapan mengajarkan bahwa kepanikan bisa menghancurkan bank yang sehat sekalipun."
+},
+{
+"i": 78,
+"start": 418.873,
+"end": 428.808,
+"text": "Dari pengalaman pahit itulah, Indonesia kemudian membentuk Lembaga Penjamin Simpanan. Hari ini, simpananmu di bank peserta dijamin sampai batas tertentu."
+},
+{
+"i": 79,
+"start": 429.258,
+"end": 438.135,
+"text": "Jadi, jangan ikut panik karena pesan berantai. Sebar simpananmu, pilih bank yang terdaftar, dan pahami aturan penjaminannya."
+},
+{
+"i": 80,
+"start": 438.585,
+"end": 442.887,
+"text": "Kamu membuka mata. Kamarmu di tahun dua ribu dua puluh enam."
+},
+{
+"i": 81,
+"start": 443.337,
+"end": 446.252,
+"text": "Di dinding, ada foto pernikahan Ayah dan Ibu."
+},
+{
+"i": 82,
+"start": 446.702,
+"end": 451.362,
+"text": "Dan di barisan paling belakang foto itu, ada seseorang yang wajahnya sangat mirip denganmu."
+},
+{
+"i": 83,
+"start": 451.812,
+"end": 456.074,
+"text": "Ponselmu berbunyi. Sebuah pesan dari nomor tidak dikenal."
+},
+{
+"i": 84,
+"start": 456.524,
+"end": 463.494,
+"text": ">> Pak Harso: Kamu memilih seperti aku seharusnya memilih. Sekarang, ada orang lain yang membutuhkanmu."
+},
+{
+"i": 85,
+"start": 463.944,
+"end": 470.114,
+"text": "Jadi, kalau kamu bisa kembali ke tahun sembilan belas sembilan puluh delapan, apa yang akan kamu selamatkan pertama kali?"
+},
+{
+"i": 86,
+"start": 470.564,
+"end": 472.451,
+"text": "Tulis jawabanmu di kolom komentar."
+},
+{
+"i": 87,
+"start": 472.901,
+"end": 478.862,
+"text": "Dan kalau kamu ingin tahu siapa yang membutuhkanmu selanjutnya, subscribe, karena cerita ini belum selesai."
+},
+{
+"i": 88,
+"start": 479.312,
+"end": 484.772,
+"text": "Video ini adalah cerita fiksi untuk edukasi, bukan ajakan untuk membeli atau menjual aset apa pun."
+}
+]
