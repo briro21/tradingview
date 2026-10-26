@@ -1,4 +1,4 @@
-# Paket Shorts (14 video, 9:16)
+# Paket Shorts (20 video, 9:16)
 
 Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Video terkait"** (Related video) di YouTube Studio dengan video lengkapnya, supaya penonton bisa langsung pindah ke video panjang.
 
@@ -98,6 +98,48 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 **Video terkait (versi lengkap):** What If Danantara Borong Saham Saat IHSG Jatuh? Penyelamat atau Bom Waktu?
 **Deskripsi:**
 > Bahaya Moral Hazard Kalau Negara Borong Saham Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 15 · `k98-hook.mp4` (54 dtk)
+**Judul:** Bangun di Tahun 1998 dengan Ingatan 2026? #whatif #krismon
+**Video terkait (versi lengkap):** What If Kamu Bangun di Tahun 1998 dengan Ingatan Tahun 2026?
+**Deskripsi:**
+> Bangun di Tahun 1998 dengan Ingatan 2026? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 16 · `udk-hook.mp4` (51 dtk)
+**Judul:** Setiap Belanja, Uangmu Kembali 2x Lipat #whatif #inflasi
+**Video terkait (versi lengkap):** What If Setiap Rupiah yang Kamu Belanjakan Kembali Dua Kali Lipat?
+**Deskripsi:**
+> Setiap Belanja, Uangmu Kembali 2x Lipat Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 17 · `gub-hook.mp4` (51 dtk)
+**Judul:** Jadi Gubernur Bank Indonesia 24 Jam? #whatif #bankindonesia
+**Video terkait (versi lengkap):** What If Kamu Jadi Gubernur Bank Indonesia Selama 24 Jam?
+**Deskripsi:**
+> Jadi Gubernur Bank Indonesia 24 Jam? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 18 · `k98-ayah.mp4` (54 dtk)
+**Judul:** Kamu Tahu Bank Ayahmu Akan Ditutup di 1998 #whatif #cerita
+**Video terkait (versi lengkap):** What If Kamu Bangun di Tahun 1998 dengan Ingatan Tahun 2026?
+**Deskripsi:**
+> Kamu Tahu Bank Ayahmu Akan Ditutup di 1998 Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 19 · `udk-inflasi.mp4` (47 dtk)
+**Judul:** Inflasi Dijelaskan dengan 10 Karung Beras #inflasi #ekonomi
+**Video terkait (versi lengkap):** What If Setiap Rupiah yang Kamu Belanjakan Kembali Dua Kali Lipat?
+**Deskripsi:**
+> Inflasi Dijelaskan dengan 10 Karung Beras Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 20 · `gub-malam.mp4` (54 dtk)
+**Judul:** Rupiah Diserang Tengah Malam, Apa Keputusanmu? #whatif #rupiah
+**Video terkait (versi lengkap):** What If Kamu Jadi Gubernur Bank Indonesia Selama 24 Jam?
+**Deskripsi:**
+> Rupiah Diserang Tengah Malam, Apa Keputusanmu? Tonton versi lengkapnya (8 menit) di channel ini.
 > Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
 
 ## Tips

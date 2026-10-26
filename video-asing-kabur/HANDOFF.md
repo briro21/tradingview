@@ -32,10 +32,13 @@ Tempel isi file ini sebagai pesan pertama di sesi baru.
 | 05 | bank-bangkrut | What If Bank Tempat Kamu Menabung Bangkrut? | 8:17 |
 | 06 | emas-3-juta | What If Harga Emas Tembus Rp3 Juta per Gram? | 8:27 |
 | 07 | lihat-10-detik | What If Kamu Bisa Melihat Harga Saham 10 Detik Lebih Awal? (gaya cerita, tokoh Pak Joko & Bu Ana, teman Raka) | 8:44 |
+| 08 | kembali-1998 | What If Kamu Bangun di Tahun 1998 dengan Ingatan Tahun 2026? (episode 2, tokoh baru Pak Harso & Joko muda) | 8:07 |
+| 09 | uang-dua-kali | What If Setiap Rupiah yang Kamu Belanjakan Kembali Dua Kali Lipat? (inflasi, tokoh Bu Sri) | 8:31 |
+| 10 | gubernur-24-jam | What If Kamu Jadi Gubernur Bank Indonesia Selama 24 Jam? | 8:39 |
 
 Seri lama (gaya awal): Asing Kabur (4:20), Rupiah Rp20.000 (9:03), IHSG Hijau/FOMO (8:18, belum ada thumbnail/SEO).
 
-Plus **14 Shorts** (2 per video seri baru) dengan jadwal unggah 1 per hari di `youtube/shorts.md`.
+Plus **20 Shorts** (2 per video seri baru) dengan jadwal unggah 1 per hari di `youtube/shorts.md`.
 
 ## Status unggah & performa
 - Sudah diunggah 3 video, terakhir **ARB 7%**. Baru ±1 penonton setelah 3 hari (channel baru).
