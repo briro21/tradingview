@@ -11,7 +11,7 @@ const MILESTONES = [
   { year: "2030", text: "Humanoid robots replace physical labor" },
 ];
 
-// Insight 1: "KIAMAT TEKNOLOGI?" (cyan) berubah menjadi "HARAPAN" (putih).
+// Insight 1: dari "alat baru" menjadi "penemu baru" — AGI menggantikan pikiran manusia.
 export const S02: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -21,8 +21,8 @@ export const S02: React.FC = () => {
     <SceneFrame label="INSIGHT 01 · THE END OF WORK">
       <div style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center", gap: 100 }}>
         <MorphText
-          from="KIAMAT TEKNOLOGI?"
-          to="HARAPAN"
+          from="A NEW TOOL?"
+          to="A NEW INVENTOR"
           fromColor={theme.cyan}
           toColor={theme.white}
           switchAt={beat(0.5)}

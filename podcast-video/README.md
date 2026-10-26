@@ -23,8 +23,8 @@ Ubah teks di `narration/`, jalankan ulang skrip, lalu render ulang video.
 | Scene | File      | Narasi        | Visual                                         |
 |-------|-----------|---------------|------------------------------------------------|
 | S01   | `S01.mp3` | Hook          | Avatar host (spring) + `<AudioWaveform/>` biru |
-| S02   | `S02.mp3` | Insight 1     | "KIAMAT TEKNOLOGI?" (cyan) → "HARAPAN" (putih) |
-| S03   | `S03.mp3` | Transition 1  | `<BulletPoints/>` muncul satu per satu         |
+| S02   | `S02.mp3` | Insight 1     | "A NEW TOOL?" (cyan) → "A NEW INVENTOR" (putih) + 2027 / 2030 |
+| S03   | `S03.mp3` | Transition 1  | `<BulletPoints/>`: World Without Work → Symptom → No Control |
 | S04   | `S04.mp3` | Insight 2     | Grafik jurang Capability vs Safety             |
 | S05   | `S05.mp3` | Transition 2  | "What Is Real?"                                |
 | S06   | `S06.mp3` | Insight 3     | Grid simulasi + counter "1 in 1,000,000,000"   |

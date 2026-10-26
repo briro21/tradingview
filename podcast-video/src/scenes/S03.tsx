@@ -3,18 +3,18 @@ import { BulletPoints } from "../components/BulletPoints";
 import { Highlight } from "../components/Highlight";
 import { SceneFrame } from "../components/SceneFrame";
 
-// Transition 1: tiga poin muncul satu per satu.
+// Transition 1: dari hilangnya pekerjaan menuju masalah kontrol.
 export const S03: React.FC = () => (
   <SceneFrame label="BEYOND THE PAYCHECK">
     <BulletPoints
       stagger={45}
       items={[
+        "A World Without Work",
         <>
-          AI = <Highlight>Co-Pilot</Highlight>
+          Just a <Highlight>Symptom</Highlight>
         </>,
-        "Evolusi Pekerjaan",
         <>
-          Cara <Highlight>Beradaptasi</Highlight>
+          The Real Threat: <Highlight>No Control</Highlight>
         </>,
       ]}
     />
