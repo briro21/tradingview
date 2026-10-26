@@ -27,12 +27,11 @@ export type Item = Base &
   );
 export type Beat = { at: string; items: Item[] };
 
-// Panel = satu "halaman" 1600×900 di papan; kamera berpindah antar panel.
-export const PANEL_W = 1600;
-export const PANEL_H = 900;
-const GAP_X = 1850;
-const GAP_Y = 1150;
-const COLS = 4;
+// Panel = satu "halaman" di papan; kamera berpindah antar panel.
+export type Layout = { w: number; h: number; gapX: number; gapY: number; cols: number; offsetY: number };
+export const LANDSCAPE: Layout = { w: 1600, h: 900, gapX: 1850, gapY: 1150, cols: 4, offsetY: -40 };
+// Shorts 1080×1920: panel tinggi, bagian bawah dikosongkan untuk caption & UI YouTube.
+export const VERTICAL: Layout = { w: 1000, h: 1300, gapX: 1250, gapY: 1550, cols: 2, offsetY: -220 };
 const LEAD = 14; // kamera mulai bergerak sedikit sebelum kata diucapkan
 const MOVE = 18; // lama perpindahan kamera
 const ICON_PX = 2.2; // 1 unit ikon = 2.2px pada skala 1
@@ -118,7 +117,7 @@ const Hand: React.FC<{ x: number; y: number; color: string }> = ({ x, y, color }
   );
 };
 
-const Panel: React.FC<{ t: number; sched: Sched[]; id: string; frame: number }> = ({ t, sched, id, frame }) => {
+const Panel: React.FC<{ t: number; sched: Sched[]; id: string; frame: number; layout: Layout }> = ({ t, sched, id, frame, layout }) => {
   let tip: { x: number; y: number; color: string } | null = null;
   const draws = sched.map((s, i) => {
     const p = interpolate(t, [s.start, s.start + s.dur], [0, 1], clamp);
@@ -206,7 +205,7 @@ const Panel: React.FC<{ t: number; sched: Sched[]; id: string; frame: number }> 
   const seed = Math.floor(frame / 6) % 5; // garis "bergetar" seperti animasi tangan
   const t2 = tip as { x: number; y: number; color: string } | null;
   return (
-    <svg width={PANEL_W} height={PANEL_H} style={{ overflow: "visible" }}>
+    <svg width={layout.w} height={layout.h} style={{ overflow: "visible" }}>
       <defs>
         <filter id={`${id}-wob`}>
           <feTurbulence type="fractalNoise" baseFrequency="0.025" numOctaves={2} seed={seed} />
@@ -219,13 +218,12 @@ const Panel: React.FC<{ t: number; sched: Sched[]; id: string; frame: number }> 
   );
 };
 
-const panelPos = (i: number) => {
-  const row = Math.floor(i / COLS);
-  const col = i % COLS;
-  return { x: (row % 2 ? COLS - 1 - col : col) * GAP_X, y: row * GAP_Y };
-};
-
-export const BoardTrack: React.FC<{ scene: SceneId; beats: Beat[] }> = ({ scene, beats }) => {
+export const BoardTrack: React.FC<{ scene: SceneId; beats: Beat[]; layout?: Layout }> = ({ scene, beats, layout = LANDSCAPE }) => {
+  const panelPos = (i: number) => {
+    const row = Math.floor(i / layout.cols);
+    const col = i % layout.cols;
+    return { x: (row % 2 ? layout.cols - 1 - col : col) * layout.gapX, y: row * layout.gapY };
+  };
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const { words, frames } = TIMING[scene];
@@ -254,13 +252,13 @@ export const BoardTrack: React.FC<{ scene: SceneId; beats: Beat[] }> = ({ scene,
   for (let i = 0; i < starts.length; i++) if (frame >= starts[i]) cur = i;
   const local = frame - starts[cur];
   const m = interpolate(local, [0, MOVE], [0, 1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
-  const a = cur === 0 ? { x: panelPos(0).x + GAP_X, y: 0 } : panelPos(cur - 1);
+  const a = cur === 0 ? { x: panelPos(0).x + layout.gapX, y: 0 } : panelPos(cur - 1);
   const b = panelPos(cur);
   const end = cur + 1 < starts.length ? starts[cur + 1] : frames;
   const drift = interpolate(local, [MOVE, end - starts[cur]], [0, 0.04], clamp);
   const zoom = (1 - 0.22 * Math.sin(Math.PI * m)) * (1 + drift);
-  const cx = lerp(a.x, b.x, m) + PANEL_W / 2;
-  const cy = lerp(a.y, b.y, m) + PANEL_H / 2;
+  const cx = lerp(a.x, b.x, m) + layout.w / 2;
+  const cy = lerp(a.y, b.y, m) + layout.h / 2;
 
   return (
     <AbsoluteFill style={{ overflow: "hidden" }}>
@@ -270,15 +268,15 @@ export const BoardTrack: React.FC<{ scene: SceneId; beats: Beat[] }> = ({ scene,
           left: 0,
           top: 0,
           transformOrigin: "0 0",
-          transform: `translate(${width / 2}px, ${height / 2 - 40}px) scale(${zoom}) translate(${-cx}px, ${-cy}px)`,
+          transform: `translate(${width / 2}px, ${height / 2 + layout.offsetY}px) scale(${zoom}) translate(${-cx}px, ${-cy}px)`,
         }}
       >
         {beats.map((_, i) => {
           if (i > cur || i < cur - 2) return null;
           const p = panelPos(i);
           return (
-            <div key={i} style={{ position: "absolute", left: p.x, top: p.y, width: PANEL_W, height: PANEL_H }}>
-              <Panel t={frame - starts[i]} sched={scheds[i]} id={`${scene}-${i}`} frame={frame} />
+            <div key={i} style={{ position: "absolute", left: p.x, top: p.y, width: layout.w, height: layout.h }}>
+              <Panel t={frame - starts[i]} sched={scheds[i]} id={`${scene}-${i}`} frame={frame} layout={layout} />
             </div>
           );
         })}

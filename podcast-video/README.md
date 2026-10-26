@@ -51,10 +51,20 @@ virus, bitcoin, box, alien, dog, god, iceberg, rocket, monitor, dll.).
 
 SFX: whoosh saat kamera pindah.
 
+## Shorts
+
+Composition `Shorts` (1080×1920, ±41 detik): teaser vertikal untuk penonton
+The Diary Of A CEO. Narasi di `narration/shorts/SH01.txt`, beat di
+`src/scenes/SH01.ts`. Buat ulang audionya dengan
+`python scripts/generate_voiceover.py --shorts` (audio video utama tidak berubah).
+
+Judul, deskripsi, chapter, dan tag YouTube ada di `YOUTUBE.md`.
+
 ## Jalankan
 
 ```bash
 npm install
 npm start        # Remotion Studio
 npm run build    # render ke out/video.mp4
+npx remotion render Shorts out/shorts.mp4
 ```

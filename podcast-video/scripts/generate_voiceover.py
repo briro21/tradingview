@@ -7,6 +7,7 @@ and public/full.srt - all cues on the final video timeline (upload to YouTube),
 and src/timing.json - word + cue timings used to sync animations and captions.
 
 Usage: pip install edge-tts && python scripts/generate_voiceover.py [--voice en-US-AndrewNeural]
+       python scripts/generate_voiceover.py --shorts   # hanya narration/shorts/*.txt
 """
 
 import argparse
@@ -96,28 +97,48 @@ async def synth(scene: str, text: str, voice: str) -> tuple[float, list, list]:
     return len(audio) / MP3_BYTES_PER_SEC, cues, words
 
 
+def scene_timing(duration: float, cues: list, words: list) -> dict:
+    return {
+        "frames": math.ceil(duration * FPS),
+        "words": [[w["text"], round(w["start"], 3), round(w["end"], 3)] for w in words],
+        "cues": [[round(a, 3), round(b, 3), t] for a, b, t in cues],
+    }
+
+
 async def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--voice", default="en-US-AndrewNeural")
+    ap.add_argument("--shorts", action="store_true", help="hanya buat audio Shorts")
     args = ap.parse_args()
 
     PUBLIC.mkdir(exist_ok=True)
+    timing_path = ROOT / "src" / "timing.json"
+    if args.shorts:
+        timing = json.loads(timing_path.read_text(encoding="utf-8"))
+        for f in sorted((NARRATION / "shorts").glob("*.txt")):
+            text = " ".join(f.read_text(encoding="utf-8").split())
+            duration, cues, words = await synth(f.stem, text, args.voice)
+            timing[f.stem] = scene_timing(duration, cues, words)
+            print(f"{f.stem}: {duration:6.2f}s  {timing[f.stem]['frames']} frames  {len(cues)} cues")
+        timing_path.write_text(json.dumps(timing), encoding="utf-8")
+        return
+
     full, offset, timing = [], 0.0, {}
     for f in sorted(NARRATION.glob("S*.txt")):
         text = " ".join(f.read_text(encoding="utf-8").split())
         duration, cues, words = await synth(f.stem, text, args.voice)
         full += [(a + offset, b + offset, t) for a, b, t in cues]
         # Sama dengan pembulatan di Root.tsx agar full.srt sinkron dengan video.
-        frames = math.ceil(duration * FPS)
-        timing[f.stem] = {
-            "frames": frames,
-            "words": [[w["text"], round(w["start"], 3), round(w["end"], 3)] for w in words],
-            "cues": [[round(a, 3), round(b, 3), t] for a, b, t in cues],
-        }
+        timing[f.stem] = scene_timing(duration, cues, words)
+        frames = timing[f.stem]["frames"]
         offset += frames / FPS
         print(f"{f.stem}: {duration:6.2f}s  {frames} frames  {len(cues)} cues")
     write_srt(PUBLIC / "full.srt", full)
-    (ROOT / "src" / "timing.json").write_text(json.dumps(timing), encoding="utf-8")
+    # Pertahankan timing Shorts yang sudah ada.
+    if timing_path.exists():
+        old = json.loads(timing_path.read_text(encoding="utf-8"))
+        timing.update({k: v for k, v in old.items() if k.startswith("SH")})
+    timing_path.write_text(json.dumps(timing), encoding="utf-8")
     print(f"full.srt: {len(full)} cues, total {offset:.2f}s")
 
 

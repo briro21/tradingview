@@ -1,8 +1,9 @@
 import timing from "./timing.json";
 
-export type SceneId = "S01" | "S02" | "S03" | "S04" | "S05" | "S06" | "S07";
+export type MainId = "S01" | "S02" | "S03" | "S04" | "S05" | "S06" | "S07";
+export type SceneId = MainId | "SH01";
 
-const IDS: SceneId[] = ["S01", "S02", "S03", "S04", "S05", "S06", "S07"];
+const IDS: MainId[] = ["S01", "S02", "S03", "S04", "S05", "S06", "S07"];
 
 // Urutan scene = urutan narasi. Durasi = ceil(durasi mp3 * 30), dari timing.json.
 export const SCENES = IDS.map((id) => ({

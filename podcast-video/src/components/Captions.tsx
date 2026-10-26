@@ -5,7 +5,12 @@ import { SceneId } from "../timeline";
 import { TIMING } from "../timing";
 
 // Caption tulisan tangan; kata yang sedang diucapkan diberi stabilo kuning.
-export const Captions: React.FC<{ scene: SceneId }> = ({ scene }) => {
+export const Captions: React.FC<{ scene: SceneId; bottom?: number; fontSize?: number; maxWidth?: number }> = ({
+  scene,
+  bottom = 40,
+  fontSize = 50,
+  maxWidth = 1500,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -18,17 +23,17 @@ export const Captions: React.FC<{ scene: SceneId }> = ({ scene }) => {
   const pop = spring({ frame: frame - Math.round(a * fps), fps, config: { damping: 14, mass: 0.5 } });
 
   return (
-    <div style={{ position: "absolute", bottom: 40, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+    <div style={{ position: "absolute", bottom, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
       <div
         style={{
-          maxWidth: 1500,
+          maxWidth,
           padding: "8px 28px",
           borderRadius: 14,
           backgroundColor: "rgba(255, 255, 255, 0.92)",
           border: `3px solid ${theme.ink}`,
           boxShadow: "4px 5px 0 rgba(0,0,0,0.15)",
           fontFamily: theme.hand,
-          fontSize: 50,
+          fontSize,
           color: theme.ink,
           display: "flex",
           flexWrap: "wrap",

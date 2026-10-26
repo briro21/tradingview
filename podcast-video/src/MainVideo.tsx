@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, staticFile } from "remotion";
-import { SceneId, SCENES } from "./timeline";
+import { MainId, SCENES } from "./timeline";
 import { Beat, BoardTrack } from "./board/Board";
 import { Paper } from "./board/Paper";
 import { Captions } from "./components/Captions";
@@ -12,7 +12,7 @@ import { S05 } from "./scenes/S05";
 import { S06 } from "./scenes/S06";
 import { S07 } from "./scenes/S07";
 
-const BEATS: Record<SceneId, Beat[]> = { S01, S02, S03, S04, S05, S06, S07 };
+const BEATS: Record<MainId, Beat[]> = { S01, S02, S03, S04, S05, S06, S07 };
 
 export const MainVideo: React.FC = () => {
   let from = 0;
