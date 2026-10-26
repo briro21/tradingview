@@ -1,4 +1,4 @@
-# Paket Shorts (20 video, 9:16)
+# Paket Shorts (26 video, 9:16)
 
 Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Video terkait"** (Related video) di YouTube Studio dengan video lengkapnya, supaya penonton bisa langsung pindah ke video panjang.
 
@@ -140,6 +140,48 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 **Video terkait (versi lengkap):** What If Kamu Jadi Gubernur Bank Indonesia Selama 24 Jam?
 **Deskripsi:**
 > Rupiah Diserang Tengah Malam, Apa Keputusanmu? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 21 · `tab-hook.mp4` (51 dtk)
+**Judul:** Nabung Saham Rp100 Ribu Sebulan Sejak 2000, Jadi Berapa? #saham #IHSG
+**Video terkait (versi lengkap):** What If Kamu Menabung Saham Rp100 Ribu Setiap Bulan Sejak Tahun 2000?
+**Deskripsi:**
+> Nabung Saham Rp100 Ribu Sebulan Sejak 2000, Jadi Berapa? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 22 · `war-hook.mp4` (56 dtk)
+**Judul:** Tiba-tiba Punya Rp10 Miliar Besok Pagi? #whatif #keuangan
+**Video terkait (versi lengkap):** What If Kamu Tiba-tiba Punya Rp10 Miliar Besok Pagi?
+**Deskripsi:**
+> Tiba-tiba Punya Rp10 Miliar Besok Pagi? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 23 · `dir-hook.mp4` (48 dtk)
+**Judul:** Dirimu dari Masa Depan Mengetuk Pintu #whatif #paylater
+**Video terkait (versi lengkap):** What If Kamu Bertemu Dirimu Sendiri 10 Tahun dari Sekarang?
+**Deskripsi:**
+> Dirimu dari Masa Depan Mengetuk Pintu Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 24 · `tab-2008.mp4` (50 dtk)
+**Judul:** Krisis 2008: Jual atau Tahan Saham? #saham #investasi
+**Video terkait (versi lengkap):** What If Kamu Menabung Saham Rp100 Ribu Setiap Bulan Sejak Tahun 2000?
+**Deskripsi:**
+> Krisis 2008: Jual atau Tahan Saham? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 25 · `war-robot.mp4` (56 dtk)
+**Judul:** Robot Trading Untung Pasti 3% Sebulan? Ini Polanya #investasibodong
+**Video terkait (versi lengkap):** What If Kamu Tiba-tiba Punya Rp10 Miliar Besok Pagi?
+**Deskripsi:**
+> Robot Trading Untung Pasti 3% Sebulan? Ini Polanya Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 26 · `dir-bunga.mp4` (55 dtk)
+**Judul:** Rp1 Juta Sebulan yang Hilang Tanpa Sadar #keuangan #menabung
+**Video terkait (versi lengkap):** What If Kamu Bertemu Dirimu Sendiri 10 Tahun dari Sekarang?
+**Deskripsi:**
+> Rp1 Juta Sebulan yang Hilang Tanpa Sadar Tonton versi lengkapnya (8 menit) di channel ini.
 > Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
 
 ## Tips
