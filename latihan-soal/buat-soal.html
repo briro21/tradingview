@@ -26,9 +26,19 @@
 <main>
   <h1>Buat Soal Otomatis</h1>
   <div class="card">
-    <label>API key Anthropic</label>
-    <input id="key" type="password" placeholder="sk-ant-..." />
-    <div class="muted">Disimpan hanya di browser ini. Dapatkan di console.anthropic.com.</div>
+    <label>Mesin pembuat soal</label>
+    <select id="mode">
+      <option value="offline">Tanpa AI — gratis, offline (soal isian rumpang)</option>
+      <option value="gemini">Google Gemini — gratis (perlu API key gratis)</option>
+      <option value="claude">Claude — berbayar (API key Anthropic)</option>
+    </select>
+    <div id="keybox">
+      <label>API key</label>
+      <input id="key" type="password" placeholder="API key" />
+      <div class="muted" id="keyhint"></div>
+      <label>Model</label>
+      <input id="model" />
+    </div>
     <label>Judul paket</label>
     <input id="judul" placeholder="mis. KUP Bab 1" />
     <div class="row">
@@ -48,15 +58,28 @@ const $ = s => document.querySelector(s);
 const get = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d } catch { return d } };
 const set = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch {} };
 const esc = t => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-$("#key").value = get("ls-key", "");
+const HINT = {
+  gemini: ["gemini-2.5-flash", 'Gratis: buat key di <a href="https://aistudio.google.com/apikey" target="_blank">aistudio.google.com/apikey</a> (login akun Google).'],
+  claude: ["claude-sonnet-5-5", "Berbayar: buat key di console.anthropic.com."]
+};
+function syncMode() {
+  const m = $("#mode").value; set("ls-mode", m);
+  $("#keybox").style.display = m === "offline" ? "none" : "";
+  if (m === "offline") return;
+  $("#keyhint").innerHTML = HINT[m][1];
+  $("#key").value = get("ls-key-" + m, "");
+  $("#model").value = get("ls-model-" + m, HINT[m][0]);
+}
+$("#mode").value = get("ls-mode", "offline"); $("#mode").onchange = syncMode; syncMode();
 $("#file").onchange = async e => { const f = e.target.files[0]; if (f) $("#bahan").value = await f.text(); };
 
 $("#go").onclick = async () => {
-  const key = $("#key").value.trim(), bahan = $("#bahan").value.trim(), n = +$("#jml").value || 10;
+  const mode = $("#mode").value, key = $("#key").value.trim(), model = $("#model").value.trim();
+  const bahan = $("#bahan").value.trim(), n = +$("#jml").value || 10;
   const judul = $("#judul").value.trim() || "Paket " + new Date().toLocaleString("id-ID");
-  if (!key || !bahan) { $("#status").innerHTML = '<span class="err">Isi API key dan bahan terlebih dahulu.</span>'; return; }
-  set("ls-key", key);
-  $("#go").disabled = true; $("#status").textContent = "Sedang membuat soal… (bisa 30–60 detik)";
+  if (!bahan || (mode !== "offline" && !key)) { $("#status").innerHTML = '<span class="err">Isi bahan' + (mode !== "offline" ? " dan API key" : "") + " terlebih dahulu.</span>"; return; }
+  if (mode !== "offline") { set("ls-key-" + mode, key); set("ls-model-" + mode, model); }
+  $("#go").disabled = true; $("#status").textContent = mode === "offline" ? "Membuat soal…" : "Sedang membuat soal dengan AI… (bisa 30–60 detik)";
   const prompt = `Buat ${n} soal pilihan ganda (4 opsi) berbahasa Indonesia, tingkat kesulitan ${$("#lvl").value}, HANYA berdasarkan materi berikut. Variasikan posisi jawaban benar. Sertakan pembahasan singkat yang merujuk ke materi.
 Balas HANYA dengan JSON array tanpa teks lain, format:
 [{"tanya":"...","pilihan":["...","...","...","..."],"jawaban":0,"bahas":"..."}]
@@ -65,16 +88,14 @@ Balas HANYA dengan JSON array tanpa teks lain, format:
 MATERI:
 ${bahan}`;
   try {
-    const r = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST",
-      headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
-      body: JSON.stringify({ model: "claude-sonnet-5-5", max_tokens: 16000, messages: [{ role: "user", content: prompt }] })
-    });
-    const d = await r.json();
-    if (!r.ok) throw new Error(d.error?.message || r.status);
-    const txt = d.content.map(c => c.text || "").join("");
-    const soal = JSON.parse(txt.slice(txt.indexOf("["), txt.lastIndexOf("]") + 1))
-      .filter(s => s.tanya && Array.isArray(s.pilihan) && Number.isInteger(s.jawaban));
+    let soal;
+    if (mode === "offline") soal = offline(bahan, n);
+    else {
+      const txt = mode === "gemini" ? await gemini(key, model, prompt) : await claude(key, model, prompt);
+      soal = JSON.parse(txt.slice(txt.indexOf("["), txt.lastIndexOf("]") + 1));
+    }
+    soal = soal.filter(s => s.tanya && Array.isArray(s.pilihan) && Number.isInteger(s.jawaban));
+    if (!soal.length) throw new Error("tidak ada soal yang bisa dibuat — coba bahan yang lebih panjang");
     const paket = { id: "gen-" + Date.now(), judul, deskripsi: "Dibuat otomatis", soal };
     const list = get("ls-generated", []); list.push(paket); set("ls-generated", list);
     $("#status").innerHTML = `✅ ${soal.length} soal tersimpan sebagai paket "<b>${esc(judul)}</b>". Buka <a href="index.html">Latihan</a> untuk mengerjakan.`;
@@ -82,6 +103,46 @@ ${bahan}`;
   } catch (e) { $("#status").innerHTML = '<span class="err">Gagal: ' + esc(e.message) + "</span>"; }
   $("#go").disabled = false;
 };
+
+async function gemini(key, model, prompt) {
+  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(key)}`, {
+    method: "POST", headers: { "content-type": "application/json" },
+    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseMimeType: "application/json" } })
+  });
+  const d = await r.json();
+  if (!r.ok) throw new Error(d.error?.message || r.status);
+  return d.candidates[0].content.parts.map(p => p.text || "").join("");
+}
+async function claude(key, model, prompt) {
+  const r = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
+    body: JSON.stringify({ model, max_tokens: 16000, messages: [{ role: "user", content: prompt }] })
+  });
+  const d = await r.json();
+  if (!r.ok) throw new Error(d.error?.message || r.status);
+  return d.content.map(c => c.text || "").join("");
+}
+
+// Mode tanpa AI: ambil kalimat dari bahan, kosongkan kata kunci, pengecoh dari kata kunci lain.
+const STOP = new Set("yang dan atau dengan untuk dalam pada dari adalah ialah merupakan tersebut sebagai oleh akan dapat tidak juga karena bahwa secara setiap suatu sebuah antara harus bagi kepada telah sudah masih serta maupun apabila jika maka atas para lebih hanya agar setelah sebelum melalui terhadap yaitu yakni ini itu".split(" "));
+const shuf = a => a.map(v => [Math.random(), v]).sort((x, y) => x[0] - y[0]).map(v => v[1]);
+function offline(bahan, n) {
+  const kal = bahan.replace(/\s+/g, " ").split(/(?<=[.!?;])\s+/).map(k => k.trim()).filter(k => k.split(" ").length >= 6);
+  const kunci = k => k.split(/\s+/).map(w => w.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}%]+$/gu, ""))
+    .filter(w => w.length >= 4 && !STOP.has(w.toLowerCase()) || /\d/.test(w));
+  const pool = [...new Set(kal.flatMap(kunci))];
+  const isAngka = w => /\d/.test(w);
+  return shuf(kal).slice(0, n).map(k => {
+    const ws = kunci(k); if (!ws.length) return null;
+    const ans = ws.find(isAngka) || ws.sort((a, b) => b.length - a.length)[0];
+    let lain = shuf(pool.filter(w => w.toLowerCase() !== ans.toLowerCase() && isAngka(w) === isAngka(ans)));
+    if (lain.length < 3) lain = shuf(pool.filter(w => w.toLowerCase() !== ans.toLowerCase()));
+    if (lain.length < 3) return null;
+    const pilihan = shuf([ans, ...lain.slice(0, 3)]);
+    return { tanya: "Lengkapi kalimat berikut: " + k.replace(ans, "_____"), pilihan, jawaban: pilihan.indexOf(ans), bahas: "Kalimat dalam materi: " + k };
+  }).filter(Boolean);
+}
 
 function render() {
   const list = get("ls-generated", []);

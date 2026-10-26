@@ -7,6 +7,6 @@ Web latihan soal statis (tanpa build) dengan XP, combo, streak harian, skor terb
 - Deploy ke Vercel: import repo, set **Root Directory** = `latihan-soal`, framework "Other".
 
 ## Buat soal otomatis
-Buka `buat-soal.html`, masukkan API key Anthropic, tempel bahan, klik **Produksi Soal**.
+Buka `buat-soal.html`, pilih mesin (Tanpa AI / Gemini gratis / Claude), tempel bahan, klik **Produksi Soal**.
 Paket hasilnya langsung muncul di halaman latihan (tersimpan di browser), dan bisa diunduh
 sebagai `soal.js` untuk menggantikan file bawaan agar permanen untuk semua pengguna.
