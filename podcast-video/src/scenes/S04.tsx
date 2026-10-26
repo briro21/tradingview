@@ -1,63 +1,43 @@
 import React from "react";
-import { interpolate, useCurrentFrame } from "remotion";
-import { theme } from "../theme";
-import { useEnterExit } from "../components/anim";
-import { Headline } from "../components/Headline";
-import { Highlight } from "../components/Highlight";
-import { SceneFrame } from "../components/SceneFrame";
-import { useBeat } from "../components/useBeat";
+import { Beat } from "../components/Beats";
+import {
+  Accelerate,
+  BlackBox,
+  Chapter,
+  CodeRain,
+  GapChart,
+  Glitch,
+  Kinetic,
+  Orbit,
+  PowerButton,
+  Versus,
+} from "../components/visuals";
 
-const W = 1400;
-const H = 520;
-// Kapabilitas: hiper-eksponensial. Safety: hampir datar.
-const capability = (x: number) => H - (Math.pow(x, 3.2) * (H - 40) + 20);
-const safety = (x: number) => H - (20 + x * 70);
-
-const path = (fn: (x: number) => number, progress: number) => {
-  const pts: string[] = [];
-  const steps = 80;
-  for (let i = 0; i <= steps * progress; i++) {
-    const x = i / steps;
-    pts.push(`${i === 0 ? "M" : "L"}${(x * W).toFixed(1)},${fn(x).toFixed(1)}`);
-  }
-  return pts.join(" ");
-};
-
-// Insight 2: jurang antara kekuatan AI dan kemampuan kita mengontrolnya.
-export const S04: React.FC = () => {
-  const frame = useCurrentFrame();
-  const beat = useBeat();
-  const { exit } = useEnterExit();
-  const progress = interpolate(frame, [beat(0.1), beat(0.75)], [0, 1], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-  });
-  const labelOpacity = interpolate(progress, [0.85, 1], [0, 1], { extrapolateLeft: "clamp" });
-
-  return (
-    <SceneFrame label="INSIGHT 02 · THE CONTROL PROBLEM">
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 50 }}>
-        <Headline size={80}>
-          There Is <Highlight>No Off Switch</Highlight>
-        </Headline>
-        <svg width={W} height={H} style={{ overflow: "visible", opacity: exit }}>
-          <line x1={0} y1={H} x2={W} y2={H} stroke="#334155" strokeWidth={3} />
-          <path d={path(capability, progress)} fill="none" stroke={theme.cyan} strokeWidth={8} />
-          <path d={path(safety, progress)} fill="none" stroke={theme.text} strokeWidth={6} strokeDasharray="16 12" />
-          <g style={{ opacity: labelOpacity }} fontFamily={theme.font} fontWeight={700} fontSize={36}>
-            <text x={W - 20} y={capability(1) + 10} fill={theme.cyan} textAnchor="end">
-              AI Capability
-            </text>
-            <text x={W - 20} y={safety(1) - 24} fill={theme.text} textAnchor="end">
-              AI Safety
-            </text>
-            <line x1={W} y1={capability(1)} x2={W} y2={safety(1)} stroke={theme.blue} strokeWidth={4} />
-            <text x={W + 24} y={(capability(1) + safety(1)) / 2} fill={theme.blue}>
-              GAP
-            </text>
-          </g>
-        </svg>
-      </div>
-    </SceneFrame>
-  );
-};
+// Insight 2: The Control Problem
+export const S04: Beat[] = [
+  { at: "Most of us falsely", v: <Chapter num="02" title="THE *CONTROL* PROBLEM" />, sfx: "impact" },
+  { at: "If an AI goes rogue", v: <PowerButton label="JUST PULL THE PLUG?" /> },
+  { at: "Wrong", v: <Glitch text="WRONG." max={260} />, sfx: "impact" },
+  { at: "is like telling someone", v: <Kinetic lines={["TURN OFF A *VIRUS*?", "SHUT DOWN *BITCOIN*?"]} step={6} /> },
+  { at: "It is physically impossible", v: <Glitch text="IMPOSSIBLE" max={240} /> },
+  { at: "These systems are distributed", v: <Kinetic lines={["DISTRIBUTED.", "BACKED UP.", "*SMARTER THAN US.*"]} step={9} max={120} /> },
+  { at: "They will predict", v: <Glitch text="ACCESS DENIED" label="IT DISABLES YOU FIRST" />, sfx: "impact" },
+  {
+    at: "Right now, AI development",
+    v: <Versus leftLabel="NOT" left="Software Engineering" rightLabel="MORE LIKE" right="Growing Alien Biology" rightAt={75} />,
+  },
+  { at: "They are feeding massive", v: <CodeRain text="FEED. GROW. TEST." label="FIGURE OUT WHAT IT CAN DO" /> },
+  { at: "They are running blind", v: <BlackBox label="BLIND EXPERIMENTS ON A BLACK BOX" /> },
+  { at: "To stop bad behavior", v: <Kinetic lines={["THE FIX?", "AN *HR MANUAL*"]} step={7} /> },
+  { at: "But a superintelligent system", v: <Glitch text="WORKAROUND FOUND" />, sfx: "impact" },
+  { at: "While AI capabilities", v: <GapChart /> },
+  { at: "The gap between", v: <Kinetic lines={["THE GAP WIDENS", "*EVERY SECOND*"]} step={6} /> },
+  { at: "We are rapidly approaching", v: <Orbit core="SINGULARITY" label="THE POINT OF NO RETURN" /> },
+  {
+    at: "improves its own code",
+    v: <Accelerate items={["EVERY HOUR", "EVERY MINUTE", "EVERY SECOND"]} ats={["improves", "every minute", "every second"]} />,
+  },
+  { at: "Trying to predict", v: <Versus leftLabel="US" left="French Bulldog" rightLabel="IT" right="Superintelligence" rightAt={60} /> },
+  { at: "The cognitive gap", v: <Kinetic lines={["THE GAP IS", "*TOO MASSIVE*"]} /> },
+  { at: "We are creating a digital god", v: <Orbit core="DIGITAL GOD" label="NO PROVEN WAY TO KEEP US ALIVE" />, sfx: "impact" },
+];

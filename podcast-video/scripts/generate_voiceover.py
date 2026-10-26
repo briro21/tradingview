@@ -3,13 +3,15 @@
 Outputs, per scene, into public/:
   S0X.mp3  - voice-over
   S0X.srt  - subtitles relative to the scene (read by the video)
-and public/full.srt - all cues on the final video timeline (upload to YouTube).
+and public/full.srt - all cues on the final video timeline (upload to YouTube),
+and src/timing.json - word + cue timings used to sync animations and captions.
 
 Usage: pip install edge-tts && python scripts/generate_voiceover.py [--voice en-US-AndrewNeural]
 """
 
 import argparse
 import asyncio
+import json
 import math
 import os
 import re
@@ -77,7 +79,7 @@ def write_srt(path: Path, cues: list[tuple[float, float, str]]) -> None:
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
-async def synth(scene: str, text: str, voice: str) -> tuple[float, list]:
+async def synth(scene: str, text: str, voice: str) -> tuple[float, list, list]:
     com = edge_tts.Communicate(text, voice, boundary="WordBoundary")
     audio = bytearray()
     words = []
@@ -91,7 +93,7 @@ async def synth(scene: str, text: str, voice: str) -> tuple[float, list]:
     attach_punctuation(words, text)
     cues = to_cues(words)
     write_srt(PUBLIC / f"{scene}.srt", cues)
-    return len(audio) / MP3_BYTES_PER_SEC, cues
+    return len(audio) / MP3_BYTES_PER_SEC, cues, words
 
 
 async def main() -> None:
@@ -100,16 +102,22 @@ async def main() -> None:
     args = ap.parse_args()
 
     PUBLIC.mkdir(exist_ok=True)
-    full, offset = [], 0.0
+    full, offset, timing = [], 0.0, {}
     for f in sorted(NARRATION.glob("S*.txt")):
         text = " ".join(f.read_text(encoding="utf-8").split())
-        duration, cues = await synth(f.stem, text, args.voice)
+        duration, cues, words = await synth(f.stem, text, args.voice)
         full += [(a + offset, b + offset, t) for a, b, t in cues]
         # Sama dengan pembulatan di Root.tsx agar full.srt sinkron dengan video.
         frames = math.ceil(duration * FPS)
+        timing[f.stem] = {
+            "frames": frames,
+            "words": [[w["text"], round(w["start"], 3), round(w["end"], 3)] for w in words],
+            "cues": [[round(a, 3), round(b, 3), t] for a, b, t in cues],
+        }
         offset += frames / FPS
         print(f"{f.stem}: {duration:6.2f}s  {frames} frames  {len(cues)} cues")
     write_srt(PUBLIC / "full.srt", full)
+    (ROOT / "src" / "timing.json").write_text(json.dumps(timing), encoding="utf-8")
     print(f"full.srt: {len(full)} cues, total {offset:.2f}s")
 
 

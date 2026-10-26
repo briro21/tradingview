@@ -20,19 +20,24 @@ python scripts/generate_voiceover.py --voice en-US-GuyNeural
 
 Ubah teks di `narration/`, jalankan ulang skrip, lalu render ulang video.
 
-| Scene | File      | Narasi        | Visual                                         |
-|-------|-----------|---------------|------------------------------------------------|
-| S01   | `S01.mp3` | Hook          | Avatar host (spring) + `<AudioWaveform/>` biru |
-| S02   | `S02.mp3` | Insight 1     | "A NEW TOOL?" (cyan) → "A NEW INVENTOR" (putih) + 2027 / 2030 |
-| S03   | `S03.mp3` | Transition 1  | `<BulletPoints/>`: World Without Work → Symptom → No Control |
-| S04   | `S04.mp3` | Insight 2     | Grafik jurang Capability vs Safety             |
-| S05   | `S05.mp3` | Transition 2  | "What Is Real?"                                |
-| S06   | `S06.mp3` | Insight 3     | Grid simulasi + counter "1 in 1,000,000,000"   |
-| S07   | `S07.mp3` | Outro         | "Liberation or Erasure?" + tombol Subscribe    |
+## Animasi
 
-`durationInFrames` tiap `<Sequence>` dihitung otomatis dari panjang mp3
-(`calculateMetadata` di `src/Root.tsx`, dibulatkan ke atas pada 30 FPS).
-Angka di `src/timeline.ts` hanya fallback — isi dengan angka frame presisi jika ingin hardcode.
+Setiap scene adalah daftar **beat** (`src/scenes/S0X.tsx`). Satu beat muncul
+tepat saat narator mengucapkan frasa `at`, memakai timing kata dari TTS
+(`src/timing.json`), jadi visual berganti setiap ±3–7 detik mengikuti narasi:
+
+```tsx
+{ at: "eight billion people", v: <Counter to={8_000_000_000} label="LIVES AT STAKE" />, sfx: "impact" }
+```
+
+Visual yang tersedia (`src/components/visuals.tsx`): `Kinetic` (teks kinetik
+per kata), `Counter`, `Chapter`, `Versus`, `StrikeList`, `Glitch`, `Orbit`,
+`Timeline`, `Accelerate`, `CodeRain`, `BlackBox`, `PowerButton`, `GapChart`,
+`SimGrid`, `Converge`, `Hero`, `Subscribe`, plus `MorphText` & `BulletPoints`.
+
+Lapisan global: latar bergerak (orb, grid perspektif, partikel), kamera
+push-in, caption karaoke, progress bar per bab, waveform mini, kilatan
+transisi antar scene, dan SFX whoosh/impact (`public/sfx/`).
 
 ## Jalankan
 

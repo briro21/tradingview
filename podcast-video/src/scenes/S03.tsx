@@ -1,13 +1,13 @@
 import React from "react";
+import { Beat, useAt } from "../components/Beats";
 import { BulletPoints } from "../components/BulletPoints";
 import { Highlight } from "../components/Highlight";
-import { SceneFrame } from "../components/SceneFrame";
 
-// Transition 1: dari hilangnya pekerjaan menuju masalah kontrol.
-export const S03: React.FC = () => (
-  <SceneFrame label="BEYOND THE PAYCHECK">
+const Points: React.FC = () => {
+  const at = useAt();
+  return (
     <BulletPoints
-      stagger={45}
+      delays={[4, at("symptom"), at("physically incapable")]}
       items={[
         "A World Without Work",
         <>
@@ -18,5 +18,8 @@ export const S03: React.FC = () => (
         </>,
       ]}
     />
-  </SceneFrame>
-);
+  );
+};
+
+// Transition 1
+export const S03: Beat[] = [{ at: "But a world without work", v: <Points /> }];

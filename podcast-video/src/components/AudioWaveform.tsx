@@ -2,38 +2,38 @@ import React from "react";
 import { staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { useAudioData, visualizeAudio } from "@remotion/media-utils";
 import { theme } from "../theme";
-import { useEnterExit } from "./anim";
 
-const BARS = 64;
-
-export const AudioWaveform: React.FC<{ src: string; color?: string }> = ({
-  src,
-  color = theme.blue,
-}) => {
+export const AudioWaveform: React.FC<{
+  src: string;
+  bars?: number;
+  height?: number;
+  barWidth?: number;
+  gap?: number;
+  color?: string;
+}> = ({ src, bars = 64, height = 200, barWidth = 14, gap = 8, color = theme.blue }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const audioData = useAudioData(staticFile(src));
-  const { opacity } = useEnterExit(10);
 
   const values = audioData
-    ? visualizeAudio({ fps, frame, audioData, numberOfSamples: BARS, smoothing: true })
-    : new Array(BARS).fill(0);
+    ? visualizeAudio({ fps, frame, audioData, numberOfSamples: 64, smoothing: true })
+    : new Array(64).fill(0);
 
   // Cerminkan agar simetris: frekuensi rendah di tengah.
-  const half = values.slice(0, BARS / 2).reverse();
-  const bars = [...half, ...values.slice(0, BARS / 2)];
+  const half = values.slice(0, bars / 2);
+  const mirrored = [...[...half].reverse(), ...half];
 
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: 8, height: 200, opacity }}>
-      {bars.map((v, i) => (
+    <div style={{ display: "flex", alignItems: "center", gap, height }}>
+      {mirrored.map((v, i) => (
         <div
           key={i}
           style={{
-            width: 14,
-            height: Math.max(8, Math.min(1, v * 4) * 200),
-            borderRadius: 7,
+            width: barWidth,
+            height: Math.max(barWidth, Math.min(1, v * 4) * height),
+            borderRadius: barWidth / 2,
             backgroundColor: color,
-            boxShadow: `0 0 18px ${color}`,
+            boxShadow: `0 0 ${barWidth * 1.5}px ${color}`,
           }}
         />
       ))}

@@ -1,53 +1,19 @@
 import React from "react";
-import { interpolate } from "remotion";
-import { theme } from "../theme";
-import { useEnterExit } from "../components/anim";
-import { AudioWaveform } from "../components/AudioWaveform";
-import { Highlight } from "../components/Highlight";
-import { SceneFrame } from "../components/SceneFrame";
+import { Beat } from "../components/Beats";
+import { CodeRain, Counter, Glitch, Hero, Kinetic } from "../components/visuals";
 
-// Hook: avatar host + waveform biru.
-export const S01: React.FC = () => {
-  const { enter, exit } = useEnterExit();
-  const title = useEnterExit(25);
-  return (
-    <SceneFrame label="AI · THE LAST INVENTION">
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 48 }}>
-        <div
-          style={{
-            width: 320,
-            height: 320,
-            borderRadius: 160,
-            border: `6px solid ${theme.blue}`,
-            boxShadow: `0 0 60px ${theme.blue}88`,
-            background: "linear-gradient(135deg, #1e293b, #0f172a)",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            fontSize: 110,
-            fontWeight: 800,
-            color: theme.white,
-            opacity: exit,
-            transform: `scale(${enter})`,
-          }}
-        >
-          {/* Ganti dengan foto host: <Img src={staticFile("host.png")} style={{ width: "100%", height: "100%", borderRadius: "50%", objectFit: "cover" }} /> */}
-          AI
-        </div>
-        <div
-          style={{
-            fontSize: 72,
-            fontWeight: 800,
-            color: theme.white,
-            textAlign: "center",
-            opacity: title.opacity,
-            transform: `translateY(${interpolate(title.enter, [0, 1], [40, 0])}px)`,
-          }}
-        >
-          Gambling <Highlight>8 Billion</Highlight> Lives
-        </div>
-        <AudioWaveform src="S01.mp3" />
-      </div>
-    </SceneFrame>
-  );
-};
+// Hook
+export const S01: Beat[] = [
+  { at: "Right now", v: <Hero title={["THE *SMARTEST* ENGINEERS", "ARE GAMBLING"]} /> },
+  { at: "eight billion people", v: <Counter to={8_000_000_000} label="LIVES AT STAKE" />, sfx: "impact" },
+  { at: "to win a race", v: <Kinetic lines={["A *RACE*", "THEY DON'T UNDERSTAND"]} /> },
+  { at: "We are constantly told", v: <Kinetic lines={["\"IT'S JUST", "A *TOOL*\""]} /> },
+  { at: "cure diseases", v: <Kinetic lines={["CURE DISEASES", "WRITE EMAILS", "BOOST THE *MARKET*"]} step={8} max={110} /> },
+  { at: "But behind closed doors", v: <Glitch text="BEHIND CLOSED DOORS" />, sfx: "impact" },
+  { at: "In less than three years", v: <Counter to={3} suffix=" YEARS" label="UNTIL HUMAN LABOR IS OBSOLETE" duration={20} /> },
+  { at: "make the very concept", v: <Kinetic lines={["HUMAN LABOR", "*OBSOLETE*"]} /> },
+  { at: "And the creators", v: <Kinetic lines={["RUSHING TO THE EDGE", "*COMPLETELY BLIND*"]} /> },
+  { at: "Mass unemployment", v: <Kinetic lines={["MASS UNEMPLOYMENT", "= TIP OF THE *ICEBERG*"]} /> },
+  { at: "What is truly terrifying", v: <CodeRain text="IT WRITES ITS OWN CODE" label="AND OUTGROWS ITS MASTERS" /> },
+  { at: "escapes our control forever", v: <Glitch text="OUT OF CONTROL" label="FOREVER" />, sfx: "impact" },
+];
