@@ -290,11 +290,6 @@ export const BoardTrack: React.FC<{ scene: SceneId; beats: Beat[] }> = ({ scene,
               <Audio src={staticFile("sfx/whoosh.mp3")} volume={0.12} />
             </Sequence>
           ) : null}
-          {scheds[i].map((s, j) => (
-              <Sequence key={j} from={starts[i] + s.start} durationInFrames={Math.max(1, s.dur)}>
-                <Audio src={staticFile("sfx/scribble.mp3")} volume={0.13} />
-              </Sequence>
-            ))}
         </React.Fragment>
       ))}
     </AbsoluteFill>

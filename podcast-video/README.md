@@ -49,8 +49,7 @@ Helper (`src/board/dsl.ts`), koordinat panel 1600×900:
 Daftar ikon ada di `src/board/icons.ts` (robot, brain, globe, crowd, clock,
 virus, bitcoin, box, alien, dog, god, iceberg, rocket, monitor, dll.).
 
-SFX: suara spidol (`public/sfx/scribble.mp3`) selama menggambar dan whoosh
-saat kamera pindah.
+SFX: whoosh saat kamera pindah.
 
 ## Jalankan
 
