@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Buat Soal Otomatis</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+<style>
+  :root{--bg:#eaf4f7;--card:#fff;--ink:#14213d;--muted:#5c6b80;--pri:#2b7a9b;--line:#d4e3ea;--bad:#d64545}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1a24;--card:#18273a;--ink:#e8f0f7;--muted:#9fb0c3;--line:#2a3d55;--pri:#5bb4d6}}
+  *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink)}
+  main{max-width:820px;margin:auto;padding:16px 16px 40px}
+  h1{font-family:"Bebas Neue";font-size:2.2rem;margin:0 0 10px;color:var(--pri)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:14px}
+  label{display:block;font-weight:600;margin:10px 0 6px}
+  input,textarea,select{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:inherit}
+  textarea{min-height:220px;resize:vertical}
+  .row{display:flex;gap:10px;flex-wrap:wrap}.row>*{flex:1;min-width:140px}
+  .btn{background:var(--pri);color:#fff;border:0;border-radius:12px;padding:12px 18px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+  .btn.ghost{background:transparent;color:var(--pri);border:2px solid var(--pri)}.btn:disabled{opacity:.5}
+  .muted{color:var(--muted);font-size:.9rem}.err{color:var(--bad);font-weight:600}
+  .q{border-top:1px solid var(--line);padding:10px 0}.q .ok{font-weight:700;color:#2a9d5c}
+</style>
+</head>
+<body>
+<main>
+  <h1>Buat Soal Otomatis</h1>
+  <div class="card">
+    <label>API key Anthropic</label>
+    <input id="key" type="password" placeholder="sk-ant-..." />
+    <div class="muted">Disimpan hanya di browser ini. Dapatkan di console.anthropic.com.</div>
+    <label>Judul paket</label>
+    <input id="judul" placeholder="mis. KUP Bab 1" />
+    <div class="row">
+      <div><label>Jumlah soal</label><input id="jml" type="number" value="10" min="1" max="50" /></div>
+      <div><label>Tingkat kesulitan</label><select id="lvl"><option>campuran</option><option>mudah</option><option>sedang</option><option>sulit</option></select></div>
+    </div>
+    <label>Bahan / materi</label>
+    <textarea id="bahan" placeholder="Tempel materi di sini, atau unggah file .txt di bawah"></textarea>
+    <input id="file" type="file" accept=".txt,.md" style="margin-top:8px" />
+    <p><button class="btn" id="go">✨ Produksi Soal</button> <a class="btn ghost" href="index.html">Ke Latihan →</a></p>
+    <div id="status" class="muted"></div>
+  </div>
+  <div id="hasil"></div>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const get = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d } catch { return d } };
+const set = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch {} };
+const esc = t => String(t).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+$("#key").value = get("ls-key", "");
+$("#file").onchange = async e => { const f = e.target.files[0]; if (f) $("#bahan").value = await f.text(); };
+
+$("#go").onclick = async () => {
+  const key = $("#key").value.trim(), bahan = $("#bahan").value.trim(), n = +$("#jml").value || 10;
+  const judul = $("#judul").value.trim() || "Paket " + new Date().toLocaleString("id-ID");
+  if (!key || !bahan) { $("#status").innerHTML = '<span class="err">Isi API key dan bahan terlebih dahulu.</span>'; return; }
+  set("ls-key", key);
+  $("#go").disabled = true; $("#status").textContent = "Sedang membuat soal… (bisa 30–60 detik)";
+  const prompt = `Buat ${n} soal pilihan ganda (4 opsi) berbahasa Indonesia, tingkat kesulitan ${$("#lvl").value}, HANYA berdasarkan materi berikut. Variasikan posisi jawaban benar. Sertakan pembahasan singkat yang merujuk ke materi.
+Balas HANYA dengan JSON array tanpa teks lain, format:
+[{"tanya":"...","pilihan":["...","...","...","..."],"jawaban":0,"bahas":"..."}]
+(jawaban = indeks pilihan benar, 0-3)
+
+MATERI:
+${bahan}`;
+  try {
+    const r = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
+      body: JSON.stringify({ model: "claude-sonnet-5-5", max_tokens: 16000, messages: [{ role: "user", content: prompt }] })
+    });
+    const d = await r.json();
+    if (!r.ok) throw new Error(d.error?.message || r.status);
+    const txt = d.content.map(c => c.text || "").join("");
+    const soal = JSON.parse(txt.slice(txt.indexOf("["), txt.lastIndexOf("]") + 1))
+      .filter(s => s.tanya && Array.isArray(s.pilihan) && Number.isInteger(s.jawaban));
+    const paket = { id: "gen-" + Date.now(), judul, deskripsi: "Dibuat otomatis", soal };
+    const list = get("ls-generated", []); list.push(paket); set("ls-generated", list);
+    $("#status").innerHTML = `✅ ${soal.length} soal tersimpan sebagai paket "<b>${esc(judul)}</b>". Buka <a href="index.html">Latihan</a> untuk mengerjakan.`;
+    render();
+  } catch (e) { $("#status").innerHTML = '<span class="err">Gagal: ' + esc(e.message) + "</span>"; }
+  $("#go").disabled = false;
+};
+
+function render() {
+  const list = get("ls-generated", []);
+  if (!list.length) { $("#hasil").innerHTML = ""; return; }
+  $("#hasil").innerHTML = `<div class="card"><div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap">
+    <b>Paket buatan Anda (${list.length})</b><button class="btn ghost" onclick="unduh()">⬇ Unduh soal.js</button></div>
+    ${list.map((p, i) => `<details class="q"><summary><b>${esc(p.judul)}</b> · ${p.soal.length} soal
+      <button class="btn ghost" style="padding:4px 10px;float:right" onclick="hapus(${i})">Hapus</button></summary>
+      ${p.soal.map((s, j) => `<div class="q">${j + 1}. ${esc(s.tanya)}<br>${s.pilihan.map((o, k) =>
+        `<span class="${k === s.jawaban ? "ok" : ""}">${"ABCD"[k]}. ${esc(o)}</span>`).join("<br>")}
+        <div class="muted">${esc(s.bahas || "")}</div></div>`).join("")}</details>`).join("")}</div>`;
+}
+function hapus(i) { const l = get("ls-generated", []); l.splice(i, 1); set("ls-generated", l); render(); }
+function unduh() {
+  const js = "window.BANK_SOAL = " + JSON.stringify(get("ls-generated", []), null, 2) + ";\n";
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([js], { type: "text/javascript" }));
+  a.download = "soal.js"; a.click();
+}
+render();
+</script>
+</body>
+</html>

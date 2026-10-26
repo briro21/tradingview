@@ -40,6 +40,7 @@
 <div class="toast" id="toast"></div>
 <script src="soal.js"></script>
 <script>
+try { (JSON.parse(localStorage.getItem("ls-generated")) || []).forEach(p => BANK_SOAL.push(p)) } catch {}
 const $ = s => document.querySelector(s), app = $("#app");
 const load = () => { try { return JSON.parse(localStorage.getItem("ls-state")) || {} } catch { return {} } };
 let S = Object.assign({ xp: 0, streak: 0, last: "", best: {} }, load());
@@ -57,7 +58,7 @@ const shuffle = a => a.map(v => [Math.random(), v]).sort((x, y) => x[0] - y[0]).
 
 function home() {
   stats();
-  app.innerHTML = `<p class="muted">Pilih paket soal untuk mulai berlatih.</p><div class="grid">${
+  app.innerHTML = `<div class="row"><p class="muted">Pilih paket soal untuk mulai berlatih.</p><a class="btn" href="buat-soal.html" style="text-decoration:none">✨ Buat Soal dari Bahan</a></div><div class="grid">${
     BANK_SOAL.map((p, i) => { const b = S.best[p.id] ?? 0; return `<div class="card paket" onclick="start(${i})">
       <h3>${esc(p.judul)}</h3><div class="muted">${esc(p.deskripsi || "")}</div>
       <div class="bar"><i style="width:${b}%"></i></div><div class="muted">${p.soal.length} soal · skor terbaik ${b}%</div></div>` }).join("")
