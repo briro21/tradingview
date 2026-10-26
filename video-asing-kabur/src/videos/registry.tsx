@@ -38,6 +38,18 @@ import {timeline as gub} from './gubernur-24-jam/storyboard';
 import gubCaptions from './gubernur-24-jam/captions.json';
 import gubLines from './gubernur-24-jam/lines.json';
 import gubMeta from './gubernur-24-jam/meta.json';
+import {timeline as tab} from './tabung-saham-2000/storyboard';
+import tabCaptions from './tabung-saham-2000/captions.json';
+import tabLines from './tabung-saham-2000/lines.json';
+import tabMeta from './tabung-saham-2000/meta.json';
+import {timeline as war} from './warisan-10-miliar/storyboard';
+import warCaptions from './warisan-10-miliar/captions.json';
+import warLines from './warisan-10-miliar/lines.json';
+import warMeta from './warisan-10-miliar/meta.json';
+import {timeline as dir} from './dirimu-10-tahun/storyboard';
+import dirCaptions from './dirimu-10-tahun/captions.json';
+import dirLines from './dirimu-10-tahun/lines.json';
+import dirMeta from './dirimu-10-tahun/meta.json';
 import {ThumbData} from './Thumb';
 import {Cue, durationOf, LineT, makeL, Seg, WhatIf} from './WhatIf';
 
@@ -55,6 +67,9 @@ export const VIDEOS: Video[] = [
   {slug: 'kembali-1998', lines: k98Lines, captions: k98Captions, timeline: k98, thumbs: k98Meta.thumbs},
   {slug: 'uang-dua-kali', lines: udkLines, captions: udkCaptions, timeline: udk, thumbs: udkMeta.thumbs},
   {slug: 'gubernur-24-jam', lines: gubLines, captions: gubCaptions, timeline: gub, thumbs: gubMeta.thumbs},
+  {slug: 'tabung-saham-2000', lines: tabLines, captions: tabCaptions, timeline: tab, thumbs: tabMeta.thumbs},
+  {slug: 'warisan-10-miliar', lines: warLines, captions: warCaptions, timeline: war, thumbs: warMeta.thumbs},
+  {slug: 'dirimu-10-tahun', lines: dirLines, captions: dirCaptions, timeline: dir, thumbs: dirMeta.thumbs},
 ];
 
 // Komposisi hanya menerima slug (props Remotion harus bisa di-JSON-kan); storyboard dicari di sini.

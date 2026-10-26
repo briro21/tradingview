@@ -1,0 +1,23 @@
+{
+  "slug": "warisan-10-miliar",
+  "titles": [
+    "What If Kamu Tiba-tiba Punya Rp10 Miliar Besok Pagi?",
+    "Dapat Warisan Rp10 Miliar, 6 Bulan Kemudian Tinggal Rp2 Miliar. Ini Sebabnya",
+    "Rp10 Miliar dalam Semalam: Kaya Raya atau Justru Kehilangan Segalanya?"
+  ],
+  "intro": "Bagaimana kalau besok pagi ponselmu bergetar, dan saldo rekeningmu tiba-tiba bertambah sepuluh miliar rupiah? Uangnya sah, sudah dipotong pajak, dan sepenuhnya milikmu. Hanya satu masalahnya: semua orang akan tahu.\n\nDi cerita what if ini kamu membeli mobil dan rumah, lalu kerabat jauh datang meminjam, tawaran robot trading \"untung pasti\" datang menggoda, dan keluarga mulai retak. Enam bulan kemudian, yang tersisa hanya dua miliar, dan kamu harus memilih: modal usaha sahabatmu, atau keamanan orang tuamu.\n\nLewat cerita fiksi ini kamu akan belajar kenapa banyak orang yang tiba-tiba kaya justru kembali bermasalah keuangan, cara mengenali investasi bodong dan skema ponzi, cara meminjamkan uang ke keluarga dengan sehat, dan urutan yang benar saat uang besar datang.",
+  "question": "Kalau besok kamu tiba-tiba punya Rp10 miliar, apa hal pertama yang akan kamu lakukan?",
+  "sources": [
+    "Cerita fiksi. Cek legalitas produk investasi di Otoritas Jasa Keuangan (ojk.go.id) atau kontak OJK 157.",
+    "Pola skema ponzi dan investasi bodong mengacu pada peringatan Satgas PASTI OJK."
+  ],
+  "note": "Semua tokoh, nama, dan angka dalam video adalah fiktif. Bukan ajakan membeli produk investasi apa pun.",
+  "chapters": [[0, "Notifikasi pukul 06.12"], [8, "Aturannya"], [12, "Hari pertama"], [16, "Minggu pertama: Rp2 miliar"], [18, "Kabar menyebar"], [21, "Kerabat datang meminjam"], [29, "Robot trading untung pasti"], [34, "Rp3 miliar lenyap"], [38, "Biaya gaya hidup"], [40, "Keluarga retak"], [44, "Tinggal Rp2 miliar"], [47, "Usaha Raka atau Bu Ana?"], [55, "Keputusanmu"], [63, "Pelajaran"], [68, "Amplop kedua"], [73, "Apa yang kamu lakukan?"]],
+  "tags": ["what if", "warisan", "tiba-tiba kaya", "10 miliar", "menang lotre", "investasi bodong", "robot trading", "skema ponzi", "OJK", "gaya hidup", "lifestyle inflation", "mengelola uang", "dana darurat", "pinjam uang keluarga", "edukasi keuangan", "cerita inspiratif", "keuangan keluarga", "literasi keuangan", "animasi", "cerita what if"],
+  "hashtags": ["#WhatIf", "#Warisan", "#InvestasiBodong", "#EdukasiKeuangan", "#Keuangan"],
+  "thumbs": {
+    "v1": {"top": "BESOK PAGI", "main": "Rp10 MILIAR", "badge": "LALU HABIS?", "emoji": "💰"},
+    "v2": {"kicker": "WHAT IF", "main": "TIBA-TIBA PUNYA\nRp10 MILIAR?", "bottom": "6 BULAN: SISA Rp2 M", "emoji": "📲"},
+    "v3": {"top": "SISA Rp2 MILIAR UNTUK:", "left": "SAHABAT", "right": "IBU", "leftEmoji": "🤝", "rightEmoji": "👩"}
+  }
+}

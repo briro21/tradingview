@@ -1,4 +1,4 @@
-import {AbsoluteFill, interpolate} from 'remotion';
+import {AbsoluteFill, interpolate, interpolateColors} from 'remotion';
 import {Ambient, Particles} from '../components/Ambient';
 import {Background} from '../components/Background';
 import {Camera, Grade} from '../cinematic/Camera';
@@ -22,6 +22,10 @@ export const CAST = {
   pedagang: {jacket: '#2e8b57', rim: '#c8f5d8'},
   sri: {jacket: '#d35400', rim: '#ffd0a8'},
   deputi: {jacket: '#22304d', rim: '#9fb3e0'},
+  dirimu: {jacket: '#6d7a8c', rim: '#cfd8e6'},
+  darto: {jacket: '#6b8e23', rim: '#dff0b0'},
+  notaris: {jacket: '#33302e', rim: '#e8dcc8'},
+  sales: {jacket: '#c0392b', rim: '#ffc2b8'},
 };
 type Who = keyof typeof CAST;
 
@@ -335,7 +339,7 @@ export const FloorMessage: React.FC<{msgAt: number; lines?: Line[]}> = ({msgAt, 
 };
 
 // Amplop misterius: foto layar 1998 + catatan.
-export const Envelope: React.FC<{openAt: number; noteAt: number; addrAt: number; lines?: Line[]}> = ({openAt, noteAt, addrAt, lines = []}) => {
+export const Envelope: React.FC<{openAt: number; noteAt: number; addrAt: number; lines?: Line[]; note?: string}> = ({openAt, noteAt, addrAt, lines = [], note = 'Kamu bukan yang pertama.'}) => {
   const sec = useSec();
   const open = ramp(sec, openAt, openAt + 1.2);
   const flip = ramp(sec, noteAt - 0.3, noteAt + 0.5);
@@ -354,7 +358,7 @@ export const Envelope: React.FC<{openAt: number; noteAt: number; addrAt: number;
               <div style={{position: 'absolute', right: 20, bottom: 14, fontFamily: 'monospace', fontSize: 30, color: '#f2ead8'}}>1998</div>
             </div>
             <div style={{position: 'absolute', inset: 0, background: '#f2ead8', border: `8px solid ${C.ink}`, transform: 'rotateY(180deg)', backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 30}}>
-              <div style={{fontFamily: '"Comic Sans MS", cursive', fontSize: 64, color: '#2a2a2a', transform: 'rotate(-3deg)'}}>Kamu bukan yang pertama.</div>
+              <div style={{fontFamily: '"Comic Sans MS", cursive', fontSize: 64, color: '#2a2a2a', transform: 'rotate(-3deg)'}}>{note}</div>
               {sec > addrAt && <div style={{fontFamily: FONT, fontWeight: 800, fontSize: 32, color: '#6b4a2b'}}>📍 Toko Jam Tua · Jakarta</div>}
             </div>
           </div>
@@ -365,5 +369,42 @@ export const Envelope: React.FC<{openAt: number; noteAt: number; addrAt: number;
       <Grade tint="rgba(255,150,60,0.2)" />
       <Lines lines={lines} color="#fff" />
     </Camera>
+  );
+};
+
+// Dirimu dari masa depan: tiap kebiasaan baik (steps) membuat jaketnya lebih cerah dan meteran "masa depan" naik.
+export const FutureSelf: React.FC<{steps: {at: number; label: string}[]; fadeAt?: number; lines?: Line[]; start?: number}> = ({steps, fadeAt, lines = [], start = 0.15}) => {
+  const sec = useSec();
+  const done = steps.filter((x) => sec >= x.at).length;
+  const k = steps.reduce((a, x) => a + ramp(sec, x.at, x.at + 1.2), 0) / Math.max(1, steps.length);
+  const level = start + (1 - start) * k;
+  const fade = fadeAt === undefined ? 1 : 1 - ramp(sec, fadeAt, fadeAt + 2.5) * 0.85;
+  const jacket = interpolateColors(level, [0, 1], ['#5b5048', '#3b7be0']);
+  return (
+    <AbsoluteFill>
+      <Ambient color="#7fb2ff" base="#0d1220" particles={30} />
+      <Abs x={260} y={300}>
+        <Character pose="stand" face="serius" jacket={CAST.kamu.jacket} rim={CAST.kamu.rim} height={640} />
+      </Abs>
+      <Abs x={1320} y={300}>
+        <div style={{opacity: fade, filter: `grayscale(${1 - level}) drop-shadow(0 0 ${40 * level}px rgba(127,178,255,${level}))`}}>
+          <Character pose="stand" face={level > 0.7 ? 'senang' : level > 0.4 ? 'netral' : 'sedih'} jacket={jacket} rim="#cfd8e6" height={640} flip />
+        </div>
+      </Abs>
+      <Abs x={700} y={330}>
+        <div style={{width: 520, display: 'flex', flexDirection: 'column', gap: 16}}>
+          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 34, color: '#cfd8e6'}}>MASA DEPANMU</div>
+          <div style={{height: 44, borderRadius: 22, background: 'rgba(255,255,255,0.12)', border: '4px solid #cfd8e6', overflow: 'hidden'}}>
+            <div style={{width: `${level * 100}%`, height: '100%', background: interpolateColors(level, [0, 0.5, 1], [C.red, C.yellow, C.green])}} />
+          </div>
+          {steps.slice(0, done).map((x) => (
+            <Pop key={x.label} at={x.at}>
+              <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 36, color: '#fff'}}>✅ {x.label}</div>
+            </Pop>
+          ))}
+        </div>
+      </Abs>
+      <Lines lines={lines} align="center" y={80} color="#fff" />
+    </AbsoluteFill>
   );
 };

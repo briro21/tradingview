@@ -1,0 +1,23 @@
+{
+  "slug": "dirimu-10-tahun",
+  "titles": [
+    "What If Kamu Bertemu Dirimu Sendiri 10 Tahun dari Sekarang?",
+    "Dirimu dari Masa Depan Datang dan Bilang: Hapus Aplikasi Itu Sekarang",
+    "Bertemu Dirimu 10 Tahun Lagi: Terjerat Paylater, Pinjol, dan Judi Online"
+  ],
+  "intro": "Bagaimana kalau suatu malam seseorang mengetuk pintu, dan yang berdiri di sana adalah dirimu sendiri, sepuluh tahun lebih tua, lusuh, dan kelelahan?\n\nDi penutup seri cerita jam saku Pak Harso ini, dirimu dari masa depan hanya punya tujuh hari. Dia bercerita bagaimana semuanya dimulai dari tombol bayar nanti, lalu pinjaman online, penagih yang menelepon Ibu, sampai jalan pintas judi online. Setiap kebiasaan yang kamu ubah hari ini membuatnya terlihat lebih baik. Tapi di hari keempat, Raka mengirim pesan, dan di hari ketujuh kamu harus memilih kepada siapa satu-satunya pesan itu dibawa pulang.\n\nLewat cerita fiksi ini kamu akan memahami cara kerja paylater dan pinjol, cara mengecek legalitas pinjaman di OJK, kenapa judi online dirancang supaya pemain kalah, dan bagaimana bunga majemuk bisa menjadi teman atau musuh terbesarmu.",
+  "question": "Kalau kamu bertemu dirimu sepuluh tahun lagi, satu kebiasaan apa yang langsung kamu ubah malam ini?",
+  "sources": [
+    "Cek daftar penyelenggara pinjaman daring berizin di ojk.go.id atau kontak OJK 157.",
+    "Ilustrasi bunga majemuk memakai asumsi imbal hasil sekitar 7% per tahun dan tidak dijamin."
+  ],
+  "note": "Semua tokoh fiktif. Jika kamu atau orang terdekat terjerat utang atau judi online, bicarakan dengan orang yang dipercaya dan cari bantuan resmi.",
+  "chapters": [[0, "Ketukan di malam hujan"], [6, "Aturannya: 7 hari"], [12, "Hari 1: paylater & pinjol"], [19, "Hapus aplikasinya"], [22, "Hari 2: jalan pintas"], [28, "Blokir iklannya"], [31, "Hari 3: menghitung bersama"], [35, "Bunga majemuk dua arah"], [39, "Hari 4: pesan dari Raka"], [46, "Menolong Raka"], [49, "Waktunya hampir habis"], [53, "Dilema terakhir"], [61, "Pelajaran"], [66, "Nama di jam saku"], [71, "Apa yang kamu ubah?"]],
+  "tags": ["what if", "diri sendiri di masa depan", "paylater", "pinjol", "pinjaman online", "pinjol ilegal", "judi online", "bahaya judi online", "utang", "bunga majemuk", "OJK", "menabung", "kebiasaan keuangan", "edukasi keuangan", "literasi keuangan", "cerita inspiratif", "anak muda", "animasi", "cerita what if", "keuangan pribadi"],
+  "hashtags": ["#WhatIf", "#Paylater", "#Pinjol", "#EdukasiKeuangan", "#StopJudol"],
+  "thumbs": {
+    "v1": {"top": "DIRIMU", "main": "10 TAHUN LAGI", "badge": "HAPUS ITU!", "emoji": "🕰️"},
+    "v2": {"kicker": "WHAT IF", "main": "BERTEMU DIRIMU\n10 TAHUN LAGI?", "bottom": "PAYLATER · PINJOL", "emoji": "🚪"},
+    "v3": {"top": "SATU PESAN UNTUK:", "left": "DIRIMU", "right": "RAKA", "leftEmoji": "🙋", "rightEmoji": "🤝"}
+  }
+}

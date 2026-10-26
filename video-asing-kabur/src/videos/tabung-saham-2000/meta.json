@@ -1,0 +1,23 @@
+{
+  "slug": "tabung-saham-2000",
+  "titles": [
+    "What If Kamu Menabung Saham Rp100 Ribu Setiap Bulan Sejak Tahun 2000?",
+    "Ibu Menabung Saham Rp100 Ribu Sebulan Sejak 2000... Hasilnya Hari Ini Mengejutkan",
+    "Rp100 Ribu Sebulan di Saham Sejak 2000: Lewat Krisis 2008 dan Pandemi, Jadi Berapa?"
+  ],
+  "intro": "Bagaimana kalau sejak tahun 2000, orang tuamu diam-diam menabung saham Rp100.000 setiap bulan atas namamu, dan tidak pernah menjualnya?\n\nDi cerita what if ini, kamu menemukan map tua berisi ratusan bukti setoran. Halaman demi halaman, kamu mengikuti perjalanan IHSG selama 26 tahun: masa membosankan di awal 2000-an, krisis keuangan global 2008 ketika nilai tabungan anjlok lebih dari separuh, godaan saham gorengan yang naik seperti roket, pandemi 2020, sampai tekanan pasar tahun ini. Lalu tibalah dilemanya: cairkan sekarang untuk DP rumah, atau biarkan tumbuh sepuluh tahun lagi?\n\nLewat cerita ini kamu akan memahami cara kerja menabung saham rutin dengan nominal tetap, kenapa penurunan besar itu normal, bedanya saham berkualitas dengan saham gorengan, dan kenapa waktu lebih penting daripada menebak waktu.",
+  "question": "Kalau kamu dapat Rp100 juta dari tabungan masa kecil, kamu cairkan untuk rumah atau biarkan tumbuh 10 tahun lagi?",
+  "sources": [
+    "Data historis IHSG (akhir tahun, dibulatkan) dari Bursa Efek Indonesia / idx.co.id.",
+    "Perhitungan nilai tabungan adalah ilustrasi kasar mengikuti pergerakan indeks, tanpa biaya transaksi, tanpa pajak, dan belum termasuk dividen."
+  ],
+  "note": "Tokoh dalam video fiktif. Angka adalah ilustrasi; kinerja masa lalu tidak menjamin hasil di masa depan. Bukan ajakan membeli saham tertentu.",
+  "chapters": [[0, "Map tua di gudang"], [8, "Aturannya"], [15, "Januari 2000"], [22, "IHSG menanjak"], [26, "Krisis 2008"], [34, "Tetap setor saat murah"], [38, "2013 & 2015"], [42, "Godaan saham roket"], [47, "Pandemi 2020"], [54, "Halaman terakhir: berapa nilainya?"], [59, "Cairkan atau biarkan?"], [66, "Keputusanmu"], [70, "Pelajaran"], [75, "Pesan rahasia Bu Ana"], [79, "Apa pilihanmu?"]],
+  "tags": ["what if", "menabung saham", "nabung saham", "IHSG", "investasi saham pemula", "investasi jangka panjang", "dollar cost averaging", "reksa dana indeks", "krisis 2008", "saham gorengan", "investasi untuk anak", "tabungan anak", "edukasi keuangan", "pasar modal indonesia", "cerita saham", "keuangan keluarga", "sejarah IHSG", "animasi", "saham", "bunga majemuk"],
+  "hashtags": ["#WhatIf", "#NabungSaham", "#IHSG", "#InvestasiPemula", "#Saham"],
+  "thumbs": {
+    "v1": {"top": "Rp100 RIBU/BULAN", "main": "SEJAK 2000", "badge": "JADI BERAPA?", "emoji": "📈"},
+    "v2": {"kicker": "WHAT IF", "main": "NABUNG SAHAM\nSEJAK TAHUN 2000?", "bottom": "LEWAT KRISIS 2008", "emoji": "📁"},
+    "v3": {"top": "TABUNGAN MASA KECILMU:", "left": "CAIRKAN", "right": "BIARKAN", "leftEmoji": "🏠", "rightEmoji": "🌱"}
+  }
+}
