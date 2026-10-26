@@ -20,24 +20,37 @@ python scripts/generate_voiceover.py --voice en-US-GuyNeural
 
 Ubah teks di `narration/`, jalankan ulang skrip, lalu render ulang video.
 
-## Animasi
+## Gaya: whiteboard (ala After Skool)
 
-Setiap scene adalah daftar **beat** (`src/scenes/S0X.tsx`). Satu beat muncul
-tepat saat narator mengucapkan frasa `at`, memakai timing kata dari TTS
-(`src/timing.json`), jadi visual berganti setiap ±3–7 detik mengikuti narasi:
+Kertas putih, doodle spidol warna-warni yang **digambar garis demi garis**
+oleh tangan yang memegang spidol, dan kamera yang bergeser di atas satu papan
+besar. Garis sedikit "bergetar" seperti animasi tangan.
 
-```tsx
-{ at: "eight billion people", v: <Counter to={8_000_000_000} label="LIVES AT STAKE" />, sfx: "impact" }
+Setiap scene adalah daftar **beat** (`src/scenes/S0X.ts`). Satu beat = satu
+panel di papan; kamera pindah ke panel itu tepat saat narator mengucapkan
+frasa `at` (timing kata dari `src/timing.json`). Item di dalam panel digambar
+berurutan, dan bisa disinkronkan ke frasa sendiri:
+
+```ts
+{
+  at: "Plumbers, builders, chefs",
+  items: [
+    I("wrench", 330, 380, 1.4),
+    I("hammer", 800, 380, 1.4, { at: "builders" }),
+    I("chef", 1270, 380, 1.4, { at: "chefs" }),
+    T("ALL AUTOMATED", 800, 680, { size: 110, color: red, at: "all automated" }),
+  ],
+}
 ```
 
-Visual yang tersedia (`src/components/visuals.tsx`): `Kinetic` (teks kinetik
-per kata), `Counter`, `Chapter`, `Versus`, `StrikeList`, `Glitch`, `Orbit`,
-`Timeline`, `Accelerate`, `CodeRain`, `BlackBox`, `PowerButton`, `GapChart`,
-`SimGrid`, `Converge`, `Hero`, `Subscribe`, plus `MorphText` & `BulletPoints`.
+Helper (`src/board/dsl.ts`), koordinat panel 1600×900:
+`T` judul spidol, `H` tulisan tangan, `I` ikon doodle, `N` angka berhitung,
+`U` garis bawah, `S` coretan, `X` silang, `O` lingkaran, `A` panah.
+Daftar ikon ada di `src/board/icons.ts` (robot, brain, globe, crowd, clock,
+virus, bitcoin, box, alien, dog, god, iceberg, rocket, monitor, dll.).
 
-Lapisan global: latar bergerak (orb, grid perspektif, partikel), kamera
-push-in, caption karaoke, progress bar per bab, waveform mini, kilatan
-transisi antar scene, dan SFX whoosh/impact (`public/sfx/`).
+SFX: suara spidol (`public/sfx/scribble.mp3`) selama menggambar dan whoosh
+saat kamera pindah.
 
 ## Jalankan
 
