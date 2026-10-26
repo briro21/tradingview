@@ -2,9 +2,23 @@
 
 Dark-mode tech podcast video, 1920×1080 @ 30 FPS.
 
-## Audio
+## Pipeline
 
-Taruh voice-over di `public/` dengan nama berikut (satu file per bagian narasi):
+1. **Narasi** – `narration/S01.txt` … `S07.txt` (satu file per bagian naskah).
+2. **Voice-over + SRT** – `scripts/generate_voiceover.py` membuat TTS (edge-tts,
+   suara `en-US-AndrewNeural`) dan subtitle dari word timing TTS:
+   - `public/S0X.mp3` – voice-over per scene
+   - `public/S0X.srt` – subtitle per scene (dirender di video)
+   - `public/full.srt` – subtitle seluruh video, siap upload ke YouTube
+3. **Video** – Remotion membaca durasi mp3 dan SRT tersebut.
+
+```bash
+pip install edge-tts
+python scripts/generate_voiceover.py                 # suara default
+python scripts/generate_voiceover.py --voice en-US-GuyNeural
+```
+
+Ubah teks di `narration/`, jalankan ulang skrip, lalu render ulang video.
 
 | Scene | File      | Narasi        | Visual                                         |
 |-------|-----------|---------------|------------------------------------------------|

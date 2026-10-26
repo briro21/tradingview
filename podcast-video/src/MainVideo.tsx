@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, Audio, Sequence, staticFile } from "remotion";
 import { theme } from "./theme";
 import { MainVideoProps, SceneId, SCENES } from "./timeline";
+import { Subtitles } from "./components/Subtitles";
 import { S01 } from "./scenes/S01";
 import { S02 } from "./scenes/S02";
 import { S03 } from "./scenes/S03";
@@ -25,6 +26,7 @@ export const MainVideo: React.FC<MainVideoProps> = ({ durations }) => {
           <Sequence key={scene.id} name={scene.id} from={start} durationInFrames={durationInFrames}>
             <Audio src={staticFile(scene.audio)} />
             <Visual />
+            <Subtitles src={scene.audio.replace(".mp3", ".srt")} />
           </Sequence>
         );
       })}

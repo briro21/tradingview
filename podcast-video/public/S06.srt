@@ -1,0 +1,167 @@
+1
+00:00:00,112 --> 00:00:02,038
+Think about the video games kids play today.
+
+2
+00:00:02,450 --> 00:00:04,300
+We can already generate massive,
+
+3
+00:00:04,475 --> 00:00:07,825
+persistent three-dimensional worlds from a single text prompt.
+
+4
+00:00:08,238 --> 00:00:08,488
+Now,
+
+5
+00:00:08,850 --> 00:00:10,338
+fast forward a few decades.
+
+6
+00:00:10,750 --> 00:00:14,700
+Imagine a superintelligent system capable of perfectly simulating
+
+7
+00:00:14,712 --> 00:00:16,862
+reality down to the subatomic level,
+
+8
+00:00:17,162 --> 00:00:18,362
+with perfect physics,
+
+9
+00:00:18,600 --> 00:00:20,862
+perfect haptics, and perfect memory.
+
+10
+00:00:21,275 --> 00:00:24,112
+The exact moment this technology becomes affordable—
+
+11
+00:00:24,550 --> 00:00:26,513
+let's say it costs ten dollars to run
+
+12
+00:00:26,525 --> 00:00:27,925
+a planetary simulation—
+
+13
+00:00:28,250 --> 00:00:31,900
+future civilizations or advanced AIs will run billions
+
+14
+00:00:31,912 --> 00:00:34,550
+of hyper-realistic simulations of human history.
+
+15
+00:00:34,975 --> 00:00:36,450
+They will run them for research,
+
+16
+00:00:36,625 --> 00:00:37,387
+for entertainment,
+
+17
+00:00:37,775 --> 00:00:39,638
+or just as an algorithmic experiment.
+
+18
+00:00:40,062 --> 00:00:43,238
+Statistically speaking, if there are billions of simulated
+
+19
+00:00:43,250 --> 00:00:45,925
+universes and only one base reality,
+
+20
+00:00:46,238 --> 00:00:48,250
+the mathematical odds that you and I are
+
+21
+00:00:48,262 --> 00:00:49,712
+currently living in the one,
+
+22
+00:00:50,038 --> 00:00:52,350
+true base reality are roughly one in a
+
+23
+00:00:52,362 --> 00:00:52,750
+billion.
+
+24
+00:00:53,175 --> 00:00:55,700
+We are almost certainly living inside a computer
+
+25
+00:00:55,712 --> 00:00:56,838
+simulation right now.
+
+26
+00:00:57,250 --> 00:00:58,325
+And if you look closely,
+
+27
+00:00:58,688 --> 00:01:01,062
+human history has subtly known this all along.
+
+28
+00:01:01,475 --> 00:01:03,550
+If you strip away the local traditions,
+
+29
+00:01:03,725 --> 00:01:05,600
+the specific dietary rules,
+
+30
+00:01:05,800 --> 00:01:08,400
+and the regional politics from every major religion
+
+31
+00:01:08,412 --> 00:01:10,662
+on Earth, they all point to the exact
+
+32
+00:01:10,675 --> 00:01:13,163
+same fundamental, unshakeable truth:
+
+33
+00:01:13,662 --> 00:01:16,450
+A superintelligent creator built a secondary world,
+
+34
+00:01:16,750 --> 00:01:19,138
+placed us inside it for testing purposes,
+
+35
+00:01:19,438 --> 00:01:20,650
+monitors our behavior,
+
+36
+00:01:20,938 --> 00:01:23,288
+and designed a system of rules and consequences
+
+37
+00:01:23,300 --> 00:01:24,225
+for us to follow.
+
+38
+00:01:24,662 --> 00:01:26,650
+For the very first time in human history,
+
+39
+00:01:26,912 --> 00:01:29,688
+the absolute cutting edge of computer science and
+
+40
+00:01:29,700 --> 00:01:32,438
+the ancient texts of early religion are perfectly
+
+41
+00:01:32,450 --> 00:01:32,925
+aligned.
+
+42
+00:01:33,350 --> 00:01:35,338
+They are describing the exact same code.

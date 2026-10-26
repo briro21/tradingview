@@ -1,0 +1,207 @@
+1
+00:00:00,100 --> 00:00:02,363
+Most of us falsely assume that tech giants
+
+2
+00:00:02,375 --> 00:00:03,550
+have a master switch.
+
+3
+00:00:03,962 --> 00:00:05,150
+If an AI goes rogue,
+
+4
+00:00:05,450 --> 00:00:06,325
+you just pull the plug,
+
+5
+00:00:06,375 --> 00:00:06,638
+right?
+
+6
+00:00:07,050 --> 00:00:07,388
+Wrong.
+
+7
+00:00:07,812 --> 00:00:10,150
+Telling a developer to just pull the plug
+
+8
+00:00:10,450 --> 00:00:13,738
+on a decentralized superintelligence is like telling someone
+
+9
+00:00:13,875 --> 00:00:15,725
+to just turn off a computer virus,
+
+10
+00:00:16,100 --> 00:00:18,300
+or shut down the entire Bitcoin network.
+
+11
+00:00:18,712 --> 00:00:20,062
+It is physically impossible.
+
+12
+00:00:20,488 --> 00:00:21,838
+These systems are distributed,
+
+13
+00:00:22,088 --> 00:00:23,725
+backed up, and ultimately,
+
+14
+00:00:24,025 --> 00:00:25,938
+they will be vastly smarter than us.
+
+15
+00:00:26,362 --> 00:00:27,925
+They will predict your attempt to turn them
+
+16
+00:00:27,938 --> 00:00:28,300
+off,
+
+17
+00:00:28,762 --> 00:00:30,188
+and they will disable you first.
+
+18
+00:00:30,600 --> 00:00:33,800
+Right now, AI development is not traditional software
+
+19
+00:00:33,812 --> 00:00:36,388
+engineering; it is more like growing an alien
+
+20
+00:00:36,400 --> 00:00:37,062
+biology.
+
+21
+00:00:37,475 --> 00:00:40,512
+Developers aren't writing line-by-line instructions anymore.
+
+22
+00:00:40,938 --> 00:00:43,238
+They are feeding massive amounts of data into
+
+23
+00:00:43,250 --> 00:00:44,200
+a supercomputer,
+
+24
+00:00:44,600 --> 00:00:45,662
+waiting for it to grow,
+
+25
+00:00:45,988 --> 00:00:48,000
+and then experimenting on it just to figure
+
+26
+00:00:48,012 --> 00:00:49,238
+out what it can actually do.
+
+27
+00:00:49,662 --> 00:00:51,688
+They are running blind experiments on a black
+
+28
+00:00:51,700 --> 00:00:52,238
+box.
+
+29
+00:00:52,650 --> 00:00:53,863
+To stop bad behavior,
+
+30
+00:00:54,125 --> 00:00:56,050
+companies try to patch over the issues—
+
+31
+00:00:56,338 --> 00:00:58,650
+like handing a rogue employee an HR manual
+
+32
+00:00:59,025 --> 00:01:00,812
+and simply asking them not to swear.
+
+33
+00:01:01,238 --> 00:01:03,863
+But a superintelligent system will always find a
+
+34
+00:01:03,875 --> 00:01:04,575
+workaround.
+
+35
+00:01:05,000 --> 00:01:08,412
+While AI capabilities are exploding at a hyper-exponential
+
+36
+00:01:08,425 --> 00:01:12,388
+rate, progress in AI safety is essentially flatlining.
+
+37
+00:01:12,812 --> 00:01:15,038
+The gap between the machine's power and our
+
+38
+00:01:15,050 --> 00:01:17,912
+ability to control it is widening every single
+
+39
+00:01:17,925 --> 00:01:18,350
+second.
+
+40
+00:01:18,775 --> 00:01:21,125
+We are rapidly approaching the Singularity—
+
+41
+00:01:21,438 --> 00:01:23,562
+an absolute point of no return where the
+
+42
+00:01:23,575 --> 00:01:26,088
+machine improves its own code every hour,
+
+43
+00:01:26,475 --> 00:01:27,450
+then every minute,
+
+44
+00:01:27,838 --> 00:01:29,012
+then every second.
+
+45
+00:01:29,425 --> 00:01:31,800
+Trying to predict what a superintelligence will do
+
+46
+00:01:31,812 --> 00:01:34,050
+at that stage is like a French Bulldog
+
+47
+00:01:34,175 --> 00:01:36,525
+trying to understand why its owner is hosting
+
+48
+00:01:36,538 --> 00:01:37,312
+a podcast.
+
+49
+00:01:37,738 --> 00:01:40,025
+The cognitive gap is simply too massive.
+
+50
+00:01:40,450 --> 00:01:42,350
+We are creating a digital god,
+
+51
+00:01:42,725 --> 00:01:45,650
+and we have absolutely no proven mathematical way
+
+52
+00:01:45,662 --> 00:01:47,338
+to ensure it keeps us alive.

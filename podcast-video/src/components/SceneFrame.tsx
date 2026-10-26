@@ -17,7 +17,7 @@ export const SceneFrame: React.FC<{ label?: string; children: React.ReactNode }>
         fontFamily: theme.font,
         justifyContent: "center",
         alignItems: "center",
-        padding: 120,
+        padding: "120px 120px 200px",
       }}
     >
       {label ? (

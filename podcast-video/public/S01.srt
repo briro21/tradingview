@@ -1,0 +1,95 @@
+1
+00:00:00,100 --> 00:00:02,675
+Right now, the smartest engineers on the planet
+
+2
+00:00:02,688 --> 00:00:05,212
+are gambling the lives of eight billion people
+
+3
+00:00:05,362 --> 00:00:07,212
+to win a race they do not even
+
+4
+00:00:07,225 --> 00:00:08,338
+fully understand.
+
+5
+00:00:08,762 --> 00:00:11,588
+We are constantly told that Artificial Intelligence is
+
+6
+00:00:11,600 --> 00:00:12,425
+just a tool—
+
+7
+00:00:12,875 --> 00:00:15,875
+a helpful, benign digital assistant meant to cure
+
+8
+00:00:15,888 --> 00:00:17,712
+diseases, write our emails,
+
+9
+00:00:17,925 --> 00:00:19,188
+and boost the stock market.
+
+10
+00:00:19,612 --> 00:00:21,013
+But behind closed doors,
+
+11
+00:00:21,188 --> 00:00:22,213
+a very different,
+
+12
+00:00:22,512 --> 00:00:25,400
+deeply unsettling reality is unfolding.
+
+13
+00:00:25,812 --> 00:00:27,225
+In less than three years,
+
+14
+00:00:27,400 --> 00:00:30,588
+artificial intelligence won't just disrupt your industry—
+
+15
+00:00:30,900 --> 00:00:32,463
+it is on track to make the very
+
+16
+00:00:32,475 --> 00:00:35,288
+concept of human labor entirely obsolete.
+
+17
+00:00:35,700 --> 00:00:38,150
+And the creators of this technology are rushing
+
+18
+00:00:38,162 --> 00:00:40,738
+toward this cliff edge completely blind.
+
+19
+00:00:41,150 --> 00:00:43,175
+Mass unemployment is just the tip of the
+
+20
+00:00:43,188 --> 00:00:43,738
+iceberg.
+
+21
+00:00:44,162 --> 00:00:46,412
+What is truly terrifying is what happens when
+
+22
+00:00:46,425 --> 00:00:48,375
+the machine outgrows its masters,
+
+23
+00:00:48,612 --> 00:00:50,400
+begins to write its own code,
+
+24
+00:00:50,788 --> 00:00:52,512
+and escapes our control forever.

@@ -1,0 +1,195 @@
+1
+00:00:00,100 --> 00:00:02,238
+We have always been comforted by the historical
+
+2
+00:00:02,250 --> 00:00:05,825
+promise that new technology simply creates new jobs.
+
+3
+00:00:06,238 --> 00:00:07,338
+When we invented the wheel,
+
+4
+00:00:07,625 --> 00:00:08,875
+we needed cart drivers.
+
+5
+00:00:09,288 --> 00:00:10,862
+During the Industrial Revolution,
+
+6
+00:00:11,162 --> 00:00:14,212
+we needed factory workers to supervise the machines.
+
+7
+00:00:14,625 --> 00:00:16,438
+But Artificial General Intelligence—
+
+8
+00:00:16,625 --> 00:00:20,750
+or AGI— shatters this historical safety net entirely.
+
+9
+00:00:21,162 --> 00:00:23,050
+We are no longer just inventing a new
+
+10
+00:00:23,062 --> 00:00:24,488
+tool for humans to use;
+
+11
+00:00:24,912 --> 00:00:26,812
+we are inventing a new inventor.
+
+12
+00:00:27,225 --> 00:00:29,100
+We are building a replacement for the human
+
+13
+00:00:29,112 --> 00:00:29,912
+mind itself.
+
+14
+00:00:30,338 --> 00:00:31,900
+By the year 2027,
+
+15
+00:00:32,200 --> 00:00:35,562
+the capability to replace almost every single cognitive
+
+16
+00:00:35,575 --> 00:00:37,525
+task will be fully realized.
+
+17
+00:00:37,962 --> 00:00:39,675
+Think about the speed of this evolution.
+
+18
+00:00:40,088 --> 00:00:41,238
+Just three years ago,
+
+19
+00:00:41,562 --> 00:00:45,300
+large language models struggled to multiply three-digit numbers.
+
+20
+00:00:45,712 --> 00:00:49,150
+Today, they are winning global mathematics olympiads and
+
+21
+00:00:49,162 --> 00:00:51,462
+working on millennial-level scientific proofs.
+
+22
+00:00:51,888 --> 00:00:55,775
+By 2030, humanoid robots connected to these super-brains will
+
+23
+00:00:55,788 --> 00:00:57,850
+wipe out the need for physical labor.
+
+24
+00:00:58,275 --> 00:01:00,275
+Plumbers, builders, chefs—
+
+25
+00:01:00,375 --> 00:01:01,162
+all automated.
+
+26
+00:01:01,575 --> 00:01:03,600
+It genuinely does not matter if you are
+
+27
+00:01:03,612 --> 00:01:06,838
+an Uber driver confidently navigating the chaotic streets
+
+28
+00:01:06,850 --> 00:01:07,462
+of New York,
+
+29
+00:01:07,738 --> 00:01:09,388
+a tenured university professor,
+
+30
+00:01:09,800 --> 00:01:11,325
+or a high-level digital creator.
+
+31
+00:01:11,738 --> 00:01:14,488
+The idea of retraining for a new economy
+
+32
+00:01:14,675 --> 00:01:15,663
+is a complete myth.
+
+33
+00:01:16,088 --> 00:01:17,938
+There is no Plan B to fall back
+
+34
+00:01:17,950 --> 00:01:20,262
+on when a silicon brain can do everything
+
+35
+00:01:20,275 --> 00:01:23,425
+better, faster, and exponentially cheaper than you.
+
+36
+00:01:23,850 --> 00:01:26,425
+Sure, maybe a billionaire like Warren Buffett will
+
+37
+00:01:26,438 --> 00:01:29,175
+keep a human accountant purely as a nostalgic
+
+38
+00:01:29,188 --> 00:01:32,900
+novelty— like buying a handmade artisanal craft instead
+
+39
+00:01:32,912 --> 00:01:34,262
+of a mass-produced product—
+
+40
+00:01:34,575 --> 00:01:36,475
+but for 99% of humanity,
+
+41
+00:01:36,788 --> 00:01:39,100
+the job market will simply cease to exist.
+
+42
+00:01:39,525 --> 00:01:41,525
+We are hurtling toward a future where our
+
+43
+00:01:41,538 --> 00:01:44,338
+basic needs might be met through infinite digital
+
+44
+00:01:44,350 --> 00:01:46,450
+labor and extreme wealth abundance,
+
+45
+00:01:46,750 --> 00:01:48,962
+but it forces a deeply uncomfortable,
+
+46
+00:01:49,375 --> 00:01:50,525
+existential question:
+
+47
+00:01:50,962 --> 00:01:52,538
+What do you do with your life when
+
+48
+00:01:52,550 --> 00:01:54,950
+you have 80 extra hours a week and
+
+49
+00:01:55,000 --> 00:01:57,588
+absolutely no economic purpose in society?
