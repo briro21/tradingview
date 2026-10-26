@@ -7,7 +7,7 @@ import {Seg} from '../WhatIf';
 
 // What If Kamu Bertemu Dirimu Sendiri 10 Tahun dari Sekarang? (penutup seri Pak Harso)
 export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
-  {start: 0, el: <T.Insomnia lines={[{text: '🌧️ Hujan deras', at: L(0, 0.3), size: 60}, {text: 'TOK · TOK · TOK', at: L(0, 2.5), size: 90, color: '#ffd59e'}]} />, sfx: 'thump'},
+  {start: 0, el: <T.Dialog set="room" left={[{who: 'kamu', face: 'kaget'}]} right={[]} talks={[]} lines={[{text: '🌧️ Malam · hujan deras', at: L(0, 0.3), size: 60}, {text: 'TOK · TOK · TOK', at: L(0, 2.5), size: 90, color: '#ffd59e'}]} />, sfx: 'thump'},
   {start: L(1, -0.3), el: <T.Dialog set="room" left={[{who: 'kamu', face: 'kaget'}]} right={[{who: 'dirimu', face: 'sedih'}]} talks={[]} lines={[{text: '± 35 tahun · lusuh · mata cekung', at: L(1, 2), size: 50}, {text: 'Bekas luka di dagu... sama denganmu', at: L(2, 2), size: 48, color: '#ffd59e'}]} />, sfx: 'whoosh'},
   {start: L(3, -0.3), el: <T.Dialog set="room" left={[{who: 'kamu', face: 'kaget'}]} right={[{who: 'dirimu', face: 'senang'}]} talks={[{name: 'Dirimu (10 tahun lagi)', who: 'dirimu', text: 'Jangan kaget. Aku kamu. Sepuluh tahun dari sekarang.', at: L(4), side: 'right'}]} lines={[{text: '🕰️ Jam saku Pak Harso', at: L(3), size: 52, color: '#ffd59e'}]} />, sfx: 'boom'},
   {start: L(5, -0.3), el: <S.Dark lines={[{text: '"Ujian terakhir:', at: L(5), size: 70, color: '#ffd59e'}, {text: 'DIRIMU SENDIRI."', at: L(5, 2), size: 100, color: C.yellow}]} />},
@@ -15,7 +15,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   {start: L(7, -0.3), el: <S.Cards title={{text: 'ATURANNYA', at: L(7), size: 80}} cards={[{e: '7️⃣', t: '7 hari', sub: 'lalu dia pergi', at: L(8), color: C.yellow}, {e: '🔄', t: 'Ubah kebiasaan', sub: 'hari ini', at: L(9), color: C.green}, {e: '👔', t: 'Dia berubah', sub: 'baju · wajah · dompet', at: L(9, 3), color: '#7fb2ff'}]} />, sfx: 'whoosh'},
   {start: L(10, -0.3), el: <T.Dialog set="room" left={[{who: 'kamu', face: 'serius'}]} right={[{who: 'dirimu', pose: 'point', face: 'serius'}]} talks={[{name: 'Dirimu', who: 'dirimu', text: 'Semuanya dimulai dari situ. Dari tombol bayar nanti.', at: L(11), side: 'right'}]} lines={[{text: '📱 Dia menatap ponselmu', at: L(10), size: 52}]} />},
   {start: L(12, -0.3), el: <S.Cards flow="out" title={{text: 'HARI 1 · PAYLATER', at: L(12), size: 74, color: C.red}} cards={[{e: '👟', t: 'Sepatu', sub: 'cicil 3×', at: L(13)}, {e: '📱', t: 'Ponsel baru', sub: 'cicil 12×', at: L(13, 2)}, {e: '📲', t: '1 → 3 → 5', sub: 'aplikasi', at: L(14)}]} />, sfx: 'whoosh'},
-  {start: L(15, -0.3), el: <S.DebtCalc rate1At={L(15)} rate2At={L(16)} extraAt={L(16, 3)} lines={[{text: 'Gali lubang, tutup lubang', at: L(15), size: 56, color: C.red}, {text: 'Rp2 juta → Rp7 juta', at: L(16, 2), size: 60, color: C.red}]} />},
+  {start: L(15, -0.3), el: <T.Balance label="UTANG DIRIMU" sub="▲ bunga + denda harian" steps={[{at: L(15), v: 2000000}, {at: L(16), v: 4300000}, {at: L(16, 3), v: 7000000}]} lines={[{text: 'Gali lubang, tutup lubang', at: L(15), size: 56, color: C.red}]} />},
   {
     start: L(17, -0.3),
     el: (
@@ -90,7 +90,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   },
   {start: L(60, -0.3), el: <S.Dark lines={[{text: 'Dia menghilang.', at: L(60), size: 70}, {text: '🕰️ Hanya jam saku di meja', at: L(60, 2), size: 56, color: '#ffd59e'}]} />, sfx: 'boom'},
   {start: L(61, -0.3), el: <S.Lessons items={[{e: '💳', t: 'Paylater/pinjol', sub: 'Uang masa depan + bunga', at: L(62)}, {e: '🔍', t: 'Cek OJK', sub: 'Hindari pinjol ilegal', at: L(63)}, {e: '🎰', t: 'Judi online', sub: 'Dirancang untuk kalah', at: L(64)}, {e: '🌱', t: 'Bunga majemuk', sub: 'Mulai kecil, mulai hari ini', at: L(65)}]} />},
-  {start: L(66, -0.3), el: <T.Envelope openAt={L(66, 1)} noteAt={L(67)} addrAt={1e9} note="Penjaga jam berikutnya." lines={[{text: 'Bagian belakang jam saku...', at: L(66), size: 50}]} />, sfx: 'riser'},
+  {start: L(66, -0.3), el: <S.Dark lines={[{text: 'Bagian belakang jam saku...', at: L(66), size: 56}, {text: 'Sebuah nama terukir', at: L(67), size: 64, color: '#ffd59e'}]} />, sfx: 'riser'},
   {start: L(68, -0.3), el: <S.Dark lines={[{text: 'NAMAMU.', at: L(68), size: 160, color: C.yellow}, {text: '"Penjaga jam berikutnya"', at: L(69), size: 60, color: '#ffd59e'}]} />, sfx: 'boom'},
   {start: L(70, -0.3), el: <T.TimeWarp from={2026} to={2026} at={L(70)} lines={[{text: 'TOK · TOK · TOK', at: L(70, 2), size: 80, color: '#ffd59e'}]} />, sfx: 'thump'},
   {start: L(71, -0.3), el: <S.TwoDoors a={{text: 'HAPUS PAYLATER', at: L(71, 3)}} b={{text: 'MULAI NABUNG', at: L(71, 4)}} lines={[{text: 'Satu kebiasaan apa yang kamu ubah malam ini?', at: L(71), size: 48}]} comment={{text: 'Tulis jawabanmu di komentar', at: L(72)}} />, sfx: 'whoosh'},

@@ -28,6 +28,12 @@ PLAN = [
     ('uang-dua-kali', 'udk-inflasi', 27, 37, 'KENAPA HARGA\nBISA NAIK?', 'Inflasi Dijelaskan dengan 10 Karung Beras #inflasi #ekonomi'),
     ('gubernur-24-jam', 'gub-hook', 0, 15, 'KAMU JADI GUBERNUR BI\nSELAMA 24 JAM', 'Jadi Gubernur Bank Indonesia 24 Jam? #whatif #bankindonesia'),
     ('gubernur-24-jam', 'gub-malam', 47, 57, 'SERANGAN MALAM:\nPAHLAWAN ATAU TAMENG?', 'Rupiah Diserang Tengah Malam, Apa Keputusanmu? #whatif #rupiah'),
+    ('tabung-saham-2000', 'tab-hook', 0, 12, 'NABUNG SAHAM Rp100 RIBU\nSEJAK TAHUN 2000', 'Nabung Saham Rp100 Ribu Sebulan Sejak 2000, Jadi Berapa? #saham #IHSG'),
+    ('tabung-saham-2000', 'tab-2008', 26, 37, 'IHSG ANJLOK 50%:\nJUAL ATAU TAHAN?', 'Krisis 2008: Jual atau Tahan Saham? #saham #investasi'),
+    ('warisan-10-miliar', 'war-hook', 0, 11, 'BESOK PAGI KAMU\nPUNYA Rp10 MILIAR', 'Tiba-tiba Punya Rp10 Miliar Besok Pagi? #whatif #keuangan'),
+    ('warisan-10-miliar', 'war-robot', 29, 37, 'UNTUNG PASTI 3%\nSEBULAN?', 'Robot Trading Untung Pasti 3% Sebulan? Ini Polanya #investasibodong'),
+    ('dirimu-10-tahun', 'dir-hook', 0, 11, 'DIRIMU 10 TAHUN LAGI\nMENGETUK PINTU', 'Dirimu dari Masa Depan Mengetuk Pintu #whatif #paylater'),
+    ('dirimu-10-tahun', 'dir-bunga', 31, 38, 'Rp1 JUTA YANG\nTIDAK KAMU SADARI', 'Rp1 Juta Sebulan yang Hilang Tanpa Sadar #keuangan #menabung'),
 ]
 
 out = []

@@ -178,5 +178,59 @@
   "hook": "SERANGAN MALAM:\nPAHLAWAN ATAU TAMENG?",
   "title": "Rupiah Diserang Tengah Malam, Apa Keputusanmu? #whatif #rupiah",
   "lastLine": 53
+ },
+ {
+  "id": "tab-hook",
+  "slug": "tabung-saham-2000",
+  "from": 0,
+  "to": 50.59,
+  "hook": "NABUNG SAHAM Rp100 RIBU\nSEJAK TAHUN 2000",
+  "title": "Nabung Saham Rp100 Ribu Sebulan Sejak 2000, Jadi Berapa? #saham #IHSG",
+  "lastLine": 7
+ },
+ {
+  "id": "tab-2008",
+  "slug": "tabung-saham-2000",
+  "from": 170.46,
+  "to": 220.77,
+  "hook": "IHSG ANJLOK 50%:\nJUAL ATAU TAHAN?",
+  "title": "Krisis 2008: Jual atau Tahan Saham? #saham #investasi",
+  "lastLine": 33
+ },
+ {
+  "id": "war-hook",
+  "slug": "warisan-10-miliar",
+  "from": 0,
+  "to": 55.62,
+  "hook": "BESOK PAGI KAMU\nPUNYA Rp10 MILIAR",
+  "title": "Tiba-tiba Punya Rp10 Miliar Besok Pagi? #whatif #keuangan",
+  "lastLine": 10
+ },
+ {
+  "id": "war-robot",
+  "slug": "warisan-10-miliar",
+  "from": 172.82,
+  "to": 228.57,
+  "hook": "UNTUNG PASTI 3%\nSEBULAN?",
+  "title": "Robot Trading Untung Pasti 3% Sebulan? Ini Polanya #investasibodong",
+  "lastLine": 37
+ },
+ {
+  "id": "dir-hook",
+  "slug": "dirimu-10-tahun",
+  "from": 0,
+  "to": 48.19,
+  "hook": "DIRIMU 10 TAHUN LAGI\nMENGETUK PINTU",
+  "title": "Dirimu dari Masa Depan Mengetuk Pintu #whatif #paylater",
+  "lastLine": 8
+ },
+ {
+  "id": "dir-bunga",
+  "slug": "dirimu-10-tahun",
+  "from": 203.31,
+  "to": 258.69,
+  "hook": "Rp1 JUTA YANG\nTIDAK KAMU SADARI",
+  "title": "Rp1 Juta Sebulan yang Hilang Tanpa Sadar #keuangan #menabung",
+  "lastLine": 37
  }
 ]
