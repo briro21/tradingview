@@ -1,9 +1,10 @@
 import React from "react";
-import { Composition } from "remotion";
+import { Composition, Still } from "remotion";
 import { MainVideo } from "./MainVideo";
 import { FPS } from "./theme";
 import { TOTAL_FRAMES } from "./timeline";
 import { ShortsVideo } from "./ShortsVideo";
+import { ThumbA, ThumbB, ThumbC } from "./Thumbnails";
 import { TIMING } from "./timing";
 
 export const Root: React.FC = () => (
@@ -24,5 +25,8 @@ export const Root: React.FC = () => (
       height={1920}
       durationInFrames={TIMING.SH01.frames}
     />
+    <Still id="ThumbA" component={ThumbA} width={1280} height={720} />
+    <Still id="ThumbB" component={ThumbB} width={1280} height={720} />
+    <Still id="ThumbC" component={ThumbC} width={1280} height={720} />
   </>
 );

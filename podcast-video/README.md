@@ -60,6 +60,14 @@ The Diary Of A CEO. Narasi di `narration/shorts/SH01.txt`, beat di
 
 Judul, deskripsi, chapter, dan tag YouTube ada di `YOUTUBE.md`.
 
+## Thumbnail
+
+Tiga opsi 1280×720 (`src/Thumbnails.tsx`, Still `ThumbA`/`ThumbB`/`ThumbC`):
+
+```bash
+npx remotion still ThumbA out/thumbnail-A.png
+```
+
 ## Jalankan
 
 ```bash
