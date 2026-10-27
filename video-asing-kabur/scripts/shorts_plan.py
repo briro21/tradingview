@@ -36,7 +36,7 @@ PLAN = [
     ('dirimu-10-tahun', 'dir-bunga', 31, 38, 'Rp1 JUTA YANG\nTIDAK KAMU SADARI', 'Rp1 Juta Sebulan yang Hilang Tanpa Sadar #keuangan #menabung'),
     ('pikiran-bandar', 'pkb-hook', 0, 12, 'KAMU BISA DENGAR\nPIKIRAN BANDAR SAHAM', 'Bisa Dengar Pikiran Bandar Saham 1 Jam Lebih Awal? #saham #whatif'),
     ('pikiran-bandar', 'pkb-pucuk', 38, 43, 'KALAU KAMU UNTUNG,\nUANGNYA DARI SIAPA?', 'Saham Gorengan: Siapa yang Beli di Pucuk? #sahamgorengan #IHSG'),
-    ('terkaya-7-hari', 'trk-hook', 0, 17, 'ORANG TERKAYA\nTUNAINYA CUMA 0,5%?', 'Orang Terkaya di Indonesia, Uang Tunainya Cuma 0,5%? #saham #whatif'),
+    ('terkaya-7-hari', 'trk-hook', 0, 17, 'KAMU JADI ORANG TERKAYA\nDI INDONESIA 7 HARI', 'Jadi Orang Terkaya di Indonesia Selama 7 Hari? #whatif #saham'),
     ('terkaya-7-hari', 'trk-gadai', 25, 29, 'SAHAM DIGADAI:\nBOLA SALJU KEJATUHAN', 'Kenapa Saham Konglomerat Bisa Jatuh Beruntun? #saham #IHSG'),
     ('tanpa-belanja-30-hari', 'tbl-hook', 0, 10, 'SATU INDONESIA\n30 HARI TANPA BELANJA', 'Kalau Satu Indonesia 30 Hari Tanpa Belanja? #whatif #ekonomi'),
     ('tanpa-belanja-30-hari', 'tbl-paradoks', 27, 35, 'SEMUA BERHEMAT,\nKOK MALAH PHK?', 'Paradoks Hemat: Semua Berhemat, Malah Banyak PHK #ekonomi #hemat'),
