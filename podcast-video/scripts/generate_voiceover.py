@@ -110,6 +110,7 @@ async def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--voice", default="en-US-AndrewNeural")
     ap.add_argument("--shorts", action="store_true", help="hanya buat audio Shorts")
+    ap.add_argument("--only", help="dengan --shorts: hanya file ini, mis. SH02")
     ap.add_argument("--episode", help="episode lain: narration/<ep>/ -> public/<ep>/ + src/episodes/<ep>/timing.json")
     args = ap.parse_args()
 
@@ -135,7 +136,7 @@ async def main() -> None:
     timing_path = ROOT / "src" / "timing.json"
     if args.shorts:
         timing = json.loads(timing_path.read_text(encoding="utf-8"))
-        for f in sorted((NARRATION / "shorts").glob("*.txt")):
+        for f in sorted((NARRATION / "shorts").glob(f"{args.only or '*'}.txt")):
             text = " ".join(f.read_text(encoding="utf-8").split())
             duration, cues, words = await synth(f.stem, text, args.voice)
             timing[f.stem] = scene_timing(duration, cues, words)

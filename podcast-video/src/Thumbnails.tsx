@@ -7,7 +7,7 @@ import { ICONS } from "./board/icons";
 // Thumbnail 1280×720 bergaya whiteboard. Motif daftar pekerjaan yang dicoret
 // mengikuti thumbnail episode asli agar penontonnya langsung mengenali topiknya.
 
-const Icon: React.FC<{ name: string; x: number; y: number; size: number; rotate?: number }> = ({ name, x, y, size, rotate = 0 }) => {
+export const Icon: React.FC<{ name: string; x: number; y: number; size: number; rotate?: number }> = ({ name, x, y, size, rotate = 0 }) => {
   const k = size / 100;
   return (
     <svg width={size} height={size} viewBox="0 0 100 100" style={{ position: "absolute", left: x - size / 2, top: y - size / 2, transform: `rotate(${rotate}deg)`, overflow: "visible" }}>
@@ -21,12 +21,12 @@ const Icon: React.FC<{ name: string; x: number; y: number; size: number; rotate?
   );
 };
 
-const Marker: React.FC<{ children: React.ReactNode; size: number; color?: string; style?: React.CSSProperties }> = ({ children, size, color = theme.ink, style }) => (
+export const Marker: React.FC<{ children: React.ReactNode; size: number; color?: string; style?: React.CSSProperties }> = ({ children, size, color = theme.ink, style }) => (
   <div style={{ fontFamily: theme.marker, fontSize: size, color, lineHeight: 1, whiteSpace: "nowrap", ...style }}>{children}</div>
 );
 
 // Kotak merah dengan teks putih, seperti label di thumbnail asli.
-const RedBox: React.FC<{ children: React.ReactNode; size: number; style?: React.CSSProperties }> = ({ children, size, style }) => (
+export const RedBox: React.FC<{ children: React.ReactNode; size: number; style?: React.CSSProperties }> = ({ children, size, style }) => (
   <div
     style={{
       display: "inline-block",
@@ -47,7 +47,7 @@ const RedBox: React.FC<{ children: React.ReactNode; size: number; style?: React.
   </div>
 );
 
-const Badge: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }> = ({ children, style }) => (
+export const Badge: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }> = ({ children, style }) => (
   <div
     style={{
       position: "absolute",
@@ -66,7 +66,7 @@ const Badge: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }
   </div>
 );
 
-const Frame: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+export const Frame: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <AbsoluteFill>
     <Paper />
     {children}
@@ -74,7 +74,7 @@ const Frame: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   </AbsoluteFill>
 );
 
-const Strike: React.FC<{ w: number }> = ({ w }) => (
+export const Strike: React.FC<{ w: number }> = ({ w }) => (
   <svg width={w + 40} height={40} style={{ position: "absolute", left: -20, top: "50%", marginTop: -20, overflow: "visible" }}>
     <path d={`M4 26 C${w * 0.3} 14 ${w * 0.7} 22 ${w + 36} 10`} stroke={theme.red} strokeWidth={11} fill="none" strokeLinecap="round" />
   </svg>
