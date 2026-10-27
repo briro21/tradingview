@@ -50,6 +50,18 @@ import {timeline as dir} from './dirimu-10-tahun/storyboard';
 import dirCaptions from './dirimu-10-tahun/captions.json';
 import dirLines from './dirimu-10-tahun/lines.json';
 import dirMeta from './dirimu-10-tahun/meta.json';
+import {timeline as pkb} from './pikiran-bandar/storyboard';
+import pkbCaptions from './pikiran-bandar/captions.json';
+import pkbLines from './pikiran-bandar/lines.json';
+import pkbMeta from './pikiran-bandar/meta.json';
+import {timeline as trk} from './terkaya-7-hari/storyboard';
+import trkCaptions from './terkaya-7-hari/captions.json';
+import trkLines from './terkaya-7-hari/lines.json';
+import trkMeta from './terkaya-7-hari/meta.json';
+import {timeline as tbl} from './tanpa-belanja-30-hari/storyboard';
+import tblCaptions from './tanpa-belanja-30-hari/captions.json';
+import tblLines from './tanpa-belanja-30-hari/lines.json';
+import tblMeta from './tanpa-belanja-30-hari/meta.json';
 import {ThumbData} from './Thumb';
 import {Cue, durationOf, LineT, makeL, Seg, WhatIf} from './WhatIf';
 
@@ -70,6 +82,9 @@ export const VIDEOS: Video[] = [
   {slug: 'tabung-saham-2000', lines: tabLines, captions: tabCaptions, timeline: tab, thumbs: tabMeta.thumbs},
   {slug: 'warisan-10-miliar', lines: warLines, captions: warCaptions, timeline: war, thumbs: warMeta.thumbs},
   {slug: 'dirimu-10-tahun', lines: dirLines, captions: dirCaptions, timeline: dir, thumbs: dirMeta.thumbs},
+  {slug: 'pikiran-bandar', lines: pkbLines, captions: pkbCaptions, timeline: pkb, thumbs: pkbMeta.thumbs},
+  {slug: 'terkaya-7-hari', lines: trkLines, captions: trkCaptions, timeline: trk, thumbs: trkMeta.thumbs},
+  {slug: 'tanpa-belanja-30-hari', lines: tblLines, captions: tblCaptions, timeline: tbl, thumbs: tblMeta.thumbs},
 ];
 
 // Komposisi hanya menerima slug (props Remotion harus bisa di-JSON-kan); storyboard dicari di sini.

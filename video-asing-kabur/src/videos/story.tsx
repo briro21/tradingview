@@ -26,6 +26,9 @@ export const CAST = {
   darto: {jacket: '#6b8e23', rim: '#dff0b0'},
   notaris: {jacket: '#33302e', rim: '#e8dcc8'},
   sales: {jacket: '#c0392b', rim: '#ffc2b8'},
+  laras: {jacket: '#9b59b6', rim: '#e8c8f5'},
+  asisten: {jacket: '#5d6d7e', rim: '#d6dde5'},
+  bankir: {jacket: '#1f4e79', rim: '#b8d4f0'},
 };
 type Who = keyof typeof CAST;
 
@@ -405,6 +408,53 @@ export const FutureSelf: React.FC<{steps: {at: number; label: string}[]; fadeAt?
         </div>
       </Abs>
       <Lines lines={lines} align="center" y={80} color="#fff" />
+    </AbsoluteFill>
+  );
+};
+
+// Grafik saham dengan "bisikan" pikiran bandar yang melayang (teks ungu miring).
+export const Whisper: React.FC<{data: number[]; from: number; to: number; whispers: {text: string; at: number}[]; ticker?: string; lines?: Line[]; color?: string}> = ({data, from, to, whispers, ticker = 'KILT', lines = [], color = C.green}) => {
+  const sec = useSec();
+  const W = 1100;
+  const H = 420;
+  const min = Math.min(...data) * 0.9;
+  const max = Math.max(...data) * 1.1;
+  const p = ramp(sec, from, to) * (data.length - 1);
+  const pts = data.map((v, i) => [(i / (data.length - 1)) * W, H - ((v - min) / (max - min)) * H] as const);
+  const n = Math.floor(p);
+  const shown = pts.slice(0, n + 1);
+  if (n < data.length - 1) {
+    const f = p - n;
+    shown.push([pts[n][0] + (pts[n + 1][0] - pts[n][0]) * f, pts[n][1] + (pts[n + 1][1] - pts[n][1]) * f]);
+  }
+  const last = shown[shown.length - 1];
+  const val = Math.round(min + ((H - last[1]) / H) * (max - min));
+  const cur = [...whispers].reverse().find((w) => sec >= w.at);
+  return (
+    <AbsoluteFill>
+      <Ambient color="#9b59b6" base="#0c0814" particles={40} />
+      <Abs x={410} y={330}>
+        <div style={{width: W + 80, height: H + 120, borderRadius: 30, background: 'rgba(16,12,28,0.85)', border: '6px solid #4a3a6a', padding: 40}}>
+          <div style={{display: 'flex', justifyContent: 'space-between', fontFamily: FONT, fontWeight: 900, fontSize: 40, color: '#e8c8f5'}}>
+            <span>{ticker}</span>
+            <span style={{color}}>Rp{fmt(val)}</span>
+          </div>
+          <svg width={W} height={H} style={{marginTop: 20, overflow: 'visible'}}>
+            <polyline points={shown.map((q) => q.join(',')).join(' ')} fill="none" stroke={color} strokeWidth={10} strokeLinejoin="round" strokeLinecap="round" />
+            <circle cx={last[0]} cy={last[1]} r={16} fill={color} />
+          </svg>
+        </div>
+      </Abs>
+      {cur ? (
+        <Abs x={300} y={160} key={cur.text}>
+          <Pop at={cur.at}>
+            <div style={{maxWidth: 1320, fontFamily: FONT, fontWeight: 900, fontStyle: 'italic', fontSize: 50, color: '#d9a8ff', textShadow: '0 0 30px rgba(155,89,182,0.9)', opacity: 0.6 + 0.4 * Math.sin(sec * 3) ** 2}}>
+              🫧 “{cur.text}”
+            </div>
+          </Pop>
+        </Abs>
+      ) : null}
+      <Lines lines={lines} align="center" y={60} color="#fff" />
     </AbsoluteFill>
   );
 };

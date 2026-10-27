@@ -1,0 +1,23 @@
+{
+  "slug": "tanpa-belanja-30-hari",
+  "titles": [
+    "What If Semua Orang Indonesia Berhenti Belanja Selama 30 Hari?",
+    "Tantangan 30 Hari Tanpa Belanja Viral Se-Indonesia... Lalu Ekonomi Macet",
+    "Kalau Semua Orang Berhemat Bersamaan, Kenapa Justru Banyak yang Kehilangan Kerja?"
+  ],
+  "intro": "Bagaimana kalau video iseng tantangan #30HariTanpaBelanja yang kamu unggah ditonton 50 juta kali, lalu seluruh Indonesia ikut berhenti belanja selain kebutuhan pokok?\n\nDi cerita what if ini, minggu pertama semua orang bangga karena tabungan naik. Minggu kedua mal dan kafe sepi, warung Bu Sri kehilangan separuh omzet. Minggu ketiga pabrik tempat Raka bekerja diliburkan. Minggu keempat ketakutan menyebar dan lingkaran setan dimulai. Lalu kamu diundang siaran langsung: lanjutkan gerakan yang membuatmu terkenal, atau hentikan dan dicap plin-plan?\n\nLewat cerita fiksi ini kamu akan memahami paradoks hemat (paradox of thrift), kenapa belanja seseorang adalah pendapatan orang lain, kenapa konsumsi rumah tangga begitu penting bagi ekonomi Indonesia, apa yang dilakukan pemerintah dan bank sentral saat ekonomi melambat, dan cara berhemat yang sehat untuk keluargamu.",
+  "question": "Kalau satu Indonesia ikut tantangan 30 hari tanpa belanja, menurutmu ekonomi akan baik-baik saja?",
+  "sources": [
+    "Cerita fiksi. Konsep paradoks hemat (paradox of thrift) disederhanakan untuk edukasi.",
+    "Struktur PDB menurut pengeluaran (konsumsi rumah tangga lebih dari separuh PDB): Badan Pusat Statistik (bps.go.id)."
+  ],
+  "note": "Semua tokoh dan kejadian dalam video adalah fiktif. Edukasi, bukan saran keuangan pribadi.",
+  "chapters": [[0, "Video iseng yang viral"], [7, "Aturannya"], [11, "Minggu 1: semua bangga"], [16, "Minggu 2: warung Bu Sri sepi"], [22, "Minggu 3: pabrik diliburkan"], [27, "Belanjamu = penghasilan orang lain"], [31, "Konsumsi rumah tangga"], [34, "Paradoks hemat"], [36, "Minggu 4: lingkaran setan"], [41, "Stimulus pemerintah"], [43, "Siaran langsung: lanjut atau berhenti?"], [48, "Keputusanmu"], [54, "Pelajaran"], [59, "Pesan misterius"], [63, "Menurutmu?"]],
+  "tags": ["what if", "30 hari tanpa belanja", "no buy challenge", "paradoks hemat", "paradox of thrift", "konsumsi rumah tangga", "ekonomi indonesia", "resesi", "PHK", "UMKM", "stimulus ekonomi", "hemat", "menabung", "daya beli", "frugal living", "edukasi ekonomi", "literasi keuangan", "animasi", "cerita what if", "belanja di warung"],
+  "hashtags": ["#WhatIf", "#30HariTanpaBelanja", "#EkonomiIndonesia", "#Hemat", "#UMKM"],
+  "thumbs": {
+    "v1": {"top": "30 HARI", "main": "TANPA BELANJA", "badge": "EKONOMI MACET?", "emoji": "🛒"},
+    "v2": {"kicker": "WHAT IF", "main": "SEMUA ORANG\nBERHENTI BELANJA?", "bottom": "VIRAL SE-INDONESIA", "emoji": "🏬"},
+    "v3": {"top": "SEMUA BERHEMAT:", "left": "TABUNGAN NAIK", "right": "GAJI HILANG", "leftEmoji": "🐷", "rightEmoji": "🏭"}
+  }
+}

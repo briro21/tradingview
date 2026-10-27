@@ -1,0 +1,23 @@
+{
+  "slug": "pikiran-bandar",
+  "titles": [
+    "What If Kamu Bisa Mendengar Isi Pikiran Bandar Saham?",
+    "Aku Bisa Dengar Rencana Bandar Menggoreng Saham... dan Sahabatku Ada di Grup Sinyalnya",
+    "Dengar Pikiran Bandar 1 Jam Lebih Awal: Ikut Untung atau Lapor?"
+  ],
+  "intro": "Bagaimana kalau setiap kali kamu melihat grafik saham, kamu bisa mendengar isi pikiran orang yang menggerakkannya, satu jam sebelum mereka bertindak?\n\nDi pembuka musim kedua seri cerita What If ini, seorang gadis bernama Laras mengetuk pintumu dan mengaku sebagai adikmu, membawa jam saku kedua. Sejak itu kamu mendengar bisikan dari sebuah saham kecil: kumpulkan barang diam-diam, siapkan cerita, biarkan influencer dan grup sinyal bekerja, lalu buang ke investor ritel. Masalahnya, sahabatmu Raka ada di grup sinyal itu. Dan kamu punya satu jam untuk memilih: ikut untung, menyelamatkan Raka saja, atau melapor.\n\nLewat cerita fiksi ini kamu akan mengenali pola saham gorengan (pump and dump), bahaya grup sinyal berbayar dan promosi influencer, arti pengumuman aktivitas tidak wajar dan penghentian sementara dari bursa, serta satu pertanyaan penting sebelum membeli saham: siapa yang sedang menjual kepadaku, dan kenapa?",
+  "question": "Kalau kamu bisa mendengar pikiran bandar satu jam lebih awal, kamu ikut untung, selamatkan teman, atau lapor?",
+  "sources": [
+    "Cerita fiksi. Nama perusahaan dan tokoh tidak merujuk pada pihak nyata.",
+    "Informasi pengawasan pasar: Bursa Efek Indonesia (idx.co.id) dan Otoritas Jasa Keuangan (ojk.go.id), kontak OJK 157."
+  ],
+  "note": "Semua tokoh, perusahaan, dan angka dalam video adalah fiktif/ilustrasi. Bukan ajakan membeli atau menjual saham apa pun.",
+  "chapters": [[0, "Adik yang tidak pernah kamu tahu"], [6, "Grafik yang berbisik"], [10, "Aturannya: 1 jam"], [13, "Saham besar: membosankan"], [17, "Saham Rp50 yang berbeda"], [22, "Harga mulai diangkat"], [24, "Influencer & grup sinyal"], [26, "Raka ikut grup sinyal"], [35, "Godaan ikut menumpang"], [38, "Uangmu datang dari mana?"], [44, "Hari pembuangan"], [48, "Tiga pilihan"], [55, "Laporan ke bursa"], [59, "Harga runtuh"], [64, "Pelajaran"], [69, "Bisikan terakhir"], [73, "Apa pilihanmu?"]],
+  "tags": ["what if", "bandar saham", "saham gorengan", "pump and dump", "grup sinyal saham", "manipulasi saham", "influencer saham", "investor ritel", "IHSG", "saham pemula", "UMA saham", "suspensi saham", "OJK", "BEI", "cerita saham", "edukasi saham", "trading saham", "FOMO saham", "animasi", "cerita what if"],
+  "hashtags": ["#WhatIf", "#SahamGorengan", "#BandarSaham", "#InvestorPemula", "#IHSG"],
+  "thumbs": {
+    "v1": {"top": "DENGAR PIKIRAN", "main": "BANDAR SAHAM", "badge": "1 JAM LEBIH AWAL", "emoji": "🫧"},
+    "v2": {"kicker": "WHAT IF", "main": "KAMU BISA DENGAR\nPIKIRAN BANDAR?", "bottom": "\"BUANG KE RITEL\"", "emoji": "🎧"},
+    "v3": {"top": "1 JAM SEBELUM DIBUANG:", "left": "IKUT UNTUNG", "right": "LAPOR", "leftEmoji": "🤑", "rightEmoji": "📝"}
+  }
+}

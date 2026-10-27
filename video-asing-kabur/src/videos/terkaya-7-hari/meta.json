@@ -1,0 +1,23 @@
+{
+  "slug": "terkaya-7-hari",
+  "titles": [
+    "What If Kamu Jadi Orang Terkaya di Indonesia Selama 7 Hari?",
+    "Jadi Orang Terkaya di Indonesia 7 Hari, Ternyata Uang Tunainya Cuma 0,5%",
+    "Rp450 Triliun Selama 7 Hari: Selamatkan Harta atau 10.000 Karyawan?"
+  ],
+  "intro": "Bagaimana kalau kamu bangun di lantai 60 dan asistenmu berkata: kekayaan bersih Bapak pagi ini Rp450 triliun? Selama tujuh hari, kamu adalah orang terkaya di Indonesia, dan apa pun yang kamu berikan ke orang lain akan tetap tinggal di tangan mereka.\n\nTapi rencanamu membagikan uang langsung kandas. Uang tunainya ternyata hanya sebagian sangat kecil; sisanya berupa saham. Menjual 5% saja membuat kekayaanmu menguap Rp40 triliun dalam sejam dan IHSG ikut memerah. Bank menagih karena sahammu dijaminkan, dan direksi mengusulkan PHK 10.000 karyawan, termasuk di pabrik tempat Raka bekerja.\n\nLewat cerita fiksi ini kamu akan memahami kenapa kekayaan orang terkaya sebagian besar berupa saham, apa itu saham yang dijaminkan dan penjualan paksa, kenapa free float kecil membuat harga mudah bergejolak, dan cara menghitung kekayaan bersihmu sendiri.",
+  "question": "Kalau kamu jadi orang terkaya di Indonesia selama tujuh hari, apa yang akan kamu lakukan pertama kali?",
+  "sources": [
+    "Cerita fiksi. Tokoh dan perusahaan tidak merujuk pada konglomerat atau emiten nyata.",
+    "Konsep free float, gadai saham, dan keterbukaan informasi: Bursa Efek Indonesia (idx.co.id) dan OJK (ojk.go.id)."
+  ],
+  "note": "Semua tokoh, perusahaan, dan angka dalam video adalah fiktif/ilustrasi. Bukan ajakan membeli atau menjual saham apa pun.",
+  "chapters": [[0, "Bangun di lantai 60"], [6, "Aturannya: 7 hari"], [10, "Rencana bagi-bagi uang"], [11, "Hari 1: uang tunainya cuma 0,5%"], [18, "Hari 2: menjual 5% saja"], [22, "Dampak ke investor ritel"], [25, "Hari 3: saham yang dijaminkan"], [30, "Hari 4: free float kecil"], [34, "Hari 5: usulan PHK 10.000 karyawan"], [39, "Makan malam di rumah Pak Joko"], [42, "Hari 6: pilihan tanpa korban?"], [48, "Hari 7: keputusanmu"], [54, "Hari 8"], [57, "Pelajaran"], [62, "Rapat rahasia"], [65, "Apa yang kamu lakukan?"]],
+  "tags": ["what if", "orang terkaya di indonesia", "konglomerat", "kekayaan miliarder", "saham konglomerat", "gadai saham", "margin call", "free float", "kapitalisasi pasar", "IHSG", "PHK", "investor ritel", "reksa dana", "kekayaan bersih", "edukasi saham", "cerita saham", "animasi", "cerita what if", "pasar modal", "literasi keuangan"],
+  "hashtags": ["#WhatIf", "#OrangTerkaya", "#Saham", "#IHSG", "#EdukasiKeuangan"],
+  "thumbs": {
+    "v1": {"top": "ORANG TERKAYA", "main": "7 HARI", "badge": "Rp450 TRILIUN", "emoji": "👑"},
+    "v2": {"kicker": "WHAT IF", "main": "JADI ORANG TERKAYA\nDI INDONESIA?", "bottom": "TUNAI CUMA 0,5%", "emoji": "🏙️"},
+    "v3": {"top": "HARI KE-6, PILIH:", "left": "HARTAMU", "right": "10.000 KARYAWAN", "leftEmoji": "💰", "rightEmoji": "🏭"}
+  }
+}

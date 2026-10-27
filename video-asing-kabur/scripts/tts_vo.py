@@ -34,6 +34,12 @@ VOICES = {
     'Notaris': ('id-ID-ArdiNeural', '-10%', '-16Hz'),
     'Om Darto': ('id-ID-ArdiNeural', '+2%', '-12Hz'),
     'Sales': ('id-ID-ArdiNeural', '+12%', '+8Hz'),
+    'Laras': ('id-ID-GadisNeural', '+6%', '+18Hz'),
+    'Bisikan': ('id-ID-ArdiNeural', '-22%', '-30Hz'),
+    'Asisten': ('id-ID-GadisNeural', '+2%', '+4Hz'),
+    'Bankir': ('id-ID-ArdiNeural', '-6%', '-14Hz'),
+    'Direksi': ('id-ID-ArdiNeural', '-2%', '-8Hz'),
+    'Pembawa Berita': ('id-ID-GadisNeural', '+6%', '+0Hz'),
 }
 
 
