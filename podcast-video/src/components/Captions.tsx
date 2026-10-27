@@ -1,12 +1,11 @@
 import React from "react";
 import { spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { theme } from "../theme";
-import { SceneId } from "../timeline";
-import { TIMING } from "../timing";
+import { SceneTiming } from "../timing";
 
 // Caption tulisan tangan; kata yang sedang diucapkan diberi stabilo kuning.
-export const Captions: React.FC<{ scene: SceneId; bottom?: number; fontSize?: number; maxWidth?: number }> = ({
-  scene,
+export const Captions: React.FC<{ timing: SceneTiming; bottom?: number; fontSize?: number; maxWidth?: number }> = ({
+  timing,
   bottom = 40,
   fontSize = 50,
   maxWidth = 1500,
@@ -14,7 +13,7 @@ export const Captions: React.FC<{ scene: SceneId; bottom?: number; fontSize?: nu
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  const { cues, words } = TIMING[scene];
+  const { cues, words } = timing;
   const cue = cues.find(([a, b]) => t >= a && t <= b + 0.25);
   if (!cue) return null;
 

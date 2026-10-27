@@ -1,0 +1,111 @@
+1
+00:00:00,100 --> 00:00:02,887
+Right now, inside the most heavily guarded data
+
+2
+00:00:02,900 --> 00:00:03,812
+centers on Earth,
+
+3
+00:00:04,050 --> 00:00:06,712
+the smartest engineers alive are racing to build
+
+4
+00:00:06,725 --> 00:00:09,500
+a technology they openly admit they do not
+
+5
+00:00:09,512 --> 00:00:10,200
+understand,
+
+6
+00:00:10,588 --> 00:00:12,275
+and mathematically cannot control.
+
+7
+00:00:12,700 --> 00:00:15,362
+The former insiders who helped build these systems—
+
+8
+00:00:15,612 --> 00:00:17,588
+people who sat in the very rooms where
+
+9
+00:00:17,600 --> 00:00:19,075
+ChatGPT was born—
+
+10
+00:00:19,488 --> 00:00:22,275
+are walking away from multi-million dollar payouts just
+
+11
+00:00:22,288 --> 00:00:22,987
+to warn us.
+
+12
+00:00:23,412 --> 00:00:26,412
+Their internal forecasts reveal a chilling reality:
+
+13
+00:00:26,750 --> 00:00:28,862
+there is a 70% chance that the current
+
+14
+00:00:28,875 --> 00:00:32,688
+trajectory of Artificial Intelligence ends in global catastrophe.
+
+15
+00:00:33,112 --> 00:00:35,887
+We are constantly fed a comforting corporate narrative:
+
+16
+00:00:36,325 --> 00:00:38,162
+AI is just a friendly assistant,
+
+17
+00:00:38,562 --> 00:00:41,212
+a tool to write emails and cure diseases.
+
+18
+00:00:41,638 --> 00:00:42,925
+But behind closed doors,
+
+19
+00:00:43,125 --> 00:00:45,650
+tech billionaires are locked in a paranoid arms
+
+20
+00:00:45,662 --> 00:00:48,050
+race, terrified that if they don’t build a
+
+21
+00:00:48,112 --> 00:00:49,375
+digital god first,
+
+22
+00:00:49,638 --> 00:00:50,625
+their rivals will.
+
+23
+00:00:51,062 --> 00:00:53,412
+The timeline for this tipping point isn't decades
+
+24
+00:00:53,425 --> 00:00:53,750
+away.
+
+25
+00:00:54,175 --> 00:00:55,962
+The collision course is set for the end
+
+26
+00:00:55,975 --> 00:00:56,750
+of this decade,
+
+27
+00:00:57,125 --> 00:00:58,700
+and it will change what it means to
+
+28
+00:00:58,712 --> 00:00:59,762
+be human forever.

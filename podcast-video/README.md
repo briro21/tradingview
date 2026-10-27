@@ -51,6 +51,18 @@ virus, bitcoin, box, alien, dog, god, iceberg, rocket, monitor, dll.).
 
 SFX: whoosh saat kamera pindah.
 
+## Episode 2
+
+Composition `Episode2` (±9:49): whistleblower OpenAI, "AI 2027", dan Plan A.
+Narasi di `narration/ep2/`, beat di `src/episodes/ep2/scenes.ts`, audio/SRT di
+`public/ep2/` (termasuk `full.srt`).
+
+```bash
+python scripts/generate_voiceover.py --episode ep2
+python scripts/check_phrases.py src/episodes/ep2/scenes.ts src/episodes/ep2/timing.json
+npx remotion render Episode2 out/episode2.mp4
+```
+
 ## Shorts
 
 Composition `Shorts` (1080×1920, ±41 detik): teaser vertikal untuk penonton

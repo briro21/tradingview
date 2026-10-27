@@ -4,6 +4,7 @@ import { MainId, SCENES } from "./timeline";
 import { Beat, BoardTrack } from "./board/Board";
 import { Paper } from "./board/Paper";
 import { Captions } from "./components/Captions";
+import { TIMING } from "./timing";
 import { S01 } from "./scenes/S01";
 import { S02 } from "./scenes/S02";
 import { S03 } from "./scenes/S03";
@@ -25,8 +26,8 @@ export const MainVideo: React.FC = () => {
         return (
           <Sequence key={scene.id} name={scene.id} from={start} durationInFrames={scene.frames}>
             <Audio src={staticFile(scene.audio)} />
-            <BoardTrack scene={scene.id} beats={BEATS[scene.id]} />
-            <Captions scene={scene.id} />
+            <BoardTrack scene={scene.id} timing={TIMING[scene.id]} beats={BEATS[scene.id]} />
+            <Captions timing={TIMING[scene.id]} />
           </Sequence>
         );
       })}

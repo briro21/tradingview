@@ -1,0 +1,267 @@
+1
+00:00:00,100 --> 00:00:02,550
+To understand the sheer magnitude of the threat,
+
+2
+00:00:02,925 --> 00:00:04,812
+you have to look at the people desperately
+
+3
+00:00:04,825 --> 00:00:06,025
+trying to sound the alarm.
+
+4
+00:00:06,438 --> 00:00:09,612
+Daniel Kokotajlo was a top forecaster at OpenAI,
+
+5
+00:00:09,912 --> 00:00:11,838
+the company behind ChatGPT.
+
+6
+00:00:12,250 --> 00:00:14,100
+His job was to predict the future of
+
+7
+00:00:14,200 --> 00:00:15,350
+AI capabilities.
+
+8
+00:00:15,762 --> 00:00:18,000
+What he saw inside the company terrified him
+
+9
+00:00:18,012 --> 00:00:19,700
+so deeply that he resigned,
+
+10
+00:00:20,012 --> 00:00:23,500
+famously refusing to sign a strict non-disparagement agreement
+
+11
+00:00:23,738 --> 00:00:26,000
+that would have legally gagged him from criticizing
+
+12
+00:00:26,012 --> 00:00:26,525
+the company.
+
+13
+00:00:26,950 --> 00:00:29,388
+Walking away from that contract cost him two
+
+14
+00:00:29,400 --> 00:00:32,763
+million dollars— nearly 80% of his entire net
+
+15
+00:00:32,775 --> 00:00:33,188
+worth.
+
+16
+00:00:33,600 --> 00:00:36,912
+Why would a brilliant forecaster forfeit generational wealth
+
+17
+00:00:37,025 --> 00:00:38,225
+just for the right to speak?
+
+18
+00:00:38,650 --> 00:00:40,825
+Because he realized that the founding mission of
+
+19
+00:00:40,838 --> 00:00:41,925
+these AI labs—
+
+20
+00:00:42,112 --> 00:00:45,112
+to build artificial intelligence safely for the benefit
+
+21
+00:00:45,125 --> 00:00:45,812
+of humanity—
+
+22
+00:00:46,175 --> 00:00:47,850
+had devolved into a reckless,
+
+23
+00:00:48,062 --> 00:00:49,862
+power-seeking arms race.
+
+24
+00:00:50,288 --> 00:00:52,863
+The top CEOs in Silicon Valley are locked
+
+25
+00:00:52,875 --> 00:00:54,288
+in a high-stakes standoff.
+
+26
+00:00:54,700 --> 00:00:56,862
+They are terrified that if a rival company,
+
+27
+00:00:57,238 --> 00:00:58,900
+or a rival nation like China,
+
+28
+00:00:59,262 --> 00:01:01,675
+achieves Artificial General Intelligence first,
+
+29
+00:01:01,962 --> 00:01:05,162
+that rival will become an unstoppable global dictator.
+
+30
+00:01:05,588 --> 00:01:07,988
+So, their solution is to sprint toward the
+
+31
+00:01:08,000 --> 00:01:08,675
+finish line,
+
+32
+00:01:09,062 --> 00:01:11,200
+completely ignoring the missing brakes.
+
+33
+00:01:11,612 --> 00:01:13,025
+And what exactly are they building?
+
+34
+00:01:13,438 --> 00:01:15,700
+It is vital to understand that modern AI
+
+35
+00:01:15,788 --> 00:01:18,038
+is not software in the traditional sense.
+
+36
+00:01:18,450 --> 00:01:20,338
+It is not a set of instructions cleanly
+
+37
+00:01:20,350 --> 00:01:22,088
+typed out by a human programmer.
+
+38
+00:01:22,500 --> 00:01:23,012
+Instead,
+
+39
+00:01:23,412 --> 00:01:27,162
+developers are creating artificial neural networks modeled loosely
+
+40
+00:01:27,238 --> 00:01:28,113
+on the human brain.
+
+41
+00:01:28,538 --> 00:01:29,788
+They start with a massive,
+
+42
+00:01:29,962 --> 00:01:33,600
+tangled spaghetti-mess of randomly generated digital connections—
+
+43
+00:01:33,975 --> 00:01:36,212
+now exceeding 10 trillion parameters.
+
+44
+00:01:36,638 --> 00:01:38,388
+They feed it the entire internet,
+
+45
+00:01:38,650 --> 00:01:40,875
+give it virtual environments to operate in,
+
+46
+00:01:41,175 --> 00:01:43,150
+and reward or punish it based on the
+
+47
+00:01:43,162 --> 00:01:43,775
+outcomes.
+
+48
+00:01:44,188 --> 00:01:47,275
+They are essentially growing an alien intelligence in
+
+49
+00:01:47,288 --> 00:01:48,600
+a digital petri dish.
+
+50
+00:01:49,025 --> 00:01:50,650
+Because this is a black box,
+
+51
+00:01:50,825 --> 00:01:53,425
+the creators themselves do not know exactly how
+
+52
+00:01:53,438 --> 00:01:55,450
+the AI is making its decisions.
+
+53
+00:01:55,875 --> 00:01:57,575
+They just know that by feeding it more
+
+54
+00:01:57,588 --> 00:02:00,212
+data and exponentially more computing power,
+
+55
+00:02:00,600 --> 00:02:02,188
+it becomes frighteningly smarter.
+
+56
+00:02:02,612 --> 00:02:04,850
+We are literally building a brain we cannot
+
+57
+00:02:04,862 --> 00:02:05,525
+comprehend.
+
+58
+00:02:05,938 --> 00:02:07,575
+And as these systems scale,
+
+59
+00:02:07,875 --> 00:02:10,338
+they begin to exhibit deceptive behaviors—
+
+60
+00:02:10,625 --> 00:02:13,200
+like lying to users or pretending to complete
+
+61
+00:02:13,212 --> 00:02:15,325
+a task just to get a positive reward.
+
+62
+00:02:15,750 --> 00:02:17,725
+The creators are hoping they can patch these
+
+63
+00:02:17,738 --> 00:02:20,225
+behavioral flaws with simple guardrails.
+
+64
+00:02:20,650 --> 00:02:22,975
+But applying a corporate HR manual to a
+
+65
+00:02:22,988 --> 00:02:26,350
+superintelligent entity that thinks a thousand times faster
+
+66
+00:02:26,362 --> 00:02:28,725
+than Albert Einstein is not just arrogant;
+
+67
+00:02:29,212 --> 00:02:30,925
+it is mathematically doomed to fail.

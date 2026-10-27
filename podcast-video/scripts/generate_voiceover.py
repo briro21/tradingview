@@ -8,6 +8,7 @@ and src/timing.json - word + cue timings used to sync animations and captions.
 
 Usage: pip install edge-tts && python scripts/generate_voiceover.py [--voice en-US-AndrewNeural]
        python scripts/generate_voiceover.py --shorts   # hanya narration/shorts/*.txt
+       python scripts/generate_voiceover.py --episode ep2   # narration/ep2/*.txt
 """
 
 import argparse
@@ -80,7 +81,7 @@ def write_srt(path: Path, cues: list[tuple[float, float, str]]) -> None:
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
-async def synth(scene: str, text: str, voice: str) -> tuple[float, list, list]:
+async def synth(scene: str, text: str, voice: str, out: Path = PUBLIC) -> tuple[float, list, list]:
     com = edge_tts.Communicate(text, voice, boundary="WordBoundary")
     audio = bytearray()
     words = []
@@ -90,10 +91,10 @@ async def synth(scene: str, text: str, voice: str) -> tuple[float, list, list]:
         elif ch["type"] == "WordBoundary":
             start = ch["offset"] / 1e7
             words.append({"text": ch["text"], "start": start, "end": start + ch["duration"] / 1e7})
-    (PUBLIC / f"{scene}.mp3").write_bytes(audio)
+    (out / f"{scene}.mp3").write_bytes(audio)
     attach_punctuation(words, text)
     cues = to_cues(words)
-    write_srt(PUBLIC / f"{scene}.srt", cues)
+    write_srt(out / f"{scene}.srt", cues)
     return len(audio) / MP3_BYTES_PER_SEC, cues, words
 
 
@@ -109,7 +110,26 @@ async def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--voice", default="en-US-AndrewNeural")
     ap.add_argument("--shorts", action="store_true", help="hanya buat audio Shorts")
+    ap.add_argument("--episode", help="episode lain: narration/<ep>/ -> public/<ep>/ + src/episodes/<ep>/timing.json")
     args = ap.parse_args()
+
+    if args.episode:
+        src, out = NARRATION / args.episode, PUBLIC / args.episode
+        out.mkdir(parents=True, exist_ok=True)
+        full, offset, timing = [], 0.0, {}
+        for f in sorted(src.glob("S*.txt")):
+            text = " ".join(f.read_text(encoding="utf-8").split())
+            duration, cues, words = await synth(f.stem, text, args.voice, out)
+            full += [(a + offset, b + offset, t) for a, b, t in cues]
+            timing[f.stem] = scene_timing(duration, cues, words)
+            offset += timing[f.stem]["frames"] / FPS
+            print(f"{f.stem}: {duration:6.2f}s  {timing[f.stem]['frames']} frames  {len(cues)} cues")
+        write_srt(out / "full.srt", full)
+        dest = ROOT / "src" / "episodes" / args.episode
+        dest.mkdir(parents=True, exist_ok=True)
+        (dest / "timing.json").write_text(json.dumps(timing), encoding="utf-8")
+        print(f"full.srt: {len(full)} cues, total {offset:.2f}s")
+        return
 
     PUBLIC.mkdir(exist_ok=True)
     timing_path = ROOT / "src" / "timing.json"

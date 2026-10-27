@@ -11,8 +11,7 @@ import {
 } from "remotion";
 import { getLength, getPointAtLength } from "@remotion/paths";
 import { theme } from "../theme";
-import { SceneId } from "../timeline";
-import { findPhrase, TIMING } from "../timing";
+import { findPhrase, SceneTiming } from "../timing";
 import { ICONS } from "./icons";
 
 // ---------- tipe ----------
@@ -218,7 +217,12 @@ const Panel: React.FC<{ t: number; sched: Sched[]; id: string; frame: number; la
   );
 };
 
-export const BoardTrack: React.FC<{ scene: SceneId; beats: Beat[]; layout?: Layout }> = ({ scene, beats, layout = LANDSCAPE }) => {
+export const BoardTrack: React.FC<{ scene: string; timing: SceneTiming; beats: Beat[]; layout?: Layout }> = ({
+  scene,
+  timing,
+  beats,
+  layout = LANDSCAPE,
+}) => {
   const panelPos = (i: number) => {
     const row = Math.floor(i / layout.cols);
     const col = i % layout.cols;
@@ -226,7 +230,7 @@ export const BoardTrack: React.FC<{ scene: SceneId; beats: Beat[]; layout?: Layo
   };
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
-  const { words, frames } = TIMING[scene];
+  const { words, frames } = timing;
 
   let idx = 0;
   const starts = beats.map((b, i) => {

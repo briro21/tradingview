@@ -1,0 +1,243 @@
+1
+00:00:00,112 --> 00:00:02,588
+The mainstream narrative comforts us by claiming that
+
+2
+00:00:02,600 --> 00:00:05,388
+new technology always creates new jobs.
+
+3
+00:00:05,812 --> 00:00:08,212
+We are told that during the Industrial Revolution,
+
+4
+00:00:08,500 --> 00:00:10,062
+physical labor was replaced,
+
+5
+00:00:10,288 --> 00:00:11,938
+but cognitive jobs flourished.
+
+6
+00:00:12,362 --> 00:00:13,675
+We are told to adapt—
+
+7
+00:00:13,938 --> 00:00:14,862
+to learn to code,
+
+8
+00:00:15,100 --> 00:00:16,488
+become prompt engineers,
+
+9
+00:00:16,675 --> 00:00:18,012
+or manage AI agents.
+
+10
+00:00:18,438 --> 00:00:22,125
+But Artificial General Intelligence shatters this historical safety
+
+11
+00:00:22,350 --> 00:00:23,138
+net completely.
+
+12
+00:00:23,550 --> 00:00:25,438
+AGI isn't just a new tool;
+
+13
+00:00:25,750 --> 00:00:26,812
+it is a new inventor.
+
+14
+00:00:27,238 --> 00:00:30,762
+According to leaked internal forecasting and published timelines
+
+15
+00:00:30,775 --> 00:00:33,238
+like the AI 2027 report,
+
+16
+00:00:33,538 --> 00:00:35,988
+the sequence of human replacement is not going
+
+17
+00:00:36,000 --> 00:00:36,975
+to be a gradual,
+
+18
+00:00:37,250 --> 00:00:38,662
+multi-decade transition.
+
+19
+00:00:39,075 --> 00:00:40,962
+It will hit the economy like a tsunami.
+
+20
+00:00:41,375 --> 00:00:44,512
+Right now, AI companies are laser-focused on one
+
+21
+00:00:44,525 --> 00:00:46,362
+primary, terrifying goal:
+
+22
+00:00:46,762 --> 00:00:49,550
+automating the AI research process itself.
+
+23
+00:00:49,975 --> 00:00:52,550
+They aren't trying to build robo-taxis or robot
+
+24
+00:00:52,562 --> 00:00:53,450
+plumbers first.
+
+25
+00:00:53,875 --> 00:00:56,762
+They are training AIs to autonomously write code,
+
+26
+00:00:57,062 --> 00:00:59,725
+debug systems, run massive experiments,
+
+27
+00:00:59,988 --> 00:01:02,050
+and design the next generation of AI.
+
+28
+00:01:02,475 --> 00:01:05,125
+Once an AI can perfectly automate the job
+
+29
+00:01:05,138 --> 00:01:06,475
+of the human AI researcher,
+
+30
+00:01:06,775 --> 00:01:09,400
+we hit a point of recursive self-improvement.
+
+31
+00:01:09,925 --> 00:01:11,975
+The machine starts upgrading its own brain.
+
+32
+00:01:12,388 --> 00:01:14,112
+It builds a smarter AI,
+
+33
+00:01:14,338 --> 00:01:16,462
+which builds an even smarter AI,
+
+34
+00:01:16,750 --> 00:01:20,312
+cycling faster and faster until it reaches Superintelligence—
+
+35
+00:01:20,738 --> 00:01:23,312
+a state where the AI is vastly superior
+
+36
+00:01:23,325 --> 00:01:25,962
+to the best human minds in every conceivable
+
+37
+00:01:25,975 --> 00:01:26,438
+domain.
+
+38
+00:01:26,850 --> 00:01:28,875
+And the leading companies believe they can reach
+
+39
+00:01:28,888 --> 00:01:32,362
+this explosion point by 2027 or 2030.
+
+40
+00:01:32,775 --> 00:01:34,850
+When this intelligence explosion happens,
+
+41
+00:01:35,138 --> 00:01:37,188
+it won't just take the repetitive jobs.
+
+42
+00:01:37,600 --> 00:01:38,762
+It will take every job.
+
+43
+00:01:39,175 --> 00:01:41,425
+If an AI is exponentially smarter,
+
+44
+00:01:41,638 --> 00:01:44,650
+faster, and cheaper than the world's best CEO,
+
+45
+00:01:44,950 --> 00:01:47,062
+lawyer, artist, and scientist,
+
+46
+00:01:47,312 --> 00:01:50,062
+human cognitive labor becomes entirely obsolete.
+
+47
+00:01:50,475 --> 00:01:51,438
+And shortly after,
+
+48
+00:01:51,875 --> 00:01:54,900
+this superintelligence will direct the construction of robot
+
+49
+00:01:54,912 --> 00:01:58,112
+factories to build millions of humanoid robots,
+
+50
+00:01:58,488 --> 00:02:00,388
+wiping out all physical labor.
+
+51
+00:02:00,800 --> 00:02:02,512
+If you think your job is safe because
+
+52
+00:02:02,525 --> 00:02:06,075
+it requires human touch or complex problem solving,
+
+53
+00:02:06,500 --> 00:02:09,137
+you are severely underestimating what a machine with
+
+54
+00:02:09,150 --> 00:02:11,138
+a 10-trillion parameter brain can do.
+
+55
+00:02:11,550 --> 00:02:13,888
+If you ask an AI forecaster what industry
+
+56
+00:02:13,900 --> 00:02:16,062
+you should transition to in order to survive
+
+57
+00:02:16,075 --> 00:02:18,425
+the 2030s, their answer is chilling:
+
+58
+00:02:18,950 --> 00:02:21,275
+asking that question is like someone living in
+
+59
+00:02:21,288 --> 00:02:24,350
+Mexico in the year 1500 asking what career
+
+60
+00:02:24,362 --> 00:02:27,150
+path will protect them from the invading Conquistadors.
+
+61
+00:02:27,562 --> 00:02:30,225
+The entire paradigm of human labor is ending.
