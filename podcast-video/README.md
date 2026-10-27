@@ -63,6 +63,18 @@ python scripts/check_phrases.py src/episodes/ep2/scenes.ts src/episodes/ep2/timi
 npx remotion render Episode2 out/episode2.mp4
 ```
 
+## Episode 3
+
+Composition `Episode3` (±9:24): Robert Greene — sisi gelap, seduction, mastery.
+Narasi di `narration/ep3/`, beat di `src/episodes/ep3/scenes.ts`, audio/SRT di
+`public/ep3/`. Semua episode memakai komponen `src/episodes/Episode.tsx`.
+
+```bash
+python scripts/generate_voiceover.py --episode ep3
+python scripts/check_phrases.py src/episodes/ep3/scenes.ts src/episodes/ep3/timing.json
+npx remotion render Episode3 out/episode3.mp4
+```
+
 ## Shorts
 
 Composition `Shorts` (1080×1920, ±41 detik): teaser vertikal untuk penonton
