@@ -1,4 +1,4 @@
-# Jadwal Unggah YouTube (27 Okt – 21 Nov 2026)
+# Jadwal Unggah YouTube (27 Okt – 27 Nov 2026)
 
 Semua jam dalam **WIB**. Video panjang tayang **19.00**, Shorts tayang **12.00**.
 Setiap Short dijadwalkan **setelah** video lengkapnya tayang, supaya kolom *Video terkait* bisa diisi (YouTube hanya mengizinkan video publik).
@@ -13,6 +13,9 @@ Setiap Short dijadwalkan **setelah** video lengkapnya tayang, supaya kolom *Vide
 | Senin, 9 Nov | 19.00 | 11 | What If Kamu Menabung Saham Rp100 Ribu Setiap Bulan Sejak Tahun 2000? | `11-tabung-saham-2000/` |
 | Kamis, 12 Nov | 19.00 | 12 | What If Kamu Tiba-tiba Punya Rp10 Miliar Besok Pagi? | `12-warisan-10-miliar/` |
 | Minggu, 15 Nov | 19.00 | 13 | What If Kamu Bertemu Dirimu Sendiri 10 Tahun dari Sekarang? | `13-dirimu-10-tahun/` |
+| Rabu, 18 Nov | 19.00 | 14 | What If Kamu Bisa Mendengar Isi Pikiran Bandar Saham? | `14-pikiran-bandar/` |
+| Sabtu, 21 Nov | 19.00 | 15 | What If Kamu Jadi Orang Terkaya di Indonesia Selama 7 Hari? | `15-terkaya-7-hari/` |
+| Selasa, 24 Nov | 19.00 | 16 | What If Semua Orang Indonesia Berhenti Belanja Selama 30 Hari? | `16-tanpa-belanja-30-hari/` |
 
 Yang sudah ada di Studio: Bank Bangkrut (27 Okt), Emas (28 Okt), Lihat 10 Detik (29 Okt). Tidak perlu diubah.
 
@@ -46,6 +49,12 @@ Yang sudah ada di Studio: Bank Bangkrut (27 Okt), Emas (28 Okt), Lihat 10 Detik 
 | Kamis, 19 Nov | `hari-24-tab-2008.mp4` | Krisis 2008: Jual atau Tahan Saham? #saham #investasi | What If Kamu Menabung Saham Rp100 Ribu Setiap Bulan Sejak Tahun 2000? |
 | Jumat, 20 Nov | `hari-25-war-robot.mp4` | Robot Trading Untung Pasti 3% Sebulan? Ini Polanya #investasibodong | What If Kamu Tiba-tiba Punya Rp10 Miliar Besok Pagi? |
 | Sabtu, 21 Nov | `hari-26-dir-bunga.mp4` | Rp1 Juta Sebulan yang Hilang Tanpa Sadar #keuangan #menabung | What If Kamu Bertemu Dirimu Sendiri 10 Tahun dari Sekarang? |
+| Minggu, 22 Nov | `hari-27-pkb-hook.mp4` | Bisa Dengar Pikiran Bandar Saham 1 Jam Lebih Awal? #saham #whatif | What If Kamu Bisa Mendengar Isi Pikiran Bandar Saham? |
+| Senin, 23 Nov | `hari-28-trk-hook.mp4` | Jadi Orang Terkaya di Indonesia Selama 7 Hari? #whatif #saham | What If Kamu Jadi Orang Terkaya di Indonesia Selama 7 Hari? |
+| Selasa, 24 Nov | `hari-29-pkb-pucuk.mp4` | Saham Gorengan: Siapa yang Beli di Pucuk? #sahamgorengan #IHSG | What If Kamu Bisa Mendengar Isi Pikiran Bandar Saham? |
+| Rabu, 25 Nov | `hari-30-tbl-hook.mp4` | Kalau Satu Indonesia 30 Hari Tanpa Belanja? #whatif #ekonomi | What If Semua Orang Indonesia Berhenti Belanja Selama 30 Hari? |
+| Kamis, 26 Nov | `hari-31-trk-gadai.mp4` | Kenapa Saham Konglomerat Bisa Jatuh Beruntun? #saham #IHSG | What If Kamu Jadi Orang Terkaya di Indonesia Selama 7 Hari? |
+| Jumat, 27 Nov | `hari-32-tbl-paradoks.mp4` | Paradoks Hemat: Semua Berhemat, Malah Banyak PHK #ekonomi #hemat | What If Semua Orang Indonesia Berhenti Belanja Selama 30 Hari? |
 
 Judul dan deskripsi tiap Short ada di `shorts/judul-deskripsi-jadwal.md` (cari berdasarkan nama file). Nomor *hari-xx* di nama file **tidak** dipakai lagi; ikuti tanggal di tabel ini.
 
@@ -53,12 +62,13 @@ Judul dan deskripsi tiap Short ada di `shorts/judul-deskripsi-jadwal.md` (cari b
 - Judul, deskripsi, dan tag: salin dari `judul-deskripsi-tag.md`.
 - Thumbnail: pakai `thumbnail-1.png`. Kalau fitur *Uji & bandingkan* tersedia, masukkan ketiganya seperti video sebelumnya.
 - Subtitle: unggah `subtitle.srt` (Bahasa Indonesia).
-- **Layar akhir**: arahkan ke video berikutnya dalam seri (07 → 08 → 09 → 10 → 13) + tombol Subscribe.
+- **Layar akhir**: arahkan ke video berikutnya dalam seri (07 → 08 → 09 → 10 → 13 → 14 → 15 → 16) + tombol Subscribe.
 - **Kartu (cards)** di menit akhir: tautkan ke video sebelumnya dalam seri.
-- **Playlist**: buat "Seri Cerita What If" (Lihat 10 Detik, 1998, Uang 2×, Gubernur BI, Tabung Saham, Rp10 Miliar, Dirimu 10 Tahun) dan "What If Pasar Saham" (ARB, MSCI, Danantara, BI Rate, Bank, Emas, Asing Kabur).
+- **Playlist**: buat "Seri Cerita What If" (Lihat 10 Detik, 1998, Uang 2×, Gubernur BI, Tabung Saham, Rp10 Miliar, Dirimu 10 Tahun) dan "Musim 2" (Pikiran Bandar, Orang Terkaya 7 Hari, 30 Hari Tanpa Belanja) dan "What If Pasar Saham" (ARB, MSCI, Danantara, BI Rate, Bank, Emas, Asing Kabur).
 - Setelah tayang: sematkan komentar berisi pertanyaan di akhir video, dan balas komentar pertama yang masuk.
 
 ## Evaluasi
 - **Sabtu, 7 Nov**: cek *Analytics → Jangkauan* (tayangan & CTR thumbnail) dan *Interaksi* (durasi tonton rata-rata). Kirim tangkapan layarnya ke saya untuk diputuskan topik berikutnya.
 - **Sabtu, 21 Nov**: evaluasi kedua untuk video 11–13.
+- **Jumat, 27 Nov**: evaluasi ketiga untuk musim 2 (video 14–16).
 - Cadangan: video *Rupiah Rp20.000* (9:03) sudah jadi tapi belum terjadwal; bisa diisi di slot kosong.

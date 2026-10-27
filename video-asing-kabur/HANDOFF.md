@@ -38,10 +38,13 @@ Tempel isi file ini sebagai pesan pertama di sesi baru.
 | 11 | tabung-saham-2000 | What If Kamu Menabung Saham Rp100 Ribu Setiap Bulan Sejak Tahun 2000? (data IHSG historis, ilustrasi) | 9:17 |
 | 12 | warisan-10-miliar | What If Kamu Tiba-tiba Punya Rp10 Miliar Besok Pagi? (tokoh Om Darto, notaris, sales robot trading) | 8:18 |
 | 13 | dirimu-10-tahun | What If Kamu Bertemu Dirimu Sendiri 10 Tahun dari Sekarang? (penutup seri Pak Harso, adegan FutureSelf) | 8:29 |
+| 14 | pikiran-bandar | What If Kamu Bisa Mendengar Isi Pikiran Bandar Saham? (musim 2, tokoh Laras, adegan Whisper) | 9:09 |
+| 15 | terkaya-7-hari | What If Kamu Jadi Orang Terkaya di Indonesia Selama 7 Hari? | 8:30 |
+| 16 | tanpa-belanja-30-hari | What If Semua Orang Indonesia Berhenti Belanja Selama 30 Hari? (paradoks hemat) | 8:43 |
 
 Seri lama (gaya awal): Asing Kabur (4:20), Rupiah Rp20.000 (9:03), IHSG Hijau/FOMO (8:18, belum ada thumbnail/SEO).
 
-Plus **26 Shorts** (2 per video seri baru) dengan jadwal unggah 1 per hari di `youtube/shorts.md`.
+Plus **32 Shorts** (2 per video seri baru) dengan jadwal unggah 1 per hari di `youtube/shorts.md`.
 
 ## Status unggah & performa
 - Sudah diunggah 3 video, terakhir **ARB 7%**. Baru ±1 penonton setelah 3 hari (channel baru).
@@ -56,4 +59,4 @@ Mengikuti analisis video referensi yang ditonton jutaan kali: sudut pandang **"k
 - Beberapa klaim sejarah di naskah perlu diverifikasi (mis. ARB 7% saat pandemi 2020, contoh MSCI Argentina/Pakistan, BI Rate 12,75% di 2005, penutupan 16 bank 1997).
 
 ## Jadwal unggah
-Lihat `out/siap-upload/jadwal-unggah.md` (sesi lama): video 08–13 tayang 31 Okt – 15 Nov pukul 19.00 WIB, Shorts 1/hari pukul 12.00 WIB sampai 21 Nov. Video 01–07 sudah diunggah/terjadwal sendiri oleh pemilik channel.
+Lihat `out/siap-upload/jadwal-unggah.md` (sesi lama): video 08–16 tayang 31 Okt – 24 Nov pukul 19.00 WIB, Shorts 1/hari pukul 12.00 WIB sampai 27 Nov. Video 01–07 sudah diunggah/terjadwal sendiri oleh pemilik channel.

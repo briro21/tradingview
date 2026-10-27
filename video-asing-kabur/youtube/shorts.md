@@ -1,4 +1,4 @@
-# Paket Shorts (26 video, 9:16)
+# Paket Shorts (32 video, 9:16)
 
 Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Video terkait"** (Related video) di YouTube Studio dengan video lengkapnya, supaya penonton bisa langsung pindah ke video panjang.
 
@@ -182,6 +182,48 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 **Video terkait (versi lengkap):** What If Kamu Bertemu Dirimu Sendiri 10 Tahun dari Sekarang?
 **Deskripsi:**
 > Rp1 Juta Sebulan yang Hilang Tanpa Sadar Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 27 · `pkb-hook.mp4` (53 dtk)
+**Judul:** Bisa Dengar Pikiran Bandar Saham 1 Jam Lebih Awal? #saham #whatif
+**Video terkait (versi lengkap):** What If Kamu Bisa Mendengar Isi Pikiran Bandar Saham?
+**Deskripsi:**
+> Bisa Dengar Pikiran Bandar Saham 1 Jam Lebih Awal? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 28 · `trk-hook.mp4` (55 dtk)
+**Judul:** Jadi Orang Terkaya di Indonesia Selama 7 Hari? #whatif #saham
+**Video terkait (versi lengkap):** What If Kamu Jadi Orang Terkaya di Indonesia Selama 7 Hari?
+**Deskripsi:**
+> Jadi Orang Terkaya di Indonesia Selama 7 Hari? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 29 · `pkb-pucuk.mp4` (43 dtk)
+**Judul:** Saham Gorengan: Siapa yang Beli di Pucuk? #sahamgorengan #IHSG
+**Video terkait (versi lengkap):** What If Kamu Bisa Mendengar Isi Pikiran Bandar Saham?
+**Deskripsi:**
+> Saham Gorengan: Siapa yang Beli di Pucuk? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 30 · `tbl-hook.mp4` (55 dtk)
+**Judul:** Kalau Satu Indonesia 30 Hari Tanpa Belanja? #whatif #ekonomi
+**Video terkait (versi lengkap):** What If Semua Orang Indonesia Berhenti Belanja Selama 30 Hari?
+**Deskripsi:**
+> Kalau Satu Indonesia 30 Hari Tanpa Belanja? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 31 · `trk-gadai.mp4` (50 dtk)
+**Judul:** Kenapa Saham Konglomerat Bisa Jatuh Beruntun? #saham #IHSG
+**Video terkait (versi lengkap):** What If Kamu Jadi Orang Terkaya di Indonesia Selama 7 Hari?
+**Deskripsi:**
+> Kenapa Saham Konglomerat Bisa Jatuh Beruntun? Tonton versi lengkapnya (8 menit) di channel ini.
+> Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 32 · `tbl-paradoks.mp4` (54 dtk)
+**Judul:** Paradoks Hemat: Semua Berhemat, Malah Banyak PHK #ekonomi #hemat
+**Video terkait (versi lengkap):** What If Semua Orang Indonesia Berhenti Belanja Selama 30 Hari?
+**Deskripsi:**
+> Paradoks Hemat: Semua Berhemat, Malah Banyak PHK Tonton versi lengkapnya (8 menit) di channel ini.
 > Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
 
 ## Tips
