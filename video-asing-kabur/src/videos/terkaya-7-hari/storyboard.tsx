@@ -25,16 +25,15 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
           {name: 'Kamu', who: 'kamu', text: 'Saya mau transfer sepuluh triliun ke beberapa rekening. Hari ini.', at: L(12), side: 'left'},
           {name: 'Asisten', who: 'asisten', text: 'Maaf, Pak. Uang tunai Bapak sekitar dua triliun. Sisanya dalam bentuk saham perusahaan Bapak.', at: L(14), side: 'right'},
         ]}
-        lines={[{text: 'HARI 1', at: L(11), size: 64}]}
       />
     ),
   },
   {start: L(15, -0.3), el: <S.Split at={L(15, 1)} left="TUNAI ± Rp2 T" right="SAHAM ± Rp448 T" lines={[{text: 'Kurang dari 0,5% berupa uang', at: L(15), size: 54, color: C.yellow}]} />, sfx: 'boom'},
   {start: L(16, -0.3), el: <S.Cards title={{text: 'KEKAYAAN = HARGA SAHAM × LEMBAR', at: L(16, 2), size: 58}} cards={[{e: '📈', t: 'Saham naik', sub: 'kamu makin kaya', at: L(17), color: C.green}, {e: '📉', t: 'Saham turun', sub: 'kamu makin miskin', at: L(17, 2), color: C.red}, {e: '😴', t: 'Walau kamu', sub: 'tidak berbuat apa-apa', at: L(17, 4)}]} />, sfx: 'whoosh'},
   {start: L(18, -0.3), el: <S.Dark lines={[{text: 'HARI 2', at: L(18), size: 70}, {text: 'Jual 5% saja...', at: L(18, 2), size: 64, color: C.yellow}, {text: '"Pemiliknya jual? Ada yang tidak beres!"', at: L(20), size: 54, color: C.red}]} />, sfx: 'thump'},
-  {start: L(21, -0.3), el: <S.BigPrice e="📉" label="Kekayaanmu dalam 1 jam" from={450000000000000} to={410000000000000} at={L(21, 1)} delta="-Rp40 T" lines={[{text: 'Saham -8% · IHSG ikut merah', at: L(21), size: 54, color: C.red}]} />, sfx: 'boom'},
+  {start: L(21, -0.3), el: <T.Balance label="KEKAYAANMU DALAM 1 JAM" sub="▼ -Rp40 triliun · saham -8%" steps={[{at: L(21, -0.3), v: 450000000000000}, {at: L(21, 1), v: 410000000000000}]} lines={[{text: 'IHSG ikut memerah', at: L(21), size: 54, color: C.red}]} />, sfx: 'boom'},
   {start: L(22, -0.3), el: <T.Dialog set="house" left={[{who: 'raka', pose: 'typing', face: 'kaget'}]} right={[]} talks={[{name: 'Raka', who: 'raka', text: 'Bro, saham konglomerat itu anjlok. Reksa danaku ikut turun. Ada apa sih sama orang-orang kaya ini?', at: L(23), side: 'left'}]} lines={[{text: 'Sementara itu, di Depok...', at: L(22), size: 52}]} />},
-  {start: L(25, -0.3), el: <T.Dialog set="meeting" left={[{who: 'kamu', face: 'kaget'}]} right={[{who: 'bankir', face: 'serius'}]} talks={[{name: 'Bankir', who: 'bankir', text: 'Sebagian saham Bapak dijaminkan ke bank kami. Turun 15% lagi, kami terpaksa menjualnya.', at: L(26), side: 'right'}]} lines={[{text: 'HARI 3', at: L(25), size: 60}]} />, sfx: 'thump'},
+  {start: L(25, -0.3), el: <T.Dialog set="meeting" left={[{who: 'kamu', face: 'kaget'}]} right={[{who: 'bankir', face: 'serius'}]} talks={[{name: 'Bankir', who: 'bankir', text: 'Sebagian saham Bapak dijaminkan ke bank kami. Turun 15% lagi, kami terpaksa menjualnya.', at: L(26), side: 'right'}]} />, sfx: 'thump'},
   {start: L(27, -0.3), el: <S.Domino items={[{e: '📉', t: 'Harga turun'}, {e: '🏦', t: 'Bank jual jaminan'}, {e: '📉', t: 'Harga turun lagi'}, {e: '🏦', t: 'Bank jual lagi'}, {e: '💥', t: 'Bola salju'}]} startAt={L(28)} lines={[{text: 'Orang terkaya pun punya utang', at: L(27), size: 56, color: C.red}]} />, sfx: 'whoosh'},
   {start: L(29, -0.3), el: <T.Dialog set="white" left={[{who: 'kamu', face: 'sedih'}]} right={[{who: 'asisten', face: 'serius'}]} talks={[{name: 'Asisten', who: 'asisten', text: 'Banyak konglomerat meminjam dengan jaminan saham, Pak. Selama harga naik, semuanya aman.', at: L(29), side: 'right'}]} />},
   {start: L(30, -0.3), el: <S.Split at={L(31)} left="BEREDAR DI PUBLIK" right="DIPEGANG PEMILIK" lines={[{text: 'HARI 4 · barangnya sedikit', at: L(30), size: 56}, {text: 'Mudah naik, mudah jatuh', at: L(32), size: 54, color: C.yellow}]} />},
@@ -50,7 +49,6 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
           {name: 'Direksi', who: 'deputi', text: 'Kami mengusulkan efisiensi: tutup dua pabrik, kurangi sepuluh ribu karyawan.', at: L(35), side: 'right'},
           {name: 'Direksi', who: 'deputi', text: 'Laba naik, target harga naik, saham Bapak pulih, bank berhenti menekan.', at: L(36), side: 'right'},
         ]}
-        lines={[{text: 'HARI 5 · RAPAT DIREKSI', at: L(34), size: 54}]}
       />
     ),
     sfx: 'thump',
@@ -70,7 +68,6 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
           {name: 'Kamu', who: 'kamu', text: 'Kita tidak menutup pabrik Cikarang. Lini yang rugi kita alihkan, karyawan kita latih ulang.', at: L(49), side: 'left'},
           {name: 'Kamu', who: 'kamu', text: 'Saya jual sebagian saham pribadi secara terbuka dan bertahap, untuk melunasi utang bank.', at: L(50), side: 'left'},
         ]}
-        lines={[{text: 'HARI 7', at: L(48), size: 64, color: C.yellow}]}
       />
     ),
     sfx: 'ding',

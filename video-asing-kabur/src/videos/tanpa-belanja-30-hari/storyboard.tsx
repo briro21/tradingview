@@ -7,8 +7,8 @@ import {Seg} from '../WhatIf';
 
 // What If Semua Orang Indonesia Berhenti Belanja Selama 30 Hari? (paradoks hemat; cerita fiksi)
 export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
-  {start: 0, el: <T.Dialog set="room" left={[{who: 'kamu', pose: 'point', face: 'senang'}]} right={[]} talks={[{name: 'Kamu', who: 'kamu', text: 'Tantangan: 30 hari tanpa belanja. Cuma kebutuhan pokok. Siapa berani?', at: L(1), side: 'left'}]} lines={[{text: '🎥 Minggu malam · video 1 menit', at: L(0, 0.3), size: 52}]} />},
-  {start: L(2, -0.3), el: <T.Balance label="PENONTON VIDEOMU" sub="▲ viral semalam" steps={[{at: L(2, -0.3), v: 100}, {at: L(3), v: 50000000}]} lines={[{text: 'Pagi harinya...', at: L(3), size: 56}]} />, sfx: 'boom'},
+  {start: 0, el: <T.Dialog set="room" left={[{who: 'kamu', pose: 'point', face: 'senang'}]} right={[]} talks={[{name: 'Kamu', who: 'kamu', text: 'Tantangan: 30 hari tanpa belanja. Cuma kebutuhan pokok. Siapa berani?', at: L(1), side: 'left'}]} />},
+  {start: L(2, -0.3), el: <T.Balance prefix="▶ " label="PENONTON VIDEOMU" sub="▲ viral semalam" steps={[{at: L(2, -0.3), v: 100}, {at: L(3), v: 50000000}]} lines={[{text: 'Pagi harinya...', at: L(3), size: 56}]} />, sfx: 'boom'},
   {
     start: L(4, -0.3),
     el: (
@@ -27,7 +27,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   {start: L(5, -0.3), el: <T.Dialog set="room" left={[{who: 'kamu', face: 'kaget'}]} right={[{who: 'laras', pose: 'cheer', face: 'senang'}]} talks={[{name: 'Laras', who: 'laras', text: 'Kak, satu Indonesia ikut tantangan Kakak.', at: L(6), side: 'right'}]} />, sfx: 'ding'},
   {start: L(7, -0.3), el: <Chapter at={L(7)} label="WHAT IF" sub="Semua orang berhenti belanja 30 hari?" color={C.green} />, sfx: 'boom'},
   {start: L(8, -0.3), el: <S.Cards title={{text: 'ATURANNYA', at: L(8), size: 80}} cards={[{e: '🍚', t: 'Boleh', sub: 'makanan · obat · listrik', at: L(9), color: C.green}, {e: '👕', t: 'Tidak ada', sub: 'baju baru', at: L(10), color: C.red}, {e: '🍜', t: 'Tidak ada', sub: 'makan di luar', at: L(10, 1.5), color: C.red}, {e: '✈️', t: 'Tidak ada', sub: 'gawai & liburan', at: L(10, 3), color: C.red}]} />, sfx: 'whoosh'},
-  {start: L(11, -0.3), el: <T.Balance label="TABUNGAN SATU NEGERI" sub="▲ minggu pertama" steps={[{at: L(11), v: 1500000}, {at: L(12), v: 3500000}]} lines={[{text: 'MINGGU 1 · semua bangga', at: L(11), size: 56, color: C.green}, {text: '"Aku hemat 2 juta minggu ini!"', at: L(12, 2), size: 46}]} />},
+  {start: L(11, -0.3), el: <T.Balance label="TABUNGAN RATA-RATA KELUARGA" sub="▲ minggu pertama (ilustrasi)" steps={[{at: L(11), v: 1500000}, {at: L(12), v: 3500000}]} lines={[{text: 'MINGGU 1 · semua bangga', at: L(11), size: 56, color: C.green}, {text: '"Aku hemat 2 juta minggu ini!"', at: L(12, 2), size: 46}]} />},
   {start: L(13, -0.3), el: <T.Dialog set="house" left={[{who: 'kamu', face: 'senang'}]} right={[{who: 'ana', face: 'senang'}]} talks={[{name: 'Bu Ana', who: 'ana', text: 'Ternyata kita bisa hidup dengan jauh lebih sedikit, ya, Nak.', at: L(14), side: 'right'}]} lines={[{text: '🎙️ Podcast · berita · "pahlawan hemat"', at: L(15, 2), size: 46}]} />, sfx: 'ding'},
   {start: L(16, -0.3), el: <S.QuietStreet closeAt={L(17, 2)} lines={[{text: 'MINGGU 2', at: L(16), size: 70}, {text: 'Mal sepi · kafe tutup · ojek menunggu', at: L(17), size: 48}]} />, sfx: 'whoosh'},
   {
@@ -84,7 +84,6 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
           {name: 'Kamu', who: 'kamu', text: 'Saya salah memahami hemat. Hemat bukan berhenti belanja. Hemat adalah belanja dengan sadar.', at: L(49), side: 'left'},
           {name: 'Kamu', who: 'kamu', text: 'Ganti tantangannya: 30 hari belanja di warung tetangga dan UMKM. Tetap menabung, tapi biarkan uang berputar.', at: L(50), side: 'left'},
         ]}
-        lines={[{text: '🍬 Teringat permen Bu Sri', at: L(48), size: 48}]}
       />
     ),
     sfx: 'ding',

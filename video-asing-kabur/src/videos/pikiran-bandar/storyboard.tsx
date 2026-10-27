@@ -11,7 +11,8 @@ const PUMP = [50, 55, 62, 80, 95, 120, 150, 200, 240, 300];
 const DUMP = [300, 310, 305, 260, 200, 150, 110, 80, 65, 60];
 
 export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
-  {start: 0, el: <T.Dialog set="room" left={[{who: 'kamu', face: 'kaget'}]} right={[{who: 'laras', face: 'sedih'}]} talks={[{name: 'Laras', who: 'laras', text: 'Kak. Aku Laras. Aku adikmu.', at: L(2), side: 'right'}]} lines={[{text: 'TOK · TOK · TOK', at: L(0, 0.2), size: 80, color: '#ffd59e'}, {text: '19 tahun · basah kuyup', at: L(1, 1), size: 48}]} />, sfx: 'thump'},
+  {start: 0, el: <S.Dark lines={[{text: 'TOK · TOK · TOK', at: L(0, 0.2), size: 110, color: '#ffd59e'}, {text: '🌧️ 19 tahun · basah kuyup · memeluk tas', at: L(1, 1), size: 52}]} />, sfx: 'thump'},
+  {start: L(2, -0.3), el: <T.Dialog set="room" left={[{who: 'kamu', face: 'kaget'}]} right={[{who: 'laras', face: 'sedih'}]} talks={[{name: 'Laras', who: 'laras', text: 'Kak. Aku Laras. Aku adikmu.', at: L(2), side: 'right'}]} />},
   {start: L(3, -0.3), el: <S.Dark lines={[{text: 'Adik?', at: L(3), size: 110, color: C.yellow}, {text: '"Untuk adikmu juga ada satu."', at: L(3, 3.5), size: 56, color: '#ffd59e'}]} />, sfx: 'boom'},
   {
     start: L(4, -0.3),

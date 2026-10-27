@@ -232,5 +232,59 @@
   "hook": "Rp1 JUTA YANG\nTIDAK KAMU SADARI",
   "title": "Rp1 Juta Sebulan yang Hilang Tanpa Sadar #keuangan #menabung",
   "lastLine": 37
+ },
+ {
+  "id": "pkb-hook",
+  "slug": "pikiran-bandar",
+  "from": 0,
+  "to": 53.22,
+  "hook": "KAMU BISA DENGAR\nPIKIRAN BANDAR SAHAM",
+  "title": "Bisa Dengar Pikiran Bandar Saham 1 Jam Lebih Awal? #saham #whatif",
+  "lastLine": 6
+ },
+ {
+  "id": "pkb-pucuk",
+  "slug": "pikiran-bandar",
+  "from": 269.09,
+  "to": 311.76,
+  "hook": "KALAU KAMU UNTUNG,\nUANGNYA DARI SIAPA?",
+  "title": "Saham Gorengan: Siapa yang Beli di Pucuk? #sahamgorengan #IHSG",
+  "lastLine": 43
+ },
+ {
+  "id": "trk-hook",
+  "slug": "terkaya-7-hari",
+  "from": 0,
+  "to": 55.32,
+  "hook": "ORANG TERKAYA\nTUNAINYA CUMA 0,5%?",
+  "title": "Orang Terkaya di Indonesia, Uang Tunainya Cuma 0,5%? #saham #whatif",
+  "lastLine": 7
+ },
+ {
+  "id": "trk-gadai",
+  "slug": "terkaya-7-hari",
+  "from": 187.46,
+  "to": 236.96,
+  "hook": "SAHAM DIGADAI:\nBOLA SALJU KEJATUHAN",
+  "title": "Kenapa Saham Konglomerat Bisa Jatuh Beruntun? #saham #IHSG",
+  "lastLine": 29
+ },
+ {
+  "id": "tbl-hook",
+  "slug": "tanpa-belanja-30-hari",
+  "from": 0,
+  "to": 55.21,
+  "hook": "SATU INDONESIA\n30 HARI TANPA BELANJA",
+  "title": "Kalau Satu Indonesia 30 Hari Tanpa Belanja? #whatif #ekonomi",
+  "lastLine": 7
+ },
+ {
+  "id": "tbl-paradoks",
+  "slug": "tanpa-belanja-30-hari",
+  "from": 186.57,
+  "to": 240.72,
+  "hook": "SEMUA BERHEMAT,\nKOK MALAH PHK?",
+  "title": "Paradoks Hemat: Semua Berhemat, Malah Banyak PHK #ekonomi #hemat",
+  "lastLine": 32
  }
 ]

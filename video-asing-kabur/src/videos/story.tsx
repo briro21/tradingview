@@ -208,7 +208,7 @@ export const Dialog: React.FC<{
 };
 
 // Saldo yang terus bertambah, koin berjatuhan.
-export const Balance: React.FC<{steps: {at: number; v: number}[]; lines: Line[]; label?: string; sub?: string}> = ({steps, lines, label = 'SALDO PORTOFOLIO', sub = '▲ tanpa satu pun rugi'}) => {
+export const Balance: React.FC<{steps: {at: number; v: number}[]; lines: Line[]; label?: string; sub?: string; prefix?: string}> = ({steps, lines, label = 'SALDO PORTOFOLIO', sub = '▲ tanpa satu pun rugi', prefix = 'Rp'}) => {
   const sec = useSec();
   let v = steps[0].v;
   for (let i = 1; i < steps.length; i++) v = sec < steps[i].at ? v : interpolate(sec, [steps[i].at, steps[i].at + 1.2], [steps[i - 1].v, steps[i].v], clamp);
@@ -226,7 +226,7 @@ export const Balance: React.FC<{steps: {at: number; v: number}[]; lines: Line[];
       <Abs x={610} y={190}>
         <div style={{width: 700, height: 760, borderRadius: 60, background: '#10141f', border: `14px solid ${C.ink}`, padding: 50, display: 'flex', flexDirection: 'column', gap: 20}}>
           <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 36, color: '#9aa3b8'}}>{label}</div>
-          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: Math.min(92, 1000 / (fmt(Math.round(v)).length + 2)), color: C.green}}>Rp{fmt(Math.round(v))}</div>
+          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: Math.min(92, 1000 / (fmt(Math.round(v)).length + 2)), color: C.green}}>{prefix}{fmt(Math.round(v))}</div>
           <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 34, color: C.green}}>{sub}</div>
           <svg width={600} height={300}>
             <path d={`M0 280 ${Array.from({length: 12}, (_, i) => `L${(i + 1) * 50} ${280 - Math.min(1, v / steps[steps.length - 1].v) * (i + 1) * 22 - Math.sin(i) * 8}`).join(' ')}`} stroke={C.green} strokeWidth={10} fill="none" />
