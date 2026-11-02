@@ -4,7 +4,33 @@ import { theme } from "../../theme";
 
 const { red, blue, green, purple } = theme;
 
-// Hook
+// Cold open: panel pertama sudah tergambar di frame 0, lalu janji isi video.
+const S00: Beat[] = [
+  {
+    at: "Martin Luther King",
+    drawn: true,
+    items: [I("chess", 380, 420, 2.2), T("NOT A NAIVE SAINT", 1050, 280, { size: 80 }), T("A STRATEGIST", 1050, 440, { size: 120, color: red }), U(1050, 530, 620, red)],
+  },
+  {
+    at: "And according to Robert Greene",
+    pace: 0.6,
+    items: [I("book", 400, 420, 1.8), T("ROBERT GREENE", 1050, 320, { size: 100 }), H("\"so is everyone who wins\"", 1050, 470, { at: "everyone who wins" })],
+  },
+  {
+    at: "In the next nine minutes",
+    pace: 0.6,
+    items: [
+      I("mask", 300, 380, 1.3, { at: "dark side" }),
+      H("the dark side", 300, 600),
+      I("phone", 800, 380, 1.3, { at: "seduction skill" }),
+      H("seduction", 800, 600),
+      I("brain", 1300, 380, 1.3, { at: "stroke" }),
+      H("the stroke", 1300, 600),
+    ],
+  },
+];
+
+// Hook (digambar lebih cepat: data retensi Episode 1 turun tajam di 30 detik pertama).
 const S01: Beat[] = [
   {
     at: "Right now, you might",
@@ -304,5 +330,5 @@ const S05: Beat[] = [
   },
 ];
 
-export const EP3_SCENES: Record<string, Beat[]> = { S01, S02, S03, S04, S05 };
+export const EP3_SCENES: Record<string, Beat[]> = { S00, S01: S01.map((b) => ({ ...b, pace: 0.7 })), S02, S03, S04, S05 };
 

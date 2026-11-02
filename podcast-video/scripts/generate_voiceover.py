@@ -82,15 +82,23 @@ def write_srt(path: Path, cues: list[tuple[float, float, str]]) -> None:
 
 
 async def synth(scene: str, text: str, voice: str, out: Path = PUBLIC) -> tuple[float, list, list]:
-    com = edge_tts.Communicate(text, voice, boundary="WordBoundary")
-    audio = bytearray()
-    words = []
-    async for ch in com.stream():
-        if ch["type"] == "audio":
-            audio += ch["data"]
-        elif ch["type"] == "WordBoundary":
-            start = ch["offset"] / 1e7
-            words.append({"text": ch["text"], "start": start, "end": start + ch["duration"] / 1e7})
+    # Layanan TTS kadang gagal sesaat ("No audio was received"); coba ulang.
+    for attempt in range(4):
+        try:
+            com = edge_tts.Communicate(text, voice, boundary="WordBoundary")
+            audio = bytearray()
+            words = []
+            async for ch in com.stream():
+                if ch["type"] == "audio":
+                    audio += ch["data"]
+                elif ch["type"] == "WordBoundary":
+                    start = ch["offset"] / 1e7
+                    words.append({"text": ch["text"], "start": start, "end": start + ch["duration"] / 1e7})
+            break
+        except edge_tts.exceptions.NoAudioReceived:
+            if attempt == 3:
+                raise
+            await asyncio.sleep(3 * (attempt + 1))
     (out / f"{scene}.mp3").write_bytes(audio)
     attach_punctuation(words, text)
     cues = to_cues(words)

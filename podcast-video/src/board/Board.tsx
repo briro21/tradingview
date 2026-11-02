@@ -24,7 +24,9 @@ export type Item = Base &
     | { k: "count"; to: number; from?: number; prefix?: string; suffix?: string; plain?: boolean; x: number; y: number; size?: number; color?: string }
     | { k: "path"; d: string; color?: string; w?: number }
   );
-export type Beat = { at: string; items: Item[] };
+// `drawn`: panel langsung tampil utuh di frame pertama (cold open, tanpa kertas kosong).
+// `pace`: pengali durasi gambar (< 1 = lebih cepat).
+export type Beat = { at: string; items: Item[]; drawn?: boolean; pace?: number };
 
 // Panel = satu "halaman" di papan; kamera berpindah antar panel.
 export type Layout = { w: number; h: number; gapX: number; gapY: number; cols: number; offsetY: number };
@@ -71,13 +73,20 @@ const autoDur = (item: Item, total: number, k: number) => {
   return Math.round(Math.min(45, Math.max(10, text.length * 1.4)));
 };
 
-const schedule = (items: Item[], atFrame: (phrase: string) => number, avail: number): Sched[] => {
-  let cursor = MOVE;
+const schedule = (beat: Beat, atFrame: (phrase: string) => number, avail: number): Sched[] => {
+  const { items, drawn, pace = 1 } = beat;
+  if (drawn) {
+    return items.map((item) => {
+      const g = segsOf(item);
+      return { item, start: -1, dur: 1, total: g.segs.reduce((a, s) => a + s.len, 0), ...g };
+    });
+  }
+  let cursor = Math.round(MOVE * pace);
   const out = items.map((item) => {
     const g = segsOf(item);
     const total = g.segs.reduce((a, s) => a + s.len, 0);
     const start = item.at ? Math.max(cursor, atFrame(item.at)) : cursor + (item.wait ?? 0);
-    const dur = item.dur ?? autoDur(item, total, g.k);
+    const dur = item.dur ?? Math.max(4, Math.round(autoDur(item, total, g.k) * pace));
     cursor = start + dur + 3;
     return { item, start, dur, total, ...g };
   });
@@ -121,7 +130,7 @@ const Panel: React.FC<{ t: number; sched: Sched[]; id: string; frame: number; la
   const draws = sched.map((s, i) => {
     const p = interpolate(t, [s.start, s.start + s.dur], [0, 1], clamp);
     if (t < s.start) return null;
-    const active = t <= s.start + s.dur + 4;
+    const active = s.start >= 0 && t <= s.start + s.dur + 4; // panel `drawn` tanpa tangan
     const { item } = s;
 
     if (item.k === "text" || item.k === "count") {
@@ -171,7 +180,7 @@ const Panel: React.FC<{ t: number; sched: Sched[]; id: string; frame: number; la
         tip = { x: s.ox + pt.x * s.k, y: s.oy + pt.y * s.k, color: seg.color };
       }
       acc += seg.len;
-      const fillT = seg.fill ? interpolate(t, [s.start + (acc / s.total) * s.dur, s.start + (acc / s.total) * s.dur + 8], [0, 1], clamp) : 0;
+      const fillT = !seg.fill ? 0 : s.start < 0 ? 1 : interpolate(t, [s.start + (acc / s.total) * s.dur, s.start + (acc / s.total) * s.dur + 8], [0, 1], clamp);
       return (
         <g key={j}>
           {seg.fill ? <path d={seg.d} fill={seg.fill} opacity={fillT * 0.95} stroke="none" /> : null}
@@ -249,14 +258,14 @@ export const BoardTrack: React.FC<{ scene: string; timing: SceneTiming; beats: B
       if (j < 0) throw new Error(`[${scene}] item phrase not found: "${phrase}"`);
       return Math.round(words[j][1] * fps) - from;
     };
-    return schedule(b.items, atFrame, end - from);
+    return schedule(b, atFrame, end - from);
   });
 
   let cur = 0;
   for (let i = 0; i < starts.length; i++) if (frame >= starts[i]) cur = i;
   const local = frame - starts[cur];
   const m = interpolate(local, [0, MOVE], [0, 1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
-  const a = cur === 0 ? { x: panelPos(0).x + layout.gapX, y: 0 } : panelPos(cur - 1);
+  const a = cur === 0 ? (beats[0].drawn ? panelPos(0) : { x: panelPos(0).x + layout.gapX, y: 0 }) : panelPos(cur - 1);
   const b = panelPos(cur);
   const end = cur + 1 < starts.length ? starts[cur + 1] : frames;
   const drift = interpolate(local, [MOVE, end - starts[cur]], [0, 0.04], clamp);
