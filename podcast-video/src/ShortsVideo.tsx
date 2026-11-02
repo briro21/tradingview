@@ -6,17 +6,24 @@ import { Paper } from "./board/Paper";
 import { Captions } from "./components/Captions";
 import { SH01 } from "./scenes/SH01";
 import { SH02 } from "./scenes/SH02";
+import { SH03, SH04, SH05, SH06 } from "./scenes/EP3Shorts";
 import { TIMING } from "./timing";
+import { ShortId } from "./timeline";
 
-const SHORTS: Record<"SH01" | "SH02", { beats: Beat[]; label: string }> = {
+const SHORTS: Record<ShortId, { beats: Beat[]; label: string }> = {
   // Teaser ringkasan wawancara The Diary Of A CEO.
   SH01: { beats: SH01, label: "The Diary Of A CEO × Dr. Roman Yampolskiy" },
   // Teaser Episode 2.
   SH02: { beats: SH02, label: "Ex-OpenAI insider · AI 2027" },
+  // Episode 3: Robert Greene.
+  SH03: { beats: SH03, label: "Robert Greene · the dark side" },
+  SH04: { beats: SH04, label: "Robert Greene · seduction" },
+  SH05: { beats: SH05, label: "Robert Greene · mastery" },
+  SH06: { beats: SH06, label: "Robert Greene · the stroke" },
 };
 
 // YouTube Shorts 1080×1920.
-export const ShortsVideo: React.FC<{ id: "SH01" | "SH02" }> = ({ id }) => (
+export const ShortsVideo: React.FC<{ id: ShortId }> = ({ id }) => (
   <AbsoluteFill>
     <Paper />
     <Audio src={staticFile(`${id}.mp3`)} />
