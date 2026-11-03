@@ -9,6 +9,8 @@ import { EP2_FRAMES, Episode2 } from "./episodes/ep2/Video";
 import { ThumbD, ThumbE, ThumbF } from "./episodes/ep2/Thumbnails";
 import { EP3_FRAMES, Episode3 } from "./episodes/ep3/Video";
 import { TIMING } from "./timing";
+import { EP4_FRAMES, Episode4 } from "./episodes/ep4/Video";
+import { ThumbJ, ThumbK, ThumbL } from "./episodes/ep4/Thumbnails";
 import { ThumbG, ThumbH, ThumbI } from "./episodes/ep3/Thumbnails";
 
 export const Root: React.FC = () => (
@@ -41,6 +43,7 @@ export const Root: React.FC = () => (
     />
     <Composition id="Episode2" component={Episode2} fps={FPS} width={1920} height={1080} durationInFrames={EP2_FRAMES} />
     <Composition id="Episode3" component={Episode3} fps={FPS} width={1920} height={1080} durationInFrames={EP3_FRAMES} />
+    <Composition id="Episode4" component={Episode4} fps={FPS} width={1920} height={1080} durationInFrames={EP4_FRAMES} />
     <Still id="ThumbA" component={ThumbA} width={1280} height={720} />
     <Still id="ThumbB" component={ThumbB} width={1280} height={720} />
     <Still id="ThumbC" component={ThumbC} width={1280} height={720} />
@@ -86,5 +89,8 @@ export const Root: React.FC = () => (
     <Still id="Ep3ThumbA" component={ThumbG} width={1280} height={720} />
     <Still id="Ep3ThumbB" component={ThumbH} width={1280} height={720} />
     <Still id="Ep3ThumbC" component={ThumbI} width={1280} height={720} />
+    <Still id="Ep4ThumbA" component={ThumbJ} width={1280} height={720} />
+    <Still id="Ep4ThumbB" component={ThumbK} width={1280} height={720} />
+    <Still id="Ep4ThumbC" component={ThumbL} width={1280} height={720} />
   </>
 );

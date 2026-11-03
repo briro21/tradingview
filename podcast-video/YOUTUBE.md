@@ -239,3 +239,45 @@ Full 10-minute animated story on my channel 👆
 
 `out/ep3-thumbnail-A.png` (MLK WAS NOT A NAIVE SAINT / A STRATEGIST, sama dengan frame pertama video), `-B.png` (YOU'RE LYING TO YOURSELF), `-C.png` (THE POWER EXPERT LOST CONTROL OF HIS BODY).
 Render ulang: `npx remotion still Ep3ThumbA out/ep3-thumbnail-A.png`.
+
+---
+---
+
+# Episode 4: The abandoned mansion and its secret wing
+
+Sumber: link video asli belum diterima. Ganti `[NAMA CHANNEL]` dan `[LINK VIDEO ASLI]` sebelum upload.
+
+## Video utama (6:25)
+
+**Judul (pilih salah satu):**
+- What We Found Under the Floor of an Abandoned 1912 Mansion
+- Restoring an Abandoned Mansion Revealed a Secret Wing
+- This Abandoned Mansion Was Hiding a Secret for 100 Years
+
+**Deskripsi:**
+
+```
+Under the floor of an abandoned 1912 mansion, a crowbar hit metal. Inside a copper box: the architect's desperate letters, and a map of a secret wing that appears on no city record.
+
+Follow the full restoration in five phases, from ivy, rot and collapsed ceilings to mahogany staircases, crystal chandeliers and golden light, and find out what the hidden blueprint revealed about the people who once lived here.
+
+Animated story and commentary inspired by the restoration video by [NAMA CHANNEL]. Watch the original here:
+▶ [LINK VIDEO ASLI]
+
+CHAPTERS
+0:00 What was under the floor?
+0:17 Phase 1: The embrace of silence
+1:15 Phase 2: Stripping the veil
+1:59 The copper box
+2:53 Phase 3: The turning of the tide
+3:39 Phase 4: The return of light and color
+4:27 The secret wing
+5:32 Phase 5: Breathing life into the stillness
+
+Subscribe for more stories of forgotten places brought back to life.
+
+#AbandonedMansion #Restoration #AbandonedPlaces #HiddenRoom #BeforeAndAfter #Mystery #History
+```
+
+**Tags:**
+abandoned mansion, mansion restoration, abandoned places, restoration, before and after, hidden room, secret passage, secret room, 1912 mansion, old house restoration, house renovation, abandoned house, mystery, history, animated story
