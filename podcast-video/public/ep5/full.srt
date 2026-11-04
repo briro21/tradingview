@@ -403,837 +403,917 @@ many people will not survive.
 We are far more fragile than we feel.
 
 102
-00:03:06,208 --> 00:03:09,208
-In nature, a species that consumes its environment
+00:03:06,196 --> 00:03:08,596
+Our great grandparents knew how to grow food,
 
 103
-00:03:09,221 --> 00:03:11,296
-faster than it can recover behaves like a
+00:03:08,983 --> 00:03:11,246
+mend clothes and survive a hard winter.
 
 104
-00:03:11,308 --> 00:03:11,946
-parasite,
+00:03:11,658 --> 00:03:13,421
+Most of us would not last a week
 
 105
-00:03:12,358 --> 00:03:13,633
-and it usually collapses.
+00:03:13,483 --> 00:03:15,783
+without supply chains we never even see.
 
 106
-00:03:14,046 --> 00:03:16,258
-Our civilization is betting that we can stay
+00:03:16,208 --> 00:03:19,208
+In nature, a species that consumes its environment
 
 107
-00:03:16,271 --> 00:03:17,608
-in control of this machine.
+00:03:19,221 --> 00:03:21,296
+faster than it can recover behaves like a
 
 108
-00:03:18,033 --> 00:03:18,871
-But in Bach's view,
+00:03:21,308 --> 00:03:21,946
+parasite,
 
 109
-00:03:19,271 --> 00:03:21,083
-it is not clear that anyone is steering.
+00:03:22,358 --> 00:03:23,633
+and it usually collapses.
 
 110
-00:03:21,508 --> 00:03:23,258
-The machine is rolling downhill,
+00:03:24,046 --> 00:03:26,258
+Our civilization is betting that we can stay
 
 111
-00:03:23,546 --> 00:03:25,308
-and no one knows which button would stop
+00:03:26,271 --> 00:03:27,608
+in control of this machine.
 
 112
-00:03:25,321 --> 00:03:25,471
-it.
+00:03:28,033 --> 00:03:28,871
+But in Bach's view,
 
 113
-00:03:25,896 --> 00:03:27,733
-So could something smarter than us pull the
+00:03:29,271 --> 00:03:31,083
+it is not clear that anyone is steering.
 
 114
-00:03:27,746 --> 00:03:28,683
-emergency brake?
+00:03:31,508 --> 00:03:33,258
+The machine is rolling downhill,
 
 115
-00:03:29,096 --> 00:03:32,233
-Many people hope that something is artificial intelligence.
+00:03:33,546 --> 00:03:35,308
+and no one knows which button would stop
 
 116
-00:03:32,758 --> 00:03:33,196
-For Bach,
+00:03:35,321 --> 00:03:35,471
+it.
 
 117
-00:03:33,596 --> 00:03:35,896
-AI is much more than automated statistics.
+00:03:35,896 --> 00:03:37,733
+So could something smarter than us pull the
 
 118
-00:03:36,321 --> 00:03:39,221
-He sees it as humanity's last great philosophical
+00:03:37,746 --> 00:03:38,683
+emergency brake?
 
 119
-00:03:39,233 --> 00:03:39,783
-project.
+00:03:39,096 --> 00:03:42,233
+Many people hope that something is artificial intelligence.
 
 120
-00:03:40,196 --> 00:03:41,858
-Intelligence, at its core,
+00:03:42,725 --> 00:03:43,162
+For Bach,
 
 121
-00:03:42,271 --> 00:03:44,583
-is the ability to make models of reality.
+00:03:43,562 --> 00:03:45,862
+AI is much more than automated statistics.
 
 122
-00:03:44,996 --> 00:03:46,558
-And the real goal of AI is a
+00:03:46,288 --> 00:03:49,188
+He sees it as humanity's last great philosophical
 
 123
-00:03:46,571 --> 00:03:48,271
-system that can model itself,
+00:03:49,200 --> 00:03:49,750
+project.
 
 124
-00:03:48,646 --> 00:03:50,858
-a mind that finally understands what a mind
+00:03:50,162 --> 00:03:51,825
+Intelligence, at its core,
 
 125
-00:03:50,871 --> 00:03:51,183
-is.
+00:03:52,237 --> 00:03:54,550
+is the ability to make models of reality.
 
 126
-00:03:51,596 --> 00:03:52,283
-Seen this way,
+00:03:54,962 --> 00:03:56,525
+And the real goal of AI is a
 
 127
-00:03:52,533 --> 00:03:54,783
-the Turing test is not really a test
+00:03:56,538 --> 00:03:58,237
+system that can model itself,
 
 128
-00:03:54,796 --> 00:03:56,046
-of how clever machines are.
+00:03:58,612 --> 00:04:00,825
+a mind that finally understands what a mind
 
 129
-00:03:56,458 --> 00:03:58,021
-It is a recursive test of us.
+00:04:00,838 --> 00:04:01,150
+is.
 
 130
-00:03:58,446 --> 00:04:01,121
-Are human beings intelligent enough to understand their
+00:04:01,562 --> 00:04:02,250
+Seen this way,
 
 131
-00:04:01,133 --> 00:04:02,871
-own minds well enough to build one?
+00:04:02,500 --> 00:04:04,750
+the Turing test is not really a test
 
 132
-00:04:03,283 --> 00:04:04,721
-If we can rebuild ourselves,
+00:04:04,762 --> 00:04:06,012
+of how clever machines are.
 
 133
-00:04:04,971 --> 00:04:06,858
-we have finally understood ourselves.
+00:04:06,425 --> 00:04:07,987
+It is a recursive test of us.
 
 134
-00:04:07,283 --> 00:04:08,971
-But instead of building a wise mind,
+00:04:08,412 --> 00:04:11,087
+Are human beings intelligent enough to understand their
 
 135
-00:04:09,346 --> 00:04:11,208
-we have spent the last decade building a
+00:04:11,100 --> 00:04:12,838
+own minds well enough to build one?
 
 136
-00:04:11,221 --> 00:04:11,771
-sick one.
+00:04:13,250 --> 00:04:14,688
+If we can rebuild ourselves,
 
 137
-00:04:12,208 --> 00:04:14,908
-Bach compares social media to a global brain,
+00:04:14,938 --> 00:04:16,825
+we have finally understood ourselves.
 
 138
-00:04:15,333 --> 00:04:18,333
-billions of people wired together into one giant
+00:04:17,250 --> 00:04:18,938
+But instead of building a wise mind,
 
 139
-00:04:18,346 --> 00:04:18,858
-network.
+00:04:19,312 --> 00:04:21,175
+we have spent the last decade building a
 
 140
-00:04:19,271 --> 00:04:20,308
-And what does that brain do?
+00:04:21,188 --> 00:04:21,738
+sick one.
 
 141
-00:04:20,721 --> 00:04:22,321
-It has no stable sense of what is
+00:04:22,175 --> 00:04:24,875
+Bach compares social media to a global brain,
 
 142
-00:04:22,333 --> 00:04:22,758
-real,
+00:04:25,300 --> 00:04:28,300
+billions of people wired together into one giant
 
 143
-00:04:23,158 --> 00:04:25,033
-no brakes, no one in charge.
+00:04:28,312 --> 00:04:28,825
+network.
 
 144
-00:04:25,471 --> 00:04:27,908
-He describes Twitter as a global brain in
+00:04:29,238 --> 00:04:30,275
+And what does that brain do?
 
 145
-00:04:27,921 --> 00:04:29,333
-a kind of permanent seizure,
+00:04:30,688 --> 00:04:32,288
+It has no stable sense of what is
 
 146
-00:04:29,621 --> 00:04:31,796
-constantly firing and never settling.
+00:04:32,300 --> 00:04:32,725
+real,
 
 147
-00:04:32,208 --> 00:04:34,821
-Each of us becomes a little reinforcement learning
+00:04:33,125 --> 00:04:35,000
+no brakes, no one in charge.
 
 148
-00:04:34,833 --> 00:04:37,158
-agent, chasing the reward of likes,
+00:04:35,438 --> 00:04:37,875
+He describes Twitter as a global brain in
 
 149
-00:04:37,471 --> 00:04:39,383
-outrage and empty arguments.
+00:04:37,888 --> 00:04:39,300
+a kind of permanent seizure,
 
 150
-00:04:39,796 --> 00:04:41,046
-A tiny hit of dopamine,
+00:04:39,588 --> 00:04:41,762
+constantly firing and never settling.
 
 151
-00:04:41,408 --> 00:04:42,446
-again and again.
+00:04:42,175 --> 00:04:44,788
+Each of us becomes a little reinforcement learning
 
 152
-00:04:42,871 --> 00:04:44,783
-The network learns what keeps us scrolling,
+00:04:44,800 --> 00:04:47,125
+agent, chasing the reward of likes,
 
 153
-00:04:45,146 --> 00:04:46,208
-not what keeps us sane.
+00:04:47,438 --> 00:04:49,350
+outrage and empty arguments.
 
 154
-00:04:46,621 --> 00:04:47,171
-Meanwhile,
+00:04:49,762 --> 00:04:51,012
+A tiny hit of dopamine,
 
 155
-00:04:47,558 --> 00:04:48,583
-in the physical world,
+00:04:51,375 --> 00:04:52,412
+again and again.
 
 156
-00:04:48,983 --> 00:04:51,296
-we use clever accounting to drain the planet,
+00:04:52,838 --> 00:04:54,750
+The network learns what keeps us scrolling,
 
 157
-00:04:51,608 --> 00:04:52,783
-and we call it innovation.
+00:04:55,112 --> 00:04:56,175
+not what keeps us sane.
 
 158
-00:04:53,183 --> 00:04:54,833
-A wise global mind would look at the
+00:04:56,588 --> 00:04:57,138
+Meanwhile,
 
 159
-00:04:54,846 --> 00:04:57,396
-slope we are skiing down and change course.
+00:04:57,525 --> 00:04:58,550
+in the physical world,
 
 160
-00:04:57,808 --> 00:05:00,546
-Our current global mind is too busy refreshing
+00:04:58,950 --> 00:05:01,262
+we use clever accounting to drain the planet,
 
 161
-00:05:00,558 --> 00:05:01,058
-its feed.
+00:05:01,575 --> 00:05:02,750
+and we call it innovation.
 
 162
-00:05:01,471 --> 00:05:03,596
-To understand why we behave this way,
+00:05:03,150 --> 00:05:04,800
+A wise global mind would look at the
 
 163
-00:05:03,983 --> 00:05:05,183
-Bach goes much deeper,
+00:05:04,812 --> 00:05:07,362
+slope we are skiing down and change course.
 
 164
-00:05:05,608 --> 00:05:07,533
-all the way down to the smallest unit
+00:05:07,775 --> 00:05:10,512
+Our current global mind is too busy refreshing
 
 165
-00:05:07,546 --> 00:05:08,083
-of life.
+00:05:10,525 --> 00:05:11,025
+its feed.
 
 166
-00:05:08,579 --> 00:05:09,104
-What is life,
+00:05:11,438 --> 00:05:13,562
+To understand why we behave this way,
 
 167
-00:05:09,129 --> 00:05:09,429
-really?
+00:05:13,950 --> 00:05:15,150
+Bach goes much deeper,
 
 168
-00:05:09,854 --> 00:05:10,867
-Bach starts with the cell.
+00:05:15,575 --> 00:05:17,500
+all the way down to the smallest unit
 
 169
-00:05:11,279 --> 00:05:13,792
-A cell is an extraordinary molecular machine.
+00:05:17,512 --> 00:05:18,050
+of life.
 
 170
-00:05:14,204 --> 00:05:17,092
-It harvests energy from its environment and uses
+00:05:18,546 --> 00:05:19,071
+What is life,
 
 171
-00:05:17,104 --> 00:05:19,017
-it to keep its own structure in order,
+00:05:19,096 --> 00:05:19,396
+really?
 
 172
-00:05:19,392 --> 00:05:20,942
-pushing back against entropy.
+00:05:19,821 --> 00:05:20,833
+Bach starts with the cell.
 
 173
-00:05:21,354 --> 00:05:22,042
-In a sense,
+00:05:21,246 --> 00:05:23,758
+A cell is an extraordinary molecular machine.
 
 174
-00:05:22,267 --> 00:05:24,179
-a cell is a biological computer,
+00:05:24,171 --> 00:05:27,058
+It harvests energy from its environment and uses
 
 175
-00:05:24,467 --> 00:05:26,329
-running a program that keeps it alive.
+00:05:27,071 --> 00:05:28,983
+it to keep its own structure in order,
 
 176
-00:05:26,754 --> 00:05:28,954
-When billions of cells come together to form
+00:05:29,358 --> 00:05:30,908
+pushing back against entropy.
 
 177
-00:05:28,967 --> 00:05:29,517
-a plant,
+00:05:31,321 --> 00:05:32,008
+In a sense,
 
 178
-00:05:29,904 --> 00:05:31,254
-an animal or a human,
+00:05:32,233 --> 00:05:34,146
+a cell is a biological computer,
 
 179
-00:05:31,642 --> 00:05:33,254
-they need rules to cooperate.
+00:05:34,433 --> 00:05:36,296
+running a program that keeps it alive.
 
 180
-00:05:33,679 --> 00:05:35,054
-Something has to coordinate them,
+00:05:36,721 --> 00:05:38,921
+When billions of cells come together to form
 
 181
-00:05:35,417 --> 00:05:37,467
-so that they act as one organism and
+00:05:38,933 --> 00:05:39,483
+a plant,
 
 182
-00:05:37,479 --> 00:05:38,317
-not as a crowd.
+00:05:39,871 --> 00:05:41,221
+an animal or a human,
 
 183
-00:05:38,729 --> 00:05:40,492
-And here Bach makes one of his most
+00:05:41,608 --> 00:05:43,221
+they need rules to cooperate.
 
 184
-00:05:40,504 --> 00:05:41,567
-surprising claims.
+00:05:43,646 --> 00:05:45,021
+Something has to coordinate them,
 
 185
-00:05:41,992 --> 00:05:44,129
-He says that when ancient cultures talked about
+00:05:45,383 --> 00:05:47,433
+so that they act as one organism and
 
 186
-00:05:44,142 --> 00:05:46,529
-spirit, they were pointing at something real.
+00:05:47,446 --> 00:05:48,283
+not as a crowd.
 
 187
-00:05:46,954 --> 00:05:48,692
-Spirit is an old word for what we
+00:05:48,696 --> 00:05:50,458
+And here Bach makes one of his most
 
 188
-00:05:48,704 --> 00:05:50,342
-would now call an operating system.
+00:05:50,471 --> 00:05:51,533
+surprising claims.
 
 189
-00:05:50,767 --> 00:05:52,817
-It is the software that runs an autonomous
+00:05:51,958 --> 00:05:54,096
+He says that when ancient cultures talked about
 
 190
-00:05:52,829 --> 00:05:55,767
-robot, the organizing pattern that makes a body
+00:05:54,108 --> 00:05:56,496
+spirit, they were pointing at something real.
 
 191
-00:05:55,779 --> 00:05:56,554
-act as one.
+00:05:56,921 --> 00:05:58,658
+Spirit is an old word for what we
 
 192
-00:05:56,967 --> 00:05:58,917
-A plant has something like a spirit that
+00:05:58,671 --> 00:06:00,308
+would now call an operating system.
 
 193
-00:05:58,929 --> 00:05:59,829
-links its cells.
+00:06:00,733 --> 00:06:02,783
+It is the software that runs an autonomous
 
 194
-00:06:00,242 --> 00:06:01,429
-An ecosystem has one.
+00:06:02,796 --> 00:06:05,733
+robot, the organizing pattern that makes a body
 
 195
-00:06:01,842 --> 00:06:02,367
-You have one.
+00:06:05,746 --> 00:06:06,521
+act as one.
 
 196
-00:06:02,779 --> 00:06:04,492
-And it does not stop at the individual.
+00:06:06,933 --> 00:06:08,883
+A plant has something like a spirit that
 
 197
-00:06:04,979 --> 00:06:08,504
-Families, companies, religions and nations are higher level
+00:06:08,896 --> 00:06:09,796
+links its cells.
 
 198
-00:06:08,517 --> 00:06:09,554
-operating systems.
+00:06:10,208 --> 00:06:11,396
+An ecosystem has one.
 
 199
-00:06:09,967 --> 00:06:11,742
-They coordinate millions of people,
+00:06:11,808 --> 00:06:12,333
+You have one.
 
 200
-00:06:12,104 --> 00:06:14,567
-the way your mind coordinates billions of cells.
+00:06:12,746 --> 00:06:14,458
+And it does not stop at the individual.
 
 201
-00:06:14,979 --> 00:06:16,279
-A beehive works like this.
+00:06:14,946 --> 00:06:18,471
+Families, companies, religions and nations are higher level
 
 202
-00:06:16,692 --> 00:06:17,767
-So does a civilization.
+00:06:18,483 --> 00:06:19,521
+operating systems.
 
 203
-00:06:18,192 --> 00:06:20,304
-We like to think of ourselves as independent
+00:06:19,933 --> 00:06:21,708
+They coordinate millions of people,
 
 204
-00:06:20,317 --> 00:06:22,642
-heroes, but in many ways we are cells
+00:06:22,071 --> 00:06:24,533
+the way your mind coordinates billions of cells.
 
 205
-00:06:22,717 --> 00:06:24,317
-inside a superorganism.
+00:06:24,946 --> 00:06:26,246
+A beehive works like this.
 
 206
-00:06:24,729 --> 00:06:27,192
-And a superorganism does not care about any
+00:06:26,658 --> 00:06:27,733
+So does a civilization.
 
 207
-00:06:27,204 --> 00:06:27,904
-single cell.
+00:06:28,158 --> 00:06:30,271
+We like to think of ourselves as independent
 
 208
-00:06:28,329 --> 00:06:30,154
-It cares about what keeps the whole system
+00:06:30,283 --> 00:06:32,608
+heroes, but in many ways we are cells
 
 209
-00:06:30,167 --> 00:06:30,442
-running.
+00:06:32,683 --> 00:06:34,283
+inside a superorganism.
 
 210
-00:06:30,854 --> 00:06:33,054
-That raises the most personal question of all.
+00:06:34,696 --> 00:06:37,158
+And a superorganism does not care about any
 
 211
-00:06:33,467 --> 00:06:35,367
-If you are software running on a primate
+00:06:37,171 --> 00:06:37,871
+single cell.
 
 212
-00:06:35,379 --> 00:06:35,729
-body,
+00:06:38,296 --> 00:06:40,121
+It cares about what keeps the whole system
 
 213
-00:06:36,117 --> 00:06:37,992
-what happens to you when the body stops?
+00:06:40,133 --> 00:06:40,408
+running.
 
 214
-00:06:38,500 --> 00:06:40,275
-The deepest human fear is death.
+00:06:40,846 --> 00:06:42,258
+Think about how strange that is.
 
 215
-00:06:40,700 --> 00:06:42,775
-The fear that we will simply disappear from
+00:06:42,683 --> 00:06:43,808
+The beliefs you defend,
 
 216
-00:06:42,787 --> 00:06:43,537
-the universe.
+00:06:44,171 --> 00:06:46,071
+the rules you follow without thinking,
 
 217
-00:06:43,962 --> 00:06:45,662
-But if reality as we know it is
+00:06:46,508 --> 00:06:48,221
+even the things you find beautiful.
 
 218
-00:06:45,675 --> 00:06:47,125
-a model built by the brain,
+00:06:48,633 --> 00:06:50,533
+Many of them were installed by the larger
 
 219
-00:06:47,500 --> 00:06:49,100
-then the self you cling to is part
+00:06:50,546 --> 00:06:51,958
+system you were born into.
 
 220
-00:06:49,112 --> 00:06:49,762
-of that model.
+00:06:52,371 --> 00:06:54,571
+That raises the most personal question of all.
 
 221
-00:06:50,175 --> 00:06:52,450
-Your identity is not a physical object.
+00:06:54,983 --> 00:06:56,883
+If you are software running on a primate
 
 222
-00:06:52,875 --> 00:06:54,875
-Bach describes it as a representation,
+00:06:56,896 --> 00:06:57,246
+body,
 
 223
-00:06:55,300 --> 00:06:57,112
-a pattern that your brain creates to keep
+00:06:57,633 --> 00:06:59,508
+what happens to you when the body stops?
 
 224
-00:06:57,125 --> 00:06:58,325
-track of what it is doing.
+00:07:00,000 --> 00:07:01,775
+The deepest human fear is death.
 
 225
-00:06:58,737 --> 00:06:59,888
-Software does not breathe.
+00:07:02,200 --> 00:07:04,275
+The fear that we will simply disappear from
 
 226
-00:07:00,300 --> 00:07:01,350
-It has no fixed body.
+00:07:04,287 --> 00:07:05,037
+the universe.
 
 227
-00:07:01,762 --> 00:07:02,588
-In that sense,
+00:07:05,462 --> 00:07:07,162
+But if reality as we know it is
 
 228
-00:07:02,775 --> 00:07:05,012
-Bach argues, the self is not the kind
+00:07:07,175 --> 00:07:08,625
+a model built by the brain,
 
 229
-00:07:05,025 --> 00:07:07,050
-of thing that is born or dies the
+00:07:09,000 --> 00:07:10,600
+then the self you cling to is part
 
 230
-00:07:07,062 --> 00:07:07,987
-way a body is.
+00:07:10,612 --> 00:07:11,262
+of that model.
 
 231
-00:07:08,400 --> 00:07:10,250
-What ends at death is the process that
+00:07:11,675 --> 00:07:13,950
+Your identity is not a physical object.
 
 232
-00:07:10,262 --> 00:07:11,462
-keeps telling the story.
+00:07:14,375 --> 00:07:16,375
+Bach describes it as a representation,
 
 233
-00:07:11,888 --> 00:07:13,500
-He gives a fascinating example:
+00:07:16,800 --> 00:07:18,612
+a pattern that your brain creates to keep
 
 234
-00:07:13,900 --> 00:07:14,688
-the Dalai Lama.
+00:07:18,625 --> 00:07:19,825
+track of what it is doing.
 
 235
-00:07:15,100 --> 00:07:16,062
-In Tibetan tradition,
+00:07:20,237 --> 00:07:21,388
+Software does not breathe.
 
 236
-00:07:16,325 --> 00:07:18,725
-the Dalai Lama is not just one man.
+00:07:21,800 --> 00:07:22,850
+It has no fixed body.
 
 237
-00:07:19,138 --> 00:07:19,938
-It is a role,
+00:07:23,262 --> 00:07:24,088
+In that sense,
 
 238
-00:07:20,225 --> 00:07:22,925
-an identity, that is deliberately passed on to
+00:07:24,275 --> 00:07:26,512
+Bach argues, the self is not the kind
 
 239
-00:07:22,938 --> 00:07:23,938
-the next person,
+00:07:26,525 --> 00:07:28,550
+of thing that is born or dies the
 
 240
-00:07:24,200 --> 00:07:25,688
-generation after generation.
+00:07:28,562 --> 00:07:29,487
+way a body is.
 
 241
-00:07:26,100 --> 00:07:28,838
-A kind of software that is consciously reinstalled
+00:07:29,900 --> 00:07:31,750
+What ends at death is the process that
 
 242
-00:07:28,912 --> 00:07:29,812
-into a new body.
+00:07:31,762 --> 00:07:32,962
+keeps telling the story.
 
 243
-00:07:30,225 --> 00:07:32,062
-And Bach suggests that all of us work
+00:07:33,388 --> 00:07:35,000
+He gives a fascinating example:
 
 244
-00:07:32,075 --> 00:07:32,987
-a little like this.
+00:07:35,400 --> 00:07:36,188
+the Dalai Lama.
 
 245
-00:07:33,400 --> 00:07:34,375
-You are not your cells.
+00:07:36,600 --> 00:07:37,562
+In Tibetan tradition,
 
 246
-00:07:34,800 --> 00:07:36,925
-You are a story your organism tells about
+00:07:37,825 --> 00:07:40,225
+the Dalai Lama is not just one man.
 
 247
-00:07:36,938 --> 00:07:37,412
-itself.
+00:07:40,638 --> 00:07:41,438
+It is a role,
 
 248
-00:07:37,862 --> 00:07:38,737
-From this point of view,
+00:07:41,725 --> 00:07:44,425
+an identity, that is deliberately passed on to
 
 249
-00:07:39,050 --> 00:07:40,737
-the fear of death is the panic of
+00:07:44,438 --> 00:07:45,438
+the next person,
 
 250
-00:07:40,750 --> 00:07:42,888
-a program that realizes it will be shut
+00:07:45,700 --> 00:07:47,188
+generation after generation.
 
 251
-00:07:42,900 --> 00:07:44,537
-down before its job is done.
+00:07:47,600 --> 00:07:50,338
+A kind of software that is consciously reinstalled
 
 252
-00:07:44,950 --> 00:07:45,975
-It is a useful panic.
+00:07:50,412 --> 00:07:51,312
+into a new body.
 
 253
-00:07:46,388 --> 00:07:47,737
-It keeps the primate alive.
+00:07:51,725 --> 00:07:53,562
+And Bach suggests that all of us work
 
 254
-00:07:48,162 --> 00:07:49,600
-But it is not the final truth about
+00:07:53,575 --> 00:07:54,487
+a little like this.
 
 255
-00:07:49,612 --> 00:07:50,225
-who you are.
+00:07:54,900 --> 00:07:55,875
+You are not your cells.
 
 256
-00:07:50,638 --> 00:07:52,775
-Bach also points out that through meditation,
+00:07:56,300 --> 00:07:58,425
+You are a story your organism tells about
 
 257
-00:07:53,175 --> 00:07:55,075
-or through a radical shift of attention,
+00:07:58,438 --> 00:07:58,912
+itself.
 
 258
-00:07:55,475 --> 00:07:58,287
-people can sometimes see this mechanism directly.
+00:07:59,362 --> 00:08:00,237
+From this point of view,
 
 259
-00:07:58,712 --> 00:08:00,688
-They notice that the ego is a tool,
+00:08:00,550 --> 00:08:02,237
+the fear of death is the panic of
 
 260
-00:08:00,925 --> 00:08:02,938
-a control model the body uses,
+00:08:02,250 --> 00:08:04,388
+a program that realizes it will be shut
 
 261
-00:08:03,175 --> 00:08:04,737
-and not the master of the house.
+00:08:04,400 --> 00:08:06,037
+down before its job is done.
 
 262
-00:08:05,150 --> 00:08:06,325
-Seeing that can be frightening.
+00:08:06,450 --> 00:08:07,475
+It is a useful panic.
 
 263
-00:08:06,737 --> 00:08:08,475
-It can also be strangely liberating.
+00:08:07,888 --> 00:08:09,237
+It keeps the primate alive.
 
 264
-00:08:08,979 --> 00:08:10,617
-So we arrive at the question we left
+00:08:09,662 --> 00:08:11,100
+But it is not the final truth about
 
 265
-00:08:10,629 --> 00:08:11,517
-open at the start.
+00:08:11,112 --> 00:08:11,725
+who you are.
 
 266
-00:08:11,929 --> 00:08:14,142
-If the world we see is a simulation,
+00:08:12,138 --> 00:08:14,275
+Bach also points out that through meditation,
 
 267
-00:08:14,504 --> 00:08:15,917
-if the self is a story,
+00:08:14,675 --> 00:08:16,575
+or through a radical shift of attention,
 
 268
-00:08:16,217 --> 00:08:18,767
-and if civilization is skiing toward an abyss,
+00:08:16,975 --> 00:08:19,787
+people can sometimes see this mechanism directly.
 
 269
-00:08:19,167 --> 00:08:20,529
-then what is all of this for?
+00:08:20,212 --> 00:08:22,188
+They notice that the ego is a tool,
 
 270
-00:08:20,942 --> 00:08:21,917
-And what is happiness?
+00:08:22,425 --> 00:08:24,438
+a control model the body uses,
 
 271
-00:08:22,342 --> 00:08:23,929
-Bach's answer begins with suffering.
+00:08:24,675 --> 00:08:26,237
+and not the master of the house.
 
 272
-00:08:24,354 --> 00:08:26,779
-Suffering happens when your mind cares about things
+00:08:26,650 --> 00:08:27,825
+Seeing that can be frightening.
 
 273
-00:08:26,792 --> 00:08:27,779
-it cannot change.
+00:08:28,237 --> 00:08:29,975
+It can also be strangely liberating.
 
 274
-00:08:28,192 --> 00:08:29,829
-It keeps pushing against a wall,
+00:08:30,479 --> 00:08:32,117
+So we arrive at the question we left
 
 275
-00:08:30,129 --> 00:08:31,392
-and the wall does not move.
+00:08:32,129 --> 00:08:33,017
+open at the start.
 
 276
-00:08:31,804 --> 00:08:32,492
-And happiness?
+00:08:33,429 --> 00:08:35,642
+If the world we see is a simulation,
 
 277
-00:08:32,917 --> 00:08:35,142
-The outside world cannot make you happy,
+00:08:36,004 --> 00:08:37,417
+if the self is a story,
 
 278
-00:08:35,417 --> 00:08:37,429
-because the world itself is neutral.
+00:08:37,717 --> 00:08:40,267
+and if civilization is skiing toward an abyss,
 
 279
-00:08:37,842 --> 00:08:38,729
-Rain is not sad.
+00:08:40,667 --> 00:08:42,029
+then what is all of this for?
 
 280
-00:08:39,142 --> 00:08:40,167
-Money is not joyful.
+00:08:42,442 --> 00:08:43,417
+And what is happiness?
 
 281
-00:08:40,579 --> 00:08:42,392
-Only your mind decides what things mean.
+00:08:43,842 --> 00:08:45,429
+Bach's answer begins with suffering.
 
 282
-00:08:42,817 --> 00:08:44,617
-That is why Bach offers this line,
+00:08:45,854 --> 00:08:48,279
+Suffering happens when your mind cares about things
 
 283
-00:08:45,017 --> 00:08:46,617
-one of the most memorable of the whole
+00:08:48,292 --> 00:08:49,279
+it cannot change.
 
 284
-00:08:46,629 --> 00:08:47,392
-conversation:
+00:08:49,692 --> 00:08:51,329
+It keeps pushing against a wall,
 
 285
-00:08:47,854 --> 00:08:49,917
-happiness is a cookie that your brain bakes
+00:08:51,629 --> 00:08:52,892
+and the wall does not move.
 
 286
-00:08:49,929 --> 00:08:50,629
-for itself.
+00:08:53,304 --> 00:08:53,992
+And happiness?
 
 287
-00:08:51,079 --> 00:08:52,842
-Think of the cookie a parent promises a
+00:08:54,417 --> 00:08:56,642
+The outside world cannot make you happy,
 
 288
-00:08:52,854 --> 00:08:55,042
-child to get them to eat their vegetables.
+00:08:56,917 --> 00:08:58,929
+because the world itself is neutral.
 
 289
-00:08:55,454 --> 00:08:57,392
-Your nervous system does the same thing.
+00:08:59,342 --> 00:09:00,229
+Rain is not sad.
 
 290
-00:08:57,817 --> 00:09:00,567
-Pleasure and satisfaction are signals from your own
+00:09:00,642 --> 00:09:01,667
+Money is not joyful.
 
 291
-00:09:00,579 --> 00:09:01,454
-operating system,
+00:09:02,079 --> 00:09:03,892
+Only your mind decides what things mean.
 
 292
-00:09:01,842 --> 00:09:04,229
-rewards that keep your primate body fighting,
+00:09:04,317 --> 00:09:06,117
+That is why Bach offers this line,
 
 293
-00:09:04,542 --> 00:09:05,692
-learning and building.
+00:09:06,517 --> 00:09:08,117
+one of the most memorable of the whole
 
 294
-00:09:06,117 --> 00:09:07,317
-The cookie was never out there.
+00:09:08,129 --> 00:09:08,892
+conversation:
 
 295
-00:09:07,729 --> 00:09:08,917
-It was always baked in here.
+00:09:09,354 --> 00:09:11,417
+happiness is a cookie that your brain bakes
 
 296
-00:09:09,342 --> 00:09:11,367
-So stop chasing the cookie in the outside
+00:09:11,429 --> 00:09:12,129
+for itself.
 
 297
-00:09:11,379 --> 00:09:11,779
-world.
+00:09:12,579 --> 00:09:14,342
+Think of the cookie a parent promises a
 
 298
-00:09:12,192 --> 00:09:14,567
-Instead, try to understand your own software.
+00:09:14,354 --> 00:09:16,542
+child to get them to eat their vegetables.
 
 299
-00:09:14,979 --> 00:09:16,992
-Notice the stories your mind tells you,
+00:09:16,954 --> 00:09:18,892
+Your nervous system does the same thing.
 
 300
-00:09:17,379 --> 00:09:18,754
-the rewards it dangles,
+00:09:19,317 --> 00:09:22,067
+Pleasure and satisfaction are signals from your own
 
 301
-00:09:18,967 --> 00:09:20,167
-the fears it runs.
+00:09:22,079 --> 00:09:22,954
+operating system,
 
 302
-00:09:20,592 --> 00:09:22,604
-Because once you see the simulation for what
+00:09:23,342 --> 00:09:25,729
+rewards that keep your primate body fighting,
 
 303
-00:09:22,617 --> 00:09:24,667
-it is, you can stop being a character
+00:09:26,042 --> 00:09:27,192
+learning and building.
 
 304
-00:09:24,679 --> 00:09:24,954
-in it,
+00:09:27,617 --> 00:09:28,817
+The cookie was never out there.
 
 305
-00:09:25,342 --> 00:09:26,654
-and start becoming its author.
+00:09:29,229 --> 00:09:30,417
+It was always baked in here.
 
 306
-00:09:27,067 --> 00:09:29,367
-If this conversation bent your mind a little,
+00:09:30,842 --> 00:09:33,167
+This also explains why so many people reach
 
 307
-00:09:29,729 --> 00:09:32,242
-watch the full Lex Fridman episode linked in
+00:09:33,329 --> 00:09:35,667
+every goal they set and still feel empty.
 
 308
-00:09:32,254 --> 00:09:32,942
-the description,
+00:09:36,092 --> 00:09:36,704
+The promotion,
 
 309
-00:09:33,304 --> 00:09:35,617
-and subscribe for more animated breakdowns of the
+00:09:37,067 --> 00:09:39,042
+the house, the bigger number in the bank
 
 310
-00:09:35,629 --> 00:09:37,454
+00:09:39,054 --> 00:09:39,479
+account.
+
+311
+00:09:39,892 --> 00:09:41,904
+Each one delivers a cookie for a moment,
+
+312
+00:09:42,229 --> 00:09:44,354
+and then the nervous system raises the bar.
+
+313
+00:09:44,779 --> 00:09:46,617
+The reward was never in the object.
+
+314
+00:09:47,029 --> 00:09:47,817
+It was a signal,
+
+315
+00:09:48,167 --> 00:09:49,367
+designed to keep you moving.
+
+316
+00:09:49,792 --> 00:09:51,817
+So stop chasing the cookie in the outside
+
+317
+00:09:51,829 --> 00:09:52,229
+world.
+
+318
+00:09:52,642 --> 00:09:55,017
+Instead, try to understand your own software.
+
+319
+00:09:55,429 --> 00:09:57,442
+Notice the stories your mind tells you,
+
+320
+00:09:57,829 --> 00:09:59,204
+the rewards it dangles,
+
+321
+00:09:59,417 --> 00:10:00,617
+the fears it runs.
+
+322
+00:10:01,042 --> 00:10:03,054
+Because once you see the simulation for what
+
+323
+00:10:03,067 --> 00:10:05,117
+it is, you can stop being a character
+
+324
+00:10:05,129 --> 00:10:05,404
+in it,
+
+325
+00:10:05,792 --> 00:10:07,104
+and start becoming its author.
+
+326
+00:10:07,517 --> 00:10:09,817
+If this conversation bent your mind a little,
+
+327
+00:10:10,179 --> 00:10:12,692
+watch the full Lex Fridman episode linked in
+
+328
+00:10:12,704 --> 00:10:13,392
+the description,
+
+329
+00:10:13,754 --> 00:10:16,067
+and subscribe for more animated breakdowns of the
+
+330
+00:10:16,079 --> 00:10:17,904
 ideas that shape our future.

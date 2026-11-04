@@ -139,57 +139,73 @@ many people will not survive.
 We are far more fragile than we feel.
 
 36
-00:01:02,275 --> 00:01:05,275
-In nature, a species that consumes its environment
+00:01:02,262 --> 00:01:04,662
+Our great grandparents knew how to grow food,
 
 37
-00:01:05,287 --> 00:01:07,362
-faster than it can recover behaves like a
+00:01:05,050 --> 00:01:07,312
+mend clothes and survive a hard winter.
 
 38
-00:01:07,375 --> 00:01:08,012
-parasite,
+00:01:07,725 --> 00:01:09,488
+Most of us would not last a week
 
 39
-00:01:08,425 --> 00:01:09,700
-and it usually collapses.
+00:01:09,550 --> 00:01:11,850
+without supply chains we never even see.
 
 40
-00:01:10,112 --> 00:01:12,325
-Our civilization is betting that we can stay
+00:01:12,275 --> 00:01:15,275
+In nature, a species that consumes its environment
 
 41
-00:01:12,338 --> 00:01:13,675
-in control of this machine.
+00:01:15,288 --> 00:01:17,362
+faster than it can recover behaves like a
 
 42
-00:01:14,100 --> 00:01:14,938
-But in Bach's view,
+00:01:17,375 --> 00:01:18,012
+parasite,
 
 43
-00:01:15,338 --> 00:01:17,150
-it is not clear that anyone is steering.
+00:01:18,425 --> 00:01:19,700
+and it usually collapses.
 
 44
-00:01:17,575 --> 00:01:19,325
-The machine is rolling downhill,
+00:01:20,112 --> 00:01:22,325
+Our civilization is betting that we can stay
 
 45
-00:01:19,612 --> 00:01:21,375
-and no one knows which button would stop
+00:01:22,338 --> 00:01:23,675
+in control of this machine.
 
 46
-00:01:21,388 --> 00:01:21,538
-it.
+00:01:24,100 --> 00:01:24,938
+But in Bach's view,
 
 47
-00:01:21,962 --> 00:01:23,800
-So could something smarter than us pull the
+00:01:25,338 --> 00:01:27,150
+it is not clear that anyone is steering.
 
 48
-00:01:23,812 --> 00:01:24,750
-emergency brake?
+00:01:27,575 --> 00:01:29,325
+The machine is rolling downhill,
 
 49
-00:01:25,162 --> 00:01:28,300
+00:01:29,612 --> 00:01:31,375
+and no one knows which button would stop
+
+50
+00:01:31,388 --> 00:01:31,538
+it.
+
+51
+00:01:31,962 --> 00:01:33,800
+So could something smarter than us pull the
+
+52
+00:01:33,812 --> 00:01:34,750
+emergency brake?
+
+53
+00:01:35,162 --> 00:01:38,300
 Many people hope that something is artificial intelligence.

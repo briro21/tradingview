@@ -175,17 +175,41 @@ It cares about what keeps the whole system
 running.
 
 45
-00:01:22,388 --> 00:01:24,587
-That raises the most personal question of all.
+00:01:22,412 --> 00:01:23,825
+Think about how strange that is.
 
 46
-00:01:25,000 --> 00:01:26,900
-If you are software running on a primate
+00:01:24,250 --> 00:01:25,375
+The beliefs you defend,
 
 47
-00:01:26,912 --> 00:01:27,262
-body,
+00:01:25,738 --> 00:01:27,637
+the rules you follow without thinking,
 
 48
-00:01:27,650 --> 00:01:29,525
+00:01:28,075 --> 00:01:29,788
+even the things you find beautiful.
+
+49
+00:01:30,200 --> 00:01:32,100
+Many of them were installed by the larger
+
+50
+00:01:32,112 --> 00:01:33,525
+system you were born into.
+
+51
+00:01:33,938 --> 00:01:36,137
+That raises the most personal question of all.
+
+52
+00:01:36,550 --> 00:01:38,450
+If you are software running on a primate
+
+53
+00:01:38,462 --> 00:01:38,812
+body,
+
+54
+00:01:39,200 --> 00:01:41,075
 what happens to you when the body stops?
