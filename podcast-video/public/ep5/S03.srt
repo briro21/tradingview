@@ -1,0 +1,199 @@
+1
+00:00:00,125 --> 00:00:00,562
+For Bach,
+
+2
+00:00:00,962 --> 00:00:03,262
+AI is much more than automated statistics.
+
+3
+00:00:03,688 --> 00:00:06,588
+He sees it as humanity's last great philosophical
+
+4
+00:00:06,600 --> 00:00:07,150
+project.
+
+5
+00:00:07,562 --> 00:00:09,225
+Intelligence, at its core,
+
+6
+00:00:09,638 --> 00:00:11,950
+is the ability to make models of reality.
+
+7
+00:00:12,362 --> 00:00:13,925
+And the real goal of AI is a
+
+8
+00:00:13,938 --> 00:00:15,638
+system that can model itself,
+
+9
+00:00:16,012 --> 00:00:18,225
+a mind that finally understands what a mind
+
+10
+00:00:18,238 --> 00:00:18,550
+is.
+
+11
+00:00:18,962 --> 00:00:19,650
+Seen this way,
+
+12
+00:00:19,900 --> 00:00:22,150
+the Turing test is not really a test
+
+13
+00:00:22,162 --> 00:00:23,412
+of how clever machines are.
+
+14
+00:00:23,825 --> 00:00:25,388
+It is a recursive test of us.
+
+15
+00:00:25,812 --> 00:00:28,487
+Are human beings intelligent enough to understand their
+
+16
+00:00:28,500 --> 00:00:30,238
+own minds well enough to build one?
+
+17
+00:00:30,650 --> 00:00:32,088
+If we can rebuild ourselves,
+
+18
+00:00:32,338 --> 00:00:34,225
+we have finally understood ourselves.
+
+19
+00:00:34,650 --> 00:00:36,338
+But instead of building a wise mind,
+
+20
+00:00:36,712 --> 00:00:38,575
+we have spent the last decade building a
+
+21
+00:00:38,588 --> 00:00:39,137
+sick one.
+
+22
+00:00:39,575 --> 00:00:42,275
+Bach compares social media to a global brain,
+
+23
+00:00:42,700 --> 00:00:45,700
+billions of people wired together into one giant
+
+24
+00:00:45,712 --> 00:00:46,225
+network.
+
+25
+00:00:46,638 --> 00:00:47,675
+And what does that brain do?
+
+26
+00:00:48,088 --> 00:00:49,688
+It has no stable sense of what is
+
+27
+00:00:49,700 --> 00:00:50,125
+real,
+
+28
+00:00:50,525 --> 00:00:52,400
+no brakes, no one in charge.
+
+29
+00:00:52,838 --> 00:00:55,275
+He describes Twitter as a global brain in
+
+30
+00:00:55,288 --> 00:00:56,700
+a kind of permanent seizure,
+
+31
+00:00:56,988 --> 00:00:59,162
+constantly firing and never settling.
+
+32
+00:00:59,575 --> 00:01:02,188
+Each of us becomes a little reinforcement learning
+
+33
+00:01:02,200 --> 00:01:04,525
+agent, chasing the reward of likes,
+
+34
+00:01:04,838 --> 00:01:06,750
+outrage and empty arguments.
+
+35
+00:01:07,162 --> 00:01:08,413
+A tiny hit of dopamine,
+
+36
+00:01:08,775 --> 00:01:09,812
+again and again.
+
+37
+00:01:10,238 --> 00:01:12,150
+The network learns what keeps us scrolling,
+
+38
+00:01:12,512 --> 00:01:13,575
+not what keeps us sane.
+
+39
+00:01:13,988 --> 00:01:14,538
+Meanwhile,
+
+40
+00:01:14,925 --> 00:01:15,950
+in the physical world,
+
+41
+00:01:16,350 --> 00:01:18,662
+we use clever accounting to drain the planet,
+
+42
+00:01:18,975 --> 00:01:20,150
+and we call it innovation.
+
+43
+00:01:20,550 --> 00:01:22,200
+A wise global mind would look at the
+
+44
+00:01:22,212 --> 00:01:24,762
+slope we are skiing down and change course.
+
+45
+00:01:25,175 --> 00:01:27,912
+Our current global mind is too busy refreshing
+
+46
+00:01:27,925 --> 00:01:28,425
+its feed.
+
+47
+00:01:28,838 --> 00:01:30,962
+To understand why we behave this way,
+
+48
+00:01:31,350 --> 00:01:32,550
+Bach goes much deeper,
+
+49
+00:01:32,975 --> 00:01:34,900
+all the way down to the smallest unit
+
+50
+00:01:34,912 --> 00:01:35,450
+of life.
