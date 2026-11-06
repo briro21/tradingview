@@ -245,3 +245,4 @@ dist/
 
 # Remotion promo video project (source + renders kept out of the repo)
 promo/
+video-output/
