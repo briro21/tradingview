@@ -4,3 +4,5 @@ voice/*.onnx
 voice/*.onnx.json
 voice/*.wav
 public/*.wav
+blender/assets/
+blender/out/
