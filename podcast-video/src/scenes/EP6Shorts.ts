@@ -9,7 +9,7 @@ const { red, green, blue, purple } = theme;
 
 const CTA = (at: string): Beat => ({
   at,
-  items: [T("3.5 HRS", 500, 230, { size: 120 }), A(500, 320, 500, 420, red), T("10 MIN", 500, 520, { size: 140, color: red }), H("full animated summary", 500, 660, { size: 70 }), I("bell", 500, 900, 1.6, { at: "subscribe" }), O(500, 900, 210, 210, red)],
+  items: [T("3.5 HRS", 500, 230, { size: 120 }), A(500, 320, 500, 420, red), T("10 MIN", 500, 520, { size: 140, color: red }), H("full animated summary", 500, 660, { size: 70 }), I("bell", 500, 900, 1.6), O(500, 900, 210, 210, red)],
 });
 
 /** Teorema Terakhir Fermat: 13 juta baris, "keep going". */
