@@ -1,4 +1,4 @@
-# Blind old man (Waraqah): seated hooded figure, white beard, face hidden in shadow; candle flicker; smoke at floor. Slow push-in.
+# Blind old man (Waraqah): seated hooded figure, face hidden in shadow; candle flicker; smoke at floor. Slow push-in.
 exec(open(__import__('os').path.join(__import__('os').path.dirname(__file__), '_common.py')).read())
 reset(); materials()
 F = 102
@@ -11,7 +11,6 @@ lib._meta('orobe', [((0, 0, 0.3), 1, (.7, .6, .32)), ((0, 0.05, 0.85), 1, (.34, 
                      ((0.3, -0.15, 0.95), 1, (.1, .12, .3)), ((-0.3, -0.1, 0.9), 1, (.1, .12, .3))], robe, e, k=1)
 lib._meta('ohood', [((0, 0.06, 1.62), 1, (.19, .21, .23)), ((0, 0.14, 1.45), 1, (.24, .2, .18))], robe, e, k=1)
 obj('sphere', (0, -0.1, 1.6), (0.12, 0.08, 0.15), M.DARK, parent=e)            # deep hood shadow, no face
-lib._meta('beard', [((0, -0.17, 1.47), 1, (.09, .05, .08)), ((0, -0.2, 1.33), 1, (.07, .045, .12))], beard, e, res=0.015, k=1)
 cyl((0.42, -0.3, 1.0), 0.035, 2.3, M.WOOD, parent=e)                              # staff
 obj('sphere', (0.42, -0.33, 1.05), (0.07, 0.06, 0.08), flat('hand', (0.35, 0.2, 0.12), 0.7), parent=e)
 for sx in (-1.6, 1.4):

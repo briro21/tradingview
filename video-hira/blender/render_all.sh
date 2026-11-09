@@ -1,7 +1,7 @@
 #!/bin/bash
 # Renders every Blender shot as a PNG sequence (960x540, 16 spp + denoise). Skips frames already rendered.
 cd "$(dirname "$0")"
-for n in s4_valley s5_market s6_caravan s7_pilgrims s2_oldman s0_hook; do
+for n in ${SHOTS:-s4_valley s5_market s6_caravan s7_pilgrims s2_oldman s0_hook}; do
   mkdir -p out/$n
   F=$(grep -m1 '^F = ' shots/$n.py | cut -d' ' -f3)
   done_n=$(ls out/$n 2>/dev/null | wc -l)

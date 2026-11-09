@@ -39,8 +39,8 @@ const Fade: React.FC<{a: number; b: number}> = ({a, b}) => { const f = useCurren
 const Strobe: React.FC = () => { const f = useCurrentFrame(); return <AbsoluteFill style={{background: '#fff', opacity: random('st' + f) > 0.72 ? 0.5 : 0, mixBlendMode: 'screen'}} />; };
 
 const montage: [string, number, number][] = [
-  ['ai/camel.mp4', 0, 1.0], ['shots/s5_market.mp4', 10, 1.0], ['ai/elder.mp4', 20, 1.0],
-  ['shots/s7_pilgrims.mp4', 20, 1.3], ['ai/camel.mp4', 20, 1.0], ['shots/s4_valley.mp4', 40, 1.2], ['ai/man.mp4', 60, 0.6],
+  ['shots/s5_market.mp4', 10, 1.0], ['shots/s6_caravan.mp4', 30, 1.2], ['shots/s7_pilgrims.mp4', 20, 1.3],
+  ['shots/s4_valley.mp4', 40, 1.2], ['shots/s2_oldman.mp4', 30, 1.0], ['shots/s6_caravan.mp4', 90, 1.5], ['shots/s7_pilgrims.mp4', 100, 1.5],
 ];
 
 export const HookFilm: React.FC = () => {
@@ -52,14 +52,14 @@ export const HookFilm: React.FC = () => {
       {/* 0-2s black; breathing */}
       {/* cave */}
       <Sequence from={fr(a0)} durationInFrames={caveLen}>
-        <Shake amp={2}><Clip src="ai/man.mp4" from={0} rate={0.56} zoom={[1, 1.1]} /></Shake>
+        <Shake amp={3}><Clip src="shots/s0_hook.mp4" from={0} zoom={[1, 1.12]} /></Shake>
         <Dust n={40} color="170,200,255" seed="h" speed={0.4} size={2} />
         <Fade a={0} b={20} />
         <Sequence from={fr(4.0)} durationInFrames={fr(2.7)}><Strobe /></Sequence>
       </Sequence>
       {/* "It was not human" - strobing cave stutter + slam */}
       <Sequence from={fr(a1 - 0.05)} durationInFrames={fr(1.15)}>
-        <Shake amp={22}><Clip src="ai/man.mp4" from={78} rate={0.5} zoom={[1.15, 1.45]} /></Shake>
+        <Shake amp={22}><Clip src="shots/s0_hook.mp4" from={90} zoom={[1.2, 1.5]} /></Shake>
         <Flash len={8} />
         <Slam text="NOT HUMAN" size={250} glow="rgba(120,170,255,.8)" />
       </Sequence>
@@ -79,12 +79,12 @@ export const HookFilm: React.FC = () => {
       ))}
       {/* old man + prophecy tease */}
       <Sequence from={fr(14.5)} durationInFrames={fr(2.6)}>
-        <Clip src="ai/elder.mp4" zoom={[1, 1.12]} />
+        <Clip src="shots/s2_oldman.mp4" zoom={[1, 1.15]} />
         <Flash color="#ffd9a0" len={9} a={0.8} />
         <Grain opacity={0.1} />
       </Sequence>
       <Sequence from={fr(17.1)} durationInFrames={fr(3.5)}>
-        <Rewind><Clip src="ai/elder_rev.mp4" zoom={[1.05, 1.2]} /></Rewind>
+        <Rewind><Clip src="shots/s2_oldman_rev.mp4" zoom={[1.05, 1.2]} /></Rewind>
       </Sequence>
       {/* end title */}
       <Sequence from={fr(20.6)} durationInFrames={total - fr(20.6)}>
