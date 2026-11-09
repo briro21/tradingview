@@ -5,6 +5,20 @@ import {Dust, Grain, Vignette, Shake} from './fx';
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
 // 0: HOOK — pitch-black cave, cold side light, faceless; "NOT HUMAN"
+export const NotHuman: React.FC = () => {
+  const f = useCurrentFrame();
+  const {durationInFrames: D, fps} = useVideoConfig();
+  const hit = Math.round(D - 2.0 * fps);
+  const s = spring({frame: f - hit, fps, config: {damping: 9, mass: 0.6}});
+  if (f <= hit) return null;
+  return (
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', transform: `translate(${(random('nh' + f) - 0.5) * 10 * Math.max(0, 1 - (f - hit) / 15)}px,0)`}}>
+      <div style={{fontFamily: 'Impact, "Arial Black", sans-serif', fontSize: 260, color: '#f4f6ff', letterSpacing: 10, transform: `scale(${interpolate(s, [0, 1], [3, 1])})`, opacity: Math.min(1, s * 2),
+        textShadow: '0 0 40px rgba(140,180,255,.5)', WebkitMaskImage: 'repeating-linear-gradient(115deg,#000 0 38px,transparent 38px 41px,#000 41px 90px,transparent 90px 92px)'}}>NOT HUMAN</div>
+    </AbsoluteFill>
+  );
+};
+
 export const Hook: React.FC = () => {
   const f = useCurrentFrame();
   const {durationInFrames: D, fps} = useVideoConfig();

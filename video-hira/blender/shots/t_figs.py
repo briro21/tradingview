@@ -1,0 +1,8 @@
+exec(open(__import__('os').path.join(__import__('os').path.dirname(__file__), '_common.py')).read())
+reset(); materials()
+ground(strength=0.2)
+person(0, 0, 0, M.CLOTHS[0]); person(1.2, 0.3, 0.4, M.WHITE, staff=True)
+camel(-2.5, 1, 0.3, load=M.SILK[1]); sheep(2.6, -0.4, 1)
+world(); sun()
+c = camera(lens=35); key_cam(c, [(1, (0, -8, 2), (-0.5, 0, 1.2))])
+go(1, mist=None)
