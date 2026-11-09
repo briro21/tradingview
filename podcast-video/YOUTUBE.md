@@ -447,3 +447,106 @@ Full 10-minute summary on my channel. Original episode: https://www.youtube.com/
 
 #Shorts #LexFridman #AI #FutureOfWork #Career #PodcastSummary
 ```
+
+# Episode 6 (upload): Robert Pape × The Diary of a CEO, podcast summary
+
+Di repo bernama Episode 7 (`Episode7`, `out/episode7.mp4`, `out/ep7-thumbnail-*.png`, Shorts `out/ep7-short1..4.mp4`).
+
+Sumber: **The Diary of a CEO**, "Iran War Expert: If Escalation Continues, 2027 Will Be a Disaster! | Prof. Robert Pape" (±90 menit).
+https://www.youtube.com/watch?v=a1mI-ozLyYM
+
+Catatan isi: topik politik dan prediktif. Narasi selalu membingkai klaim sebagai analisis/skenario Pape ("Pape says", "in his view", "he estimates"), memuat angka survei dua sisi (40 juta & 60 juta), dan mengutip penegasannya bahwa ini "a pathway, not a certainty". Bagian kripto/keluarga Trump sengaja tidak dimasukkan.
+
+## Video utama (11:06)
+
+**Judul (pilih salah satu):**
+- The 8 Most Dangerous Weeks of Our Lives: Robert Pape on Diary of a CEO in 10 Minutes
+- Iran War Expert Robert Pape: The Road to WW3 | Diary of a CEO Podcast Summary (Animated)
+- The Escalation Trap: Robert Pape's 90-Minute Diary of a CEO Interview in 10 Minutes
+
+**Deskripsi:**
+
+```
+The 90-minute Diary of a CEO interview with Prof. Robert Pape, summarized in 10 animated minutes.
+
+Political scientist Robert Pape has studied political violence for 30 years and advised every White House since 9/11. On The Diary of a CEO with Steven Bartlett, he argues we are entering the eight most dangerous weeks of our lives, as three crises collide: a tense US transfer of power after the midterms, a reported three-day bombing plan for Iran, and a "dark winter" threat against Ukraine. He explains the escalation trap (why war is roulette, not chess), why "three days" can become forty-three, what he calls violent populism, his scenario for how this could escalate toward world war three, and the three firebreaks he believes can still stop it.
+
+This is an independent animated summary and commentary. It presents Prof. Pape's analysis and forecasts as he stated them, not as established fact. All credit for the original conversation goes to The Diary of a CEO and Prof. Robert Pape. Watch the full episode here:
+▶ https://www.youtube.com/watch?v=a1mI-ozLyYM
+
+CHAPTERS
+0:00 The 8 most dangerous weeks of our lives?
+0:29 Part 1: Three crises, the same eight weeks
+2:10 Part 2: The escalation trap (chess vs roulette)
+3:55 Part 3: The 3-day plan and inspired attacks
+5:44 Part 4: Putin's next move and the political wildfire
+7:30 Part 5: Troops, cyber attacks and world war three
+9:19 Part 6: Three firebreaks (and should you stockpile?)
+
+Subscribe for more long podcasts summarized in 10 animated minutes.
+
+#DiaryOfACEO #PodcastSummary #RobertPape #IranWar #Geopolitics #WW3 #StevenBartlett
+```
+
+**Tags:**
+Diary of a CEO, The Diary of a CEO, Diary of a CEO summary, Steven Bartlett, Robert Pape, Prof Robert Pape, podcast summary, animated summary, podcast in 10 minutes, Iran war, escalation trap, Instant Thunder, Strait of Hormuz, midterms, violent populism, Insurrection Act, Putin, Ukraine, world war 3, geopolitics, firebreaks
+
+## Thumbnail
+
+Semua opsi punya strip **"🎙 90-MIN PODCAST → 10 MIN"** dan badge **"Robert Pape × Diary of a CEO"**.
+
+- `out/ep7-thumbnail-A.png`: THE MOST DANGEROUS WEEKS OF OUR LIVES + kalender "8" (sama dengan frame pertama video)
+- `out/ep7-thumbnail-B.png`: IRAN WAR IS ROULETTE · ESCALATION TRAP
+- `out/ep7-thumbnail-C.png`: THE ROAD TO WW3? · 3 WAYS TO STOP IT
+
+## Shorts (4 video)
+
+Semua Shorts ditutup dengan ajakan ke ringkasan 10 menit di channel. Taruh link video utama di komentar yang di-pin.
+
+### Short 1: Perang itu roulette · `out/ep7-short1.mp4`
+
+**Judul:** Why a Superpower Can't Walk Away From a War #shorts
+
+```
+Political scientist Robert Pape on The Diary of a CEO: war isn't chess, it's roulette. The gambler doubles down, and that's the escalation trap. Summarized and animated.
+
+Full 10-minute summary on my channel. Original episode: https://www.youtube.com/watch?v=a1mI-ozLyYM
+
+#Shorts #DiaryOfACEO #RobertPape #IranWar #Geopolitics #PodcastSummary
+```
+
+### Short 2: "Tiga hari" jadi 43 hari · `out/ep7-short2.mp4`
+
+**Judul:** The "3-Day" Bombing Plan That Lasted 43 Days #shorts
+
+```
+Robert Pape says the reported three-day plan for Iran looks like Instant Thunder, the 1991 Iraq plan that was meant to last three days and lasted forty-three. From The Diary of a CEO, summarized and animated.
+
+Full 10-minute summary on my channel. Original episode: https://www.youtube.com/watch?v=a1mI-ozLyYM
+
+#Shorts #DiaryOfACEO #RobertPape #IranWar #History #PodcastSummary
+```
+
+### Short 3: Kebakaran hutan politik · `out/ep7-short3.mp4`
+
+**Judul:** Why America's Political Violence Is Like a Wildfire #shorts
+
+```
+Robert Pape's surveys: over 40 million Americans support using the military against anti-Trump protesters, over 60 million support force to stop Trump. The dry wood is huge. The spark is unpredictable. From The Diary of a CEO.
+
+Full 10-minute summary on my channel. Original episode: https://www.youtube.com/watch?v=a1mI-ozLyYM
+
+#Shorts #DiaryOfACEO #RobertPape #Politics #Democracy #PodcastSummary
+```
+
+### Short 4: Menimbun persediaan? · `out/ep7-short4.mp4`
+
+**Judul:** Should You Stockpile Water? A War Expert Says No #shorts
+
+```
+Britain told households to stockpile three days of supplies. Robert Pape, who has advised every White House since 9/11, says he isn't doing it, and explains what actually buys time. From The Diary of a CEO.
+
+Full 10-minute summary on my channel. Original episode: https://www.youtube.com/watch?v=a1mI-ozLyYM
+
+#Shorts #DiaryOfACEO #RobertPape #Preparedness #Geopolitics #PodcastSummary
+```

@@ -658,6 +658,66 @@ export const ICONS: Record<string, Stroke[]> = {
     { d: "M50 62 L44 88 M50 62 L56 88 M40 90 L60 90", w: 1.1 },
     { d: "M22 40 C16 54 18 66 26 74 M78 40 C84 54 82 66 74 74", color: blue },
   ],
+  bomb: [
+    { d: C(46, 58, 30), fill: "#37474F" },
+    { d: R(40, 22, 14, 10), fill: gray },
+    { d: "M47 22 C50 12 60 10 66 14", color: orange, w: 1.1 },
+    { d: rays(70, 12, 3, 9, 8), color: red },
+    { d: "M30 48 C32 42 36 38 42 36", color: "#B0BEC5" },
+  ],
+  fire: [
+    { d: "M50 92 C26 92 16 74 22 56 C26 44 34 40 34 28 C44 36 46 44 46 50 C50 40 52 24 62 10 C66 30 82 40 82 62 C82 80 70 92 50 92 Z", fill: orange },
+    { d: "M50 90 C38 90 34 80 38 70 C42 62 46 60 48 52 C54 60 64 66 62 78 C60 86 56 90 50 90 Z", fill: yellow },
+  ],
+  battery: [
+    { d: R(22, 28, 52, 44), fill: green },
+    { d: R(74, 40, 8, 20), fill: ink },
+    { d: R(22, 28, 18, 44), fill: "#C8E6C9" },
+    { d: L(46, 50, 58, 50) + " " + L(52, 44, 52, 56), color: "#FFFFFF", w: 1.2 },
+  ],
+  bottle: [
+    { d: "M42 10 L58 10 L58 24 C70 30 72 38 72 46 L72 88 C72 92 70 94 66 94 L34 94 C30 94 28 92 28 88 L28 46 C28 38 30 30 42 24 Z", fill: "#B3E5FC" },
+    { d: R(40, 6, 20, 8), fill: blue },
+    { d: R(28, 52, 44, 20), fill: "#FFFFFF" },
+  ],
+  calendar: [
+    { d: R(16, 20, 68, 66), fill: "#FFFFFF" },
+    { d: R(16, 20, 68, 16), fill: red },
+    { d: L(32, 12, 32, 26) + " " + L(68, 12, 68, 26), w: 1.2 },
+    { d: [44, 56, 68].map((y) => [28, 44, 60].map((x) => R(x, y, 10, 8)).join(" ")).join(" "), color: gray },
+  ],
+  barrel: [
+    { d: "M28 14 L72 14 C78 34 78 66 72 86 L28 86 C22 66 22 34 28 14 Z", fill: "#455A64" },
+    { d: L(24, 36, 76, 36) + " " + L(24, 64, 76, 64), color: "#B0BEC5", w: 1.1 },
+    { d: "M50 42 C46 48 44 52 50 58 C56 52 54 48 50 42 Z", fill: ink },
+  ],
+  ballot: [
+    { d: R(18, 46, 64, 44), fill: blue },
+    { d: L(34, 52, 66, 52), w: 1.3 },
+    { d: R(36, 10, 28, 40), fill: "#FFFFFF" },
+    { d: L(42, 28, 48, 36, 60, 18), color: green, w: 1.3 },
+  ],
+  axe: [
+    { d: L(30, 88, 62, 20), color: "#8D6E63", w: 1.6 },
+    { d: "M56 12 C70 10 84 20 86 34 L64 34 L58 22 Z", fill: red },
+  ],
+  calendarBlank: [
+    { d: R(16, 20, 68, 66), fill: "#FFFFFF" },
+    { d: R(16, 20, 68, 16), fill: red },
+    { d: L(32, 12, 32, 26) + " " + L(68, 12, 68, 26), w: 1.2 },
+  ],
+  roulette: [
+    { d: C(50, 50, 44), fill: "#6D4C41" },
+    ...Array.from({ length: 12 }, (_, i) => {
+      const a0 = (i / 12) * Math.PI * 2;
+      const a1 = ((i + 1) / 12) * Math.PI * 2;
+      const p = (a: number, r: number) => `${(50 + Math.cos(a) * r).toFixed(1)} ${(50 + Math.sin(a) * r).toFixed(1)}`;
+      return { d: `M50 50 L${p(a0, 36)} A36 36 0 0 1 ${p(a1, 36)} Z`, fill: i === 0 ? green : i % 2 ? red : ink, w: 0.6 };
+    }),
+    { d: C(50, 50, 14), fill: "#BCAAA4" },
+    { d: L(50, 38, 50, 62) + " " + L(38, 50, 62, 50), w: 1.2 },
+    { d: C(76, 30, 4), fill: "#FFFFFF" },
+  ],
 };
 
 export const iconNames = Object.keys(ICONS);

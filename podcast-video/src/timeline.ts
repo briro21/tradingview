@@ -1,7 +1,7 @@
 import timing from "./timing.json";
 
 export type MainId = "S01" | "S02" | "S03" | "S04" | "S05" | "S06" | "S07";
-export type ShortId = "SH01" | "SH02" | "SH03" | "SH04" | "SH05" | "SH06" | "SH07" | "SH08" | "SH09" | "SH10";
+export type ShortId = "SH01" | "SH02" | "SH03" | "SH04" | "SH05" | "SH06" | "SH07" | "SH08" | "SH09" | "SH10" | "SH11" | "SH12" | "SH13" | "SH14";
 export type SceneId = MainId | ShortId;
 
 const IDS: MainId[] = ["S01", "S02", "S03", "S04", "S05", "S06", "S07"];
