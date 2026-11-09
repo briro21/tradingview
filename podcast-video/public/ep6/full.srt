@@ -1,0 +1,1359 @@
+1
+00:00:00,100 --> 00:00:01,162
+In just a few weeks,
+
+2
+00:00:01,550 --> 00:00:03,825
+AI claimed solutions to some of the hardest
+
+3
+00:00:03,838 --> 00:00:05,225
+problems in mathematics.
+
+4
+00:00:05,638 --> 00:00:06,712
+In one single night:
+
+5
+00:00:07,000 --> 00:00:08,175
+seven hundred results.
+
+6
+00:00:08,588 --> 00:00:09,862
+One mathematician said:
+
+7
+00:00:10,312 --> 00:00:11,500
+if a human had done this,
+
+8
+00:00:11,725 --> 00:00:13,388
+it would be an instant Fields Medal.
+
+9
+00:00:13,800 --> 00:00:16,212
+Lex Fridman called it an emergency episode.
+
+10
+00:00:16,625 --> 00:00:18,312
+This is that three and a half hour
+
+11
+00:00:18,325 --> 00:00:19,975
+conversation in ten minutes.
+
+12
+00:00:20,400 --> 00:00:21,975
+What AI actually solved,
+
+13
+00:00:22,300 --> 00:00:24,500
+why some of the best mathematicians alive are
+
+14
+00:00:24,512 --> 00:00:26,525
+in mourning, and the one thing a machine
+
+15
+00:00:26,538 --> 00:00:27,488
+still can't give you.
+
+16
+00:00:27,979 --> 00:00:28,329
+Part one.
+
+17
+00:00:28,754 --> 00:00:29,804
+The night math changed.
+
+18
+00:00:30,217 --> 00:00:31,892
+It's a Tuesday evening in New York.
+
+19
+00:00:32,304 --> 00:00:34,879
+Rutgers number theorist Alex Kontorovich is at a
+
+20
+00:00:34,892 --> 00:00:37,304
+gala at the National Museum of Mathematics,
+
+21
+00:00:37,579 --> 00:00:39,679
+a whiskey in one hand and his phone
+
+22
+00:00:39,692 --> 00:00:40,254
+in the other.
+
+23
+00:00:40,679 --> 00:00:41,579
+He keeps refreshing,
+
+24
+00:00:41,842 --> 00:00:44,342
+because OpenAI is about to release something around
+
+25
+00:00:44,354 --> 00:00:45,042
+six o'clock.
+
+26
+00:00:45,467 --> 00:00:46,142
+Then it drops.
+
+27
+00:00:46,567 --> 00:00:48,129
+Seven hundred solved problems.
+
+28
+00:00:48,542 --> 00:00:50,604
+And the second thing he sees is quasi
+
+29
+00:00:50,617 --> 00:00:51,329
+R H,
+
+30
+00:00:51,717 --> 00:00:53,979
+a partial version of the Riemann hypothesis,
+
+31
+00:00:54,254 --> 00:00:56,379
+the most famous open problem in his field.
+
+32
+00:00:56,804 --> 00:00:57,517
+His first thought:
+
+33
+00:00:57,829 --> 00:00:59,254
+that can't be what's in this drop.
+
+34
+00:00:59,679 --> 00:01:01,592
+He says he simply could not compute what
+
+35
+00:01:01,604 --> 00:01:02,267
+he was seeing.
+
+36
+00:01:02,679 --> 00:01:05,654
+At the same gala is MIT's Ankur Moitra.
+
+37
+00:01:06,092 --> 00:01:07,867
+For him it wasn't a total surprise.
+
+38
+00:01:08,317 --> 00:01:09,917
+For weeks there had been rumors that the
+
+39
+00:01:09,992 --> 00:01:12,242
+biggest problems in his area had fallen,
+
+40
+00:01:12,642 --> 00:01:14,579
+including the Unique Games Conjecture.
+
+41
+00:01:15,004 --> 00:01:17,379
+One colleague even rushed out his own paper,
+
+42
+00:01:17,679 --> 00:01:19,392
+with a footnote saying that because of the
+
+43
+00:01:19,404 --> 00:01:21,767
+rumors, he couldn't wait any longer.
+
+44
+00:01:22,192 --> 00:01:23,567
+Just hours before the drop,
+
+45
+00:01:23,979 --> 00:01:25,604
+Ankur asked Subhash Khot,
+
+46
+00:01:25,892 --> 00:01:28,354
+the man who proposed the Unique Games Conjecture,
+
+47
+00:01:28,654 --> 00:01:30,492
+whether he would read an AI proof of
+
+48
+00:01:30,504 --> 00:01:30,679
+it.
+
+49
+00:01:31,092 --> 00:01:32,104
+Khot's answer was simply:
+
+50
+00:01:32,467 --> 00:01:32,679
+no.
+
+51
+00:01:33,104 --> 00:01:34,754
+And this wasn't even the first shock.
+
+52
+00:01:35,167 --> 00:01:36,117
+A few weeks earlier,
+
+53
+00:01:36,467 --> 00:01:38,479
+Alex gave a talk at Princeton explaining that
+
+54
+00:01:38,567 --> 00:01:41,842
+AI was still years away from formalizing Fermat's
+
+55
+00:01:41,854 --> 00:01:43,742
+Last Theorem in the proof checker Lean.
+
+56
+00:01:44,167 --> 00:01:44,892
+Two days later,
+
+57
+00:01:45,117 --> 00:01:46,904
+Anthropic released exactly that.
+
+58
+00:01:47,379 --> 00:01:49,492
+Thirteen million lines of verified code.
+
+59
+00:01:49,904 --> 00:01:51,454
+As far as Alex understands,
+
+60
+00:01:51,704 --> 00:01:53,342
+two or three people were involved,
+
+61
+00:01:53,667 --> 00:01:55,229
+and most of their input was typing:
+
+62
+00:01:55,717 --> 00:01:56,267
+keep going.
+
+63
+00:01:56,679 --> 00:01:58,042
+Then came Navier-Stokes.
+
+64
+00:01:58,479 --> 00:02:00,867
+For Alex, the quasi Riemann night was round
+
+65
+00:02:00,879 --> 00:02:01,204
+three.
+
+66
+00:02:01,712 --> 00:02:02,150
+Part two.
+
+67
+00:02:02,562 --> 00:02:03,875
+What AI actually solved.
+
+68
+00:02:04,300 --> 00:02:05,712
+Start with the prime numbers,
+
+69
+00:02:05,912 --> 00:02:07,512
+the atoms of multiplication.
+
+70
+00:02:07,925 --> 00:02:09,712
+Every whole number is built from them,
+
+71
+00:02:10,012 --> 00:02:12,150
+but their pattern has always been a mystery.
+
+72
+00:02:12,575 --> 00:02:14,912
+Bernhard Riemann found a function that works like
+
+73
+00:02:14,925 --> 00:02:16,825
+signal processing for the primes.
+
+74
+00:02:17,237 --> 00:02:19,588
+Alex compares it to a microphone turning your
+
+75
+00:02:19,600 --> 00:02:21,212
+voice into frequencies.
+
+76
+00:02:21,638 --> 00:02:24,075
+The Riemann hypothesis says that in the music
+
+77
+00:02:24,088 --> 00:02:24,925
+of the primes,
+
+78
+00:02:25,200 --> 00:02:28,075
+every instrument plays at exactly the same volume.
+
+79
+00:02:28,487 --> 00:02:29,438
+In math terms:
+
+80
+00:02:29,825 --> 00:02:32,188
+all the important zeros of this function sit
+
+81
+00:02:32,200 --> 00:02:33,350
+on one single line,
+
+82
+00:02:33,638 --> 00:02:34,738
+the line one half.
+
+83
+00:02:35,175 --> 00:02:36,087
+For seventy years,
+
+84
+00:02:36,275 --> 00:02:38,325
+the best anyone could prove was a zero
+
+85
+00:02:38,337 --> 00:02:40,500
+free zone that got thinner and thinner.
+
+86
+00:02:40,912 --> 00:02:43,337
+The AI proved an entire strip with no
+
+87
+00:02:43,350 --> 00:02:44,262
+zeros at all,
+
+88
+00:02:44,562 --> 00:02:45,825
+from seven eighths to one.
+
+89
+00:02:46,250 --> 00:02:48,450
+Push that seven eighths down to one half,
+
+90
+00:02:48,837 --> 00:02:50,800
+and you have the full Riemann hypothesis.
+
+91
+00:02:51,212 --> 00:02:52,250
+Alex is careful here.
+
+92
+00:02:52,675 --> 00:02:54,550
+This method fundamentally can't get there.
+
+93
+00:02:54,950 --> 00:02:56,225
+A new idea is needed.
+
+94
+00:02:56,650 --> 00:02:58,138
+But the proof is checked in Lean,
+
+95
+00:02:58,450 --> 00:02:59,938
+so he is a hundred percent sure it's
+
+96
+00:02:59,950 --> 00:03:00,425
+correct.
+
+97
+00:03:00,837 --> 00:03:04,550
+Then Navier-Stokes, the equations behind every fluid on
+
+98
+00:03:04,562 --> 00:03:04,975
+Earth.
+
+99
+00:03:05,400 --> 00:03:07,888
+They are basically F equals m a for
+
+100
+00:03:07,900 --> 00:03:08,938
+water and air.
+
+101
+00:03:09,350 --> 00:03:10,638
+The million dollar question:
+
+102
+00:03:11,012 --> 00:03:13,200
+can a smooth flow suddenly blow up to
+
+103
+00:03:13,212 --> 00:03:13,750
+infinity?
+
+104
+00:03:14,162 --> 00:03:17,675
+University of Washington engineer Steve Brunton explains what
+
+105
+00:03:17,688 --> 00:03:20,112
+the AI found for one version of the
+
+106
+00:03:20,125 --> 00:03:20,562
+problem.
+
+107
+00:03:20,975 --> 00:03:24,288
+A perfectly orchestrated vortex that keeps stretching and
+
+108
+00:03:24,300 --> 00:03:26,675
+thinning, like a figure skater pulling in their
+
+109
+00:03:26,688 --> 00:03:29,375
+arms, spinning faster and faster until,
+
+110
+00:03:29,775 --> 00:03:30,475
+at one point,
+
+111
+00:03:30,875 --> 00:03:31,825
+it becomes infinite.
+
+112
+00:03:32,250 --> 00:03:33,138
+But here's the twist.
+
+113
+00:03:33,562 --> 00:03:36,212
+Steve says almost nothing changed for engineers.
+
+114
+00:03:36,625 --> 00:03:39,112
+Airplane wings and artificial hearts are just as
+
+115
+00:03:39,125 --> 00:03:40,925
+hard to simulate as before.
+
+116
+00:03:41,350 --> 00:03:43,312
+We solved the million dollar math problem,
+
+117
+00:03:43,675 --> 00:03:44,212
+he says.
+
+118
+00:03:44,638 --> 00:03:47,262
+The trillion dollar engineering problem is still open.
+
+119
+00:03:47,675 --> 00:03:49,087
+And the Unique Games Conjecture?
+
+120
+00:03:49,500 --> 00:03:51,338
+It's a bet about which hard problems we
+
+121
+00:03:51,350 --> 00:03:52,412
+can even approximate.
+
+122
+00:03:52,825 --> 00:03:53,500
+If it's true,
+
+123
+00:03:53,800 --> 00:03:56,288
+it organizes a huge part of computer science.
+
+124
+00:03:56,700 --> 00:03:58,712
+Ankur admits he was one of the doubters.
+
+125
+00:03:59,125 --> 00:04:00,550
+It sounded too nice to be true.
+
+126
+00:04:00,962 --> 00:04:01,425
+It's true.
+
+127
+00:04:01,913 --> 00:04:02,425
+Part three.
+
+128
+00:04:02,838 --> 00:04:04,188
+Is AI really creative?
+
+129
+00:04:04,612 --> 00:04:06,475
+Or is it just remixing what humans already
+
+130
+00:04:06,488 --> 00:04:06,838
+wrote?
+
+131
+00:04:07,263 --> 00:04:08,438
+The guests use a balloon.
+
+132
+00:04:08,850 --> 00:04:12,000
+Everything mathematicians have discovered is the inside of
+
+133
+00:04:12,013 --> 00:04:12,562
+the balloon.
+
+134
+00:04:12,975 --> 00:04:15,600
+If AI only combines what's already inside,
+
+135
+00:04:15,888 --> 00:04:17,488
+critics call it the convex hull.
+
+136
+00:04:17,900 --> 00:04:18,650
+Nothing really new.
+
+137
+00:04:19,062 --> 00:04:20,588
+Alex prefers another picture,
+
+138
+00:04:20,800 --> 00:04:21,775
+from Tim Gowers:
+
+139
+00:04:21,975 --> 00:04:22,550
+tiles.
+
+140
+00:04:22,975 --> 00:04:25,000
+You keep placing known tiles next to each
+
+141
+00:04:25,012 --> 00:04:25,288
+other,
+
+142
+00:04:25,675 --> 00:04:27,625
+and nobody knows how far that can reach.
+
+143
+00:04:28,112 --> 00:04:29,262
+For quasi R H,
+
+144
+00:04:29,650 --> 00:04:31,825
+every single move was known to humans.
+
+145
+00:04:32,250 --> 00:04:34,238
+Some mathematicians are kicking themselves.
+
+146
+00:04:34,650 --> 00:04:36,562
+But the chain of moves was so long
+
+147
+00:04:36,688 --> 00:04:39,013
+and so beautiful that Alex calls it shocking.
+
+148
+00:04:39,425 --> 00:04:40,938
+Ankur adds something unsettling.
+
+149
+00:04:41,362 --> 00:04:43,275
+These proofs just don't look like a human
+
+150
+00:04:43,288 --> 00:04:43,788
+solved them.
+
+151
+00:04:44,200 --> 00:04:46,625
+It reminds him of image AI that recognizes
+
+152
+00:04:46,638 --> 00:04:49,200
+cats using patterns humans can't even see.
+
+153
+00:04:49,612 --> 00:04:51,150
+Another guest puts it more hopefully.
+
+154
+00:04:51,562 --> 00:04:52,950
+Even if it's only remixing,
+
+155
+00:04:53,238 --> 00:04:54,138
+it lifts the fog.
+
+156
+00:04:54,550 --> 00:04:56,350
+It's like giving mathematicians radar.
+
+157
+00:04:56,762 --> 00:04:58,000
+And it redraws the map.
+
+158
+00:04:58,412 --> 00:05:00,688
+An Anthropic result on a problem called three
+
+159
+00:05:00,700 --> 00:05:02,562
+sum, the kind of puzzle you get in
+
+160
+00:05:02,575 --> 00:05:05,888
+coding interviews, turned out faster than almost anyone
+
+161
+00:05:05,900 --> 00:05:06,862
+believed possible.
+
+162
+00:05:07,275 --> 00:05:09,125
+An entire theory had been built on that
+
+163
+00:05:09,138 --> 00:05:10,225
+problem being hard.
+
+164
+00:05:10,638 --> 00:05:13,275
+Now that whole field has to reorganize itself.
+
+165
+00:05:13,688 --> 00:05:14,250
+There's a catch,
+
+166
+00:05:14,288 --> 00:05:14,525
+though.
+
+167
+00:05:14,938 --> 00:05:16,650
+The AI didn't win every time.
+
+168
+00:05:17,075 --> 00:05:18,125
+According to Ankur,
+
+169
+00:05:18,400 --> 00:05:20,762
+thousands of problems were reportedly attempted,
+
+170
+00:05:21,138 --> 00:05:23,012
+and only the successes were published,
+
+171
+00:05:23,362 --> 00:05:24,375
+roughly one in ten.
+
+172
+00:05:24,788 --> 00:05:27,625
+Nobody knows exactly where the line between solved
+
+173
+00:05:27,775 --> 00:05:29,012
+and unsolved runs.
+
+174
+00:05:29,425 --> 00:05:30,412
+As one guest puts it,
+
+175
+00:05:30,712 --> 00:05:33,200
+they're readjusting to their inability to predict.
+
+176
+00:05:33,713 --> 00:05:34,238
+Part four.
+
+177
+00:05:34,662 --> 00:05:36,075
+Why mathematicians are mourning.
+
+178
+00:05:36,550 --> 00:05:38,713
+Fields medalist Terence Tao wrote that he is
+
+179
+00:05:38,725 --> 00:05:40,638
+horrified by years of patient,
+
+180
+00:05:40,950 --> 00:05:44,312
+deliberately slow research by graduate students being casually
+
+181
+00:05:44,325 --> 00:05:44,912
+disrupted.
+
+182
+00:05:45,325 --> 00:05:46,900
+You can't unhear a movie spoiler.
+
+183
+00:05:47,312 --> 00:05:47,738
+And then:
+
+184
+00:05:48,138 --> 00:05:49,500
+I mourn the path not taken.
+
+185
+00:05:49,912 --> 00:05:50,825
+Ankur feels it too.
+
+186
+00:05:51,238 --> 00:05:53,825
+The old blueprint for young mathematicians was simple.
+
+187
+00:05:54,238 --> 00:05:55,812
+Take a problem people care about,
+
+188
+00:05:56,175 --> 00:05:57,213
+make progress on it,
+
+189
+00:05:57,513 --> 00:05:58,188
+and doors open.
+
+190
+00:05:58,612 --> 00:05:59,638
+That blueprint is gone.
+
+191
+00:06:00,062 --> 00:06:02,312
+He says he feels more intellectually lonely than
+
+192
+00:06:02,325 --> 00:06:02,838
+before.
+
+193
+00:06:03,263 --> 00:06:05,250
+Some people now run scripts that scrape the
+
+194
+00:06:05,263 --> 00:06:07,900
+web for open problems and flood the preprint
+
+195
+00:06:07,912 --> 00:06:09,513
+servers with AI papers.
+
+196
+00:06:09,925 --> 00:06:11,338
+And there's a darker side effect.
+
+197
+00:06:11,750 --> 00:06:14,200
+Mathematicians may start hiding their ideas,
+
+198
+00:06:14,388 --> 00:06:16,175
+because once an idea is public,
+
+199
+00:06:16,425 --> 00:06:18,562
+an AI might finish the job in a
+
+200
+00:06:18,575 --> 00:06:19,312
+single night.
+
+201
+00:06:19,725 --> 00:06:21,900
+Alex tells the story of Andrew Wiles.
+
+202
+00:06:22,312 --> 00:06:24,638
+Years after proving Fermat's Last Theorem,
+
+203
+00:06:25,000 --> 00:06:26,738
+Wiles sat in front of a camera and
+
+204
+00:06:26,750 --> 00:06:29,325
+tried to describe the moment he finally saw
+
+205
+00:06:29,338 --> 00:06:30,488
+how to fix his proof.
+
+206
+00:06:30,912 --> 00:06:32,463
+He said he would never again have a
+
+207
+00:06:32,475 --> 00:06:33,700
+moment that powerful.
+
+208
+00:06:34,112 --> 00:06:34,825
+And he choked up.
+
+209
+00:06:35,238 --> 00:06:36,800
+Could you get that moment by pressing a
+
+210
+00:06:36,812 --> 00:06:37,150
+button?
+
+211
+00:06:37,562 --> 00:06:38,338
+Absolutely not,
+
+212
+00:06:38,688 --> 00:06:39,325
+Alex says.
+
+213
+00:06:39,738 --> 00:06:41,475
+It's like training for years to climb a
+
+214
+00:06:41,488 --> 00:06:41,900
+mountain,
+
+215
+00:06:42,275 --> 00:06:44,288
+and then a helicopter lands and drops you
+
+216
+00:06:44,300 --> 00:06:44,838
+at the top.
+
+217
+00:06:45,250 --> 00:06:47,812
+Lex compares it to Olympic champions who feel
+
+218
+00:06:47,950 --> 00:06:49,400
+empty after winning gold,
+
+219
+00:06:49,788 --> 00:06:51,550
+and to programmers who felt a loss of
+
+220
+00:06:51,562 --> 00:06:54,138
+meaning when AI started writing most of their
+
+221
+00:06:54,150 --> 00:06:54,500
+code.
+
+222
+00:06:54,925 --> 00:06:56,075
+But not everyone is mourning.
+
+223
+00:06:56,500 --> 00:06:57,812
+Steve is mostly hopeful.
+
+224
+00:06:58,225 --> 00:07:00,388
+If another country invented teleportation,
+
+225
+00:07:00,775 --> 00:07:03,188
+he says, we would reinvent it within five
+
+226
+00:07:03,200 --> 00:07:03,700
+years.
+
+227
+00:07:04,112 --> 00:07:06,575
+Knowing a solution exists is also a huge
+
+228
+00:07:06,588 --> 00:07:07,238
+motivation.
+
+229
+00:07:07,746 --> 00:07:08,283
+Part five.
+
+230
+00:07:08,696 --> 00:07:10,021
+What AI can't take from us.
+
+231
+00:07:10,433 --> 00:07:12,808
+Ankur's answer starts with something called the doorman
+
+232
+00:07:12,821 --> 00:07:13,396
+fallacy.
+
+233
+00:07:13,808 --> 00:07:16,096
+If you think a doorman only opens doors,
+
+234
+00:07:16,358 --> 00:07:18,171
+you replace him with an automatic door.
+
+235
+00:07:18,583 --> 00:07:19,858
+But you lose everything else.
+
+236
+00:07:20,283 --> 00:07:21,933
+The welcome, the recognition,
+
+237
+00:07:22,296 --> 00:07:24,908
+the security, the feeling of being cared for.
+
+238
+00:07:25,321 --> 00:07:27,721
+The visible part of a mathematician's job is
+
+239
+00:07:27,733 --> 00:07:28,721
+proving theorems.
+
+240
+00:07:29,133 --> 00:07:29,971
+But the real job,
+
+241
+00:07:30,358 --> 00:07:32,321
+Ankur says, is thinking deeply.
+
+242
+00:07:32,733 --> 00:07:34,758
+New theories, new connections,
+
+243
+00:07:35,008 --> 00:07:36,108
+new ways of seeing.
+
+244
+00:07:36,533 --> 00:07:38,246
+When problem solving becomes cheap,
+
+245
+00:07:38,646 --> 00:07:40,508
+everything else becomes more valuable.
+
+246
+00:07:40,933 --> 00:07:42,521
+So what's the one thing a machine still
+
+247
+00:07:42,533 --> 00:07:43,108
+can't give you?
+
+248
+00:07:43,521 --> 00:07:44,858
+Ankur tells it as a story.
+
+249
+00:07:45,271 --> 00:07:46,371
+In the nineteen fifties,
+
+250
+00:07:46,571 --> 00:07:47,958
+a mathematician wrote a play.
+
+251
+00:07:48,371 --> 00:07:49,746
+John von Neumann dies,
+
+252
+00:07:50,096 --> 00:07:50,808
+goes to heaven,
+
+253
+00:07:51,183 --> 00:07:52,996
+and gets to ask God one question.
+
+254
+00:07:53,408 --> 00:07:54,796
+Is the Riemann hypothesis true?
+
+255
+00:07:55,208 --> 00:07:55,996
+God says yes.
+
+256
+00:07:56,408 --> 00:07:57,346
+Everyone exhales.
+
+257
+00:07:57,758 --> 00:07:59,021
+Then von Neumann asks:
+
+258
+00:07:59,283 --> 00:07:59,933
+but how do you know?
+
+259
+00:08:00,346 --> 00:08:01,258
+And God says:
+
+260
+00:08:01,671 --> 00:08:03,233
+I know where all the zeros are,
+
+261
+00:08:03,608 --> 00:08:04,646
+and they're all on the line.
+
+262
+00:08:05,071 --> 00:08:06,408
+That's not enough for von Neumann.
+
+263
+00:08:06,833 --> 00:08:09,333
+He gets so agitated trying to understand why,
+
+264
+00:08:09,721 --> 00:08:11,271
+that he ends up in the other place.
+
+265
+00:08:11,683 --> 00:08:12,458
+Alex sums it up.
+
+266
+00:08:12,871 --> 00:08:13,983
+Math is not the fact.
+
+267
+00:08:14,396 --> 00:08:14,946
+It's the why.
+
+268
+00:08:15,358 --> 00:08:16,958
+If you tell me something is true and
+
+269
+00:08:16,971 --> 00:08:18,133
+I don't understand why,
+
+270
+00:08:18,558 --> 00:08:20,496
+you have added zero to my knowledge.
+
+271
+00:08:20,908 --> 00:08:23,271
+A proof sitting as ones and zeros in
+
+272
+00:08:23,283 --> 00:08:23,983
+a data center,
+
+273
+00:08:24,358 --> 00:08:25,046
+he argues,
+
+274
+00:08:25,433 --> 00:08:27,558
+is not the value of pure mathematics.
+
+275
+00:08:27,971 --> 00:08:29,746
+The value lives in human heads.
+
+276
+00:08:30,171 --> 00:08:33,233
+That's why he doesn't believe AI destroys mathematics,
+
+277
+00:08:33,621 --> 00:08:35,258
+even in a world where it could solve
+
+278
+00:08:35,421 --> 00:08:36,321
+everything we can.
+
+279
+00:08:36,733 --> 00:08:37,846
+And as Ankur puts it,
+
+280
+00:08:38,158 --> 00:08:39,471
+when you fight with a good problem,
+
+281
+00:08:39,846 --> 00:08:40,696
+it fights back.
+
+282
+00:08:41,121 --> 00:08:43,208
+That fight is where understanding comes from.
+
+283
+00:08:43,712 --> 00:08:44,312
+Part six.
+
+284
+00:08:44,725 --> 00:08:46,613
+Advice for an anxious generation.
+
+285
+00:08:47,088 --> 00:08:49,575
+Finally, Lex asked what everyone listening wanted to
+
+286
+00:08:49,588 --> 00:08:49,863
+know.
+
+287
+00:08:50,275 --> 00:08:51,475
+What should young people do now?
+
+288
+00:08:51,888 --> 00:08:54,225
+Alex sees something new in his classrooms.
+
+289
+00:08:54,638 --> 00:08:56,225
+Grades used to form a bell curve.
+
+290
+00:08:56,638 --> 00:08:58,038
+Now they split into two groups.
+
+291
+00:08:58,462 --> 00:09:01,050
+Students who use AI to quiz themselves and
+
+292
+00:09:01,062 --> 00:09:03,275
+check their understanding are doing much better.
+
+293
+00:09:03,700 --> 00:09:05,562
+Students who ask it for the answers an
+
+294
+00:09:05,575 --> 00:09:07,988
+hour before the deadline are falling behind.
+
+295
+00:09:08,400 --> 00:09:08,938
+Be the head,
+
+296
+00:09:09,312 --> 00:09:09,912
+not the tail.
+
+297
+00:09:10,325 --> 00:09:11,588
+And learn the basics anyway.
+
+298
+00:09:12,000 --> 00:09:14,100
+We've had calculators for seventy years,
+
+299
+00:09:14,275 --> 00:09:15,125
+Alex points out,
+
+300
+00:09:15,438 --> 00:09:17,550
+and kids who skipped their times tables suffered
+
+301
+00:09:17,562 --> 00:09:17,938
+for it.
+
+302
+00:09:18,363 --> 00:09:20,425
+Steve's advice: stay curious,
+
+303
+00:09:20,775 --> 00:09:22,688
+read, and learn the fundamentals,
+
+304
+00:09:23,075 --> 00:09:24,838
+even if a computer can do them better.
+
+305
+00:09:25,262 --> 00:09:27,088
+The guests also defend boredom,
+
+306
+00:09:27,363 --> 00:09:30,162
+because curiosity and focus often grow out of
+
+307
+00:09:30,175 --> 00:09:30,363
+it.
+
+308
+00:09:30,775 --> 00:09:33,300
+Lex warns that the same curiosity that drives
+
+309
+00:09:33,312 --> 00:09:36,662
+discovery is exactly what doom scrolling tries to
+
+310
+00:09:36,675 --> 00:09:37,125
+steal.
+
+311
+00:09:37,538 --> 00:09:39,750
+Ankur's advice is the one that sticks.
+
+312
+00:09:40,162 --> 00:09:42,150
+Stop optimizing to look good on paper.
+
+313
+00:09:42,575 --> 00:09:43,825
+When he started at MIT,
+
+314
+00:09:44,138 --> 00:09:45,575
+Sanjeev Arora told him:
+
+315
+00:09:45,950 --> 00:09:47,662
+the easiest way to get tenure is to
+
+316
+00:09:47,675 --> 00:09:49,025
+pretend you already have it,
+
+317
+00:09:49,488 --> 00:09:50,762
+and do what you would have wanted to
+
+318
+00:09:50,775 --> 00:09:51,613
+do all along.
+
+319
+00:09:52,038 --> 00:09:53,050
+Pretend you've already won.
+
+320
+00:09:53,462 --> 00:09:54,425
+Then ask what you would do.
+
+321
+00:09:54,838 --> 00:09:57,050
+And remember Alex on the day Fermat's Last
+
+322
+00:09:57,062 --> 00:09:57,675
+Theorem fell?
+
+323
+00:09:58,100 --> 00:09:59,625
+He put down his phone and took his
+
+324
+00:09:59,638 --> 00:10:00,562
+kids to the beach.
+
+325
+00:10:00,975 --> 00:10:02,350
+Lex closes with this thought.
+
+326
+00:10:02,762 --> 00:10:04,575
+As AI makes intelligence cheap,
+
+327
+00:10:04,888 --> 00:10:07,038
+we may finally realize it was always the
+
+328
+00:10:07,050 --> 00:10:07,950
+cherry on top.
+
+329
+00:10:08,375 --> 00:10:10,075
+The main thing is the other humans in
+
+330
+00:10:10,088 --> 00:10:10,713
+our lives.
+
+331
+00:10:11,138 --> 00:10:12,712
+This was three and a half hours in
+
+332
+00:10:12,725 --> 00:10:13,412
+ten minutes.
+
+333
+00:10:13,850 --> 00:10:15,950
+The full conversation goes much deeper,
+
+334
+00:10:16,350 --> 00:10:17,900
+into P versus N P,
+
+335
+00:10:18,300 --> 00:10:19,613
+why deep learning works,
+
+336
+00:10:19,875 --> 00:10:22,275
+and whether math is invented or discovered.
+
+337
+00:10:22,700 --> 00:10:24,975
+The link to the full Lex Fridman episode
+
+338
+00:10:25,238 --> 00:10:26,138
+is in the description.
+
+339
+00:10:26,550 --> 00:10:28,550
+And if you want more long podcasts explained
+
+340
+00:10:28,562 --> 00:10:29,925
+like this, subscribe.

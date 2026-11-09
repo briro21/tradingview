@@ -1,0 +1,59 @@
+1
+00:00:00,100 --> 00:00:01,162
+In just a few weeks,
+
+2
+00:00:01,550 --> 00:00:03,825
+AI claimed solutions to some of the hardest
+
+3
+00:00:03,838 --> 00:00:05,225
+problems in mathematics.
+
+4
+00:00:05,638 --> 00:00:06,712
+In one single night:
+
+5
+00:00:07,000 --> 00:00:08,175
+seven hundred results.
+
+6
+00:00:08,588 --> 00:00:09,862
+One mathematician said:
+
+7
+00:00:10,312 --> 00:00:11,500
+if a human had done this,
+
+8
+00:00:11,725 --> 00:00:13,388
+it would be an instant Fields Medal.
+
+9
+00:00:13,800 --> 00:00:16,212
+Lex Fridman called it an emergency episode.
+
+10
+00:00:16,625 --> 00:00:18,312
+This is that three and a half hour
+
+11
+00:00:18,325 --> 00:00:19,975
+conversation in ten minutes.
+
+12
+00:00:20,400 --> 00:00:21,975
+What AI actually solved,
+
+13
+00:00:22,300 --> 00:00:24,500
+why some of the best mathematicians alive are
+
+14
+00:00:24,512 --> 00:00:26,525
+in mourning, and the one thing a machine
+
+15
+00:00:26,538 --> 00:00:27,488
+still can't give you.

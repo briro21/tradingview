@@ -7,6 +7,7 @@ import { Captions } from "./components/Captions";
 import { SH01 } from "./scenes/SH01";
 import { SH02 } from "./scenes/SH02";
 import { SH03, SH04, SH05, SH06 } from "./scenes/EP3Shorts";
+import { SH07, SH08, SH09, SH10 } from "./scenes/EP6Shorts";
 import { TIMING } from "./timing";
 import { ShortId } from "./timeline";
 
@@ -20,6 +21,11 @@ const SHORTS: Record<ShortId, { beats: Beat[]; label: string }> = {
   SH04: { beats: SH04, label: "Robert Greene · seduction" },
   SH05: { beats: SH05, label: "Robert Greene · mastery" },
   SH06: { beats: SH06, label: "Robert Greene · the stroke" },
+  // AI & krisis matematika (Lex Fridman Podcast #503).
+  SH07: { beats: SH07, label: "Lex Fridman Podcast · AI & math" },
+  SH08: { beats: SH08, label: "Lex Fridman Podcast · AI & math" },
+  SH09: { beats: SH09, label: "Lex Fridman Podcast · AI & students" },
+  SH10: { beats: SH10, label: "Lex Fridman Podcast · AI & your job" },
 };
 
 // YouTube Shorts 1080×1920.

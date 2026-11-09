@@ -344,3 +344,106 @@ Agar seri ini konsisten terbaca sebagai "ringkasan podcast":
 
 - **Episode 2:** The ChatGPT Whistleblower on Diary Of A CEO: The Full Podcast in 10 Minutes (Animated Summary)
 - **Episode 3:** Robert Greene on Power, Seduction & Mastery: Podcast Summary in 10 Minutes (Animated). Nama podcast-nya bisa ditambahkan begitu sumbernya diketahui.
+
+---
+
+# Episode 5 (upload): AI & the crisis in mathematics, Lex Fridman podcast summary
+
+Di repo bernama Episode 6 (`Episode6`, `out/episode6.mp4`, `out/ep6-thumbnail-*.png`, Shorts `out/ep6-short1..4.mp4`).
+
+Sumber: **Lex Fridman Podcast #503**, "AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory" (±3,5 jam). Tamu: Steven Brunton (University of Washington), Ankur Moitra (MIT) dan Alex (Rutgers; transkrip hanya menyebut "Alex", nama belakang Kontorovich dari pengetahuan umum, cek sebelum upload).
+https://www.youtube.com/watch?v=ZAzWPE9CItg
+
+## Video utama (10:30)
+
+**Judul (pilih salah satu):**
+- AI Just Solved 700 Math Problems: Lex Fridman's 3.5-Hour Emergency Podcast in 10 Minutes
+- Mathematicians Are in Mourning | Lex Fridman Podcast #503, Summarized (Animated)
+- AI Cracked Navier-Stokes & Quasi-Riemann: The Lex Fridman Podcast in 10 Minutes
+
+**Deskripsi:**
+
+```
+The 3.5-hour Lex Fridman Podcast #503 on AI and the crisis in mathematics, summarized in 10 animated minutes.
+
+In just a few weeks, AI systems claimed solutions to some of the hardest problems in math. One night alone brought 700 results, including a quasi-Riemann hypothesis, the Unique Games Conjecture and a version of the Navier-Stokes million-dollar problem. Lex Fridman sat down with mathematicians Steven Brunton (University of Washington), Ankur Moitra (MIT) and Alex Kontorovich (Rutgers) to make sense of it: what AI actually solved, whether it is really creative, why mathematicians like Terence Tao are mourning, what AI can't take from us, and their advice for an anxious generation.
+
+This is an independent animated summary and commentary. All credit for the original conversation goes to Lex Fridman and his guests. Watch the full episode here:
+▶ https://www.youtube.com/watch?v=ZAzWPE9CItg
+
+CHAPTERS
+0:00 AI just dropped 700 math results
+0:27 Part 1: The night math changed
+2:01 Part 2: What AI actually solved
+4:01 Part 3: Is AI really creative?
+5:33 Part 4: Why mathematicians are mourning
+7:07 Part 5: What AI can't take from us
+8:43 Part 6: Advice for an anxious generation
+
+Subscribe for more long podcasts summarized in 10 animated minutes.
+
+#LexFridman #PodcastSummary #Mathematics #AI #RiemannHypothesis #NavierStokes #TerenceTao
+```
+
+**Tags:**
+Lex Fridman, Lex Fridman Podcast, Lex Fridman podcast summary, Lex Fridman 503, podcast summary, animated summary, podcast in 10 minutes, AI math, AI mathematics, Riemann hypothesis, quasi Riemann hypothesis, Navier-Stokes, Unique Games Conjecture, Fermat's Last Theorem, Lean, Terence Tao, Steven Brunton, Ankur Moitra, Alex Kontorovich, OpenAI, Anthropic, complexity theory
+
+## Thumbnail
+
+Semua opsi punya strip **"🎙 3.5-HR PODCAST → 10 MIN"** dan badge **"Lex Fridman Podcast #503"**.
+
+- `out/ep6-thumbnail-A.png`: AI DROPPED 700 MATH PROOFS (sama dengan frame pertama video)
+- `out/ep6-thumbnail-B.png`: AI CRACKED A $1M PROBLEM · NAVIER-STOKES
+- `out/ep6-thumbnail-C.png`: MATHEMATICIANS ARE IN MOURNING
+
+## Shorts (4 video)
+
+Semua Shorts ditutup dengan ajakan ke ringkasan 10 menit di channel. Taruh link video utama di komentar yang di-pin.
+
+### Short 1: 13 juta baris, "keep going" · `out/ep6-short1.mp4`
+
+**Judul:** AI Proved Fermat's Last Theorem in 13 Million Lines #shorts
+
+```
+Two days after a mathematician said AI was years away, it formalized Fermat's Last Theorem: 13 million lines of verified proof. From Lex Fridman Podcast #503, summarized and animated.
+
+Full 10-minute summary on my channel. Original episode: https://www.youtube.com/watch?v=ZAzWPE9CItg
+
+#Shorts #LexFridman #AI #Math #FermatsLastTheorem #PodcastSummary
+```
+
+### Short 2: Von Neumann bertanya pada Tuhan · `out/ep6-short2.mp4`
+
+**Judul:** Von Neumann Asked God About the Riemann Hypothesis #shorts
+
+```
+A 1950s play about John von Neumann explains why AI proofs aren't enough: math is not the fact, it's the why. From Lex Fridman Podcast #503, summarized and animated.
+
+Full 10-minute summary on my channel. Original episode: https://www.youtube.com/watch?v=ZAzWPE9CItg
+
+#Shorts #LexFridman #RiemannHypothesis #Math #AI #PodcastSummary
+```
+
+### Short 3: AI membelah mahasiswa · `out/ep6-short3.mp4`
+
+**Judul:** AI Is Splitting Students Into Two Groups #shorts
+
+```
+A Rutgers math professor on Lex Fridman: grades used to form a bell curve, now there are two peaks. Same tool, opposite results. Which group are you in?
+
+Full 10-minute summary on my channel. Original episode: https://www.youtube.com/watch?v=ZAzWPE9CItg
+
+#Shorts #LexFridman #AI #Students #Education #StudyTips
+```
+
+### Short 4: Doorman fallacy · `out/ep6-short4.mp4`
+
+**Judul:** The Doorman Fallacy: Your Job Is More Than What AI Can Automate #shorts
+
+```
+MIT mathematician Ankur Moitra on Lex Fridman: your job is not its most visible task. When problem solving becomes cheap, everything else becomes more valuable.
+
+Full 10-minute summary on my channel. Original episode: https://www.youtube.com/watch?v=ZAzWPE9CItg
+
+#Shorts #LexFridman #AI #FutureOfWork #Career #PodcastSummary
+```

@@ -1,0 +1,71 @@
+1
+00:00:00,100 --> 00:00:00,888
+On a Wednesday,
+
+2
+00:00:01,088 --> 00:00:03,212
+a mathematician told a room at Princeton that
+
+3
+00:00:03,338 --> 00:00:06,638
+AI was still years away from formalizing Fermat's
+
+4
+00:00:06,650 --> 00:00:07,300
+Last Theorem.
+
+5
+00:00:07,725 --> 00:00:08,425
+Two days later,
+
+6
+00:00:08,662 --> 00:00:09,912
+Anthropic's AI did it.
+
+7
+00:00:10,388 --> 00:00:13,188
+Thirteen million lines of computer verified proof.
+
+8
+00:00:13,612 --> 00:00:15,262
+One expert had a five year grant to
+
+9
+00:00:15,275 --> 00:00:16,737
+do just part of that work.
+
+10
+00:00:17,150 --> 00:00:19,575
+And according to number theorist Alex Kontorovich,
+
+11
+00:00:19,838 --> 00:00:21,512
+two or three people were involved,
+
+12
+00:00:21,838 --> 00:00:23,275
+and most of what they typed was:
+
+13
+00:00:23,538 --> 00:00:24,088
+keep going.
+
+14
+00:00:24,500 --> 00:00:25,988
+So what is a mathematician for now?
+
+15
+00:00:26,412 --> 00:00:28,612
+I animated the full three and a half
+
+16
+00:00:28,625 --> 00:00:31,375
+hour Lex Fridman conversation in ten minutes.
+
+17
+00:00:31,800 --> 00:00:32,700
+Watch it on my channel,
+
+18
+00:00:32,962 --> 00:00:33,612
+and subscribe.

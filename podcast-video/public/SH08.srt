@@ -1,0 +1,75 @@
+1
+00:00:00,100 --> 00:00:02,400
+John von Neumann dies and goes to heaven.
+
+2
+00:00:02,825 --> 00:00:04,488
+He gets to ask God one question:
+
+3
+00:00:04,962 --> 00:00:06,363
+is the Riemann hypothesis true?
+
+4
+00:00:06,775 --> 00:00:07,562
+God says yes.
+
+5
+00:00:07,975 --> 00:00:09,238
+Then von Neumann asks:
+
+6
+00:00:09,500 --> 00:00:10,150
+but how do you know?
+
+7
+00:00:10,562 --> 00:00:11,188
+God says:
+
+8
+00:00:11,600 --> 00:00:12,950
+I know where all the zeros are.
+
+9
+00:00:13,375 --> 00:00:14,725
+That's not enough for von Neumann,
+
+10
+00:00:15,100 --> 00:00:16,612
+and he ends up in the other place.
+
+11
+00:00:17,025 --> 00:00:18,988
+It's from a play written by a mathematician
+
+12
+00:00:19,000 --> 00:00:20,188
+in the nineteen fifties,
+
+13
+00:00:20,488 --> 00:00:22,175
+and it has never been more relevant.
+
+14
+00:00:22,588 --> 00:00:25,662
+AI just proved results mathematicians never expected to
+
+15
+00:00:25,675 --> 00:00:25,988
+see.
+
+16
+00:00:26,412 --> 00:00:27,988
+But as one of them told Lex Fridman:
+
+17
+00:00:28,375 --> 00:00:29,700
+math is not the fact.
+
+18
+00:00:30,112 --> 00:00:30,662
+It's the why.
+
+19
+00:00:31,088 --> 00:00:33,412
+The full animated breakdown is on my channel.

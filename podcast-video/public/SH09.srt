@@ -1,0 +1,71 @@
+1
+00:00:00,100 --> 00:00:02,312
+AI is splitting students into two groups.
+
+2
+00:00:02,725 --> 00:00:05,312
+A Rutgers math professor told Lex Fridman that
+
+3
+00:00:05,325 --> 00:00:07,212
+grades used to form a bell curve.
+
+4
+00:00:07,625 --> 00:00:08,650
+Now there are two peaks.
+
+5
+00:00:09,075 --> 00:00:11,388
+One group uses AI to quiz themselves:
+
+6
+00:00:11,775 --> 00:00:12,625
+here are my notes,
+
+7
+00:00:12,850 --> 00:00:13,300
+test me,
+
+8
+00:00:13,675 --> 00:00:15,013
+check if I really understand.
+
+9
+00:00:15,438 --> 00:00:17,438
+Those students are getting much higher grades.
+
+10
+00:00:17,850 --> 00:00:19,537
+The other group asks for the answers an
+
+11
+00:00:19,550 --> 00:00:20,725
+hour before the deadline,
+
+12
+00:00:21,125 --> 00:00:23,838
+and their homework no longer matches their exams.
+
+13
+00:00:24,250 --> 00:00:26,012
+Same tool, opposite results.
+
+14
+00:00:26,425 --> 00:00:27,675
+And learn the basics anyway:
+
+15
+00:00:28,100 --> 00:00:30,100
+we've had calculators for seventy years,
+
+16
+00:00:30,312 --> 00:00:32,275
+and kids still need their times tables.
+
+17
+00:00:32,700 --> 00:00:33,488
+Which group are you in?
+
+18
+00:00:33,975 --> 00:00:36,012
+Full animated breakdown on my channel.

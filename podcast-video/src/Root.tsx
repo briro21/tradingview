@@ -13,6 +13,8 @@ import { EP4_FRAMES, Episode4 } from "./episodes/ep4/Video";
 import { ThumbJ, ThumbK, ThumbL } from "./episodes/ep4/Thumbnails";
 import { EP5_FRAMES, Episode5 } from "./episodes/ep5/Video";
 import { ThumbM, ThumbN, ThumbO } from "./episodes/ep5/Thumbnails";
+import { EP6_FRAMES, Episode6 } from "./episodes/ep6/Video";
+import { ThumbP, ThumbQ, ThumbR } from "./episodes/ep6/Thumbnails";
 import { ThumbG, ThumbH, ThumbI } from "./episodes/ep3/Thumbnails";
 
 export const Root: React.FC = () => (
@@ -47,6 +49,7 @@ export const Root: React.FC = () => (
     <Composition id="Episode3" component={Episode3} fps={FPS} width={1920} height={1080} durationInFrames={EP3_FRAMES} />
     <Composition id="Episode4" component={Episode4} fps={FPS} width={1920} height={1080} durationInFrames={EP4_FRAMES} />
     <Composition id="Episode5" component={Episode5} fps={FPS} width={1920} height={1080} durationInFrames={EP5_FRAMES} />
+    <Composition id="Episode6" component={Episode6} fps={FPS} width={1920} height={1080} durationInFrames={EP6_FRAMES} />
     <Still id="ThumbA" component={ThumbA} width={1280} height={720} />
     <Still id="ThumbB" component={ThumbB} width={1280} height={720} />
     <Still id="ThumbC" component={ThumbC} width={1280} height={720} />
@@ -98,5 +101,44 @@ export const Root: React.FC = () => (
     <Still id="Ep5ThumbA" component={ThumbM} width={1280} height={720} />
     <Still id="Ep5ThumbB" component={ThumbN} width={1280} height={720} />
     <Still id="Ep5ThumbC" component={ThumbO} width={1280} height={720} />
+    <Composition
+      id="Ep6Short1"
+      component={ShortsVideo}
+      defaultProps={{ id: "SH07" as const }}
+      fps={FPS}
+      width={1080}
+      height={1920}
+      durationInFrames={TIMING.SH07.frames}
+    />
+    <Composition
+      id="Ep6Short2"
+      component={ShortsVideo}
+      defaultProps={{ id: "SH08" as const }}
+      fps={FPS}
+      width={1080}
+      height={1920}
+      durationInFrames={TIMING.SH08.frames}
+    />
+    <Composition
+      id="Ep6Short3"
+      component={ShortsVideo}
+      defaultProps={{ id: "SH09" as const }}
+      fps={FPS}
+      width={1080}
+      height={1920}
+      durationInFrames={TIMING.SH09.frames}
+    />
+    <Composition
+      id="Ep6Short4"
+      component={ShortsVideo}
+      defaultProps={{ id: "SH10" as const }}
+      fps={FPS}
+      width={1080}
+      height={1920}
+      durationInFrames={TIMING.SH10.frames}
+    />
+    <Still id="Ep6ThumbA" component={ThumbP} width={1280} height={720} />
+    <Still id="Ep6ThumbB" component={ThumbQ} width={1280} height={720} />
+    <Still id="Ep6ThumbC" component={ThumbR} width={1280} height={720} />
   </>
 );

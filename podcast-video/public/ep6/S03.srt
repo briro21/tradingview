@@ -1,0 +1,195 @@
+1
+00:00:00,112 --> 00:00:00,625
+Part three.
+
+2
+00:00:01,038 --> 00:00:02,388
+Is AI really creative?
+
+3
+00:00:02,812 --> 00:00:04,675
+Or is it just remixing what humans already
+
+4
+00:00:04,688 --> 00:00:05,038
+wrote?
+
+5
+00:00:05,462 --> 00:00:06,637
+The guests use a balloon.
+
+6
+00:00:07,050 --> 00:00:10,200
+Everything mathematicians have discovered is the inside of
+
+7
+00:00:10,212 --> 00:00:10,762
+the balloon.
+
+8
+00:00:11,175 --> 00:00:13,800
+If AI only combines what's already inside,
+
+9
+00:00:14,088 --> 00:00:15,688
+critics call it the convex hull.
+
+10
+00:00:16,100 --> 00:00:16,850
+Nothing really new.
+
+11
+00:00:17,262 --> 00:00:18,788
+Alex prefers another picture,
+
+12
+00:00:19,000 --> 00:00:19,975
+from Tim Gowers:
+
+13
+00:00:20,175 --> 00:00:20,750
+tiles.
+
+14
+00:00:21,175 --> 00:00:23,200
+You keep placing known tiles next to each
+
+15
+00:00:23,212 --> 00:00:23,487
+other,
+
+16
+00:00:23,875 --> 00:00:25,825
+and nobody knows how far that can reach.
+
+17
+00:00:26,312 --> 00:00:27,463
+For quasi R H,
+
+18
+00:00:27,850 --> 00:00:30,025
+every single move was known to humans.
+
+19
+00:00:30,450 --> 00:00:32,438
+Some mathematicians are kicking themselves.
+
+20
+00:00:32,850 --> 00:00:34,762
+But the chain of moves was so long
+
+21
+00:00:34,888 --> 00:00:37,213
+and so beautiful that Alex calls it shocking.
+
+22
+00:00:37,625 --> 00:00:39,137
+Ankur adds something unsettling.
+
+23
+00:00:39,562 --> 00:00:41,475
+These proofs just don't look like a human
+
+24
+00:00:41,488 --> 00:00:41,988
+solved them.
+
+25
+00:00:42,400 --> 00:00:44,825
+It reminds him of image AI that recognizes
+
+26
+00:00:44,838 --> 00:00:47,400
+cats using patterns humans can't even see.
+
+27
+00:00:47,812 --> 00:00:49,350
+Another guest puts it more hopefully.
+
+28
+00:00:49,762 --> 00:00:51,150
+Even if it's only remixing,
+
+29
+00:00:51,438 --> 00:00:52,338
+it lifts the fog.
+
+30
+00:00:52,750 --> 00:00:54,550
+It's like giving mathematicians radar.
+
+31
+00:00:54,962 --> 00:00:56,200
+And it redraws the map.
+
+32
+00:00:56,612 --> 00:00:58,887
+An Anthropic result on a problem called three
+
+33
+00:00:58,900 --> 00:01:00,762
+sum, the kind of puzzle you get in
+
+34
+00:01:00,775 --> 00:01:04,088
+coding interviews, turned out faster than almost anyone
+
+35
+00:01:04,100 --> 00:01:05,062
+believed possible.
+
+36
+00:01:05,475 --> 00:01:07,325
+An entire theory had been built on that
+
+37
+00:01:07,338 --> 00:01:08,425
+problem being hard.
+
+38
+00:01:08,838 --> 00:01:11,475
+Now that whole field has to reorganize itself.
+
+39
+00:01:11,888 --> 00:01:12,450
+There's a catch,
+
+40
+00:01:12,488 --> 00:01:12,725
+though.
+
+41
+00:01:13,138 --> 00:01:14,850
+The AI didn't win every time.
+
+42
+00:01:15,275 --> 00:01:16,325
+According to Ankur,
+
+43
+00:01:16,600 --> 00:01:18,962
+thousands of problems were reportedly attempted,
+
+44
+00:01:19,338 --> 00:01:21,212
+and only the successes were published,
+
+45
+00:01:21,562 --> 00:01:22,575
+roughly one in ten.
+
+46
+00:01:22,988 --> 00:01:25,825
+Nobody knows exactly where the line between solved
+
+47
+00:01:25,975 --> 00:01:27,212
+and unsolved runs.
+
+48
+00:01:27,625 --> 00:01:28,613
+As one guest puts it,
+
+49
+00:01:28,912 --> 00:01:31,400
+they're readjusting to their inability to predict.

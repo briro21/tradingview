@@ -1,0 +1,79 @@
+1
+00:00:00,100 --> 00:00:02,025
+If an automatic door can open the door,
+
+2
+00:00:02,312 --> 00:00:03,250
+why pay a doorman?
+
+3
+00:00:03,675 --> 00:00:05,625
+That's a trap called the doorman fallacy.
+
+4
+00:00:06,038 --> 00:00:09,025
+MIT mathematician Ankur Moitra brought it up on
+
+5
+00:00:09,038 --> 00:00:10,500
+Lex Fridman's podcast,
+
+6
+00:00:10,888 --> 00:00:14,000
+right after AI solved problems mathematicians had chased
+
+7
+00:00:14,012 --> 00:00:14,750
+for decades.
+
+8
+00:00:15,162 --> 00:00:17,138
+A doorman doesn't just open doors.
+
+9
+00:00:17,562 --> 00:00:18,250
+He welcomes you,
+
+10
+00:00:18,738 --> 00:00:19,550
+recognizes you,
+
+11
+00:00:19,962 --> 00:00:20,838
+keeps you safe,
+
+12
+00:00:21,138 --> 00:00:22,425
+and makes you feel cared for.
+
+13
+00:00:22,838 --> 00:00:24,325
+Replace him with a sliding door,
+
+14
+00:00:24,625 --> 00:00:25,712
+and you lose all of that.
+
+15
+00:00:26,125 --> 00:00:28,262
+Your job is not its most visible task
+
+16
+00:00:28,275 --> 00:00:28,550
+either.
+
+17
+00:00:28,962 --> 00:00:30,800
+And when problem solving becomes cheap,
+
+18
+00:00:31,225 --> 00:00:33,562
+everything else you do becomes more valuable.
+
+19
+00:00:34,062 --> 00:00:35,850
+Full animated breakdown on my channel,
+
+20
+00:00:36,138 --> 00:00:36,825
+so subscribe.

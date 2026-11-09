@@ -1,0 +1,215 @@
+1
+00:00:00,112 --> 00:00:00,650
+Part five.
+
+2
+00:00:01,062 --> 00:00:02,388
+What AI can't take from us.
+
+3
+00:00:02,800 --> 00:00:05,175
+Ankur's answer starts with something called the doorman
+
+4
+00:00:05,188 --> 00:00:05,762
+fallacy.
+
+5
+00:00:06,175 --> 00:00:08,462
+If you think a doorman only opens doors,
+
+6
+00:00:08,725 --> 00:00:10,538
+you replace him with an automatic door.
+
+7
+00:00:10,950 --> 00:00:12,225
+But you lose everything else.
+
+8
+00:00:12,650 --> 00:00:14,300
+The welcome, the recognition,
+
+9
+00:00:14,662 --> 00:00:17,275
+the security, the feeling of being cared for.
+
+10
+00:00:17,688 --> 00:00:20,088
+The visible part of a mathematician's job is
+
+11
+00:00:20,100 --> 00:00:21,088
+proving theorems.
+
+12
+00:00:21,500 --> 00:00:22,338
+But the real job,
+
+13
+00:00:22,725 --> 00:00:24,688
+Ankur says, is thinking deeply.
+
+14
+00:00:25,100 --> 00:00:27,125
+New theories, new connections,
+
+15
+00:00:27,375 --> 00:00:28,475
+new ways of seeing.
+
+16
+00:00:28,900 --> 00:00:30,612
+When problem solving becomes cheap,
+
+17
+00:00:31,012 --> 00:00:32,875
+everything else becomes more valuable.
+
+18
+00:00:33,300 --> 00:00:34,888
+So what's the one thing a machine still
+
+19
+00:00:34,900 --> 00:00:35,475
+can't give you?
+
+20
+00:00:35,888 --> 00:00:37,225
+Ankur tells it as a story.
+
+21
+00:00:37,638 --> 00:00:38,738
+In the nineteen fifties,
+
+22
+00:00:38,938 --> 00:00:40,325
+a mathematician wrote a play.
+
+23
+00:00:40,738 --> 00:00:42,113
+John von Neumann dies,
+
+24
+00:00:42,462 --> 00:00:43,175
+goes to heaven,
+
+25
+00:00:43,550 --> 00:00:45,362
+and gets to ask God one question.
+
+26
+00:00:45,775 --> 00:00:47,162
+Is the Riemann hypothesis true?
+
+27
+00:00:47,575 --> 00:00:48,362
+God says yes.
+
+28
+00:00:48,775 --> 00:00:49,712
+Everyone exhales.
+
+29
+00:00:50,125 --> 00:00:51,388
+Then von Neumann asks:
+
+30
+00:00:51,650 --> 00:00:52,300
+but how do you know?
+
+31
+00:00:52,712 --> 00:00:53,625
+And God says:
+
+32
+00:00:54,038 --> 00:00:55,600
+I know where all the zeros are,
+
+33
+00:00:55,975 --> 00:00:57,012
+and they're all on the line.
+
+34
+00:00:57,438 --> 00:00:58,775
+That's not enough for von Neumann.
+
+35
+00:00:59,200 --> 00:01:01,700
+He gets so agitated trying to understand why,
+
+36
+00:01:02,088 --> 00:01:03,637
+that he ends up in the other place.
+
+37
+00:01:04,050 --> 00:01:04,825
+Alex sums it up.
+
+38
+00:01:05,238 --> 00:01:06,350
+Math is not the fact.
+
+39
+00:01:06,762 --> 00:01:07,312
+It's the why.
+
+40
+00:01:07,725 --> 00:01:09,325
+If you tell me something is true and
+
+41
+00:01:09,338 --> 00:01:10,500
+I don't understand why,
+
+42
+00:01:10,925 --> 00:01:12,862
+you have added zero to my knowledge.
+
+43
+00:01:13,275 --> 00:01:15,638
+A proof sitting as ones and zeros in
+
+44
+00:01:15,650 --> 00:01:16,350
+a data center,
+
+45
+00:01:16,725 --> 00:01:17,412
+he argues,
+
+46
+00:01:17,800 --> 00:01:19,925
+is not the value of pure mathematics.
+
+47
+00:01:20,338 --> 00:01:22,113
+The value lives in human heads.
+
+48
+00:01:22,538 --> 00:01:25,600
+That's why he doesn't believe AI destroys mathematics,
+
+49
+00:01:25,988 --> 00:01:27,625
+even in a world where it could solve
+
+50
+00:01:27,788 --> 00:01:28,688
+everything we can.
+
+51
+00:01:29,100 --> 00:01:30,212
+And as Ankur puts it,
+
+52
+00:01:30,525 --> 00:01:31,838
+when you fight with a good problem,
+
+53
+00:01:32,212 --> 00:01:33,062
+it fights back.
+
+54
+00:01:33,488 --> 00:01:35,575
+That fight is where understanding comes from.

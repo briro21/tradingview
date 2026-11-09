@@ -1,0 +1,7 @@
+Part three. Is AI really creative? Or is it just remixing what humans already wrote? The guests use a balloon. Everything mathematicians have discovered is the inside of the balloon. If AI only combines what's already inside, critics call it the convex hull. Nothing really new. Alex prefers another picture, from Tim Gowers: tiles. You keep placing known tiles next to each other, and nobody knows how far that can reach. For quasi R H, every single move was known to humans. Some mathematicians are kicking themselves. But the chain of moves was so long and so beautiful that Alex calls it shocking.
+
+Ankur adds something unsettling. These proofs just don't look like a human solved them. It reminds him of image AI that recognizes cats using patterns humans can't even see. Another guest puts it more hopefully. Even if it's only remixing, it lifts the fog. It's like giving mathematicians radar.
+
+And it redraws the map. An Anthropic result on a problem called three sum, the kind of puzzle you get in coding interviews, turned out faster than almost anyone believed possible. An entire theory had been built on that problem being hard. Now that whole field has to reorganize itself.
+
+There's a catch, though. The AI didn't win every time. According to Ankur, thousands of problems were reportedly attempted, and only the successes were published, roughly one in ten. Nobody knows exactly where the line between solved and unsolved runs. As one guest puts it, they're readjusting to their inability to predict.

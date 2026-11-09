@@ -1,0 +1,199 @@
+1
+00:00:00,112 --> 00:00:00,462
+Part one.
+
+2
+00:00:00,888 --> 00:00:01,938
+The night math changed.
+
+3
+00:00:02,350 --> 00:00:04,025
+It's a Tuesday evening in New York.
+
+4
+00:00:04,438 --> 00:00:07,012
+Rutgers number theorist Alex Kontorovich is at a
+
+5
+00:00:07,025 --> 00:00:09,438
+gala at the National Museum of Mathematics,
+
+6
+00:00:09,712 --> 00:00:11,812
+a whiskey in one hand and his phone
+
+7
+00:00:11,825 --> 00:00:12,388
+in the other.
+
+8
+00:00:12,812 --> 00:00:13,712
+He keeps refreshing,
+
+9
+00:00:13,975 --> 00:00:16,475
+because OpenAI is about to release something around
+
+10
+00:00:16,488 --> 00:00:17,175
+six o'clock.
+
+11
+00:00:17,600 --> 00:00:18,275
+Then it drops.
+
+12
+00:00:18,700 --> 00:00:20,262
+Seven hundred solved problems.
+
+13
+00:00:20,675 --> 00:00:22,738
+And the second thing he sees is quasi
+
+14
+00:00:22,750 --> 00:00:23,463
+R H,
+
+15
+00:00:23,850 --> 00:00:26,112
+a partial version of the Riemann hypothesis,
+
+16
+00:00:26,388 --> 00:00:28,513
+the most famous open problem in his field.
+
+17
+00:00:28,938 --> 00:00:29,650
+His first thought:
+
+18
+00:00:29,962 --> 00:00:31,388
+that can't be what's in this drop.
+
+19
+00:00:31,812 --> 00:00:33,725
+He says he simply could not compute what
+
+20
+00:00:33,738 --> 00:00:34,400
+he was seeing.
+
+21
+00:00:34,812 --> 00:00:37,788
+At the same gala is MIT's Ankur Moitra.
+
+22
+00:00:38,225 --> 00:00:40,000
+For him it wasn't a total surprise.
+
+23
+00:00:40,450 --> 00:00:42,050
+For weeks there had been rumors that the
+
+24
+00:00:42,125 --> 00:00:44,375
+biggest problems in his area had fallen,
+
+25
+00:00:44,775 --> 00:00:46,712
+including the Unique Games Conjecture.
+
+26
+00:00:47,138 --> 00:00:49,512
+One colleague even rushed out his own paper,
+
+27
+00:00:49,812 --> 00:00:51,525
+with a footnote saying that because of the
+
+28
+00:00:51,538 --> 00:00:53,900
+rumors, he couldn't wait any longer.
+
+29
+00:00:54,325 --> 00:00:55,700
+Just hours before the drop,
+
+30
+00:00:56,112 --> 00:00:57,738
+Ankur asked Subhash Khot,
+
+31
+00:00:58,025 --> 00:01:00,488
+the man who proposed the Unique Games Conjecture,
+
+32
+00:01:00,788 --> 00:01:02,625
+whether he would read an AI proof of
+
+33
+00:01:02,638 --> 00:01:02,812
+it.
+
+34
+00:01:03,225 --> 00:01:04,238
+Khot's answer was simply:
+
+35
+00:01:04,600 --> 00:01:04,812
+no.
+
+36
+00:01:05,238 --> 00:01:06,887
+And this wasn't even the first shock.
+
+37
+00:01:07,300 --> 00:01:08,250
+A few weeks earlier,
+
+38
+00:01:08,600 --> 00:01:10,612
+Alex gave a talk at Princeton explaining that
+
+39
+00:01:10,700 --> 00:01:13,975
+AI was still years away from formalizing Fermat's
+
+40
+00:01:13,988 --> 00:01:15,875
+Last Theorem in the proof checker Lean.
+
+41
+00:01:16,300 --> 00:01:17,025
+Two days later,
+
+42
+00:01:17,250 --> 00:01:19,038
+Anthropic released exactly that.
+
+43
+00:01:19,512 --> 00:01:21,625
+Thirteen million lines of verified code.
+
+44
+00:01:22,038 --> 00:01:23,587
+As far as Alex understands,
+
+45
+00:01:23,838 --> 00:01:25,475
+two or three people were involved,
+
+46
+00:01:25,800 --> 00:01:27,362
+and most of their input was typing:
+
+47
+00:01:27,850 --> 00:01:28,400
+keep going.
+
+48
+00:01:28,812 --> 00:01:30,175
+Then came Navier-Stokes.
+
+49
+00:01:30,612 --> 00:01:33,000
+For Alex, the quasi Riemann night was round
+
+50
+00:01:33,012 --> 00:01:33,338
+three.

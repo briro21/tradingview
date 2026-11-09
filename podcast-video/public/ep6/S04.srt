@@ -1,0 +1,211 @@
+1
+00:00:00,112 --> 00:00:00,638
+Part four.
+
+2
+00:00:01,062 --> 00:00:02,475
+Why mathematicians are mourning.
+
+3
+00:00:02,950 --> 00:00:05,112
+Fields medalist Terence Tao wrote that he is
+
+4
+00:00:05,125 --> 00:00:07,038
+horrified by years of patient,
+
+5
+00:00:07,350 --> 00:00:10,712
+deliberately slow research by graduate students being casually
+
+6
+00:00:10,725 --> 00:00:11,312
+disrupted.
+
+7
+00:00:11,725 --> 00:00:13,300
+You can't unhear a movie spoiler.
+
+8
+00:00:13,712 --> 00:00:14,138
+And then:
+
+9
+00:00:14,538 --> 00:00:15,900
+I mourn the path not taken.
+
+10
+00:00:16,312 --> 00:00:17,225
+Ankur feels it too.
+
+11
+00:00:17,638 --> 00:00:20,225
+The old blueprint for young mathematicians was simple.
+
+12
+00:00:20,638 --> 00:00:22,213
+Take a problem people care about,
+
+13
+00:00:22,575 --> 00:00:23,612
+make progress on it,
+
+14
+00:00:23,912 --> 00:00:24,588
+and doors open.
+
+15
+00:00:25,012 --> 00:00:26,038
+That blueprint is gone.
+
+16
+00:00:26,462 --> 00:00:28,712
+He says he feels more intellectually lonely than
+
+17
+00:00:28,725 --> 00:00:29,238
+before.
+
+18
+00:00:29,662 --> 00:00:31,650
+Some people now run scripts that scrape the
+
+19
+00:00:31,662 --> 00:00:34,300
+web for open problems and flood the preprint
+
+20
+00:00:34,312 --> 00:00:35,912
+servers with AI papers.
+
+21
+00:00:36,325 --> 00:00:37,738
+And there's a darker side effect.
+
+22
+00:00:38,150 --> 00:00:40,600
+Mathematicians may start hiding their ideas,
+
+23
+00:00:40,788 --> 00:00:42,575
+because once an idea is public,
+
+24
+00:00:42,825 --> 00:00:44,962
+an AI might finish the job in a
+
+25
+00:00:44,975 --> 00:00:45,712
+single night.
+
+26
+00:00:46,125 --> 00:00:48,300
+Alex tells the story of Andrew Wiles.
+
+27
+00:00:48,712 --> 00:00:51,038
+Years after proving Fermat's Last Theorem,
+
+28
+00:00:51,400 --> 00:00:53,138
+Wiles sat in front of a camera and
+
+29
+00:00:53,150 --> 00:00:55,725
+tried to describe the moment he finally saw
+
+30
+00:00:55,738 --> 00:00:56,888
+how to fix his proof.
+
+31
+00:00:57,312 --> 00:00:58,863
+He said he would never again have a
+
+32
+00:00:58,875 --> 00:01:00,100
+moment that powerful.
+
+33
+00:01:00,512 --> 00:01:01,225
+And he choked up.
+
+34
+00:01:01,638 --> 00:01:03,200
+Could you get that moment by pressing a
+
+35
+00:01:03,212 --> 00:01:03,550
+button?
+
+36
+00:01:03,962 --> 00:01:04,738
+Absolutely not,
+
+37
+00:01:05,088 --> 00:01:05,725
+Alex says.
+
+38
+00:01:06,138 --> 00:01:07,875
+It's like training for years to climb a
+
+39
+00:01:07,888 --> 00:01:08,300
+mountain,
+
+40
+00:01:08,675 --> 00:01:10,688
+and then a helicopter lands and drops you
+
+41
+00:01:10,700 --> 00:01:11,238
+at the top.
+
+42
+00:01:11,650 --> 00:01:14,212
+Lex compares it to Olympic champions who feel
+
+43
+00:01:14,350 --> 00:01:15,800
+empty after winning gold,
+
+44
+00:01:16,188 --> 00:01:17,950
+and to programmers who felt a loss of
+
+45
+00:01:17,962 --> 00:01:20,538
+meaning when AI started writing most of their
+
+46
+00:01:20,550 --> 00:01:20,900
+code.
+
+47
+00:01:21,325 --> 00:01:22,475
+But not everyone is mourning.
+
+48
+00:01:22,900 --> 00:01:24,212
+Steve is mostly hopeful.
+
+49
+00:01:24,625 --> 00:01:26,788
+If another country invented teleportation,
+
+50
+00:01:27,175 --> 00:01:29,587
+he says, we would reinvent it within five
+
+51
+00:01:29,600 --> 00:01:30,100
+years.
+
+52
+00:01:30,512 --> 00:01:32,975
+Knowing a solution exists is also a huge
+
+53
+00:01:32,988 --> 00:01:33,638
+motivation.

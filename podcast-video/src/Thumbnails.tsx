@@ -159,3 +159,40 @@ export const ThumbC: React.FC = () => (
     <Badge style={{ right: 50, bottom: 40 }}>Diary Of A CEO, animated</Badge>
   </Frame>
 );
+
+/** Mikrofon podcast kecil (ikon headset di kit bergaya kacamata VR). */
+const Mic: React.FC = () => (
+  <svg width={44} height={60} viewBox="0 0 44 60" style={{ overflow: "visible" }}>
+    <rect x={12} y={2} width={20} height={34} rx={10} fill={theme.red} stroke="#FFFFFF" strokeWidth={4} />
+    <path d="M5 26 C5 44 39 44 39 26" fill="none" stroke="#FFFFFF" strokeWidth={4} strokeLinecap="round" />
+    <path d="M22 41 L22 54 M12 56 L32 56" fill="none" stroke="#FFFFFF" strokeWidth={4} strokeLinecap="round" />
+  </svg>
+);
+
+/** Strip hitam di kiri atas: mikrofon + "<durasi> PODCAST → 10 MIN", penanda ringkasan podcast. */
+export const PodcastStrip: React.FC<{ hours: string }> = ({ hours }) => (
+  <div
+    style={{
+      position: "absolute",
+      left: 40,
+      top: 34,
+      display: "flex",
+      alignItems: "center",
+      gap: 14,
+      backgroundColor: theme.ink,
+      padding: "8px 26px 6px 22px",
+      borderRadius: 14,
+      transform: "rotate(-1.5deg)",
+      boxShadow: `6px 6px 0 ${theme.red}`,
+    }}
+  >
+    <Mic />
+    <Marker size={52} color="#FFFFFF">
+      {hours} PODCAST
+    </Marker>
+    <Marker size={52} color={theme.yellow}>
+      → 10 MIN
+    </Marker>
+  </div>
+);
+

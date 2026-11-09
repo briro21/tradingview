@@ -1,0 +1,243 @@
+1
+00:00:00,112 --> 00:00:00,550
+Part two.
+
+2
+00:00:00,962 --> 00:00:02,275
+What AI actually solved.
+
+3
+00:00:02,700 --> 00:00:04,112
+Start with the prime numbers,
+
+4
+00:00:04,312 --> 00:00:05,912
+the atoms of multiplication.
+
+5
+00:00:06,325 --> 00:00:08,113
+Every whole number is built from them,
+
+6
+00:00:08,412 --> 00:00:10,550
+but their pattern has always been a mystery.
+
+7
+00:00:10,975 --> 00:00:13,312
+Bernhard Riemann found a function that works like
+
+8
+00:00:13,325 --> 00:00:15,225
+signal processing for the primes.
+
+9
+00:00:15,638 --> 00:00:17,988
+Alex compares it to a microphone turning your
+
+10
+00:00:18,000 --> 00:00:19,612
+voice into frequencies.
+
+11
+00:00:20,038 --> 00:00:22,475
+The Riemann hypothesis says that in the music
+
+12
+00:00:22,488 --> 00:00:23,325
+of the primes,
+
+13
+00:00:23,600 --> 00:00:26,475
+every instrument plays at exactly the same volume.
+
+14
+00:00:26,888 --> 00:00:27,838
+In math terms:
+
+15
+00:00:28,225 --> 00:00:30,588
+all the important zeros of this function sit
+
+16
+00:00:30,600 --> 00:00:31,750
+on one single line,
+
+17
+00:00:32,038 --> 00:00:33,138
+the line one half.
+
+18
+00:00:33,575 --> 00:00:34,488
+For seventy years,
+
+19
+00:00:34,675 --> 00:00:36,725
+the best anyone could prove was a zero
+
+20
+00:00:36,738 --> 00:00:38,900
+free zone that got thinner and thinner.
+
+21
+00:00:39,312 --> 00:00:41,738
+The AI proved an entire strip with no
+
+22
+00:00:41,750 --> 00:00:42,662
+zeros at all,
+
+23
+00:00:42,962 --> 00:00:44,225
+from seven eighths to one.
+
+24
+00:00:44,650 --> 00:00:46,850
+Push that seven eighths down to one half,
+
+25
+00:00:47,238 --> 00:00:49,200
+and you have the full Riemann hypothesis.
+
+26
+00:00:49,612 --> 00:00:50,650
+Alex is careful here.
+
+27
+00:00:51,075 --> 00:00:52,950
+This method fundamentally can't get there.
+
+28
+00:00:53,350 --> 00:00:54,625
+A new idea is needed.
+
+29
+00:00:55,050 --> 00:00:56,538
+But the proof is checked in Lean,
+
+30
+00:00:56,850 --> 00:00:58,338
+so he is a hundred percent sure it's
+
+31
+00:00:58,350 --> 00:00:58,825
+correct.
+
+32
+00:00:59,238 --> 00:01:02,950
+Then Navier-Stokes, the equations behind every fluid on
+
+33
+00:01:02,962 --> 00:01:03,375
+Earth.
+
+34
+00:01:03,800 --> 00:01:06,288
+They are basically F equals m a for
+
+35
+00:01:06,300 --> 00:01:07,338
+water and air.
+
+36
+00:01:07,750 --> 00:01:09,038
+The million dollar question:
+
+37
+00:01:09,412 --> 00:01:11,600
+can a smooth flow suddenly blow up to
+
+38
+00:01:11,612 --> 00:01:12,150
+infinity?
+
+39
+00:01:12,562 --> 00:01:16,075
+University of Washington engineer Steve Brunton explains what
+
+40
+00:01:16,088 --> 00:01:18,512
+the AI found for one version of the
+
+41
+00:01:18,525 --> 00:01:18,962
+problem.
+
+42
+00:01:19,375 --> 00:01:22,688
+A perfectly orchestrated vortex that keeps stretching and
+
+43
+00:01:22,700 --> 00:01:25,075
+thinning, like a figure skater pulling in their
+
+44
+00:01:25,088 --> 00:01:27,775
+arms, spinning faster and faster until,
+
+45
+00:01:28,175 --> 00:01:28,875
+at one point,
+
+46
+00:01:29,275 --> 00:01:30,225
+it becomes infinite.
+
+47
+00:01:30,650 --> 00:01:31,538
+But here's the twist.
+
+48
+00:01:31,962 --> 00:01:34,612
+Steve says almost nothing changed for engineers.
+
+49
+00:01:35,025 --> 00:01:37,512
+Airplane wings and artificial hearts are just as
+
+50
+00:01:37,525 --> 00:01:39,325
+hard to simulate as before.
+
+51
+00:01:39,750 --> 00:01:41,712
+We solved the million dollar math problem,
+
+52
+00:01:42,075 --> 00:01:42,613
+he says.
+
+53
+00:01:43,038 --> 00:01:45,662
+The trillion dollar engineering problem is still open.
+
+54
+00:01:46,075 --> 00:01:47,488
+And the Unique Games Conjecture?
+
+55
+00:01:47,900 --> 00:01:49,738
+It's a bet about which hard problems we
+
+56
+00:01:49,750 --> 00:01:50,812
+can even approximate.
+
+57
+00:01:51,225 --> 00:01:51,900
+If it's true,
+
+58
+00:01:52,200 --> 00:01:54,688
+it organizes a huge part of computer science.
+
+59
+00:01:55,100 --> 00:01:57,112
+Ankur admits he was one of the doubters.
+
+60
+00:01:57,525 --> 00:01:58,950
+It sounded too nice to be true.
+
+61
+00:01:59,362 --> 00:01:59,825
+It's true.
