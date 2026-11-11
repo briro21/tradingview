@@ -16,7 +16,7 @@ import { ThumbM, ThumbN, ThumbO } from "./episodes/ep5/Thumbnails";
 import { EP6_FRAMES, Episode6 } from "./episodes/ep6/Video";
 import { ThumbP, ThumbQ, ThumbR } from "./episodes/ep6/Thumbnails";
 import { EP7_FRAMES, Episode7 } from "./episodes/ep7/Video";
-import { ThumbS, ThumbT, ThumbU } from "./episodes/ep7/Thumbnails";
+import { ThumbS, ThumbS2, ThumbT, ThumbT2, ThumbU, ThumbU2 } from "./episodes/ep7/Thumbnails";
 import { ThumbG, ThumbH, ThumbI } from "./episodes/ep3/Thumbnails";
 
 export const Root: React.FC = () => (
@@ -182,5 +182,8 @@ export const Root: React.FC = () => (
     <Still id="Ep7ThumbA" component={ThumbS} width={1280} height={720} />
     <Still id="Ep7ThumbB" component={ThumbT} width={1280} height={720} />
     <Still id="Ep7ThumbC" component={ThumbU} width={1280} height={720} />
+    <Still id="Ep7ThumbA2" component={ThumbS2} width={1280} height={720} />
+    <Still id="Ep7ThumbB2" component={ThumbT2} width={1280} height={720} />
+    <Still id="Ep7ThumbC2" component={ThumbU2} width={1280} height={720} />
   </>
 );

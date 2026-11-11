@@ -718,6 +718,14 @@ export const ICONS: Record<string, Stroke[]> = {
     { d: L(50, 38, 50, 62) + " " + L(38, 50, 62, 50), w: 1.2 },
     { d: C(76, 30, 4), fill: "#FFFFFF" },
   ],
+  faceShock: [
+    { d: C(50, 52, 40), fill: "#FFD54F" },
+    { d: "M24 30 C30 22 38 22 42 26 M58 26 C62 22 70 22 76 30", w: 1.2 },
+    { d: `${C(36, 42, 9)} ${C(64, 42, 9)}`, fill: "#FFFFFF" },
+    { d: `${C(36, 43, 3)} ${C(64, 43, 3)}`, fill: ink },
+    { d: E(50, 70, 9, 12), fill: "#5D1F1F" },
+    { d: "M84 30 C80 38 80 44 84 46 C88 44 88 38 84 30 Z", fill: "#81D4FA", color: blue },
+  ],
 };
 
 export const iconNames = Object.keys(ICONS);

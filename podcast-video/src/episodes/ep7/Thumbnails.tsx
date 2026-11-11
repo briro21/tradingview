@@ -1,6 +1,6 @@
 import React from "react";
 import { theme } from "../../theme";
-import { Badge, Frame, Icon, Marker, PodcastStrip, RedBox } from "../../Thumbnails";
+import { Badge, Bold, DarkFrame, Frame, Icon, Marker, MiniStrip, PodcastStrip, RedBox, SmallBadge } from "../../Thumbnails";
 
 // Thumbnail Robert Pape × The Diary of a CEO (1280×720).
 
@@ -60,4 +60,62 @@ export const ThumbU: React.FC = () => (
     </div>
     <Badge style={{ right: 40, top: 118 }}>Robert Pape × Diary of a CEO</Badge>
   </Frame>
+);
+
+// ---------- Versi 2 (gaya baru): ≤4 kata, latar gelap, satu objek besar + wajah emosi. ----------
+
+const STRIP = "90-MIN PODCAST → 10 MIN";
+const CREDIT = "Robert Pape · The Diary of a CEO";
+
+/** S2: kalender raksasa "8" + wajah kaget. */
+export const ThumbS2: React.FC = () => (
+  <DarkFrame glowX={930} glowY={370}>
+    <Icon name="calendarBlank" x={1000} y={400} size={480} />
+    <div style={{ position: "absolute", left: 860, top: 320, width: 280, textAlign: "center" }}>
+      <Bold size={300} color={theme.red}>8</Bold>
+    </div>
+    <Icon name="faceShock" x={1190} y={590} size={210} rotate={8} />
+    <MiniStrip text={STRIP} />
+    <div style={{ position: "absolute", left: 50, top: 170 }}>
+      <Bold size={96}>MOST DANGEROUS</Bold>
+      <Bold size={150} color={theme.yellow} style={{ marginTop: 14 }}>
+        WEEKS
+      </Bold>
+    </div>
+    <SmallBadge>{CREDIT}</SmallBadge>
+  </DarkFrame>
+);
+
+/** T2: roda roulette raksasa dengan bom. */
+export const ThumbT2: React.FC = () => (
+  <DarkFrame glowX={940} glowY={380}>
+    <Icon name="roulette" x={990} y={380} size={540} rotate={-12} />
+    <Icon name="bomb" x={1160} y={570} size={230} rotate={-10} />
+    <MiniStrip text={STRIP} />
+    <div style={{ position: "absolute", left: 50, top: 190 }}>
+      <Bold size={120}>WAR IS</Bold>
+      <Bold size={116} color={theme.red} style={{ marginTop: 14 }}>
+        ROULETTE
+      </Bold>
+    </div>
+    <SmallBadge>{CREDIT}</SmallBadge>
+  </DarkFrame>
+);
+
+/** U2: bumi terbakar + wajah kaget. */
+export const ThumbU2: React.FC = () => (
+  <DarkFrame glow={theme.orange} glowX={930} glowY={400}>
+    <Icon name="globe" x={930} y={420} size={460} />
+    <Icon name="fire" x={820} y={190} size={230} rotate={-8} />
+    <Icon name="fire" x={1080} y={230} size={190} rotate={10} />
+    <Icon name="faceShock" x={1170} y={580} size={200} rotate={-6} />
+    <MiniStrip text={STRIP} />
+    <div style={{ position: "absolute", left: 50, top: 190 }}>
+      <Bold size={120}>ROAD TO</Bold>
+      <Bold size={190} color={theme.yellow} style={{ marginTop: 10 }}>
+        WW3?
+      </Bold>
+    </div>
+    <SmallBadge>{CREDIT}</SmallBadge>
+  </DarkFrame>
 );

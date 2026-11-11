@@ -196,3 +196,47 @@ export const PodcastStrip: React.FC<{ hours: string }> = ({ hours }) => (
   </div>
 );
 
+
+// ---------- Gaya thumbnail v2: latar gelap, teks ≤4 kata ber-outline, satu objek besar. ----------
+
+export const DarkFrame: React.FC<{ glow?: string; glowX?: number; glowY?: number; children: React.ReactNode }> = ({ glow = theme.red, glowX = 900, glowY = 380, children }) => (
+  <AbsoluteFill style={{ backgroundColor: "#151515" }}>
+    <AbsoluteFill style={{ background: `radial-gradient(circle at ${glowX}px ${glowY}px, ${glow}AA 0px, ${glow}33 260px, transparent 520px)` }} />
+    {children}
+    <AbsoluteFill style={{ border: `10px solid ${theme.ink}` }} />
+  </AbsoluteFill>
+);
+
+/** Teks besar dengan outline hitam tebal agar terbaca di ukuran kecil. */
+export const Bold: React.FC<{ children: React.ReactNode; size: number; color?: string; style?: React.CSSProperties }> = ({ children, size, color = "#FFFFFF", style }) => (
+  <div
+    style={{
+      fontFamily: theme.marker,
+      fontSize: size,
+      color,
+      lineHeight: 0.95,
+      whiteSpace: "nowrap",
+      WebkitTextStroke: `${Math.round(size / 9)}px ${theme.ink}`,
+      paintOrder: "stroke fill",
+      textShadow: `0 ${Math.round(size / 14)}px 0 ${theme.ink}`,
+      ...style,
+    }}
+  >
+    {children}
+  </div>
+);
+
+/** Strip kecil penanda "ringkasan podcast". */
+export const MiniStrip: React.FC<{ text: string }> = ({ text }) => (
+  <div style={{ position: "absolute", left: 34, top: 30, display: "flex", alignItems: "center", gap: 10, backgroundColor: "#FFFFFF", padding: "6px 18px 4px 14px", borderRadius: 12, border: `4px solid ${theme.ink}`, transform: "rotate(-1.5deg)" }}>
+    <svg width={30} height={42} viewBox="0 0 44 60">
+      <rect x={12} y={2} width={20} height={34} rx={10} fill={theme.red} stroke={theme.ink} strokeWidth={4} />
+      <path d="M6 28 C6 46 38 46 38 28 M22 44 L22 56 M12 57 L32 57" fill="none" stroke={theme.ink} strokeWidth={4} strokeLinecap="round" />
+    </svg>
+    <Marker size={42}>{text}</Marker>
+  </div>
+);
+
+export const SmallBadge: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <div style={{ position: "absolute", left: 40, bottom: 34, fontFamily: theme.hand, fontSize: 34, color: "#FFFFFF", opacity: 0.9 }}>{children}</div>
+);

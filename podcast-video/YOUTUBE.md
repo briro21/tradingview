@@ -499,6 +499,12 @@ Semua opsi punya strip **"🎙 90-MIN PODCAST → 10 MIN"** dan badge **"Robert 
 - `out/ep7-thumbnail-B.png`: IRAN WAR IS ROULETTE · ESCALATION TRAP
 - `out/ep7-thumbnail-C.png`: THE ROAD TO WW3? · 3 WAYS TO STOP IT
 
+**Versi 2 (gaya baru, disarankan untuk Test & Compare):** latar gelap, teks ≤3 kata ber-outline, satu objek besar + wajah kaget, strip podcast kecil.
+
+- `out/ep7-thumbnail-A2.png`: MOST DANGEROUS WEEKS + kalender "8"
+- `out/ep7-thumbnail-B2.png`: WAR IS ROULETTE + roda roulette & bom
+- `out/ep7-thumbnail-C2.png`: ROAD TO WW3? + bumi terbakar
+
 ## Shorts (4 video)
 
 Semua Shorts ditutup dengan ajakan ke ringkasan 10 menit di channel. Taruh link video utama di komentar yang di-pin.
