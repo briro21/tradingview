@@ -559,7 +559,7 @@ Full 10-minute summary on my channel. Original episode: https://www.youtube.com/
 
 # Judul & thumbnail v3 (hasil riset, November 2026)
 
-Dasar: RESEARCH.md. Judul memakai pola pemenang ("[Pelaku] melakukan hal mengejutkan. [Twist]." atau "[Kredensial] WARNS: ..."), tanpa kata "podcast"/"summary". Nama podcast pindah ke baris pertama deskripsi. Thumbnail v3: font condensed tebal, maks. 3 kata, wajah doodle beremosi + satu objek, tanpa strip podcast.
+Dasar: RESEARCH.md. Judul memakai pola pemenang ("[Pelaku] melakukan hal mengejutkan. [Twist]." atau "[Kredensial] WARNS: ..."), tanpa kata "podcast"/"summary". Nama podcast pindah ke baris pertama deskripsi. Thumbnail v3: font condensed tebal, maks. 3 kata, potret kartun narasumber asli (dibuat dari thumbnail episode aslinya dengan `scripts/cartoon_guest.py`) + satu objek kecil, tanpa strip podcast. Narasumber video AI & matematika di thumbnail adalah salah satu dari tiga matematikawan tamu.
 
 Mengganti judul video lama aman: view-nya masih sangat kecil, jadi hampir tidak ada yang dipertaruhkan.
 

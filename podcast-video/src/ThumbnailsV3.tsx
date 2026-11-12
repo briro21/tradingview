@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill } from "remotion";
+import { AbsoluteFill, Img, staticFile } from "remotion";
 import { loadFont as loadAnton } from "@remotion/google-fonts/Anton";
 import { theme } from "./theme";
 import { Icon } from "./Thumbnails";
@@ -86,6 +86,11 @@ export const RedCircle: React.FC<{ x: number; y: number; w: number; h: number }>
   </svg>
 );
 
+/** Potret kartun narasumber (dibuat dari foto episode asli, lihat scripts/cartoon_guest.py). */
+export const Guest: React.FC<{ n: number; height?: number; left?: number }> = ({ n, height = 800, left = -40 }) => (
+  <Img src={staticFile(`thumbs/guest${n}.png`)} style={{ position: "absolute", left, bottom: -40, height }} />
+);
+
 const Bg: React.FC<{ dark?: boolean; glow?: string; children: React.ReactNode }> = ({ dark, glow = red, children }) => (
   <AbsoluteFill style={{ backgroundColor: dark ? "#111111" : "#F3F1EA" }}>
     <AbsoluteFill style={{ background: `radial-gradient(circle at 330px 420px, ${glow}${dark ? "99" : "40"} 0px, transparent 380px)` }} />
@@ -99,7 +104,7 @@ const Bg: React.FC<{ dark?: boolean; glow?: string; children: React.ReactNode }>
 /** Ep1 Roman Yampolskiy: 99% pengangguran. */
 export const V3Ep1: React.FC = () => (
   <Bg dark>
-    <Face mood="worried" x={330} y={470} size={600} hair="none" beard shirt="#263238" />
+    <Guest n={1} />
     <Icon name="robot" x={560} y={250} size={170} rotate={10} />
     <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
       <Big size={230} color={red}>99%</Big>
@@ -111,7 +116,7 @@ export const V3Ep1: React.FC = () => (
 /** Ep2 Daniel Kokotajlo: menolak $2 juta untuk memperingatkan. */
 export const V3Ep2: React.FC = () => (
   <Bg>
-    <Face mood="worried" x={320} y={420} size={600} hair="short" shirt="#1565C0" />
+    <Guest n={2} />
     <Icon name="money" x={580} y={230} size={170} rotate={-12} />
     <div style={{ position: "absolute", right: 60, top: 140, textAlign: "right" }}>
       <Big size={110}>HE GAVE UP</Big>
@@ -124,7 +129,7 @@ export const V3Ep2: React.FC = () => (
 /** Ep3 Robert Greene: sisi gelap. */
 export const V3Ep3: React.FC = () => (
   <Bg dark>
-    <Face mood="smirk" x={330} y={470} size={600} hair="none" glasses shirt="#212121" />
+    <Guest n={3} />
     <Icon name="mask" x={610} y={230} size={200} rotate={-10} />
     <div style={{ position: "absolute", right: 60, top: 170, textAlign: "right" }}>
       <Big size={120} color="#FFFFFF">YOUR</Big>
@@ -136,7 +141,7 @@ export const V3Ep3: React.FC = () => (
 /** Ep4 (upload) Joscha Bach: dunia nyata tidak pernah kamu lihat. */
 export const V3Ep4: React.FC = () => (
   <Bg dark glow={theme.purple}>
-    <Face mood="shocked" x={330} y={470} size={600} hair="long" shirt="#4A148C" />
+    <Guest n={4} />
     <Icon name="brain" x={590} y={220} size={180} rotate={10} />
     <div style={{ position: "absolute", right: 60, top: 170, textAlign: "right" }}>
       <Big size={130} color="#FFFFFF">IT'S NOT</Big>
@@ -148,8 +153,8 @@ export const V3Ep4: React.FC = () => (
 /** Ep5 (upload) AI & matematika: 700 bukti dalam satu malam. */
 export const V3Ep5: React.FC = () => (
   <Bg>
-    <Face mood="crying" x={300} y={470} size={580} hair="short" glasses shirt="#5D4037" />
-    <Icon name="robot" x={580} y={230} size={170} rotate={-8} />
+    <Guest n={5} />
+    <Icon name="robot" x={720} y={600} size={150} rotate={-8} />
     <div style={{ position: "absolute", right: 60, top: 130, textAlign: "right" }}>
       <Big size={230} color={red}>700</Big>
       <Big size={120} style={{ marginTop: 6 }}>PROOFS</Big>
@@ -162,7 +167,7 @@ export const V3Ep5: React.FC = () => (
 /** Ep6 (upload) Robert Pape: 8 minggu paling berbahaya. */
 export const V3Ep6: React.FC = () => (
   <Bg dark>
-    <Face mood="worried" x={330} y={470} size={600} hair="short" shirt="#263238" />
+    <Guest n={6} />
     <Icon name="bomb" x={580} y={230} size={170} rotate={-10} />
     <div style={{ position: "absolute", right: 60, top: 140, textAlign: "right" }}>
       <Big size={110} color="#FFFFFF">THE NEXT</Big>
