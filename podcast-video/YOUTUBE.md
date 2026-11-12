@@ -556,3 +556,22 @@ Full 10-minute summary on my channel. Original episode: https://www.youtube.com/
 
 #Shorts #DiaryOfACEO #RobertPape #Preparedness #Geopolitics #PodcastSummary
 ```
+
+# Judul & thumbnail v3 (hasil riset, November 2026)
+
+Dasar: RESEARCH.md. Judul memakai pola pemenang ("[Pelaku] melakukan hal mengejutkan. [Twist]." atau "[Kredensial] WARNS: ..."), tanpa kata "podcast"/"summary". Nama podcast pindah ke baris pertama deskripsi. Thumbnail v3: font condensed tebal, maks. 3 kata, wajah doodle beremosi + satu objek, tanpa strip podcast.
+
+Mengganti judul video lama aman: view-nya masih sangat kecil, jadi hampir tidak ada yang dipertaruhkan.
+
+| Video | Judul baru | Thumbnail | Baris pertama deskripsi (ganti yang lama) |
+|---|---|---|---|
+| Roman Yampolskiy (DOAC) | AI Safety Expert WARNS: 99% of Jobs Will Be Gone by 2030 | `out/v3-thumb-1.png` (99% JOBLESS) | AI safety researcher Dr. Roman Yampolskiy explains why he believes AI could leave 99% of people without work, from his conversation on The Diary of a CEO. |
+| Daniel Kokotajlo (DOAC) | Ex-OpenAI Insider Gave Up $2M to Warn Us About 2027 | `out/v3-thumb-2.png` (HE GAVE UP $2M) | Former OpenAI researcher Daniel Kokotajlo walked away from $2M to warn the world about AI 2027. Explained from his conversation on The Diary of a CEO. |
+| Robert Greene (DOAC) | Robert Greene: Everyone Who Wins Has a Dark Side | `out/v3-thumb-3.png` (YOUR DARK SIDE) | Robert Greene on the dark side we deny, the lost art of seduction and what a stroke taught him about power, from The Diary of a CEO. |
+| Joscha Bach (Lex #101) | You Have Never Seen the Real World. Your Brain Made It Up. | `out/v3-thumb-4.png` (IT'S NOT REAL) | AI researcher Joscha Bach explains why everything you experience is a simulation built by your brain, from Lex Fridman Podcast #101. |
+| AI & matematika (Lex #503) | AI Dropped 700 Math Results in One Night. Mathematicians Are Mourning. | `out/v3-thumb-5.png` (700 PROOFS IN ONE NIGHT) | In one night, AI systems claimed 700 math results. Three mathematicians on Lex Fridman Podcast #503 explain what was really solved and why some experts are in mourning. |
+| Robert Pape (DOAC, belum upload) | War Expert WARNS: The Next 8 Weeks Are the Most Dangerous of Our Lives | `out/v3-thumb-6.png` (THE NEXT 8 WEEKS) | Political scientist Robert Pape, who has advised every White House since 9/11, lays out his scenario for the next eight weeks, from The Diary of a CEO. |
+
+Kalimat "summarized in 10 animated minutes" boleh tetap ada sebagai baris kedua deskripsi, dan link episode asli tetap wajib ada. Chapter tidak perlu diubah.
+
+Untuk video Pape: upload secepatnya. Delapan minggu dihitung dari pemilu 3 November, jadi judulnya makin basi setiap hari.

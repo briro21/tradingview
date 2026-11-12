@@ -16,6 +16,7 @@ import { ThumbM, ThumbN, ThumbO } from "./episodes/ep5/Thumbnails";
 import { EP6_FRAMES, Episode6 } from "./episodes/ep6/Video";
 import { ThumbP, ThumbQ, ThumbR } from "./episodes/ep6/Thumbnails";
 import { EP7_FRAMES, Episode7 } from "./episodes/ep7/Video";
+import { V3Ep1, V3Ep2, V3Ep3, V3Ep4, V3Ep5, V3Ep6 } from "./ThumbnailsV3";
 import { ThumbS, ThumbS2, ThumbT, ThumbT2, ThumbU, ThumbU2 } from "./episodes/ep7/Thumbnails";
 import { ThumbG, ThumbH, ThumbI } from "./episodes/ep3/Thumbnails";
 
@@ -185,5 +186,11 @@ export const Root: React.FC = () => (
     <Still id="Ep7ThumbA2" component={ThumbS2} width={1280} height={720} />
     <Still id="Ep7ThumbB2" component={ThumbT2} width={1280} height={720} />
     <Still id="Ep7ThumbC2" component={ThumbU2} width={1280} height={720} />
+    <Still id="V3Ep1" component={V3Ep1} width={1280} height={720} />
+    <Still id="V3Ep2" component={V3Ep2} width={1280} height={720} />
+    <Still id="V3Ep3" component={V3Ep3} width={1280} height={720} />
+    <Still id="V3Ep4" component={V3Ep4} width={1280} height={720} />
+    <Still id="V3Ep5" component={V3Ep5} width={1280} height={720} />
+    <Still id="V3Ep6" component={V3Ep6} width={1280} height={720} />
   </>
 );
