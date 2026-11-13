@@ -1,0 +1,920 @@
+{
+ "bpm": 80.0,
+ "period": 0.75,
+ "total_beats": 674,
+ "total": 505.5,
+ "items": [
+  {
+   "key": "h0",
+   "text": "610 A.D. A cave above Mecca. Something seizes a man in the dark, and squeezes until he cannot breathe.",
+   "beat": 3,
+   "nb": 11,
+   "vo_t": 2.37,
+   "vo_dur": 6.734
+  },
+  {
+   "key": "h1",
+   "text": "It was not human.",
+   "beat": 14,
+   "nb": 4,
+   "vo_t": 10.62,
+   "vo_dur": 0.882
+  },
+  {
+   "key": "h2",
+   "text": "What happened in that cave... changed the world forever.",
+   "beat": 18,
+   "nb": 5,
+   "vo_t": 13.62,
+   "vo_dur": 2.461
+  },
+  {
+   "key": "h3",
+   "text": "And an old blind man warned him it would cost everything. Stay until the end, and you will know why.",
+   "beat": 23,
+   "nb": 10,
+   "vo_t": 17.37,
+   "vo_dur": 5.422
+  },
+  {
+   "key": "title",
+   "text": "",
+   "beat": 33,
+   "nb": 6,
+   "vo_t": null,
+   "vo_dur": 0
+  },
+  {
+   "key": "4",
+   "text": "First, you need to understand the chaos of Mecca. The year is 610 AD.",
+   "beat": 39,
+   "nb": 7,
+   "vo_t": 29.37,
+   "vo_dur": 4.412
+  },
+  {
+   "key": "5",
+   "text": "This barren valley is never truly quiet. It's the Wall Street of the ancient desert.",
+   "beat": 46,
+   "nb": 7,
+   "vo_t": 34.62,
+   "vo_dur": 4.377
+  },
+  {
+   "key": "6",
+   "text": "Caravans come and go. Bringing fine fabrics from Yemen. Rich oils from the Levant.",
+   "beat": 53,
+   "nb": 7,
+   "vo_t": 39.87,
+   "vo_dur": 4.447
+  },
+  {
+   "key": "7",
+   "text": "Pilgrims flock from every corner of Arabia to circle the Kaaba.",
+   "beat": 60,
+   "nb": 6,
+   "vo_t": 45.12,
+   "vo_dur": 3.704
+  },
+  {
+   "key": "8",
+   "text": "A sacred house they believe was built by Abraham and his son, Ishmael.",
+   "beat": 66,
+   "nb": 6,
+   "vo_t": 49.62,
+   "vo_dur": 3.994
+  },
+  {
+   "key": "9",
+   "text": "But the faith of Abraham is dead. The Kaaba is now surrounded by hundreds of stone idols.",
+   "beat": 72,
+   "nb": 7,
+   "vo_t": 54.12,
+   "vo_dur": 4.795
+  },
+  {
+   "key": "10",
+   "text": "Every tribe has its own god. They swear by Al-Lat. They sacrifice to Al-Uzza.",
+   "beat": 79,
+   "nb": 7,
+   "vo_t": 59.37,
+   "vo_dur": 4.168
+  },
+  {
+   "key": "11",
+   "text": "Then, they go right back to the market to cheat each other.",
+   "beat": 86,
+   "nb": 5,
+   "vo_t": 64.62,
+   "vo_dur": 2.891
+  },
+  {
+   "key": "12",
+   "text": "The strong crush the weak. Daughters are buried alive because they are seen as a disgrace.",
+   "beat": 91,
+   "nb": 7,
+   "vo_t": 68.37,
+   "vo_dur": 4.377
+  },
+  {
+   "key": "13",
+   "text": "Wealth is the only measure of a man's worth.",
+   "beat": 98,
+   "nb": 4,
+   "vo_t": 73.62,
+   "vo_dur": 2.392
+  },
+  {
+   "key": "14",
+   "text": "But in the middle of this noisy, corrupt city, there is one man who cannot find peace.",
+   "beat": 102,
+   "nb": 7,
+   "vo_t": 76.62,
+   "vo_dur": 4.168
+  },
+  {
+   "key": "15",
+   "text": "He is nearly forty years old. An orphan since childhood.",
+   "beat": 109,
+   "nb": 5,
+   "vo_t": 81.87,
+   "vo_dur": 3.146
+  },
+  {
+   "key": "16",
+   "text": "Raised by his grandfather, then his uncle.",
+   "beat": 114,
+   "nb": 4,
+   "vo_t": 85.62,
+   "vo_dur": 2.334
+  },
+  {
+   "key": "17",
+   "text": "Now, he is comfortable. He is married to Khadijah, a wealthy, highly respected businesswoman.",
+   "beat": 118,
+   "nb": 8,
+   "vo_t": 88.62,
+   "vo_dur": 5.155
+  },
+  {
+   "key": "18",
+   "text": "The people of Mecca love him. They don't call him by his name. They call him Al-Amin.",
+   "beat": 126,
+   "nb": 6,
+   "vo_t": 94.62,
+   "vo_dur": 3.947
+  },
+  {
+   "key": "19",
+   "text": "The Trustworthy.",
+   "beat": 132,
+   "nb": 3,
+   "vo_t": 99.12,
+   "vo_dur": 0.743
+  },
+  {
+   "key": "20",
+   "text": "His name is Muhammad, the son of Abdullah.",
+   "beat": 135,
+   "nb": 4,
+   "vo_t": 101.37,
+   "vo_dur": 2.334
+  },
+  {
+   "key": "21",
+   "text": "He never bows to the idols. He refuses to eat their sacrifices.",
+   "beat": 139,
+   "nb": 6,
+   "vo_t": 104.37,
+   "vo_dur": 3.518
+  },
+  {
+   "key": "22",
+   "text": "But he also doesn't know what he should worship.",
+   "beat": 145,
+   "nb": 4,
+   "vo_t": 108.87,
+   "vo_dur": 2.171
+  },
+  {
+   "key": "23",
+   "text": "He just knows the world is broken. And he craves something he can't even name.",
+   "beat": 149,
+   "nb": 6,
+   "vo_t": 111.87,
+   "vo_dur": 3.971
+  },
+  {
+   "key": "24",
+   "text": "That craving pushes him out of the city. Away from the noise.",
+   "beat": 155,
+   "nb": 5,
+   "vo_t": 116.37,
+   "vo_dur": 2.902
+  },
+  {
+   "key": "25",
+   "text": "He climbs a jagged, harsh mountain just a few miles northeast of Mecca. Jabal Nur.",
+   "beat": 160,
+   "nb": 8,
+   "vo_t": 120.12,
+   "vo_dur": 4.853
+  },
+  {
+   "key": "26",
+   "text": "It starts with dreams. His wife, Aisha, would later recount how it all began.",
+   "beat": 168,
+   "nb": 6,
+   "vo_t": 126.12,
+   "vo_dur": 4.052
+  },
+  {
+   "key": "27",
+   "text": "She said before the revelation, he started having dreams that were as clear as the breaking dawn.",
+   "beat": 174,
+   "nb": 8,
+   "vo_t": 130.62,
+   "vo_dur": 4.888
+  },
+  {
+   "key": "28",
+   "text": "Whatever he saw in his sleep, happened exactly like that in real life.",
+   "beat": 182,
+   "nb": 6,
+   "vo_t": 136.62,
+   "vo_dur": 3.855
+  },
+  {
+   "key": "29",
+   "text": "Driven by these visions, he seeks total isolation.",
+   "beat": 188,
+   "nb": 5,
+   "vo_t": 141.12,
+   "vo_dur": 2.902
+  },
+  {
+   "key": "30",
+   "text": "He finds a tiny cave near the mountain's peak. Cave Hira.",
+   "beat": 193,
+   "nb": 5,
+   "vo_t": 144.87,
+   "vo_dur": 3.065
+  },
+  {
+   "key": "31",
+   "text": "It's barely big enough to sit or lie down.",
+   "beat": 198,
+   "nb": 4,
+   "vo_t": 148.62,
+   "vo_dur": 2.229
+  },
+  {
+   "key": "32",
+   "text": "But from the mouth of this cave, if the sky is clear, he can see Mecca far below.",
+   "beat": 202,
+   "nb": 7,
+   "vo_t": 151.62,
+   "vo_dur": 4.54
+  },
+  {
+   "key": "33",
+   "text": "He stays here for days. Practicing Tahannuth, deep reflection and worship.",
+   "beat": 209,
+   "nb": 7,
+   "vo_t": 156.87,
+   "vo_dur": 4.296
+  },
+  {
+   "key": "34",
+   "text": "He brings basic provisions. Water. Dates.",
+   "beat": 216,
+   "nb": 4,
+   "vo_t": 162.12,
+   "vo_dur": 2.322
+  },
+  {
+   "key": "35",
+   "text": "When he runs out, he walks all the way down, goes back to Khadijah, resupplies, and climbs right back up.",
+   "beat": 220,
+   "nb": 9,
+   "vo_t": 165.12,
+   "vo_dur": 6.037
+  },
+  {
+   "key": "36",
+   "text": "Some historians say he did this for an entire month every year.",
+   "beat": 229,
+   "nb": 6,
+   "vo_t": 171.87,
+   "vo_dur": 3.495
+  },
+  {
+   "key": "37",
+   "text": "What is he thinking about up there? The records don't say.",
+   "beat": 235,
+   "nb": 4,
+   "vo_t": 176.37,
+   "vo_dur": 2.508
+  },
+  {
+   "key": "38",
+   "text": "We can only imagine a man sitting in deafening silence.",
+   "beat": 239,
+   "nb": 5,
+   "vo_t": 179.37,
+   "vo_dur": 2.891
+  },
+  {
+   "key": "39",
+   "text": "Looking for the meaning behind the sky, the earth, and his own existence.",
+   "beat": 244,
+   "nb": 6,
+   "vo_t": 183.12,
+   "vo_dur": 3.704
+  },
+  {
+   "key": "40",
+   "text": "And pay attention to Khadijah here. This is crucial.",
+   "beat": 250,
+   "nb": 5,
+   "vo_t": 187.62,
+   "vo_dur": 2.879
+  },
+  {
+   "key": "41",
+   "text": "She doesn't stop him. She doesn't complain that he disappears into the mountains for days.",
+   "beat": 255,
+   "nb": 7,
+   "vo_t": 191.37,
+   "vo_dur": 4.505
+  },
+  {
+   "key": "42",
+   "text": "She packs his bags. She waits. She lets him go.",
+   "beat": 262,
+   "nb": 5,
+   "vo_t": 196.62,
+   "vo_dur": 3.239
+  },
+  {
+   "key": "43",
+   "text": "This silent, unwavering loyalty is about to become his only lifeline.",
+   "beat": 267,
+   "nb": 6,
+   "vo_t": 200.37,
+   "vo_dur": 3.738
+  },
+  {
+   "key": "44",
+   "text": "Because the night that changes everything has finally arrived.",
+   "beat": 273,
+   "nb": 7,
+   "vo_t": 204.87,
+   "vo_dur": 2.891
+  },
+  {
+   "key": "45",
+   "text": "It is the month of Ramadan. Muhammad is alone in the cave.",
+   "beat": 280,
+   "nb": 5,
+   "vo_t": 210.12,
+   "vo_dur": 3.077
+  },
+  {
+   "key": "46",
+   "text": "Suddenly, the truth he was searching for doesn't just appear. It grabs him.",
+   "beat": 285,
+   "nb": 7,
+   "vo_t": 213.87,
+   "vo_dur": 4.145
+  },
+  {
+   "key": "47",
+   "text": "A majestic, terrifying entity, an angel, manifests in the tiny space.",
+   "beat": 292,
+   "nb": 7,
+   "vo_t": 219.12,
+   "vo_dur": 4.679
+  },
+  {
+   "key": "48",
+   "text": "The entity gives one commanding order: \"Read!\"",
+   "beat": 299,
+   "nb": 6,
+   "vo_t": 224.37,
+   "vo_dur": 2.786
+  },
+  {
+   "key": "49",
+   "text": "Muhammad is paralyzed. He replies, \"I am not a reader.\"",
+   "beat": 305,
+   "nb": 5,
+   "vo_t": 228.87,
+   "vo_dur": 3.344
+  },
+  {
+   "key": "50",
+   "text": "Immediately, the angel violently grabs him. Squeezing him so tight he feels his bones might crack.",
+   "beat": 310,
+   "nb": 8,
+   "vo_t": 232.62,
+   "vo_dur": 5.457
+  },
+  {
+   "key": "51",
+   "text": "He is suffocating. Pushed to the absolute limit of human endurance.",
+   "beat": 318,
+   "nb": 6,
+   "vo_t": 238.62,
+   "vo_dur": 3.518
+  },
+  {
+   "key": "52",
+   "text": "Then, the angel releases him. Muhammad gasps for air.",
+   "beat": 324,
+   "nb": 5,
+   "vo_t": 243.12,
+   "vo_dur": 2.984
+  },
+  {
+   "key": "53",
+   "text": "But the entity commands again: \"Read!\"",
+   "beat": 329,
+   "nb": 4,
+   "vo_t": 246.87,
+   "vo_dur": 2.218
+  },
+  {
+   "key": "54",
+   "text": "Terrified, Muhammad gives the exact same answer. \"I am not a reader.\"",
+   "beat": 333,
+   "nb": 6,
+   "vo_t": 249.87,
+   "vo_dur": 3.657
+  },
+  {
+   "key": "55",
+   "text": "The angel grabs him a second time. The grip is just as crushing.",
+   "beat": 339,
+   "nb": 6,
+   "vo_t": 254.37,
+   "vo_dur": 3.437
+  },
+  {
+   "key": "56",
+   "text": "He is released again. \"Read!\" the angel commands a third time.",
+   "beat": 345,
+   "nb": 5,
+   "vo_t": 258.87,
+   "vo_dur": 3.158
+  },
+  {
+   "key": "57",
+   "text": "He answers again. The angel squeezes him for the third time. He is utterly exhausted. Completely broken down.",
+   "beat": 350,
+   "nb": 9,
+   "vo_t": 262.62,
+   "vo_dur": 5.77
+  },
+  {
+   "key": "58",
+   "text": "Then, the angel releases him one last time and speaks the five verses that will change the world.",
+   "beat": 359,
+   "nb": 8,
+   "vo_t": 269.37,
+   "vo_dur": 5.283
+  },
+  {
+   "key": "59",
+   "text": "\"Read in the name of your Lord who created.\"",
+   "beat": 367,
+   "nb": 5,
+   "vo_t": 275.37,
+   "vo_dur": 2.055
+  },
+  {
+   "key": "60",
+   "text": "\"Created man from a clinging substance.\"",
+   "beat": 372,
+   "nb": 4,
+   "vo_t": 279.12,
+   "vo_dur": 2.113
+  },
+  {
+   "key": "61",
+   "text": "\"Read, and your Lord is the most Generous.\"",
+   "beat": 376,
+   "nb": 4,
+   "vo_t": 282.12,
+   "vo_dur": 2.136
+  },
+  {
+   "key": "62",
+   "text": "\"Who taught by the pen.\"",
+   "beat": 380,
+   "nb": 2,
+   "vo_t": 285.12,
+   "vo_dur": 1.057
+  },
+  {
+   "key": "63",
+   "text": "\"Taught man that which he knew not.\"",
+   "beat": 382,
+   "nb": 3,
+   "vo_t": 286.62,
+   "vo_dur": 1.544
+  },
+  {
+   "key": "64",
+   "text": "Only five verses. No rules about prayer. No laws. No stories of past prophets.",
+   "beat": 385,
+   "nb": 8,
+   "vo_t": 288.87,
+   "vo_dur": 5.062
+  },
+  {
+   "key": "65",
+   "text": "Just five verses. But this is the match that lights a 23-year fire of revelation.",
+   "beat": 393,
+   "nb": 7,
+   "vo_t": 294.87,
+   "vo_dur": 4.516
+  },
+  {
+   "key": "66",
+   "text": "The angel vanishes. The cave is empty again.",
+   "beat": 400,
+   "nb": 4,
+   "vo_t": 300.12,
+   "vo_dur": 2.461
+  },
+  {
+   "key": "67",
+   "text": "Muhammad is alone. But he is terrified. His heart is pounding out of his chest.",
+   "beat": 404,
+   "nb": 7,
+   "vo_t": 303.12,
+   "vo_dur": 4.18
+  },
+  {
+   "key": "68",
+   "text": "He scrambles down the treacherous mountain in the dead of night.",
+   "beat": 411,
+   "nb": 5,
+   "vo_t": 308.37,
+   "vo_dur": 2.763
+  },
+  {
+   "key": "69",
+   "text": "He bursts through the door of his home, screaming for his wife.",
+   "beat": 416,
+   "nb": 5,
+   "vo_t": 312.12,
+   "vo_dur": 3.135
+  },
+  {
+   "key": "70",
+   "text": "\"Cover me! Cover me!\"",
+   "beat": 421,
+   "nb": 3,
+   "vo_t": 315.87,
+   "vo_dur": 1.254
+  },
+  {
+   "key": "71",
+   "text": "Khadijah rushes to him. She wraps him in heavy blankets until his violent shivering stops.",
+   "beat": 424,
+   "nb": 7,
+   "vo_t": 318.12,
+   "vo_dur": 4.841
+  },
+  {
+   "key": "72",
+   "text": "He tells her everything. The cave. The squeezing. The voice.",
+   "beat": 431,
+   "nb": 5,
+   "vo_t": 323.37,
+   "vo_dur": 3.123
+  },
+  {
+   "key": "73",
+   "text": "He looks at her in absolute despair and says, \"I fear for my life.\"",
+   "beat": 436,
+   "nb": 6,
+   "vo_t": 327.12,
+   "vo_dur": 3.448
+  },
+  {
+   "key": "74",
+   "text": "Put yourself in Khadijah's shoes. Your husband comes home shaking, talking about a monster in a cave.",
+   "beat": 442,
+   "nb": 8,
+   "vo_t": 331.62,
+   "vo_dur": 5.074
+  },
+  {
+   "key": "75",
+   "text": "You'd panic, right? You'd think he lost his mind.",
+   "beat": 450,
+   "nb": 4,
+   "vo_t": 337.62,
+   "vo_dur": 2.368
+  },
+  {
+   "key": "76",
+   "text": "But what she says next is one of the most powerful psychological anchors in human history.",
+   "beat": 454,
+   "nb": 7,
+   "vo_t": 340.62,
+   "vo_dur": 4.574
+  },
+  {
+   "key": "77",
+   "text": "She doesn't talk about ghosts. She doesn't talk about magic.",
+   "beat": 461,
+   "nb": 5,
+   "vo_t": 345.87,
+   "vo_dur": 2.984
+  },
+  {
+   "key": "78",
+   "text": "She talks about his character.",
+   "beat": 466,
+   "nb": 3,
+   "vo_t": 349.62,
+   "vo_dur": 1.428
+  },
+  {
+   "key": "79",
+   "text": "\"Never!\" she says. \"By God, God will never disgrace you.\"",
+   "beat": 469,
+   "nb": 5,
+   "vo_t": 351.87,
+   "vo_dur": 3.193
+  },
+  {
+   "key": "80",
+   "text": "She lists the receipts: \"You keep good relations with your family.\"",
+   "beat": 474,
+   "nb": 5,
+   "vo_t": 355.62,
+   "vo_dur": 3.32
+  },
+  {
+   "key": "81",
+   "text": "\"You help the poor and the destitute.\"",
+   "beat": 479,
+   "nb": 3,
+   "vo_t": 359.37,
+   "vo_dur": 1.765
+  },
+  {
+   "key": "82",
+   "text": "\"You serve your guests generously.\"",
+   "beat": 482,
+   "nb": 3,
+   "vo_t": 361.62,
+   "vo_dur": 1.695
+  },
+  {
+   "key": "83",
+   "text": "\"You assist those hit by calamities.\"",
+   "beat": 485,
+   "nb": 4,
+   "vo_t": 363.87,
+   "vo_dur": 1.927
+  },
+  {
+   "key": "84",
+   "text": "She is saying: The universe is just. A man who lives a life this pure cannot be destroyed by God.",
+   "beat": 489,
+   "nb": 9,
+   "vo_t": 366.87,
+   "vo_dur": 5.619
+  },
+  {
+   "key": "85",
+   "text": "Before anyone else believed, before there was any proof, Khadijah believed.",
+   "beat": 498,
+   "nb": 6,
+   "vo_t": 373.62,
+   "vo_dur": 3.82
+  },
+  {
+   "key": "86",
+   "text": "But Khadijah knows they need an expert. Someone who understands the supernatural.",
+   "beat": 504,
+   "nb": 6,
+   "vo_t": 378.12,
+   "vo_dur": 3.994
+  },
+  {
+   "key": "87",
+   "text": "Remember the blind old man we mentioned at the start? It's time to meet him.",
+   "beat": 510,
+   "nb": 6,
+   "vo_t": 382.62,
+   "vo_dur": 3.599
+  },
+  {
+   "key": "88",
+   "text": "His name is Waraqah bin Naufal. Khadijah's own cousin.",
+   "beat": 516,
+   "nb": 5,
+   "vo_t": 387.12,
+   "vo_dur": 3.228
+  },
+  {
+   "key": "89",
+   "text": "In a city of idol worshippers, Waraqah is a unicorn.",
+   "beat": 521,
+   "nb": 5,
+   "vo_t": 390.87,
+   "vo_dur": 3.228
+  },
+  {
+   "key": "90",
+   "text": "He abandoned idolatry years ago. He became a Christian. He translates the Gospel into Hebrew.",
+   "beat": 526,
+   "nb": 8,
+   "vo_t": 394.62,
+   "vo_dur": 5.108
+  },
+  {
+   "key": "91",
+   "text": "Khadijah brings Muhammad to him. \"Listen to your nephew,\" she says.",
+   "beat": 534,
+   "nb": 5,
+   "vo_t": 400.62,
+   "vo_dur": 3.228
+  },
+  {
+   "key": "92",
+   "text": "Muhammad tells the story. Waraqah listens in absolute silence.",
+   "beat": 539,
+   "nb": 6,
+   "vo_t": 404.37,
+   "vo_dur": 3.762
+  },
+  {
+   "key": "93",
+   "text": "Then, the old man speaks. And his words change the trajectory of Muhammad's life forever.",
+   "beat": 545,
+   "nb": 8,
+   "vo_t": 408.87,
+   "vo_dur": 4.865
+  },
+  {
+   "key": "94",
+   "text": "\"That is the Namus,\" Waraqah says. \"The Keeper of Secrets. The same Angel that came to Moses.\"",
+   "beat": 553,
+   "nb": 8,
+   "vo_t": 414.87,
+   "vo_dur": 5.039
+  },
+  {
+   "key": "95",
+   "text": "He just confirmed it. Muhammad is not crazy. He is a Prophet.",
+   "beat": 561,
+   "nb": 6,
+   "vo_t": 420.87,
+   "vo_dur": 3.367
+  },
+  {
+   "key": "96",
+   "text": "But before the relief can settle in, Waraqah drops a massive, devastating prophecy.",
+   "beat": 567,
+   "nb": 7,
+   "vo_t": 425.37,
+   "vo_dur": 4.516
+  },
+  {
+   "key": "97",
+   "text": "\"I wish I were young,\" the old man whispers. \"I wish I could be alive when your people kick you out.\"",
+   "beat": 574,
+   "nb": 8,
+   "vo_t": 430.62,
+   "vo_dur": 4.888
+  },
+  {
+   "key": "98",
+   "text": "Muhammad is stunned. He is Al-Amin! The most loved man in the city!",
+   "beat": 582,
+   "nb": 6,
+   "vo_t": 436.62,
+   "vo_dur": 3.878
+  },
+  {
+   "key": "99",
+   "text": "\"Will they really drive me out?\" he asks in disbelief.",
+   "beat": 588,
+   "nb": 5,
+   "vo_t": 441.12,
+   "vo_dur": 3.053
+  },
+  {
+   "key": "100",
+   "text": "\"Yes,\" Waraqah replies coldly. \"No man has ever brought what you brought without being treated as an enemy.\"",
+   "beat": 593,
+   "nb": 8,
+   "vo_t": 444.87,
+   "vo_dur": 5.19
+  },
+  {
+   "key": "101",
+   "text": "\"If I am alive on that day, I will support you with all my strength.\"",
+   "beat": 601,
+   "nb": 5,
+   "vo_t": 450.87,
+   "vo_dur": 3.228
+  },
+  {
+   "key": "102",
+   "text": "It is a dark, terrifying promise of war, exile, and suffering.",
+   "beat": 606,
+   "nb": 6,
+   "vo_t": 454.62,
+   "vo_dur": 3.913
+  },
+  {
+   "key": "103",
+   "text": "Muhammad braces himself for what comes next. He waits for the angel to return. He waits for the instructions.",
+   "beat": 612,
+   "nb": 9,
+   "vo_t": 459.12,
+   "vo_dur": 5.712
+  },
+  {
+   "key": "104",
+   "text": "And then... nothing.",
+   "beat": 621,
+   "nb": 4,
+   "vo_t": 465.87,
+   "vo_dur": 0.72
+  },
+  {
+   "key": "105",
+   "text": "Days pass. Waraqah dies.",
+   "beat": 625,
+   "nb": 3,
+   "vo_t": 468.87,
+   "vo_dur": 1.695
+  },
+  {
+   "key": "106",
+   "text": "Weeks pass. The angel doesn't come back. The sky is completely silent.",
+   "beat": 628,
+   "nb": 6,
+   "vo_t": 471.12,
+   "vo_dur": 3.924
+  },
+  {
+   "key": "107",
+   "text": "Muhammad is left entirely alone, doubting everything all over again.",
+   "beat": 634,
+   "nb": 6,
+   "vo_t": 475.62,
+   "vo_dur": 3.878
+  },
+  {
+   "key": "108",
+   "text": "This agonizing silence is known as the Fatrah.",
+   "beat": 640,
+   "nb": 5,
+   "vo_t": 480.12,
+   "vo_dur": 2.647
+  },
+  {
+   "key": "109",
+   "text": "How long did the silence last? Did God abandon him?",
+   "beat": 645,
+   "nb": 5,
+   "vo_t": 483.87,
+   "vo_dur": 2.67
+  },
+  {
+   "key": "110",
+   "text": "The answer comes in the second revelation, and it is brutally intense.",
+   "beat": 650,
+   "nb": 6,
+   "vo_t": 487.62,
+   "vo_dur": 3.425
+  },
+  {
+   "key": "111",
+   "text": "It transforms him from a quiet thinker in a cave into a fearless warner of the masses.",
+   "beat": 656,
+   "nb": 7,
+   "vo_t": 492.12,
+   "vo_dur": 4.214
+  },
+  {
+   "key": "112",
+   "text": "Want to know what that second revelation was? You have to watch the next episode right here.",
+   "beat": 663,
+   "nb": 11,
+   "vo_t": 497.37,
+   "vo_dur": 4.261
+  }
+ ]
+}
