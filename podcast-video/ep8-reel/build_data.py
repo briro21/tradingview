@@ -91,6 +91,29 @@ for sid in order:
         shots.append({"id": f"{sid}.{bi}", "t0": round(t0, 3), "part": part, "drawn": bool(b.get("drawn")), "items": items})
     off += tm["frames"] / 30
 
+# Real people get their real (freely licensed) photos: Wikimedia Commons, see docs/credits.md.
+NAMES = {"ZITRON": "zitron", "ED ZITRON": "zitron", "BARTLETT": "bartlett"}
+for i, s in enumerate(shots):
+    s["t1"] = shots[i + 1]["t0"] if i + 1 < len(shots) else round(off, 3)
+for s in shots:
+    said = " ".join(w[0] for w in allwords if s["t0"] <= w[1] < s["t1"])
+    for it in s["items"]:
+        if it["k"] == "image":  # cold open: was a cartoon from another channel's thumbnail
+            it.update(src="photo_zitron.png", w=640, h=820)
+    has_photo = {it["src"].split("_")[1].split(".")[0] for it in s["items"] if it["k"] == "image"}
+    for i, it in enumerate(list(s["items"])):
+        if it["k"] == "icon" and it["name"] == "person" and "Zitron" in said and "intern" not in said:
+            s["items"][s["items"].index(it)] = {"k": "image", "src": "photo_zitron.png", "x": it["x"], "y": it["y"],
+                                                 "w": 0, "h": 250 * it.get("s", 1), "anchor": "center", "t": it["t"]}
+            has_photo.add("zitron")
+    for it in list(s["items"]):
+        who = NAMES.get(it.get("text", "").upper()) if it["k"] == "text" else None
+        if who and who not in has_photo:
+            size = it.get("size", 80)
+            r = 62 if size < 100 else 72
+            est = len(it["text"]) * size * 0.47
+            s["items"].append({"k": "face", "who": who, "x": round(it["x"] - est / 2 - r - 22), "y": it["y"], "r": r, "t": it["t"]})
+
 for i, s in enumerate(shots):
     s["t1"] = shots[i + 1]["t0"] if i + 1 < len(shots) else round(off, 3)
     s["dir"] = 1 if i % 2 == 0 else -1

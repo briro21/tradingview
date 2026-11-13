@@ -194,7 +194,8 @@ function drawItem(ctx, it, age, P, shotAge) {
     if (!img) return;
     const a = it.t < 0 ? 1 : M.spring(age, SPRING.bouncy);
     const w = it.w * SC, h = it.h * SC;
-    const x = PX(it.x) + 30, y = H - h / 2 + 10;
+    // cold open stands on the bottom edge (like thumbnail A); inline photos sit where the icon was
+    const x = it.anchor === 'center' ? PX(it.x) : PX(it.x) + 70, y = it.anchor === 'center' ? PY(it.y) : H - h / 2 + 10;
     const breathe = 1 + 0.012 * Math.sin(shotAge * 1.3);
     ctx.save(); ctx.translate(x, y + h / 2);
     ctx.rotate(lerp(-0.2, 0, clamp(a)) + 0.012 * Math.sin(shotAge * 0.9));
@@ -202,8 +203,32 @@ function drawItem(ctx, it, age, P, shotAge) {
     const ih = h, iw = ih * (img.width / img.height);
     ctx.drawImage(img, -iw / 2, -ih, iw, ih);
     ctx.restore();
+  } else if (it.k === 'face') {
+    const a = M.spring(age, SPRING.bouncy);
+    faceBadge(ctx, it.who, PX(it.x), PY(it.y), it.r * SC * a);
   }
 }
+
+// Real photos (Wikimedia Commons, docs/credits.md). Face circle in sticker pixels.
+const FACES = { zitron: { src: 'photo_zitron.png', cx: 380, cy: 400, r: 235 }, bartlett: { src: 'photo_bartlett.png', cx: 210, cy: 300, r: 195 } };
+function faceBadge(ctx, who, x, y, r) {
+  const f = FACES[who], img = IMGS[f.src];
+  if (!img || r <= 1) return;
+  ctx.save();
+  ctx.beginPath(); ctx.arc(x, y, r + Math.max(3, r * 0.08), 0, M.TAU); ctx.fillStyle = '#FFFFFF'; ctx.fill();
+  ctx.beginPath(); ctx.arc(x, y, r, 0, M.TAU); ctx.clip();
+  ctx.fillStyle = '#2A2A31'; ctx.fillRect(x - r, y - r, 2 * r, 2 * r);
+  const k = r / f.r;
+  ctx.drawImage(img, x - f.cx * k, y - f.cy * k, img.width * k, img.height * k);
+  ctx.restore();
+}
+// who does a caption name? (the face pops beside it, unless that person is already on screen)
+const WHO = (ws) => { const s = ws.map((w) => w[0]).join(' '); return /Zitron/.test(s) ? 'zitron' : /Bartlett/.test(s) ? 'bartlett' : null; };
+function onScreen(t, who) {
+  const s = SHOTS[shotIndex(t)];
+  return s.items.some((it) => it.t <= t && ((it.k === 'image' && it.src.includes(who)) || (it.k === 'face' && it.who === who)));
+}
+function nameTime(c) { const w = c.ws.find((w) => /Zitron|Bartlett/.test(w[0])); return w ? w[1] : c.a; }
 
 let IMGS = {};
 
@@ -215,12 +240,12 @@ for (const s of SHOTS) for (const it of s.items) {
   let room = 2 * Math.min(PX(it.x) - (960 - half), (960 + half) - PX(it.x));
   for (const o of s.items) {
     if (o === it || o.k === 'path' || o.x == null) continue;
-    const oh = o.k === 'icon' ? 110 * (o.s ?? 1) : (o.size ?? 64) * 0.7;
+    const oh = o.k === 'icon' ? 110 * (o.s ?? 1) : o.k === 'image' ? o.h * 0.5 : o.k === 'face' ? o.r : (o.size ?? 64) * 0.7;
     if (Math.abs(o.y - it.y) > oh) continue;
     const dx = Math.abs(PX(o.x) - PX(it.x));
     if (dx < 5) continue;
-    const ow = o.k === 'icon' ? 110 * (o.s ?? 1) * 2.2 : 0;
-    room = Math.min(room, o.k === 'icon' || o.k === 'image' ? 2 * (dx - ow / 2) - 40 : dx * 0.94);
+    const ow = o.k === 'icon' ? 110 * (o.s ?? 1) * 2.2 : o.k === 'image' ? o.h * SC : o.k === 'face' ? o.r * 2.4 : 0;
+    room = Math.min(room, o.k === 'icon' || o.k === 'image' || o.k === 'face' ? 2 * (dx - ow / 2) - 40 : dx * 0.94);
   }
   it.maxW = Math.max(160, room);
 }
@@ -267,8 +292,8 @@ function focusOf(s, t) {
 const FRAMING = SHOTS.map((s) => {
   let y0 = 1e9, y1 = -1e9;
   for (const it of s.items) {
-    if (it.k === 'image') continue;
-    const h = it.k === 'icon' ? 110 * (it.s ?? 1) : it.k === 'path' ? 0 : (it.size ?? 64) * 0.6;
+    if (it.k === 'image' && it.anchor !== 'center') continue;
+    const h = it.k === 'icon' ? 110 * (it.s ?? 1) : it.k === 'image' ? it.h * 0.5 : it.k === 'face' ? it.r : it.k === 'path' ? 0 : (it.size ?? 64) * 0.6;
     if (it.k === 'path') continue;
     y0 = Math.min(y0, PY(it.y) - h); y1 = Math.max(y1, PY(it.y) + h);
   }
@@ -334,6 +359,11 @@ function drawBigCaption(ctx, t) {
   ws.forEach((w, i) => { if (lw + widths[i] > 1500 && lines[lines.length - 1].length) { lines.push([]); lw = 0; } lines[lines.length - 1].push(i); lw += widths[i] + gap; });
   const lh = size * 1.02, y0 = H / 2 - (lines.length - 1) * lh / 2 + size * 0.36;
   const s = SHOTS[shotIndex(t)], lk = look(shotIndex(t)), P = pal(lk);
+  const who = WHO(c.ws);
+  if (who) {
+    const a = M.spring(t - nameTime(c) + 0.08, SPRING.bouncy);
+    faceBadge(ctx, who, W / 2, y0 - size * 0.9 - 130, 105 * Math.max(0, a));
+  }
   lines.forEach((ln, li) => {
     const tw = ln.reduce((a, i) => a + widths[i], 0) + gap * (ln.length - 1);
     let x = W / 2 - tw / 2;
@@ -369,6 +399,11 @@ function drawCaption(ctx, t) {
   rrect(ctx, W / 2 - total / 2 - 26, y - size * 0.95, total + 52, size * 1.38, 16);
   ctx.fillStyle = '#0B0B0D'; ctx.fill();
   ctx.restore();
+  const who = WHO(c.ws);
+  if (who && !onScreen(t, who)) {
+    const a = M.spring(t - nameTime(c) + 0.08, SPRING.bouncy);
+    faceBadge(ctx, who, W / 2 - total / 2 - 26 - 70, y - size * 0.27, 58 * Math.max(0, a));
+  }
   let x = W / 2 - total / 2;
   c.ws.forEach((w, i) => {
     const on = t >= w[1] - 0.03;
@@ -398,7 +433,7 @@ function shotIndex(t) {
 
 M.film({
   fonts: [font(100, 400, DISPLAY), font(40, 600, UI), font(40, 700, UI)],
-  images: { 'guest8.png': 'assets/guest8.png' },
+  images: { 'photo_zitron.png': 'assets/photo_zitron.png', 'photo_bartlett.png': 'assets/photo_bartlett.png' },
   hits: HITS,
   samples: (t) => {
     const i = shotIndex(t), a = t - SHOTS[i].t0;

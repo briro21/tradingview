@@ -87,8 +87,8 @@ export const RedCircle: React.FC<{ x: number; y: number; w: number; h: number }>
 );
 
 /** Potret kartun narasumber (dibuat dari foto episode asli, lihat scripts/cartoon_guest.py). */
-export const Guest: React.FC<{ n: number; height?: number; left?: number }> = ({ n, height = 800, left = -40 }) => (
-  <Img src={staticFile(`thumbs/guest${n}.png`)} style={{ position: "absolute", left, bottom: -40, height }} />
+export const Guest: React.FC<{ n: number; height?: number; left?: number; src?: string }> = ({ n, height = 800, left = -40, src }) => (
+  <Img src={staticFile(src ?? `thumbs/guest${n}.png`)} style={{ position: "absolute", left, bottom: -40, height }} />
 );
 
 const Bg: React.FC<{ dark?: boolean; glow?: string; children: React.ReactNode }> = ({ dark, glow = red, children }) => (
@@ -182,7 +182,7 @@ export const V3Ep6: React.FC = () => (
 /** A: sama dengan frame pertama video (latar kertas, potret Ed, "$20.9B LOST"). */
 export const V3Ep8A: React.FC = () => (
   <Bg>
-    <Guest n={8} height={780} />
+    <Guest n={8} height={700} left={10} src="thumbs/photo_zitron.png" />
     <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
       <Big size={210} color={red}>$20.9B</Big>
       <Big size={150} style={{ marginTop: 6 }}>LOST</Big>
@@ -194,7 +194,7 @@ export const V3Ep8A: React.FC = () => (
 /** B: "IT'S A CON". */
 export const V3Ep8B: React.FC = () => (
   <Bg dark>
-    <Guest n={8} height={780} />
+    <Guest n={8} height={700} left={10} src="thumbs/photo_zitron.png" />
     <div style={{ position: "absolute", right: 60, top: 170, textAlign: "right" }}>
       <Big size={130} color="#FFFFFF">"IT'S A</Big>
       <Big size={220} color={red} style={{ marginTop: 4 }}>CON"</Big>
@@ -205,7 +205,7 @@ export const V3Ep8B: React.FC = () => (
 /** C: langganan $200 membakar $14.000. */
 export const V3Ep8C: React.FC = () => (
   <Bg dark glow={theme.orange}>
-    <Guest n={8} height={780} />
+    <Guest n={8} height={700} left={10} src="thumbs/photo_zitron.png" />
     <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
       <Big size={120} color="#FFFFFF">YOU PAY $200</Big>
       <Big size={170} color={yellow} style={{ marginTop: 10 }}>IT COSTS</Big>

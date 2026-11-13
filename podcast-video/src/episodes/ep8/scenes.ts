@@ -19,7 +19,7 @@ const S00: Beat[] = [
   {
     at: "OpenAI lost twenty point nine",
     drawn: true,
-    items: [P("thumbs/guest8.png", 255, 470, 650, 945), T("$20.9B", 1120, 330, { size: 190, color: red }), T("LOST", 1120, 520, { size: 130 }), H("OpenAI, last year", 1120, 660, { size: 56 })],
+    items: [P("thumbs/photo_zitron.png", 270, 520, 760, 842), T("$20.9B", 1120, 330, { size: 190, color: red }), T("LOST", 1120, 520, { size: 130 }), H("OpenAI, last year", 1120, 660, { size: 56 })],
   },
   {
     at: "And according to Ed Zitron",

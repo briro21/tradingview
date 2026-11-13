@@ -17,7 +17,7 @@ export const SH15: Beat[] = [
   {
     at: "Your two hundred dollar",
     drawn: true,
-    items: [P("thumbs/guest8.png", 500, 380, 420, 610), T("YOU PAY $200", 500, 800, { size: 100 }), T("IT COSTS $14,000", 500, 950, { size: 100, color: red })],
+    items: [P("thumbs/photo_zitron.png", 500, 380, 520, 576), T("YOU PAY $200", 500, 800, { size: 100 }), T("IT COSTS $14,000", 500, 950, { size: 100, color: red })],
   },
   {
     at: "Tech critic Ed Zitron",
@@ -39,7 +39,7 @@ export const SH16: Beat[] = [
   {
     at: "Here's how AI money",
     drawn: true,
-    items: [P("thumbs/guest8.png", 500, 380, 420, 610), T("AI MONEY", 500, 800, { size: 120 }), T("GOES IN A CIRCLE", 500, 950, { size: 96, color: red })],
+    items: [P("thumbs/photo_zitron.png", 500, 380, 520, 576), T("AI MONEY", 500, 800, { size: 120 }), T("GOES IN A CIRCLE", 500, 950, { size: 96, color: red })],
   },
   {
     at: "Amazon invests",
@@ -61,7 +61,7 @@ export const SH17: Beat[] = [
   {
     at: "A tech critic's best advice",
     drawn: true,
-    items: [P("thumbs/guest8.png", 500, 380, 420, 610), T("EVERY CON", 500, 800, { size: 130 }), T("STARTS THE SAME", 500, 950, { size: 100, color: red })],
+    items: [P("thumbs/photo_zitron.png", 500, 380, 520, 576), T("EVERY CON", 500, 800, { size: 130 }), T("STARTS THE SAME", 500, 950, { size: 100, color: red })],
   },
   {
     at: "Ed Zitron says every con",
@@ -83,7 +83,7 @@ export const SH18: Beat[] = [
   {
     at: "Ed Zitron's twenty twenty seven",
     drawn: true,
-    items: [P("thumbs/guest8.png", 500, 380, 420, 610), T("2027:", 500, 790, { size: 130, color: red }), T("4 DOMINOES", 500, 950, { size: 120 })],
+    items: [P("thumbs/photo_zitron.png", 500, 380, 520, 576), T("2027:", 500, 790, { size: 130, color: red }), T("4 DOMINOES", 500, 950, { size: 120 })],
   },
   {
     at: "One",

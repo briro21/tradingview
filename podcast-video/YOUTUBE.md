@@ -613,6 +613,11 @@ CHAPTERS
 7:20 Part 5: 2027
 8:57 Part 6: What would prove him wrong?
 
+PHOTO CREDITS
+Ed Zitron photo: Web Summit, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Ed_Zitron_speaking_at_the_Web_Summit.jpg
+Steven Bartlett photo: Craig Campbell, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Craig_Campbell_%26_Steven_Bartlett.png
+(both background removed and cropped)
+
 Subscribe for more of the biggest conversations explained in 10 animated minutes.
 
 #AIBubble #EdZitron #DiaryOfACEO #OpenAI #Nvidia #AI #StevenBartlett
@@ -621,7 +626,13 @@ Subscribe for more of the biggest conversations explained in 10 animated minutes
 **Tags:**
 Ed Zitron, AI bubble, Diary of a CEO, The Diary of a CEO, Steven Bartlett, OpenAI, Anthropic, Nvidia, Microsoft, Oracle, SoftBank, AI crash 2027, generative AI, AI con, AI subscription cost, tokens, data centers, Stargate, tech depression, rot economy, Better Offline
 
-## Thumbnail (gaya v3, potret kartun Ed)
+## Versi motion (rekomendasi upload)
+
+`out/ep8-reel/final.mp4` (folder `ep8-reel/`): versi kinetic-type dengan narasi, SRT, bab dan deskripsi yang sama.
+Foto Ed Zitron dan Steven Bartlett diganti foto asli berlisensi bebas dari Wikimedia Commons (lihat PHOTO CREDITS di deskripsi; wajib dicantumkan).
+Wajah muncul setiap kali namanya disebut. Thumbnail A/B/C dan 4 Shorts juga sudah memakai foto ini.
+
+## Thumbnail (gaya v3, foto Ed berlisensi CC BY 2.0)
 
 - `out/ep8-thumbnail-A.png`: $20.9B LOST (latar terang; sama dengan frame pertama video)
 - `out/ep8-thumbnail-B.png`: "IT'S A CON" (latar gelap)
@@ -642,6 +653,8 @@ Tech critic Ed Zitron on The Diary of a CEO: a heavy user on a $200 ChatGPT plan
 
 Full 10-minute breakdown on my channel. Original episode: https://www.youtube.com/watch?v=Lf5oqGOCRCM
 
+Photo: Ed Zitron by Web Summit, CC BY 2.0 (Wikimedia Commons), cropped
+
 #Shorts #AIBubble #EdZitron #OpenAI #DiaryOfACEO
 ```
 
@@ -653,6 +666,8 @@ Full 10-minute breakdown on my channel. Original episode: https://www.youtube.co
 Amazon invests in OpenAI, Google invests in Anthropic, and the money comes back as cloud revenue. Ed Zitron explains the AI money circle on The Diary of a CEO.
 
 Full 10-minute breakdown on my channel. Original episode: https://www.youtube.com/watch?v=Lf5oqGOCRCM
+
+Photo: Ed Zitron by Web Summit, CC BY 2.0 (Wikimedia Commons), cropped
 
 #Shorts #AIBubble #EdZitron #BigTech #DiaryOfACEO
 ```
@@ -666,6 +681,8 @@ Ed Zitron's best advice has nothing to do with tech: every con starts by rushing
 
 Full 10-minute breakdown on my channel. Original episode: https://www.youtube.com/watch?v=Lf5oqGOCRCM
 
+Photo: Ed Zitron by Web Summit, CC BY 2.0 (Wikimedia Commons), cropped
+
 #Shorts #EdZitron #Advice #AI #DiaryOfACEO
 ```
 
@@ -677,6 +694,8 @@ Full 10-minute breakdown on my channel. Original episode: https://www.youtube.co
 OpenAI, SoftBank, Oracle, Nvidia: Ed Zitron's forecast of how the AI bubble could pop in 2027. His prediction, not a certainty, and not financial advice.
 
 Full 10-minute breakdown on my channel. Original episode: https://www.youtube.com/watch?v=Lf5oqGOCRCM
+
+Photo: Ed Zitron by Web Summit, CC BY 2.0 (Wikimedia Commons), cropped
 
 #Shorts #AIBubble #EdZitron #Nvidia #DiaryOfACEO
 ```
