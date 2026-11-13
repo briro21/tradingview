@@ -1,0 +1,15 @@
+Part four. The myths.
+
+Each card holds a belief about AI that Zitron calls a myth. One sentence each.
+
+Myth one: AI is creating enormous economic growth. "No, it's not," he says. Outside of the spending on chips and data centers, he puts actual spending on AI at barely a hundred billion dollars, much of it those same two companies paying their cloud providers.
+
+Myth two: America must spend trillions to beat China. His reply: "What race?" China, he says, already has the models.
+
+Myth three: AI will replace all human jobs. He says there's no economic data for it. The people really losing work, in his view, are translators, transcribers and art directors, whose bosses wanted the cheapest option anyway. He even points to an OpenAI study that found no link between spending on tokens and revenue per employee.
+
+Myth four: AI systems are already blackmailing people. Zitron says those stories came from tests where researchers set the models up and prompted them to do it.
+
+Bartlett doesn't let it slide. Self driving cars, he notes, show far fewer crashes than human drivers. And history is full of skeptics who were wrong. An economist predicted the internet would matter no more than the fax machine.
+
+Zitron's answer is the key to his whole argument. The dot com bubble, he says, left something useful behind: miles of fiber optic cable that the world eventually filled. A data center full of AI chips, he argues, is different. The chips age, the power bill stays, and there's no other job for them to do. There is, in his words, "no post bubble story." So what happens when the money stops?

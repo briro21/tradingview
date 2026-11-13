@@ -1,0 +1,15 @@
+Part two. The subsidy.
+
+To understand AI's economics, Zitron says, you need to understand tokens. A token is roughly three quarters of a word. AI companies charge for them like a taxi meter: so much per million tokens going in, so much per million coming out. Even the model's "thinking" runs up the meter.
+
+But on a monthly plan, you never see the meter. And this is where it gets interesting. Zitron cites an analysis by the research firm SemiAnalysis: on a two hundred dollar a month ChatGPT plan, a heavy user can burn through around fourteen thousand dollars worth of tokens. On Anthropic's plan, around eight thousand. Even the twenty dollar plan, about four hundred.
+
+That, he argues, is why the losses are so big. OpenAI lost twenty point nine billion dollars last year, because people can use as much as they want.
+
+Then came the test. When companies were moved onto paying the real per token price, Zitron says, the mood changed fast. His example: Uber burned through its entire annual token budget in three months. Suddenly, the most productive tool ever became a cost to control.
+
+His question is simple. If people paid what AI actually costs, would they still use it this much?
+
+Steven Bartlett pushes back. Tech companies have always lost money to grab market share, and costs usually fall. Zitron's answer: if the costs were coming down, we'd see it. Instead, he says, it keeps getting more expensive, and even the companies renting out chips don't seem to be profitable.
+
+So if it's this expensive, why is everyone using it? That's where the conversation gets heated.

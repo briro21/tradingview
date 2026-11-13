@@ -1,0 +1,13 @@
+Part five. Twenty twenty seven.
+
+Zitron calls it the "rot com bubble." His theory: the biggest tech companies ran out of new ideas for hyper growth. When they started buying AI chips, their stocks soared. So they kept buying.
+
+At the center of it, he puts OpenAI. He says it raised a hundred and twenty two billion dollars this year, and will need at least a hundred billion a year just to keep going. It was last valued at eight hundred and sixty five billion. Its plan to go public, he says, has slipped to next year. And he expects Anthropic to get there first, making OpenAI's own listing even harder.
+
+His prediction: sometime in twenty twenty seven, OpenAI runs out of cash.
+
+Then come the dominoes, as he sees them. SoftBank holds around a hundred billion dollars of OpenAI stock on paper. Oracle is building over seven gigawatts of data centers for OpenAI, and in his view, without OpenAI, Oracle dies. Amazon, Google and Microsoft would have to tell investors they'll grow more slowly. And Nvidia, he estimates, could see its revenue fall by fifty to seventy percent.
+
+The result, Zitron says, wouldn't just be a recession. It would be a tech depression. These companies make up a huge share of the stock market, so he expects people's retirement savings to fall twenty to forty percent, and not bounce back quickly.
+
+To be clear, this is one man's forecast. Bartlett points out that previous technologies also lost money before they paid off, from Amazon Web Services to Uber. Zitron's reply: none of them lost this much, this fast. So what would it take to change his mind?

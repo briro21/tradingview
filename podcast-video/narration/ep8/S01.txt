@@ -1,0 +1,15 @@
+Part one. A trillion dollars, for what?
+
+Ed Zitron has worked in tech for sixteen years. He says he loves technology. What he doesn't love, in his words, is being misled.
+
+Start with the spending. Zitron says the big tech companies have already poured over a trillion dollars into capital expenditure, mostly data centers packed with AI chips. And they want to spend another trillion next year.
+
+To show the scale, he points to Stargate, the data center OpenAI and Oracle are building in Abilene, Texas. One point two gigawatts. More power than an entire city like Bristol, squeezed into a fraction of the space.
+
+So where does the revenue come from? Here's the claim that sits at the center of his case. According to Zitron, about seventy percent of the AI revenue at the big cloud companies comes from just two customers: OpenAI and Anthropic. Two companies that, in his view, can't afford to exist without money from those very same cloud companies.
+
+He lists it out. Amazon sent fifty billion dollars to OpenAI this year. Google sent ten billion to Anthropic. The money goes out as investment, and comes back as cloud revenue. A circle.
+
+Then he takes Microsoft. In its last fiscal year, he says, Microsoft made about thirty four billion dollars from AI. Twenty four billion of that came from OpenAI. That leaves around ten billion, in a year when Microsoft spent a hundred and fifteen billion on capital expenditure, and plans a hundred and seventy five billion next.
+
+"The math does not make sense," Zitron says. And if the companies were really making money, he asks, why won't most of them tell us how much? But the spending is only half the story. The other half is what you actually pay.

@@ -61,3 +61,6 @@ export const A = (x1: number, y1: number, x2: number, y2: number, color: string 
   const h2 = `${x2 - h * Math.cos(ang + 0.45)} ${y2 - h * Math.sin(ang + 0.45)}`;
   return { k: "path", d: `M${x1} ${y1} Q${mx} ${my} ${x2} ${y2} M${h1} L${x2} ${y2} L${h2}`, color, w: 1, ...o };
 };
+
+/** Gambar (mis. potret kartun narasumber di public/), muncul dari atas ke bawah. */
+export const P = (src: string, x: number, y: number, w: number, h: number, o: Opt = {}): Item => ({ k: "image", src, x, y, w, h, ...o });

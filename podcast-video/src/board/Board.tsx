@@ -23,6 +23,7 @@ export type Item = Base &
     | { k: "text"; text: string; x: number; y: number; size?: number; color?: string; font?: "marker" | "hand" }
     | { k: "count"; to: number; from?: number; prefix?: string; suffix?: string; plain?: boolean; x: number; y: number; size?: number; color?: string }
     | { k: "path"; d: string; color?: string; w?: number }
+    | { k: "image"; src: string; x: number; y: number; w: number; h: number }
   );
 // `drawn`: panel langsung tampil utuh di frame pertama (cold open, tanpa kertas kosong).
 // `pace`: pengali durasi gambar (< 1 = lebih cepat).
@@ -69,6 +70,7 @@ const segsOf = (item: Item): { segs: Seg[]; k: number; ox: number; oy: number } 
 const autoDur = (item: Item, total: number, k: number) => {
   if (item.k === "icon") return Math.round(Math.min(42, Math.max(14, (total * k) / 50)));
   if (item.k === "path") return Math.round(Math.min(22, Math.max(8, total / 55)));
+  if (item.k === "image") return 40;
   const text = item.k === "text" ? item.text : `${item.prefix ?? ""}${item.to.toLocaleString("en-US")}${item.suffix ?? ""}`;
   return Math.round(Math.min(45, Math.max(10, text.length * 1.4)));
 };
@@ -167,6 +169,22 @@ const Panel: React.FC<{ t: number; sched: Sched[]; id: string; frame: number; la
           >
             {str}
           </text>
+        </g>
+      );
+    }
+
+    if (item.k === "image") {
+      // Potret muncul dari atas ke bawah, spidol menyapu bolak-balik di tepi bawahnya.
+      const x0 = item.x - item.w / 2;
+      const y0 = item.y - item.h / 2;
+      const sweep = (p * 6) % 2;
+      if (active && p < 1) tip = { x: x0 + item.w * (sweep < 1 ? sweep : 2 - sweep), y: y0 + item.h * p, color: theme.ink };
+      return (
+        <g key={i}>
+          <clipPath id={`${id}-c${i}`}>
+            <rect x={x0 - 20} y={y0 - 20} width={item.w + 40} height={p >= 1 ? 99999 : item.h * p + 20} />
+          </clipPath>
+          <image href={staticFile(item.src)} x={x0} y={y0} width={item.w} height={item.h} preserveAspectRatio="xMidYMid meet" clipPath={`url(#${id}-c${i})`} />
         </g>
       );
     }

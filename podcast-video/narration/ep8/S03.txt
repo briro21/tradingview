@@ -1,0 +1,13 @@
+Part three. Adoption, or pressure?
+
+Bartlett lays out the strongest case against Zitron. ChatGPT hit a hundred million users in about sixty days. TikTok took nine months. Instagram, two and a half years. In his own company, he says, nearly everyone uses AI every day.
+
+Zitron's reply is one of his sharpest lines. He calls it "the largest non consensual push of technology in history." Open Google Docs, and Gemini is there. Open Word, and Copilot is waiting. Even shopping comes with an AI opinion about your socks. And for three years, he says, the media has told everyone that if they don't use it, they'll fall behind.
+
+What about all the AI content flooding the internet? Zitron says we already had slop. Search engine slop. AI just gave us a slop machine.
+
+Then they argue about mistakes. Bartlett cites a leaderboard showing hallucination rates on simple summaries falling from about twenty two percent to under one percent in four years. Zitron counters with his own test: an AI tool once told him Microsoft stock had hit five hundred and seventy five dollars. It never had. Harmless in a newsletter, he says. Dangerous in a medical transcript or a hedge fund model.
+
+And his test for real breakthroughs? The iPhone. When it launched, he says, you didn't need to explain it. You handed it to someone, and they got it instantly. With AI, he argues, people still need a complicated setup of prompts and harnesses to make it work.
+
+Bartlett's counterpoint is that we should compare AI to a human intern, not to perfection. Zitron's answer: a good intern learns, gets context, and grows. A chatbot, he says, just reads its files. To settle it, Bartlett brings out a deck of cards.
