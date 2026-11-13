@@ -1,0 +1,43 @@
+1
+00:00:00,125 --> 00:00:02,275
+Here's how AI money goes in a circle,
+
+2
+00:00:02,662 --> 00:00:03,762
+according to Ed Zitron.
+
+3
+00:00:04,175 --> 00:00:07,350
+Amazon invests fifty billion dollars in OpenAI.
+
+4
+00:00:07,762 --> 00:00:10,425
+Google invests ten billion in Anthropic.
+
+5
+00:00:10,838 --> 00:00:13,162
+Then those AI companies spend it renting servers
+
+6
+00:00:13,175 --> 00:00:14,238
+from, you guessed it,
+
+7
+00:00:14,650 --> 00:00:16,650
+Amazon, Google and Microsoft.
+
+8
+00:00:17,075 --> 00:00:19,050
+That spending shows up as cloud revenue.
+
+9
+00:00:19,462 --> 00:00:22,100
+Zitron says about seventy percent of big tech's
+
+10
+00:00:22,112 --> 00:00:24,762
+AI revenue comes from just these two customers.
+
+11
+00:00:25,250 --> 00:00:27,288
+Full animated breakdown on my channel.

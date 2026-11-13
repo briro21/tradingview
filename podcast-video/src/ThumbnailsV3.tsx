@@ -176,3 +176,40 @@ export const V3Ep6: React.FC = () => (
     <Scribble x={860} y={560} w={370} color={yellow} />
   </Bg>
 );
+
+// ---------- Episode 8: Ed Zitron (AI bubble) ----------
+
+/** A: sama dengan frame pertama video (latar kertas, potret Ed, "$20.9B LOST"). */
+export const V3Ep8A: React.FC = () => (
+  <Bg>
+    <Guest n={8} height={780} />
+    <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
+      <Big size={210} color={red}>$20.9B</Big>
+      <Big size={150} style={{ marginTop: 6 }}>LOST</Big>
+    </div>
+    <Scribble x={820} y={560} w={400} />
+  </Bg>
+);
+
+/** B: "IT'S A CON". */
+export const V3Ep8B: React.FC = () => (
+  <Bg dark>
+    <Guest n={8} height={780} />
+    <div style={{ position: "absolute", right: 60, top: 170, textAlign: "right" }}>
+      <Big size={130} color="#FFFFFF">"IT'S A</Big>
+      <Big size={220} color={red} style={{ marginTop: 4 }}>CON"</Big>
+    </div>
+  </Bg>
+);
+
+/** C: langganan $200 membakar $14.000. */
+export const V3Ep8C: React.FC = () => (
+  <Bg dark glow={theme.orange}>
+    <Guest n={8} height={780} />
+    <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
+      <Big size={120} color="#FFFFFF">YOU PAY $200</Big>
+      <Big size={170} color={yellow} style={{ marginTop: 10 }}>IT COSTS</Big>
+      <Big size={170} color={red} style={{ marginTop: 4 }}>$14,000</Big>
+    </div>
+  </Bg>
+);

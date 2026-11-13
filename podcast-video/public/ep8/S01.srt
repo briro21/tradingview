@@ -1,0 +1,231 @@
+1
+00:00:00,112 --> 00:00:00,462
+Part one.
+
+2
+00:00:00,875 --> 00:00:01,750
+A trillion dollars,
+
+3
+00:00:01,775 --> 00:00:02,238
+for what?
+
+4
+00:00:02,650 --> 00:00:04,750
+Ed Zitron has worked in tech for sixteen
+
+5
+00:00:04,762 --> 00:00:05,212
+years.
+
+6
+00:00:05,638 --> 00:00:07,075
+He says he loves technology.
+
+7
+00:00:07,488 --> 00:00:08,388
+What he doesn't love,
+
+8
+00:00:08,650 --> 00:00:09,375
+in his words,
+
+9
+00:00:09,612 --> 00:00:10,525
+is being misled.
+
+10
+00:00:10,950 --> 00:00:11,900
+Start with the spending.
+
+11
+00:00:12,312 --> 00:00:14,775
+Zitron says the big tech companies have already
+
+12
+00:00:14,788 --> 00:00:17,912
+poured over a trillion dollars into capital expenditure,
+
+13
+00:00:18,300 --> 00:00:20,650
+mostly data centers packed with AI chips.
+
+14
+00:00:21,062 --> 00:00:22,662
+And they want to spend another trillion next
+
+15
+00:00:22,675 --> 00:00:22,938
+year.
+
+16
+00:00:23,362 --> 00:00:24,162
+To show the scale,
+
+17
+00:00:24,525 --> 00:00:25,550
+he points to Stargate,
+
+18
+00:00:25,825 --> 00:00:28,625
+the data center OpenAI and Oracle are building
+
+19
+00:00:28,638 --> 00:00:30,212
+in Abilene, Texas.
+
+20
+00:00:30,625 --> 00:00:31,875
+One point two gigawatts.
+
+21
+00:00:32,288 --> 00:00:34,750
+More power than an entire city like Bristol,
+
+22
+00:00:35,112 --> 00:00:37,212
+squeezed into a fraction of the space.
+
+23
+00:00:37,638 --> 00:00:38,988
+So where does the revenue come from?
+
+24
+00:00:39,412 --> 00:00:41,050
+Here's the claim that sits at the center
+
+25
+00:00:41,062 --> 00:00:41,788
+of his case.
+
+26
+00:00:42,212 --> 00:00:43,162
+According to Zitron,
+
+27
+00:00:43,525 --> 00:00:45,912
+about seventy percent of the AI revenue at
+
+28
+00:00:45,925 --> 00:00:48,150
+the big cloud companies comes from just two
+
+29
+00:00:48,162 --> 00:00:48,788
+customers:
+
+30
+00:00:49,188 --> 00:00:50,838
+OpenAI and Anthropic.
+
+31
+00:00:51,262 --> 00:00:52,288
+Two companies that,
+
+32
+00:00:52,538 --> 00:00:53,112
+in his view,
+
+33
+00:00:53,538 --> 00:00:55,962
+can't afford to exist without money from those
+
+34
+00:00:55,975 --> 00:00:57,612
+very same cloud companies.
+
+35
+00:00:58,038 --> 00:00:58,700
+He lists it out.
+
+36
+00:00:59,112 --> 00:01:02,038
+Amazon sent fifty billion dollars to OpenAI this
+
+37
+00:01:02,050 --> 00:01:02,338
+year.
+
+38
+00:01:02,750 --> 00:01:04,825
+Google sent ten billion to Anthropic.
+
+39
+00:01:05,250 --> 00:01:06,725
+The money goes out as investment,
+
+40
+00:01:07,038 --> 00:01:08,587
+and comes back as cloud revenue.
+
+41
+00:01:09,000 --> 00:01:09,475
+A circle.
+
+42
+00:01:09,900 --> 00:01:11,050
+Then he takes Microsoft.
+
+43
+00:01:11,462 --> 00:01:12,650
+In its last fiscal year,
+
+44
+00:01:12,850 --> 00:01:15,812
+he says, Microsoft made about thirty four billion
+
+45
+00:01:15,825 --> 00:01:16,762
+dollars from AI.
+
+46
+00:01:17,175 --> 00:01:19,438
+Twenty four billion of that came from OpenAI.
+
+47
+00:01:19,850 --> 00:01:21,612
+That leaves around ten billion,
+
+48
+00:01:22,012 --> 00:01:24,162
+in a year when Microsoft spent a hundred
+
+49
+00:01:24,175 --> 00:01:26,575
+and fifteen billion on capital expenditure,
+
+50
+00:01:26,862 --> 00:01:28,900
+and plans a hundred and seventy five billion
+
+51
+00:01:28,912 --> 00:01:29,350
+next.
+
+52
+00:01:29,850 --> 00:01:31,338
+The math does not make sense,
+
+53
+00:01:31,575 --> 00:01:32,400
+Zitron says.
+
+54
+00:01:32,812 --> 00:01:34,650
+And if the companies were really making money,
+
+55
+00:01:35,012 --> 00:01:37,038
+he asks, why won't most of them tell
+
+56
+00:01:37,050 --> 00:01:37,775
+us how much?
+
+57
+00:01:38,200 --> 00:01:40,250
+But the spending is only half the story.
+
+58
+00:01:40,662 --> 00:01:42,550
+The other half is what you actually pay.

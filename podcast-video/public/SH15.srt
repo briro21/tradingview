@@ -1,0 +1,71 @@
+1
+00:00:00,112 --> 00:00:02,512
+Your two hundred dollar AI subscription might be
+
+2
+00:00:02,525 --> 00:00:04,500
+costing the company fourteen thousand.
+
+3
+00:00:04,925 --> 00:00:07,512
+Tech critic Ed Zitron cites an analysis by
+
+4
+00:00:07,525 --> 00:00:08,550
+SemiAnalysis:
+
+5
+00:00:08,988 --> 00:00:11,238
+on a two hundred dollar ChatGPT plan,
+
+6
+00:00:11,638 --> 00:00:14,188
+a heavy user can burn about fourteen thousand
+
+7
+00:00:14,200 --> 00:00:15,412
+dollars worth of compute.
+
+8
+00:00:15,825 --> 00:00:17,088
+Even the twenty dollar plan,
+
+9
+00:00:17,450 --> 00:00:18,375
+around four hundred.
+
+10
+00:00:18,800 --> 00:00:19,262
+That's why,
+
+11
+00:00:19,712 --> 00:00:20,225
+he says,
+
+12
+00:00:20,588 --> 00:00:23,450
+OpenAI lost twenty point nine billion dollars last
+
+13
+00:00:23,462 --> 00:00:23,737
+year.
+
+14
+00:00:24,150 --> 00:00:25,650
+And when companies had to pay the real
+
+15
+00:00:25,662 --> 00:00:26,175
+price,
+
+16
+00:00:26,538 --> 00:00:28,800
+Uber burned its whole yearly budget in three
+
+17
+00:00:28,812 --> 00:00:29,388
+months.
+
+18
+00:00:29,875 --> 00:00:31,912
+Full animated breakdown on my channel.

@@ -1,0 +1,71 @@
+1
+00:00:00,100 --> 00:00:03,000
+OpenAI lost twenty point nine billion dollars last
+
+2
+00:00:03,012 --> 00:00:03,288
+year.
+
+3
+00:00:03,700 --> 00:00:04,837
+And according to Ed Zitron,
+
+4
+00:00:05,200 --> 00:00:05,925
+that's not a bug.
+
+5
+00:00:06,338 --> 00:00:07,325
+It's the business model.
+
+6
+00:00:07,738 --> 00:00:10,075
+Zitron, one of tech's loudest critics,
+
+7
+00:00:10,275 --> 00:00:12,600
+told The Diary of a CEO that generative
+
+8
+00:00:12,612 --> 00:00:14,275
+AI is, at its heart,
+
+9
+00:00:14,512 --> 00:00:15,012
+a con,
+
+10
+00:00:15,388 --> 00:00:16,762
+and that by twenty twenty seven,
+
+11
+00:00:17,125 --> 00:00:18,138
+the bill comes due.
+
+12
+00:00:18,550 --> 00:00:20,162
+This is that two and a half hour
+
+13
+00:00:20,175 --> 00:00:21,788
+conversation in ten minutes.
+
+14
+00:00:22,212 --> 00:00:23,575
+Where the money really goes,
+
+15
+00:00:23,788 --> 00:00:25,525
+the myths he says we've been sold,
+
+16
+00:00:25,912 --> 00:00:27,525
+what happens if the bubble pops,
+
+17
+00:00:27,788 --> 00:00:29,150
+and the one thing that would prove him
+
+18
+00:00:29,162 --> 00:00:29,463
+wrong.

@@ -4,7 +4,7 @@ Usage: python scripts/cartoon_guest.py foto.jpg public/thumbs/guestN.png x0 y0 x
 (x0..y1 = area crop di foto sumber, mis. thumbnail maxres episode asli 1280x720)
 Butuh: pip install opencv-python-headless rembg (model rembg ~1 GB diunduh sekali).
 """
-import sys, cv2, numpy as np
+import os, sys, cv2, numpy as np
 from PIL import Image
 from rembg import remove
 
@@ -43,7 +43,7 @@ toon = cv2.bitwise_and(quant, quant, mask=edges)
 toon = cv2.addWeighted(toon, 0.8, quant, 0.2, 0)
 # 4) Saturasi + kontras sedikit naik.
 hsv = cv2.cvtColor(toon, cv2.COLOR_BGR2HSV).astype(np.float32)
-hsv[:, :, 1] = np.clip(hsv[:, :, 1] * 1.25, 0, 255)
+hsv[:, :, 1] = np.clip(hsv[:, :, 1] * float(os.environ.get("SAT", "1.25")), 0, 255)
 hsv[:, :, 2] = np.clip((hsv[:, :, 2] - 128) * 1.12 + 128 + 6, 0, 255)
 toon = cv2.cvtColor(hsv.astype(np.uint8), cv2.COLOR_HSV2BGR)
 

@@ -9,6 +9,7 @@ import { SH02 } from "./scenes/SH02";
 import { SH03, SH04, SH05, SH06 } from "./scenes/EP3Shorts";
 import { SH07, SH08, SH09, SH10 } from "./scenes/EP6Shorts";
 import { SH11, SH12, SH13, SH14 } from "./scenes/EP7Shorts";
+import { SH15, SH16, SH17, SH18 } from "./scenes/EP8Shorts";
 import { TIMING } from "./timing";
 import { ShortId } from "./timeline";
 
@@ -32,6 +33,10 @@ const SHORTS: Record<ShortId, { beats: Beat[]; label: string }> = {
   SH12: { beats: SH12, label: "Diary of a CEO · Robert Pape" },
   SH13: { beats: SH13, label: "Diary of a CEO · Robert Pape" },
   SH14: { beats: SH14, label: "Diary of a CEO · Robert Pape" },
+  SH15: { beats: SH15, label: "Diary of a CEO · Ed Zitron" },
+  SH16: { beats: SH16, label: "Diary of a CEO · Ed Zitron" },
+  SH17: { beats: SH17, label: "Diary of a CEO · Ed Zitron" },
+  SH18: { beats: SH18, label: "Diary of a CEO · Ed Zitron" },
 };
 
 // YouTube Shorts 1080×1920.

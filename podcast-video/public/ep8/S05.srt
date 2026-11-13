@@ -1,0 +1,219 @@
+1
+00:00:00,112 --> 00:00:00,650
+Part five.
+
+2
+00:00:01,062 --> 00:00:02,013
+Twenty twenty seven.
+
+3
+00:00:02,425 --> 00:00:04,425
+Zitron calls it the rot com bubble.
+
+4
+00:00:04,875 --> 00:00:07,400
+His theory: the biggest tech companies ran out
+
+5
+00:00:07,412 --> 00:00:09,325
+of new ideas for hyper growth.
+
+6
+00:00:09,738 --> 00:00:11,575
+When they started buying AI chips,
+
+7
+00:00:11,775 --> 00:00:12,612
+their stocks soared.
+
+8
+00:00:13,025 --> 00:00:13,862
+So they kept buying.
+
+9
+00:00:14,275 --> 00:00:15,050
+At the center of it,
+
+10
+00:00:15,312 --> 00:00:16,250
+he puts OpenAI.
+
+11
+00:00:16,675 --> 00:00:18,338
+He says it raised a hundred and twenty
+
+12
+00:00:18,350 --> 00:00:19,800
+two billion dollars this year,
+
+13
+00:00:20,125 --> 00:00:21,612
+and will need at least a hundred billion
+
+14
+00:00:21,625 --> 00:00:23,025
+a year just to keep going.
+
+15
+00:00:23,438 --> 00:00:25,200
+It was last valued at eight hundred and
+
+16
+00:00:25,212 --> 00:00:26,338
+sixty five billion.
+
+17
+00:00:26,750 --> 00:00:27,875
+Its plan to go public,
+
+18
+00:00:28,100 --> 00:00:28,662
+he says,
+
+19
+00:00:29,025 --> 00:00:30,175
+has slipped to next year.
+
+20
+00:00:30,588 --> 00:00:32,825
+And he expects Anthropic to get there first,
+
+21
+00:00:33,100 --> 00:00:35,850
+making OpenAI's own listing even harder.
+
+22
+00:00:36,275 --> 00:00:36,862
+His prediction:
+
+23
+00:00:37,250 --> 00:00:38,775
+sometime in twenty twenty seven,
+
+24
+00:00:39,150 --> 00:00:40,900
+OpenAI runs out of cash.
+
+25
+00:00:41,325 --> 00:00:42,400
+Then come the dominoes,
+
+26
+00:00:42,588 --> 00:00:43,338
+as he sees them.
+
+27
+00:00:43,750 --> 00:00:46,325
+SoftBank holds around a hundred billion dollars of
+
+28
+00:00:46,462 --> 00:00:47,988
+OpenAI stock on paper.
+
+29
+00:00:48,400 --> 00:00:51,112
+Oracle is building over seven gigawatts of data
+
+30
+00:00:51,125 --> 00:00:52,450
+centers for OpenAI,
+
+31
+00:00:52,762 --> 00:00:53,525
+and in his view,
+
+32
+00:00:53,962 --> 00:00:56,212
+without OpenAI, Oracle dies.
+
+33
+00:00:56,625 --> 00:00:59,175
+Amazon, Google and Microsoft would have to tell
+
+34
+00:00:59,188 --> 00:01:00,875
+investors they'll grow more slowly.
+
+35
+00:01:01,300 --> 00:01:02,050
+And Nvidia,
+
+36
+00:01:02,400 --> 00:01:04,862
+he estimates, could see its revenue fall by
+
+37
+00:01:04,875 --> 00:01:06,425
+fifty to seventy percent.
+
+38
+00:01:06,850 --> 00:01:07,337
+The result,
+
+39
+00:01:07,712 --> 00:01:10,075
+Zitron says, wouldn't just be a recession.
+
+40
+00:01:10,488 --> 00:01:11,637
+It would be a tech depression.
+
+41
+00:01:12,050 --> 00:01:14,000
+These companies make up a huge share of
+
+42
+00:01:14,012 --> 00:01:14,788
+the stock market,
+
+43
+00:01:15,175 --> 00:01:17,762
+so he expects people's retirement savings to fall
+
+44
+00:01:17,775 --> 00:01:19,025
+twenty to forty percent,
+
+45
+00:01:19,350 --> 00:01:20,562
+and not bounce back quickly.
+
+46
+00:01:20,975 --> 00:01:21,625
+To be clear,
+
+47
+00:01:21,938 --> 00:01:23,412
+this is one man's forecast.
+
+48
+00:01:23,862 --> 00:01:26,900
+Bartlett points out that previous technologies also lost
+
+49
+00:01:26,912 --> 00:01:28,387
+money before they paid off,
+
+50
+00:01:28,650 --> 00:01:30,625
+from Amazon Web Services to Uber.
+
+51
+00:01:31,038 --> 00:01:31,950
+Zitron's reply:
+
+52
+00:01:32,338 --> 00:01:33,775
+none of them lost this much,
+
+53
+00:01:34,000 --> 00:01:34,750
+this fast.
+
+54
+00:01:35,162 --> 00:01:36,312
+So what would it take to change his
+
+55
+00:01:36,325 --> 00:01:36,700
+mind?

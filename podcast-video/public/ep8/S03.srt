@@ -1,0 +1,231 @@
+1
+00:00:00,112 --> 00:00:00,625
+Part three.
+
+2
+00:00:01,038 --> 00:00:02,275
+Adoption, or pressure?
+
+3
+00:00:02,712 --> 00:00:05,575
+Bartlett lays out the strongest case against Zitron.
+
+4
+00:00:05,988 --> 00:00:09,000
+ChatGPT hit a hundred million users in about
+
+5
+00:00:09,012 --> 00:00:09,825
+sixty days.
+
+6
+00:00:10,250 --> 00:00:11,538
+TikTok took nine months.
+
+7
+00:00:11,950 --> 00:00:13,875
+Instagram, two and a half years.
+
+8
+00:00:14,288 --> 00:00:15,112
+In his own company,
+
+9
+00:00:15,475 --> 00:00:18,725
+he says, nearly everyone uses AI every day.
+
+10
+00:00:19,138 --> 00:00:21,675
+Zitron's reply is one of his sharpest lines.
+
+11
+00:00:22,100 --> 00:00:24,900
+He calls it the largest non consensual push
+
+12
+00:00:24,912 --> 00:00:26,288
+of technology in history.
+
+13
+00:00:26,712 --> 00:00:27,638
+Open Google Docs,
+
+14
+00:00:27,862 --> 00:00:28,912
+and Gemini is there.
+
+15
+00:00:29,325 --> 00:00:31,388
+Open Word, and Copilot is waiting.
+
+16
+00:00:31,800 --> 00:00:34,075
+Even shopping comes with an AI opinion about
+
+17
+00:00:34,088 --> 00:00:34,750
+your socks.
+
+18
+00:00:35,162 --> 00:00:36,137
+And for three years,
+
+19
+00:00:36,338 --> 00:00:36,875
+he says,
+
+20
+00:00:37,238 --> 00:00:39,150
+the media has told everyone that if they
+
+21
+00:00:39,162 --> 00:00:39,888
+don't use it,
+
+22
+00:00:40,188 --> 00:00:41,100
+they'll fall behind.
+
+23
+00:00:41,512 --> 00:00:43,700
+What about all the AI content flooding the
+
+24
+00:00:43,712 --> 00:00:44,238
+internet?
+
+25
+00:00:44,650 --> 00:00:46,462
+Zitron says we already had slop.
+
+26
+00:00:46,875 --> 00:00:47,788
+Search engine slop.
+
+27
+00:00:48,200 --> 00:00:49,688
+AI just gave us a slop machine.
+
+28
+00:00:50,100 --> 00:00:51,575
+Then they argue about mistakes.
+
+29
+00:00:52,038 --> 00:00:55,300
+Bartlett cites a leaderboard showing hallucination rates on
+
+30
+00:00:55,312 --> 00:00:58,162
+simple summaries falling from about twenty two percent
+
+31
+00:00:58,400 --> 00:01:00,550
+to under one percent in four years.
+
+32
+00:01:00,962 --> 00:01:02,738
+Zitron counters with his own test:
+
+33
+00:01:03,038 --> 00:01:05,538
+an AI tool once told him Microsoft stock
+
+34
+00:01:05,688 --> 00:01:08,050
+had hit five hundred and seventy five dollars.
+
+35
+00:01:08,462 --> 00:01:09,150
+It never had.
+
+36
+00:01:09,575 --> 00:01:10,688
+Harmless in a newsletter,
+
+37
+00:01:11,038 --> 00:01:11,575
+he says.
+
+38
+00:01:11,988 --> 00:01:14,475
+Dangerous in a medical transcript or a hedge
+
+39
+00:01:14,488 --> 00:01:15,112
+fund model.
+
+40
+00:01:15,525 --> 00:01:17,075
+And his test for real breakthroughs?
+
+41
+00:01:17,488 --> 00:01:18,038
+The iPhone.
+
+42
+00:01:18,462 --> 00:01:19,150
+When it launched,
+
+43
+00:01:19,538 --> 00:01:21,562
+he says, you didn't need to explain it.
+
+44
+00:01:21,975 --> 00:01:23,062
+You handed it to someone,
+
+45
+00:01:23,350 --> 00:01:24,300
+and they got it instantly.
+
+46
+00:01:24,725 --> 00:01:25,300
+With AI,
+
+47
+00:01:25,662 --> 00:01:28,588
+he argues, people still need a complicated setup
+
+48
+00:01:28,600 --> 00:01:30,688
+of prompts and harnesses to make it work.
+
+49
+00:01:31,150 --> 00:01:33,962
+Bartlett's counterpoint is that we should compare AI
+
+50
+00:01:33,975 --> 00:01:35,125
+to a human intern,
+
+51
+00:01:35,550 --> 00:01:36,388
+not to perfection.
+
+52
+00:01:36,800 --> 00:01:37,612
+Zitron's answer:
+
+53
+00:01:38,050 --> 00:01:39,188
+a good intern learns,
+
+54
+00:01:39,375 --> 00:01:41,062
+gets context, and grows.
+
+55
+00:01:41,475 --> 00:01:42,038
+A chatbot,
+
+56
+00:01:42,400 --> 00:01:44,262
+he says, just reads its files.
+
+57
+00:01:44,688 --> 00:01:45,250
+To settle it,
+
+58
+00:01:45,538 --> 00:01:47,325
+Bartlett brings out a deck of cards.

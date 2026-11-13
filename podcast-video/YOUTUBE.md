@@ -575,3 +575,108 @@ Mengganti judul video lama aman: view-nya masih sangat kecil, jadi hampir tidak 
 Kalimat "summarized in 10 animated minutes" boleh tetap ada sebagai baris kedua deskripsi, dan link episode asli tetap wajib ada. Chapter tidak perlu diubah.
 
 Untuk video Pape: upload secepatnya. Delapan minggu dihitung dari pemilu 3 November, jadi judulnya makin basi setiap hari.
+
+# Episode 8: Ed Zitron × The Diary of a CEO (AI bubble)
+
+Di repo: `Episode8`, `out/episode8.mp4`, `out/ep8-thumbnail-A/B/C.png`, Shorts `out/ep8-short1..4.mp4`.
+
+Sumber: **The Diary of a CEO**, "The Man Who Calls BS On AI: They're LYING About AI, 2027 Is When It All Breaks! | Ed Zitron" (±2,5 jam).
+https://www.youtube.com/watch?v=Lf5oqGOCRCM
+
+Catatan isi: semua angka adalah klaim/hitungan Ed Zitron (atau sumber yang ia kutip, mis. SemiAnalysis) dan dibingkai begitu di narasi. Bantahan Steven Bartlett ikut ditampilkan (adopsi tercepat, halusinasi turun, mobil otonom lebih aman, skeptis dot-com yang salah). Hinaan personal Zitron ke CEO AI sengaja tidak dimasukkan. Potret Ed dibuat dari thumbnail The Tech Report ("No More Bank of Jensen") dengan `scripts/cartoon_guest.py`, dicerminkan.
+
+## Video utama (10:35)
+
+Judul memakai pola riset (tanpa kata "podcast"/"summary"):
+
+**Judul (pilih salah satu):**
+- OpenAI Lost $20.9 Billion. Ed Zitron Says the AI Bubble Breaks in 2027
+- Ed Zitron WARNS: Generative AI Is a $1 Trillion Con
+- Your $200 AI Subscription Burns $14,000. Here's Who Pays.
+
+**Deskripsi:**
+
+```
+OpenAI lost $20.9 billion last year. Tech critic Ed Zitron says that isn't a bug, it's the business model. From his conversation with Steven Bartlett on The Diary of a CEO, explained in 10 animated minutes.
+
+Zitron argues that big tech has poured over a trillion dollars into AI data centers while most AI revenue comes from just two customers, OpenAI and Anthropic, funded by the same cloud giants. He explains why a $200 subscription can burn $14,000 of compute, calls AI adoption "the largest non-consensual push of technology in history," busts four AI myths, and predicts what he calls a tech depression starting in 2027. Steven Bartlett pushes back throughout. And at the end: what Zitron says would prove him wrong.
+
+This is an independent animated summary and commentary. It presents Ed Zitron's arguments and forecasts as he stated them, not as established fact, and is not financial advice. All credit for the original conversation goes to The Diary of a CEO and Ed Zitron. Watch the full episode here:
+▶ https://www.youtube.com/watch?v=Lf5oqGOCRCM
+
+CHAPTERS
+0:00 OpenAI lost $20.9 billion
+0:29 Part 1: A trillion dollars, for what?
+2:12 Part 2: The subsidy ($200 vs $14,000)
+3:51 Part 3: Adoption, or pressure?
+5:38 Part 4: The myths
+7:20 Part 5: 2027
+8:57 Part 6: What would prove him wrong?
+
+Subscribe for more of the biggest conversations explained in 10 animated minutes.
+
+#AIBubble #EdZitron #DiaryOfACEO #OpenAI #Nvidia #AI #StevenBartlett
+```
+
+**Tags:**
+Ed Zitron, AI bubble, Diary of a CEO, The Diary of a CEO, Steven Bartlett, OpenAI, Anthropic, Nvidia, Microsoft, Oracle, SoftBank, AI crash 2027, generative AI, AI con, AI subscription cost, tokens, data centers, Stargate, tech depression, rot economy, Better Offline
+
+## Thumbnail (gaya v3, potret kartun Ed)
+
+- `out/ep8-thumbnail-A.png`: $20.9B LOST (latar terang; sama dengan frame pertama video)
+- `out/ep8-thumbnail-B.png`: "IT'S A CON" (latar gelap)
+- `out/ep8-thumbnail-C.png`: YOU PAY $200 / IT COSTS $14,000
+
+Pasangan judul ↔ thumbnail: judul 1 ↔ A, judul 2 ↔ B, judul 3 ↔ C. Uji A vs B vs C dengan Test & Compare.
+
+## Shorts (4 video)
+
+Saat upload, isi **Related video** dengan video utama (tombol langsung ke video panjang), dan pin link-nya di komentar.
+
+### Short 1: $200 jadi $14.000 · `out/ep8-short1.mp4`
+
+**Judul:** Your $200 AI Subscription Costs $14,000 #shorts
+
+```
+Tech critic Ed Zitron on The Diary of a CEO: a heavy user on a $200 ChatGPT plan can burn about $14,000 of compute (per SemiAnalysis). Animated and explained.
+
+Full 10-minute breakdown on my channel. Original episode: https://www.youtube.com/watch?v=Lf5oqGOCRCM
+
+#Shorts #AIBubble #EdZitron #OpenAI #DiaryOfACEO
+```
+
+### Short 2: Uang AI berputar · `out/ep8-short2.mp4`
+
+**Judul:** How AI Money Goes in a Circle #shorts
+
+```
+Amazon invests in OpenAI, Google invests in Anthropic, and the money comes back as cloud revenue. Ed Zitron explains the AI money circle on The Diary of a CEO.
+
+Full 10-minute breakdown on my channel. Original episode: https://www.youtube.com/watch?v=Lf5oqGOCRCM
+
+#Shorts #AIBubble #EdZitron #BigTech #DiaryOfACEO
+```
+
+### Short 3: Setiap penipuan membuatmu terburu-buru · `out/ep8-short3.mp4`
+
+**Judul:** Every Con Starts the Same Way #shorts
+
+```
+Ed Zitron's best advice has nothing to do with tech: every con starts by rushing you. Unless something is on fire, slow down. From The Diary of a CEO.
+
+Full 10-minute breakdown on my channel. Original episode: https://www.youtube.com/watch?v=Lf5oqGOCRCM
+
+#Shorts #EdZitron #Advice #AI #DiaryOfACEO
+```
+
+### Short 4: Empat domino 2027 · `out/ep8-short4.mp4`
+
+**Judul:** Ed Zitron's 2027 AI Crash, in 4 Dominoes #shorts
+
+```
+OpenAI, SoftBank, Oracle, Nvidia: Ed Zitron's forecast of how the AI bubble could pop in 2027. His prediction, not a certainty, and not financial advice.
+
+Full 10-minute breakdown on my channel. Original episode: https://www.youtube.com/watch?v=Lf5oqGOCRCM
+
+#Shorts #AIBubble #EdZitron #Nvidia #DiaryOfACEO
+```

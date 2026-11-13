@@ -1,0 +1,59 @@
+1
+00:00:00,100 --> 00:00:02,175
+A tech critic's best advice has nothing to
+
+2
+00:00:02,188 --> 00:00:02,975
+do with tech.
+
+3
+00:00:03,388 --> 00:00:06,075
+Ed Zitron says every con in history starts
+
+4
+00:00:06,088 --> 00:00:06,825
+the same way:
+
+5
+00:00:07,150 --> 00:00:07,888
+by rushing you.
+
+6
+00:00:08,300 --> 00:00:09,300
+You must act now,
+
+7
+00:00:09,700 --> 00:00:10,763
+or you'll be left behind.
+
+8
+00:00:11,175 --> 00:00:11,888
+Sound familiar?
+
+9
+00:00:12,312 --> 00:00:12,762
+His rule:
+
+10
+00:00:13,200 --> 00:00:15,038
+unless something is literally on fire,
+
+11
+00:00:15,300 --> 00:00:15,938
+slow down.
+
+12
+00:00:16,350 --> 00:00:18,262
+And when a company reports a fancy number
+
+13
+00:00:18,275 --> 00:00:19,812
+like an annualized run rate,
+
+14
+00:00:20,238 --> 00:00:21,775
+ask what it actually means.
+
+15
+00:00:22,262 --> 00:00:24,300
+Full animated breakdown on my channel.

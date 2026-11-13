@@ -726,6 +726,17 @@ export const ICONS: Record<string, Stroke[]> = {
     { d: E(50, 70, 9, 12), fill: "#5D1F1F" },
     { d: "M84 30 C80 38 80 44 84 46 C88 44 88 38 84 30 Z", fill: "#81D4FA", color: blue },
   ],
+  domino: [
+    { d: R(30, 8, 40, 84), fill: "#FFFFFF" },
+    { d: L(30, 50, 70, 50), w: 1.2 },
+    { d: `${C(42, 22, 4)} ${C(58, 36, 4)} ${C(50, 66, 4)} ${C(42, 80, 4)} ${C(58, 80, 4)}`, fill: ink },
+  ],
+  cards: [
+    { d: "M20 30 L58 20 L72 76 L34 86 Z", fill: "#FFFFFF" },
+    { d: "M34 22 L72 22 L72 80 L34 80 Z", fill: "#FFFFFF" },
+    { d: "M53 38 C46 30 38 40 53 54 C68 40 60 30 53 38 Z", fill: red },
+    { d: L(40, 30, 40, 36) + " " + L(66, 66, 66, 72), color: red },
+  ],
 };
 
 export const iconNames = Object.keys(ICONS);

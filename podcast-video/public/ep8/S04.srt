@@ -1,0 +1,227 @@
+1
+00:00:00,112 --> 00:00:00,638
+Part four.
+
+2
+00:00:01,062 --> 00:00:01,612
+The myths.
+
+3
+00:00:02,025 --> 00:00:04,238
+Each card holds a belief about AI that
+
+4
+00:00:04,250 --> 00:00:05,412
+Zitron calls a myth.
+
+5
+00:00:05,838 --> 00:00:06,888
+One sentence each.
+
+6
+00:00:07,300 --> 00:00:07,825
+Myth one:
+
+7
+00:00:08,312 --> 00:00:10,838
+AI is creating enormous economic growth.
+
+8
+00:00:11,325 --> 00:00:11,962
+No, it's not,
+
+9
+00:00:12,175 --> 00:00:12,725
+he says.
+
+10
+00:00:13,138 --> 00:00:15,100
+Outside of the spending on chips and data
+
+11
+00:00:15,112 --> 00:00:17,900
+centers, he puts actual spending on AI at
+
+12
+00:00:17,912 --> 00:00:19,688
+barely a hundred billion dollars,
+
+13
+00:00:20,075 --> 00:00:21,987
+much of it those same two companies paying
+
+14
+00:00:22,000 --> 00:00:23,125
+their cloud providers.
+
+15
+00:00:23,538 --> 00:00:24,125
+Myth two:
+
+16
+00:00:24,550 --> 00:00:26,963
+America must spend trillions to beat China.
+
+17
+00:00:27,388 --> 00:00:28,588
+His reply: What race?
+
+18
+00:00:29,012 --> 00:00:29,375
+China,
+
+19
+00:00:29,750 --> 00:00:31,650
+he says, already has the models.
+
+20
+00:00:32,062 --> 00:00:32,700
+Myth three:
+
+21
+00:00:33,138 --> 00:00:35,275
+AI will replace all human jobs.
+
+22
+00:00:35,700 --> 00:00:37,613
+He says there's no economic data for it.
+
+23
+00:00:38,050 --> 00:00:39,688
+The people really losing work,
+
+24
+00:00:39,938 --> 00:00:40,588
+in his view,
+
+25
+00:00:40,875 --> 00:00:43,825
+are translators, transcribers and art directors,
+
+26
+00:00:44,188 --> 00:00:46,575
+whose bosses wanted the cheapest option anyway.
+
+27
+00:00:47,000 --> 00:00:49,100
+He even points to an OpenAI study that
+
+28
+00:00:49,112 --> 00:00:52,050
+found no link between spending on tokens and
+
+29
+00:00:52,062 --> 00:00:53,125
+revenue per employee.
+
+30
+00:00:53,538 --> 00:00:54,088
+Myth four:
+
+31
+00:00:54,588 --> 00:00:56,950
+AI systems are already blackmailing people.
+
+32
+00:00:57,362 --> 00:00:59,912
+Zitron says those stories came from tests where
+
+33
+00:00:59,925 --> 00:01:02,612
+researchers set the models up and prompted them
+
+34
+00:01:02,625 --> 00:01:03,088
+to do it.
+
+35
+00:01:03,512 --> 00:01:04,875
+Bartlett doesn't let it slide.
+
+36
+00:01:05,300 --> 00:01:06,400
+Self driving cars,
+
+37
+00:01:06,562 --> 00:01:09,100
+he notes, show far fewer crashes than human
+
+38
+00:01:09,112 --> 00:01:09,688
+drivers.
+
+39
+00:01:10,100 --> 00:01:11,975
+And history is full of skeptics who were
+
+40
+00:01:11,988 --> 00:01:12,300
+wrong.
+
+41
+00:01:12,700 --> 00:01:15,400
+An economist predicted the internet would matter no
+
+42
+00:01:15,412 --> 00:01:16,825
+more than the fax machine.
+
+43
+00:01:17,238 --> 00:01:19,288
+Zitron's answer is the key to his whole
+
+44
+00:01:19,300 --> 00:01:19,825
+argument.
+
+45
+00:01:20,250 --> 00:01:21,225
+The dot com bubble,
+
+46
+00:01:21,600 --> 00:01:23,925
+he says, left something useful behind:
+
+47
+00:01:24,338 --> 00:01:26,512
+miles of fiber optic cable that the world
+
+48
+00:01:26,525 --> 00:01:27,475
+eventually filled.
+
+49
+00:01:27,888 --> 00:01:29,950
+A data center full of AI chips,
+
+50
+00:01:30,162 --> 00:01:31,663
+he argues, is different.
+
+51
+00:01:32,088 --> 00:01:32,938
+The chips age,
+
+52
+00:01:33,125 --> 00:01:34,300
+the power bill stays,
+
+53
+00:01:34,525 --> 00:01:35,862
+and there's no other job for them to
+
+54
+00:01:35,875 --> 00:01:36,138
+do.
+
+55
+00:01:36,550 --> 00:01:38,112
+There is, in his words,
+
+56
+00:01:38,362 --> 00:01:39,750
+no post bubble story.
+
+57
+00:01:40,175 --> 00:01:41,738
+So what happens when the money stops?

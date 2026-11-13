@@ -1,0 +1,59 @@
+1
+00:00:00,100 --> 00:00:02,362
+Ed Zitron's twenty twenty seven prediction,
+
+2
+00:00:02,638 --> 00:00:03,750
+in four dominoes.
+
+3
+00:00:04,175 --> 00:00:04,438
+One:
+
+4
+00:00:04,825 --> 00:00:06,375
+OpenAI runs out of cash.
+
+5
+00:00:06,788 --> 00:00:07,012
+Two:
+
+6
+00:00:07,425 --> 00:00:10,100
+SoftBank, holding about a hundred billion dollars of
+
+7
+00:00:10,112 --> 00:00:12,300
+OpenAI stock, gets much smaller.
+
+8
+00:00:12,762 --> 00:00:13,062
+Three:
+
+9
+00:00:13,475 --> 00:00:16,513
+Oracle, building seven gigawatts of data centers for
+
+10
+00:00:16,525 --> 00:00:18,300
+OpenAI, could collapse.
+
+11
+00:00:18,775 --> 00:00:19,050
+Four:
+
+12
+00:00:19,462 --> 00:00:22,138
+Nvidia's revenue falls fifty to seventy percent.
+
+13
+00:00:22,562 --> 00:00:24,275
+His forecast, not a certainty.
+
+14
+00:00:24,700 --> 00:00:26,088
+But he calls it a tech depression.
+
+15
+00:00:26,575 --> 00:00:28,612
+Full animated breakdown on my channel.
