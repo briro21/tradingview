@@ -4,6 +4,7 @@ import * as A from './lib/art.js';
 import { env, KIND, CROWD } from './sets.js';
 import { SC1, caveFrame, lowerThird } from './scenes1.js';
 import { SC3 } from './scenes3.js';
+import { SC2 } from './scenes2.js';
 const { W, H, layer, camAt, glow, rgba, mixc, lerp, clamp, hash01, noise1, sstep, ease, caption, words, figure, terrain, ridge, dust, rays, flame, embers, shadowEllipse, TAU } = A;
 const cx = W / 2;
 const flash = (ctx, a, col = '#fff') => { if (a > 0.01) { ctx.fillStyle = rgba(col, clamp(a)); ctx.fillRect(0, 0, W, H); } };
@@ -149,7 +150,7 @@ export const SC4 = {
   92(ctx, s) { oldman(ctx, s, { mode: 'zoom', z1: 1.5 }); },
   93(ctx, s) { oldman(ctx, s, { mode: 'zoom', z1: 1.8, dim: true }); },
   94(ctx, s) {
-    const n = 5, i = Math.min(n - 1, Math.floor(s.lu / s.nb * n)), k = s.lu / s.nb * n - i; const f = [SC1[27], SC3[58], SC4[86], SC3[58], SC4[89]][i];
+    const n = 5, i = Math.min(n - 1, Math.floor(s.lu / s.nb * n)), k = s.lu / s.nb * n - i; const f = [SC2[27], SC3[58], SC4[86], SC3[58], SC4[89]][i];
     f(ctx, { ...s, p: clamp(k), lu: clamp(k) * 4, nb: 99, T: s.T + i * 2 }); ctx.fillStyle = `rgba(255,240,200,${0.4 * Math.max(0, 1 - k * 6)})`; ctx.fillRect(0, 0, W, H);
     caption(ctx, ['THE NAMUS', 'KEEPER OF SECRETS', 'THE SAME ANGEL', 'THAT CAME TO', 'MOSES'][i], cx, 150, 72, '#fff4dc', { track: 16, a: 0.95 }); A.vignette(ctx, 0.3);
   },
