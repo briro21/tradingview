@@ -4,3 +4,6 @@ out-render.log
 out-shorts.log
 out-ep2.log
 out-ep3.log
+ep8-reel/audio/*.wav
+out-reel.log
+out-ep8*.log
