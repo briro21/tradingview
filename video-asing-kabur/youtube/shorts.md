@@ -1,4 +1,4 @@
-# Paket Shorts (32 video, 9:16)
+# Paket Shorts (34 video, 9:16)
 
 Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Video terkait"** (Related video) di YouTube Studio dengan video lengkapnya, supaya penonton bisa langsung pindah ke video panjang.
 
@@ -225,6 +225,20 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 **Deskripsi:**
 > Paradoks Hemat: Semua Berhemat, Malah Banyak PHK Tonton versi lengkapnya (8 menit) di channel ini.
 > Bukan ajakan jual/beli. #shorts #whatif #ekonomiindonesia
+
+## Hari 33 · `ihc-hook.mp4`
+**Judul:** IHSG Anjlok 11,57% dalam Sehari, Pemicunya dari New York #IHSG #MSCI
+**Video terkait (versi lengkap):** IHSG Anjlok 11,57% dalam Sehari. Satu Pengumuman dari New York Pemicunya
+**Deskripsi:**
+> IHSG Anjlok 11,57% dalam Sehari, Pemicunya dari New York. Penjelasan lengkap 9 menit ada di channel ini.
+> Bukan ajakan jual/beli. #shorts #IHSG #MSCI #saham
+
+## Hari 34 · `ihc-msci.mp4`
+**Judul:** Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG? #MSCI #saham
+**Video terkait (versi lengkap):** IHSG Anjlok 11,57% dalam Sehari. Satu Pengumuman dari New York Pemicunya
+**Deskripsi:**
+> Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG?. Penjelasan lengkap 9 menit ada di channel ini.
+> Bukan ajakan jual/beli. #shorts #IHSG #MSCI #saham
 
 ## Tips
 - Pertama kali unggah, balas setiap komentar yang masuk, karena ini sinyal kuat bagi algoritma.
