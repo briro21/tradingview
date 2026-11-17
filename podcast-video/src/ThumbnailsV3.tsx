@@ -221,8 +221,8 @@ export const V3Ep9A: React.FC = () => (
   <Bg>
     <Guest n={9} height={700} left={10} src="thumbs/photo_cuban.png" />
     <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
-      <Big size={190} color={red}>$1 TRILLION</Big>
-      <Big size={150} style={{ marginTop: 6 }}>DEBT BUBBLE</Big>
+      <Big size={160} color={red}>$1 TRILLION</Big>
+      <Big size={130} style={{ marginTop: 6 }}>DEBT BUBBLE</Big>
     </div>
     <Scribble x={760} y={560} w={460} />
   </Bg>
