@@ -286,5 +286,23 @@
   "hook": "SEMUA BERHEMAT,\nKOK MALAH PHK?",
   "title": "Paradoks Hemat: Semua Berhemat, Malah Banyak PHK #ekonomi #hemat",
   "lastLine": 32
+ },
+ {
+  "id": "ihc-hook",
+  "slug": "ihsg-crash",
+  "from": 0,
+  "to": 54.93,
+  "hook": "IHSG ANJLOK 11,57%\nDALAM SEHARI",
+  "title": "IHSG Anjlok 11,57% dalam Sehari, Pemicunya dari New York #IHSG #MSCI",
+  "lastLine": 6
+ },
+ {
+  "id": "ihc-msci",
+  "slug": "ihsg-crash",
+  "from": 63.07,
+  "to": 111.33,
+  "hook": "SIAPA SEBENARNYA\nMSCI?",
+  "title": "Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG? #MSCI #saham",
+  "lastLine": 13
  }
 ]

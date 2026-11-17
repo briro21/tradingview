@@ -1,0 +1,28 @@
+{
+  "slug": "ihsg-crash",
+  "titles": [
+    "IHSG Anjlok 11,57% dalam Sehari. Satu Pengumuman dari New York Pemicunya",
+    "IHSG Jadi Bursa Terburuk di Dunia Tahun Ini. Apa yang Sebenarnya Terjadi?",
+    "MSCI Ancam Turunkan Status Indonesia ke Standalone: Apa Artinya untuk Uangmu?"
+  ],
+  "intro": "Jumat, 16 Oktober 2026, pukul 08.58, perdagangan di Bursa Efek Indonesia dihentikan karena IHSG jatuh 8% dalam hitungan menit. Sore harinya IHSG ditutup anjlok 11,57% ke 5.185. Pemicunya bukan perang atau bencana, melainkan satu pengumuman MSCI dari New York: konsultasi untuk menurunkan status pasar Indonesia dari emerging market langsung ke standalone.\n\nDi video ini kita urai siapa MSCI dan kenapa daftar buatannya menggerakkan triliunan dolar, kronologi sejak pembekuan bobot pada Januari 2026 hingga mundurnya Dirut BEI dan Ketua OJK, alasan MSCI (dugaan perdagangan terkoordinasi dan akses pasar), paradoks perusahaan untung tapi saham jatuh, jual bersih asing lebih dari Rp92 triliun, rekor terlemah rupiah, delapan saham yang dikeluarkan pada review November, dan dua skenario menuju keputusan akhir paling lambat 30 Juni 2027.",
+  "question": "Menurutmu, apakah Indonesia bisa lolos dari status standalone sebelum Juni 2027?",
+  "sources": [
+    "MSCI, konsultasi reklasifikasi Indonesia (Oktober 2026): https://www.msci.com/downloads/documents/press-releases/media-room/Indonesia_PR_Oct_26.pdf",
+    "RCTI+/iNews: IHSG ditutup anjlok 11,57% ke 5.185, 812 saham melemah (16 Okt 2026)",
+    "Kompas: IHSG anjlok 14,91% dalam sepekan usai pengumuman MSCI",
+    "Tempo & CNBC Indonesia: kronologi Januari 2026 (pembekuan MSCI, trading halt, Dirut BEI dan Ketua OJK mundur)",
+    "Kontan & CNBC Indonesia: IHSG terburuk di dunia sepanjang 2026",
+    "Investortrust & Bloomberg Technoz: jual bersih asing Rp92 triliun, arus keluar terbesar sejak 1998",
+    "Tempo, Kontan, Infobank: hasil review MSCI November 2026 (8 saham dikeluarkan)"
+  ],
+  "note": "Video ini adalah penjelasan dan komentar berdasarkan pemberitaan media keuangan serta pengumuman MSCI. Bukan ajakan membeli atau menjual saham apa pun. Angka dapat berbeda antar sumber; cek data resmi BEI dan MSCI.",
+  "chapters": [[0, "−11,57% dalam sehari"], [8, "Bagian 1: Siapa sebenarnya MSCI?"], [18, "Bagian 2: Ini bukan pertama kalinya"], [27, "Bagian 3: Kenapa MSCI begitu keras?"], [34, "Bagian 4: Paradoks yang membingungkan"], [43, "Bagian 5: Apa artinya untuk kamu?"], [50, "Bagian 6: Apa yang terjadi selanjutnya?"], [56, "Yang bisa kamu lakukan"]],
+  "tags": ["IHSG", "IHSG anjlok", "IHSG crash", "MSCI", "MSCI standalone", "MSCI Indonesia", "bursa efek indonesia", "saham hari ini", "trading halt", "rupiah melemah", "asing jual saham", "free float", "saham gorengan", "krisis saham 2026", "bursa terburuk di dunia", "review MSCI November 2026", "investasi saham", "reksa dana", "ekonomi indonesia", "pasar modal"],
+  "hashtags": ["#IHSG", "#MSCI", "#Saham", "#EkonomiIndonesia", "#Rupiah"],
+  "thumbs": {
+    "v1": {"top": "SATU PENGUMUMAN", "main": "-11,57%", "badge": "DALAM SEHARI", "emoji": "📉"},
+    "v2": {"kicker": "TERBURUK DI DUNIA", "main": "IHSG\nJATUH 40%", "bottom": "APA YANG TERJADI?", "emoji": "🇮🇩"},
+    "v3": {"top": "MSCI MENGANCAM:", "left": "EMERGING", "right": "STANDALONE", "leftEmoji": "🌏", "rightEmoji": "🏝️"}
+  }
+}

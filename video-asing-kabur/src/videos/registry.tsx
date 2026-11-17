@@ -62,6 +62,10 @@ import {timeline as tbl} from './tanpa-belanja-30-hari/storyboard';
 import tblCaptions from './tanpa-belanja-30-hari/captions.json';
 import tblLines from './tanpa-belanja-30-hari/lines.json';
 import tblMeta from './tanpa-belanja-30-hari/meta.json';
+import {timeline as ihc} from './ihsg-crash/storyboard';
+import ihcCaptions from './ihsg-crash/captions.json';
+import ihcLines from './ihsg-crash/lines.json';
+import ihcMeta from './ihsg-crash/meta.json';
 import {ThumbData} from './Thumb';
 import {Cue, durationOf, LineT, makeL, Seg, WhatIf} from './WhatIf';
 
@@ -85,6 +89,7 @@ export const VIDEOS: Video[] = [
   {slug: 'pikiran-bandar', lines: pkbLines, captions: pkbCaptions, timeline: pkb, thumbs: pkbMeta.thumbs},
   {slug: 'terkaya-7-hari', lines: trkLines, captions: trkCaptions, timeline: trk, thumbs: trkMeta.thumbs},
   {slug: 'tanpa-belanja-30-hari', lines: tblLines, captions: tblCaptions, timeline: tbl, thumbs: tblMeta.thumbs},
+  {slug: 'ihsg-crash', lines: ihcLines, captions: ihcCaptions, timeline: ihc, thumbs: ihcMeta.thumbs},
 ];
 
 // Komposisi hanya menerima slug (props Remotion harus bisa di-JSON-kan); storyboard dicari di sini.

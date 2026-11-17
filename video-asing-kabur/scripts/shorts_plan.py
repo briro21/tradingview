@@ -40,6 +40,8 @@ PLAN = [
     ('terkaya-7-hari', 'trk-gadai', 25, 29, 'SAHAM DIGADAI:\nBOLA SALJU KEJATUHAN', 'Kenapa Saham Konglomerat Bisa Jatuh Beruntun? #saham #IHSG'),
     ('tanpa-belanja-30-hari', 'tbl-hook', 0, 10, 'SATU INDONESIA\n30 HARI TANPA BELANJA', 'Kalau Satu Indonesia 30 Hari Tanpa Belanja? #whatif #ekonomi'),
     ('tanpa-belanja-30-hari', 'tbl-paradoks', 27, 35, 'SEMUA BERHEMAT,\nKOK MALAH PHK?', 'Paradoks Hemat: Semua Berhemat, Malah Banyak PHK #ekonomi #hemat'),
+    ('ihsg-crash', 'ihc-hook', 0, 7, 'IHSG ANJLOK 11,57%\nDALAM SEHARI', 'IHSG Anjlok 11,57% dalam Sehari, Pemicunya dari New York #IHSG #MSCI'),
+    ('ihsg-crash', 'ihc-msci', 8, 17, 'SIAPA SEBENARNYA\nMSCI?', 'Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG? #MSCI #saham'),
 ]
 
 out = []
