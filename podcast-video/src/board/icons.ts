@@ -737,6 +737,49 @@ export const ICONS: Record<string, Stroke[]> = {
     { d: "M53 38 C46 30 38 40 53 54 C68 40 60 30 53 38 Z", fill: red },
     { d: L(40, 30, 40, 36) + " " + L(66, 66, 66, 72), color: red },
   ],
+  // Ep9 (Mark Cuban)
+  bubble: [
+    { d: C(50, 50, 40), fill: "#B3E5FC" },
+    { d: "M28 34 C32 24 42 18 50 18", color: "#FFFFFF", w: 1.4 },
+    { d: C(70, 30, 4), fill: "#FFFFFF" },
+  ],
+  pin: [
+    { d: L(20, 80, 62, 38), w: 1.2 },
+    { d: C(70, 30, 12), fill: red },
+  ],
+  chain: [
+    { d: E(24, 50, 16, 10), w: 1.4 },
+    { d: E(50, 50, 16, 10), w: 1.4, color: red },
+    { d: E(76, 50, 16, 10), w: 1.4 },
+  ],
+  cassette: [
+    { d: R(10, 24, 80, 52), fill: "#B0BEC5" },
+    { d: R(24, 36, 52, 20), fill: "#ECEFF1" },
+    { d: C(36, 46, 6) },
+    { d: C(64, 46, 6) },
+    { d: "M28 76 L34 64 L66 64 L72 76" },
+  ],
+  trashbag: [
+    { d: "M30 30 C14 50 16 88 50 90 C84 88 86 50 70 30 Z", fill: "#455A64" },
+    { d: "M30 30 L40 22 L50 28 L60 22 L70 30", w: 1.2 },
+    { d: "M40 30 C44 36 56 36 60 30", color: red },
+  ],
+  cart: [
+    { d: "M8 20 L22 20 L32 66 L80 66", w: 1.2 },
+    { d: "M26 32 L88 32 L82 56 L30 56 Z", fill: "#90CAF9" },
+    { d: C(38, 78, 7) },
+    { d: C(74, 78, 7) },
+  ],
+  paddle: [
+    { d: E(44, 40, 26, 30, -20), fill: "#81C784" },
+    { d: L(58, 66, 74, 92), w: 1.8 },
+    { d: C(80, 24, 8), fill: yellow },
+  ],
+  creditCard: [
+    { d: R(10, 24, 80, 52), fill: "#90CAF9" },
+    { d: R(10, 34, 80, 10), fill: ink },
+    { d: R(20, 56, 16, 10), fill: yellow },
+  ],
 };
 
 export const iconNames = Object.keys(ICONS);

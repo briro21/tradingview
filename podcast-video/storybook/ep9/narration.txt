@@ -9,7 +9,7 @@ In Cuban's words, we're trading stocks like baseball cards. There's no intrinsic
 
 That phrase is worth a pause, because Cuban literally started his career with baseball cards. At nine or ten years old, he bought packs for a quarter, repackaged them, and sold them for fifty cents.
 
-So what pops this bubble? Here's the surprising part. Cuban says he has no idea.
+So what pops this bubble? Here's the surprising part. Cuban says he has no idea. Even Bartlett admits it's tempting to put a few dollars into Nvidia. Cuban gets it, because this technology really is without precedent.
 
 What he does know is history. When the internet bubble burst, Dell and Amazon got crushed. People mocked Amazon for losing so much money. Today, it's worth trillions. Anyone who stuck it out did very well.
 
@@ -73,7 +73,7 @@ Later, in Dallas, he shared a three-bedroom apartment with five other guys and s
 
 His edge? With any new software, he figured only the person who wrote it would understand it better than him. Everyone else would be tied for second, and he would outwork them. He read the manuals through the night. He says it's exactly the same with AI today.
 
-And that company was profitable every single month for eight years. That's his warning to young founders. Raising money and chasing big sales numbers isn't the goal. Staying alive is.
+And that company was profitable every single month for eight years. That's his warning to young founders. Raising money and chasing big sales numbers isn't the goal. Staying alive is. And he's blunt about who should even try. If you have to ask yourself whether you can be an entrepreneur, he says, you probably aren't one.
 
 He sold Micro Solutions, then built Broadcast dot com, which Yahoo bought for five point seven billion dollars in stock.
 
@@ -90,7 +90,7 @@ So how is he playing defense now? He says he has money spread across more than o
 
 To be clear, this is Cuban's view, not financial advice.
 
-So what would change his mind about AI? His answer: show him an AI that can solve hard problems with minimal resources, like a brilliant twelve-year-old with nothing but curiosity. As long as AI needs more chips and more power than ever before, he says, that's not intelligence. It's brute force.
+So what would change his mind about AI? His answer: show him an AI that can solve hard problems with minimal resources, like a brilliant twelve-year-old with nothing but curiosity. As long as AI needs more chips and more power than ever before, he says, that's not intelligence. It's brute force. He's just as skeptical of the biggest promises. Elon Musk, he says, is the best entrepreneur of our lifetimes, but he's also a sales guy who has to raise a lot of money.
 
 And even the experts can't agree. Bartlett has interviewed AI safety researchers and people inside the big labs, and Cuban notes that no two of them give the same answer.
 

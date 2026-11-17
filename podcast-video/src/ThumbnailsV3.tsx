@@ -213,3 +213,40 @@ export const V3Ep8C: React.FC = () => (
     </div>
   </Bg>
 );
+
+// ---------- Episode 9: Mark Cuban (crash, AI debt) ----------
+
+/** A: sama dengan frame pertama video (latar kertas, foto Cuban, "$1 TRILLION / DEBT BUBBLE"). */
+export const V3Ep9A: React.FC = () => (
+  <Bg>
+    <Guest n={9} height={700} left={10} src="thumbs/photo_cuban.png" />
+    <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
+      <Big size={190} color={red}>$1 TRILLION</Big>
+      <Big size={150} style={{ marginTop: 6 }}>DEBT BUBBLE</Big>
+    </div>
+    <Scribble x={760} y={560} w={460} />
+  </Bg>
+);
+
+/** B: menunggu crash. */
+export const V3Ep9B: React.FC = () => (
+  <Bg dark>
+    <Guest n={9} height={700} left={10} src="thumbs/photo_cuban.png" />
+    <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
+      <Big size={140} color="#FFFFFF">WAITING</Big>
+      <Big size={140} color="#FFFFFF">FOR THE</Big>
+      <Big size={200} color={red} style={{ marginTop: 4 }}>CRASH</Big>
+    </div>
+  </Bg>
+);
+
+/** C: saham seperti kartu bisbol. */
+export const V3Ep9C: React.FC = () => (
+  <Bg dark glow={theme.orange}>
+    <Guest n={9} height={700} left={10} src="thumbs/photo_cuban.png" />
+    <div style={{ position: "absolute", right: 60, top: 170, textAlign: "right" }}>
+      <Big size={150} color={yellow}>JUST</Big>
+      <Big size={210} color={red} style={{ marginTop: 4 }}>CARDS?</Big>
+    </div>
+  </Bg>
+);

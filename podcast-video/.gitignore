@@ -7,3 +7,5 @@ out-ep3.log
 ep8-reel/audio/*.wav
 out-reel.log
 out-ep8*.log
+ep9-reel/audio/*.wav
+out-ep9*.log

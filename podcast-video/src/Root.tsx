@@ -16,7 +16,7 @@ import { ThumbM, ThumbN, ThumbO } from "./episodes/ep5/Thumbnails";
 import { EP6_FRAMES, Episode6 } from "./episodes/ep6/Video";
 import { ThumbP, ThumbQ, ThumbR } from "./episodes/ep6/Thumbnails";
 import { EP7_FRAMES, Episode7 } from "./episodes/ep7/Video";
-import { V3Ep1, V3Ep2, V3Ep3, V3Ep4, V3Ep5, V3Ep6, V3Ep8A, V3Ep8B, V3Ep8C } from "./ThumbnailsV3";
+import { V3Ep1, V3Ep2, V3Ep3, V3Ep4, V3Ep5, V3Ep6, V3Ep8A, V3Ep8B, V3Ep8C, V3Ep9A, V3Ep9B, V3Ep9C } from "./ThumbnailsV3";
 import { EP8_FRAMES, Episode8 } from "./episodes/ep8/Video";
 import { ThumbS, ThumbS2, ThumbT, ThumbT2, ThumbU, ThumbU2 } from "./episodes/ep7/Thumbnails";
 import { ThumbG, ThumbH, ThumbI } from "./episodes/ep3/Thumbnails";
@@ -230,8 +230,47 @@ export const Root: React.FC = () => (
       height={1920}
       durationInFrames={TIMING.SH18.frames}
     />
+    <Composition
+      id="Ep9Short1"
+      component={ShortsVideo}
+      defaultProps={{ id: "SH19" as const }}
+      fps={FPS}
+      width={1080}
+      height={1920}
+      durationInFrames={TIMING.SH19.frames}
+    />
+    <Composition
+      id="Ep9Short2"
+      component={ShortsVideo}
+      defaultProps={{ id: "SH20" as const }}
+      fps={FPS}
+      width={1080}
+      height={1920}
+      durationInFrames={TIMING.SH20.frames}
+    />
+    <Composition
+      id="Ep9Short3"
+      component={ShortsVideo}
+      defaultProps={{ id: "SH21" as const }}
+      fps={FPS}
+      width={1080}
+      height={1920}
+      durationInFrames={TIMING.SH21.frames}
+    />
+    <Composition
+      id="Ep9Short4"
+      component={ShortsVideo}
+      defaultProps={{ id: "SH22" as const }}
+      fps={FPS}
+      width={1080}
+      height={1920}
+      durationInFrames={TIMING.SH22.frames}
+    />
     <Still id="Ep8ThumbA" component={V3Ep8A} width={1280} height={720} />
     <Still id="Ep8ThumbB" component={V3Ep8B} width={1280} height={720} />
     <Still id="Ep8ThumbC" component={V3Ep8C} width={1280} height={720} />
+    <Still id="Ep9ThumbA" component={V3Ep9A} width={1280} height={720} />
+    <Still id="Ep9ThumbB" component={V3Ep9B} width={1280} height={720} />
+    <Still id="Ep9ThumbC" component={V3Ep9C} width={1280} height={720} />
   </>
 );
