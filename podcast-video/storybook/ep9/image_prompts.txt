@@ -1,0 +1,61 @@
+STYLE LOCK (paste in front of EVERY prompt):
+Flat editorial illustration with subtle paper grain and soft risograph texture, clean confident outlines of even medium weight, simple geometric shapes, gentle cel shading with one soft shadow tone. Fixed palette only: charcoal #17171C, warm cream #F2EDE4, muted slate #6B7280, sand #C9B79C, and a single accent red #E63946 used sparingly on the key object. Soft directional light from the upper left. Plain or very simple background with lots of empty space. 16:9, 1920x1080, no text, no letters, no numbers, no logos, no watermarks, subject centered.
+
+Images 01, 06, 32 and 56 are [PHOTO:] slots: do not generate them (licensed photos are used).
+For 01, generate only the right half as a separate image: "a towering stack of gold coins pouring down into a dark drain, accent red drain rim, empty left half of the frame".
+
+01b: A towering stack of gold coins tipping and pouring down into a dark round drain in the floor, the drain rim in accent red, the whole left half of the frame left empty and plain.
+02: A gleaming modern data center building balanced on tall thin stilts made of stacked loan papers, the stilts bending and wobbling, small cracks at the base, a calm empty sky.
+03: A huge transparent soap bubble floating above a small city skyline, holding server racks and gold coins inside, its skin stretched thin with one red glint where it is about to pop.
+04: A single closed leather briefcase on a long empty table under one tight spotlight, the rest of the room in deep charcoal shadow, quiet and deliberate mood.
+05: Chapter card. One oversized collectible trading card standing upright at the center, a simple red rocket drawn on its face, plain cream background, strong silhouette.
+07: A messy pile of collectible cards spilling across a table, each card showing one simple symbol: a coin, a microchip, a piece of fruit, a magnifying glass, one card glowing red.
+08: A seesaw on a plain background: a single tiny copper penny on one end launching a heavy red downward arrow on the other end, exaggerated imbalance, playful but tense.
+09: Two pairs of hands swapping trading cards across a wooden table, each card showing a small jagged price line, close-up, warm light, casual but hectic energy.
+10: A child's hands at a 1960s kitchen table rewrapping baseball card packs in newspaper comic pages, a small pile of coins nearby, nostalgic warm light, close-up.
+11: A giant shimmering bubble filling most of the frame, a sharp red pin hovering just beside it, tension right before the pop, plain charcoal background.
+12: An old beige CRT computer lying cracked on the ground, scattered papers drifting around it, dusty late-1990s office feel, muted slate tones with one red crack line.
+13: A long row of identical closed doors stretching into the distance, only one door with a faint red glow coming from underneath, mysterious and quiet.
+14: A massive iron chain wrapped tightly around a glowing data center building, the chain links heavy and dark, red light leaking through the gaps, low camera angle.
+15: Chapter card. A heavy iron ball and chain resting on a plain cream background, the ball's highlight in accent red, strong centered silhouette.
+16: A price tag falling through the air in the foreground while behind it a thick power cable feeds an enormous battery, the battery's charge level glowing red.
+17: A cloud-shaped skyscraper with an endless credit card being swiped through a giant card reader at its base, the card stretching into a long ribbon, slightly absurd.
+18: One giant hand reaching down from above, holding up several smaller office buildings by strings like puppets, the hand's cuff in accent red, plain background.
+19: A classical columned government building at center, a growing mountain of paper bills piling up behind it like a landslide, overcast sky.
+20: A large ornate faucet pouring a steady stream of gold coins straight into a swirling black hole, the faucet handle in accent red, dramatic contrast.
+21: A tall thermometer climbing into the red beside a giant dark boulder resting on a small wooden cart whose wheels are cracking.
+22: An overpacked elevator, crates and boxes crammed inside, one red crate being squeezed out between the closing doors, cramped and tense composition.
+23: A cavernous empty data center hall where the server racks have been cleared and replaced by bright pickleball courts, two paddles and a ball resting on the floor.
+24: A chunky 1990s desktop computer on a desk, colorful radio waves flowing out of its screen across the room, nostalgic and optimistic mood.
+25: Chapter card. A simple friendly robot head in profile with an empty thought bubble above it, plain cream background, the bubble outline in accent red.
+26: A robot hand rolling dice above a row of blank word tiles, each tile slightly different in shade, close-up, playful probability theme.
+27: Four identical robots standing side by side, each holding up a different simple shape: a circle, a square, a triangle and a star, the star in accent red.
+28: A robot sitting in an armchair reading a yellowed old newspaper while a wall clock behind it spins fast with motion blur on its hands.
+29: A guide dog confidently leading a man across a busy city crosswalk, cars waiting, the smartphone in the man's hand glowing but ignored, top-down three-quarter view.
+30: A toddler in a high chair joyfully pushing a red sippy cup off the edge, the cup frozen mid-air, a kitchen softly blurred in the background.
+31: A robot trying a huge ring of thousands of keys on one giant padlock, discarded keys piled at its feet, the padlock in accent red.
+33: A sleek car with an empty driver's seat cruising down a night highway, light trails behind it, calm and slightly eerie, no brand marks.
+34: A human runner just ahead of a robot runner crossing a finish line ribbon, the ribbon in accent red, strong sideways motion.
+35: Chapter card. A smartphone lying flat with a swarm of tiny robots climbing out of its screen in every direction, plain cream background.
+36: A gigantic ocean wave towering over a tiny radio, a tiny television and a tiny desktop computer sitting on a beach, sense of overwhelming scale.
+37: An open book resting on a cozy armchair under a reading lamp, tiny robots in the background carrying stacks of papers away, peaceful mood.
+38: Prescription pill bottles standing in a row with a very long price tag draped over them, giant red scissors cutting the price tag short.
+39: A small robot with binoculars standing on a rooftop, watching huge corporate towers across the street, small red alert signals pinging above the towers.
+40: An office desk with a small robot sitting in the office chair, an empty coat hook on the wall behind it, quiet slightly melancholic light.
+41: A cassette tape crumbling into dust on the left while a pair of headphones grows out of it like a plant on the right, transformation metaphor.
+42: A lone worker walking down a long empty road at dusk carrying a cardboard box of belongings, long shadow, wide open landscape.
+43: A young person at a laptop conducting a small group of tiny robots like an orchestra with a red baton, energetic and hopeful.
+44: Chapter card. A single cardboard box of garbage bags with a small red price sticker, plain cream background, strong centered silhouette.
+45: A 12-year-old boy seen from behind, knocking on a suburban front door while holding a box of garbage bags, 1970s neighborhood, warm afternoon light.
+46: A crowded small apartment floor with a thin sleeping bag laid out next to a thick software manual and a desk lamp, cramped but determined mood.
+47: A podium where one person stands alone on first place holding a computer, while a large crowd squeezes onto the second-place step, humorous.
+48: A wall covered in rows of calendar pages, each page marked with the same bold check mark, one check in accent red, orderly and satisfying.
+49: A chunky 1990s desktop computer transforming into a shining golden trophy, sparkles at the transition, plain charcoal background.
+50: A work apron hanging on a hook behind a small diner counter in soft morning light, humble and hopeful mood, empty and calm.
+51: A guru figure on a smartphone screen holding up a treasure map, while far away in the background the real treasure chest sits locked and ignored.
+52: Chapter card. A calm open hand holding a single gold coin above a falling red chart line, plain cream background.
+53: An hourglass filled with tiny gold coins instead of sand, coins slowly trickling down, quiet patience mood, plain background.
+54: A sturdy open safe with neat stacks of cash inside, while through a window behind it a storm rages with rain and lightning.
+55: A shopping cart overflowing with downward chart arrows in a bright store aisle on sale day, cheerful bargain-hunter energy, one arrow in accent red.
+57: A kid with only a pencil solving a giant chalkboard puzzle on the left, beside a huge humming server farm with tangled cables on the right.
+58: A warm family dinner table glowing under a hanging lamp in the center, an empty luxury armchair sitting in the dark corner of the room.

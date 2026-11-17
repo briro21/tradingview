@@ -1,0 +1,58 @@
+01 | S00 | Every year, America now pays | *$1 TRILLION* IN INTEREST | [PHOTO: Mark Cuban] on the left; on the right, a towering stack of gold coins pouring down into a dark drain | push-in
+02 | S00 | AI giants borrowing more than | BORROWING > EARNING | a gleaming data center building standing on stilts made of stacked loan papers that wobble | pan-right
+03 | S00 | We could be heading into | DEBT *BUBBLE* | a huge soap bubble holding server racks and coins, floating above a small city skyline, its skin stretched thin | push-in
+04 | S00 | So why is he sitting | WHY *CASH*? | a single closed leather briefcase on an empty table under one spotlight | pull-out
+05 | S01 | Part one. Everything is a | PART 1: *MEME STOCKS* | chapter card: one oversized collectible trading card with a rocket drawn on it, plain background | still
+06 | S01 | do you think we're in | "ARE WE IN A *BUBBLE*?" | [PHOTO: Steven Bartlett] | push-in
+07 | S01 | everything has become a meme | EVERYTHING = *MEME* | a messy pile of collectible cards showing simple symbols: a coin, a microchip, a fruit, a magnifying glass | pan-left
+08 | S01 | miss its earnings forecast by | 1-PENNY MISS → *-18%* | a single tiny copper penny on one side of a seesaw launching a heavy red arrow downward on the other side | push-in
+09 | S01 | trading stocks like baseball cards | LIKE *BASEBALL CARDS* | two pairs of hands swapping trading cards across a table, each card showing a small jagged price line | pan-right
+10 | S01 | started his career with baseball | 25 CENTS → 50 CENTS | a kid's hands at a 1960s kitchen table rewrapping card packs in newspaper comic pages | push-in
+11 | S01 | So what pops this bubble? | WHAT *POPS* IT? | a giant shimmering bubble with a sharp pin hovering just beside it | tilt-up
+12 | S01 | When the internet bubble burst | THE DOT-COM *CRASH* | an old beige CRT computer lying cracked on the ground among drifting papers | pan-left
+13 | S01 | Is it Anthropic? Is it | WHO WINS THIS TIME? | a long row of identical closed doors, only one with faint light under it | pan-right
+14 | S01 | Debt. A lot of it. | *DEBT* | a massive iron chain wrapped tightly around a glowing data center | push-in
+15 | S02 | Part two. The debt behind | PART 2: *THE DEBT* | chapter card: a heavy iron ball and chain on a plain background | still
+16 | S02 | AI keeps getting cheaper to | CHEAPER... BUT HOW? | a falling price tag while a thick power cable feeds a giant battery behind it | pan-right
+17 | S02 | the so-called hyperscalers, are, in | BORROWING > MAKING | a cloud-shaped skyscraper with an endless credit card being swiped through a giant card reader | push-in
+18 | S02 | Nvidia, a company he's a | PROPPING UP *HALF* THE INDUSTRY | one giant hand holding up several smaller buildings by strings from above | tilt-up
+19 | S02 | Now add the government. | + GOVERNMENT DEBT | a columned government building with a mountain of paper bills piling up behind it | pull-out
+20 | S02 | already paying around a trillion | *$1 TRILLION* A YEAR | a faucet pouring gold coins straight into a black hole | push-in
+21 | S02 | If you owe forty billion | RATES KEEP *RISING* | a thermometer climbing beside a giant boulder of debt resting on a cracking cart | tilt-up
+22 | S02 | Something gets crowded out. | SOMETHING *GIVES* | an overpacked elevator with one crate being squeezed out of the doors | push-in
+23 | S02 | end up as pickleball courts | DATA CENTERS → *PICKLEBALL*? | a cavernous empty data center hall converted into pickleball courts, paddles resting on the floor | pull-out
+24 | S02 | the man who built Broadcast | BROADCAST.COM | a 1990s desktop computer with radio waves flowing out of its screen | pan-right
+25 | S03 | Part three. AI is not | PART 3: "AI IS *NOT SMART*" | chapter card: a robot head with an empty thought bubble above it | still
+26 | S03 | predict the next word | PREDICTS THE *NEXT WORD* | a robot hand rolling dice to choose between blank word tiles | push-in
+27 | S03 | Ask four different AIs the | 4 AIs = *4 ANSWERS* | four identical robots side by side, each holding up a different shape: circle, square, triangle, star | pan-right
+28 | S03 | always out of date | ALWAYS *OUT OF DATE* | a robot reading a yellowed newspaper while a wall clock spins fast behind it | push-in
+29 | S03 | a seeing-eye dog beside him | THE *DOG* GOES FIRST | a guide dog leading a man across a busy crosswalk while the phone in his hand glows, ignored | pan-left
+30 | S03 | a two-year-old in a high | — | a toddler in a high chair pushing a sippy cup off the edge, the cup frozen mid-air | push-in
+31 | S03 | Even the scary hacking stories | JUST *BRUTE FORCE* | a robot trying a huge ring of thousands of keys on one giant padlock | push-in
+32 | S03 | Bartlett pushes back hard. | "ISN'T IT *EXPONENTIAL*?" | [PHOTO: Steven Bartlett] | push-in
+33 | S03 | His own Tesla drives itself | SELF-DRIVING | a car with an empty driver's seat cruising down a night highway | pan-right
+34 | S03 | as long as there's a | DELAY = *HUMAN EDGE* | a human runner just ahead of a robot runner at a finish line | push-in
+35 | S04 | Part four. Twenty-five agents on | PART 4: *25 AGENTS* | chapter card: a smartphone with a swarm of tiny robots climbing out of its screen | still
+36 | S04 | this dwarfs everything before it | "DWARFS *EVERYTHING*" | a giant wave towering over a tiny radio, TV and desktop computer on a beach | tilt-up
+37 | S04 | he finally read a non-fiction | FIRST BOOK IN *25 YEARS* | an open book on an armchair while tiny robots carry stacks of papers away in the background | push-in
+38 | S04 | At Cost Plus Drugs, his | COST PLUS DRUGS | prescription pill bottles with a long price tag being cut short by giant scissors | pan-left
+39 | S04 | every time one of them | AN AGENT *ON WATCH* | a small robot with binoculars on a rooftop watching huge corporate towers, alert signals pinging | push-in
+40 | S04 | Bartlett catches the obvious problem. | WHAT ABOUT *JOBS*? | an office desk where a small robot sits in the chair and an empty coat hook hangs behind | push-in
+41 | S04 | He calls it creative destruction. | CREATIVE *DESTRUCTION* | a cassette tape crumbling into dust as a pair of headphones grows out of it like a plant | pan-right
+42 | S04 | painful for a lot of | IT WILL *HURT* | a worker walking down a long empty road at dusk carrying a cardboard box of belongings | pull-out
+43 | S04 | Learn agents. Anyone who does | *LEARN* AGENTS | a young person at a laptop conducting a group of tiny robots like an orchestra | push-in
+44 | S05 | Part five. The garbage-bag playbook. | PART 5: *THE PLAYBOOK* | chapter card: a single cardboard box of garbage bags with a price sticker | still
+45 | S05 | At twelve, Mark wanted new | BUY $3 → SELL *$6* | a 12-year-old boy, seen from behind, knocking on a suburban front door with a box of garbage bags | push-in
+46 | S05 | slept on the floor | 6 GUYS, 3 BEDROOMS | a crowded apartment floor with a thin sleeping bag next to a thick software manual | pan-right
+47 | S05 | Everyone else would be tied | EVERYONE ELSE *TIED FOR 2ND* | a podium where one person stands on first place and a large crowd squeezes onto second place | tilt-up
+48 | S05 | profitable every single month for | PROFITABLE *EVERY* MONTH | a wall of calendar pages, each marked with the same bold check mark | pan-left
+49 | S05 | which Yahoo bought for five | *$5.7 BILLION* IN STOCK | a 1990s desktop computer transforming into a golden trophy | push-in
+50 | S05 | Just get a job, and | JUST *GET A JOB* | a work apron hanging on a hook behind a small diner counter in morning light | push-in
+51 | S05 | nobody who has an edge | NOBODY SELLS THEIR *EDGE* | a guru on a phone screen selling a treasure map, while the real treasure chest sits locked far away | pan-right
+52 | S06 | Part six. Where the real | PART 6: *THE REAL MONEY* | chapter card: a calm hand holding one gold coin above a falling chart line | still
+53 | S06 | who sometimes went years without | *PATIENCE* | an hourglass filled with gold coins instead of sand | push-in
+54 | S06 | keep some cash | KEEP *SOME CASH* | a sturdy open safe with stacked cash inside while a storm rages outside the window | pull-out
+55 | S06 | When the market crashed during | HE *BOUGHT THE CRASH* | a shopping cart overflowing with downward chart arrows in a sale-day store aisle | pan-right
+56 | S06 | So what would change his | WHAT WOULD *CHANGE HIS MIND*? | [PHOTO: Mark Cuban] | push-in
+57 | S06 | like a brilliant twelve-year-old with | SMART = *LESS*, NOT MORE | a kid with only a pencil solving a giant chalkboard puzzle, beside a huge humming server farm | pan-left
+58 | S06 | Bartlett closes not on markets | SUCCESSFUL *AND* GOOD | a warm family dinner table glowing under a lamp, an empty luxury chair in the dark corner | pull-out

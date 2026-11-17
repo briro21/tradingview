@@ -1,0 +1,99 @@
+Every year, America now pays about a trillion dollars just in interest. That's according to billionaire Mark Cuban, and he says it's colliding with AI giants borrowing more than they make. His warning on The Diary of a CEO? We could be heading into a debt bubble. But Cuban is no AI doomer. So why is he sitting on cash? Because, he says, the next crash is where the real money is made. This is that ninety-minute conversation in ten minutes.
+Part one. Everything is a meme stock.
+
+Steven Bartlett asks him directly: do you think we're in a bubble? Cuban says yes. But not like the dot-com bubble. This time, he says, the problem is that everything has become a meme stock. Bitcoin. Micron. Even giants like Google and Apple.
+
+His evidence is how prices move. A company can miss its earnings forecast by a single penny, and the stock drops eighteen percent. The real value of that business didn't change by eighteen percent overnight. Buyers and sellers just rushed in and out on the news.
+
+In Cuban's words, we're trading stocks like baseball cards. There's no intrinsic value in the price anymore. Only perceived value, and a guess about what the next person will pay.
+
+That phrase is worth a pause, because Cuban literally started his career with baseball cards. At nine or ten years old, he bought packs for a quarter, repackaged them, and sold them for fifty cents.
+
+So what pops this bubble? Here's the surprising part. Cuban says he has no idea.
+
+What he does know is history. When the internet bubble burst, Dell and Amazon got crushed. People mocked Amazon for losing so much money. Today, it's worth trillions. Anyone who stuck it out did very well.
+
+So there will be winners again, he says. He just can't tell you which ones. Is it Anthropic? Is it OpenAI? He doesn't know.
+
+And that uncertainty matters, because underneath this AI boom sits something much less exciting than chatbots. Debt. A lot of it.
+Part two. The debt behind the boom.
+
+AI keeps getting cheaper to use. But Cuban says that's partly because the companies building it keep borrowing and spending to buy more power and more chips.
+
+The giant cloud companies, the so-called hyperscalers, are, in his words, borrowing more than they're making. He thinks Meta is borrowing more than its cash flow. And he says Nvidia, a company he's a huge fan of, is basically subsidizing half the industry, because it has the cash to do it.
+
+Now add the government. The United States keeps running deficits, so it keeps borrowing too. Cuban says the country is already paying around a trillion dollars a year in interest. And when the government and the AI giants are all competing for the same lenders, interest rates go up.
+
+His math is simple. If you owe forty billion dollars and rates keep climbing, at some point you can't raise money anymore. Something gets crowded out. Which thing? He admits he's not enough of a financial expert to say. But something, he says, is going to give.
+
+That's why he once joked that a lot of today's data centers will end up as pickleball courts. It's a metaphor, not a forecast about sport. His point is that real progress in AI should mean less power doing more. Right now, the industry does more by burning more.
+
+Here's the twist. You might expect this from an AI skeptic. Instead, it comes from the man who built Broadcast dot com, back when people told him streaming was a joke.
+
+So does Cuban think AI is overhyped? Not exactly. He thinks it's misunderstood.
+Part three. AI is not smart.
+
+Cuban says it flatly. In his view, AI uses statistics to predict the next word. It's predictive, not deterministic. Ask four different AIs the same question, and you get four different answers. Change your question slightly, and the same AI changes its answer.
+
+That, he says, doesn't work in the real world. AI doesn't know the consequences of its actions. It has no built-in ethics. And it's always out of date, because the moment a model is released, today's conversations aren't in it.
+
+His favourite example. Put him at a busy four-way intersection, with the best AI model on his phone and a seeing-eye dog beside him. He'd let the dog walk him across the street first.
+
+Or picture a two-year-old in a high chair. The toddler knows that if the sippy cup goes over the edge, mom comes running. Cuban says AI is never going to figure that out.
+
+Even the scary hacking stories, he says, aren't intelligence. Nothing new was invented. AI just tried every known trick in every possible combination. That's brute force. And defenders can use the same brute force to find their own holes first.
+
+So he's not a doomer. He says he's more afraid of what people do out of fear and misunderstanding than of what AI will do.
+
+Bartlett pushes back hard. These technologies look exponential. His own Tesla drives itself, and its crash rate is reportedly lower than a human driver's. At some point, doesn't the curve win?
+
+Cuban's answer: as long as there's a delay between the real world and the model, people keep the edge.
+
+And yet, this same skeptic has twenty-five AI agents on his phone.
+Part four. Twenty-five agents on his phone.
+
+Here's the contradiction that isn't one. Cuban calls himself the biggest proponent of AI there is. He's been in tech for decades, and he says this dwarfs everything before it.
+
+He runs about twenty-five AI agents that handle the tedious work for him. Because of them, he says, he finally read a non-fiction book for the first time in twenty-five years.
+
+One real example. At Cost Plus Drugs, his company that sells cheaper prescription medicine, he's fighting what he calls the big healthcare conglomerates. Now an agent tells him every time one of them gets sued, and every time they bid on a contract. It even drafts the public records requests to get copies. Before, he'd have had to hire, train and manage someone. So it never got done.
+
+Bartlett catches the obvious problem. Aren't those tasks someone would have been paid to do? Cuban admits it. He might once have hired an intern at fifteen or twenty dollars an hour. His argument is that the time saved creates new ideas, and new businesses that hire different people.
+
+He calls it creative destruction. He went to college near Terre Haute, Indiana, where RCA once made records, then CDs, then DVDs. Cassettes are gone. Money in music isn't. But he's honest that the path will be painful for a lot of people.
+
+His advice to his own kids is blunt. Learn agents. Anyone who does will be far more productive than anyone who doesn't. And the edge isn't the information. It's knowing which questions to ask, and judging four different answers.
+
+Which brings us to how Cuban built his own edge.
+Part five. The garbage-bag playbook.
+
+Cuban's father did car upholstery, and never made more than forty thousand dollars, as Bartlett puts it. At twelve, Mark wanted new basketball shoes. His dad said: get a job. A friend at the poker table offered him boxes of garbage bags for three dollars, to sell for six. Mark went door to door. If you can sell door to door, he says, you can do anything.
+
+Later, in Dallas, he shared a three-bedroom apartment with five other guys and slept on the floor. He got fired from a software store for leaving to pick up a commission check. So he started his own company, Micro Solutions.
+
+His edge? With any new software, he figured only the person who wrote it would understand it better than him. Everyone else would be tied for second, and he would outwork them. He read the manuals through the night. He says it's exactly the same with AI today.
+
+And that company was profitable every single month for eight years. That's his warning to young founders. Raising money and chasing big sales numbers isn't the goal. Staying alive is.
+
+He sold Micro Solutions, then built Broadcast dot com, which Yahoo bought for five point seven billion dollars in stock.
+
+For anyone stuck in a job, his advice is simple. Don't hunt for the perfect job. Just get a job, and get really good at it. Be brutally honest about what you're bad at. And ignore the get-rich-quick videos in your feed. His line: nobody who has an edge in the stock market is selling it. They're using it.
+
+Which brings us back to that crash.
+Part six. Where the real money is made.
+
+Cuban borrows from Warren Buffett and Charlie Munger, who were obsessed with compounding, and who sometimes went years without investing at all. With AI stocks going to the moon on a mountain of debt, his advice is patience. Invest a little for fun if you want, but keep some cash. Because at some point the market turns, and that, he says, is where the real money is made.
+
+He's done it before. When the market crashed during Covid, he says he started buying up everything, and it paid off.
+
+So how is he playing defense now? He says he has money spread across more than one country, and he's invested far less than usual. The old Buffett move: wait and see. He admits he might lose a little by being too careful.
+
+To be clear, this is Cuban's view, not financial advice.
+
+So what would change his mind about AI? His answer: show him an AI that can solve hard problems with minimal resources, like a brilliant twelve-year-old with nothing but curiosity. As long as AI needs more chips and more power than ever before, he says, that's not intelligence. It's brute force.
+
+And even the experts can't agree. Bartlett has interviewed AI safety researchers and people inside the big labs, and Cuban notes that no two of them give the same answer.
+
+Bartlett closes not on markets but on character. He says Cuban shows you can be very successful and still be a good, happy person. Cuban's own lesson: if you're miserable when you're poor, money won't fix it.
+
+This was ninety minutes in ten minutes. The link to the full episode is in the description. And if you want more of the biggest conversations explained like this, subscribe.

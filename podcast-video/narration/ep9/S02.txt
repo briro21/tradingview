@@ -1,0 +1,15 @@
+Part two. The debt behind the boom.
+
+AI keeps getting cheaper to use. But Cuban says that's partly because the companies building it keep borrowing and spending to buy more power and more chips.
+
+The giant cloud companies, the so-called hyperscalers, are, in his words, borrowing more than they're making. He thinks Meta is borrowing more than its cash flow. And he says Nvidia, a company he's a huge fan of, is basically subsidizing half the industry, because it has the cash to do it.
+
+Now add the government. The United States keeps running deficits, so it keeps borrowing too. Cuban says the country is already paying around a trillion dollars a year in interest. And when the government and the AI giants are all competing for the same lenders, interest rates go up.
+
+His math is simple. If you owe forty billion dollars and rates keep climbing, at some point you can't raise money anymore. Something gets crowded out. Which thing? He admits he's not enough of a financial expert to say. But something, he says, is going to give.
+
+That's why he once joked that a lot of today's data centers will end up as pickleball courts. It's a metaphor, not a forecast about sport. His point is that real progress in AI should mean less power doing more. Right now, the industry does more by burning more.
+
+Here's the twist. You might expect this from an AI skeptic. Instead, it comes from the man who built Broadcast dot com, back when people told him streaming was a joke.
+
+So does Cuban think AI is overhyped? Not exactly. He thinks it's misunderstood.

@@ -1,0 +1,19 @@
+Part three. AI is not smart.
+
+Cuban says it flatly. In his view, AI uses statistics to predict the next word. It's predictive, not deterministic. Ask four different AIs the same question, and you get four different answers. Change your question slightly, and the same AI changes its answer.
+
+That, he says, doesn't work in the real world. AI doesn't know the consequences of its actions. It has no built-in ethics. And it's always out of date, because the moment a model is released, today's conversations aren't in it.
+
+His favourite example. Put him at a busy four-way intersection, with the best AI model on his phone and a seeing-eye dog beside him. He'd let the dog walk him across the street first.
+
+Or picture a two-year-old in a high chair. The toddler knows that if the sippy cup goes over the edge, mom comes running. Cuban says AI is never going to figure that out.
+
+Even the scary hacking stories, he says, aren't intelligence. Nothing new was invented. AI just tried every known trick in every possible combination. That's brute force. And defenders can use the same brute force to find their own holes first.
+
+So he's not a doomer. He says he's more afraid of what people do out of fear and misunderstanding than of what AI will do.
+
+Bartlett pushes back hard. These technologies look exponential. His own Tesla drives itself, and its crash rate is reportedly lower than a human driver's. At some point, doesn't the curve win?
+
+Cuban's answer: as long as there's a delay between the real world and the model, people keep the edge.
+
+And yet, this same skeptic has twenty-five AI agents on his phone.
