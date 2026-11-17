@@ -7,6 +7,7 @@ import { SC2 } from './scenes2.js';
 import { SC3 } from './scenes3.js';
 import { SC4 } from './scenes4.js';
 import { SC5 } from './scenes5.js';
+import { TH } from './thumbs.js';
 
 const { W, H, font } = M;
 const TL = await fetch('timeline.json').then((r) => r.json());
@@ -42,6 +43,7 @@ function makeGrain() {
 }
 
 function draw(ctx, u, t) {
+  if (t < 0) { (TH[Math.min(TH.length - 1, Math.max(0, Math.round(-t) - 1))])(ctx); return; }
   if (t >= TL.total) { A.sky(ctx, [[0, '#000'], [1, '#000']]); return; }
   const e = find(t);
   const T = t - e.t0, dur = e.t1 - e.t0, p = Math.min(1, Math.max(0, T / dur));
@@ -56,11 +58,12 @@ function post(ctx, u, t) {
   ctx.save(); ctx.globalCompositeOperation = 'overlay'; ctx.globalAlpha = 0.07;
   const pat = ctx.createPattern(GRAIN, 'repeat'); ctx.translate(-x, -y); ctx.fillStyle = pat; ctx.fillRect(0, 0, W + 256, H + 256);
   ctx.restore();
+  if (t < 0) return;
   A.vignette(ctx, e.key === '44' || e.key === 'h0' ? 0.3 : 0.4);
 }
 
 M.film({
-  fonts: [font(100, 700, 'Display'), font(40, 500, 'UI'), font(80, 700, 'Arab')],
+  fonts: [font(100, 700, 'Display'), font(40, 500, 'UI'), font(80, 700, 'Arab'), font(100, 800, 'Thumb')],
   hits: HITS,
   samples: 2,
   init: () => { GRAIN = makeGrain(); },
