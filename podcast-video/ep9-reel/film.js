@@ -24,7 +24,7 @@ function look(i) {
   const s = SHOTS[i];
   if (s.id.startsWith('S00') && i < 3) return 'paper';
   if (s.part) return 'red';
-  return i % 5 === 3 ? 'paper' : 'dark';
+  return i % 3 === 2 ? 'paper' : 'dark';
 }
 const pal = (lk) => lk === 'paper' ? { bg: C.paper, ink: C.paperInk, dim: '#4A4740', fillc: '#E2DCCF' }
   : lk === 'red' ? { bg: C.accent, ink: '#141414', dim: '#2A0B08', fillc: '#D9302A' }
@@ -131,7 +131,7 @@ function uiText(ctx, str, cx, base, size, color, age, accent) {
 // ------------------------------------------------------------ items
 function drawIcon(ctx, it, age, P) {
   const strokes = DATA.icons[it.name];
-  const k = (it.s ?? 1) * 2.2 * SC;
+  const k = (it.s ?? 1) * 2.2 * SC * (it.big ? 1.3 : 1);
   const cx = PX(it.x), cy = PY(it.y);
   const draw = clamp(age / 0.6);
   const pop = M.spring(age, SPRING.bouncy);
@@ -231,6 +231,7 @@ function onScreen(t, who) {
 function nameTime(c) { const w = c.ws.find((w) => /Cuban|Zitron|Bartlett/.test(w[0])); return w ? w[1] : c.a; }
 
 let IMGS = {};
+for (const s of SHOTS) { const ic = s.items.filter((x) => x.k === 'icon'); if (ic.length === 1 && (ic[0].s ?? 1) >= 1.8 && !s.part) ic[0].big = true; }
 
 // widest a line may be: inside the frame and short of its neighbours on the same row
 for (const s of SHOTS) for (const it of s.items) {
@@ -255,8 +256,56 @@ function fitSize(ctx, str, size, weight, fam, maxW, track = 0) {
 }
 
 // ------------------------------------------------------------ a shot, at time t
+// The keyword of each shot, set huge and faint behind it (same idea as the part numbers).
+const WATERMARK = SHOTS.map((s) => {
+  const it = s.items.find((x) => x.k === 'count' || (x.k === 'text' && x.font !== 'hand'));
+  if (!it || s.part || s.drawn) return null;
+  let w = it.k === 'count' ? `${it.prefix ?? ''}${it.to}${it.suffix ?? ''}` : it.text;
+  w = w.replace(/["→=>+:?.]/g, ' ').trim().toUpperCase();
+  if (w.length > 12) w = w.split(/\s+/).sort((a, b) => b.length - a.length)[0];
+  return w;
+});
+// Theme motif: a faint market chart that draws itself across each shot over a fine grid.
+const MOTIF = 'chart';
+function motif(ctx, P, t, i, lk) {
+  const s = SHOTS[i], age = t - s.t0, dur = Math.max(4, s.t1 - s.t0);
+  const ink = lk === 'paper' ? '0,0,0' : '255,255,255';
+  ctx.save();
+  ctx.strokeStyle = `rgba(${ink},0.035)`; ctx.lineWidth = 1;
+  const off = (t * 12) % 120;
+  ctx.beginPath();
+  for (let x = -off; x < W; x += 120) { ctx.moveTo(x, 0); ctx.lineTo(x, H); }
+  for (let y = 60; y < H; y += 120) { ctx.moveTo(0, y); ctx.lineTo(W, y); }
+  ctx.stroke();
+  if (MOTIF === 'chart') {
+    const rnd = M.mulberry32(1000 + i * 7919);
+    const n = 28, pts = [];
+    let v = 0.55 + rnd() * 0.2;
+    for (let k = 0; k <= n; k++) { v = clamp(v + (rnd() - 0.5) * 0.14, 0.15, 0.85); pts.push([k / n * W, H * v]); }
+    const p = clamp(age / (dur * 0.9));
+    const m = Math.max(1, Math.floor(p * n));
+    ctx.beginPath(); ctx.moveTo(pts[0][0], pts[0][1]);
+    for (let k = 1; k <= m; k++) ctx.lineTo(pts[k][0], pts[k][1]);
+    const fx = p * n - m;
+    if (m < n) ctx.lineTo(lerp(pts[m][0], pts[m + 1][0], fx), lerp(pts[m][1], pts[m + 1][1], fx));
+    ctx.strokeStyle = lk === 'paper' ? 'rgba(230,57,70,0.16)' : 'rgba(255,59,48,0.22)';
+    ctx.lineWidth = 4; ctx.lineJoin = 'round'; ctx.stroke();
+    const last = m < n ? [lerp(pts[m][0], pts[m + 1][0], fx), lerp(pts[m][1], pts[m + 1][1], fx)] : pts[n];
+    ctx.beginPath(); ctx.arc(last[0], last[1], 9, 0, M.TAU); ctx.fillStyle = lk === 'paper' ? 'rgba(230,57,70,0.3)' : 'rgba(255,59,48,0.4)'; ctx.fill();
+  }
+  const wm = WATERMARK[i];
+  if (wm) {
+    ctx.font = font(560, 400, DISPLAY); ctx.textAlign = 'center';
+    ctx.fillStyle = `rgba(${ink},${lk === 'paper' ? 0.032 : 0.045})`;
+    const dir = i % 2 ? 1 : -1;
+    ctx.fillText(wm, W / 2 + dir * (age * 26 - 120), H * 0.74);
+  }
+  ctx.restore();
+}
+
 function bgOf(ctx, P, t, i, lk) {
   fill(ctx, P.bg);
+  if (lk !== 'red' && !SHOTS[i].drawn) motif(ctx, P, t, i, lk);
   if (lk === 'dark') {
     // a slow pool of light that drifts behind the type: depth without chrome
     const gx = W * (0.3 + 0.4 * noise1(t * 0.05 + i, 4)), gy = H * (0.35 + 0.3 * noise1(t * 0.04 + i, 9));
@@ -323,7 +372,15 @@ function drawShot(ctx, i, t) {
     if (it.k === 'text' && it.color === RED && (it.size ?? 80) >= 90 && it.t >= 0 && t > it.t && t < it.t + 0.45)
       M.shake(ctx, U(t), U(it.t + 0.12), 9, 7, 0.35);
   }
-  for (const it of s.items) drawItem(ctx, it, it.t < 0 ? 9 : t - it.t, P, age);
+  s.items.forEach((it, j) => {
+    const a = it.t < 0 ? 9 : t - it.t;
+    if (a < 0) return;
+    // idle life: once settled, each element floats a few pixels on its own phase
+    const idle = clamp((a - 0.8) / 0.6) * (it.k === 'icon' ? 0 : 1);
+    ctx.save(); ctx.translate(Math.sin(t * 0.7 + j * 1.9) * 3 * idle, Math.sin(t * 0.9 + j * 1.3) * 5 * idle);
+    drawItem(ctx, it, a, P, age);
+    ctx.restore();
+  });
   ctx.restore();
 }
 
@@ -393,18 +450,30 @@ function drawCaption(ctx, t) {
   const base = 1024;
   const pin = springU(U(t), U(c.a), SPRING.snappy);
   const y = base + (1 - clamp(pin)) * 26;
+  // photo sticker rises from the bottom-left whenever the narration names the person;
+  // the caption slides right to make room for it
+  const who = WHO(c.ws);
+  let rise = 0, img = null;
+  if (who && !onScreen(t, who)) {
+    const a = M.spring(t - nameTime(c) + 0.08, SPRING.bouncy);
+    img = IMGS[FACES[who].src];
+    rise = img ? clamp(a) * (1 - E.inCubic(clamp((t - (c.b + 0.2)) / 0.35))) : 0;
+  }
+  const sw = img ? 360 * img.width / img.height : 0;
+  const cx = lerp(W / 2, Math.max(W / 2, 70 + sw + 40 + 26 + total / 2), clamp(rise));
+  if (rise > 0) {
+    ctx.save(); ctx.translate(70, H + 20 - rise * 360);
+    ctx.rotate(-0.04 + 0.02 * Math.sin(t * 1.5));
+    ctx.drawImage(img, 0, 0, sw, 360);
+    ctx.restore();
+  }
   // backing so captions read on light and red shots too
   ctx.save();
   ctx.globalAlpha = 0.78 * clamp(pin * 1.5);
-  rrect(ctx, W / 2 - total / 2 - 26, y - size * 0.95, total + 52, size * 1.38, 16);
+  rrect(ctx, cx - total / 2 - 26, y - size * 0.95, total + 52, size * 1.38, 16);
   ctx.fillStyle = '#0B0B0D'; ctx.fill();
   ctx.restore();
-  const who = WHO(c.ws);
-  if (who && !onScreen(t, who)) {
-    const a = M.spring(t - nameTime(c) + 0.08, SPRING.bouncy);
-    faceBadge(ctx, who, W / 2 - total / 2 - 26 - 70, y - size * 0.27, 58 * Math.max(0, a));
-  }
-  let x = W / 2 - total / 2;
+  let x = cx - total / 2;
   c.ws.forEach((w, i) => {
     const on = t >= w[1] - 0.03;
     const cur = on && (i === c.ws.length - 1 ? t <= c.b + 0.35 : t < c.ws[i + 1][1] - 0.03);
