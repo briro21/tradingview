@@ -1,0 +1,227 @@
+1
+00:00:00,112 --> 00:00:00,462
+Part one.
+
+2
+00:00:00,875 --> 00:00:02,288
+Everything is a meme stock.
+
+3
+00:00:02,712 --> 00:00:04,525
+Steven Bartlett asks him directly:
+
+4
+00:00:04,838 --> 00:00:05,925
+do you think we're in a bubble?
+
+5
+00:00:06,338 --> 00:00:07,212
+Cuban says yes.
+
+6
+00:00:07,638 --> 00:00:09,038
+But not like the dot-com bubble.
+
+7
+00:00:09,450 --> 00:00:09,925
+This time,
+
+8
+00:00:10,362 --> 00:00:12,650
+he says, the problem is that everything has
+
+9
+00:00:12,662 --> 00:00:13,812
+become a meme stock.
+
+10
+00:00:14,238 --> 00:00:14,588
+Bitcoin.
+
+11
+00:00:15,000 --> 00:00:15,475
+Micron.
+
+12
+00:00:15,888 --> 00:00:17,625
+Even giants like Google and Apple.
+
+13
+00:00:18,038 --> 00:00:19,850
+His evidence is how prices move.
+
+14
+00:00:20,262 --> 00:00:22,450
+A company can miss its earnings forecast by
+
+15
+00:00:22,462 --> 00:00:23,288
+a single penny,
+
+16
+00:00:23,600 --> 00:00:25,362
+and the stock drops eighteen percent.
+
+17
+00:00:25,788 --> 00:00:28,075
+The real value of that business didn't change
+
+18
+00:00:28,088 --> 00:00:29,725
+by eighteen percent overnight.
+
+19
+00:00:30,150 --> 00:00:32,763
+Buyers and sellers just rushed in and out
+
+20
+00:00:32,775 --> 00:00:33,438
+on the news.
+
+21
+00:00:33,838 --> 00:00:34,812
+In Cuban's words,
+
+22
+00:00:35,050 --> 00:00:37,075
+we're trading stocks like baseball cards.
+
+23
+00:00:37,500 --> 00:00:39,788
+There's no intrinsic value in the price anymore.
+
+24
+00:00:40,200 --> 00:00:41,350
+Only perceived value,
+
+25
+00:00:41,625 --> 00:00:43,138
+and a guess about what the next person
+
+26
+00:00:43,150 --> 00:00:43,575
+will pay.
+
+27
+00:00:44,000 --> 00:00:45,500
+That phrase is worth a pause,
+
+28
+00:00:45,712 --> 00:00:48,450
+because Cuban literally started his career with baseball
+
+29
+00:00:48,462 --> 00:00:48,938
+cards.
+
+30
+00:00:49,350 --> 00:00:50,700
+At nine or ten years old,
+
+31
+00:00:51,062 --> 00:00:52,388
+he bought packs for a quarter,
+
+32
+00:00:52,688 --> 00:00:53,525
+repackaged them,
+
+33
+00:00:53,950 --> 00:00:55,412
+and sold them for fifty cents.
+
+34
+00:00:55,825 --> 00:00:57,000
+So what pops this bubble?
+
+35
+00:00:57,438 --> 00:00:58,525
+Here's the surprising part.
+
+36
+00:00:58,938 --> 00:01:00,312
+Cuban says he has no idea.
+
+37
+00:01:00,725 --> 00:01:02,600
+Even Bartlett admits it's tempting to put a
+
+38
+00:01:02,612 --> 00:01:04,062
+few dollars into Nvidia.
+
+39
+00:01:04,475 --> 00:01:05,200
+Cuban gets it,
+
+40
+00:01:05,463 --> 00:01:08,462
+because this technology really is without precedent.
+
+41
+00:01:08,875 --> 00:01:09,962
+What he does know is history.
+
+42
+00:01:10,375 --> 00:01:11,850
+When the internet bubble burst,
+
+43
+00:01:12,100 --> 00:01:14,125
+Dell and Amazon got crushed.
+
+44
+00:01:14,550 --> 00:01:16,962
+People mocked Amazon for losing so much money.
+
+45
+00:01:17,375 --> 00:01:18,862
+Today, it's worth trillions.
+
+46
+00:01:19,275 --> 00:01:21,175
+Anyone who stuck it out did very well.
+
+47
+00:01:21,588 --> 00:01:22,775
+So there will be winners again,
+
+48
+00:01:23,138 --> 00:01:23,712
+he says.
+
+49
+00:01:24,138 --> 00:01:25,450
+He just can't tell you which ones.
+
+50
+00:01:25,862 --> 00:01:26,662
+Is it Anthropic?
+
+51
+00:01:27,075 --> 00:01:27,850
+Is it OpenAI?
+
+52
+00:01:28,288 --> 00:01:28,850
+He doesn't know.
+
+53
+00:01:29,262 --> 00:01:30,712
+And that uncertainty matters,
+
+54
+00:01:30,888 --> 00:01:33,988
+because underneath this AI boom sits something much
+
+55
+00:01:34,000 --> 00:01:35,775
+less exciting than chatbots.
+
+56
+00:01:36,188 --> 00:01:36,450
+Debt.
+
+57
+00:01:36,862 --> 00:01:37,350
+A lot of it.

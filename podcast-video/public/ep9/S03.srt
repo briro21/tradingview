@@ -1,0 +1,215 @@
+1
+00:00:00,112 --> 00:00:00,625
+Part three.
+
+2
+00:00:01,038 --> 00:00:02,050
+AI is not smart.
+
+3
+00:00:02,462 --> 00:00:03,550
+Cuban says it flatly.
+
+4
+00:00:03,962 --> 00:00:04,525
+In his view,
+
+5
+00:00:04,950 --> 00:00:07,550
+AI uses statistics to predict the next word.
+
+6
+00:00:07,962 --> 00:00:09,825
+It's predictive, not deterministic.
+
+7
+00:00:10,238 --> 00:00:12,538
+Ask four different AIs the same question,
+
+8
+00:00:12,850 --> 00:00:14,262
+and you get four different answers.
+
+9
+00:00:14,675 --> 00:00:16,038
+Change your question slightly,
+
+10
+00:00:16,350 --> 00:00:18,412
+and the same AI changes its answer.
+
+11
+00:00:18,838 --> 00:00:19,062
+That,
+
+12
+00:00:19,462 --> 00:00:21,600
+he says, doesn't work in the real world.
+
+13
+00:00:22,012 --> 00:00:24,338
+AI doesn't know the consequences of its actions.
+
+14
+00:00:24,750 --> 00:00:26,112
+It has no built-in ethics.
+
+15
+00:00:26,525 --> 00:00:27,762
+And it's always out of date,
+
+16
+00:00:27,975 --> 00:00:29,938
+because the moment a model is released,
+
+17
+00:00:30,150 --> 00:00:31,800
+today's conversations aren't in it.
+
+18
+00:00:32,225 --> 00:00:33,213
+His favourite example.
+
+19
+00:00:33,638 --> 00:00:35,775
+Put him at a busy four-way intersection,
+
+20
+00:00:36,050 --> 00:00:38,113
+with the best AI model on his phone
+
+21
+00:00:38,350 --> 00:00:39,875
+and a seeing-eye dog beside him.
+
+22
+00:00:40,288 --> 00:00:41,800
+He'd let the dog walk him across the
+
+23
+00:00:41,812 --> 00:00:42,588
+street first.
+
+24
+00:00:43,000 --> 00:00:45,200
+Or picture a two-year-old in a high chair.
+
+25
+00:00:45,625 --> 00:00:47,400
+The toddler knows that if the sippy cup
+
+26
+00:00:47,412 --> 00:00:48,438
+goes over the edge,
+
+27
+00:00:48,750 --> 00:00:49,550
+mom comes running.
+
+28
+00:00:49,975 --> 00:00:52,088
+Cuban says AI is never going to figure
+
+29
+00:00:52,100 --> 00:00:52,538
+that out.
+
+30
+00:00:52,950 --> 00:00:54,625
+Even the scary hacking stories,
+
+31
+00:00:54,812 --> 00:00:56,600
+he says, aren't intelligence.
+
+32
+00:00:57,012 --> 00:00:58,175
+Nothing new was invented.
+
+33
+00:00:58,588 --> 00:01:01,137
+AI just tried every known trick in every
+
+34
+00:01:01,150 --> 00:01:02,325
+possible combination.
+
+35
+00:01:02,750 --> 00:01:03,675
+That's brute force.
+
+36
+00:01:04,088 --> 00:01:06,200
+And defenders can use the same brute force
+
+37
+00:01:06,212 --> 00:01:07,738
+to find their own holes first.
+
+38
+00:01:08,162 --> 00:01:08,975
+So he's not a doomer.
+
+39
+00:01:09,412 --> 00:01:11,062
+He says he's more afraid of what people
+
+40
+00:01:11,075 --> 00:01:13,600
+do out of fear and misunderstanding than of
+
+41
+00:01:13,612 --> 00:01:14,550
+what AI will do.
+
+42
+00:01:14,975 --> 00:01:16,200
+Bartlett pushes back hard.
+
+43
+00:01:16,625 --> 00:01:18,625
+These technologies look exponential.
+
+44
+00:01:19,038 --> 00:01:20,712
+His own Tesla drives itself,
+
+45
+00:01:21,012 --> 00:01:23,262
+and its crash rate is reportedly lower than
+
+46
+00:01:23,275 --> 00:01:24,238
+a human driver's.
+
+47
+00:01:24,650 --> 00:01:25,362
+At some point,
+
+48
+00:01:25,550 --> 00:01:26,363
+doesn't the curve win?
+
+49
+00:01:26,788 --> 00:01:27,512
+Cuban's answer:
+
+50
+00:01:28,012 --> 00:01:29,625
+as long as there's a delay between the
+
+51
+00:01:29,638 --> 00:01:31,125
+real world and the model,
+
+52
+00:01:31,400 --> 00:01:32,600
+people keep the edge.
+
+53
+00:01:33,012 --> 00:01:35,788
+And yet, this same skeptic has twenty-five AI
+
+54
+00:01:35,800 --> 00:01:36,788
+agents on his phone.

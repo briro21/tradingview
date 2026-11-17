@@ -112,7 +112,7 @@ const S02: Beat[] = [
   },
   {
     at: "end up as pickleball courts",
-    items: [I("server", 330, 430, 1.8), A(480, 430, 600, 430, red), I("paddle", 720, 430, 1.6), T("PICKLEBALL COURTS?", 1250, 320, { size: 76, color: red }), H("goal: less power doing more", 1250, 470, { size: 52, at: "less power doing more" })],
+    items: [I("server", 230, 430, 1.5), A(360, 430, 440, 430, red), I("paddle", 540, 430, 1.4), T("PICKLEBALL COURTS?", 1150, 320, { size: 90, color: red }), H("goal: less power doing more", 1150, 470, { size: 52, at: "less power doing more" })],
   },
   {
     at: "the man who built Broadcast",
@@ -128,7 +128,7 @@ const S03: Beat[] = [
   },
   {
     at: "Ask four different AIs the",
-    items: [I("robot", 400, 430, 2), T("4 AIs", 1100, 290, { size: 120 }), T("= 4 ANSWERS", 1100, 430, { size: 110, color: red, at: "four different answers" }), H("no ethics, no sense of consequences", 1100, 580, { size: 52, at: "no built-in ethics" })],
+    items: [I("robot", 400, 430, 2), T("4 AI MODELS", 1100, 290, { size: 110 }), T("= 4 ANSWERS", 1100, 430, { size: 110, color: red, at: "four different answers" }), H("no ethics, no sense of consequences", 1100, 580, { size: 52, at: "no built-in ethics" })],
   },
   {
     at: "always out of date",
@@ -156,7 +156,7 @@ const S03: Beat[] = [
   },
   {
     at: "as long as there's a",
-    items: [I("person", 330, 430, 1.6), I("robot", 620, 430, 1.6), T("DELAY = HUMAN EDGE", 1250, 320, { size: 76, color: red }), H("and yet: 25 AI agents", 1250, 470, { size: 52, at: "twenty-five AI agents" })],
+    items: [I("person", 240, 430, 1.4), I("robot", 520, 430, 1.4), T("DELAY = HUMAN EDGE", 1150, 320, { size: 90, color: red }), H("and yet: 25 AI agents", 1150, 470, { size: 52, at: "twenty-five AI agents" })],
   },
 ];
 
@@ -246,12 +246,12 @@ const S06: Beat[] = [
   {
     at: "like a brilliant twelve-year-old with",
     items: [
-      I("bulb", 330, 430, 1.8),
-      I("server", 700, 430, 1.6),
-      T("SMART = LESS, NOT MORE", 1250, 290, { size: 70, color: red }),
-      H("more chips = brute force", 1250, 420, { size: 52, at: "brute force" }),
-      H("Elon? \"a sales guy\"", 1250, 520, { size: 52, at: "sales guy" }),
-      H("no two experts agree", 1250, 620, { size: 52, at: "no two of them" }),
+      I("bulb", 240, 430, 1.5),
+      I("server", 540, 430, 1.4),
+      T("SMART = LESS, NOT MORE", 1150, 290, { size: 84, color: red }),
+      H("more chips = brute force", 1150, 420, { size: 52, at: "brute force" }),
+      H("Elon? \"a sales guy\"", 1150, 520, { size: 52, at: "sales guy" }),
+      H("no two experts agree", 1150, 620, { size: 52, at: "no two of them" }),
     ],
   },
   {

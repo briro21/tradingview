@@ -1,0 +1,211 @@
+1
+00:00:00,112 --> 00:00:00,550
+Part two.
+
+2
+00:00:00,975 --> 00:00:02,050
+The debt behind the boom.
+
+3
+00:00:02,462 --> 00:00:04,012
+AI keeps getting cheaper to use.
+
+4
+00:00:04,438 --> 00:00:06,825
+But Cuban says that's partly because the companies
+
+5
+00:00:06,838 --> 00:00:09,125
+building it keep borrowing and spending to buy
+
+6
+00:00:09,138 --> 00:00:10,712
+more power and more chips.
+
+7
+00:00:11,138 --> 00:00:12,538
+The giant cloud companies,
+
+8
+00:00:12,688 --> 00:00:14,212
+the so-called hyperscalers,
+
+9
+00:00:14,575 --> 00:00:14,912
+are,
+
+10
+00:00:15,288 --> 00:00:16,050
+in his words,
+
+11
+00:00:16,325 --> 00:00:17,788
+borrowing more than they're making.
+
+12
+00:00:18,238 --> 00:00:20,162
+He thinks Meta is borrowing more than its
+
+13
+00:00:20,175 --> 00:00:20,888
+cash flow.
+
+14
+00:00:21,300 --> 00:00:22,525
+And he says Nvidia,
+
+15
+00:00:22,912 --> 00:00:24,600
+a company he's a huge fan of,
+
+16
+00:00:25,000 --> 00:00:27,350
+is basically subsidizing half the industry,
+
+17
+00:00:27,650 --> 00:00:29,150
+because it has the cash to do it.
+
+18
+00:00:29,562 --> 00:00:30,475
+Now add the government.
+
+19
+00:00:30,900 --> 00:00:32,812
+The United States keeps running deficits,
+
+20
+00:00:33,050 --> 00:00:34,375
+so it keeps borrowing too.
+
+21
+00:00:34,800 --> 00:00:37,488
+Cuban says the country is already paying around
+
+22
+00:00:37,500 --> 00:00:39,600
+a trillion dollars a year in interest.
+
+23
+00:00:40,012 --> 00:00:42,138
+And when the government and the AI giants
+
+24
+00:00:42,150 --> 00:00:44,388
+are all competing for the same lenders,
+
+25
+00:00:44,738 --> 00:00:45,863
+interest rates go up.
+
+26
+00:00:46,288 --> 00:00:47,225
+His math is simple.
+
+27
+00:00:47,638 --> 00:00:49,888
+If you owe forty billion dollars and rates
+
+28
+00:00:49,900 --> 00:00:50,637
+keep climbing,
+
+29
+00:00:51,012 --> 00:00:52,975
+at some point you can't raise money anymore.
+
+30
+00:00:53,388 --> 00:00:54,425
+Something gets crowded out.
+
+31
+00:00:54,850 --> 00:00:55,288
+Which thing?
+
+32
+00:00:55,725 --> 00:00:57,613
+He admits he's not enough of a financial
+
+33
+00:00:57,625 --> 00:00:58,388
+expert to say.
+
+34
+00:00:58,812 --> 00:01:00,175
+But something, he says,
+
+35
+00:01:00,388 --> 00:01:01,075
+is going to give.
+
+36
+00:01:01,500 --> 00:01:03,038
+That's why he once joked that a lot
+
+37
+00:01:03,050 --> 00:01:05,125
+of today's data centers will end up as
+
+38
+00:01:05,138 --> 00:01:06,175
+pickleball courts.
+
+39
+00:01:06,588 --> 00:01:07,300
+It's a metaphor,
+
+40
+00:01:07,575 --> 00:01:09,025
+not a forecast about sport.
+
+41
+00:01:09,450 --> 00:01:11,662
+His point is that real progress in AI
+
+42
+00:01:11,675 --> 00:01:13,363
+should mean less power doing more.
+
+43
+00:01:13,775 --> 00:01:16,325
+Right now, the industry does more by burning
+
+44
+00:01:16,338 --> 00:01:16,712
+more.
+
+45
+00:01:17,162 --> 00:01:17,900
+Here's the twist.
+
+46
+00:01:18,312 --> 00:01:20,250
+You might expect this from an AI skeptic.
+
+47
+00:01:20,662 --> 00:01:22,775
+Instead, it comes from the man who built
+
+48
+00:01:22,838 --> 00:01:24,062
+Broadcast dot com,
+
+49
+00:01:24,438 --> 00:01:26,488
+back when people told him streaming was a
+
+50
+00:01:26,500 --> 00:01:26,925
+joke.
+
+51
+00:01:27,338 --> 00:01:29,600
+So does Cuban think AI is overhyped?
+
+52
+00:01:30,012 --> 00:01:30,700
+Not exactly.
+
+53
+00:01:31,125 --> 00:01:32,350
+He thinks it's misunderstood.

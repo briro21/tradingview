@@ -1,0 +1,207 @@
+1
+00:00:00,112 --> 00:00:00,638
+Part four.
+
+2
+00:00:01,050 --> 00:00:02,500
+Twenty-five agents on his phone.
+
+3
+00:00:02,925 --> 00:00:04,775
+Here's the contradiction that isn't one.
+
+4
+00:00:05,188 --> 00:00:07,837
+Cuban calls himself the biggest proponent of AI
+
+5
+00:00:07,850 --> 00:00:08,388
+there is.
+
+6
+00:00:08,812 --> 00:00:10,338
+He's been in tech for decades,
+
+7
+00:00:10,638 --> 00:00:12,962
+and he says this dwarfs everything before it.
+
+8
+00:00:13,388 --> 00:00:15,962
+He runs about twenty-five AI agents that handle
+
+9
+00:00:15,975 --> 00:00:17,100
+the tedious work for him.
+
+10
+00:00:17,525 --> 00:00:18,162
+Because of them,
+
+11
+00:00:18,538 --> 00:00:21,062
+he says, he finally read a non-fiction book
+
+12
+00:00:21,075 --> 00:00:23,075
+for the first time in twenty-five years.
+
+13
+00:00:23,488 --> 00:00:24,312
+One real example.
+
+14
+00:00:24,725 --> 00:00:26,000
+At Cost Plus Drugs,
+
+15
+00:00:26,188 --> 00:00:28,538
+his company that sells cheaper prescription medicine,
+
+16
+00:00:28,888 --> 00:00:30,888
+he's fighting what he calls the big healthcare
+
+17
+00:00:30,900 --> 00:00:31,675
+conglomerates.
+
+18
+00:00:32,088 --> 00:00:34,062
+Now an agent tells him every time one
+
+19
+00:00:34,075 --> 00:00:34,988
+of them gets sued,
+
+20
+00:00:35,300 --> 00:00:37,112
+and every time they bid on a contract.
+
+21
+00:00:37,525 --> 00:00:39,938
+It even drafts the public records requests to
+
+22
+00:00:39,950 --> 00:00:40,688
+get copies.
+
+23
+00:00:41,112 --> 00:00:41,550
+Before,
+
+24
+00:00:41,925 --> 00:00:42,863
+he'd have had to hire,
+
+25
+00:00:43,138 --> 00:00:44,238
+train and manage someone.
+
+26
+00:00:44,662 --> 00:00:45,550
+So it never got done.
+
+27
+00:00:45,975 --> 00:00:47,788
+Bartlett catches the obvious problem.
+
+28
+00:00:48,200 --> 00:00:49,900
+Aren't those tasks someone would have been paid
+
+29
+00:00:49,912 --> 00:00:50,250
+to do?
+
+30
+00:00:50,662 --> 00:00:51,438
+Cuban admits it.
+
+31
+00:00:51,862 --> 00:00:53,387
+He might once have hired an intern at
+
+32
+00:00:53,400 --> 00:00:55,300
+fifteen or twenty dollars an hour.
+
+33
+00:00:55,712 --> 00:00:57,812
+His argument is that the time saved creates
+
+34
+00:00:57,825 --> 00:01:00,800
+new ideas, and new businesses that hire different
+
+35
+00:01:00,812 --> 00:01:01,188
+people.
+
+36
+00:01:01,625 --> 00:01:03,038
+He calls it creative destruction.
+
+37
+00:01:03,462 --> 00:01:06,050
+He went to college near Terre Haute, Indiana,
+
+38
+00:01:06,362 --> 00:01:08,275
+where RCA once made records,
+
+39
+00:01:08,525 --> 00:01:10,675
+then CDs, then DVDs.
+
+40
+00:01:10,888 --> 00:01:11,675
+Cassettes are gone.
+
+41
+00:01:12,088 --> 00:01:13,200
+Money in music isn't.
+
+42
+00:01:13,625 --> 00:01:15,012
+But he's honest that the path will be
+
+43
+00:01:15,025 --> 00:01:16,413
+painful for a lot of people.
+
+44
+00:01:16,825 --> 00:01:18,900
+His advice to his own kids is blunt.
+
+45
+00:01:19,300 --> 00:01:20,000
+Learn agents.
+
+46
+00:01:20,412 --> 00:01:22,638
+Anyone who does will be far more productive
+
+47
+00:01:22,700 --> 00:01:23,962
+than anyone who doesn't.
+
+48
+00:01:24,375 --> 00:01:26,162
+And the edge isn't the information.
+
+49
+00:01:26,575 --> 00:01:28,325
+It's knowing which questions to ask,
+
+50
+00:01:28,612 --> 00:01:30,150
+and judging four different answers.
+
+51
+00:01:30,575 --> 00:01:32,400
+Which brings us to how Cuban built his
+
+52
+00:01:32,412 --> 00:01:33,000
+own edge.

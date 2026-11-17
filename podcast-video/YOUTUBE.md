@@ -699,3 +699,103 @@ Photo: Ed Zitron by Web Summit, CC BY 2.0 (Wikimedia Commons), cropped
 
 #Shorts #AIBubble #EdZitron #Nvidia #DiaryOfACEO
 ```
+
+
+---
+
+# Episode 9: Mark Cuban (The Diary of a CEO)
+
+Video: `out/ep9-reel/final.mp4` (versi motion, 10:16) · SRT: `out/ep9-reel/episode9.srt`
+Thumbnail: `out/ep9-thumbnail-A/B/C.png` (A = frame pertama) · Shorts: `out/ep9-short1..4.mp4`
+Sumber: storybook/ep9/ (narasi, storybook, prompt gambar). Visual: ikon + teks kinetik + foto berlisensi bebas, seperti Ep8.
+
+Judul A/B/C, deskripsi, bab, tag dan 4 Shorts siap salin:
+
+```
+=== TITLES + THUMBNAILS ===
+A) Billionaire Mark Cuban WARNS: AI Debt Could Trigger the Next Crash
+   Thumbnail A (= first frame of the video): [PHOTO: Mark Cuban] left, right side: "$1 TRILLION" (red) / "DEBT BUBBLE"
+B) Mark Cuban Is Sitting on Cash. Here's the Crash He's Waiting For.
+   Thumbnail B: [PHOTO: Mark Cuban] + image 54 (open safe, storm outside) behind him; words: "WAITING FOR CRASH"
+C) Your AI Stocks Are Baseball Cards Now. Mark Cuban Explains.
+   Thumbnail C: image 07 (pile of cards) + small Cuban photo; words: "JUST CARDS?"
+
+=== DESCRIPTION ===
+America pays about a trillion dollars a year in interest, and billionaire Mark Cuban says AI giants are borrowing more than they make. So why is he sitting on cash?
+His conversation with Steven Bartlett on The Diary of a CEO, explained in 10 animated minutes.
+
+Cuban says everything has become a meme stock, that we're trading shares like baseball cards, and that the debt behind the AI boom could turn into a debt bubble. He also argues that "AI is not smart", while running 25 AI agents on his phone. Steven Bartlett pushes back on whether AI's exponential progress proves him wrong. Plus Cuban's garbage-bag playbook, his advice for anyone stuck in a job, and where he says the real money is made when the market turns.
+
+This is an independent animated summary and commentary. It presents Mark Cuban's views as he stated them, not as established fact, and is not financial advice. All credit for the original conversation goes to The Diary of a CEO and Mark Cuban. Watch the full episode here:
+▶ https://www.youtube.com/watch?v=6VTSAs4Rsck
+
+CHAPTERS
+0:00 Why Mark Cuban is sitting on cash
+0:27 Part 1: Everything is a meme stock
+2:05 Part 2: The debt behind the AI boom
+3:37 Part 3: "AI is not smart"
+5:14 Part 4: Twenty-five AI agents on his phone
+6:48 Part 5: The garbage-bag playbook
+8:26 Part 6: Where the real money is made
+
+PHOTO CREDITS
+Mark Cuban photo: Gage Skidmore, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Mark_Cuban_(2024)_(cropped).jpg
+Steven Bartlett photo: Craig Campbell, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Craig_Campbell_%26_Steven_Bartlett.png
+(both background removed and cropped)
+
+Subscribe for more of the biggest conversations explained in 10 animated minutes.
+
+=== TAGS ===
+Mark Cuban, Diary of a CEO, The Diary of a CEO, Steven Bartlett, stock market crash, AI bubble, debt bubble, meme stocks, AI stocks, Nvidia, hyperscalers, AI agents, is AI smart, Cost Plus Drugs, Shark Tank, Warren Buffett, investing advice, market crash 2026, Broadcast.com, entrepreneurship
+
+=== HASHTAGS ===
+#MarkCuban #AIBubble #DiaryOfACEO #StockMarket #AI #Investing
+
+=== SHORTS ===
+SH1 (SH19)  Title: Mark Cuban Trusts a Dog More Than AI
+  Narration: narration/shorts/SH19.txt
+  Storybook:
+  01 | SH1 | Billionaire Mark Cuban says AI | "AI IS *NOT SMART*" | [PHOTO: Mark Cuban] | push-in
+  02 | SH1 | a seeing-eye dog beside him | THE *DOG* GOES FIRST | image 29 | pan-left
+  03 | SH1 | Ask four AIs the same | 4 AIs = *4 ANSWERS* | image 27 | pan-right
+  04 | SH1 | The full breakdown is on | FULL VIDEO ON THE CHANNEL | image 25 | still
+  Description: Billionaire Mark Cuban explains why he'd trust a seeing-eye dog before AI. From The Diary of a CEO.
+  Photo: Mark Cuban by Gage Skidmore, CC BY-SA 2.0 (Wikimedia Commons), cropped
+  #Shorts #MarkCuban #AI #DiaryOfACEO
+
+SH2 (SH20)  Title: A 1-Penny Miss, an 18% Crash: Cuban on Meme Stocks
+  Narration: narration/shorts/SH20.txt
+  Storybook:
+  01 | SH2 | Mark Cuban says we're trading | LIKE *BASEBALL CARDS* | [PHOTO: Mark Cuban] | push-in
+  02 | SH2 | miss its earnings by one | 1 PENNY → *-18%* | image 08 | push-in
+  03 | SH2 | everything is a meme stock | EVERYTHING = *MEME* | image 07 | pan-left
+  04 | SH2 | What pops the bubble? | WHAT *POPS* IT? | image 11 | tilt-up
+  Description: Mark Cuban says stocks now trade like baseball cards. From The Diary of a CEO.
+  Photo: Mark Cuban by Gage Skidmore, CC BY-SA 2.0 (Wikimedia Commons), cropped
+  #Shorts #MarkCuban #StockMarket #MemeStocks #DiaryOfACEO
+
+SH3 (SH21)  Title: Mark Cuban's Rule for Get-Rich-Quick Videos
+  Narration: narration/shorts/SH21.txt
+  Storybook:
+  01 | SH3 | Mark Cuban has one rule | ONE RULE | [PHOTO: Mark Cuban] | push-in
+  02 | SH3 | Nobody who has an edge | NOBODY SELLS THEIR *EDGE* | image 51 | pan-right
+  03 | SH3 | if those were good businesses | THEY'D *JUST DO IT* | image 45 | push-in
+  04 | SH3 | Get really good at one | GET GOOD AT *ONE THING* | image 47 | tilt-up
+  Description: Mark Cuban's one-line test for every get-rich-quick scheme in your feed. From The Diary of a CEO.
+  Photo: Mark Cuban by Gage Skidmore, CC BY-SA 2.0 (Wikimedia Commons), cropped
+  #Shorts #MarkCuban #Entrepreneur #MoneyAdvice #DiaryOfACEO
+
+SH4 (SH22)  Title: Why Mark Cuban Is Keeping Cash Right Now
+  Narration: narration/shorts/SH22.txt
+  Storybook:
+  01 | SH4 | With AI stocks soaring on | KEEPING *CASH* | [PHOTO: Mark Cuban] | push-in
+  02 | SH4 | sometimes went years without investing | *PATIENCE* | image 53 | push-in
+  03 | SH4 | When the market crashed during | HE *BOUGHT THE CRASH* | image 55 | pan-right
+  04 | SH4 | that's where the real money | WHERE THE *REAL MONEY* IS | image 52 | still
+  Description: Mark Cuban on why patience and cash matter when stocks run hot. His view, not financial advice. From The Diary of a CEO.
+  Photo: Mark Cuban by Gage Skidmore, CC BY-SA 2.0 (Wikimedia Commons), cropped
+  #Shorts #MarkCuban #Investing #StockMarket #DiaryOfACEO
+
+Every Short: put the main video in "Related video".
+
+```
