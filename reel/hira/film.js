@@ -26,7 +26,7 @@ ITEMS.forEach((e) => {
   else if (CUT.has(e.key)) add(e.key, 0, 'impact cut', 'impact');
   else add(e.key, 0, 'cut', 'tick');
 });
-add('h1', 0, 'NOT HUMAN slam', 'impact'); add('h3', 0, 'prophecy', 'sub'); add('title', 0, 'title', 'bell', { pitch: 'A4' });
+add('h1', 0, 'NOT HUMAN slam', 'impact'); add('h2', 6.5, 'NEVER card', 'impact'); add('open', 0, 'thumb frame', 'sub'); add('h3', 0, 'prophecy', 'sub'); add('title', 0, 'title', 'bell', { pitch: 'A4' });
 add('46', 0, 'grab', 'thud', { pitch: 'C2' }); add('46', 0.5, 'shake', 'crash', { len: 0.8 }); add('47', 0, 'angel', 'swell');
 add('50', 0, 'squeeze', 'thud', { pitch: 'A1' }); add('55', 0, 'squeeze 2', 'thud', { pitch: 'A1' }); add('57', 0, 'squeeze 3', 'thud', { pitch: 'F1' });
 add('58', 0, 'release', 'whoosh', { len: 0.6 }); add('59', 0, 'verse', 'bell', { pitch: 'D5' }); add('63', 1, 'last verse', 'bell', { pitch: 'A5' });

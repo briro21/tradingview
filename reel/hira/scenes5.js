@@ -3,7 +3,8 @@ import * as M from './lib/motion.js';
 import * as A from './lib/art.js';
 import { env, KIND, CROWD } from './sets.js';
 import { SC1, caveFrame } from './scenes1.js';
-import { oldman } from './scenes4.js';
+import { oldman, SC4 } from './scenes4.js';
+import { TH } from './thumbs.js';
 const { W, H, layer, camAt, glow, rgba, mixc, lerp, clamp, hash01, noise1, sstep, ease, caption, words, figure, terrain, ridge, dust, rays, flame, embers, shadowEllipse, town, TAU } = A;
 const cx = W / 2;
 const flash = (ctx, a, col = '#fff') => { if (a > 0.01) { ctx.fillStyle = rgba(col, clamp(a)); ctx.fillRect(0, 0, W, H); } };
@@ -18,6 +19,20 @@ function bolt(ctx, x, y0, y1, seed, a) { if (a <= 0.01) return; ctx.save(); ctx.
 const pulse = (T, f, a = 0) => Math.max(0, Math.sin(T * f + a)) ** 10;
 
 export const SC5 = {
+  // frame 0 is the thumbnail (A): the click-through viewer sees what they clicked
+  open(ctx, s) { const z = 1 + s.p * 0.05; ctx.save(); ctx.translate(cx, H / 2); ctx.scale(z, z); ctx.translate(-cx, -H / 2); TH[0](ctx); ctx.restore(); A.vignette(ctx, 0.25); },
+  // hook line 3: the Khadijah teaser (replaces the generic "what happened in that cave")
+  h2(ctx, s) {
+    const cuts = [0, 2, 4, 6.5], i = cuts.reduce((a, c, j) => (s.lu >= c ? j : a), 0), k = clamp((s.lu - cuts[i]) / ((cuts[i + 1] ?? s.nb) - cuts[i])), T = s.T;
+    if (i === 0) SC4[68](ctx, { ...s, p: k, lu: k * 0.8, nb: 99, T: T + 1 });
+    else if (i === 1) SC4[69](ctx, { ...s, p: k, lu: 0.9 + k * 2.4, nb: 99, T: T + 2 });
+    else if (i === 2) SC4[71](ctx, { ...s, p: k, lu: k * 3, nb: 99, T: T + 3 });
+    else { const z = 1 + k * 0.06; ctx.save(); ctx.translate(cx, H / 2); ctx.scale(z, z); ctx.translate(-cx, -H / 2); TH[0](ctx); ctx.restore(); }
+    const fl = Math.max(0, 1 - (s.lu - cuts[i]) * 6); if (fl > 0) { ctx.fillStyle = `rgba(255,248,230,${0.45 * fl})`; ctx.fillRect(0, 0, W, H); }
+    if (i < 2) caption(ctx, 'HE RAN HOME TERRIFIED', cx, 150, 64, '#fff4dc', { track: 10, a: i === 0 ? 1 : 0 });
+    if (i === 2) caption(ctx, 'AND HIS WIFE SAID ONE SENTENCE', cx, 150, 60, '#ffc84a', { track: 8 });
+    A.vignette(ctx, 0.3);
+  },
   96(ctx, s) { oldman(ctx, s, { mode: 'wide', red: true, z1: 1.18 }); caption(ctx, 'THE PROPHECY', cx, 160, 76, '#ff8a70', { track: 20, a: sstep(1.4, 2.4, s.lu) }); },
   97(ctx, s) {
     const { T, p, lu } = s; const c = camAt(p, { z0: 1.0, z1: 1.2, x0: cx, y0: 560 }); A.sky(ctx, [[0, '#0e0405'], [1, '#2a0a0a']]); glow(ctx, cx - 300, 400, 1000, '#d8301c', 0.4);

@@ -12,11 +12,12 @@ body_txt = json.load(open(SRC / 'full_lines.json'))
 def rd(p):
     w = wave.open(str(p)); n = w.getnframes(); x = np.frombuffer(w.readframes(n), np.int16).astype(np.float32) / 32768
     return resample_poly(x, 320, 147)  # 22050 -> 48000
-ents = [('h%d' % i, hook_txt[i], SRC / f'hk{i}.wav') for i in range(4)]
+hook_txt[2] = 'He ran home terrified. And his wife said one sentence that history still remembers.'
+ents = [('h%d' % i, hook_txt[i], SRC / (f'hk{i}.wav' if i != 2 else 'hk2_khadijah.wav')) for i in range(4)]
 ents += [(str(i), body_txt[i], SRC / f'f{i:03d}.wav') for i in range(4, 113)]
-extra = {'h0': 1, 'h1': 2, 'h2': 1, 'h3': 2, '44': 2, '48': 1, '104': 2, '112': 4, '19': 1, '59': 1}
-beat = 3                      # beats 0-2: black, breathing
-T = []; segs = []
+extra = {'h0': 1, 'h1': 2, 'h2': 2, 'h3': 2, '44': 2, '48': 1, '104': 2, '112': 4, '19': 1, '59': 1}
+beat = 3                      # beats 0-2: frame 0 is the thumbnail (open)
+T = [dict(key='open', text='', beat=0, nb=3, vo_t=None, vo_dur=0)]; segs = []
 for k, txt, wav in ents:
     x = rd(wav); dur = len(x) / SR
     nb = math.ceil((LEAD + dur + TAIL) / P - 1e-9) + extra.get(k, 0)

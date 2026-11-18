@@ -1,6 +1,6 @@
 # Hira, Chapter 1: paket YouTube (sudut Khadijah)
 
-Video utama: `hira-chapter1-motionreel.mp4` (8:25). Thumbnail dan Shorts ada di folder ini.
+Video utama: `hira-chapter1-khadijah.mp4` (8:28). Frame pertama sama dengan thumbnail A, dan hook memuat teaser Khadijah di 0:14-0:20. Thumbnail dan Shorts ada di folder ini.
 
 ## Judul (pilih salah satu, lalu uji A/B/C dengan Test & Compare)
 
@@ -26,17 +26,17 @@ Based on the narration of Aisha in Sahih al-Bukhari, Hadith 3 (the beginning of 
 
 CHAPTERS
 0:00 The cave
-0:29 Mecca, 610 AD
-1:16 The man who could not find peace
-2:00 Jabal Nur and Cave Hira
-3:24 The night everything changed
-4:35 The first five verses
-5:03 He runs home
-5:40 Khadijah's answer
-6:18 Waraqah bin Naufal
-7:05 The prophecy
-7:45 The silence (the Fatrah)
-8:17 Chapter 2: the second revelation
+0:32 Mecca, 610 AD
+1:19 The man who could not find peace
+2:03 Jabal Nur and Cave Hira
+3:27 The night everything changed
+4:38 The first five verses
+5:06 He runs home
+5:43 Khadijah's answer
+6:21 Waraqah bin Naufal
+7:08 The prophecy
+7:48 The silence (the Fatrah)
+8:20 Chapter 2: the second revelation
 
 Chapter 2 is the second revelation. Subscribe so you do not miss it.
 
@@ -108,6 +108,6 @@ Based on Sahih al-Bukhari 3.
 
 ## Yang perlu dicek sebelum upload
 
-- Judul menjanjikan jawaban Khadijah, tetapi di video bagian itu baru mulai di 5:40. Penonton dari judul ini perlu cuplikan di awal supaya tidak keluar sebelum sampai ke sana.
+- Judul menjanjikan jawaban Khadijah. Teaser-nya sudah ada di hook (0:14), tetapi jawabannya baru lengkap di 5:43. Pantau grafik retensi untuk melihat apakah penonton bertahan sampai ke sana.
 - Periksa lagi kutipan dan istilah (Namus, "I am not a reader") terhadap terjemahan yang kamu pegang. Narasi menceritakan ulang secara dramatis dan bukan terjemahan harfiah.
 - Narasi memakai suara sintetis. Itu sudah disebut di deskripsi.
