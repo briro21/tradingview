@@ -114,15 +114,14 @@ export const Counter: React.FC<{from: number; to: number; at: number; dur?: numb
   const v = from + (to - from) * (1 - Math.pow(1 - k, 3));
   const txt = decimals ? v.toFixed(decimals).replace('.', ',') : fmt(Math.round(v));
   const landed = sec > at + dur;
+  const pending = sec < at - 0.05;
   const bump = landed ? 1 + 0.06 * Math.max(0, 1 - (sec - at - dur) * 4) : 1;
   return (
     <Stage dark={dark} mark={mark}>
       <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: 10}}>
         <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 54, color: dark ? '#cfd3dc' : '#555', letterSpacing: 2, textTransform: 'uppercase'}}>{label}</div>
         <div style={{fontFamily: FONT, fontWeight: 900, fontSize: Math.min(260, 1700 / (prefix.length + txt.length + suffix.length + 1)), color, transform: `scale(${bump})`, letterSpacing: -4}}>
-          {prefix}
-          {txt}
-          {suffix}
+          {pending ? '…' : `${prefix}${txt}${suffix}`}
         </div>
         <div style={{width: 900, height: 14, background: dark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.08)', borderRadius: 7, overflow: 'hidden'}}>
           <div style={{width: `${k * 100}%`, height: '100%', background: color}} />
@@ -202,7 +201,7 @@ export const Timeline: React.FC<{items: {date: string; text: string; at: number;
               <div key={it.date} style={{position: 'absolute', left: x, top: 6}}>
                 <Pop at={it.at}>
                   <div style={{position: 'absolute', left: -22, top: -22, width: 44, height: 44, borderRadius: 22, background: it.color ?? C.red, border: `6px solid ${dark ? DARK : PAPER}`}} />
-                  <div style={{position: 'absolute', left: -170, width: 340, top: up ? -250 : 50, textAlign: 'center', fontFamily: FONT, fontWeight: 900}}>
+                  <div style={{position: 'absolute', left: i === 0 && n > 1 ? -40 : i === n - 1 && n > 1 ? -300 : -170, width: 340, top: up ? -250 : 50, textAlign: 'center', fontFamily: FONT, fontWeight: 900}}>
                     <div style={{fontSize: 40, color: it.color ?? C.red}}>{it.date}</div>
                     <div style={{fontSize: 34, color: dark ? '#fff' : INK, lineHeight: 1.15, marginTop: 6}}>{it.text}</div>
                   </div>
@@ -317,5 +316,58 @@ export const Part: React.FC<{n: number; title: string; at: number}> = ({n, title
         <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 120, color: '#fff', lineHeight: 1.05, maxWidth: 1500, transform: `translateY(${(1 - p) * 80}px)`, opacity: p}}>{title}</div>
       </AbsoluteFill>
     </AbsoluteFill>
+  );
+};
+
+// Peta Jawa sederhana: Ujung Kulon (barat), Alas Purwo (timur), Anak Krakatau; jalur relokasi digambar dan badak berjalan.
+const JAVA = 'M210,536 L260,432 L330,380 L420,393 L520,354 L640,380 L760,419 L880,432 L1000,484 L1120,505 L1240,536 L1360,562 L1480,601 L1600,640 L1700,692 L1725,770 L1680,809 L1560,783 L1440,770 L1320,744 L1200,723 L1080,713 L960,697 L840,679 L720,653 L600,640 L480,614 L360,601 L260,614 L215,601 Z';
+export const JavaMap: React.FC<{routeAt?: number; waveAt?: number; title?: Word; labels?: {ujung?: number; alas?: number; krakatau?: number}}> = ({routeAt, waveAt, title, labels = {}}) => {
+  const sec = useSec();
+  const k = routeAt === undefined ? 0 : ramp(sec, routeAt, routeAt + 3);
+  const A = {x: 225, y: 575};
+  const B = {x: 1690, y: 690};
+  const bx = A.x + (B.x - A.x) * k;
+  const by = A.y + (B.y - A.y) * k - Math.sin(k * Math.PI) * 160;
+  const pin = (x: number, y: number, name: string, at: number | undefined, color: string, up = true) =>
+    at === undefined || sec < at - 0.05 ? null : (
+      <Abs key={name} x={x - 200} y={up ? y - 150 : y + 40} style={{width: 400, textAlign: 'center'}}>
+        <Pop at={at}>
+          <div style={{fontFamily: FONT, fontWeight: 900, fontSize: 40, color, background: '#fff', border: `4px solid ${INK}`, borderRadius: 14, padding: '6px 14px', display: 'inline-block'}}>{name}</div>
+        </Pop>
+      </Abs>
+    );
+  return (
+    <Stage mark="JAWA">
+      <svg width={1920} height={1080} style={{position: 'absolute', left: 0, top: 0}}>
+        <path d={JAVA} fill="#cfe3b4" stroke={INK} strokeWidth={6} strokeLinejoin="round" />
+        <circle cx={150} cy={380} r={22} fill="#7a5a3c" stroke={INK} strokeWidth={5} />
+        {waveAt !== undefined && sec >= waveAt
+          ? [0, 1, 2].map((i) => {
+              const t = ((sec - waveAt) * 0.7 + i / 3) % 1;
+              return <circle key={i} cx={150} cy={380} r={30 + t * 220} fill="none" stroke="#3b7be0" strokeWidth={8} opacity={1 - t} />;
+            })
+          : null}
+        {routeAt !== undefined && sec >= routeAt ? (
+          <path d={`M${A.x},${A.y} Q${(A.x + B.x) / 2},${A.y - 320} ${B.x},${B.y}`} fill="none" stroke={C.red} strokeWidth={8} opacity={0.9} pathLength={1} strokeDasharray={`${k} 1`} />
+        ) : null}
+        <circle cx={A.x} cy={A.y} r={18} fill={C.green} stroke={INK} strokeWidth={5} />
+        <circle cx={B.x} cy={B.y} r={18} fill={C.yellow} stroke={INK} strokeWidth={5} />
+      </svg>
+      {routeAt !== undefined && sec >= routeAt ? (
+        <Abs x={bx - 50} y={by - 110}>
+          <div style={{fontSize: 100, transform: `scaleX(-1) translateY(${Math.sin(sec * 10) * 4}px)`}}>🦏</div>
+        </Abs>
+      ) : null}
+      {pin(A.x + 120, A.y + 60, 'Ujung Kulon', labels.ujung, '#2e7d32', false)}
+      {pin(B.x - 120, B.y + 30, 'Alas Purwo', labels.alas, '#b7791f', false)}
+      {pin(330, 380, 'Anak Krakatau', labels.krakatau, '#7a5a3c')}
+      {title ? (
+        <Abs x={0} y={90} style={{width: 1920, textAlign: 'center'}}>
+          <Pop at={title.at}>
+            <div style={{fontFamily: FONT, fontWeight: 900, fontSize: title.size ?? 72, color: title.color ?? INK}}>{title.t}</div>
+          </Pop>
+        </Abs>
+      ) : null}
+    </Stage>
   );
 };

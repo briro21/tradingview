@@ -42,6 +42,8 @@ PLAN = [
     ('tanpa-belanja-30-hari', 'tbl-paradoks', 27, 35, 'SEMUA BERHEMAT,\nKOK MALAH PHK?', 'Paradoks Hemat: Semua Berhemat, Malah Banyak PHK #ekonomi #hemat'),
     ('ihsg-crash', 'ihc-hook', 0, 7, 'IHSG ANJLOK 11,57%\nDALAM SEHARI', 'IHSG Anjlok 11,57% dalam Sehari, Pemicunya dari New York #IHSG #MSCI'),
     ('ihsg-crash', 'ihc-msci', 8, 17, 'SIAPA SEBENARNYA\nMSCI?', 'Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG? #MSCI #saham'),
+    ('badak-jawa', 'bdk-hook', 0, 12, 'HANYA 80–100 BADAK JAWA\nTERSISA DI DUNIA', 'Hanya 80 Badak Jawa Tersisa, Kenapa Mau Dipindah? #badakjawa #ujungkulon'),
+    ('badak-jawa', 'bdk-emas', 53, 58, 'EMAS HABIS,\nEKOWISATA BERULANG', 'Tambang Emas vs Ekowisata: Mana yang Lebih Untung? #badakjawa #ekonomi'),
 ]
 
 out = []

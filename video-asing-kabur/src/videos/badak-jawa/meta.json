@@ -1,0 +1,30 @@
+{
+  "slug": "badak-jawa",
+  "titles": [
+    "What If Badak Jawa Dipindah? 3 Skenario Ekonominya",
+    "Hanya 80 Badak Jawa Tersisa. Kenapa Rencana Memindahkannya Jadi Soal Uang?",
+    "Badak Jawa Dipindah demi Tambang Emas? Ini Fakta dan Hitungannya"
+  ],
+  "intro": "Badak Jawa yang tersisa di dunia diperkirakan hanya 80 sampai 100 ekor, dan semuanya hidup di Ujung Kulon. Di COP31, muncul gagasan memindahkan sebagian ke Taman Nasional Alas Purwo. DPR dan masyarakat Baduy menolak, dan di media sosial muncul dugaan soal tambang emas.\n\nDi video ini kita tidak memilih kubu. Kita jalankan tiga skenario dari sudut uang: relokasi berhasil (dari mana dananya, skema pendanaan konservasi, dan celah dana keanekaragaman hayati), relokasi gagal (pelajaran dari badak Musofa dan biaya kepercayaan donor), dan bagaimana kalau dugaan tambang benar (fakta dari ESDM dan Antam, serta beda emas yang habis dengan ekowisata yang berulang). Di akhir: kenapa yang paling menentukan justru kepercayaan pada prosesnya.\n\nPer hari ini rencana pemindahan masih berupa wacana dan belum diputuskan. Video ini adalah analisis dan simulasi, bukan laporan keputusan.",
+  "question": "Menurutmu, siapa yang paling diuntungkan dari rencana ini, dan siapa yang paling perlu menjelaskan?",
+  "sources": [
+    "AFU.id: sembilan fakta badak Jawa; fakta seputar dugaan tambang emas",
+    "Katadata: Dari Ujung Kulon ke Alas Purwo, benarkah badak Jawa bakal dipindah?; delegasi RI tawarkan investasi konservasi di COP31; translokasi badak usai kematian Musofa; Walhi soroti konflik kepentingan Satgas",
+    "Journalarta: penolakan Komisi IV DPR dan masyarakat Baduy (16 Nov 2026)",
+    "RMOL: Walhi curiga pemindahan badak demi tambang emas (15 Nov 2026)",
+    "Bisnis.com, Katadata, LensaHukum: pernyataan ESDM, Badan Geologi, dan bantahan Antam soal Cibaliung (17–19 Nov 2026)",
+    "Indonesia.travel: Taman Nasional Ujung Kulon, Warisan Dunia UNESCO sejak 1991",
+    "Eprints Instiper Jogja: nilai ekonomi wisata Pulau Peucang",
+    "Kabarbursa & Investortrust: kebutuhan dana biodiversitas (Bappenas) dan anggaran Way Kambas",
+    "Bloomberg Technoz & BCA Sekuritas: tambang emas Antam memasuki fase pascatambang"
+  ],
+  "note": "Rencana pemindahan badak Jawa masih berupa wacana. Video ini adalah analisis dan simulasi berdasarkan pemberitaan per 19 November 2026, bukan ajakan membeli atau menjual aset apa pun. Narasi menggunakan suara sintetis.",
+  "chapters": [[0, "80–100 ekor tersisa"], [4, "Gagasan di COP31 dan penolakannya"], [13, "Kenapa badak punya nilai ekonomi"], [19, "Masalah satu keranjang"], [23, "Skenario 1: relokasi berhasil"], [37, "Skenario 2: relokasi gagal"], [47, "Skenario 3: kalau dugaan tambang benar"], [59, "Yang paling menentukan"], [67, "Rekap"]],
+  "tags": ["badak jawa", "badak jawa dipindah", "relokasi badak jawa", "ujung kulon", "alas purwo", "COP31", "Hashim Djojohadikusumo", "tambang emas ujung kulon", "Walhi", "konservasi", "ekonomi hijau", "kredit biodiversitas", "pendanaan konservasi", "what if", "ekonomi indonesia", "taman nasional", "UNESCO", "Antam Cibaliung", "ESDM", "badak bercula satu"],
+  "hashtags": ["#BadakJawa", "#UjungKulon", "#WhatIf", "#EkonomiHijau", "#Konservasi"],
+  "thumbs": {
+    "v1": {"top": "BADAK JAWA", "main": "DIPINDAH?", "badge": "3 SKENARIO EKONOMI", "emoji": "🦏"},
+    "v2": {"kicker": "HANYA 80 TERSISA", "main": "BADAK JAWA\nDIPINDAH?", "bottom": "SIAPA YANG BAYAR?", "emoji": "🦏"},
+    "v3": {"top": "DIPINDAH DEMI:", "left": "KONSERVASI", "right": "TAMBANG?", "leftEmoji": "🌿", "rightEmoji": "⛏️"}
+  }
+}

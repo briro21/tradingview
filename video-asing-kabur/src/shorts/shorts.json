@@ -304,5 +304,23 @@
   "hook": "SIAPA SEBENARNYA\nMSCI?",
   "title": "Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG? #MSCI #saham",
   "lastLine": 13
+ },
+ {
+  "id": "bdk-hook",
+  "slug": "badak-jawa",
+  "from": 0,
+  "to": 51.49,
+  "hook": "HANYA 80–100 BADAK JAWA\nTERSISA DI DUNIA",
+  "title": "Hanya 80 Badak Jawa Tersisa, Kenapa Mau Dipindah? #badakjawa #ujungkulon",
+  "lastLine": 6
+ },
+ {
+  "id": "bdk-emas",
+  "slug": "badak-jawa",
+  "from": 412.3,
+  "to": 457.26,
+  "hook": "EMAS HABIS,\nEKOWISATA BERULANG",
+  "title": "Tambang Emas vs Ekowisata: Mana yang Lebih Untung? #badakjawa #ekonomi",
+  "lastLine": 56
  }
 ]
