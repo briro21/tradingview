@@ -44,6 +44,8 @@ PLAN = [
     ('ihsg-crash', 'ihc-msci', 8, 17, 'SIAPA SEBENARNYA\nMSCI?', 'Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG? #MSCI #saham'),
     ('badak-jawa', 'bdk-hook', 0, 12, 'HANYA 80–100 BADAK JAWA\nTERSISA DI DUNIA', 'Hanya 80 Badak Jawa Tersisa, Kenapa Mau Dipindah? #badakjawa #ujungkulon'),
     ('badak-jawa', 'bdk-emas', 53, 58, 'EMAS HABIS,\nEKOWISATA BERULANG', 'Tambang Emas vs Ekowisata: Mana yang Lebih Untung? #badakjawa #ekonomi'),
+    ('pesangon', 'psg-hook', 0, 7, 'SEMISAL NIH PABRIKMU\nBANGKRUT BESOK', 'Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK'),
+    ('pesangon', 'psg-austria', 27, 38, 'CARA AUSTRIA AGAR\nPESANGON TAK HILANG', 'Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh'),
 ]
 
 out = []

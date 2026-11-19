@@ -322,5 +322,23 @@
   "hook": "EMAS HABIS,\nEKOWISATA BERULANG",
   "title": "Tambang Emas vs Ekowisata: Mana yang Lebih Untung? #badakjawa #ekonomi",
   "lastLine": 56
+ },
+ {
+  "id": "psg-hook",
+  "slug": "pesangon",
+  "from": 0,
+  "to": 55.52,
+  "hook": "SEMISAL NIH PABRIKMU\nBANGKRUT BESOK",
+  "title": "Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK",
+  "lastLine": 6
+ },
+ {
+  "id": "psg-austria",
+  "slug": "pesangon",
+  "from": 211.23,
+  "to": 264.12,
+  "hook": "CARA AUSTRIA AGAR\nPESANGON TAK HILANG",
+  "title": "Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh",
+  "lastLine": 33
  }
 ]
