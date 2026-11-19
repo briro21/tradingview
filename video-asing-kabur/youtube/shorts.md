@@ -1,4 +1,4 @@
-# Paket Shorts (36 video, 9:16)
+# Paket Shorts (38 video, 9:16)
 
 Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Video terkait"** (Related video) di YouTube Studio dengan video lengkapnya, supaya penonton bisa langsung pindah ke video panjang.
 
@@ -253,6 +253,20 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 **Deskripsi:**
 > Tambang Emas vs Ekowisata: Mana yang Lebih Untung?. Simulasi lengkap 3 skenario ada di channel ini.
 > Rencana masih wacana. #shorts #badakjawa #ujungkulon
+
+## Hari 37 · `psg-hook.mp4`
+**Judul:** Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK
+**Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
+**Deskripsi:**
+> Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana?. Penjelasan lengkap 9 menit ada di channel ini.
+> Detail aturan masih menunggu PP. #shorts #pesangon #PHK
+
+## Hari 38 · `psg-austria.mp4`
+**Judul:** Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh
+**Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
+**Deskripsi:**
+> Austria Punya Cara Agar Pesangon Tidak Pernah Hilang. Penjelasan lengkap 9 menit ada di channel ini.
+> Detail aturan masih menunggu PP. #shorts #pesangon #PHK
 
 ## Tips
 - Pertama kali unggah, balas setiap komentar yang masuk, karena ini sinyal kuat bagi algoritma.
