@@ -18,6 +18,9 @@ import { ThumbP, ThumbQ, ThumbR } from "./episodes/ep6/Thumbnails";
 import { EP7_FRAMES, Episode7 } from "./episodes/ep7/Video";
 import { V3Ep1, V3Ep2, V3Ep3, V3Ep4, V3Ep5, V3Ep6, V3Ep8A, V3Ep8B, V3Ep8C, V3Ep9A, V3Ep9B, V3Ep9C } from "./ThumbnailsV3";
 import { EP8_FRAMES, Episode8 } from "./episodes/ep8/Video";
+import { Opening, openingProps } from "./opening/Opening";
+import { ColdOpen } from "./opening/ColdOpen";
+import { Teaser } from "./opening/Teaser";
 import { ThumbS, ThumbS2, ThumbT, ThumbT2, ThumbU, ThumbU2 } from "./episodes/ep7/Thumbnails";
 import { ThumbG, ThumbH, ThumbI } from "./episodes/ep3/Thumbnails";
 
@@ -55,6 +58,37 @@ export const Root: React.FC = () => (
     <Composition id="Episode5" component={Episode5} fps={FPS} width={1920} height={1080} durationInFrames={EP5_FRAMES} />
     <Composition id="Episode6" component={Episode6} fps={FPS} width={1920} height={1080} durationInFrames={EP6_FRAMES} />
     <Composition id="Episode7" component={Episode7} fps={FPS} width={1920} height={1080} durationInFrames={EP7_FRAMES} />
+    {/* Opening (first ~30 s) for A/B testing: scripts/render_opening.sh ep9 A|B */}
+    <Composition
+      id="Ep9Opening"
+      component={Opening}
+      fps={FPS}
+      width={1920}
+      height={1080}
+      durationInFrames={openingProps("ep9", "A").durationInFrames}
+      defaultProps={{ episode: "ep9" as const, hookVariant: "A" as const }}
+      calculateMetadata={({ props }) => ({ durationInFrames: openingProps(props.episode, props.hookVariant).durationInFrames })}
+    />
+    <Composition
+      id="Ep9ColdOpen"
+      component={ColdOpen}
+      fps={FPS}
+      width={1920}
+      height={1080}
+      durationInFrames={Math.ceil(openingProps("ep9", "A").coldOpen.audioEnd * FPS)}
+      defaultProps={{ ...openingProps("ep9", "A").coldOpen, words: openingProps("ep9", "A").words }}
+      calculateMetadata={({ props }) => ({ durationInFrames: Math.ceil((props.audioEnd - props.audioStart) * FPS) })}
+    />
+    <Composition
+      id="Ep9Teaser"
+      component={Teaser}
+      fps={FPS}
+      width={1920}
+      height={1080}
+      durationInFrames={Math.ceil((openingProps("ep9", "A").teaser.items.slice(-1)[0].audioEnd - openingProps("ep9", "A").teaser.items[0].audioStart) * FPS)}
+      defaultProps={{ ...openingProps("ep9", "A").teaser, words: openingProps("ep9", "A").words }}
+      calculateMetadata={({ props }) => ({ durationInFrames: Math.ceil((props.items[props.items.length - 1].audioEnd - props.items[0].audioStart) * FPS) })}
+    />
     <Composition id="Episode8" component={Episode8} fps={FPS} width={1920} height={1080} durationInFrames={EP8_FRAMES} />
     <Still id="ThumbA" component={ThumbA} width={1280} height={720} />
     <Still id="ThumbB" component={ThumbB} width={1280} height={720} />

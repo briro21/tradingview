@@ -1,0 +1,32 @@
+{
+  "_doc": "Opening (0-30s) for Ep9. Edit texts/anchors here, then: python3 scripts/build_opening.py ep9. Anchors are exact narration words; build_opening resolves them to audioStart/audioEnd (seconds) in opening.props.json.",
+  "photo": "thumbs/photo_cuban.png",
+  "variants": {
+    "A": {
+      "audio": "OPEN_A",
+      "coldOpen": { "quoteText": "$1 TRILLION|DEBT BUBBLE", "from": "A trillion dollars", "to": "debt bubble." },
+      "teaser": [
+        { "text": "1-PENNY MISS|-18%", "icon": "coin", "from": "A one-penny miss", "to": "eighteen percent." },
+        { "text": "25 AI AGENTS|ON HIS PHONE", "icon": "phone", "from": "Twenty-five AI agents", "to": "his phone." },
+        { "text": "THE DOG|BEATS AI", "icon": "dog", "from": "And why he'd", "to": "before AI." }
+      ],
+      "intro": {
+        "text": "MARK CUBAN|ON THE DIARY OF A CEO", "from": "Billionaire Mark Cuban", "to": "money is made.",
+        "beats": [{ "at": "why he's sitting", "text": "WHY CASH?|THE REAL MONEY", "icon": "briefcase" }]
+      }
+    },
+    "B": {
+      "audio": "OPEN_B",
+      "coldOpen": { "quoteText": "1-PENNY MISS|-18%", "from": "Miss earnings by", "to": "a bubble." },
+      "teaser": [
+        { "text": "$1 TRILLION|IN INTEREST", "icon": "money", "from": "A trillion dollars", "to": "in interest." },
+        { "text": "25 AI AGENTS|ON HIS PHONE", "icon": "phone", "from": "Twenty-five AI agents", "to": "his phone." },
+        { "text": "THE DOG|BEATS AI", "icon": "dog", "from": "And why he'd", "to": "before AI." }
+      ],
+      "intro": {
+        "text": "MARK CUBAN|ON THE DIARY OF A CEO", "from": "Billionaire Mark Cuban", "to": "money is made.",
+        "beats": [{ "at": "why he's sitting", "text": "WHY CASH?|THE REAL MONEY", "icon": "briefcase" }]
+      }
+    }
+  }
+}

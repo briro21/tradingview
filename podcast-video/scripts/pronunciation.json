@@ -1,0 +1,4 @@
+{
+  "_note": "Display spelling -> how the TTS voice should say it. Applied before TTS only; captions keep the display spelling. Add an entry only after hearing a name come out wrong.",
+  "Terre Haute": "Terra Hoat"
+}

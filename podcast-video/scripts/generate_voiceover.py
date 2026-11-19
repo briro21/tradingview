@@ -74,6 +74,46 @@ def attach_punctuation(words: list[dict], text: str) -> None:
         pos = end
 
 
+# ---------- pronunciation dictionary ----------
+# scripts/pronunciation.json: {"Display word": "how the voice should say it"}. Applied to the text
+# sent to TTS only; captions, SRT and timings keep the display spelling.
+PRON_PATH = ROOT / "scripts" / "pronunciation.json"
+
+
+def load_pron() -> dict:
+    if not PRON_PATH.exists():
+        return {}
+    return {k: v for k, v in json.loads(PRON_PATH.read_text(encoding="utf-8")).items() if not k.startswith("_")}
+
+
+def apply_pron(text: str, pron: dict) -> str:
+    for k in sorted(pron, key=len, reverse=True):
+        text = re.sub(rf"(?<![\w-]){re.escape(k)}(?![\w-])", pron[k], text)
+    return text
+
+
+def restore_display(words: list[dict], pron: dict) -> list[dict]:
+    """Merge the respelled word(s) the voice returned back into the display word, keeping timing."""
+    norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
+    out, i = [], 0
+    targets = [(norm(v), k) for k, v in sorted(pron.items(), key=lambda kv: -len(kv[1]))]
+    while i < len(words):
+        for tv, k in targets:
+            j, acc = i, ""
+            while j < len(words) and len(acc) < len(tv):
+                acc += norm(words[j]["text"])
+                j += 1
+            if acc == tv and j > i:
+                tail = re.search(r"[^\w]*$", words[j - 1]["text"]).group(0)
+                out.append({"text": k + tail, "start": words[i]["start"], "end": words[j - 1]["end"]})
+                i = j
+                break
+        else:
+            out.append(words[i])
+            i += 1
+    return out
+
+
 def write_srt(path: Path, cues: list[tuple[float, float, str]]) -> None:
     lines = []
     for i, (a, b, t) in enumerate(cues, 1):
@@ -82,10 +122,12 @@ def write_srt(path: Path, cues: list[tuple[float, float, str]]) -> None:
 
 
 async def synth(scene: str, text: str, voice: str, out: Path = PUBLIC) -> tuple[float, list, list]:
+    pron = load_pron()
+    spoken = apply_pron(text, pron)
     # Layanan TTS kadang gagal sesaat ("No audio was received"); coba ulang.
     for attempt in range(4):
         try:
-            com = edge_tts.Communicate(text, voice, boundary="WordBoundary")
+            com = edge_tts.Communicate(spoken, voice, boundary="WordBoundary")
             audio = bytearray()
             words = []
             async for ch in com.stream():
@@ -100,7 +142,9 @@ async def synth(scene: str, text: str, voice: str, out: Path = PUBLIC) -> tuple[
                 raise
             await asyncio.sleep(3 * (attempt + 1))
     (out / f"{scene}.mp3").write_bytes(audio)
-    attach_punctuation(words, text)
+    attach_punctuation(words, spoken)
+    if pron:
+        words = restore_display(words, pron)
     cues = to_cues(words)
     write_srt(out / f"{scene}.srt", cues)
     return len(audio) / MP3_BYTES_PER_SEC, cues, words
@@ -120,7 +164,26 @@ async def main() -> None:
     ap.add_argument("--shorts", action="store_true", help="hanya buat audio Shorts")
     ap.add_argument("--only", help="dengan --shorts: hanya file ini, mis. SH02")
     ap.add_argument("--episode", help="episode lain: narration/<ep>/ -> public/<ep>/ + src/episodes/<ep>/timing.json")
+    ap.add_argument("--opening", help="opening varian: narration/<ep>/opening/*.txt -> public/<ep>/opening/ + src/episodes/<ep>/opening_timing.json")
     args = ap.parse_args()
+
+    # Proper nouns first, so the pronunciation can be checked before anything is rendered.
+    from list_proper_nouns import report  # noqa: E402
+    target = NARRATION / (args.opening + "/opening" if args.opening else args.episode or ("shorts" if args.shorts else ""))
+    report(sorted(target.glob(f"{args.only or '*'}.txt" if args.shorts else "*.txt")), load_pron())
+
+    if args.opening:
+        src, out = NARRATION / args.opening / "opening", PUBLIC / args.opening / "opening"
+        out.mkdir(parents=True, exist_ok=True)
+        timing = {}
+        for f in sorted(src.glob("*.txt")):
+            text = " ".join(f.read_text(encoding="utf-8").split())
+            duration, cues, words = await synth(f.stem, text, args.voice, out)
+            timing[f.stem] = scene_timing(duration, cues, words)
+            print(f"{f.stem}: {duration:6.2f}s  {timing[f.stem]['frames']} frames")
+        dest = ROOT / "src" / "episodes" / args.opening
+        (dest / "opening_timing.json").write_text(json.dumps(timing), encoding="utf-8")
+        return
 
     if args.episode:
         src, out = NARRATION / args.episode, PUBLIC / args.episode
