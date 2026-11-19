@@ -705,7 +705,7 @@ Photo: Ed Zitron by Web Summit, CC BY 2.0 (Wikimedia Commons), cropped
 
 # Episode 9: Mark Cuban (The Diary of a CEO)
 
-Video: `out/ep9-reel/final.mp4` (versi motion, 10:16) · SRT: `out/ep9-reel/episode9.srt`
+Video: `out/ep9-final-hookA.mp4` (versi motion + opening hook A, 10:09) · SRT: `out/ep9-final-hookA.srt`
 Thumbnail: `out/ep9-thumbnail-A/B/C.png` (A = frame pertama) · Shorts: `out/ep9-short1..4.mp4`
 Sumber: storybook/ep9/ (narasi, storybook, prompt gambar). Visual: ikon + teks kinetik + foto berlisensi bebas, seperti Ep8.
 
@@ -731,12 +731,12 @@ This is an independent animated summary and commentary. It presents Mark Cuban's
 
 CHAPTERS
 0:00 Why Mark Cuban is sitting on cash
-0:27 Part 1: Everything is a meme stock
-2:05 Part 2: The debt behind the AI boom
-3:37 Part 3: "AI is not smart"
-5:14 Part 4: Twenty-five AI agents on his phone
-6:48 Part 5: The garbage-bag playbook
-8:26 Part 6: Where the real money is made
+0:21 Part 1: Everything is a meme stock
+1:58 Part 2: The debt behind the AI boom
+3:31 Part 3: "AI is not smart"
+5:08 Part 4: Twenty-five AI agents on his phone
+6:42 Part 5: The garbage-bag playbook
+8:20 Part 6: Where the real money is made
 
 PHOTO CREDITS
 Mark Cuban photo: Gage Skidmore, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Mark_Cuban_(2024)_(cropped).jpg
