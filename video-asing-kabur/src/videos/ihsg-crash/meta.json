@@ -17,12 +17,88 @@
     "Tempo, Kontan, Infobank: hasil review MSCI November 2026 (8 saham dikeluarkan)"
   ],
   "note": "Video ini adalah penjelasan dan komentar berdasarkan pemberitaan media keuangan serta pengumuman MSCI. Bukan ajakan membeli atau menjual saham apa pun. Angka dapat berbeda antar sumber; cek data resmi BEI dan MSCI.",
-  "chapters": [[0, "−11,57% dalam sehari"], [8, "Bagian 1: Siapa sebenarnya MSCI?"], [18, "Bagian 2: Ini bukan pertama kalinya"], [27, "Bagian 3: Kenapa MSCI begitu keras?"], [34, "Bagian 4: Paradoks yang membingungkan"], [43, "Bagian 5: Apa artinya untuk kamu?"], [50, "Bagian 6: Apa yang terjadi selanjutnya?"], [56, "Yang bisa kamu lakukan"]],
-  "tags": ["IHSG", "IHSG anjlok", "IHSG crash", "MSCI", "MSCI standalone", "MSCI Indonesia", "bursa efek indonesia", "saham hari ini", "trading halt", "rupiah melemah", "asing jual saham", "free float", "saham gorengan", "krisis saham 2026", "bursa terburuk di dunia", "review MSCI November 2026", "investasi saham", "reksa dana", "ekonomi indonesia", "pasar modal"],
-  "hashtags": ["#IHSG", "#MSCI", "#Saham", "#EkonomiIndonesia", "#Rupiah"],
+  "chapters": [
+    [
+      0,
+      "−11,57% dalam sehari"
+    ],
+    [
+      8,
+      "Bagian 1: Siapa sebenarnya MSCI?"
+    ],
+    [
+      18,
+      "Bagian 2: Ini bukan pertama kalinya"
+    ],
+    [
+      27,
+      "Bagian 3: Kenapa MSCI begitu keras?"
+    ],
+    [
+      34,
+      "Bagian 4: Paradoks yang membingungkan"
+    ],
+    [
+      43,
+      "Bagian 5: Apa artinya untuk kamu?"
+    ],
+    [
+      50,
+      "Bagian 6: Apa yang terjadi selanjutnya?"
+    ],
+    [
+      56,
+      "Yang bisa kamu lakukan"
+    ]
+  ],
+  "tags": [
+    "IHSG",
+    "IHSG anjlok",
+    "IHSG crash",
+    "MSCI",
+    "MSCI standalone",
+    "MSCI Indonesia",
+    "bursa efek indonesia",
+    "saham hari ini",
+    "trading halt",
+    "rupiah melemah",
+    "asing jual saham",
+    "free float",
+    "saham gorengan",
+    "krisis saham 2026",
+    "bursa terburuk di dunia",
+    "review MSCI November 2026",
+    "investasi saham",
+    "reksa dana",
+    "ekonomi indonesia",
+    "pasar modal"
+  ],
+  "hashtags": [
+    "#IHSG",
+    "#MSCI",
+    "#Saham",
+    "#EkonomiIndonesia",
+    "#Rupiah"
+  ],
   "thumbs": {
-    "v1": {"top": "SATU PENGUMUMAN", "main": "-11,57%", "badge": "DALAM SEHARI", "emoji": "📉"},
-    "v2": {"kicker": "TERBURUK DI DUNIA", "main": "IHSG\nJATUH 40%", "bottom": "APA YANG TERJADI?", "emoji": "🇮🇩"},
-    "v3": {"top": "MSCI MENGANCAM:", "left": "EMERGING", "right": "STANDALONE", "leftEmoji": "🌏", "rightEmoji": "🏝️"}
+    "v1": {
+      "top": "IHSG",
+      "main": "-11,57%",
+      "badge": "SEHARI",
+      "emoji": "📉"
+    },
+    "v2": {
+      "kicker": "",
+      "main": "TERBURUK\nDI DUNIA",
+      "bottom": "",
+      "emoji": "🇮🇩"
+    },
+    "v3": {
+      "top": "",
+      "left": "STANDALONE",
+      "right": "EMERGING",
+      "leftEmoji": "🏝️",
+      "rightEmoji": "🌏"
+    }
   }
 }

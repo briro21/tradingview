@@ -19,12 +19,91 @@
     "Bloomberg Technoz & BCA Sekuritas: tambang emas Antam memasuki fase pascatambang"
   ],
   "note": "Rencana pemindahan badak Jawa masih berupa wacana. Video ini adalah analisis dan simulasi berdasarkan pemberitaan per 19 November 2026, bukan ajakan membeli atau menjual aset apa pun. Narasi menggunakan suara sintetis.",
-  "chapters": [[0, "80–100 ekor tersisa"], [4, "Gagasan di COP31 dan penolakannya"], [13, "Kenapa badak punya nilai ekonomi"], [19, "Masalah satu keranjang"], [23, "Skenario 1: relokasi berhasil"], [37, "Skenario 2: relokasi gagal"], [47, "Skenario 3: kalau dugaan tambang benar"], [59, "Yang paling menentukan"], [67, "Rekap"]],
-  "tags": ["badak jawa", "badak jawa dipindah", "relokasi badak jawa", "ujung kulon", "alas purwo", "COP31", "Hashim Djojohadikusumo", "tambang emas ujung kulon", "Walhi", "konservasi", "ekonomi hijau", "kredit biodiversitas", "pendanaan konservasi", "what if", "ekonomi indonesia", "taman nasional", "UNESCO", "Antam Cibaliung", "ESDM", "badak bercula satu"],
-  "hashtags": ["#BadakJawa", "#UjungKulon", "#WhatIf", "#EkonomiHijau", "#Konservasi"],
+  "chapters": [
+    [
+      0,
+      "80–100 ekor tersisa"
+    ],
+    [
+      4,
+      "Gagasan di COP31 dan penolakannya"
+    ],
+    [
+      13,
+      "Kenapa badak punya nilai ekonomi"
+    ],
+    [
+      19,
+      "Masalah satu keranjang"
+    ],
+    [
+      23,
+      "Skenario 1: relokasi berhasil"
+    ],
+    [
+      37,
+      "Skenario 2: relokasi gagal"
+    ],
+    [
+      47,
+      "Skenario 3: kalau dugaan tambang benar"
+    ],
+    [
+      59,
+      "Yang paling menentukan"
+    ],
+    [
+      67,
+      "Rekap"
+    ]
+  ],
+  "tags": [
+    "badak jawa",
+    "badak jawa dipindah",
+    "relokasi badak jawa",
+    "ujung kulon",
+    "alas purwo",
+    "COP31",
+    "Hashim Djojohadikusumo",
+    "tambang emas ujung kulon",
+    "Walhi",
+    "konservasi",
+    "ekonomi hijau",
+    "kredit biodiversitas",
+    "pendanaan konservasi",
+    "what if",
+    "ekonomi indonesia",
+    "taman nasional",
+    "UNESCO",
+    "Antam Cibaliung",
+    "ESDM",
+    "badak bercula satu"
+  ],
+  "hashtags": [
+    "#BadakJawa",
+    "#UjungKulon",
+    "#WhatIf",
+    "#EkonomiHijau",
+    "#Konservasi"
+  ],
   "thumbs": {
-    "v1": {"top": "BADAK JAWA", "main": "DIPINDAH?", "badge": "3 SKENARIO EKONOMI", "emoji": "🦏"},
-    "v2": {"kicker": "HANYA 80 TERSISA", "main": "BADAK JAWA\nDIPINDAH?", "bottom": "SIAPA YANG BAYAR?", "emoji": "🦏"},
-    "v3": {"top": "DIPINDAH DEMI:", "left": "KONSERVASI", "right": "TAMBANG?", "leftEmoji": "🌿", "rightEmoji": "⛏️"}
+    "v1": {
+      "top": "BADAK JAWA",
+      "main": "DIPINDAH?",
+      "emoji": "🦏"
+    },
+    "v2": {
+      "kicker": "",
+      "main": "80\nTERSISA",
+      "bottom": "",
+      "emoji": "🦏"
+    },
+    "v3": {
+      "top": "",
+      "left": "TAMBANG?",
+      "right": "KONSERVASI",
+      "leftEmoji": "⛏️",
+      "rightEmoji": "🌿"
+    }
   }
 }
