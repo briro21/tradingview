@@ -1,4 +1,4 @@
-# Paket Shorts (34 video, 9:16)
+# Paket Shorts (36 video, 9:16)
 
 Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Video terkait"** (Related video) di YouTube Studio dengan video lengkapnya, supaya penonton bisa langsung pindah ke video panjang.
 
@@ -239,6 +239,20 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 **Deskripsi:**
 > Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG?. Penjelasan lengkap 9 menit ada di channel ini.
 > Bukan ajakan jual/beli. #shorts #IHSG #MSCI #saham
+
+## Hari 35 · `bdk-hook.mp4`
+**Judul:** Hanya 80 Badak Jawa Tersisa, Kenapa Mau Dipindah? #badakjawa #ujungkulon
+**Video terkait (versi lengkap):** What If Badak Jawa Dipindah? 3 Skenario Ekonominya
+**Deskripsi:**
+> Hanya 80 Badak Jawa Tersisa, Kenapa Mau Dipindah?. Simulasi lengkap 3 skenario ada di channel ini.
+> Rencana masih wacana. #shorts #badakjawa #ujungkulon
+
+## Hari 36 · `bdk-emas.mp4`
+**Judul:** Tambang Emas vs Ekowisata: Mana yang Lebih Untung? #badakjawa #ekonomi
+**Video terkait (versi lengkap):** What If Badak Jawa Dipindah? 3 Skenario Ekonominya
+**Deskripsi:**
+> Tambang Emas vs Ekowisata: Mana yang Lebih Untung?. Simulasi lengkap 3 skenario ada di channel ini.
+> Rencana masih wacana. #shorts #badakjawa #ujungkulon
 
 ## Tips
 - Pertama kali unggah, balas setiap komentar yang masuk, karena ini sinyal kuat bagi algoritma.
