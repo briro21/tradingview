@@ -28,12 +28,6 @@ export const Short: React.FC<{id: string}> = ({id}) => {
   return (
     <AbsoluteFill>
       <Ambient color="#7b5cff" base="#100c20" particles={30} />
-      <div style={{position: 'absolute', top: 120, left: 40, right: 40, transform: `scale(${hookIn * pulse})`}}>
-        <div style={{display: 'flex', justifyContent: 'center', marginBottom: 18}}>
-          <div style={{background: C.yellow, border: `6px solid ${C.ink}`, borderRadius: 14, padding: '4px 22px', fontFamily: FONT, fontWeight: 900, fontSize: 44, color: C.ink}}>{s.badge ?? 'WHAT IF'}</div>
-        </div>
-        <Outline text={s.hook} size={84} />
-      </div>
       {s.clip ? (
         <AbsoluteFill>
           <OffthreadVideo src={staticFile(s.clip)} muted />
@@ -41,6 +35,12 @@ export const Short: React.FC<{id: string}> = ({id}) => {
           <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,10,12,0.85) 0%, rgba(10,10,12,0) 28%, rgba(10,10,12,0) 70%, rgba(10,10,12,0.8) 100%)'}} />
         </AbsoluteFill>
       ) : null}
+      <div style={{position: 'absolute', top: 120, left: 40, right: 40, transform: `scale(${hookIn * pulse})`}}>
+        <div style={{display: 'flex', justifyContent: 'center', marginBottom: 18}}>
+          <div style={{background: C.yellow, border: `6px solid ${C.ink}`, borderRadius: 14, padding: '4px 22px', fontFamily: FONT, fontWeight: 900, fontSize: 44, color: C.ink}}>{s.badge ?? 'WHAT IF'}</div>
+        </div>
+        <Outline text={s.hook} size={84} />
+      </div>
       {s.clip ? null : (<div style={{position: 'absolute', top: 560, left: 0, width: W, height: VH, overflow: 'hidden', borderTop: `8px solid ${C.ink}`, borderBottom: `8px solid ${C.ink}`, boxShadow: '0 0 80px rgba(123,92,255,0.6)'}}>
         <div style={{width: 1920, height: 1080, transform: `scale(${W / 1920})`, transformOrigin: 'top left'}}>
           <Sequence from={-Math.round(s.from * fps)}>
@@ -53,7 +53,7 @@ export const Short: React.FC<{id: string}> = ({id}) => {
           <Outline text={cue.text} size={74} color={cue.text.includes(':') ? C.yellow : '#fff'} />
         </div>
       )}
-      <div style={{position: 'absolute', bottom: 160, left: 0, right: 0, textAlign: 'center', fontFamily: FONT, fontWeight: 900, fontSize: 34, color: 'rgba(255,255,255,0.55)'}}>Seri What If · Ekonomi Indonesia</div>
+      <div style={{position: 'absolute', bottom: 160, left: 0, right: 0, textAlign: 'center', fontFamily: FONT, fontWeight: 900, fontSize: 34, color: 'rgba(255,255,255,0.55)'}}>{s.badge ? 'Bincang Ekonomi · Penjelasan lengkap di channel' : 'Seri What If · Ekonomi Indonesia'}</div>
       <div style={{position: 'absolute', bottom: 120, left: 60, right: 60, height: 14, background: 'rgba(255,255,255,0.2)', borderRadius: 7}}>
         <div style={{width: `${(frame / durationInFrames) * 100}%`, height: '100%', background: C.red, borderRadius: 7}} />
       </div>
