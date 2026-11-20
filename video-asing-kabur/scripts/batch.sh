@@ -4,7 +4,7 @@
 # Syarat per slug: input/<slug>/naskah.txt, src/videos/<slug>/{storyboard.tsx,meta.json}, terdaftar di src/videos/registry.tsx.
 set -e
 cd "$(dirname "$0")/.."
-BROWSER=${BROWSER:-/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell}
+BROWSER=${BROWSER:-$(ls -d /opt/pw-browsers/chromium_headless_shell-*/*/headless_shell /opt/pw-browsers/chromium_headless_shell-*/*/chrome-headless-shell 2>/dev/null | sort -V | tail -1)}
 export TTS_RATE=${TTS_RATE:--8%}
 [ -f public/sfx/pad.wav ] || scripts/make_sfx.sh
 

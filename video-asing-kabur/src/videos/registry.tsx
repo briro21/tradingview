@@ -78,7 +78,7 @@ import {ThumbData} from './Thumb';
 import {Cue, durationOf, LineT, makeL, Seg, WhatIf} from './WhatIf';
 
 // Daftar video batch. Tambah video baru: buat folder <slug>/ (naskah → storyboard + meta) lalu daftarkan di sini.
-export type Video = {slug: string; lines: LineT[]; captions: Cue[]; timeline: (L: (i: number, d?: number) => number) => Seg[]; thumbs: ThumbData};
+export type Video = {slug: string; lines: LineT[]; captions: Cue[]; timeline: (L: (i: number, d?: number) => number) => Seg[]; thumbs: ThumbData; chapters?: (string | number)[][]};
 
 export const VIDEOS: Video[] = [
   {slug: 'arb-7', lines: arbLines, captions: arbCaptions, timeline: arb, thumbs: arbMeta.thumbs},
@@ -99,11 +99,12 @@ export const VIDEOS: Video[] = [
   {slug: 'tanpa-belanja-30-hari', lines: tblLines, captions: tblCaptions, timeline: tbl, thumbs: tblMeta.thumbs},
   {slug: 'ihsg-crash', lines: ihcLines, captions: ihcCaptions, timeline: ihc, thumbs: ihcMeta.thumbs},
   {slug: 'badak-jawa', lines: bdkLines, captions: bdkCaptions, timeline: bdk, thumbs: bdkMeta.thumbs},
-  {slug: 'pesangon', lines: psgLines, captions: psgCaptions, timeline: psg, thumbs: psgMeta.thumbs},
+  {slug: 'pesangon', lines: psgLines, captions: psgCaptions, timeline: psg, thumbs: psgMeta.thumbs, chapters: psgMeta.chapters},
 ];
 
 // Komposisi hanya menerima slug (props Remotion harus bisa di-JSON-kan); storyboard dicari di sini.
 export const WhatIfBySlug: React.FC<{slug: string; hideCaptions?: boolean}> = ({slug, hideCaptions}) => {
   const v = VIDEOS.find((x) => x.slug === slug)!;
-  return <WhatIf timeline={v.timeline(makeL(v.lines))} captions={v.captions} audio={`vo_${v.slug}.mp3`} duration={durationOf(v.lines)} hideCaptions={hideCaptions} />;
+  const chapters = v.chapters?.map(([i, t]) => ({start: Math.max(0, v.lines[i as number].start - 0.2), title: String(t).replace(/^Bagian \d+: /, '')}));
+  return <WhatIf timeline={v.timeline(makeL(v.lines))} captions={v.captions} audio={`vo_${v.slug}.mp3`} duration={durationOf(v.lines)} hideCaptions={hideCaptions} chapters={chapters} />;
 };

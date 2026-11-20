@@ -6,9 +6,10 @@ import {DEFAULT_THEME, ThemeCtx, ThemeName} from '../theme';
 export type Seg = {start: number; el: React.ReactNode; sfx?: 'whoosh' | 'boom' | 'ding' | 'riser' | 'thump'};
 export type Cue = {start: number; end: number; text: string};
 export type LineT = {i: number; start: number; end: number; text: string};
+export type Chapter = {start: number; title: string};
 
 // Renderer generik untuk video "What If" dari storyboard + voice-over + subtitle.
-export const WhatIf: React.FC<{timeline: Seg[]; captions: Cue[]; audio: string; duration: number; theme?: ThemeName; hideCaptions?: boolean}> = ({timeline, captions, audio, duration, theme = DEFAULT_THEME, hideCaptions}) => {
+export const WhatIf: React.FC<{timeline: Seg[]; captions: Cue[]; audio: string; duration: number; theme?: ThemeName; hideCaptions?: boolean; chapters?: Chapter[]}> = ({timeline, captions, audio, duration, theme = DEFAULT_THEME, hideCaptions, chapters}) => {
   const {fps} = useVideoConfig();
   return (
     <ThemeCtx.Provider value={theme}>
@@ -24,6 +25,7 @@ export const WhatIf: React.FC<{timeline: Seg[]; captions: Cue[]; audio: string; 
             </Sequence>
           );
         })}
+        {chapters && chapters.length > 1 && !hideCaptions ? <ChapterBar chapters={chapters} duration={duration} /> : null}
         {!hideCaptions && (
           <T0.Provider value={0}>
             <Captions data={captions} />
@@ -62,3 +64,30 @@ const SceneIn: React.FC<{children: React.ReactNode; dir: number; instant?: boole
 
 export const makeL = (lines: LineT[]) => (i: number, d = 0) => lines[i].start + d;
 export const durationOf = (lines: LineT[]) => Math.ceil(lines[lines.length - 1].end + 2);
+
+// Penanda bab + progress bar tipis di atas layar (aktif setelah bab pertama/hook).
+const ChapterBar: React.FC<{chapters: Chapter[]; duration: number}> = ({chapters, duration}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const sec = frame / fps;
+  let idx = 0;
+  chapters.forEach((c, i) => {
+    if (sec >= c.start) idx = i;
+  });
+  if (idx === 0) return null;
+  const cur = chapters[idx];
+  const fade = interpolate(sec - cur.start, [0, 0.5], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  return (
+    <AbsoluteFill style={{pointerEvents: 'none'}}>
+      <div style={{position: 'absolute', left: 0, right: 0, top: 0, height: 8, background: 'rgba(0,0,0,0.25)'}}>
+        <div style={{width: `${(sec / duration) * 100}%`, height: '100%', background: '#ff4b3e'}} />
+        {chapters.slice(1).map((c) => (
+          <div key={c.start} style={{position: 'absolute', left: `${(c.start / duration) * 100}%`, top: 0, width: 4, height: 8, background: '#fff'}} />
+        ))}
+      </div>
+      <div style={{position: 'absolute', right: 28, top: 22, opacity: fade, background: 'rgba(16,19,28,0.72)', color: '#fff', fontFamily: 'Montserrat', fontWeight: 900, fontSize: 26, padding: '8px 18px', borderRadius: 10, letterSpacing: 0.5}}>
+        <span style={{color: '#ff4b3e'}}>{idx}/{chapters.length - 1}</span> · {cur.title}
+      </div>
+    </AbsoluteFill>
+  );
+};

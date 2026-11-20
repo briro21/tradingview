@@ -17,12 +17,83 @@
     "FMA Austria & USP.gv.at: Abfertigung Neu, setoran 1,53% gaji per bulan"
   ],
   "note": "Aturan teknis dana cadangan pesangon masih menunggu Peraturan Pemerintah, sehingga detailnya bisa berubah. Simulasi angka Raka memakai ilustrasi tarif Austria, bukan besaran resmi Indonesia. Video ini untuk edukasi, bukan nasihat hukum. Narasi menggunakan suara sintetis.",
-  "chapters": [[0, "8.475 orang menunggu pesangon"], [7, "Bagian 1: Aturannya sebenarnya apa?"], [18, "Bagian 2: Kenapa aturan ini muncul?"], [27, "Skenario 1: berjalan baik (contoh Austria)"], [39, "Skenario 2: dikelola buruk"], [51, "Skenario 3: perusahaan bereaksi"], [58, "Yang perlu kamu cek hari ini"]],
-  "tags": ["pesangon", "dana cadangan pesangon", "pesangon 2027", "pesangon disetor ke pemerintah", "UU 27 tahun 2026", "UU pelindungan ketenagakerjaan", "PHK", "hak pekerja", "Kemnaker", "Danantara pesangon hoaks", "Sritex pesangon", "BPJS Ketenagakerjaan", "JKP", "jaminan kehilangan pekerjaan", "buruh", "karyawan", "ekonomi indonesia", "edukasi keuangan", "Abfertigung Neu", "what if"],
-  "hashtags": ["#Pesangon", "#PHK", "#HakPekerja", "#EkonomiIndonesia", "#Kemnaker"],
+  "chapters": [
+    [
+      0,
+      "Pesangon dititipkan ke negara"
+    ],
+    [
+      7,
+      "Bagian 1: Aturannya sebenarnya apa?"
+    ],
+    [
+      18,
+      "Bagian 2: Kenapa aturan ini muncul?"
+    ],
+    [
+      27,
+      "Skenario 1: berjalan baik (contoh Austria)"
+    ],
+    [
+      39,
+      "Skenario 2: dikelola buruk"
+    ],
+    [
+      51,
+      "Skenario 3: perusahaan bereaksi"
+    ],
+    [
+      58,
+      "Yang perlu kamu cek hari ini"
+    ]
+  ],
+  "tags": [
+    "pesangon",
+    "dana cadangan pesangon",
+    "pesangon 2027",
+    "pesangon disetor ke pemerintah",
+    "UU 27 tahun 2026",
+    "UU pelindungan ketenagakerjaan",
+    "PHK",
+    "hak pekerja",
+    "Kemnaker",
+    "Danantara pesangon hoaks",
+    "Sritex pesangon",
+    "BPJS Ketenagakerjaan",
+    "JKP",
+    "jaminan kehilangan pekerjaan",
+    "buruh",
+    "karyawan",
+    "ekonomi indonesia",
+    "edukasi keuangan",
+    "Abfertigung Neu",
+    "what if"
+  ],
+  "hashtags": [
+    "#Pesangon",
+    "#PHK",
+    "#HakPekerja",
+    "#EkonomiIndonesia",
+    "#Kemnaker"
+  ],
   "thumbs": {
-    "v1": {"top": "PESANGON", "main": "DITITIPKAN?", "emoji": "💰"},
-    "v2": {"kicker": "", "main": "8.475\nMENUNGGU", "bottom": "", "emoji": "🏭"},
-    "v3": {"top": "", "left": "KAS PABRIK", "right": "DITITIPKAN", "leftEmoji": "🏚️", "rightEmoji": "🏛️"}
+    "v1": {
+      "top": "PESANGON",
+      "main": "DITITIPKAN?",
+      "emoji": "💰"
+    },
+    "v2": {
+      "kicker": "",
+      "main": "8.475\nMENUNGGU",
+      "bottom": "",
+      "emoji": "🏭"
+    },
+    "v3": {
+      "top": "",
+      "left": "KAS PABRIK",
+      "right": "DITITIPKAN",
+      "leftEmoji": "🏚️",
+      "rightEmoji": "🏛️"
+    }
   }
 }
