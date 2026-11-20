@@ -1,4 +1,4 @@
-import {AbsoluteFill, interpolate} from 'remotion';
+import {AbsoluteFill, interpolate, OffthreadVideo, staticFile, useVideoConfig} from 'remotion';
 import {Abs, Pop, usePop, useSec} from '../pasar-hijau/lib';
 import {fmt, ramp} from '../rupiah/scenes';
 import {C, FONT} from '../theme';
@@ -369,5 +369,24 @@ export const JavaMap: React.FC<{routeAt?: number; waveAt?: number; title?: Word;
         </Abs>
       ) : null}
     </Stage>
+  );
+};
+
+// Klip video jadi (mis. adegan 3D "bongkar" dari motion-reel) yang diputar tanpa suara di dalam storyboard.
+export const Clip: React.FC<{src: string; startSec?: number; lines?: Word[]}> = ({src, startSec = 0, lines = []}) => {
+  const {fps} = useVideoConfig();
+  const sec = useSec();
+  const cur = [...lines].reverse().find((l) => sec >= l.at);
+  return (
+    <AbsoluteFill style={{background: '#161514'}}>
+      <OffthreadVideo src={staticFile(src)} startFrom={Math.round(startSec * fps)} muted />
+      {cur ? (
+        <Abs x={0} y={150} style={{width: 1920, textAlign: 'center'}} key={cur.t}>
+          <Pop at={cur.at}>
+            <div style={{display: 'inline-block', fontFamily: FONT, fontWeight: 900, fontSize: cur.size ?? 70, color: cur.color ?? '#fff', background: 'rgba(14,13,12,0.62)', padding: '10px 30px', borderRadius: 16}}>{cur.t}</div>
+          </Pop>
+        </Abs>
+      ) : null}
+    </AbsoluteFill>
   );
 };

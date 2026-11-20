@@ -1,10 +1,10 @@
-import {AbsoluteFill, interpolate, Sequence, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Audio, interpolate, OffthreadVideo, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Ambient} from '../components/Ambient';
 import {VIDEOS, WhatIfBySlug} from '../videos/registry';
 import {C, FONT} from '../theme';
 import shorts from './shorts.json';
 
-export const SHORTS = shorts;
+export const SHORTS = shorts as {slug: string; id: string; from: number; to: number; hook: string; title: string; clip?: string; badge?: string}[];
 const W = 1080;
 const VH = Math.round((W * 1080) / 1920);
 
@@ -30,19 +30,26 @@ export const Short: React.FC<{id: string}> = ({id}) => {
       <Ambient color="#7b5cff" base="#100c20" particles={30} />
       <div style={{position: 'absolute', top: 120, left: 40, right: 40, transform: `scale(${hookIn * pulse})`}}>
         <div style={{display: 'flex', justifyContent: 'center', marginBottom: 18}}>
-          <div style={{background: C.yellow, border: `6px solid ${C.ink}`, borderRadius: 14, padding: '4px 22px', fontFamily: FONT, fontWeight: 900, fontSize: 44, color: C.ink}}>WHAT IF</div>
+          <div style={{background: C.yellow, border: `6px solid ${C.ink}`, borderRadius: 14, padding: '4px 22px', fontFamily: FONT, fontWeight: 900, fontSize: 44, color: C.ink}}>{s.badge ?? 'WHAT IF'}</div>
         </div>
         <Outline text={s.hook} size={84} />
       </div>
-      <div style={{position: 'absolute', top: 560, left: 0, width: W, height: VH, overflow: 'hidden', borderTop: `8px solid ${C.ink}`, borderBottom: `8px solid ${C.ink}`, boxShadow: '0 0 80px rgba(123,92,255,0.6)'}}>
+      {s.clip ? (
+        <AbsoluteFill>
+          <OffthreadVideo src={staticFile(s.clip)} muted />
+          <Audio src={staticFile(`vo_${s.slug}.mp3`)} startFrom={Math.round(s.from * fps)} />
+          <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,10,12,0.85) 0%, rgba(10,10,12,0) 28%, rgba(10,10,12,0) 70%, rgba(10,10,12,0.8) 100%)'}} />
+        </AbsoluteFill>
+      ) : null}
+      {s.clip ? null : (<div style={{position: 'absolute', top: 560, left: 0, width: W, height: VH, overflow: 'hidden', borderTop: `8px solid ${C.ink}`, borderBottom: `8px solid ${C.ink}`, boxShadow: '0 0 80px rgba(123,92,255,0.6)'}}>
         <div style={{width: 1920, height: 1080, transform: `scale(${W / 1920})`, transformOrigin: 'top left'}}>
           <Sequence from={-Math.round(s.from * fps)}>
             <WhatIfBySlug slug={s.slug} hideCaptions />
           </Sequence>
         </div>
-      </div>
+      </div>)}
       {cue && (
-        <div style={{position: 'absolute', top: 1290, left: 50, right: 50, display: 'flex', justifyContent: 'center'}}>
+        <div style={{position: 'absolute', top: s.clip ? 1480 : 1290, left: 50, right: 50, display: 'flex', justifyContent: 'center'}}>
           <Outline text={cue.text} size={74} color={cue.text.includes(':') ? C.yellow : '#fff'} />
         </div>
       )}

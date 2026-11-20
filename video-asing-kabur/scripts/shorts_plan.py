@@ -47,8 +47,6 @@ PLAN = [
     ('pesangon', 'psg-hook', 0, 6, 'SEMISAL NIH PABRIKMU\nBANGKRUT BESOK', 'Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK'),
     ('pesangon', 'psg-austria', 27, 38, 'CARA AUSTRIA AGAR\nPESANGON TAK HILANG', 'Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh'),
     ('pesangon', 'psg-hoaks', 14, 17, 'PESANGON DISETOR\nKE DANANTARA?', 'Pesangon Disetor ke Danantara? Ini Faktanya #pesangon #hoaks'),
-    ('pesangon', 'psg-pp', 45, 50, '3 PERTANYAAN\nSOAL PESANGONMU', '3 Pertanyaan yang Harus Dijawab Soal Dana Pesangon #pesangon #PHK'),
-    ('pesangon', 'psg-raka', 32, 37, 'SIMULASI: PESANGON\nRAKA RP6,4 JUTA', 'Simulasi Dana Pesangon: Gaji 5 Juta, 7 Tahun Jadi Berapa? #pesangon'),
 ]
 
 out = []
@@ -61,4 +59,20 @@ for slug, sid, a, b, hook, title in PLAN:
         end = lines[b]['end'] + 0.6
     out.append({'id': sid, 'slug': slug, 'from': round(start, 2), 'to': round(end, 2), 'hook': hook, 'title': title, 'lastLine': b})
     print(f'{sid:16} {end - start:5.1f}s  baris {a}-{b}')
+# Shorts dari adegan 3D "bongkar" (render 9:16 motion-reel): mulai tepat di awal baris a, sepanjang klipnya.
+CLIPS = [
+    ('pesangon', 'psg-b1', 8, 23.6, 'DANA PESANGONMU\nDIBONGKAR', 'Dana Pesangon Dibongkar: Uangmu Sebenarnya ke Mana? #pesangon #PHK'),
+    ('pesangon', 'psg-b2', 19, 37.6, 'KENAPA PESANGON\nMACET SAAT PAILIT?', 'Kenapa Pesangon Macet Saat Pabrik Pailit? #pesangon #buruh'),
+    ('pesangon', 'psg-b3', 32, 24.0, 'SLIP GAJI DIBONGKAR:\nRP76.500 UNTUK PESANGON', 'Slip Gaji Dibongkar: Rp76.500 per Bulan untuk Pesangon? #pesangon #gaji'),
+    ('pesangon', 'psg-b4', 45, 20.0, '3 PERTANYAAN\nYANG BELUM DIJAWAB', 'Dana Pesangon: 3 Pertanyaan yang Belum Dijawab Pemerintah #pesangon'),
+]
+for slug, sid, a, dur, hook, title in CLIPS:
+    lines = json.load(open(f'src/videos/{slug}/lines.json', encoding='utf-8'))
+    caps = json.load(open(f'src/videos/{slug}/captions.json', encoding='utf-8'))
+    start = next(c['start'] for c in caps if c['start'] >= lines[a]['start'] - 0.05)
+    out.append({'id': sid, 'slug': slug, 'from': round(start, 3), 'to': round(start + dur - 0.1, 3), 'hook': hook, 'title': title, 'clip': f'bongkar/{sid}-9x16.mp4', 'badge': 'DIBONGKAR'})
+    print(f'{sid:16} {dur:5.1f}s  klip 3D')
+for o in out:
+    if o['slug'] == 'pesangon' and 'badge' not in o:
+        o['badge'] = 'PESANGON'
 json.dump(out, open('src/shorts/shorts.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

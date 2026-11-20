@@ -26,7 +26,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   {start: 0, el: <N.Cover data={meta.thumbs} />},
   {start: K(0, 1), el: <N.Kinetic words={[w('MULAI 2027', K(0, 1), C.red, 150), w('dititipkan ke negara', K(0, 2), undefined, 100)]} mark="2027" />, sfx: 'boom'},
   {start: K(1), el: <N.Counter from={0} to={8475} at={K(1)} dur={1.3} label="Buruh masih menunggu pesangon" suffix=" orang" color={C.red} sub={w('lebih dari setahun setelah pabrik pailit', K(1, 3), C.red, 50)} dark mark="PAILIT" />, sfx: 'thump'},
-  {start: K(2), el: <N.Flow at={K(2)} left="GAJI SETIAP BULAN" right="DANA PESANGON" label={w('🇦🇹 Austria: 1,53% gaji tiap bulan', K(2, 2), C.green)} />, sfx: 'whoosh'},
+  {start: K(2), el: <N.Clip src="bongkar/psg-b3-16x9.mp4" startSec={16.5} lines={[w('🇦🇹 Austria: 1,53% gaji tiap bulan', K(2, 1), C.green, 64)]} />, sfx: 'whoosh'},
   {start: K(3), el: <N.Headlines items={[{src: 'PESAN BERANTAI', text: '"Disetor ke Danantara"', at: K(3)}, {src: 'KEMNAKER', text: 'Sudah dibantah ✕', at: K(3, 2)}]} dark mark="HOAKS" />, sfx: 'thump'},
   {start: K(4), el: <S.TwoDoors a={{text: 'RISIKO BARU', at: K(4, 3)}} b={{text: 'LEBIH AMAN', at: K(4, 1)}} lines={[{text: 'Pertanyaannya:', at: K(4), size: 60}]} />, sfx: 'riser'},
   {start: K(5), el: <S.Cards title={{text: 'DI VIDEO INI', at: K(5), size: 76}} cards={[{e: '📜', t: 'Aturannya', at: K(5, 1), color: '#3b7be0'}, {e: '🎲', t: '3 skenario', at: K(5, 2), color: C.yellow}, {e: '✅', t: '4 hal dicek', at: K(5, 3), color: C.green}]} />},
@@ -34,9 +34,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
 
   // BAGIAN 1
   {start: L(7, -0.2), el: <N.Part n={1} title="Aturannya sebenarnya apa?" at={L(7)} />, sfx: 'boom'},
-  {start: K(8), el: <N.Headlines items={[{src: 'DASAR HUKUM', text: 'UU No. 27/2026 tentang Pelindungan Ketenagakerjaan', at: K(8, 1)}, {src: 'DIUNDANGKAN', text: '28 Oktober 2026', at: K(8, 4)}]} mark="UU 27" />},
-  {start: K(9), el: <N.Kinetic words={[w('PASAL 253', K(9), C.red, 150), w('dana cadangan pesangon', K(9, 2)), w('sumber pembayaran saat PHK', K(9, 4), BLUE)]} mark="253" />, sfx: 'thump'},
-  {start: K(10), el: <S.Split at={K(10, 2)} left="DULU: KAS PERUSAHAAN" right="NANTI: LEMBAGA PEMERINTAH" lines={[{text: 'Siapa yang memegang uangnya?', at: K(10), size: 54}]} />},
+  {start: K(8), el: <N.Clip src="bongkar/psg-b1-16x9.mp4" />, sfx: 'whoosh'},
   {start: K(11), el: <S.Cards title={{text: 'SIAPA YANG WAJIB?', at: K(11), size: 76}} cards={[{e: '🏪', t: 'Usaha mikro & kecil', sub: 'DIKECUALIKAN', at: K(11, 1), color: C.green}, {e: '🏭', t: 'Usaha menengah & besar', sub: 'WAJIB', at: K(11, 4), color: C.red}]} />},
   {start: K(12), el: <N.Timeline title={w('Tenggat', K(12))} items={[{date: '28 OKT 2026', text: 'UU diundangkan', at: K(12), color: BLUE}, {date: 'OKT 2027', text: 'Dana wajib dipindahkan', at: K(12, 3), color: C.red}]} />},
   {start: K(13), el: <S.Domino items={[{e: '📝', t: 'Peringatan tertulis'}, {e: '⛔', t: 'Pembatasan usaha'}, {e: '❌', t: 'Izin dicabut'}]} startAt={K(13, 1)} lines={[{text: 'Sanksi bertahap', at: K(13), size: 60}]} />},
@@ -46,10 +44,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
 
   // BAGIAN 2
   {start: L(18, -0.2), el: <N.Part n={2} title="Kenapa aturan ini muncul?" at={L(18)} />, sfx: 'boom'},
-  {start: K(19), el: <N.Flow at={K(19, 1)} left="KAS PERUSAHAAN" right="PESANGON SAAT PHK" label={w('Cara lama: dibayar saat PHK terjadi', K(19, 2), BLUE)} />},
-  {start: K(20), el: <N.Counter from={100} to={0} at={K(20, 1)} dur={1.2} label="Kas perusahaan saat bangkrut" prefix="" suffix="%" color={C.red} sub={w('Justru saat paling dibutuhkan', K(20, 2), C.red)} dark mark="KOSONG" />, sfx: 'boom'},
-  {start: K(21), el: <N.Timeline title={w('Proses pailit', K(21))} items={[{date: '1', text: 'Pekerja: kreditur didahulukan', at: K(21, 2), color: C.green}, {date: '2', text: 'Aset dijual kurator', at: K(21, 5)}, {date: '3', text: 'Baru pesangon dibayar', at: K(22, 1), color: C.red}]} />},
-  {start: K(22, 2), el: <S.Cards title={{text: 'SAMBIL MENUNGGU...', at: K(22, 2), size: 72, color: C.red}} cards={[{e: '🍚', t: 'Tetap harus makan', at: K(22, 3)}, {e: '🧾', t: 'Cicilan jalan terus', at: K(22, 4)}, {e: '🏦', t: 'Aset dijaminkan ke bank', sub: 'dibagi banyak pihak', at: K(22, 6)}]} />},
+  {start: K(19), el: <N.Clip src="bongkar/psg-b2-16x9.mp4" />, sfx: 'whoosh'},
   {start: K(23), el: <T.Dialog set="street" left={[{who: 'kamu', face: 'serius'}]} right={[{who: 'raka', pose: 'headInHands', face: 'sedih'}]} talks={[{name: 'Raka', who: 'raka', text: 'Bro, kalau pabrikku tutup, pesangonku diambil dari mana? Kasnya aja katanya lagi seret.', at: K(23), side: 'right'}]} />},
   {start: K(24), el: <N.Kinetic words={[w('Pertanyaan', K(24)), w('JUTAAN PEKERJA', K(24, 1), C.red, 140)]} dark />},
   {start: K(25), el: <S.Split at={K(25, 2)} left="MINJAM SAAT SUDAH SAKIT" right="NABUNG SEBELUM SAKIT" lines={[{text: 'Analogi dana darurat', at: K(25), size: 56}]} />},
@@ -60,9 +55,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   {start: K(28), el: <N.Kinetic words={[w('Belajar dari negara lain', K(28)), w('🇦🇹 AUSTRIA', K(29), C.red, 150), w('sejak 2003 · "Abfertigung Neu"', K(29, 1))]} mark="AUSTRIA" />, sfx: 'whoosh'},
   {start: K(30), el: <N.Counter from={0} to={1.53} decimals={2} at={K(30, 2)} dur={1.2} label="Setoran perusahaan per bulan (Austria)" suffix="% gaji" color={C.green} sub={w('mulai bulan ke-2 · ke rekening atas nama pekerja', K(30, 6), undefined, 46)} mark="1,53%" />, sfx: 'ding'},
   {start: K(31), el: <S.Cards flow="in" title={{text: 'CIRI SISTEMNYA', at: K(31), size: 76, color: C.green}} cards={[{e: '📈', t: 'Saldo terus bertambah', at: K(31)}, {e: '🔁', t: 'Pindah kerja', sub: 'saldo ikut', at: K(31, 2)}, {e: '👀', t: 'Tahu haknya', sub: 'tanpa menunggu bangkrut', at: K(31, 4)}]} />},
-  {start: K(32), el: <N.Kinetic words={[w('Simulasi Raka', K(32), undefined, 120), w('ILUSTRASI angka Austria', K(32, 2), C.red, 90), w('besaran di Indonesia belum ditetapkan', K(32, 4))]} dark mark="SIMULASI" />},
-  {start: K(33), el: <N.Counter from={0} to={76500} at={K(33, 3)} dur={1.4} label="1,53% dari gaji Rp5 juta" prefix="Rp" suffix="/bulan" color={BLUE} mark="RAKA" />},
-  {start: K(34), el: <T.Balance label="TABUNGAN PESANGON RAKA (ILUSTRASI)" sub="▲ 7 tahun · belum termasuk hasil pengembangan" steps={[{at: K(34), v: 0}, {at: K(34, 3), v: 6426000}]} lines={[{text: '84 bulan × Rp76.500', at: K(34, 1), size: 50}]} />, sfx: 'ding'},
+  {start: K(32), el: <N.Clip src="bongkar/psg-b3-16x9.mp4" />, sfx: 'whoosh'},
   {start: K(35), el: <S.Split at={K(35, 3)} left="KAS PERUSAHAAN" right="DANA RAKA (TERPISAH)" lines={[{text: 'Yang penting: uangnya SUDAH ADA', at: K(35, 2), size: 52, color: C.green}]} />},
   {start: KW(35, 'Indonesia'), el: <N.Kinetic words={[w('Di Indonesia:', KW(35, 'Indonesia')), w('besaran pesangon tetap ikut aturan', KW(35, 'Indonesia') + 1.5, undefined, 80), w('dana cadangan = SUMBER pembayarannya', KW(35, 'sumber'), '#3b7be0', 84)]} mark="SUMBER" />},
   {start: K(36), el: <N.Kinetic words={[w('Pabrik tutup besok? 🏭', K(36)), w('Uang Raka TIDAK ikut tenggelam', K(36, 2), C.green, 100)]} mark="AMAN" />, sfx: 'thump'},
@@ -76,7 +69,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   {start: K(42), el: <S.Domino items={[{e: '👷', t: 'Jutaan pekerja'}, {e: '📅', t: 'Setiap bulan'}, {e: '⏳', t: 'Bertahun-tahun'}, {e: '🏦', t: 'Dana raksasa'}]} startAt={K(42, 2)} lines={[{text: 'Pengelolaan jadi sangat penting', at: K(42), size: 56}]} />},
   {start: K(43), el: <N.Headlines items={[{src: 'PELAJARAN MAHAL', text: 'Kasus Jiwasraya', at: K(43, 1)}, {src: 'PELAJARAN MAHAL', text: 'Kasus Asabri', at: K(43, 2)}, {src: 'POLANYA', text: 'Dana besar + pengawasan lemah = rugi triliunan', at: K(43, 4)}]} dark mark="AWASI" />, sfx: 'thump'},
   {start: K(44), el: <N.Kinetic words={[w('Bukan tuduhan', K(44)), w('pengelolanya belum ditunjuk', K(44, 2)), w('→ aturan harus sangat hati-hati', K(44, 4), BLUE, 90)]} />},
-  {start: K(45), el: <S.Cards title={{text: '3 PERTANYAAN UNTUK PP', at: K(45), size: 72, color: C.red}} cards={[{e: '🪪', t: 'Rekening atas nama?', sub: 'saldo bisa dicek', at: K(46), color: BLUE}, {e: '📊', t: 'Diinvestasikan di mana?', sub: 'siapa mengawasi', at: K(47), color: C.yellow}, {e: '⚖️', t: 'Kalau rugi?', sub: 'siapa menanggung', at: K(48), color: C.red}]} />},
+  {start: K(45), el: <N.Clip src="bongkar/psg-b4-16x9.mp4" />, sfx: 'whoosh'},
   {start: K(49), el: <T.Dialog set="house" left={[{who: 'kamu', face: 'serius'}]} right={[{who: 'raka', face: 'serius'}]} talks={[{name: 'Raka', who: 'raka', text: 'Aku nggak masalah uangku dititipkan. Asal aku bisa lihat saldonya, kayak lihat saldo BPJS.', at: K(49), side: 'right'}]} />},
   {start: K(50), el: <N.Kinetic words={[w('Tanpa jawaban jelas', K(50)), w('niat melindungi', K(50, 2)), w('→ sumber curiga baru', K(50, 4), C.red, 110)]} dark mark="?" />},
 

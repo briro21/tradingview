@@ -1,2 +1,6 @@
 node_modules
 out
+bongkar/node_modules
+bongkar/out
+bongkar/*/audio/*.wav
+public/bongkar

@@ -330,7 +330,8 @@
   "to": 36.48,
   "hook": "SEMISAL NIH PABRIKMU\nBANGKRUT BESOK",
   "title": "Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK",
-  "lastLine": 6
+  "lastLine": 6,
+  "badge": "PESANGON"
  },
  {
   "id": "psg-austria",
@@ -339,7 +340,8 @@
   "to": 244.27,
   "hook": "CARA AUSTRIA AGAR\nPESANGON TAK HILANG",
   "title": "Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh",
-  "lastLine": 33
+  "lastLine": 33,
+  "badge": "PESANGON"
  },
  {
   "id": "psg-hoaks",
@@ -348,24 +350,47 @@
   "to": 127.48,
   "hook": "PESANGON DISETOR\nKE DANANTARA?",
   "title": "Pesangon Disetor ke Danantara? Ini Faktanya #pesangon #hoaks",
-  "lastLine": 17
+  "lastLine": 17,
+  "badge": "PESANGON"
  },
  {
-  "id": "psg-pp",
+  "id": "psg-b1",
   "slug": "pesangon",
-  "from": 345.95,
-  "to": 378.98,
-  "hook": "3 PERTANYAAN\nSOAL PESANGONMU",
-  "title": "3 Pertanyaan yang Harus Dijawab Soal Dana Pesangon #pesangon #PHK",
-  "lastLine": 50
+  "from": 40.382,
+  "to": 63.882,
+  "hook": "DANA PESANGONMU\nDIBONGKAR",
+  "title": "Dana Pesangon Dibongkar: Uangmu Sebenarnya ke Mana? #pesangon #PHK",
+  "clip": "bongkar/psg-b1-9x16.mp4",
+  "badge": "DIBONGKAR"
  },
  {
-  "id": "psg-raka",
+  "id": "psg-b2",
   "slug": "pesangon",
-  "from": 227.05,
-  "to": 279.95,
-  "hook": "SIMULASI: PESANGON\nRAKA RP6,4 JUTA",
-  "title": "Simulasi Dana Pesangon: Gaji 5 Juta, 7 Tahun Jadi Berapa? #pesangon",
-  "lastLine": 37
+  "from": 131.196,
+  "to": 168.696,
+  "hook": "KENAPA PESANGON\nMACET SAAT PAILIT?",
+  "title": "Kenapa Pesangon Macet Saat Pabrik Pailit? #pesangon #buruh",
+  "clip": "bongkar/psg-b2-9x16.mp4",
+  "badge": "DIBONGKAR"
+ },
+ {
+  "id": "psg-b3",
+  "slug": "pesangon",
+  "from": 227.348,
+  "to": 251.248,
+  "hook": "SLIP GAJI DIBONGKAR:\nRP76.500 UNTUK PESANGON",
+  "title": "Slip Gaji Dibongkar: Rp76.500 per Bulan untuk Pesangon? #pesangon #gaji",
+  "clip": "bongkar/psg-b3-9x16.mp4",
+  "badge": "DIBONGKAR"
+ },
+ {
+  "id": "psg-b4",
+  "slug": "pesangon",
+  "from": 346.248,
+  "to": 366.148,
+  "hook": "3 PERTANYAAN\nYANG BELUM DIJAWAB",
+  "title": "Dana Pesangon: 3 Pertanyaan yang Belum Dijawab Pemerintah #pesangon",
+  "clip": "bongkar/psg-b4-9x16.mp4",
+  "badge": "DIBONGKAR"
  }
 ]
