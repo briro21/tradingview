@@ -49,7 +49,7 @@ export const Short: React.FC<{id: string}> = ({id}) => {
         </div>
       </div>)}
       {cue && (
-        <div style={{position: 'absolute', top: s.clip ? 1480 : 1290, left: 50, right: 50, display: 'flex', justifyContent: 'center'}}>
+        <div style={{position: 'absolute', top: s.clip ? 1360 : 1290, left: 50, right: 50, display: 'flex', justifyContent: 'center'}}>
           <Outline text={cue.text} size={74} color={cue.text.includes(':') ? C.yellow : '#fff'} />
         </div>
       )}
