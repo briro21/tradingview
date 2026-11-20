@@ -327,7 +327,7 @@
   "id": "psg-hook",
   "slug": "pesangon",
   "from": 0,
-  "to": 55.52,
+  "to": 36.48,
   "hook": "SEMISAL NIH PABRIKMU\nBANGKRUT BESOK",
   "title": "Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK",
   "lastLine": 6
@@ -335,10 +335,37 @@
  {
   "id": "psg-austria",
   "slug": "pesangon",
-  "from": 211.23,
-  "to": 264.12,
+  "from": 192.19,
+  "to": 244.27,
   "hook": "CARA AUSTRIA AGAR\nPESANGON TAK HILANG",
   "title": "Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh",
   "lastLine": 33
+ },
+ {
+  "id": "psg-hoaks",
+  "slug": "pesangon",
+  "from": 91.59,
+  "to": 127.48,
+  "hook": "PESANGON DISETOR\nKE DANANTARA?",
+  "title": "Pesangon Disetor ke Danantara? Ini Faktanya #pesangon #hoaks",
+  "lastLine": 17
+ },
+ {
+  "id": "psg-pp",
+  "slug": "pesangon",
+  "from": 345.95,
+  "to": 378.98,
+  "hook": "3 PERTANYAAN\nSOAL PESANGONMU",
+  "title": "3 Pertanyaan yang Harus Dijawab Soal Dana Pesangon #pesangon #PHK",
+  "lastLine": 50
+ },
+ {
+  "id": "psg-raka",
+  "slug": "pesangon",
+  "from": 227.05,
+  "to": 279.95,
+  "hook": "SIMULASI: PESANGON\nRAKA RP6,4 JUTA",
+  "title": "Simulasi Dana Pesangon: Gaji 5 Juta, 7 Tahun Jadi Berapa? #pesangon",
+  "lastLine": 37
  }
 ]

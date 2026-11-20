@@ -44,8 +44,11 @@ PLAN = [
     ('ihsg-crash', 'ihc-msci', 8, 17, 'SIAPA SEBENARNYA\nMSCI?', 'Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG? #MSCI #saham'),
     ('badak-jawa', 'bdk-hook', 0, 12, 'HANYA 80–100 BADAK JAWA\nTERSISA DI DUNIA', 'Hanya 80 Badak Jawa Tersisa, Kenapa Mau Dipindah? #badakjawa #ujungkulon'),
     ('badak-jawa', 'bdk-emas', 53, 58, 'EMAS HABIS,\nEKOWISATA BERULANG', 'Tambang Emas vs Ekowisata: Mana yang Lebih Untung? #badakjawa #ekonomi'),
-    ('pesangon', 'psg-hook', 0, 7, 'SEMISAL NIH PABRIKMU\nBANGKRUT BESOK', 'Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK'),
+    ('pesangon', 'psg-hook', 0, 6, 'SEMISAL NIH PABRIKMU\nBANGKRUT BESOK', 'Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK'),
     ('pesangon', 'psg-austria', 27, 38, 'CARA AUSTRIA AGAR\nPESANGON TAK HILANG', 'Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh'),
+    ('pesangon', 'psg-hoaks', 14, 17, 'PESANGON DISETOR\nKE DANANTARA?', 'Pesangon Disetor ke Danantara? Ini Faktanya #pesangon #hoaks'),
+    ('pesangon', 'psg-pp', 45, 50, '3 PERTANYAAN\nSOAL PESANGONMU', '3 Pertanyaan yang Harus Dijawab Soal Dana Pesangon #pesangon #PHK'),
+    ('pesangon', 'psg-raka', 32, 37, 'SIMULASI: PESANGON\nRAKA RP6,4 JUTA', 'Simulasi Dana Pesangon: Gaji 5 Juta, 7 Tahun Jadi Berapa? #pesangon'),
 ]
 
 out = []

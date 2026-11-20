@@ -18,13 +18,13 @@ Mulai 2027, perusahaan menengah dan besar wajib menyisihkan dana cadangan pesang
 Di video ini kita bahas apa yang sudah pasti (dasar hukum, siapa yang wajib, tenggat Oktober 2027, sanksi) dan apa yang belum (besaran setoran, lembaga pengelola, cara pencairan, yang masih menunggu Peraturan Pemerintah), meluruskan kabar bahwa dana ini disetor ke Danantara, lalu menjalankan tiga skenario: berjalan baik (belajar dari sistem Abfertigung Neu di Austria), dikelola buruk, dan bagaimana perusahaan bereaksi. Di akhir: empat hal yang perlu kamu cek mulai hari ini.
 
 ⏱️ Timestamp
-0:00 8.475 orang menunggu pesangon
-0:55 Bagian 1: Aturannya sebenarnya apa?
-2:26 Bagian 2: Kenapa aturan ini muncul?
-3:31 Skenario 1: berjalan baik (contoh Austria)
-5:07 Skenario 2: dikelola buruk
-6:28 Skenario 3: perusahaan bereaksi
-7:27 Yang perlu kamu cek hari ini
+0:00 Pesangon dititipkan ke negara
+0:36 Bagian 1: Aturannya sebenarnya apa?
+2:07 Bagian 2: Kenapa aturan ini muncul?
+3:12 Skenario 1: berjalan baik (contoh Austria)
+4:57 Skenario 2: dikelola buruk
+6:18 Skenario 3: perusahaan bereaksi
+7:17 Yang perlu kamu cek hari ini
 
 💬 Kalau kamu boleh memilih, pesangonmu lebih aman disimpan perusahaan atau dititipkan ke lembaga pemerintah? Kenapa? Tulis di kolom komentar.
 
