@@ -1,4 +1,4 @@
-# Paket Shorts (38 video, 9:16)
+# Paket Shorts (41 video, 9:16)
 
 Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Video terkait"** (Related video) di YouTube Studio dengan video lengkapnya, supaya penonton bisa langsung pindah ke video panjang.
 
@@ -266,6 +266,27 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 **Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
 **Deskripsi:**
 > Austria Punya Cara Agar Pesangon Tidak Pernah Hilang. Penjelasan lengkap 9 menit ada di channel ini.
+> Detail aturan masih menunggu PP. #shorts #pesangon #PHK
+
+## Hari 39 · `psg-hoaks.mp4`
+**Judul:** Pesangon Disetor ke Danantara? Ini Faktanya #pesangon #hoaks
+**Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
+**Deskripsi:**
+> Pesangon Disetor ke Danantara? Ini Faktanya. Penjelasan lengkap 9 menit ada di channel ini.
+> Detail aturan masih menunggu PP. #shorts #pesangon #PHK
+
+## Hari 40 · `psg-pp.mp4`
+**Judul:** 3 Pertanyaan yang Harus Dijawab Soal Dana Pesangon #pesangon #PHK
+**Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
+**Deskripsi:**
+> 3 Pertanyaan yang Harus Dijawab Soal Dana Pesangon. Penjelasan lengkap 9 menit ada di channel ini.
+> Detail aturan masih menunggu PP. #shorts #pesangon #PHK
+
+## Hari 41 · `psg-raka.mp4`
+**Judul:** Simulasi Dana Pesangon: Gaji 5 Juta, 7 Tahun Jadi Berapa? #pesangon
+**Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
+**Deskripsi:**
+> Simulasi Dana Pesangon: Gaji 5 Juta, 7 Tahun Jadi Berapa?. Penjelasan lengkap 9 menit ada di channel ini.
 > Detail aturan masih menunggu PP. #shorts #pesangon #PHK
 
 ## Tips
