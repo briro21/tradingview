@@ -1,0 +1,13 @@
+Part five. OpenAI, ten times worse?
+
+Elson's view is blunt. Whatever has gone wrong at Anthropic, he says, it's ten times worse at OpenAI. Anthropic lost a little over a billion dollars on an operating basis in the first three quarters of this year. OpenAI, he says, lost more than twenty billion last year.
+
+Then there's the fundraising. According to Zitron, OpenAI went to investors in the Middle East hoping to raise thirty billion dollars at a one point four trillion dollar valuation. It came back with eleven billion, at one point two five trillion. Zitron points out that eleven billion is roughly the size of one quarter's operating loss. And OpenAI, he says, has around seven hundred fifty billion dollars of commitments through twenty thirty, plus hundreds of millions of free users whose chatbot use costs real money to serve. When OpenAI talks up a billion-dollar annualized run rate from ads, Zitron's reply is simple: stop using run rates.
+
+His prediction is the boldest of the two hours: that OpenAI may never go public at all, and could simply run out of money. He also cites Ramp data suggesting around eighty percent of OpenAI and Anthropic's business revenue comes from just one percent of customers, mostly startups funded by venture money.
+
+Elson expects a different path: the era of down rounds, when companies valued sky high in private markets face the public market's price check. And he has a warning for founders who trust their backers. Investors, he says, are not like your parents. They will let you die.
+
+Zitron adds that venture capital has been on a long losing streak, returning roughly ninety cents to a dollar thirty for each dollar invested since the late twenty-tens.
+
+So with Nvidia leaderless, Anthropic discounted and OpenAI short of cash, what happens now?

@@ -1,0 +1,17 @@
+Part three. The IPO that shrank.
+
+Anthropic, the maker of Claude, is going public. According to Ed Elson, it hoped for a valuation near two trillion dollars. Now the range is closer to one to one point four trillion, and the amount it wants to raise has dropped from about one hundred billion dollars to sixty-five billion.
+
+Why the discount? Both men point to the filing itself. Anthropic disclosed eight hundred ninety-five billion dollars of commitments, mostly for computing power, spread over the coming years. Elson estimates its compute bill could jump to one hundred to one hundred fifty billion dollars next year.
+
+Meanwhile, growth is slowing. Zitron says quarterly revenue growth fell from around one hundred fifty percent to forty-seven percent, and data from the spending platform Ramp, he says, points even lower for this quarter.
+
+That brief moment when Anthropic looked profitable? Zitron argues it came from a temporary discount on computing power, and that the company described in the filing no longer really exists.
+
+But here's the balance. Elson actually defends Anthropic on one point. He expected creative accounting, the kind of numbers that strip out training costs. Instead, the losses are in the income statement, and the filing openly warns that heavy spending will change its cash flow. On the scale of dodginess in AI, he puts Anthropic on the less dodgy side.
+
+Zitron's sharper worry is about who buys in. The point of an IPO, he says, used to be getting in early, like Google at twenty-six billion dollars. At over a trillion, where is the upside for ordinary investors?
+
+If this video is helping you make sense of the AI money story, subscribing is how you'll catch the next chapter.
+
+Because the next question is whether the money is still there.

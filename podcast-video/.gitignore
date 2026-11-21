@@ -9,3 +9,5 @@ out-reel.log
 out-ep8*.log
 ep9-reel/audio/*.wav
 out-ep9*.log
+*-reel/audio/*.wav
+out-ep10*.log

@@ -250,3 +250,28 @@ export const V3Ep9C: React.FC = () => (
     </div>
   </Bg>
 );
+
+// ---------- Episode 10: Ed Zitron's week (A = frame 0 of the motion film, dossier look) ----------
+
+/** B: "WITHOUT JENSEN / IT FALLS". */
+export const V3Ep10B: React.FC = () => (
+  <Bg dark>
+    <Guest n={10} height={700} left={10} src="thumbs/photo_zitron.png" />
+    <div style={{ position: "absolute", right: 60, top: 170, textAlign: "right" }}>
+      <Big size={130} color="#FFFFFF">WITHOUT JENSEN</Big>
+      <Big size={210} color={red} style={{ marginTop: 4 }}>IT FALLS</Big>
+    </div>
+  </Bg>
+);
+
+/** C: OpenAI never public. */
+export const V3Ep10C: React.FC = () => (
+  <Bg dark glow={theme.orange}>
+    <Guest n={10} height={700} left={10} src="thumbs/photo_zitron.png" />
+    <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
+      <Big size={140} color={yellow}>OPENAI:</Big>
+      <Big size={170} color={red} style={{ marginTop: 4 }}>NEVER</Big>
+      <Big size={140} color="#FFFFFF">PUBLIC?</Big>
+    </div>
+  </Bg>
+);

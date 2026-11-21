@@ -799,3 +799,75 @@ SH4 (SH22)  Title: Why Mark Cuban Is Keeping Cash Right Now
 Every Short: put the main video in "Related video".
 
 ```
+
+
+---
+
+# Episode 10: Ed Zitron's week (Better Offline + Tech Won't Save Us)
+
+Video: `out/ep10-reel/final.mp4` (motion + Halftone Dossier opening/part cards from Lemo-Opuscar, 11:05) · SRT: `out/ep10-reel/episode10.srt`
+Thumbnail: `out/ep10-thumbnail-A/B/C.png` (A = frame 0) · Shorts: `out/ep10-short1..4.mp4`
+Sources fetched from the podcasts' RSS transcripts (YouTube blocks transcript requests from the cloud).
+
+```
+=== TITLES + THUMBNAILS ===
+A) Ed Zitron: The AI Bubble Was One Man. Now He's Gone.
+   Thumbnail A = first frame of the video (dossier look: Ed + "THE AI BUBBLE WAS ONE MAN") -> out/ep10-thumbnail-A.png
+B) Ed Zitron WARNS: Without Jensen Huang, the AI Bubble Can't Survive
+   Thumbnail B: "WITHOUT JENSEN / IT FALLS" -> out/ep10-thumbnail-B.png
+C) OpenAI Asked for $30 Billion. It Got $11 Billion.
+   Thumbnail C: "OPENAI: NEVER PUBLIC?" -> out/ep10-thumbnail-C.png
+
+=== DESCRIPTION ===
+Ed Zitron says the AI bubble was one man: Nvidia's Jensen Huang. This month, Huang stepped down, Anthropic cut its IPO price and OpenAI raised far less than it asked for.
+Two hours of Ed Zitron, on Better Offline and Tech Won't Save Us, explained in 10 animated minutes.
+
+Zitron argues that Nvidia kept the AI boom alive by backstopping its biggest customers, walks through the Megaspeed chip-smuggling reports and allegations (China denies the spying claims; the cases are allegations, not verdicts), and breaks down Anthropic's $895 billion of commitments and OpenAI's fundraising. Ed Elson of Prof G Markets pushes back: the music is still playing for the strongest companies, and Anthropic deserves credit for not hiding its losses.
+
+This is an independent animated summary and commentary. It presents Ed Zitron's and Ed Elson's views as they stated them, not as established fact, and is not financial advice. Narration is AI-generated. All credit for the original conversations goes to Better Offline (Ed Zitron, with Ed Elson) and Tech Won't Save Us (Paris Marx, with Ed Zitron). Watch the full episodes:
+▶ Better Offline: JensenGate and Anthropic's IPO w/ Ed Elson https://www.youtube.com/watch?v=RCpgwpdvDu8
+▶ Tech Won't Save Us: Nvidia's Crisis Could Herald an AI Collapse w/ Ed Zitron https://www.youtube.com/watch?v=jcPLs0DFYKw
+
+CHAPTERS
+0:00 The AI bubble was one man
+0:24 Part 1: The man who held it together
+2:15 Part 2: The story everyone ignored
+4:10 Part 3: The IPO that shrank
+5:55 Part 4: Is the music still playing?
+7:24 Part 5: OpenAI, ten times worse?
+9:16 Part 6: Without Jensen
+
+PHOTO CREDITS
+Ed Zitron photo: Web Summit, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Ed_Zitron_speaking_at_the_Web_Summit.jpg (background removed and cropped)
+
+Previously: Ed Zitron WARNS: Generative AI Is a $1 Trillion Con (link it in the end screen and pinned comment)
+
+Subscribe for more of the biggest conversations explained in 10 animated minutes.
+
+=== TAGS ===
+Ed Zitron, AI bubble, Nvidia, Jensen Huang, Anthropic IPO, OpenAI, Better Offline, Tech Won't Save Us, Paris Marx, Ed Elson, Prof G Markets, Megaspeed, AI stocks, Nvidia stock, AI crash, CoreWeave, Colette Kress, venture capital, AI debt, tech bubble
+
+=== HASHTAGS ===
+#AIBubble #EdZitron #Nvidia #Anthropic #OpenAI #JensenHuang
+
+=== PINNED COMMENT ===
+Zitron warned about AI money going in a circle in our first video: [link]. Do you think the music is still playing, or is it about to stop?
+
+=== SHORTS (Related video = this video; credit line in each) ===
+SH23  The AI Bubble Was One Man  (out/ep10-short1.mp4)
+  Ed Zitron says Nvidia kept the AI boom alive, deal by deal. From Better Offline and Tech Won't Save Us.
+  Photo: Ed Zitron by Web Summit, CC BY 2.0 (Wikimedia Commons), cropped
+  #Shorts #EdZitron #AIBubble #Nvidia
+SH24  Stocks Measure Excitement. Bonds Measure Fear.  (out/ep10-short2.mp4)
+  Ed Zitron's one-line rule for the AI money story. His view, not financial advice.
+  Photo: Ed Zitron by Web Summit, CC BY 2.0 (Wikimedia Commons), cropped
+  #Shorts #EdZitron #AIBubble #Investing
+SH25  OpenAI Asked for $30B. It Got $11B.  (out/ep10-short3.mp4)
+  Why Ed Zitron thinks OpenAI may never go public. From Better Offline.
+  Photo: Ed Zitron by Web Summit, CC BY 2.0 (Wikimedia Commons), cropped
+  #Shorts #OpenAI #EdZitron #AIBubble
+SH26  Anthropic's $2 Trillion IPO Shrank  (out/ep10-short4.mp4)
+  $895 billion of commitments and slowing growth, explained. From Better Offline.
+  Photo: Ed Zitron by Web Summit, CC BY 2.0 (Wikimedia Commons), cropped
+  #Shorts #Anthropic #AIBubble #EdZitron
+```

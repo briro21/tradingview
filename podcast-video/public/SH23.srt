@@ -1,0 +1,55 @@
+1
+00:00:00,100 --> 00:00:02,538
+Ed Zitron says the AI bubble was one
+
+2
+00:00:02,550 --> 00:00:02,875
+man.
+
+3
+00:00:03,288 --> 00:00:04,613
+Nvidia's Jensen Huang.
+
+4
+00:00:05,038 --> 00:00:06,525
+When CoreWeave needed a customer,
+
+5
+00:00:06,962 --> 00:00:08,875
+Nvidia rented back its own chips.
+
+6
+00:00:09,288 --> 00:00:10,462
+When startups ran low,
+
+7
+00:00:10,838 --> 00:00:12,425
+Nvidia put in billions.
+
+8
+00:00:12,838 --> 00:00:15,525
+OpenAI and Anthropic got investment promises.
+
+9
+00:00:15,938 --> 00:00:16,838
+In Zitron's view,
+
+10
+00:00:17,212 --> 00:00:19,412
+every deal kept the buyers of AI chips
+
+11
+00:00:19,425 --> 00:00:19,875
+alive.
+
+12
+00:00:20,288 --> 00:00:21,612
+Now Jensen has stepped down.
+
+13
+00:00:22,038 --> 00:00:22,938
+So who keeps it going?
+
+14
+00:00:23,362 --> 00:00:25,112
+The full breakdown is on the channel.

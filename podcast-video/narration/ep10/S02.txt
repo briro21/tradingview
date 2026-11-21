@@ -1,0 +1,15 @@
+Part two. The story everyone ignored.
+
+Zitron is careful about one point: most of this was reported long before the scandal. In late twenty twenty-five, the New York Times and Bloomberg reported on Megaspeed, a company registered in Singapore that had bought around four point eight billion dollars of Nvidia chips. Bloomberg then found an almost identical company in China, with the same website and the same investor deck, except its data centers were in Chinese cities.
+
+These are reports and allegations, and China has denied the spying claims that came later. But Zitron points to the short seller Culper Research, which estimated that twenty percent or more of Nvidia's revenue for its last fiscal year came from China. That's over forty-three billion dollars. He also flags an accounting change from November twenty twenty-five, when Nvidia began recording sales by where a customer is headquartered rather than where the chips are billed. In his view, that made it harder to see where the chips actually went.
+
+He describes another case from earlier this year. A co-founder of the server maker Supermicro was arrested and accused of trying to ship chips to China, allegedly using a hair dryer to peel serial numbers off servers.
+
+Then came the part that made it front-page news. Jensen Huang admitted to a relationship with Megaspeed's chief executive, apologized to his family and his staff, and stepped down. Reports have also described Nvidia's general counsel contacting the Commerce Department about its investigation.
+
+Zitron calls the coverage one of the biggest media failures he has seen, because, he says, the smuggling story sat in plain sight for a year.
+
+His guest on Better Offline, Ed Elson of the Prof G Markets podcast, raises the open question: how much did Jensen actually know? That, he says, is what any investigation will turn on.
+
+And while Nvidia was falling, the AI industry was about to hold its biggest IPO ever.

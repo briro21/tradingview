@@ -1,0 +1,15 @@
+Part one. The man who held it together.
+
+Zitron's argument starts years before ChatGPT. In twenty nineteen, Nvidia bought Mellanox, a networking company whose technology lets thousands of chips work as one cluster. A year later, Microsoft built what was then one of the world's largest supercomputers for OpenAI, out of Nvidia chips. Then ChatGPT arrived, at a moment when, Zitron says, big tech growth had gone flat.
+
+In his telling, Jensen Huang sold the industry the future: buy our chips, do AI, and the markets will love you. And they did. But Zitron's math is brutal. He estimates big tech has spent around one point four trillion dollars, and made maybe one hundred billion from AI.
+
+So what kept it going? Zitron says Jensen did, personally. When CoreWeave, a former crypto miner, needed a customer, Nvidia agreed to rent back its own chips. When Poolside, an AI startup, was running low on money, Nvidia put in billions. Hugging Face was bought outright. OpenAI and Anthropic got investment promises. In each case, Zitron argues, the money flowed to the biggest buyers of AI computing power. By its last earnings, he says, Nvidia had over thirty billion dollars of agreements to rent back its own chips from cloud providers.
+
+He compares Jensen to the Kingpin in Daredevil: the villain who says he's the one holding the whole city together.
+
+And there's a reason others couldn't copy him, he says. Nvidia sat in what he calls free cash flow heaven, with a spotless credit rating. Rivals tried to sign similar deals, but without the balance sheet, or the nerve.
+
+Zitron is no fan of Jensen. But even he says: man, could that man sell.
+
+Which raises the question. If one man was holding this up, what happened when the story about him broke?

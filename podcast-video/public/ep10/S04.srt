@@ -1,0 +1,199 @@
+1
+00:00:00,112 --> 00:00:00,638
+Part four.
+
+2
+00:00:01,050 --> 00:00:02,175
+Is the music still playing?
+
+3
+00:00:02,588 --> 00:00:04,800
+Elson borrows a line from the film Margin
+
+4
+00:00:04,812 --> 00:00:05,150
+Call.
+
+5
+00:00:05,575 --> 00:00:07,750
+On Wall Street, the job is to listen to the
+
+6
+00:00:07,762 --> 00:00:09,650
+music, and to know when it's about to
+
+7
+00:00:09,662 --> 00:00:10,100
+stop.
+
+8
+00:00:10,512 --> 00:00:10,975
+His read:
+
+9
+00:00:11,362 --> 00:00:12,588
+the music is still playing.
+
+10
+00:00:13,000 --> 00:00:15,788
+Meta's twenty-five billion dollar stock sale was five
+
+11
+00:00:15,800 --> 00:00:17,100
+times oversubscribed.
+
+12
+00:00:17,512 --> 00:00:20,088
+An Amazon bond deal drew more than sixty
+
+13
+00:00:20,162 --> 00:00:21,588
+billion dollars of orders.
+
+14
+00:00:22,000 --> 00:00:24,463
+Microsoft pulled off one of the most sought-after
+
+15
+00:00:24,475 --> 00:00:25,750
+debt offerings on record.
+
+16
+00:00:26,162 --> 00:00:29,238
+Investors still trust companies with real cash flow.
+
+17
+00:00:29,662 --> 00:00:31,038
+But the notes are going out of tune.
+
+18
+00:00:31,450 --> 00:00:33,162
+Bond yields at CoreWeave have soared.
+
+19
+00:00:33,575 --> 00:00:35,338
+OpenAI cut its funding target.
+
+20
+00:00:35,762 --> 00:00:37,800
+And now Anthropic's IPO has shrunk.
+
+21
+00:00:38,212 --> 00:00:38,738
+To Elson,
+
+22
+00:00:39,100 --> 00:00:41,300
+it's the clearest signal yet that the music
+
+23
+00:00:41,362 --> 00:00:42,262
+is getting quieter.
+
+24
+00:00:42,675 --> 00:00:43,562
+The bigger shift,
+
+25
+00:00:43,650 --> 00:00:44,212
+he says,
+
+26
+00:00:44,600 --> 00:00:46,325
+is that big tech used to pay for
+
+27
+00:00:46,338 --> 00:00:48,200
+its ambitions out of its own profits.
+
+28
+00:00:48,612 --> 00:00:49,762
+Now it needs outside money.
+
+29
+00:00:50,212 --> 00:00:52,238
+He points to nearly a trillion dollars of
+
+30
+00:00:52,250 --> 00:00:54,638
+planned debt from the big cloud companies by
+
+31
+00:00:54,650 --> 00:00:55,375
+twenty twenty-eight.
+
+32
+00:00:55,788 --> 00:00:56,512
+Meta alone,
+
+33
+00:00:56,875 --> 00:00:59,500
+he notes, has a sixty billion dollar equity
+
+34
+00:00:59,512 --> 00:01:00,938
+raise planned for next year.
+
+35
+00:01:01,350 --> 00:01:02,713
+Zitron puts it in one line.
+
+36
+00:01:03,138 --> 00:01:05,125
+The stock market measures how excited you should
+
+37
+00:01:05,138 --> 00:01:05,312
+be.
+
+38
+00:01:05,738 --> 00:01:07,700
+The bond market measures how scared you should
+
+39
+00:01:07,712 --> 00:01:07,900
+be.
+
+40
+00:01:08,312 --> 00:01:10,512
+And he notes reports that Anthropic could get
+
+41
+00:01:10,525 --> 00:01:12,938
+a below investment grade rating on its debt,
+
+42
+00:01:13,250 --> 00:01:15,662
+which would shut out many pension and investment
+
+43
+00:01:15,675 --> 00:01:16,150
+funds.
+
+44
+00:01:16,562 --> 00:01:17,412
+And venture capital?
+
+45
+00:01:17,825 --> 00:01:18,850
+Asked what it measures,
+
+46
+00:01:19,212 --> 00:01:20,875
+Zitron's answer is not polite.
+
+47
+00:01:21,300 --> 00:01:23,425
+Private investors, both men agree,
+
+48
+00:01:23,725 --> 00:01:25,262
+were the easiest crowd of all.
+
+49
+00:01:25,688 --> 00:01:27,438
+Which brings us to the company that leaned
+
+50
+00:01:27,450 --> 00:01:28,700
+on that crowd the most.

@@ -1,0 +1,47 @@
+1
+00:00:00,100 --> 00:00:02,712
+Anthropic hoped to go public at nearly two
+
+2
+00:00:02,725 --> 00:00:03,738
+trillion dollars.
+
+3
+00:00:04,150 --> 00:00:06,150
+Now the range is closer to one trillion.
+
+4
+00:00:06,562 --> 00:00:06,838
+Why?
+
+5
+00:00:07,250 --> 00:00:10,350
+Its filing shows eight hundred ninety-five billion dollars
+
+6
+00:00:10,362 --> 00:00:12,788
+of commitments, mostly for computing power.
+
+7
+00:00:13,200 --> 00:00:15,375
+And growth has slowed from around one hundred
+
+8
+00:00:15,388 --> 00:00:17,475
+fifty percent a quarter to forty-seven.
+
+9
+00:00:17,888 --> 00:00:18,488
+Even so,
+
+10
+00:00:18,888 --> 00:00:20,638
+Ed Elson gives Anthropic credit:
+
+11
+00:00:20,950 --> 00:00:22,287
+it didn't hide the losses.
+
+12
+00:00:22,712 --> 00:00:24,462
+The full breakdown is on the channel.

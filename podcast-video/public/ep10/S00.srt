@@ -1,0 +1,47 @@
+1
+00:00:00,100 --> 00:00:01,575
+The AI bubble was one man.
+
+2
+00:00:02,000 --> 00:00:03,238
+That's Ed Zitron's claim,
+
+3
+00:00:03,625 --> 00:00:04,275
+and this month,
+
+4
+00:00:04,488 --> 00:00:05,450
+that man resigned.
+
+5
+00:00:05,862 --> 00:00:07,825
+Nvidia has shed about one and a half
+
+6
+00:00:07,838 --> 00:00:10,625
+trillion dollars in market value in five weeks.
+
+7
+00:00:11,038 --> 00:00:14,100
+Anthropic cut its IPO price by nearly half.
+
+8
+00:00:14,512 --> 00:00:17,350
+And Zitron thinks OpenAI may never go public
+
+9
+00:00:17,362 --> 00:00:17,712
+at all.
+
+10
+00:00:18,125 --> 00:00:19,975
+This is two hours of Ed Zitron,
+
+11
+00:00:20,275 --> 00:00:22,775
+on Better Offline and Tech Won't Save Us,
+
+12
+00:00:23,000 --> 00:00:23,800
+in ten minutes.

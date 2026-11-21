@@ -1,0 +1,1363 @@
+1
+00:00:00,100 --> 00:00:01,575
+The AI bubble was one man.
+
+2
+00:00:02,000 --> 00:00:03,238
+That's Ed Zitron's claim,
+
+3
+00:00:03,625 --> 00:00:04,275
+and this month,
+
+4
+00:00:04,488 --> 00:00:05,450
+that man resigned.
+
+5
+00:00:05,862 --> 00:00:07,825
+Nvidia has shed about one and a half
+
+6
+00:00:07,838 --> 00:00:10,625
+trillion dollars in market value in five weeks.
+
+7
+00:00:11,038 --> 00:00:14,100
+Anthropic cut its IPO price by nearly half.
+
+8
+00:00:14,512 --> 00:00:17,350
+And Zitron thinks OpenAI may never go public
+
+9
+00:00:17,362 --> 00:00:17,712
+at all.
+
+10
+00:00:18,125 --> 00:00:19,975
+This is two hours of Ed Zitron,
+
+11
+00:00:20,275 --> 00:00:22,775
+on Better Offline and Tech Won't Save Us,
+
+12
+00:00:23,000 --> 00:00:23,800
+in ten minutes.
+
+13
+00:00:24,312 --> 00:00:24,662
+Part one.
+
+14
+00:00:25,075 --> 00:00:26,275
+The man who held it together.
+
+15
+00:00:26,688 --> 00:00:29,812
+Zitron's argument starts years before ChatGPT.
+
+16
+00:00:30,225 --> 00:00:31,175
+In twenty nineteen,
+
+17
+00:00:31,550 --> 00:00:33,025
+Nvidia bought Mellanox,
+
+18
+00:00:33,238 --> 00:00:36,100
+a networking company whose technology lets thousands of
+
+19
+00:00:36,112 --> 00:00:37,875
+chips work as one cluster.
+
+20
+00:00:38,275 --> 00:00:38,975
+A year later,
+
+21
+00:00:39,188 --> 00:00:41,012
+Microsoft built what was then one of the
+
+22
+00:00:41,025 --> 00:00:43,825
+world's largest supercomputers for OpenAI,
+
+23
+00:00:44,138 --> 00:00:45,362
+out of Nvidia chips.
+
+24
+00:00:45,775 --> 00:00:47,375
+Then ChatGPT arrived,
+
+25
+00:00:47,738 --> 00:00:48,488
+at a moment when,
+
+26
+00:00:48,850 --> 00:00:51,812
+Zitron says, big tech growth had gone flat.
+
+27
+00:00:52,225 --> 00:00:52,912
+In his telling,
+
+28
+00:00:53,212 --> 00:00:55,525
+Jensen Huang sold the industry the future:
+
+29
+00:00:55,825 --> 00:00:56,650
+buy our chips,
+
+30
+00:00:56,875 --> 00:00:59,100
+do AI, and the markets will love you.
+
+31
+00:00:59,512 --> 00:01:00,000
+And they did.
+
+32
+00:01:00,412 --> 00:01:02,075
+But Zitron's math is brutal.
+
+33
+00:01:02,500 --> 00:01:04,738
+He estimates big tech has spent around one
+
+34
+00:01:04,750 --> 00:01:06,250
+point four trillion dollars,
+
+35
+00:01:06,538 --> 00:01:08,650
+and made maybe one hundred billion from AI.
+
+36
+00:01:09,062 --> 00:01:09,912
+So what kept it going?
+
+37
+00:01:10,325 --> 00:01:11,638
+Zitron says Jensen did,
+
+38
+00:01:11,888 --> 00:01:12,438
+personally.
+
+39
+00:01:12,862 --> 00:01:13,725
+When CoreWeave,
+
+40
+00:01:14,100 --> 00:01:15,300
+a former crypto miner,
+
+41
+00:01:15,688 --> 00:01:16,488
+needed a customer,
+
+42
+00:01:16,912 --> 00:01:19,438
+Nvidia agreed to rent back its own chips.
+
+43
+00:01:19,862 --> 00:01:20,688
+When Poolside,
+
+44
+00:01:21,050 --> 00:01:21,988
+an AI startup,
+
+45
+00:01:22,250 --> 00:01:23,450
+was running low on money,
+
+46
+00:01:23,750 --> 00:01:25,362
+Nvidia put in billions.
+
+47
+00:01:25,788 --> 00:01:27,275
+Hugging Face was bought outright.
+
+48
+00:01:27,688 --> 00:01:30,375
+OpenAI and Anthropic got investment promises.
+
+49
+00:01:30,788 --> 00:01:31,625
+In each case,
+
+50
+00:01:31,988 --> 00:01:34,512
+Zitron argues, the money flowed to the biggest
+
+51
+00:01:34,525 --> 00:01:36,413
+buyers of AI computing power.
+
+52
+00:01:36,838 --> 00:01:37,888
+By its last earnings,
+
+53
+00:01:38,050 --> 00:01:38,613
+he says,
+
+54
+00:01:39,000 --> 00:01:41,950
+Nvidia had over thirty billion dollars of agreements
+
+55
+00:01:41,962 --> 00:01:44,100
+to rent back its own chips from cloud
+
+56
+00:01:44,112 --> 00:01:44,762
+providers.
+
+57
+00:01:45,188 --> 00:01:47,612
+He compares Jensen to the Kingpin in Daredevil:
+
+58
+00:01:48,025 --> 00:01:49,875
+the villain who says he's the one holding
+
+59
+00:01:49,888 --> 00:01:51,113
+the whole city together.
+
+60
+00:01:51,525 --> 00:01:53,525
+And there's a reason others couldn't copy him,
+
+61
+00:01:53,913 --> 00:01:54,500
+he says.
+
+62
+00:01:54,913 --> 00:01:57,262
+Nvidia sat in what he calls free cash
+
+63
+00:01:57,275 --> 00:01:59,550
+flow heaven, with a spotless credit rating.
+
+64
+00:01:59,962 --> 00:02:02,075
+Rivals tried to sign similar deals,
+
+65
+00:02:02,275 --> 00:02:03,538
+but without the balance sheet,
+
+66
+00:02:03,762 --> 00:02:04,338
+or the nerve.
+
+67
+00:02:04,750 --> 00:02:06,450
+Zitron is no fan of Jensen.
+
+68
+00:02:06,875 --> 00:02:07,738
+But even he says:
+
+69
+00:02:08,188 --> 00:02:08,562
+man,
+
+70
+00:02:08,925 --> 00:02:09,825
+could that man sell.
+
+71
+00:02:10,250 --> 00:02:11,312
+Which raises the question.
+
+72
+00:02:11,725 --> 00:02:13,237
+If one man was holding this up,
+
+73
+00:02:13,638 --> 00:02:15,550
+what happened when the story about him broke?
+
+74
+00:02:16,046 --> 00:02:16,483
+Part two.
+
+75
+00:02:16,908 --> 00:02:18,371
+The story everyone ignored.
+
+76
+00:02:18,783 --> 00:02:20,721
+Zitron is careful about one point:
+
+77
+00:02:21,158 --> 00:02:23,171
+most of this was reported long before the
+
+78
+00:02:23,183 --> 00:02:23,696
+scandal.
+
+79
+00:02:24,108 --> 00:02:25,533
+In late twenty twenty-five,
+
+80
+00:02:25,733 --> 00:02:27,958
+the New York Times and Bloomberg reported on
+
+81
+00:02:27,971 --> 00:02:28,721
+Megaspeed,
+
+82
+00:02:29,158 --> 00:02:31,333
+a company registered in Singapore that had bought
+
+83
+00:02:31,346 --> 00:02:33,958
+around four point eight billion dollars of Nvidia
+
+84
+00:02:33,971 --> 00:02:34,458
+chips.
+
+85
+00:02:34,883 --> 00:02:37,646
+Bloomberg then found an almost identical company in
+
+86
+00:02:37,658 --> 00:02:39,983
+China, with the same website and the same
+
+87
+00:02:39,996 --> 00:02:42,433
+investor deck, except its data centers were in
+
+88
+00:02:42,446 --> 00:02:43,358
+Chinese cities.
+
+89
+00:02:43,771 --> 00:02:45,508
+These are reports and allegations,
+
+90
+00:02:45,871 --> 00:02:48,133
+and China has denied the spying claims that
+
+91
+00:02:48,146 --> 00:02:48,771
+came later.
+
+92
+00:02:49,196 --> 00:02:51,333
+But Zitron points to the short seller Culper
+
+93
+00:02:51,346 --> 00:02:54,571
+Research, which estimated that twenty percent or more
+
+94
+00:02:54,583 --> 00:02:57,033
+of Nvidia's revenue for its last fiscal year
+
+95
+00:02:57,046 --> 00:02:57,858
+came from China.
+
+96
+00:02:58,283 --> 00:03:00,296
+That's over forty-three billion dollars.
+
+97
+00:03:00,733 --> 00:03:03,321
+He also flags an accounting change from November
+
+98
+00:03:03,333 --> 00:03:06,683
+twenty twenty-five, when Nvidia began recording sales by
+
+99
+00:03:06,696 --> 00:03:08,933
+where a customer is headquartered rather than where
+
+100
+00:03:08,946 --> 00:03:09,833
+the chips are billed.
+
+101
+00:03:10,246 --> 00:03:10,833
+In his view,
+
+102
+00:03:11,246 --> 00:03:12,571
+that made it harder to see where the
+
+103
+00:03:12,583 --> 00:03:13,821
+chips actually went.
+
+104
+00:03:14,246 --> 00:03:16,421
+He describes another case from earlier this year.
+
+105
+00:03:16,833 --> 00:03:19,371
+A co-founder of the server maker Supermicro was
+
+106
+00:03:19,383 --> 00:03:21,858
+arrested and accused of trying to ship chips
+
+107
+00:03:21,871 --> 00:03:22,383
+to China,
+
+108
+00:03:22,758 --> 00:03:25,296
+allegedly using a hair dryer to peel serial
+
+109
+00:03:25,308 --> 00:03:26,358
+numbers off servers.
+
+110
+00:03:26,783 --> 00:03:28,471
+Then came the part that made it front-page
+
+111
+00:03:28,483 --> 00:03:28,958
+news.
+
+112
+00:03:29,383 --> 00:03:32,221
+Jensen Huang admitted to a relationship with Megaspeed's
+
+113
+00:03:32,233 --> 00:03:35,146
+chief executive, apologized to his family and his
+
+114
+00:03:35,158 --> 00:03:36,621
+staff, and stepped down.
+
+115
+00:03:37,033 --> 00:03:40,733
+Reports have also described Nvidia's general counsel contacting
+
+116
+00:03:40,746 --> 00:03:43,108
+the Commerce Department about its investigation.
+
+117
+00:03:43,521 --> 00:03:45,646
+Zitron calls the coverage one of the biggest
+
+118
+00:03:45,658 --> 00:03:47,233
+media failures he has seen,
+
+119
+00:03:47,533 --> 00:03:48,808
+because, he says,
+
+120
+00:03:49,046 --> 00:03:51,246
+the smuggling story sat in plain sight for
+
+121
+00:03:51,258 --> 00:03:51,646
+a year.
+
+122
+00:03:52,058 --> 00:03:53,496
+His guest on Better Offline,
+
+123
+00:03:53,908 --> 00:03:56,408
+Ed Elson of the Prof G Markets podcast,
+
+124
+00:03:56,746 --> 00:03:58,071
+raises the open question:
+
+125
+00:03:58,471 --> 00:04:00,208
+how much did Jensen actually know?
+
+126
+00:04:00,621 --> 00:04:00,883
+That,
+
+127
+00:04:01,271 --> 00:04:03,883
+he says, is what any investigation will turn
+
+128
+00:04:03,896 --> 00:04:04,183
+on.
+
+129
+00:04:04,596 --> 00:04:06,108
+And while Nvidia was falling,
+
+130
+00:04:06,396 --> 00:04:08,358
+the AI industry was about to hold its
+
+131
+00:04:08,421 --> 00:04:09,833
+biggest IPO ever.
+
+132
+00:04:10,312 --> 00:04:10,825
+Part three.
+
+133
+00:04:11,250 --> 00:04:12,450
+The IPO that shrank.
+
+134
+00:04:12,862 --> 00:04:14,688
+Anthropic, the maker of Claude,
+
+135
+00:04:15,000 --> 00:04:15,800
+is going public.
+
+136
+00:04:16,225 --> 00:04:17,287
+According to Ed Elson,
+
+137
+00:04:17,662 --> 00:04:20,087
+it hoped for a valuation near two trillion
+
+138
+00:04:20,100 --> 00:04:20,662
+dollars.
+
+139
+00:04:21,075 --> 00:04:22,888
+Now the range is closer to one to
+
+140
+00:04:22,900 --> 00:04:24,212
+one point four trillion,
+
+141
+00:04:24,588 --> 00:04:26,112
+and the amount it wants to raise has
+
+142
+00:04:26,125 --> 00:04:28,400
+dropped from about one hundred billion dollars to
+
+143
+00:04:28,412 --> 00:04:29,488
+sixty-five billion.
+
+144
+00:04:29,900 --> 00:04:30,625
+Why the discount?
+
+145
+00:04:31,050 --> 00:04:32,850
+Both men point to the filing itself.
+
+146
+00:04:33,262 --> 00:04:36,900
+Anthropic disclosed eight hundred ninety-five billion dollars of
+
+147
+00:04:36,912 --> 00:04:39,262
+commitments, mostly for computing power,
+
+148
+00:04:39,562 --> 00:04:41,162
+spread over the coming years.
+
+149
+00:04:41,575 --> 00:04:44,200
+Elson estimates its compute bill could jump to
+
+150
+00:04:44,212 --> 00:04:46,700
+one hundred to one hundred fifty billion dollars
+
+151
+00:04:46,712 --> 00:04:47,312
+next year.
+
+152
+00:04:47,725 --> 00:04:49,262
+Meanwhile, growth is slowing.
+
+153
+00:04:49,675 --> 00:04:52,588
+Zitron says quarterly revenue growth fell from around
+
+154
+00:04:52,600 --> 00:04:55,238
+one hundred fifty percent to forty-seven percent,
+
+155
+00:04:55,625 --> 00:04:57,450
+and data from the spending platform Ramp,
+
+156
+00:04:57,838 --> 00:05:00,362
+he says, points even lower for this quarter.
+
+157
+00:05:00,787 --> 00:05:03,250
+That brief moment when Anthropic looked profitable?
+
+158
+00:05:03,662 --> 00:05:06,212
+Zitron argues it came from a temporary discount
+
+159
+00:05:06,300 --> 00:05:07,238
+on computing power,
+
+160
+00:05:07,625 --> 00:05:09,488
+and that the company described in the filing
+
+161
+00:05:09,500 --> 00:05:11,138
+no longer really exists.
+
+162
+00:05:11,562 --> 00:05:12,512
+But here's the balance.
+
+163
+00:05:12,925 --> 00:05:15,588
+Elson actually defends Anthropic on one point.
+
+164
+00:05:16,012 --> 00:05:17,588
+He expected creative accounting,
+
+165
+00:05:17,888 --> 00:05:19,675
+the kind of numbers that strip out training
+
+166
+00:05:19,688 --> 00:05:20,250
+costs.
+
+167
+00:05:20,662 --> 00:05:23,450
+Instead, the losses are in the income statement,
+
+168
+00:05:23,762 --> 00:05:26,388
+and the filing openly warns that heavy spending
+
+169
+00:05:26,400 --> 00:05:27,712
+will change its cash flow.
+
+170
+00:05:28,125 --> 00:05:29,962
+On the scale of dodginess in AI,
+
+171
+00:05:30,338 --> 00:05:32,525
+he puts Anthropic on the less dodgy side.
+
+172
+00:05:32,938 --> 00:05:35,475
+Zitron's sharper worry is about who buys in.
+
+173
+00:05:35,900 --> 00:05:37,000
+The point of an IPO,
+
+174
+00:05:37,175 --> 00:05:39,412
+he says, used to be getting in early,
+
+175
+00:05:39,712 --> 00:05:41,938
+like Google at twenty-six billion dollars.
+
+176
+00:05:42,350 --> 00:05:43,300
+At over a trillion,
+
+177
+00:05:43,675 --> 00:05:45,850
+where is the upside for ordinary investors?
+
+178
+00:05:46,262 --> 00:05:48,088
+If this video is helping you make sense
+
+179
+00:05:48,100 --> 00:05:49,500
+of the AI money story,
+
+180
+00:05:49,800 --> 00:05:52,125
+subscribing is how you'll catch the next chapter.
+
+181
+00:05:52,550 --> 00:05:54,588
+Because the next question is whether the money
+
+182
+00:05:54,600 --> 00:05:55,325
+is still there.
+
+183
+00:05:55,846 --> 00:05:56,371
+Part four.
+
+184
+00:05:56,783 --> 00:05:57,908
+Is the music still playing?
+
+185
+00:05:58,321 --> 00:06:00,533
+Elson borrows a line from the film Margin
+
+186
+00:06:00,546 --> 00:06:00,883
+Call.
+
+187
+00:06:01,308 --> 00:06:03,483
+On Wall Street, the job is to listen to the
+
+188
+00:06:03,496 --> 00:06:05,383
+music, and to know when it's about to
+
+189
+00:06:05,396 --> 00:06:05,833
+stop.
+
+190
+00:06:06,246 --> 00:06:06,708
+His read:
+
+191
+00:06:07,096 --> 00:06:08,321
+the music is still playing.
+
+192
+00:06:08,733 --> 00:06:11,521
+Meta's twenty-five billion dollar stock sale was five
+
+193
+00:06:11,533 --> 00:06:12,833
+times oversubscribed.
+
+194
+00:06:13,246 --> 00:06:15,821
+An Amazon bond deal drew more than sixty
+
+195
+00:06:15,896 --> 00:06:17,321
+billion dollars of orders.
+
+196
+00:06:17,733 --> 00:06:20,196
+Microsoft pulled off one of the most sought-after
+
+197
+00:06:20,208 --> 00:06:21,483
+debt offerings on record.
+
+198
+00:06:21,896 --> 00:06:24,971
+Investors still trust companies with real cash flow.
+
+199
+00:06:25,396 --> 00:06:26,771
+But the notes are going out of tune.
+
+200
+00:06:27,183 --> 00:06:28,896
+Bond yields at CoreWeave have soared.
+
+201
+00:06:29,308 --> 00:06:31,071
+OpenAI cut its funding target.
+
+202
+00:06:31,496 --> 00:06:33,533
+And now Anthropic's IPO has shrunk.
+
+203
+00:06:33,946 --> 00:06:34,471
+To Elson,
+
+204
+00:06:34,833 --> 00:06:37,033
+it's the clearest signal yet that the music
+
+205
+00:06:37,096 --> 00:06:37,996
+is getting quieter.
+
+206
+00:06:38,408 --> 00:06:39,296
+The bigger shift,
+
+207
+00:06:39,383 --> 00:06:39,946
+he says,
+
+208
+00:06:40,333 --> 00:06:42,058
+is that big tech used to pay for
+
+209
+00:06:42,071 --> 00:06:43,933
+its ambitions out of its own profits.
+
+210
+00:06:44,346 --> 00:06:45,496
+Now it needs outside money.
+
+211
+00:06:45,946 --> 00:06:47,971
+He points to nearly a trillion dollars of
+
+212
+00:06:47,983 --> 00:06:50,371
+planned debt from the big cloud companies by
+
+213
+00:06:50,383 --> 00:06:51,108
+twenty twenty-eight.
+
+214
+00:06:51,521 --> 00:06:52,246
+Meta alone,
+
+215
+00:06:52,608 --> 00:06:55,233
+he notes, has a sixty billion dollar equity
+
+216
+00:06:55,246 --> 00:06:56,671
+raise planned for next year.
+
+217
+00:06:57,083 --> 00:06:58,446
+Zitron puts it in one line.
+
+218
+00:06:58,871 --> 00:07:00,858
+The stock market measures how excited you should
+
+219
+00:07:00,871 --> 00:07:01,046
+be.
+
+220
+00:07:01,471 --> 00:07:03,433
+The bond market measures how scared you should
+
+221
+00:07:03,446 --> 00:07:03,633
+be.
+
+222
+00:07:04,046 --> 00:07:06,246
+And he notes reports that Anthropic could get
+
+223
+00:07:06,258 --> 00:07:08,671
+a below investment grade rating on its debt,
+
+224
+00:07:08,983 --> 00:07:11,396
+which would shut out many pension and investment
+
+225
+00:07:11,408 --> 00:07:11,883
+funds.
+
+226
+00:07:12,296 --> 00:07:13,146
+And venture capital?
+
+227
+00:07:13,558 --> 00:07:14,583
+Asked what it measures,
+
+228
+00:07:14,946 --> 00:07:16,608
+Zitron's answer is not polite.
+
+229
+00:07:17,033 --> 00:07:19,158
+Private investors, both men agree,
+
+230
+00:07:19,458 --> 00:07:20,996
+were the easiest crowd of all.
+
+231
+00:07:21,421 --> 00:07:23,171
+Which brings us to the company that leaned
+
+232
+00:07:23,183 --> 00:07:24,433
+on that crowd the most.
+
+233
+00:07:24,912 --> 00:07:25,450
+Part five.
+
+234
+00:07:25,862 --> 00:07:27,588
+OpenAI, ten times worse?
+
+235
+00:07:28,000 --> 00:07:29,238
+Elson's view is blunt.
+
+236
+00:07:29,662 --> 00:07:31,412
+Whatever has gone wrong at Anthropic,
+
+237
+00:07:31,650 --> 00:07:34,275
+he says, it's ten times worse at OpenAI.
+
+238
+00:07:34,688 --> 00:07:37,350
+Anthropic lost a little over a billion dollars
+
+239
+00:07:37,362 --> 00:07:39,738
+on an operating basis in the first three
+
+240
+00:07:39,750 --> 00:07:40,788
+quarters of this year.
+
+241
+00:07:41,200 --> 00:07:41,825
+OpenAI,
+
+242
+00:07:42,225 --> 00:07:44,662
+he says, lost more than twenty billion last
+
+243
+00:07:44,675 --> 00:07:44,950
+year.
+
+244
+00:07:45,375 --> 00:07:46,488
+Then there's the fundraising.
+
+245
+00:07:46,912 --> 00:07:47,862
+According to Zitron,
+
+246
+00:07:48,250 --> 00:07:50,625
+OpenAI went to investors in the Middle East
+
+247
+00:07:50,638 --> 00:07:53,175
+hoping to raise thirty billion dollars at a
+
+248
+00:07:53,188 --> 00:07:55,713
+one point four trillion dollar valuation.
+
+249
+00:07:56,125 --> 00:07:57,700
+It came back with eleven billion,
+
+250
+00:07:57,975 --> 00:07:59,575
+at one point two five trillion.
+
+251
+00:07:59,988 --> 00:08:02,550
+Zitron points out that eleven billion is roughly
+
+252
+00:08:02,562 --> 00:08:05,062
+the size of one quarter's operating loss.
+
+253
+00:08:05,475 --> 00:08:07,125
+And OpenAI, he says,
+
+254
+00:08:07,388 --> 00:08:09,750
+has around seven hundred fifty billion dollars of
+
+255
+00:08:09,762 --> 00:08:11,250
+commitments through twenty thirty,
+
+256
+00:08:11,575 --> 00:08:14,262
+plus hundreds of millions of free users whose
+
+257
+00:08:14,275 --> 00:08:16,812
+chatbot use costs real money to serve.
+
+258
+00:08:17,238 --> 00:08:20,475
+When OpenAI talks up a billion-dollar annualized run
+
+259
+00:08:20,488 --> 00:08:21,338
+rate from ads,
+
+260
+00:08:21,688 --> 00:08:23,088
+Zitron's reply is simple:
+
+261
+00:08:23,512 --> 00:08:24,912
+stop using run rates.
+
+262
+00:08:25,338 --> 00:08:27,288
+His prediction is the boldest of the two
+
+263
+00:08:27,300 --> 00:08:30,088
+hours: that OpenAI may never go public at
+
+264
+00:08:30,100 --> 00:08:30,400
+all,
+
+265
+00:08:30,775 --> 00:08:32,125
+and could simply run out of money.
+
+266
+00:08:32,575 --> 00:08:35,150
+He also cites Ramp data suggesting around eighty
+
+267
+00:08:35,162 --> 00:08:38,838
+percent of OpenAI and Anthropic's business revenue comes
+
+268
+00:08:38,850 --> 00:08:40,725
+from just one percent of customers,
+
+269
+00:08:41,025 --> 00:08:43,100
+mostly startups funded by venture money.
+
+270
+00:08:43,513 --> 00:08:45,388
+Elson expects a different path:
+
+271
+00:08:45,662 --> 00:08:47,250
+the era of down rounds,
+
+272
+00:08:47,525 --> 00:08:50,325
+when companies valued sky high in private markets
+
+273
+00:08:50,338 --> 00:08:52,262
+face the public market's price check.
+
+274
+00:08:52,675 --> 00:08:54,362
+And he has a warning for founders who
+
+275
+00:08:54,375 --> 00:08:55,400
+trust their backers.
+
+276
+00:08:55,812 --> 00:08:57,238
+Investors, he says,
+
+277
+00:08:57,512 --> 00:08:58,650
+are not like your parents.
+
+278
+00:08:59,075 --> 00:08:59,825
+They will let you die.
+
+279
+00:09:00,238 --> 00:09:02,475
+Zitron adds that venture capital has been on
+
+280
+00:09:02,488 --> 00:09:03,975
+a long losing streak,
+
+281
+00:09:04,275 --> 00:09:06,838
+returning roughly ninety cents to a dollar thirty
+
+282
+00:09:06,850 --> 00:09:09,662
+for each dollar invested since the late twenty-tens.
+
+283
+00:09:10,075 --> 00:09:11,525
+So with Nvidia leaderless,
+
+284
+00:09:11,725 --> 00:09:14,838
+Anthropic discounted and OpenAI short of cash,
+
+285
+00:09:15,100 --> 00:09:15,900
+what happens now?
+
+286
+00:09:16,412 --> 00:09:17,012
+Part six.
+
+287
+00:09:17,438 --> 00:09:18,112
+Without Jensen.
+
+288
+00:09:18,537 --> 00:09:20,950
+This is where Zitron's opening claim comes back.
+
+289
+00:09:21,362 --> 00:09:21,950
+In his view,
+
+290
+00:09:22,338 --> 00:09:24,362
+AI was always a confidence game,
+
+291
+00:09:24,762 --> 00:09:27,225
+and Jensen Huang was its number one salesman.
+
+292
+00:09:27,637 --> 00:09:29,050
+The industry, he says,
+
+293
+00:09:29,262 --> 00:09:30,938
+doesn't just need to stay this big.
+
+294
+00:09:31,350 --> 00:09:33,537
+It needs to keep growing every single year.
+
+295
+00:09:33,962 --> 00:09:35,800
+Without Jensen backstopping deals,
+
+296
+00:09:36,162 --> 00:09:38,012
+he doesn't see anyone who can do that.
+
+297
+00:09:38,450 --> 00:09:39,738
+He points to Elon Musk,
+
+298
+00:09:39,962 --> 00:09:41,675
+who he says is trying to raise forty
+
+299
+00:09:41,688 --> 00:09:44,088
+billion dollars to buy more Nvidia chips.
+
+300
+00:09:44,500 --> 00:09:46,338
+Imagine walking into a bank today,
+
+301
+00:09:46,688 --> 00:09:47,212
+he says,
+
+302
+00:09:47,575 --> 00:09:49,887
+and asking for billions to buy GPUs from
+
+303
+00:09:49,900 --> 00:09:50,575
+that Nvidia.
+
+304
+00:09:50,988 --> 00:09:53,950
+Nvidia's new chief executive is its former finance
+
+305
+00:09:53,962 --> 00:09:55,462
+chief, Colette Kress.
+
+306
+00:09:55,875 --> 00:09:58,012
+Zitron says she's exactly what you want in
+
+307
+00:09:58,025 --> 00:09:59,175
+a finance chief,
+
+308
+00:09:59,400 --> 00:10:00,350
+careful and dull,
+
+309
+00:10:00,662 --> 00:10:02,338
+but not someone who will keep writing the
+
+310
+00:10:02,350 --> 00:10:03,938
+cheques that held the industry up.
+
+311
+00:10:04,375 --> 00:10:06,612
+He calls this the beginning of the unraveling,
+
+312
+00:10:07,012 --> 00:10:09,700
+and expects a painful reckoning for venture capital.
+
+313
+00:10:10,112 --> 00:10:10,862
+Now the balance.
+
+314
+00:10:11,275 --> 00:10:13,750
+Elson's view is that for the strongest companies,
+
+315
+00:10:13,950 --> 00:10:15,412
+the music is still playing,
+
+316
+00:10:15,675 --> 00:10:18,100
+and investors are still lending to businesses with
+
+317
+00:10:18,112 --> 00:10:19,025
+real cash flow.
+
+318
+00:10:19,438 --> 00:10:22,200
+Zitron himself says Nvidia is not Enron:
+
+319
+00:10:22,662 --> 00:10:23,700
+real things were built,
+
+320
+00:10:24,012 --> 00:10:25,325
+and real chips were sold.
+
+321
+00:10:25,738 --> 00:10:28,350
+And the cases against Nvidia's leadership are still
+
+322
+00:10:28,362 --> 00:10:30,225
+allegations, not verdicts.
+
+323
+00:10:30,637 --> 00:10:31,600
+So what should you watch?
+
+324
+00:10:32,050 --> 00:10:34,400
+Three things, from these two conversations.
+
+325
+00:10:34,812 --> 00:10:37,238
+How Anthropic's shares trade after the IPO.
+
+326
+00:10:37,650 --> 00:10:39,537
+Whether lenders keep funding AI debt,
+
+327
+00:10:39,850 --> 00:10:40,712
+and at what price.
+
+328
+00:10:41,137 --> 00:10:43,438
+And whether OpenAI can raise its next round.
+
+329
+00:10:43,850 --> 00:10:44,975
+This is their analysis,
+
+330
+00:10:45,188 --> 00:10:46,438
+not financial advice.
+
+331
+00:10:46,850 --> 00:10:47,787
+If Zitron is right,
+
+332
+00:10:48,050 --> 00:10:50,312
+the AI boom was never just a technology
+
+333
+00:10:50,325 --> 00:10:50,762
+story.
+
+334
+00:10:51,175 --> 00:10:52,112
+It was a sales story.
+
+335
+00:10:52,525 --> 00:10:54,700
+And the best salesman just left the stage.
+
+336
+00:10:55,112 --> 00:10:56,912
+This was two hours in ten minutes.
+
+337
+00:10:57,338 --> 00:10:59,350
+The links to both full episodes are in
+
+338
+00:10:59,362 --> 00:11:00,025
+the description.
+
+339
+00:11:00,438 --> 00:11:01,812
+And if you want more of the biggest
+
+340
+00:11:01,825 --> 00:11:03,600
+conversations explained like this,
+
+341
+00:11:03,825 --> 00:11:04,425
+subscribe.

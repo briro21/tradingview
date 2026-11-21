@@ -1,0 +1,55 @@
+1
+00:00:00,100 --> 00:00:02,138
+Ed Zitron has a one-line rule for the
+
+2
+00:00:02,262 --> 00:00:03,400
+AI money story.
+
+3
+00:00:03,825 --> 00:00:05,812
+The stock market measures how excited you should
+
+4
+00:00:05,825 --> 00:00:06,000
+be.
+
+5
+00:00:06,425 --> 00:00:08,388
+The bond market measures how scared you should
+
+6
+00:00:08,400 --> 00:00:08,588
+be.
+
+7
+00:00:09,000 --> 00:00:11,212
+Right now, stocks still love the giants.
+
+8
+00:00:11,650 --> 00:00:13,738
+But bond yields at CoreWeave have soared,
+
+9
+00:00:14,112 --> 00:00:16,212
+and reports say Anthropic could get a junk
+
+10
+00:00:16,225 --> 00:00:16,538
+rating.
+
+11
+00:00:16,962 --> 00:00:18,338
+That's the market getting scared.
+
+12
+00:00:18,762 --> 00:00:19,162
+His view,
+
+13
+00:00:19,575 --> 00:00:20,812
+not financial advice.
+
+14
+00:00:21,238 --> 00:00:22,988
+The full breakdown is on the channel.

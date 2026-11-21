@@ -1,0 +1,211 @@
+1
+00:00:00,112 --> 00:00:00,650
+Part five.
+
+2
+00:00:01,062 --> 00:00:02,788
+OpenAI, ten times worse?
+
+3
+00:00:03,200 --> 00:00:04,438
+Elson's view is blunt.
+
+4
+00:00:04,862 --> 00:00:06,612
+Whatever has gone wrong at Anthropic,
+
+5
+00:00:06,850 --> 00:00:09,475
+he says, it's ten times worse at OpenAI.
+
+6
+00:00:09,888 --> 00:00:12,550
+Anthropic lost a little over a billion dollars
+
+7
+00:00:12,562 --> 00:00:14,938
+on an operating basis in the first three
+
+8
+00:00:14,950 --> 00:00:15,987
+quarters of this year.
+
+9
+00:00:16,400 --> 00:00:17,025
+OpenAI,
+
+10
+00:00:17,425 --> 00:00:19,862
+he says, lost more than twenty billion last
+
+11
+00:00:19,875 --> 00:00:20,150
+year.
+
+12
+00:00:20,575 --> 00:00:21,688
+Then there's the fundraising.
+
+13
+00:00:22,112 --> 00:00:23,062
+According to Zitron,
+
+14
+00:00:23,450 --> 00:00:25,825
+OpenAI went to investors in the Middle East
+
+15
+00:00:25,838 --> 00:00:28,375
+hoping to raise thirty billion dollars at a
+
+16
+00:00:28,388 --> 00:00:30,912
+one point four trillion dollar valuation.
+
+17
+00:00:31,325 --> 00:00:32,900
+It came back with eleven billion,
+
+18
+00:00:33,175 --> 00:00:34,775
+at one point two five trillion.
+
+19
+00:00:35,188 --> 00:00:37,750
+Zitron points out that eleven billion is roughly
+
+20
+00:00:37,762 --> 00:00:40,262
+the size of one quarter's operating loss.
+
+21
+00:00:40,675 --> 00:00:42,325
+And OpenAI, he says,
+
+22
+00:00:42,588 --> 00:00:44,950
+has around seven hundred fifty billion dollars of
+
+23
+00:00:44,962 --> 00:00:46,450
+commitments through twenty thirty,
+
+24
+00:00:46,775 --> 00:00:49,462
+plus hundreds of millions of free users whose
+
+25
+00:00:49,475 --> 00:00:52,012
+chatbot use costs real money to serve.
+
+26
+00:00:52,438 --> 00:00:55,675
+When OpenAI talks up a billion-dollar annualized run
+
+27
+00:00:55,688 --> 00:00:56,538
+rate from ads,
+
+28
+00:00:56,888 --> 00:00:58,288
+Zitron's reply is simple:
+
+29
+00:00:58,712 --> 00:01:00,113
+stop using run rates.
+
+30
+00:01:00,538 --> 00:01:02,488
+His prediction is the boldest of the two
+
+31
+00:01:02,500 --> 00:01:05,288
+hours: that OpenAI may never go public at
+
+32
+00:01:05,300 --> 00:01:05,600
+all,
+
+33
+00:01:05,975 --> 00:01:07,325
+and could simply run out of money.
+
+34
+00:01:07,775 --> 00:01:10,350
+He also cites Ramp data suggesting around eighty
+
+35
+00:01:10,362 --> 00:01:14,038
+percent of OpenAI and Anthropic's business revenue comes
+
+36
+00:01:14,050 --> 00:01:15,925
+from just one percent of customers,
+
+37
+00:01:16,225 --> 00:01:18,300
+mostly startups funded by venture money.
+
+38
+00:01:18,712 --> 00:01:20,588
+Elson expects a different path:
+
+39
+00:01:20,862 --> 00:01:22,450
+the era of down rounds,
+
+40
+00:01:22,725 --> 00:01:25,525
+when companies valued sky high in private markets
+
+41
+00:01:25,538 --> 00:01:27,462
+face the public market's price check.
+
+42
+00:01:27,875 --> 00:01:29,562
+And he has a warning for founders who
+
+43
+00:01:29,575 --> 00:01:30,600
+trust their backers.
+
+44
+00:01:31,012 --> 00:01:32,438
+Investors, he says,
+
+45
+00:01:32,712 --> 00:01:33,850
+are not like your parents.
+
+46
+00:01:34,275 --> 00:01:35,025
+They will let you die.
+
+47
+00:01:35,438 --> 00:01:37,675
+Zitron adds that venture capital has been on
+
+48
+00:01:37,688 --> 00:01:39,175
+a long losing streak,
+
+49
+00:01:39,475 --> 00:01:42,038
+returning roughly ninety cents to a dollar thirty
+
+50
+00:01:42,050 --> 00:01:44,862
+for each dollar invested since the late twenty-tens.
+
+51
+00:01:45,275 --> 00:01:46,725
+So with Nvidia leaderless,
+
+52
+00:01:46,925 --> 00:01:50,038
+Anthropic discounted and OpenAI short of cash,
+
+53
+00:01:50,300 --> 00:01:51,100
+what happens now?

@@ -1,0 +1,51 @@
+1
+00:00:00,112 --> 00:00:01,250
+According to Ed Zitron,
+
+2
+00:00:01,650 --> 00:00:04,100
+OpenAI went to the Middle East asking for
+
+3
+00:00:04,112 --> 00:00:05,500
+thirty billion dollars.
+
+4
+00:00:05,912 --> 00:00:07,038
+It came back with eleven.
+
+5
+00:00:07,450 --> 00:00:10,600
+Eleven billion is roughly one quarter's operating loss,
+
+6
+00:00:10,812 --> 00:00:11,350
+he says.
+
+7
+00:00:11,775 --> 00:00:14,388
+That's why Zitron thinks OpenAI may never go
+
+8
+00:00:14,400 --> 00:00:15,112
+public at all.
+
+9
+00:00:15,538 --> 00:00:16,925
+His guest, Ed Elson,
+
+10
+00:00:17,212 --> 00:00:18,012
+puts it bluntly:
+
+11
+00:00:18,388 --> 00:00:20,325
+investors are not like your parents.
+
+12
+00:00:20,750 --> 00:00:21,500
+They will let you die.
+
+13
+00:00:21,925 --> 00:00:23,675
+The full breakdown is on the channel.

@@ -1,0 +1,203 @@
+1
+00:00:00,112 --> 00:00:00,625
+Part three.
+
+2
+00:00:01,050 --> 00:00:02,250
+The IPO that shrank.
+
+3
+00:00:02,662 --> 00:00:04,488
+Anthropic, the maker of Claude,
+
+4
+00:00:04,800 --> 00:00:05,600
+is going public.
+
+5
+00:00:06,025 --> 00:00:07,088
+According to Ed Elson,
+
+6
+00:00:07,462 --> 00:00:09,888
+it hoped for a valuation near two trillion
+
+7
+00:00:09,900 --> 00:00:10,462
+dollars.
+
+8
+00:00:10,875 --> 00:00:12,688
+Now the range is closer to one to
+
+9
+00:00:12,700 --> 00:00:14,012
+one point four trillion,
+
+10
+00:00:14,388 --> 00:00:15,912
+and the amount it wants to raise has
+
+11
+00:00:15,925 --> 00:00:18,200
+dropped from about one hundred billion dollars to
+
+12
+00:00:18,212 --> 00:00:19,288
+sixty-five billion.
+
+13
+00:00:19,700 --> 00:00:20,425
+Why the discount?
+
+14
+00:00:20,850 --> 00:00:22,650
+Both men point to the filing itself.
+
+15
+00:00:23,062 --> 00:00:26,700
+Anthropic disclosed eight hundred ninety-five billion dollars of
+
+16
+00:00:26,712 --> 00:00:29,062
+commitments, mostly for computing power,
+
+17
+00:00:29,362 --> 00:00:30,963
+spread over the coming years.
+
+18
+00:00:31,375 --> 00:00:34,000
+Elson estimates its compute bill could jump to
+
+19
+00:00:34,012 --> 00:00:36,500
+one hundred to one hundred fifty billion dollars
+
+20
+00:00:36,512 --> 00:00:37,112
+next year.
+
+21
+00:00:37,525 --> 00:00:39,062
+Meanwhile, growth is slowing.
+
+22
+00:00:39,475 --> 00:00:42,388
+Zitron says quarterly revenue growth fell from around
+
+23
+00:00:42,400 --> 00:00:45,038
+one hundred fifty percent to forty-seven percent,
+
+24
+00:00:45,425 --> 00:00:47,250
+and data from the spending platform Ramp,
+
+25
+00:00:47,638 --> 00:00:50,162
+he says, points even lower for this quarter.
+
+26
+00:00:50,588 --> 00:00:53,050
+That brief moment when Anthropic looked profitable?
+
+27
+00:00:53,462 --> 00:00:56,012
+Zitron argues it came from a temporary discount
+
+28
+00:00:56,100 --> 00:00:57,038
+on computing power,
+
+29
+00:00:57,425 --> 00:00:59,288
+and that the company described in the filing
+
+30
+00:00:59,300 --> 00:01:00,938
+no longer really exists.
+
+31
+00:01:01,362 --> 00:01:02,312
+But here's the balance.
+
+32
+00:01:02,725 --> 00:01:05,388
+Elson actually defends Anthropic on one point.
+
+33
+00:01:05,812 --> 00:01:07,388
+He expected creative accounting,
+
+34
+00:01:07,688 --> 00:01:09,475
+the kind of numbers that strip out training
+
+35
+00:01:09,488 --> 00:01:10,050
+costs.
+
+36
+00:01:10,462 --> 00:01:13,250
+Instead, the losses are in the income statement,
+
+37
+00:01:13,562 --> 00:01:16,188
+and the filing openly warns that heavy spending
+
+38
+00:01:16,200 --> 00:01:17,512
+will change its cash flow.
+
+39
+00:01:17,925 --> 00:01:19,762
+On the scale of dodginess in AI,
+
+40
+00:01:20,138 --> 00:01:22,325
+he puts Anthropic on the less dodgy side.
+
+41
+00:01:22,738 --> 00:01:25,275
+Zitron's sharper worry is about who buys in.
+
+42
+00:01:25,700 --> 00:01:26,800
+The point of an IPO,
+
+43
+00:01:26,975 --> 00:01:29,212
+he says, used to be getting in early,
+
+44
+00:01:29,512 --> 00:01:31,738
+like Google at twenty-six billion dollars.
+
+45
+00:01:32,150 --> 00:01:33,100
+At over a trillion,
+
+46
+00:01:33,475 --> 00:01:35,650
+where is the upside for ordinary investors?
+
+47
+00:01:36,062 --> 00:01:37,887
+If this video is helping you make sense
+
+48
+00:01:37,900 --> 00:01:39,300
+of the AI money story,
+
+49
+00:01:39,600 --> 00:01:41,925
+subscribing is how you'll catch the next chapter.
+
+50
+00:01:42,350 --> 00:01:44,387
+Because the next question is whether the money
+
+51
+00:01:44,400 --> 00:01:45,125
+is still there.
