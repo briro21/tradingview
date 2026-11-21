@@ -32,8 +32,16 @@ yt-dlp --flat-playlist -J "https://www.youtube.com/results?search_query=AI+bubbl
 yt-dlp --flat-playlist -J "https://www.youtube.com/results?search_query=...&sp=CAMSBAgEEAE"      # this month
 yt-dlp --flat-playlist -J "https://www.youtube.com/results?search_query=GUEST+TOPIC&sp=EgIIBA%253D%253D"  # competitors
 ```
-Pick: credible guest + bold claim (fits "[Credential] WARNS:"), pillar AI / money / future,
-English summaries with few views, still rising. Avoid crowded news cycles and stories built on
+Then measure demand, the number that decides:
+```
+python3 scripts/topic_demand.py "Ed Zitron" "Mark Cuban market crash::The Diary Of A CEO"
+```
+It prints the MEDIAN views of third-party videos (summaries, commentary, explainers) this month.
+Proven: Ed Zitron (median ~25k) -> our best video (6,000 views on a 5-subscriber channel);
+Mark Cuban (median ~74) -> 5 views, although his own episode had 6M. Few/weak competitor
+summaries usually mean NO demand, not an opportunity; a huge source episode is not enough.
+Pick: third-party median in the thousands or more, inside the channel's proven niche (AI bubble /
+AI money skeptics), credible guest + bold claim (fits "[Credential] WARNS:"), still rising. Avoid crowded news cycles and stories built on
 unproven allegations about private people. yt-dlp cannot download video here; ask the user for
 the transcript.
 
