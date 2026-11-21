@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Thumbnail pesangon</title><style>
+@font-face{font-family:M;src:url(montserrat-latin-900-normal.woff2) format('woff2');font-weight:900}
+html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#F1E8D8}
+.bg{position:absolute;inset:0;background-size:cover}
+.shade{position:absolute;inset:0}
+.t{position:absolute;font-family:M;font-weight:900;line-height:.92;letter-spacing:-2px}
+.ink{color:#1d1f1c;-webkit-text-stroke:0;text-shadow:0 0 0 #000}
+.box{display:inline-block;padding:6px 22px 14px;margin-top:10px}
+.red{background:#D0573A;color:#fff}
+.yel{background:#F2BA1D;color:#1d1f1c}
+.tag{position:absolute;font-family:M;font-weight:900;font-size:30px;color:#fff;background:#1d1f1c;padding:8px 16px;border-radius:6px}
+</style></head><body><div id="r"></div><script>
+const v = new URLSearchParams(location.search).get('v') || '1';
+const R = document.getElementById('r');
+const S = {
+  1: `<div class="bg" style="background-image:url(bg1.jpg);background-position:center;"></div>
+      <div class="shade" style="background:linear-gradient(90deg,rgba(241,232,216,.96) 0%,rgba(241,232,216,.8) 36%,rgba(241,232,216,0) 55%)"></div>
+      <div class="t ink" style="left:56px;top:190px;font-size:118px">PESANGON<br><span class="box red" style="font-size:112px">DITITIPKAN?</span></div>`,
+  2: `<div class="bg" style="background-image:url(bg2.jpg);background-position:center;"></div>
+      <div class="shade" style="background:linear-gradient(90deg,rgba(241,232,216,.97) 0%,rgba(241,232,216,.8) 36%,rgba(241,232,216,0) 55%)"></div>
+      <div class="t" style="left:56px;top:170px;font-size:210px;color:#D0573A">8.475</div>
+      <div class="t ink" style="left:60px;top:380px;font-size:104px"><span class="box yel">MENUNGGU</span></div>`,
+  3: `<div class="bg" style="background-image:url(bg3.jpg);background-position:center;"></div>
+      <div class="shade" style="background:linear-gradient(270deg,rgba(241,232,216,.97) 0%,rgba(241,232,216,.8) 36%,rgba(241,232,216,0) 55%)"></div>
+      <div class="t ink" style="right:60px;top:150px;font-size:190px;text-align:right">KAS<br><span class="box red" style="font-size:150px">KOSONG</span></div>`,
+};
+R.innerHTML = S[v];
+document.fonts.load('900 40px M').then(() => { window.READY = true; });
+</script></body></html>

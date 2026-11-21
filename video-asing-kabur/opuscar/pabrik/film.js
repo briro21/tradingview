@@ -346,6 +346,7 @@ function months(g, t) {
 // ---------- the frame ----------
 export function render(g, t, Q) {
   iso.g = g; iso.cam = camAt(t); iso.alpha = 1;
+  { const q = new URLSearchParams(location.search).get('cam'); if (q) { const [x, y, k] = q.split(',').map(Number); iso.cam = { x, y, z: 0, k }; } }
   g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
   // ground: yard, then the factory floor (darkens when the lights go out)
   fillPoly(g, [[-.3, -15], [17.5, -15], [17.5, -.3], [-.3, -.3]].map(([x, y]) => iso.P(x, y, 0)), YARD);
@@ -366,8 +367,8 @@ export function render(g, t, Q) {
   outline(g, S.x - .35, S.x + S.w + .35, S.y - .35, S.y + S.d + 1.55, eo(seg(t, 8.7, 9.5)), 1 - ss(seg(t, 10.2, 10.8)));
   const hq = SLOT(0);
   outline(g, LINE_X - .55, LINE_X + .55, hq - .55, hq + .55, eo(seg(t, 11.9, 12.6)), 1 - ss(seg(t, 15.6, 16.2)));
-  for (const k in PH) floorType(g, t, PH[k], LAY[k]);
-  months(g, t);
+  if (!Q?.has?.('notype')) for (const k in PH) floorType(g, t, PH[k], LAY[k]);
+  if (!Q?.has?.('notype')) months(g, t);
   shareOut(g, t);
 
   // solids and people, one sorted queue

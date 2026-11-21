@@ -7,7 +7,7 @@
 **Judul:** 8.475 Buruh Masih Menunggu Pesangon. Aturan Baru Ini Mau Mengubahnya
 
 ## Opsi 3: thumbnail `pesangon-thumb-3.png`
-**Judul:** Pesangon Disetor ke Negara: 3 Skenario untuk Pekerja
+**Judul:** Pabrik Pailit, Kasnya Kosong: Kenapa Pesangon Kini Wajib Dititipkan ke Negara
 
 ---
 

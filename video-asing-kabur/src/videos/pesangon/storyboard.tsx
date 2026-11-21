@@ -1,3 +1,4 @@
+import {AbsoluteFill, Img, staticFile} from 'remotion';
 import * as S from '../../rupiah/scenes';
 import {C} from '../../theme';
 import * as N from '../news';
@@ -23,7 +24,8 @@ const BLUE = '#3b7be0';
 
 export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
   // HOOK v2 (skill podcast-summary-video): cold open = klaim thumbnail, teaser 3 angka, intro singkat
-  {start: 0, el: <N.Cover data={meta.thumbs} />},
+  // frame 0 = thumbnail utama (gaya OpusCar, dibuat oleh opuscar/thumbs)
+  {start: 0, el: <AbsoluteFill><Img src={staticFile('thumbs/pesangon-thumb-1.png')} style={{width: 1920, height: 1080}} /></AbsoluteFill>},
   {start: K(0, 1), el: <N.Kinetic words={[w('MULAI 2027', K(0, 1), C.red, 150), w('dititipkan ke negara', K(0, 2), undefined, 100)]} mark="2027" />, sfx: 'boom'},
   {start: K(1), el: <N.Counter from={0} to={8475} at={K(1)} dur={1.3} label="Buruh masih menunggu pesangon" suffix=" orang" color={C.red} sub={w('lebih dari setahun setelah pabrik pailit', K(1, 3), C.red, 50)} dark mark="PAILIT" />, sfx: 'thump'},
   {start: K(2), el: <N.Clip src="opuscar/psg-austria-16x9.mp4" startSec={4.3} />, sfx: 'whoosh'},

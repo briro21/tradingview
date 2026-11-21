@@ -126,15 +126,17 @@ function law(t) {
 // ---------- the frame ----------
 export function render(g, t) {
   iso.g = g; iso.cam = cam(t); iso.alpha = 1; iso.keep = false;
+  { const q = new URLSearchParams(location.search).get('cam'); if (q) { const [x, y, k] = q.split(',').map(Number); iso.cam = { x, y, z: 0, k }; } }
   g.fillStyle = BG; g.fillRect(0, 0, W, H);
   // faint iso dot lattice
   g.save(); g.fillStyle = 'rgba(46,37,34,.08)'; for (let i = -6; i < 40; i++) for (let j = -14; j < 30; j++) { const [x, y] = iso.P(i * 1.5, j * 1.5, ZB - 3); if (x > 0 && x < W && y > 0 && y < H) g.fillRect(x, y, 2, 2); } g.restore();
   // focus + context in beat 3: everything but the money fades toward warm grey
-  iso.desat = .75 * ss(seg(t, 17.8, 18.6));
+  iso.desat = new URLSearchParams(location.search).has('nodesat') ? 0 : .75 * ss(seg(t, 17.8, 18.6));
   board(); road(t); factory(t); inside(t); stateBuilding(t); law(t); money(t);
   iso.flush();
   iso.desat = 0;
   // ---- infographic layer ----
+  if (new URLSearchParams(location.search).has('notype')) return;
   const P = (x, y, z) => iso.P(x, y, z);
   pin(iso, 12.6, 9.4, .4, { a: seg(t, .9, 2.4), up: 150, dir: 1, len: 60, title: 'UNDANG-UNDANG', num: '27', unit: 'TAHUN 2026', ts: 30, ns: 54, fade: 1 - ss(seg(t, 8.4, 8.9)) });
   pin(iso, 11.6, 9.0, .4, { a: seg(t, 6.2, 7.6), up: 110, dir: -1, len: 50, title: 'DIUNDANGKAN', num: '28', unit: 'OKT 2026', ts: 30, ns: 54, fade: 1 - ss(seg(t, 8.4, 8.9)) });

@@ -237,7 +237,7 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 **Judul:** Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG? #MSCI #saham
 **Video terkait (versi lengkap):** IHSG Anjlok 11,57% dalam Sehari. Satu Pengumuman dari New York Pemicunya
 **Deskripsi:**
-> Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG?. Penjelasan lengkap 9 menit ada di channel ini.
+> Kenapa Satu Pengumuman MSCI Bisa Hancurkan IHSG? Penjelasan lengkap 9 menit ada di channel ini.
 > Bukan ajakan jual/beli. #shorts #IHSG #MSCI #saham
 
 ## Hari 35 · `bdk-hook.mp4`
@@ -258,7 +258,7 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 **Judul:** Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK
 **Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
 **Deskripsi:**
-> Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana?. Penjelasan lengkap 9 menit ada di channel ini.
+> Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? Penjelasan lengkap 9 menit ada di channel ini.
 > Detail aturan masih menunggu PP. #shorts #pesangon #PHK
 
 ## Hari 38 · `psg-hoaks.mp4`
@@ -272,14 +272,14 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 **Judul:** Pabrik Bangkrut, Kenapa Pesangon Nyangkut Bertahun-tahun? #pesangon #buruh
 **Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
 **Deskripsi:**
-> Pabrik Bangkrut, Kenapa Pesangon Nyangkut Bertahun-tahun?. Penjelasan lengkap 9 menit ada di channel ini.
+> Pabrik Bangkrut, Kenapa Pesangon Nyangkut Bertahun-tahun? Penjelasan lengkap 9 menit ada di channel ini.
 > Detail aturan masih menunggu PP. #shorts #pesangon #PHK
 
 ## Hari 40 · `psg-raka.mp4`
 **Judul:** Simulasi Dana Pesangon: Rp76.500 Sebulan, 7 Tahun Jadi Berapa? #pesangon #gaji
 **Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
 **Deskripsi:**
-> Simulasi Dana Pesangon: Rp76.500 Sebulan, 7 Tahun Jadi Berapa?. Penjelasan lengkap 9 menit ada di channel ini.
+> Simulasi Dana Pesangon: Rp76.500 Sebulan, 7 Tahun Jadi Berapa? Penjelasan lengkap 9 menit ada di channel ini.
 > Detail aturan masih menunggu PP. #shorts #pesangon #PHK
 
 ## Hari 41 · `psg-3tanya.mp4`
