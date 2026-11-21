@@ -1,0 +1,357 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Simulasi Raka · Spreadsheet Film</title>
+<style>
+@font-face{font-family:'Inter';src:url(fonts/Inter.ttf) format('truetype');font-weight:100 900;font-display:block}
+html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}
+</style></head>
+<body><canvas id="c" width="1920" height="1080"></canvas>
+<script>
+// Simulasi pesangon Raka — Spreadsheet Film (OpusCar style "spreadsheet", own build; shell grammar adapted from the
+// library demo, MIT). For "Pesangon dititipkan ke negara", narration lines 32–34 (t = 0 at line 32).
+// One cell = one month of contribution: 84 cells = 7 years. Numbers: Austria rate 1.53 % (illustration only).
+const W = 1920, H = 1080, DUR = 23.74;
+const cv = document.getElementById('c'), g = cv.getContext('2d');
+const UI = "'Inter',sans-serif";
+const clamp = (x, a, b) => Math.max(a, Math.min(b, x)), lerp = (a, b, t) => a + (b - a) * t;
+const seg = (t, a, b) => clamp((t - a) / (b - a), 0, 1);
+const eio = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+const eo = t => 1 - Math.pow(1 - t, 3), ss = t => t * t * (3 - 2 * t);
+const hexA = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+const mix = (a, b, t) => { const A = hexA(a), B = hexA(b); return '#' + A.map((v, i) => Math.round(v + (B[i] - v) * clamp(t, 0, 1)).toString(16).padStart(2, '0')).join(''); };
+const rp = n => n.toLocaleString('id-ID');
+
+// palette: office conditional-format hues; the red is the film's shared persimmon accent
+const INK = '#17120a', AMBER = '#ffb21f', OK = '#b8f25a', OK_INK = '#2c4a00', NO = '#D0573A', BLUE = '#2f6fe0', PURP = '#b03ad6', NOTE = '#fff4c7', GREEN_D = '#3D6B59';
+
+// ---------- shell geometry ----------
+const TITLE_H = 30, TOOL_H = 40, FBAR_H = 50, ROWH_W = 54, TABS_H = 28, STAT_H = 26;
+const SHEET_B = H - TABS_H - STAT_H, RH = 24;
+const colName = i => String.fromCharCode(65 + i);
+
+// ---------- columns (C widens for the total) ----------
+const BASE = [40, 210, 150, 30, ...Array(12).fill(70), 24, 130, 70, 70, 70, 70, 70, 70, 70, 70];
+const NC = BASE.length;
+const T = {
+  title0: .3, title1: 1.4, titleE: 1.6, labels: 1.9,
+  at0: 3.4, at1: 4.1, atE: 4.4,
+  id0: 6.45, id1: 7.25, idE: 7.5,
+  gaji0: 9.45, gaji1: 10.05, gajiE: 10.3,
+  s0: 11.65, s1: 12.75, sE: 13.3,
+  grid: 16.6, fill0: 17.0, step: .024,
+  tot0: 19.2, tot1: 19.85, totE: 20.0, wide0: 20.15, wide1: 20.75,
+  hasil: 21.25, note: 21.6,
+};
+let CX = new Float64Array(NC + 1), CWs = new Float64Array(NC);
+function layout(t) {
+  for (let i = 0; i < NC; i++) CWs[i] = BASE[i];
+  CWs[2] = lerp(150, 262, eio(seg(t, T.wide0, T.wide1)));
+  CX[0] = 0; for (let i = 0; i < NC; i++) CX[i + 1] = CX[i] + CWs[i];
+}
+const colX = i => CX[clamp(i, 0, NC)];
+
+// ---------- content ----------
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'];
+const R = { title: 1, nama: 3, gaji: 4, tid: 5, tat: 6, set: 7, head: 9, y0: 10, tot: 18, has: 19 };
+const fillT = n => T.fill0 + n * T.step;                  // month n (0..83) is painted at this time
+const yearDone = y => fillT(12 * y + 11) + .06;
+const FX = {
+  title: [['SIMULASI PESANGON RAKA', INK]],
+  at: [['1,53%', INK]],
+  id: [['=', INK], ['PP_PESANGON', NO], ['()', INK]],
+  gaji: [['5000000', INK]],
+  s: [['=', INK], ['Gaji', BLUE], ['*', INK], ['Tarif_Austria', PURP]],
+  tot: [['=SUM(', INK], ['E11:P17', GREEN_D], [')', INK]],
+};
+const flat = p => p.flatMap(([s, c]) => [...s].map(ch => [ch, c]));
+const FXF = {}; for (const k in FX) FXF[k] = flat(FX[k]);
+const typedP = (k, t, a, b) => t >= b ? FXF[k] : FXF[k].slice(0, Math.floor(seg(t, a, b) * FXF[k].length + 1e-6));
+
+// ---------- camera ----------
+const CK = [
+  { t: 0, cx: 330, cy: 112, z: 2.0 },
+  { t: 2.6, cx: 262, cy: 140, z: 2.25 },
+  { t: 9.0, cx: 250, cy: 150, z: 2.32 },
+  { t: 13.6, cx: 240, cy: 165, z: 2.48 },
+  { t: 16.3, cx: 240, cy: 168, z: 2.52 },
+  { t: 17.4, cx: 732, cy: 300, z: 1.3, e: 'eio' },
+  { t: 19.0, cx: 732, cy: 304, z: 1.34 },
+  { t: 19.9, cx: 470, cy: 400, z: 1.8, e: 'eio' },
+  { t: 21.1, cx: 520, cy: 425, z: 1.85 },
+  { t: DUR, cx: 520, cy: 430, z: 1.92 },
+];
+let CAM, HDR, SHEET_Y, VCX, VCY, VW, VH;
+function camera(t) {
+  let q = 0; while (q < CK.length - 2 && t > CK[q + 1].t) q++;
+  const A = CK[q], B = CK[q + 1], u = (B.e === 'eio' ? eio : ss)(seg(t, A.t, B.t));
+  return { x: lerp(A.cx, B.cx, u), y: lerp(A.cy, B.cy, u), z: Math.exp(lerp(Math.log(A.z), Math.log(B.z), u)) };
+}
+const X = wx => VCX + (wx - CAM.x) * CAM.z, Y = wy => VCY + (wy - CAM.y) * CAM.z;
+const XC = i => Math.round(X(colX(i))), YR = j => Math.round(Y(j * RH));
+function box(c0, c1, r0, r1) { const x = XC(c0), y = YR(r0); return [x, y, XC(c1 + 1) - x, YR(r1 + 1) - y]; }
+
+// ---------- helpers ----------
+const rect = (x, y, w, h, f) => { g.fillStyle = f; g.fillRect(x, y, w, h); };
+function text(s, x, y, font, col, align = 'left', base = 'middle') { g.font = font; g.fillStyle = col; g.textAlign = align; g.textBaseline = base; g.fillText(s, x, y); }
+const line = (x1, y1, x2, y2, col, w = 1) => { g.strokeStyle = col; g.lineWidth = w; g.beginPath(); g.moveTo(x1, y1); g.lineTo(x2, y2); g.stroke(); };
+const tw = (s, font) => { g.font = font; return g.measureText(s).width; };
+function tri(x, y, s, col, dir = 'down') { g.fillStyle = col; g.beginPath(); if (dir === 'down') { g.moveTo(x - s, y - s / 2); g.lineTo(x + s, y - s / 2); g.lineTo(x, y + s / 2); } else if (dir === 'left') { g.moveTo(x + s / 2, y - s); g.lineTo(x + s / 2, y + s); g.lineTo(x - s / 2, y); } else { g.moveTo(x - s / 2, y - s); g.lineTo(x - s / 2, y + s); g.lineTo(x + s / 2, y); } g.fill(); }
+const popK = (t, t0, d = .22, amt = .3) => t >= t0 && t < t0 + d ? 1 + amt * (1 - (t - t0) / d) : 1;
+const flash = (t, t0) => t >= t0 && t < t0 + .12 ? 1 - (t - t0) / .12 : 0;
+function refBox(x, y, w, h, col, lw = 2.5) { g.lineWidth = lw; g.strokeStyle = col; g.strokeRect(x + 1, y + 1, w - 1, h - 1); g.fillStyle = col; for (const [a, b] of [[x, y], [x + w, y], [x, y + h], [x + w, y + h]]) g.fillRect(a - 3.5, b - 3.5, 7, 7); }
+
+// ---------- what each cell holds at time t ----------
+// returns {s, fill, ink, w (weight), size (px at z=1), align, t0 (for flash/pop)}
+function cell(i, j, t) {
+  const L = (s, t0, o = {}) => t >= t0 ? { s, t0, ink: INK, w: 600, size: 14, align: 'left', ...o } : null;
+  if (i === 1) {
+    if (j === R.nama) return L('Nama', T.labels);
+    if (j === R.gaji) return L('Gaji per bulan', T.labels + .1);
+    if (j === R.tid) return L('Tarif Indonesia', T.labels + .2);
+    if (j === R.tat) return L('Tarif Austria', T.labels + .3);
+    if (j === R.set) return L('Setoran per bulan', T.labels + .4, { w: 700 });
+    if (j > R.y0 - 1 && j < R.y0 + 7) return L(`Tahun ${j - R.y0 + 1}`, T.grid + .1 + (j - R.y0) * .05);
+    if (j === R.tot) return L('TOTAL 7 TAHUN', T.tot0 - .1, { w: 800 });
+    if (j === R.has) return L('Hasil pengembangan', T.hasil, { ink: '#77766f' });
+  }
+  if (i === 2) {
+    if (j === R.nama) return L('Raka', T.labels, { w: 700, align: 'right' });
+    if (j === R.gaji && t >= T.gajiE) return { s: rp(5000000), t0: T.gajiE, ink: INK, w: 700, size: 15, align: 'right', pop: true };
+    if (j === R.tid && t >= T.idE) return { s: '#N/A', t0: T.idE, fill: NO, ink: '#fff', w: 800, size: 15, align: 'right', pop: true };
+    if (j === R.tat && t >= T.atE) return { s: '1,53%', t0: T.atE, ink: INK, w: 700, size: 15, align: 'right', pop: true };
+    if (j === R.set && t >= T.sE) return { s: rp(76500), t0: T.sE, fill: AMBER, ink: INK, w: 800, size: 16, align: 'right', pop: true };
+    if (j === R.tot && t >= T.totE) {
+      const need = t >= T.wide1 - .05;
+      return { s: need ? 'Rp' + rp(6426000) : '##########', t0: need ? T.wide1 - .05 : T.totE, fill: need ? OK : null, ink: need ? OK_INK : INK, w: 800, size: need ? 22 : 16, align: 'right', pop: true, big: true };
+    }
+    if (j === R.has && t >= T.hasil) return { s: '?', t0: T.hasil, ink: '#9a9a94', w: 800, size: 16, align: 'right', fill: '#eeede8' };
+  }
+  if (j === R.head && t >= T.grid) {
+    if (i >= 4 && i < 16) return { s: MONTHS[i - 4], t0: T.grid + (i - 4) * .02, ink: '#55554f', w: 700, size: 12, align: 'center', fill: '#f1f0eb' };
+    if (i === 17) return { s: 'Saldo', t0: T.grid + .26, ink: INK, w: 800, size: 13, align: 'center', fill: '#f1f0eb' };
+  }
+  if (j >= R.y0 && j < R.y0 + 7) {
+    const y = j - R.y0;
+    if (i >= 4 && i < 16) { const n = y * 12 + (i - 4), tp = fillT(n); if (t >= tp) return { s: '76.500', t0: tp, fill: OK, ink: OK_INK, w: 500, size: 11, align: 'center' }; }
+    if (i === 17 && t >= yearDone(y)) return { s: rp((y + 1) * 918000), t0: yearDone(y), ink: INK, w: 700, size: 13, align: 'right', fill: y === 6 ? OK : null };
+  }
+  return null;
+}
+// cells being typed into (white editing fill + coloured typed text)
+function editing(t) {
+  if (t >= T.title0 && t < T.titleE) return { c: 1, r: R.title, k: 'title', a: T.title0, b: T.title1 };
+  if (t >= T.at0 && t < T.atE) return { c: 2, r: R.tat, k: 'at', a: T.at0, b: T.at1 };
+  if (t >= T.id0 && t < T.idE) return { c: 2, r: R.tid, k: 'id', a: T.id0, b: T.id1 };
+  if (t >= T.gaji0 && t < T.gajiE) return { c: 2, r: R.gaji, k: 'gaji', a: T.gaji0, b: T.gaji1 };
+  if (t >= T.s0 && t < T.sE) return { c: 2, r: R.set, k: 's', a: T.s0, b: T.s1 };
+  if (t >= T.tot0 && t < T.totE) return { c: 2, r: R.tot, k: 'tot', a: T.tot0, b: T.tot1 };
+  return null;
+}
+function selection(t) {
+  if (t < T.titleE) return { b: [1, 1, R.title, R.title] };
+  if (t < 3.25) return { b: [1, 15, R.title, R.title] };
+  if (t < 6.3) return { b: [2, 2, R.tat, R.tat] };
+  if (t < 9.3) return { b: [2, 2, R.tid, R.tid] };
+  if (t < 11.5) return { b: [2, 2, R.gaji, R.gaji] };
+  if (t < T.fill0) return { b: [2, 2, R.set, R.set] };
+  if (t < T.tot0 - .1) { // the fill handle drags across the year grid
+    const n = clamp(Math.floor((t - T.fill0) / T.step), 0, 83), y = Math.floor(n / 12), m = n % 12;
+    return { b: [4, y === 0 ? 4 + m : 15, R.y0, R.y0 + y], drag: true };
+  }
+  if (t < T.hasil) return { b: [2, 2, R.tot, R.tot] };
+  return { b: [2, 2, R.has, R.has] };
+}
+
+// ---------- sheet ----------
+function drawSheet(t) {
+  const z = CAM.z;
+  g.save(); g.beginPath(); g.rect(ROWH_W, SHEET_Y, VW, VH); g.clip();
+  rect(ROWH_W, SHEET_Y, VW, VH, '#ffffff');
+  const xl = CAM.x - (VCX - ROWH_W) / z, xr = CAM.x + (W - VCX) / z;
+  const j0 = Math.max(0, Math.floor((CAM.y - (VCY - SHEET_Y) / z) / RH)), j1 = Math.ceil((CAM.y + (SHEET_B - VCY) / z) / RH) + 1;
+  let i0 = 0; while (i0 < NC && colX(i0 + 1) < xl) i0++;
+  // light grid
+  g.beginPath();
+  for (let i = i0; i <= NC && colX(i) <= xr + 1; i++) { const x = XC(i) + .5; g.moveTo(x, SHEET_Y); g.lineTo(x, SHEET_B); }
+  for (let j = j0; j <= j1; j++) { const y = YR(j) + .5; g.moveTo(ROWH_W, y); g.lineTo(W, y); }
+  g.strokeStyle = '#dad9d3'; g.lineWidth = 1; g.stroke();
+  const ed = editing(t);
+  // merged title
+  if (t >= T.titleE) {
+    const [x, y, w, h] = box(1, 15, R.title, R.title), k = popK(t, T.titleE, .25, .12);
+    rect(x, y, w, h, NOTE); g.strokeStyle = INK; g.lineWidth = 1.5; g.strokeRect(x + .5, y + .5, w - 1, h - 1);
+    const f = `800 ${15 * z * k}px ${UI}`; text('SIMULASI PESANGON RAKA', x + 10 * z, y + h / 2 + 1, f, INK);
+    const tag = 'ILUSTRASI · memakai angka Austria', f2 = `700 ${12 * z}px ${UI}`;
+    text(tag, x + w - 10 * z, y + h / 2 + 1, f2, NO, 'right');
+    const fl = flash(t, T.titleE); if (fl) { g.globalAlpha = fl; rect(x, y, w, h, '#fff'); g.globalAlpha = 1; }
+  }
+  // cells
+  for (let j = j0; j <= j1; j++) for (let i = i0; i < NC && colX(i) <= xr; i++) {
+    if (ed && ed.c === i && ed.r === j) continue;
+    const c = cell(i, j, t); if (!c) continue;
+    const x = XC(i), y = YR(j), w = XC(i + 1) - x, h = YR(j + 1) - y;
+    if (c.fill) { rect(x, y, w, h, c.fill); g.strokeStyle = 'rgba(6,4,18,0.35)'; g.lineWidth = 1; g.strokeRect(x + .5, y + .5, w - 1, h - 1); }
+    const k = c.pop ? popK(t, c.t0) : 1, px = c.size * z * k;
+    if (px >= 6.5) {
+      g.save(); g.beginPath(); g.rect(x, y, w, h); if (!c.big) g.clip();
+      const tx = c.align === 'right' ? x + w - 6 * z : c.align === 'center' ? x + w / 2 : x + 6 * z;
+      text(c.s, tx, y + h / 2 + 1, `${c.w} ${px}px ${UI}`, c.ink, c.align); g.restore();
+    }
+    const fl = flash(t, c.t0); if (fl) { g.globalAlpha = fl * .9; rect(x, y, w, h, '#fff'); g.globalAlpha = 1; }
+  }
+  // typing in a cell
+  if (ed) {
+    const [x, y, w, h] = ed.k === 'title' ? box(1, 15, R.title, R.title) : box(ed.c, ed.c, ed.r, ed.r);
+    rect(x, y, w, h, '#fff');
+    const L = typedP(ed.k, t, ed.a, ed.b), f = `700 ${15 * z}px ${UI}`;
+    let tx = x + 6 * z; for (const [ch, col] of L) { text(ch, tx, y + h / 2 + 1, f, col); tx += tw(ch, f); }
+    if (Math.floor(t * 8) % 2 === 0) rect(tx + 2, y + h * .2, 2.5, h * .6, INK);
+  }
+  // reference boxes for the contribution formula
+  if (t >= T.s0 + .25 && t < T.sE + .7) {
+    const a = 1 - seg(t, T.sE + .3, T.sE + .7); g.globalAlpha = a;
+    refBox(...box(2, 2, R.gaji, R.gaji), BLUE); refBox(...box(2, 2, R.tat, R.tat), PURP); g.globalAlpha = 1;
+  }
+  if (t >= T.tot0 + .3 && t < T.totE + .5) { g.globalAlpha = 1 - seg(t, T.totE + .1, T.totE + .5); refBox(...box(4, 15, R.y0, R.y0 + 6), GREEN_D, 3); g.globalAlpha = 1; }
+  drawSelection(t);
+  drawNote(t);
+  g.restore();
+}
+function drawSelection(t) {
+  const S = selection(t); if (!S.b) return;
+  const [c0, c1, r0, r1] = S.b; const [x, y, w, h] = box(c0, c1, r0, r1);
+  const lw = 3.5; g.lineWidth = lw; g.strokeStyle = INK; g.strokeRect(x - lw / 2, y - lw / 2, w + lw, h + lw);
+  const o = lw + 3; g.lineWidth = 2; g.strokeStyle = '#fff'; g.strokeRect(x - o, y - o, w + 2 * o, h + 2 * o);
+  g.setLineDash([7, 5]); g.lineDashOffset = -t * 60; g.strokeStyle = AMBER; g.strokeRect(x - o, y - o, w + 2 * o, h + 2 * o); g.setLineDash([]);
+  const hs = S.drag ? 13 : 10; rect(x + w - hs / 2 + 1, y + h - hs / 2 + 1, hs, hs, INK); g.strokeStyle = AMBER; g.lineWidth = 2; g.strokeRect(x + w - hs / 2 + 1, y + h - hs / 2 + 1, hs, hs);
+}
+// a cell comment on the "?" cell
+function drawNote(t) {
+  const a = eo(seg(t, T.note, T.note + .3)); if (a <= 0) return;
+  const z = CAM.z, [x, y, w, h] = box(2, 2, R.has, R.has);
+  g.globalAlpha = a; g.fillStyle = NO; g.beginPath(); g.moveTo(x + w - 9, y); g.lineTo(x + w, y); g.lineTo(x + w, y + 9); g.fill();
+  const nx = x + w + 18 * z, ny = y - 30 * z, f1 = `700 ${13 * z}px ${UI}`, f2 = `500 ${12 * z}px ${UI}`;
+  const s1 = 'Belum dihitung', s2 = 'Saldo di atas belum termasuk', s3 = 'hasil pengembangan dana.';
+  const bw = Math.max(tw(s1, f1), tw(s2, f2), tw(s3, f2)) + 24 * z, bh = 74 * z;
+  line(x + w, y + 2, nx, ny + 12 * z, '#555', 1.2);
+  rect(nx, ny, bw, bh, NOTE); g.strokeStyle = INK; g.lineWidth = 1.2; g.strokeRect(nx + .5, ny + .5, bw - 1, bh - 1);
+  text(s1, nx + 12 * z, ny + 18 * z, f1, INK); text(s2, nx + 12 * z, ny + 40 * z, f2, '#333'); text(s3, nx + 12 * z, ny + 58 * z, f2, '#333');
+  g.globalAlpha = 1;
+}
+
+// ---------- headers & shell ----------
+function drawHeaders(t) {
+  const z = CAM.z, S = selection(t), top = SHEET_Y - HDR;
+  rect(0, top, W, HDR, '#ecebe6');
+  g.save(); g.beginPath(); g.rect(ROWH_W, top, VW, HDR); g.clip();
+  const xl = CAM.x - (VCX - ROWH_W) / z, xr = CAM.x + (W - VCX) / z, fsz = Math.min(18, 12 * Math.sqrt(Math.max(1, z)));
+  for (let i = 0; i < NC && colX(i) < xr; i++) {
+    if (colX(i + 1) < xl) continue;
+    const x = XC(i), w = XC(i + 1) - x, on = S.b && i >= S.b[0] && i <= S.b[1];
+    if (on) rect(x, top, w, HDR, '#ffd98a');
+    if (w > 16) text(colName(i), x + w / 2, top + HDR / 2 + 1, `${on ? 700 : 500} ${fsz}px ${UI}`, on ? INK : '#55554f', 'center');
+    line(x + .5, top + 4, x + .5, SHEET_Y, '#c4c3bc');
+  }
+  g.restore();
+  line(0, SHEET_Y - .5, W, SHEET_Y - .5, '#9a9a94');
+  rect(0, SHEET_Y, ROWH_W, VH, '#ecebe6');
+  g.save(); g.beginPath(); g.rect(0, SHEET_Y, ROWH_W, VH); g.clip();
+  const j0 = Math.max(0, Math.floor((CAM.y - (VCY - SHEET_Y) / z) / RH)), j1 = Math.ceil((CAM.y + (SHEET_B - VCY) / z) / RH);
+  for (let j = j0; j <= j1; j++) {
+    const y = YR(j), h = YR(j + 1) - y, on = S.b && j >= S.b[2] && j <= S.b[3];
+    if (on) rect(0, y, ROWH_W, h, '#ffd98a');
+    if (h > 9) text(String(j + 1), ROWH_W - 8, y + h / 2 + 1, `${on ? 700 : 500} ${Math.min(fsz, h - 1)}px ${UI}`, on ? INK : '#5a5a54', 'right');
+    line(6, y + .5, ROWH_W, y + .5, '#cfcec8');
+  }
+  g.restore();
+  line(ROWH_W - .5, top, ROWH_W - .5, SHEET_B, '#9a9a94');
+  rect(0, top, ROWH_W, HDR, '#e0dfd9');
+}
+function appIcon(x, y, s) { rect(x, y, s, s, INK); const q = s / 3, cols = [OK, NO, BLUE, AMBER, OK, NO, '#dfe6f3', OK, BLUE]; for (let n = 0; n < 9; n++) rect(x + (n % 3) * q + 1, y + Math.floor(n / 3) * q + 1, q - 2, q - 2, cols[n]); }
+function formulaLine(t) {
+  const ed = editing(t), S = selection(t), ref = b => b ? colName(b[0]) + (b[2] + 1) : '';
+  if (ed) return { parts: typedP(ed.k, t, ed.a, ed.b), caret: true, name: ed.k === 'tot' ? 'Total' : ed.k === 's' ? 'Setoran' : ref(S.b) };
+  if (t < 3.25) return { parts: FXF.title, name: 'B2' };
+  if (t < 6.3) return { parts: FXF.at, after: 'Austria, sejak 2003 · % dari gaji', name: 'Tarif_Austria' };
+  if (t < 9.3) return { parts: FXF.id, after: '#N/A  ·  Peraturan Pemerintah belum terbit', name: 'Tarif_Indonesia', afterCol: NO };
+  if (t < 11.5) return { parts: FXF.gaji, after: '= Rp5.000.000', name: 'Gaji' };
+  if (t < T.grid) return { parts: FXF.s, after: '= Rp76.500 per bulan', name: 'Setoran' };
+  if (t < T.tot0 - .1) return { parts: [['=Setoran', INK]], after: 'tarik ke 84 bulan  →', name: 'E11:P17' };
+  if (t < T.hasil) return { parts: FXF.tot, after: t >= T.wide1 ? '= Rp6.426.000  ·  84 bulan × Rp76.500' : '', name: 'Total' };
+  return { parts: [['?', '#9a9a94']], after: 'belum termasuk hasil pengembangan', name: 'C20' };
+}
+function drawChrome(t) {
+  rect(0, 0, W, TITLE_H, '#dcdbd5');
+  for (let n = 0; n < 3; n++) { g.fillStyle = '#c6c5bf'; g.beginPath(); g.arc(20 + n * 20, TITLE_H / 2, 6, 0, 7); g.fill(); }
+  appIcon(84, 8, 14); text('simulasi-pesangon-raka.sheet', 106, TITLE_H / 2 + 1, `500 13px ${UI}`, '#333');
+  text('Ilustrasi · tarif Austria 1,53% · besaran Indonesia belum ditetapkan', W / 2, TITLE_H / 2 + 1, `500 12px ${UI}`, '#77766f', 'center');
+  line(0, TITLE_H - .5, W, TITLE_H - .5, '#b5b4ae');
+  const ty = TITLE_H; rect(0, ty, W, TOOL_H, '#f1f0eb');
+  let x = 14; const m = ty + TOOL_H / 2;
+  const btn = (w, draw, pressed) => { if (pressed) { rect(x, ty + 6, w, TOOL_H - 12, '#ffe2a3'); g.strokeStyle = '#c9a24f'; g.lineWidth = 1; g.strokeRect(x + .5, ty + 6.5, w - 1, TOOL_H - 13); } draw(x); x += w + 4; };
+  const sep = () => { line(x + 2.5, ty + 9, x + 2.5, ty + TOOL_H - 9, '#c8c7c1'); x += 10; };
+  btn(116, a => { rect(a, m - 12, 116, 24, '#fff'); g.strokeStyle = '#bbbab4'; g.lineWidth = 1; g.strokeRect(a + .5, m - 11.5, 115, 23); text('Inter', a + 8, m + 1, `13px ${UI}`, '#222'); tri(a + 104, m, 4, '#666'); });
+  btn(46, a => { rect(a, m - 12, 46, 24, '#fff'); g.strokeStyle = '#bbbab4'; g.strokeRect(a + .5, m - 11.5, 45, 23); text('11', a + 8, m + 1, `13px ${UI}`, '#222'); tri(a + 36, m, 4, '#666'); }); sep();
+  btn(26, a => text('B', a + 13, m + 1, `800 15px ${UI}`, '#222', 'center'), t >= T.title0 && t < T.titleE);
+  btn(26, a => text('I', a + 13, m + 1, `italic 500 15px ${UI}`, '#222', 'center')); sep();
+  btn(26, a => text('%', a + 13, m + 1, `500 15px ${UI}`, '#222', 'center'), t >= T.atE && t < T.atE + .3);
+  btn(36, a => text('Rp', a + 18, m + 1, `600 13px ${UI}`, '#222', 'center'), (t >= T.gajiE && t < T.gajiE + .3) || (t >= T.sE && t < T.sE + .3));
+  btn(26, a => text('Σ', a + 13, m + 1, `500 16px ${UI}`, '#222', 'center'), t >= T.tot0 && t < T.totE); sep();
+  const cfOn = t >= T.fill0 - .1 && t < fillT(83) + .2;
+  btn(170, a => { [INK, OK, NO, BLUE, AMBER].forEach((c, n) => rect(a + 8 + n * 5, m - 7, 5, 14, c)); text('Conditional format', a + 40, m + 1, `500 13px ${UI}`, '#222'); tri(a + 158, m, 4, '#666'); }, cfOn);
+  btn(380, a => text(t < T.grid ? 'Aturan: hasil rumus → kuning' : 'Aturan: bulan sudah disetor → hijau', a + 10, m + 1, `500 13px ${UI}`, '#444'));
+  line(0, ty + TOOL_H - .5, W, ty + TOOL_H - .5, '#c8c7c1');
+  // formula bar
+  const fy = TITLE_H + TOOL_H, fm = fy + FBAR_H / 2 + 1; rect(0, fy, W, FBAR_H, '#f8f7f3');
+  rect(10, fy + 9, 170, FBAR_H - 18, '#fff'); g.strokeStyle = '#b3b2ac'; g.lineWidth = 1; g.strokeRect(10.5, fy + 9.5, 169, FBAR_H - 19);
+  const F = formulaLine(t);
+  text(F.name || '', 22, fm, `700 16px ${UI}`, INK); tri(168, fm, 4, '#777');
+  g.strokeStyle = '#b03030'; g.lineWidth = 2; g.beginPath(); g.moveTo(196, fm - 6); g.lineTo(208, fm + 6); g.moveTo(208, fm - 6); g.lineTo(196, fm + 6); g.stroke();
+  g.strokeStyle = '#2a7a3a'; g.beginPath(); g.moveTo(223, fm); g.lineTo(228, fm + 5); g.lineTo(238, fm - 6); g.stroke();
+  text('fx', 260, fm, `italic 700 17px ${UI}`, '#333', 'center');
+  rect(282, fy + 6, W - 292, FBAR_H - 12, '#fff'); g.strokeStyle = '#b3b2ac'; g.strokeRect(282.5, fy + 6.5, W - 293, FBAR_H - 13);
+  let fx = 298;
+  for (const [s, col] of F.parts) { text(s, fx, fm, `700 26px ${UI}`, col); fx += tw(s, `700 26px ${UI}`); }
+  if (F.caret && Math.floor(t * 8) % 2 === 0) rect(fx + 3, fy + 13, 2.5, FBAR_H - 26, INK);
+  if (F.after) text(F.after, fx + 22, fm, `600 22px ${UI}`, F.afterCol || '#7a7a74');
+  line(0, fy + FBAR_H - .5, W, fy + FBAR_H - .5, '#b5b4ae');
+  // tabs + status
+  const by = SHEET_B; rect(0, by, W, TABS_H, '#e5e4de'); line(0, by + .5, W, by + .5, '#9a9a94');
+  tri(18, by + TABS_H / 2, 5, '#888', 'left'); tri(36, by + TABS_H / 2, 5, '#888', 'right');
+  let tx = 56;
+  for (const [name, on] of [['Raka', true], ['Catatan', false], ['+', false]]) {
+    g.font = `${on ? 700 : 500} 13px ${UI}`; const w = g.measureText(name).width + 28;
+    if (on) { rect(tx, by, w, TABS_H - 3, '#fff'); line(tx, by + TABS_H - 3, tx + w, by + TABS_H - 3, AMBER, 3); }
+    text(name, tx + w / 2, by + TABS_H / 2, `${on ? 700 : 500} 13px ${UI}`, on ? INK : '#555', 'center');
+    line(tx + w + .5, by + 5, tx + w + .5, by + TABS_H - 5, '#b5b4ae'); tx += w;
+  }
+  const sy = by + TABS_H, sm = sy + STAT_H / 2 + 1; rect(0, sy, W, STAT_H, INK);
+  let mode = 'Ready', msg = '';
+  const painted = clamp(Math.floor((t - T.fill0) / T.step) + 1, 0, 84);
+  if (editing(t)) mode = 'Edit';
+  else if (t >= T.idE && t < 9.3) msg = 'Tarif_Indonesia: #N/A — nilai belum tersedia';
+  else if (t >= T.fill0 && t < fillT(83) + .3) { mode = 'Recalc'; msg = `Mengisi setoran  ${painted} / 84 bulan`; }
+  else if (t >= fillT(83) + .3 && t < T.tot0) msg = '1 sel = 1 bulan  ·  84 bulan = 7 tahun';
+  else if (t >= T.totE && t < T.hasil) msg = 'Sum  Rp6.426.000  ·  Count  84';
+  else if (t >= T.hasil) msg = 'Ilustrasi saja · besaran di Indonesia menunggu Peraturan Pemerintah';
+  rect(0, sy, 74, STAT_H, mode === 'Recalc' ? AMBER : mode === 'Ready' ? INK : '#3a3326');
+  text(mode, 37, sm, `700 12px ${UI}`, mode === 'Recalc' ? INK : '#fff', 'center');
+  text(msg, 88, sm, `500 12px ${UI}`, 'rgba(255,255,255,0.82)');
+  const zx = W - 270, zk = clamp((Math.log(CAM.z) - Math.log(.3)) / (Math.log(3.2) - Math.log(.3)), 0, 1);
+  rect(zx, sm - 1, 9, 2, '#fff'); line(zx + 18, sm, zx + 178, sm, 'rgba(255,255,255,0.4)', 2);
+  rect(zx + 18 + 160 * zk - 4, sy + 6, 8, STAT_H - 12, AMBER);
+  rect(zx + 186, sm - 1, 10, 2, '#fff'); rect(zx + 190, sm - 5, 2, 10, '#fff');
+  text(Math.round(CAM.z * 100) + '%', W - 16, sm, `700 12px ${UI}`, '#fff', 'right');
+}
+
+function render(t) {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1;
+  layout(t); CAM = camera(t);
+  HDR = Math.round(clamp(26 * Math.sqrt(CAM.z), 26, 38));
+  SHEET_Y = TITLE_H + TOOL_H + FBAR_H + HDR; VW = W - ROWH_W; VH = SHEET_B - SHEET_Y;
+  VCX = ROWH_W + VW / 2; VCY = SHEET_Y + VH / 2 - 80;           // frame above the video's caption band
+  rect(0, 0, W, H, '#fff');
+  drawSheet(t); drawHeaders(t); drawChrome(t);
+}
+window.DUR = DUR; window.render = render;
+document.fonts.load(`700 20px Inter`).then(() => Promise.all([500, 600, 800].map(w => document.fonts.load(`${w} 20px Inter`)))).then(() => { window.READY = true; });
+</script></body></html>
