@@ -258,7 +258,7 @@ export const V3Ep10B: React.FC = () => (
   <Bg dark>
     <Guest n={10} height={700} left={10} src="thumbs/photo_zitron.png" />
     <div style={{ position: "absolute", right: 60, top: 170, textAlign: "right" }}>
-      <Big size={130} color="#FFFFFF">WITHOUT JENSEN</Big>
+      <Big size={110} color="#FFFFFF">WITHOUT JENSEN</Big>
       <Big size={210} color={red} style={{ marginTop: 4 }}>IT FALLS</Big>
     </div>
   </Bg>
