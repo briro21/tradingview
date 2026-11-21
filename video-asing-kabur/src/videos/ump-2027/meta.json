@@ -2,8 +2,8 @@
   "slug": "ump-2027",
   "titles": [
     "UMP 2027 Naik, Tapi Gajimu Belum Tentu Ikut Naik. Ini Sebabnya",
-    "UMP Jakarta Rp6,13 Juta: Gajimu Sebenarnya Naik Berapa?",
-    "Bali Naik 42%, Jakarta Cuma 7%. Kenapa UMP 2027 Beda Jauh?"
+    "Bali Naik 42%, Jakarta Cuma 7%. Kenapa UMP 2027 Beda Jauh?",
+    "UMP Jakarta Naik Rp407 Ribu. Cukup? Ini Kenaikan Nyatanya"
   ],
   "intro": "UMP 2027 sudah ditetapkan: Jakarta naik 7,1% menjadi Rp6.136.941, Bali naik 42,15%, dan Jawa Barat naik 29,44%. Tapi buruh menolak dan pengusaha juga keberatan. Pertanyaan yang lebih penting: apakah gajimu sendiri ikut naik?\n\nDi video ini kita bahas dari mana angka UMP datang (rumus inflasi, pertumbuhan ekonomi, dan alfa, termasuk tiga usulan di Jakarta), kenapa kenaikan tiap provinsi beda jauh (peran kebutuhan hidup layak atau KHL), bedanya UMP dan UMK, siapa yang sebenarnya wajib ikut naik gaji (upah minimum berlaku untuk masa kerja di bawah satu tahun), berapa kenaikan nyatanya setelah inflasi dan BI Rate 6%, tiga skenario setelah UMP naik, dan empat hal yang perlu kamu cek.",
   "question": "Kamu kerja di daerah mana, UMP atau UMK-nya naik berapa, dan apakah gajimu ikut naik?",
@@ -19,19 +19,80 @@
   ],
   "note": "Angka UMP di beberapa provinsi masih bisa bertambah atau berubah, dan UMK 2027 dijadwalkan diumumkan 26 November 2026. Simulasi Sari dan Raka adalah ilustrasi. Video ini untuk edukasi, bukan nasihat hukum. Narasi menggunakan suara sintetis.",
   "chapters": [
-    [0, "UMP 2027 naik, gajimu?"],
-    [7, "Bagian 1: Angka UMP datang dari mana?"],
-    [17, "Bagian 2: Kenapa Bali 42%, Jakarta 7%?"],
-    [26, "Bagian 3: Apakah gajimu ikut naik?"],
-    [37, "Bagian 4: Kenaikan nyata setelah inflasi"],
-    [45, "Bagian 5: Tiga skenario setelah UMP naik"],
-    [51, "Bagian 6: Empat hal yang perlu kamu cek"]
+    [
+      0,
+      "UMP 2027 naik, gajimu?"
+    ],
+    [
+      7,
+      "Bagian 1: Angka UMP datang dari mana?"
+    ],
+    [
+      17,
+      "Bagian 2: Kenapa Bali 42%, Jakarta 7%?"
+    ],
+    [
+      26,
+      "Bagian 3: Apakah gajimu ikut naik?"
+    ],
+    [
+      37,
+      "Bagian 4: Kenaikan nyata setelah inflasi"
+    ],
+    [
+      45,
+      "Bagian 5: Tiga skenario setelah UMP naik"
+    ],
+    [
+      51,
+      "Bagian 6: Empat hal yang perlu kamu cek"
+    ]
   ],
-  "tags": ["UMP 2027", "UMK 2027", "UMP Jakarta 2027", "kenaikan UMP 2027", "UMP Bali 2027", "UMP Jawa Barat 2027", "upah minimum 2027", "kenaikan gaji 2027", "struktur skala upah", "KHL", "kebutuhan hidup layak", "inflasi", "BI Rate 6 persen", "gaji karyawan", "buruh", "hak pekerja", "ekonomi indonesia", "edukasi keuangan"],
-  "hashtags": ["#UMP2027", "#UMK2027", "#Gaji", "#HakPekerja", "#EkonomiIndonesia"],
+  "tags": [
+    "UMP 2027",
+    "UMK 2027",
+    "UMP Jakarta 2027",
+    "kenaikan UMP 2027",
+    "UMP Bali 2027",
+    "UMP Jawa Barat 2027",
+    "upah minimum 2027",
+    "kenaikan gaji 2027",
+    "struktur skala upah",
+    "KHL",
+    "kebutuhan hidup layak",
+    "inflasi",
+    "BI Rate 6 persen",
+    "gaji karyawan",
+    "buruh",
+    "hak pekerja",
+    "ekonomi indonesia",
+    "edukasi keuangan"
+  ],
+  "hashtags": [
+    "#UMP2027",
+    "#UMK2027",
+    "#Gaji",
+    "#HakPekerja",
+    "#EkonomiIndonesia"
+  ],
   "thumbs": {
-    "v1": {"top": "UMP NAIK,", "main": "GAJIMU?", "emoji": "💸"},
-    "v2": {"kicker": "", "main": "+42%\nvs +7%", "bottom": "", "emoji": "📈"},
-    "v3": {"top": "", "left": "DI KERTAS", "right": "TERASA", "leftEmoji": "📄", "rightEmoji": "🛒"}
+    "v1": {
+      "top": "UMP NAIK,",
+      "main": "GAJIMU?",
+      "emoji": "💸"
+    },
+    "v2": {
+      "kicker": "",
+      "main": "+42%\nvs +7%",
+      "bottom": "",
+      "emoji": "📈"
+    },
+    "v3": {
+      "top": "",
+      "left": "DI KERTAS",
+      "right": "TERASA",
+      "leftEmoji": "📄",
+      "rightEmoji": "🛒"
+    }
   }
 }
