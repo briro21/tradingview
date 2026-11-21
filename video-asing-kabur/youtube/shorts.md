@@ -303,6 +303,41 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 > Austria Punya Cara Agar Pesangon Tidak Pernah Hilang. Penjelasan lengkap 9 menit ada di channel ini.
 > Detail aturan masih menunggu PP. #shorts #pesangon #PHK
 
+## Hari 44 · `ump-hook.mp4`
+**Judul:** UMP Jakarta 2027 Rp6,13 Juta, Gajimu Ikut Naik? #UMP2027 #gaji
+**Video terkait (versi lengkap):** UMP 2027 Naik, Tapi Gajimu Belum Tentu Ikut Naik. Ini Sebabnya
+**Deskripsi:**
+> UMP Jakarta 2027 Rp6,13 Juta, Gajimu Ikut Naik? Penjelasan lengkap 8 menit ada di channel ini.
+> Angka UMK 2027 diumumkan 26 November. #shorts #UMP2027 #gaji
+
+## Hari 45 · `ump-lantai.mp4`
+**Judul:** UMP Naik, Tapi Gajimu Belum Tentu Ikut Naik #UMP2027 #gaji
+**Video terkait (versi lengkap):** UMP 2027 Naik, Tapi Gajimu Belum Tentu Ikut Naik. Ini Sebabnya
+**Deskripsi:**
+> UMP Naik, Tapi Gajimu Belum Tentu Ikut Naik. Penjelasan lengkap 8 menit ada di channel ini.
+> Angka UMK 2027 diumumkan 26 November. #shorts #UMP2027 #gaji
+
+## Hari 46 · `ump-khl.mp4`
+**Judul:** Kenapa UMP Bali Naik 42% Tapi Jakarta Cuma 7%? #UMP2027 #KHL
+**Video terkait (versi lengkap):** UMP 2027 Naik, Tapi Gajimu Belum Tentu Ikut Naik. Ini Sebabnya
+**Deskripsi:**
+> Kenapa UMP Bali Naik 42% Tapi Jakarta Cuma 7%? Penjelasan lengkap 8 menit ada di channel ini.
+> Angka UMK 2027 diumumkan 26 November. #shorts #UMP2027 #gaji
+
+## Hari 47 · `ump-gaji.mp4`
+**Judul:** UMP Jakarta Naik Rp407 Ribu, Tapi Kenaikan Nyatanya Segini #UMP2027 #inflasi
+**Video terkait (versi lengkap):** UMP 2027 Naik, Tapi Gajimu Belum Tentu Ikut Naik. Ini Sebabnya
+**Deskripsi:**
+> UMP Jakarta Naik Rp407 Ribu, Tapi Kenaikan Nyatanya Segini. Penjelasan lengkap 8 menit ada di channel ini.
+> Angka UMK 2027 diumumkan 26 November. #shorts #UMP2027 #gaji
+
+## Hari 48 · `ump-cek.mp4`
+**Judul:** 4 Hal yang Harus Kamu Cek Setelah UMP 2027 Naik #UMP2027 #UMK2027
+**Video terkait (versi lengkap):** UMP 2027 Naik, Tapi Gajimu Belum Tentu Ikut Naik. Ini Sebabnya
+**Deskripsi:**
+> 4 Hal yang Harus Kamu Cek Setelah UMP 2027 Naik. Penjelasan lengkap 8 menit ada di channel ini.
+> Angka UMK 2027 diumumkan 26 November. #shorts #UMP2027 #gaji
+
 ## Tips
 - Pertama kali unggah, balas setiap komentar yang masuk, karena ini sinyal kuat bagi algoritma.
 - Sematkan (pin) komentar sendiri: "Versi lengkap 8 menit ada di channel, link di video terkait 👆".

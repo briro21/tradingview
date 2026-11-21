@@ -344,6 +344,16 @@
   "badge": "PESANGON"
  },
  {
+  "id": "ump-hook",
+  "slug": "ump-2027",
+  "from": 0,
+  "to": 38.16,
+  "hook": "UMP JAKARTA RP6,13 JUTA.\nGAJIMU IKUT NAIK?",
+  "title": "UMP Jakarta 2027 Rp6,13 Juta, Gajimu Ikut Naik? #UMP2027 #gaji",
+  "lastLine": 6,
+  "badge": "UMP 2027"
+ },
+ {
   "id": "psg-hoaks",
   "slug": "pesangon",
   "from": 91.59,
@@ -379,6 +389,42 @@
   "hook": "3 PERTANYAAN\nUNTUK NEGARA",
   "title": "Dana Pesangon Dititipkan ke Negara: 3 Pertanyaan yang Belum Dijawab #pesangon",
   "badge": "PESANGON"
+ },
+ {
+  "id": "ump-lantai",
+  "slug": "ump-2027",
+  "from": 217.016,
+  "to": 259.216,
+  "hook": "UMP NAIK,\nGAJIMU IKUT NAIK?",
+  "title": "UMP Naik, Tapi Gajimu Belum Tentu Ikut Naik #UMP2027 #gaji",
+  "badge": "UMP 2027"
+ },
+ {
+  "id": "ump-gaji",
+  "slug": "ump-2027",
+  "from": 286.632,
+  "to": 345.432,
+  "hook": "NAIK RP407 RIBU,\nTERASA BERAPA?",
+  "title": "UMP Jakarta Naik Rp407 Ribu, Tapi Kenaikan Nyatanya Segini #UMP2027 #inflasi",
+  "badge": "UMP 2027"
+ },
+ {
+  "id": "ump-khl",
+  "slug": "ump-2027",
+  "from": 120.021,
+  "to": 173.821,
+  "hook": "BALI NAIK 42%,\nJAKARTA 7%. KOK BISA?",
+  "title": "Kenapa UMP Bali Naik 42% Tapi Jakarta Cuma 7%? #UMP2027 #KHL",
+  "badge": "UMP 2027"
+ },
+ {
+  "id": "ump-cek",
+  "slug": "ump-2027",
+  "from": 416.645,
+  "to": 450.345,
+  "hook": "UMP NAIK?\nCEK 4 HAL INI",
+  "title": "4 Hal yang Harus Kamu Cek Setelah UMP 2027 Naik #UMP2027 #UMK2027",
+  "badge": "UMP 2027"
  },
  {
   "id": "psg-cek",

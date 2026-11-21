@@ -46,6 +46,7 @@ PLAN = [
     ('badak-jawa', 'bdk-emas', 53, 58, 'EMAS HABIS,\nEKOWISATA BERULANG', 'Tambang Emas vs Ekowisata: Mana yang Lebih Untung? #badakjawa #ekonomi'),
     ('pesangon', 'psg-hook', 0, 6, 'SEMISAL NIH PABRIKMU\nBANGKRUT BESOK', 'Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK'),
     ('pesangon', 'psg-austria', 28, 31, 'CARA AUSTRIA AGAR\nPESANGON TAK HILANG', 'Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh'),
+    ('ump-2027', 'ump-hook', 0, 6, 'UMP JAKARTA RP6,13 JUTA.\nGAJIMU IKUT NAIK?', 'UMP Jakarta 2027 Rp6,13 Juta, Gajimu Ikut Naik? #UMP2027 #gaji'),
     ('pesangon', 'psg-hoaks', 14, 17, 'PESANGON DISETOR\nKE DANANTARA?', 'Pesangon Disetor ke Danantara? Ini Faktanya #pesangon #hoaks'),
 ]
 
@@ -65,6 +66,10 @@ SCENES = [
     ('pesangon', 'psg-pabrik', 19, 37.4, 'PABRIK BANGKRUT,\nPESANGON NYANGKUT', 'Pabrik Bangkrut, Kenapa Pesangon Nyangkut Bertahun-tahun? #pesangon #buruh'),
     ('pesangon', 'psg-raka', 32, 23.7, 'RP76.500 SEBULAN,\n7 TAHUN JADI BERAPA?', 'Simulasi Dana Pesangon: Rp76.500 Sebulan, 7 Tahun Jadi Berapa? #pesangon #gaji'),
     ('pesangon', 'psg-3tanya', 45, 19.6, '3 PERTANYAAN\nUNTUK NEGARA', 'Dana Pesangon Dititipkan ke Negara: 3 Pertanyaan yang Belum Dijawab #pesangon'),
+    ('ump-2027', 'ump-lantai', 29, 42.2, 'UMP NAIK,\nGAJIMU IKUT NAIK?', 'UMP Naik, Tapi Gajimu Belum Tentu Ikut Naik #UMP2027 #gaji'),
+    ('ump-2027', 'ump-gaji', 38, 58.8, 'NAIK RP407 RIBU,\nTERASA BERAPA?', 'UMP Jakarta Naik Rp407 Ribu, Tapi Kenaikan Nyatanya Segini #UMP2027 #inflasi'),
+    ('ump-2027', 'ump-khl', 18, 53.8, 'BALI NAIK 42%,\nJAKARTA 7%. KOK BISA?', 'Kenapa UMP Bali Naik 42% Tapi Jakarta Cuma 7%? #UMP2027 #KHL'),
+    ('ump-2027', 'ump-cek', 52, 33.7, 'UMP NAIK?\nCEK 4 HAL INI', '4 Hal yang Harus Kamu Cek Setelah UMP 2027 Naik #UMP2027 #UMK2027'),
     ('pesangon', 'psg-cek', 59, 42.2, 'CEK 4 HAL INI\nSEBELUM 2027', '4 Hal yang Wajib Dicek Pekerja Sebelum Aturan Pesangon Berlaku #pesangon #BPJS'),
 ]
 for slug, sid, a, dur, hook, title in SCENES:
@@ -75,4 +80,6 @@ for slug, sid, a, dur, hook, title in SCENES:
 for o in out:
     if o['slug'] == 'pesangon' and 'badge' not in o:
         o['badge'] = 'PESANGON'
+    if o['slug'] == 'ump-2027' and 'badge' not in o:
+        o['badge'] = 'UMP 2027'
 json.dump(out, open('src/shorts/shorts.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
