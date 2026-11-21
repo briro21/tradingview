@@ -45,7 +45,7 @@ PLAN = [
     ('badak-jawa', 'bdk-hook', 0, 12, 'HANYA 80–100 BADAK JAWA\nTERSISA DI DUNIA', 'Hanya 80 Badak Jawa Tersisa, Kenapa Mau Dipindah? #badakjawa #ujungkulon'),
     ('badak-jawa', 'bdk-emas', 53, 58, 'EMAS HABIS,\nEKOWISATA BERULANG', 'Tambang Emas vs Ekowisata: Mana yang Lebih Untung? #badakjawa #ekonomi'),
     ('pesangon', 'psg-hook', 0, 6, 'SEMISAL NIH PABRIKMU\nBANGKRUT BESOK', 'Semisal Nih Pabrikmu Bangkrut Besok, Pesangonmu di Mana? #pesangon #PHK'),
-    ('pesangon', 'psg-austria', 27, 38, 'CARA AUSTRIA AGAR\nPESANGON TAK HILANG', 'Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh'),
+    ('pesangon', 'psg-austria', 28, 31, 'CARA AUSTRIA AGAR\nPESANGON TAK HILANG', 'Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh'),
     ('pesangon', 'psg-hoaks', 14, 17, 'PESANGON DISETOR\nKE DANANTARA?', 'Pesangon Disetor ke Danantara? Ini Faktanya #pesangon #hoaks'),
 ]
 
@@ -59,19 +59,19 @@ for slug, sid, a, b, hook, title in PLAN:
         end = lines[b]['end'] + 0.6
     out.append({'id': sid, 'slug': slug, 'from': round(start, 2), 'to': round(end, 2), 'hook': hook, 'title': title, 'lastLine': b})
     print(f'{sid:16} {end - start:5.1f}s  baris {a}-{b}')
-# Shorts dari adegan 3D "bongkar" (render 9:16 motion-reel): mulai tepat di awal baris a, sepanjang klipnya.
-CLIPS = [
-    ('pesangon', 'psg-b1', 8, 23.6, 'DANA PESANGONMU\nDIBONGKAR', 'Dana Pesangon Dibongkar: Uangmu Sebenarnya ke Mana? #pesangon #PHK'),
-    ('pesangon', 'psg-b2', 19, 37.6, 'KENAPA PESANGON\nMACET SAAT PAILIT?', 'Kenapa Pesangon Macet Saat Pabrik Pailit? #pesangon #buruh'),
-    ('pesangon', 'psg-b3', 32, 24.0, 'SLIP GAJI DIBONGKAR:\nRP76.500 UNTUK PESANGON', 'Slip Gaji Dibongkar: Rp76.500 per Bulan untuk Pesangon? #pesangon #gaji'),
-    ('pesangon', 'psg-b4', 45, 20.0, '3 PERTANYAAN\nYANG BELUM DIJAWAB', 'Dana Pesangon: 3 Pertanyaan yang Belum Dijawab Pemerintah #pesangon'),
+# Shorts dari adegan OpusCar (isometrik, spreadsheet, briefing board, sketchnote): mulai tepat di awal baris a,
+# sepanjang adegannya. Tanpa 'clip': Short menampilkan video panjangnya sendiri (adegan OpusCar ada di dalamnya).
+SCENES = [
+    ('pesangon', 'psg-pabrik', 19, 37.4, 'PABRIK BANGKRUT,\nPESANGON NYANGKUT', 'Pabrik Bangkrut, Kenapa Pesangon Nyangkut Bertahun-tahun? #pesangon #buruh'),
+    ('pesangon', 'psg-raka', 32, 23.7, 'RP76.500 SEBULAN,\n7 TAHUN JADI BERAPA?', 'Simulasi Dana Pesangon: Rp76.500 Sebulan, 7 Tahun Jadi Berapa? #pesangon #gaji'),
+    ('pesangon', 'psg-3tanya', 45, 19.6, '3 PERTANYAAN\nUNTUK NEGARA', 'Dana Pesangon Dititipkan ke Negara: 3 Pertanyaan yang Belum Dijawab #pesangon'),
+    ('pesangon', 'psg-cek', 59, 42.2, 'CEK 4 HAL INI\nSEBELUM 2027', '4 Hal yang Wajib Dicek Pekerja Sebelum Aturan Pesangon Berlaku #pesangon #BPJS'),
 ]
-for slug, sid, a, dur, hook, title in CLIPS:
+for slug, sid, a, dur, hook, title in SCENES:
     lines = json.load(open(f'src/videos/{slug}/lines.json', encoding='utf-8'))
-    caps = json.load(open(f'src/videos/{slug}/captions.json', encoding='utf-8'))
-    start = next(c['start'] for c in caps if c['start'] >= lines[a]['start'] - 0.05)
-    out.append({'id': sid, 'slug': slug, 'from': round(start, 3), 'to': round(start + dur - 0.1, 3), 'hook': hook, 'title': title, 'clip': f'bongkar/{sid}-9x16.mp4', 'badge': 'DIBONGKAR'})
-    print(f'{sid:16} {dur:5.1f}s  klip 3D')
+    start = lines[a]['start']
+    out.append({'id': sid, 'slug': slug, 'from': round(start, 3), 'to': round(start + dur, 3), 'hook': hook, 'title': title})
+    print(f'{sid:16} {dur:5.1f}s  adegan OpusCar')
 for o in out:
     if o['slug'] == 'pesangon' and 'badge' not in o:
         o['badge'] = 'PESANGON'

@@ -275,18 +275,32 @@ Unggah **1 Short per hari** sesuai urutan di bawah. Di setiap Short, isi **"Vide
 > Pesangon Disetor ke Danantara? Ini Faktanya. Penjelasan lengkap 9 menit ada di channel ini.
 > Detail aturan masih menunggu PP. #shorts #pesangon #PHK
 
-## Hari 40 · `psg-pp.mp4`
-**Judul:** 3 Pertanyaan yang Harus Dijawab Soal Dana Pesangon #pesangon #PHK
+## Hari 40 · `psg-pabrik.mp4`
+**Judul:** Pabrik Bangkrut, Kenapa Pesangon Nyangkut Bertahun-tahun? #pesangon #buruh
 **Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
 **Deskripsi:**
-> 3 Pertanyaan yang Harus Dijawab Soal Dana Pesangon. Penjelasan lengkap 9 menit ada di channel ini.
+> Pabrik Bangkrut, Kenapa Pesangon Nyangkut Bertahun-tahun?. Penjelasan lengkap 9 menit ada di channel ini.
 > Detail aturan masih menunggu PP. #shorts #pesangon #PHK
 
 ## Hari 41 · `psg-raka.mp4`
-**Judul:** Simulasi Dana Pesangon: Gaji 5 Juta, 7 Tahun Jadi Berapa? #pesangon
+**Judul:** Simulasi Dana Pesangon: Rp76.500 Sebulan, 7 Tahun Jadi Berapa? #pesangon #gaji
 **Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
 **Deskripsi:**
-> Simulasi Dana Pesangon: Gaji 5 Juta, 7 Tahun Jadi Berapa?. Penjelasan lengkap 9 menit ada di channel ini.
+> Simulasi Dana Pesangon: Rp76.500 Sebulan, 7 Tahun Jadi Berapa?. Penjelasan lengkap 9 menit ada di channel ini.
+> Detail aturan masih menunggu PP. #shorts #pesangon #PHK
+
+## Hari 42 · `psg-3tanya.mp4`
+**Judul:** Dana Pesangon Dititipkan ke Negara: 3 Pertanyaan yang Belum Dijawab #pesangon
+**Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
+**Deskripsi:**
+> Dana Pesangon Dititipkan ke Negara: 3 Pertanyaan yang Belum Dijawab. Penjelasan lengkap 9 menit ada di channel ini.
+> Detail aturan masih menunggu PP. #shorts #pesangon #PHK
+
+## Hari 43 · `psg-cek.mp4`
+**Judul:** 4 Hal yang Wajib Dicek Pekerja Sebelum Aturan Pesangon Berlaku #pesangon #BPJS
+**Video terkait (versi lengkap):** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
+**Deskripsi:**
+> 4 Hal yang Wajib Dicek Pekerja Sebelum Aturan Pesangon Berlaku. Penjelasan lengkap 9 menit ada di channel ini.
 > Detail aturan masih menunggu PP. #shorts #pesangon #PHK
 
 ## Tips

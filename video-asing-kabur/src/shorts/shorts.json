@@ -336,11 +336,11 @@
  {
   "id": "psg-austria",
   "slug": "pesangon",
-  "from": 192.19,
-  "to": 244.27,
+  "from": 197.65,
+  "to": 227.5,
   "hook": "CARA AUSTRIA AGAR\nPESANGON TAK HILANG",
   "title": "Austria Punya Cara Agar Pesangon Tidak Pernah Hilang #pesangon #buruh",
-  "lastLine": 33,
+  "lastLine": 31,
   "badge": "PESANGON"
  },
  {
@@ -354,43 +354,39 @@
   "badge": "PESANGON"
  },
  {
-  "id": "psg-b1",
-  "slug": "pesangon",
-  "from": 40.382,
-  "to": 63.882,
-  "hook": "DANA PESANGONMU\nDIBONGKAR",
-  "title": "Dana Pesangon Dibongkar: Uangmu Sebenarnya ke Mana? #pesangon #PHK",
-  "clip": "bongkar/psg-b1-9x16.mp4",
-  "badge": "DIBONGKAR"
- },
- {
-  "id": "psg-b2",
+  "id": "psg-pabrik",
   "slug": "pesangon",
   "from": 131.196,
-  "to": 168.696,
-  "hook": "KENAPA PESANGON\nMACET SAAT PAILIT?",
-  "title": "Kenapa Pesangon Macet Saat Pabrik Pailit? #pesangon #buruh",
-  "clip": "bongkar/psg-b2-9x16.mp4",
-  "badge": "DIBONGKAR"
+  "to": 168.596,
+  "hook": "PABRIK BANGKRUT,\nPESANGON NYANGKUT",
+  "title": "Pabrik Bangkrut, Kenapa Pesangon Nyangkut Bertahun-tahun? #pesangon #buruh",
+  "badge": "PESANGON"
  },
  {
-  "id": "psg-b3",
+  "id": "psg-raka",
   "slug": "pesangon",
   "from": 227.348,
-  "to": 251.248,
-  "hook": "SLIP GAJI DIBONGKAR:\nRP76.500 UNTUK PESANGON",
-  "title": "Slip Gaji Dibongkar: Rp76.500 per Bulan untuk Pesangon? #pesangon #gaji",
-  "clip": "bongkar/psg-b3-9x16.mp4",
-  "badge": "DIBONGKAR"
+  "to": 251.048,
+  "hook": "RP76.500 SEBULAN,\n7 TAHUN JADI BERAPA?",
+  "title": "Simulasi Dana Pesangon: Rp76.500 Sebulan, 7 Tahun Jadi Berapa? #pesangon #gaji",
+  "badge": "PESANGON"
  },
  {
-  "id": "psg-b4",
+  "id": "psg-3tanya",
   "slug": "pesangon",
   "from": 346.248,
-  "to": 366.148,
-  "hook": "3 PERTANYAAN\nYANG BELUM DIJAWAB",
-  "title": "Dana Pesangon: 3 Pertanyaan yang Belum Dijawab Pemerintah #pesangon",
-  "clip": "bongkar/psg-b4-9x16.mp4",
-  "badge": "DIBONGKAR"
+  "to": 365.848,
+  "hook": "3 PERTANYAAN\nUNTUK NEGARA",
+  "title": "Dana Pesangon Dititipkan ke Negara: 3 Pertanyaan yang Belum Dijawab #pesangon",
+  "badge": "PESANGON"
+ },
+ {
+  "id": "psg-cek",
+  "slug": "pesangon",
+  "from": 442.077,
+  "to": 484.277,
+  "hook": "CEK 4 HAL INI\nSEBELUM 2027",
+  "title": "4 Hal yang Wajib Dicek Pekerja Sebelum Aturan Pesangon Berlaku #pesangon #BPJS",
+  "badge": "PESANGON"
  }
 ]
