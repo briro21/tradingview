@@ -46,6 +46,12 @@ Seri lama (gaya awal): Asing Kabur (4:20), Rupiah Rp20.000 (9:03), IHSG Hijau/FO
 
 Plus **32 Shorts** (2 per video seri baru) dengan jadwal unggah 1 per hari di `youtube/shorts.md`.
 
+## Adegan OpusCar (ilustrasi berbasis kode)
+- Gaya dari github.com/lemomo-ai/lemo-opuscar (kode MIT; hasil film boleh dimonetisasi). Mesin disalin ke `opuscar/<adegan>/`, isi adegan ditulis sendiri.
+- Render: `cd opuscar/<adegan> && NODE_PATH=$(npm root -g) node ../render.cjs . --video ../../public/opuscar/<nama>-16x9.mp4 --fps 30` (`--stills 1,5,9 --out <dir>` untuk cek gambar; `--q scene=austria` untuk piktogram). `public/opuscar/` tidak masuk git: render ulang bila hilang.
+- Pesangon v4 memakai 8 adegan, satu gaya per bagian: uang-pindah (iso-infographic, baris 8–10), pabrik (isometric people, 19–22), dana-darurat (whiteboard, 25–26), piktogram ?scene=austria (29–31, juga teaser K(2) mulai detik 4,3), raka-sheet (spreadsheet, 32–34), tiga-tanya (briefing board, 45–48), piktogram ?scene=reaksi (52–54), cek-sketch (sketchnote, 59–62). Tiap klip dimulai di awal barisnya (t = 0) dan tanpa suara.
+- Briefing board ±9 menit render (motion blur); lainnya 1–4 menit.
+
 ## Status unggah & performa
 - Sudah diunggah 3 video, terakhir **ARB 7%**. Baru ±1 penonton setelah 3 hari (channel baru).
 - Rencana: jangan buat ulang video; unggah Shorts 1/hari + video panjang 2–3/minggu, sebarkan manual ke komunitas saham, evaluasi setelah 1–2 minggu (tayangan, CTR, durasi tonton).
