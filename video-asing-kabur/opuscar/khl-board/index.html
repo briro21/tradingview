@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Dana darurat</title><style>
+html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style></head>
+<body><canvas id="c" width="1920" height="1080"></canvas><script type="module">
+const F = await (await import('./film.js')).build();
+const ctx = document.getElementById('c').getContext('2d');
+window.DUR = F.dur; window.render = t => F.render(ctx, t); window.READY = true;
+</script></body></html>

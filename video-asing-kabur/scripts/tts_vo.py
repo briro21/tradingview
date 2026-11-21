@@ -30,6 +30,7 @@ VOICES = {
     'Deputi': ('id-ID-ArdiNeural', '-4%', '-8Hz'),
     'Pejabat': ('id-ID-ArdiNeural', '+2%', '-2Hz'),
     'Warganet': ('id-ID-GadisNeural', '+10%', '+10Hz'),
+    'Sari': ('id-ID-GadisNeural', '+4%', '+14Hz'),
     'Dirimu': ('id-ID-ArdiNeural', '-12%', '-4Hz'),
     'Notaris': ('id-ID-ArdiNeural', '-10%', '-16Hz'),
     'Om Darto': ('id-ID-ArdiNeural', '+2%', '-12Hz'),

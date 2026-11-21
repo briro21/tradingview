@@ -21,6 +21,7 @@ export const CAST = {
   jokoMuda: {jacket: '#c98a3a', rim: '#ffe0b0'},
   pedagang: {jacket: '#2e8b57', rim: '#c8f5d8'},
   sri: {jacket: '#d35400', rim: '#ffd0a8'},
+  sari: {jacket: '#16a085', rim: '#a3f0dc'},
   deputi: {jacket: '#22304d', rim: '#9fb3e0'},
   dirimu: {jacket: '#6d7a8c', rim: '#cfd8e6'},
   darto: {jacket: '#6b8e23', rim: '#dff0b0'},

@@ -1,0 +1,3 @@
+Engine: engine/wb.js and core/lib.js from Lemo-OpusCar (MIT), see LICENSE-MIT.txt.
+Font: EMS Tech (fonts/EMSTech.json) — SIL Open Font License 1.1, single-line font by Sheldon B. Michaels,
+obtained via the npm package "hersheytext" (MIT). Taken from the OpusCar whiteboard demo.

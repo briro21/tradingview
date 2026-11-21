@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Thumbnail pesangon</title><style>
+@font-face{font-family:M;src:url(montserrat-latin-900-normal.woff2) format('woff2');font-weight:900}
+html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#16213a}
+.abs{position:absolute}
+.bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.t{position:absolute;font-family:M;font-weight:900;line-height:.95;letter-spacing:-2px;color:#fff;
+   text-shadow:0 6px 0 rgba(0,0,0,.35),0 0 24px rgba(0,0,0,.45);-webkit-text-stroke:3px #0d1220;paint-order:stroke fill}
+.y{color:#FFD23F}.r{color:#FF5A3C}
+.hl{display:inline-block;background:#FFD23F;color:#141414;-webkit-text-stroke:0;text-shadow:none;padding:2px 18px 10px;transform:rotate(-2deg)}
+.chip{position:absolute;font-family:M;font-weight:900;background:#E63B2E;color:#fff;border:5px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+</style></head><body><div id="r"></div><script>
+const v = new URLSearchParams(location.search).get('v') || '1';
+const arrow = (d, w = 26) => `<svg class="abs" style="left:0;top:0" width="1280" height="720" viewBox="0 0 1280 720"><defs><marker id="h" markerWidth="4" markerHeight="4" refX="2.2" refY="2" orient="auto"><path d="M0,0 L4,2 L0,4 z" fill="#FF5A3C"/></marker></defs><path d="${d}" fill="none" stroke="#0d1220" stroke-width="${w + 10}" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#FF5A3C" stroke-width="${w}" stroke-linecap="round" marker-end="url(#h)"/></svg>`;
+const S = {
+  // Sari rises with the minimum-wage floor, Raka stands still on the company's scale
+  1: `<div class="bg" style="background-image:url(ump1.jpg)"></div>
+      <div class="abs" style="inset:0;background:linear-gradient(270deg,rgba(22,33,58,.9) 0%,rgba(22,33,58,.6) 30%,rgba(22,33,58,0) 50%)"></div>
+      <div class="t" style="right:48px;top:150px;font-size:128px;text-align:right">UMP NAIK,<br><span class="y" style="font-size:150px">GAJIMU?</span></div>`,
+  // Jakarta +7% vs Bali +42%
+  2: `<div class="bg" style="background-image:url(ump2a.jpg);right:50%;background-size:auto 100%;background-position:96% 50%"></div>
+      <div class="bg" style="background-image:url(ump2b.jpg);left:50%;background-size:auto 100%;background-position:96% 50%"></div>
+      <div class="abs" style="left:634px;top:0;width:12px;height:720px;background:#fff"></div>
+      <div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(13,18,32,0) 40%,rgba(13,18,32,.85) 100%)"></div>
+      <div class="t" style="left:0;width:640px;top:440px;font-size:190px;text-align:center">+7%</div>
+      <div class="t y" style="left:640px;width:640px;top:430px;font-size:200px;text-align:center">+42%</div>
+      <div class="chip" style="left:570px;top:300px;width:140px;height:140px;font-size:56px;background:#141414">VS</div>`,
+  // Rp407k on paper, less in your pocket
+  3: `<div class="bg" style="background-image:url(ump3.jpg);background-size:auto 150%;background-position:46% 46%"></div>
+      <div class="abs" style="inset:0;background:linear-gradient(90deg,rgba(20,22,28,.97) 0%,rgba(20,22,28,.92) 46%,rgba(20,22,28,0) 64%)"></div>
+      <div class="t" style="left:50px;top:170px;font-size:118px">RP407 RIBU</div>
+      <div class="t" style="left:54px;top:320px;font-size:140px"><span class="hl">CUKUP?</span></div>`,
+};
+document.getElementById('r').innerHTML = S[v];
+document.fonts.load('900 40px M').then(() => { window.READY = true; });
+</script></body></html>

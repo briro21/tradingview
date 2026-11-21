@@ -5,6 +5,7 @@ const srv = http.createServer((q, r) => { const f = path.join(dir, decodeURIComp
   await new Promise(r => srv.listen(0, r));
   const exe = execSync('ls -d /opt/pw-browsers/chromium_headless_shell-*/*/chrome-headless-shell | head -1').toString().trim();
   const b = await chromium.launch({ executablePath: exe }), p = await b.newPage({ viewport: { width: 1280, height: 720 } });
-  for (const v of [1, 2, 3]) { await p.goto(`http://127.0.0.1:${srv.address().port}/index.html?v=${v}`); await p.waitForFunction(() => window.READY); await p.screenshot({ path: process.argv[2] + `/pesangon-thumb-${v}.png` }); }
+  const page = process.argv[3] || 'index.html', pre = process.argv[4] || 'pesangon';
+  for (const v of [1, 2, 3]) { await p.goto(`http://127.0.0.1:${srv.address().port}/${page}?v=${v}`); await p.waitForFunction(() => window.READY); await p.screenshot({ path: process.argv[2] + `/${pre}-thumb-${v}.png` }); }
   await b.close(); srv.close();
 })();

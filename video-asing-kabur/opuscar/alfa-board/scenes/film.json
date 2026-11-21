@@ -1,0 +1,747 @@
+{
+ "dur": 42.75,
+ "board": {
+  "w": 5000,
+  "h": 3000,
+  "seed": 31,
+  "texScale": 0.42,
+  "ghosts": 90
+ },
+ "hand": 1.0,
+ "sheen": 0.07,
+ "light": {
+  "x": -1800,
+  "y": -2400,
+  "r": 15000,
+  "min": 0.8
+ },
+ "tray": [
+  {
+   "kind": "marker",
+   "color": "graphite",
+   "x": 1300,
+   "rot": -2
+  },
+  {
+   "kind": "marker",
+   "color": "blue",
+   "x": 1700,
+   "rot": 1.5
+  },
+  {
+   "kind": "marker",
+   "color": "red",
+   "x": 2100,
+   "rot": -1
+  },
+  {
+   "kind": "eraser",
+   "x": 3900,
+   "rot": 0.5
+  }
+ ],
+ "cam": {
+  "x": 1500,
+  "y": 650,
+  "z": 0.72,
+  "roll": -0.5,
+  "moves": [
+   {
+    "t": 0,
+    "d": 3.8,
+    "a": 2,
+    "b": 2,
+    "dx": 0,
+    "dl": 0.05
+   },
+   {
+    "t": 6.8,
+    "d": 1.2,
+    "a": 2,
+    "b": 2.4,
+    "dx": 250,
+    "dl": -0.05
+   },
+   {
+    "t": 12.6,
+    "d": 1.3,
+    "a": 2,
+    "b": 2.6,
+    "dx": 300,
+    "dy": 1050,
+    "dl": -0.25131442828090594
+   },
+   {
+    "t": 15.6,
+    "d": 1.0,
+    "a": 2,
+    "b": 2.6,
+    "dx": -600,
+    "dy": -100,
+    "dl": 0.33135713595444244
+   },
+   {
+    "t": 21.8,
+    "d": 1.0,
+    "a": 2,
+    "b": 2.6,
+    "dx": 1300,
+    "dr": -1
+   },
+   {
+    "t": 27.2,
+    "d": 1.0,
+    "a": 2,
+    "b": 2.6,
+    "dx": -650,
+    "dr": 1
+   },
+   {
+    "t": 35.8,
+    "d": 1.2,
+    "a": 1.6,
+    "b": 3,
+    "dx": -100,
+    "dy": 330,
+    "dl": -0.34937564145712074
+   }
+  ],
+  "shakes": [
+   {
+    "t": 32.3,
+    "amp": 6,
+    "f": 9,
+    "k": 7
+   }
+  ]
+ },
+ "elements": [
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "KENAIKAN = ( INFLASI + PERTUMBUHAN \u00d7 \u03b1 )",
+   "xy": [
+    380,
+    560
+   ],
+   "size": 108,
+   "color": "graphite",
+   "t": 0.2,
+   "d": 3.6
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "\u00d7 UMP 2026",
+   "xy": [
+    1450,
+    760
+   ],
+   "size": 108,
+   "color": "graphite",
+   "t": 7.2,
+   "d": 0.8
+  },
+  {
+   "type": "ink",
+   "kind": "ring",
+   "c": [
+    2530,
+    520
+   ],
+   "r": [
+    95,
+    95
+   ],
+   "lw": 11,
+   "color": "red",
+   "t": 10.4,
+   "d": 0.4
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "jadi rebutan",
+   "xy": [
+    2660,
+    420
+   ],
+   "size": 70,
+   "color": "red",
+   "t": 10.9,
+   "d": 0.6
+  },
+  {
+   "type": "ink",
+   "kind": "line",
+   "points": [
+    [
+     540.0,
+     1800
+    ],
+    [
+     3860.0,
+     1800
+    ]
+   ],
+   "t": 13.0,
+   "d": 0.8,
+   "lw": 10,
+   "color": "graphite"
+  },
+  {
+   "type": "ink",
+   "kind": "line",
+   "points": [
+    [
+     600.0,
+     1770
+    ],
+    [
+     600.0,
+     1830
+    ]
+   ],
+   "t": 13.4,
+   "d": 0.1,
+   "lw": 8,
+   "color": "graphite"
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "6,00",
+   "xy": [
+    600.0,
+    1910
+   ],
+   "size": 62,
+   "color": "grey",
+   "t": 13.5,
+   "d": 0.25,
+   "align": "center"
+  },
+  {
+   "type": "ink",
+   "kind": "line",
+   "points": [
+    [
+     1239.9999999999977,
+     1770
+    ],
+    [
+     1239.9999999999977,
+     1830
+    ]
+   ],
+   "t": 13.48,
+   "d": 0.1,
+   "lw": 8,
+   "color": "graphite"
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "6,05",
+   "xy": [
+    1239.9999999999977,
+    1910
+   ],
+   "size": 62,
+   "color": "grey",
+   "t": 13.58,
+   "d": 0.25,
+   "align": "center"
+  },
+  {
+   "type": "ink",
+   "kind": "line",
+   "points": [
+    [
+     1879.9999999999955,
+     1770
+    ],
+    [
+     1879.9999999999955,
+     1830
+    ]
+   ],
+   "t": 13.56,
+   "d": 0.1,
+   "lw": 8,
+   "color": "graphite"
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "6,10",
+   "xy": [
+    1879.9999999999955,
+    1910
+   ],
+   "size": 62,
+   "color": "grey",
+   "t": 13.66,
+   "d": 0.25,
+   "align": "center"
+  },
+  {
+   "type": "ink",
+   "kind": "line",
+   "points": [
+    [
+     2520.0000000000045,
+     1770
+    ],
+    [
+     2520.0000000000045,
+     1830
+    ]
+   ],
+   "t": 13.64,
+   "d": 0.1,
+   "lw": 8,
+   "color": "graphite"
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "6,15",
+   "xy": [
+    2520.0000000000045,
+    1910
+   ],
+   "size": 62,
+   "color": "grey",
+   "t": 13.74,
+   "d": 0.25,
+   "align": "center"
+  },
+  {
+   "type": "ink",
+   "kind": "line",
+   "points": [
+    [
+     3160.0000000000023,
+     1770
+    ],
+    [
+     3160.0000000000023,
+     1830
+    ]
+   ],
+   "t": 13.72,
+   "d": 0.1,
+   "lw": 8,
+   "color": "graphite"
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "6,20",
+   "xy": [
+    3160.0000000000023,
+    1910
+   ],
+   "size": 62,
+   "color": "grey",
+   "t": 13.82,
+   "d": 0.25,
+   "align": "center"
+  },
+  {
+   "type": "ink",
+   "kind": "line",
+   "points": [
+    [
+     3800.0,
+     1770
+    ],
+    [
+     3800.0,
+     1830
+    ]
+   ],
+   "t": 13.8,
+   "d": 0.1,
+   "lw": 8,
+   "color": "graphite"
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "6,25",
+   "xy": [
+    3800.0,
+    1910
+   ],
+   "size": 62,
+   "color": "grey",
+   "t": 13.9,
+   "d": 0.25,
+   "align": "center"
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "juta rupiah",
+   "xy": [
+    3900.0,
+    1910
+   ],
+   "size": 52,
+   "color": "grey",
+   "t": 14.1,
+   "d": 0.4
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "3 USULAN DI JAKARTA",
+   "xy": [
+    380,
+    1080
+   ],
+   "size": 96,
+   "color": "graphite",
+   "t": 13.0,
+   "d": 1.4
+  },
+  {
+   "type": "card",
+   "id": "c0",
+   "xy": [
+    1209.1392000000042,
+    1420
+   ],
+   "w": 700,
+   "h": 300,
+   "rot": -0.8,
+   "z": 7,
+   "magnetR": 20,
+   "magnets": [
+    [
+     -310,
+     -115,
+     "graphite"
+    ],
+    [
+     310,
+     -115,
+     "graphite"
+    ]
+   ],
+   "arrive": {
+    "t": 15.95,
+    "kind": "drop",
+    "d": 0.3,
+    "lift": 160
+   },
+   "lines": [
+    {
+     "text": "PENGUSAHA",
+     "font": "sans",
+     "weight": 700,
+     "size": 58,
+     "x": 46,
+     "y": -40,
+     "color": "graphite"
+    },
+    {
+     "text": "\u03b1 0,5",
+     "font": "mono",
+     "weight": 600,
+     "size": 46,
+     "x": 46,
+     "y": 30,
+     "color": "blue"
+    },
+    {
+     "text": "Rp6.047.589",
+     "font": "sans",
+     "weight": 700,
+     "size": 56,
+     "x": 46,
+     "y": 105,
+     "color": "graphite"
+    }
+   ]
+  },
+  {
+   "type": "ink",
+   "kind": "line",
+   "points": [
+    [
+     1209.1392000000042,
+     1585
+    ],
+    [
+     1209.1392000000042,
+     1760
+    ]
+   ],
+   "t": 16.349999999999998,
+   "d": 0.3,
+   "lw": 9,
+   "color": "graphite",
+   "arrow": true
+  },
+  {
+   "type": "magnet",
+   "id": "m0",
+   "xy": [
+    1209.1392000000042,
+    1800
+   ],
+   "r": 30,
+   "color": "graphite",
+   "z": 14,
+   "arrive": {
+    "t": 16.65,
+    "kind": "snap",
+    "d": 0.3,
+    "lift": 80
+   }
+  },
+  {
+   "type": "card",
+   "id": "c1",
+   "xy": [
+    3288.512000000003,
+    1420
+   ],
+   "w": 700,
+   "h": 300,
+   "rot": 0.7,
+   "z": 7,
+   "magnetR": 20,
+   "magnets": [
+    [
+     -310,
+     -115,
+     "graphite"
+    ],
+    [
+     310,
+     -115,
+     "graphite"
+    ]
+   ],
+   "arrive": {
+    "t": 22.15,
+    "kind": "drop",
+    "d": 0.3,
+    "lift": 160
+   },
+   "lines": [
+    {
+     "text": "BURUH",
+     "font": "sans",
+     "weight": 700,
+     "size": 58,
+     "x": 46,
+     "y": -40,
+     "color": "graphite"
+    },
+    {
+     "text": "\u03b1 1,0",
+     "font": "mono",
+     "weight": 600,
+     "size": 46,
+     "x": 46,
+     "y": 30,
+     "color": "blue"
+    },
+    {
+     "text": "Rp6.210.040",
+     "font": "sans",
+     "weight": 700,
+     "size": 56,
+     "x": 46,
+     "y": 105,
+     "color": "graphite"
+    }
+   ]
+  },
+  {
+   "type": "ink",
+   "kind": "line",
+   "points": [
+    [
+     3288.512000000003,
+     1585
+    ],
+    [
+     3288.512000000003,
+     1760
+    ]
+   ],
+   "t": 22.549999999999997,
+   "d": 0.3,
+   "lw": 9,
+   "color": "graphite",
+   "arrow": true
+  },
+  {
+   "type": "magnet",
+   "id": "m1",
+   "xy": [
+    3288.512000000003,
+    1800
+   ],
+   "r": 30,
+   "color": "graphite",
+   "z": 14,
+   "arrive": {
+    "t": 22.849999999999998,
+    "kind": "snap",
+    "d": 0.3,
+    "lift": 80
+   }
+  },
+  {
+   "type": "card",
+   "id": "c2",
+   "xy": [
+    2352.8448000000026,
+    1420
+   ],
+   "w": 700,
+   "h": 300,
+   "rot": -0.4,
+   "z": 7,
+   "magnetR": 20,
+   "magnets": [
+    [
+     -310,
+     -115,
+     "graphite"
+    ],
+    [
+     310,
+     -115,
+     "graphite"
+    ]
+   ],
+   "arrive": {
+    "t": 27.6,
+    "kind": "drop",
+    "d": 0.3,
+    "lift": 160
+   },
+   "lines": [
+    {
+     "text": "PEMERINTAH",
+     "font": "sans",
+     "weight": 700,
+     "size": 58,
+     "x": 46,
+     "y": -40,
+     "color": "graphite"
+    },
+    {
+     "text": "\u03b1 0,775",
+     "font": "mono",
+     "weight": 600,
+     "size": 46,
+     "x": 46,
+     "y": 30,
+     "color": "blue"
+    },
+    {
+     "text": "Rp6.136.941",
+     "font": "sans",
+     "weight": 700,
+     "size": 56,
+     "x": 46,
+     "y": 105,
+     "color": "graphite"
+    }
+   ]
+  },
+  {
+   "type": "ink",
+   "kind": "line",
+   "points": [
+    [
+     2352.8448000000026,
+     1585
+    ],
+    [
+     2352.8448000000026,
+     1760
+    ]
+   ],
+   "t": 28.0,
+   "d": 0.3,
+   "lw": 9,
+   "color": "graphite",
+   "arrow": true
+  },
+  {
+   "type": "magnet",
+   "id": "m2",
+   "xy": [
+    2352.8448000000026,
+    1800
+   ],
+   "r": 30,
+   "color": "red",
+   "z": 14,
+   "arrive": {
+    "t": 28.3,
+    "kind": "snap",
+    "d": 0.3,
+    "lift": 80
+   }
+  },
+  {
+   "type": "stamp",
+   "id": "stamp",
+   "text": "DITETAPKAN",
+   "xy": [
+    2392.8448000000026,
+    1150
+   ],
+   "size": 110,
+   "rot": -6,
+   "t": 32.3,
+   "seed": 5
+  },
+  {
+   "type": "ink",
+   "kind": "dim",
+   "id": "dim",
+   "from": [
+    1209.1392000000042,
+    2030
+   ],
+   "to": [
+    3288.512000000003,
+    2030
+   ],
+   "lw": 12,
+   "color": "blue",
+   "t": 36.4,
+   "d": 0.8,
+   "ea": 1.2,
+   "eb": 2.4
+  },
+  {
+   "type": "ink",
+   "kind": "write",
+   "text": "\u00b1 Rp163 ribu / bulan",
+   "xy": [
+    2248.8256000000038,
+    2180
+   ],
+   "size": 110,
+   "color": "blue",
+   "t": 38.8,
+   "d": 1.2,
+   "align": "center"
+  }
+ ],
+ "subs": [],
+ "ev": []
+}

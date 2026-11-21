@@ -1,0 +1,922 @@
+[
+{
+"start": 0.3,
+"end": 2.376,
+"text": "Mulai Januari 2027, upah minimum"
+},
+{
+"start": 2.376,
+"end": 4.322,
+"text": "Jakarta jadi enam juta seratus"
+},
+{
+"start": 4.322,
+"end": 6.138,
+"text": "tiga puluh enam ribu rupiah."
+},
+{
+"start": 6.588,
+"end": 8.693,
+"text": "Naik empat ratus tujuh ribu rupiah,"
+},
+{
+"start": 8.693,
+"end": 10.377,
+"text": "atau tujuh koma satu persen."
+},
+{
+"start": 10.827,
+"end": 14.182,
+"text": "Di Bali, kenaikannya empat puluh dua persen."
+},
+{
+"start": 14.182,
+"end": 17.309,
+"text": "Di Jawa Barat, dua puluh sembilan persen."
+},
+{
+"start": 17.759,
+"end": 20.602,
+"text": "Tapi anehnya, buruh menolak angka ini."
+},
+{
+"start": 20.602,
+"end": 23.296,
+"text": "Dan pengusaha juga merasa keberatan."
+},
+{
+"start": 23.746,
+"end": 26.667,
+"text": "Pertanyaannya buat kamu: apakah gajimu ikut naik?"
+},
+{
+"start": 27.117,
+"end": 29.4,
+"text": "Jawabannya mungkin tidak seperti yang kamu kira."
+},
+{
+"start": 29.85,
+"end": 32.011,
+"text": "Kita bahas dari mana angkanya, kenapa"
+},
+{
+"start": 32.011,
+"end": 34.055,
+"text": "tiap provinsi beda jauh, siapa yang"
+},
+{
+"start": 34.055,
+"end": 36.157,
+"text": "sebenarnya ikut naik gaji, dan empat"
+},
+{
+"start": 36.157,
+"end": 37.558,
+"text": "hal yang perlu kamu cek."
+},
+{
+"start": 38.008,
+"end": 40.635,
+"text": "Bagian pertama. Angka enam koma satu"
+},
+{
+"start": 40.635,
+"end": 42.532,
+"text": "juta itu datang dari mana?"
+},
+{
+"start": 42.982,
+"end": 46.174,
+"text": "Upah minimum provinsi 2027 wajib ditetapkan paling"
+},
+{
+"start": 46.174,
+"end": 49.11,
+"text": "lambat dua puluh satu November. Sampai tenggat"
+},
+{
+"start": 49.11,
+"end": 51.855,
+"text": "itu, sedikitnya tujuh belas dari tiga puluh"
+},
+{
+"start": 51.855,
+"end": 54.089,
+"text": "delapan provinsi sudah mengumumkan."
+},
+{
+"start": 54.539,
+"end": 58.58,
+"text": "Rumus dasarnya begini: inflasi, ditambah pertumbuhan ekonomi"
+},
+{
+"start": 58.58,
+"end": 61.745,
+"text": "yang dikali sebuah angka bernama alfa. Hasilnya"
+},
+{
+"start": 61.745,
+"end": 64.439,
+"text": "dikalikan dengan upah minimum tahun ini."
+},
+{
+"start": 64.889,
+"end": 67.535,
+"text": "Alfa itulah yang jadi rebutan."
+},
+{
+"start": 67.535,
+"end": 70.004,
+"text": "Di Jakarta, ada tiga usulan."
+},
+{
+"start": 70.454,
+"end": 72.788,
+"text": "Pengusaha mengusulkan alfa nol koma lima,"
+},
+{
+"start": 72.788,
+"end": 75.008,
+"text": "sehingga upah minimum menjadi enam koma"
+},
+{
+"start": 75.008,
+"end": 76.204,
+"text": "nol lima juta rupiah."
+},
+{
+"start": 76.654,
+"end": 79.809,
+"text": "Serikat buruh mengusulkan alfa satu, sehingga menjadi"
+},
+{
+"start": 79.809,
+"end": 81.654,
+"text": "enam koma dua satu juta rupiah."
+},
+{
+"start": 82.104,
+"end": 84.939,
+"text": "Pemerintah provinsi mengambil jalan tengah, alfa"
+},
+{
+"start": 84.939,
+"end": 86.711,
+"text": "nol koma tujuh tujuh lima, dan"
+},
+{
+"start": 86.711,
+"end": 89.014,
+"text": "itulah angka yang ditetapkan: enam koma"
+},
+{
+"start": 89.014,
+"end": 90.372,
+"text": "satu empat juta rupiah."
+},
+{
+"start": 90.822,
+"end": 93.26,
+"text": "Jadi seluruh perdebatan panjang itu, ujungnya"
+},
+{
+"start": 93.26,
+"end": 95.373,
+"text": "soal selisih sekitar seratus enam puluh"
+},
+{
+"start": 95.373,
+"end": 96.836,
+"text": "tiga ribu rupiah per bulan."
+},
+{
+"start": 97.286,
+"end": 100.066,
+"text": "Buruh tetap menolak, karena menurut mereka angka"
+},
+{
+"start": 100.066,
+"end": 102.384,
+"text": "itu masih di bawah kebutuhan hidup layak"
+},
+{
+"start": 102.384,
+"end": 105.454,
+"text": "di Jakarta. Serikat pekerja bahkan menyiapkan gugatan"
+},
+{
+"start": 105.454,
+"end": 107.308,
+"text": "ke pengadilan tata usaha negara."
+},
+{
+"start": 107.758,
+"end": 110.498,
+"text": "Sementara pengusaha di Jakarta merasa kenaikannya"
+},
+{
+"start": 110.498,
+"end": 113.127,
+"text": "terlalu tinggi, dan mencari skema pengecualian."
+},
+{
+"start": 113.577,
+"end": 116.539,
+"text": "Bagian kedua. Kenapa Bali naik empat puluh"
+},
+{
+"start": 116.539,
+"end": 119.571,
+"text": "dua persen, tapi Jakarta cuma tujuh persen?"
+},
+{
+"start": 120.021,
+"end": 122.776,
+"text": "Kuncinya ada di satu istilah: kebutuhan hidup"
+},
+{
+"start": 122.776,
+"end": 124.857,
+"text": "layak, atau K H L. Yaitu perkiraan"
+},
+{
+"start": 124.857,
+"end": 127.428,
+"text": "biaya hidup seorang pekerja dalam sebulan."
+},
+{
+"start": 127.878,
+"end": 129.258,
+"text": "Tahun ini, K H L ikut"
+},
+{
+"start": 129.258,
+"end": 132.411,
+"text": "menjadi pertimbangan penting. Kalau upah minimum"
+},
+{
+"start": 132.411,
+"end": 134.711,
+"text": "sebuah provinsi masih jauh di bawah"
+},
+{
+"start": 134.711,
+"end": 136.55,
+"text": "K H L, kenaikannya bisa jauh"
+},
+{
+"start": 136.55,
+"end": 138.456,
+"text": "lebih besar dari hasil rumus."
+},
+{
+"start": 138.906,
+"end": 141.955,
+"text": "Bali contohnya. Upah minimumnya naik dari tiga"
+},
+{
+"start": 141.955,
+"end": 144.407,
+"text": "koma dua juta menjadi empat koma enam"
+},
+{
+"start": 144.407,
+"end": 146.462,
+"text": "juta rupiah. Padahal K H L Bali"
+},
+{
+"start": 146.462,
+"end": 149.179,
+"text": "sekitar lima koma enam juta. Jadi setelah"
+},
+{
+"start": 149.179,
+"end": 151.632,
+"text": "naik empat puluh dua persen pun, upah"
+},
+{
+"start": 151.632,
+"end": 154.548,
+"text": "minimum Bali baru sekitar delapan puluh satu"
+},
+{
+"start": 154.548,
+"end": 156.735,
+"text": "persen dari biaya hidup layaknya."
+},
+{
+"start": 157.185,
+"end": 158.916,
+"text": "Jawa Barat naik dua puluh"
+},
+{
+"start": 158.916,
+"end": 161.27,
+"text": "sembilan persen, menjadi tiga juta"
+},
+{
+"start": 161.27,
+"end": 163.486,
+"text": "rupiah. Tapi jangan salah paham."
+},
+{
+"start": 163.936,
+"end": 166.554,
+"text": "Buruh di Bekasi atau Karawang tidak memakai"
+},
+{
+"start": 166.554,
+"end": 168.99,
+"text": "angka tiga juta itu. Mereka memakai upah"
+},
+{
+"start": 168.99,
+"end": 171.912,
+"text": "minimum kabupaten atau kota, yang besarnya sudah"
+},
+{
+"start": 171.912,
+"end": 173.435,
+"text": "sekitar enam juta rupiah."
+},
+{
+"start": 173.885,
+"end": 175.989,
+"text": "Sari: Lho, jadi aku harus"
+},
+{
+"start": 175.989,
+"end": 177.588,
+"text": "lihat UMP atau UMK?"
+},
+{
+"start": 178.038,
+"end": 181.014,
+"text": "Kalau daerahmu punya upah minimum kabupaten"
+},
+{
+"start": 181.014,
+"end": 183.505,
+"text": "atau kota, yang berlaku adalah angka"
+},
+{
+"start": 183.505,
+"end": 186.204,
+"text": "itu. Dan UMK 2027 dijadwalkan diumumkan"
+},
+{
+"start": 186.204,
+"end": 188.418,
+"text": "tanggal dua puluh enam November."
+},
+{
+"start": 188.868,
+"end": 190.717,
+"text": "Jadi kalau kamu kerja di luar ibu"
+},
+{
+"start": 190.717,
+"end": 193.854,
+"text": "kota provinsi, angka yang benar-benar menentukan gajimu,"
+},
+{
+"start": 193.854,
+"end": 195.535,
+"text": "baru akan keluar minggu depan."
+},
+{
+"start": 195.985,
+"end": 199.033,
+"text": "Bagian ketiga. Ini bagian yang paling"
+},
+{
+"start": 199.033,
+"end": 202.824,
+"text": "sering disalahpahami. Apakah gajimu ikut naik?"
+},
+{
+"start": 203.274,
+"end": 205.998,
+"text": "Menurut Peraturan Pemerintah tentang Pengupahan, upah"
+},
+{
+"start": 205.998,
+"end": 208.054,
+"text": "minimum berlaku bagi pekerja dengan masa"
+},
+{
+"start": 208.054,
+"end": 209.545,
+"text": "kerja kurang dari satu tahun."
+},
+{
+"start": 209.995,
+"end": 212.021,
+"text": "Untuk pekerja yang sudah bekerja satu"
+},
+{
+"start": 212.021,
+"end": 214.485,
+"text": "tahun atau lebih, gaji ditentukan berdasarkan"
+},
+{
+"start": 214.485,
+"end": 216.566,
+"text": "struktur dan skala upah di perusahaan."
+},
+{
+"start": 217.016,
+"end": 220.268,
+"text": "Artinya, upah minimum adalah lantai, bukan"
+},
+{
+"start": 220.268,
+"end": 223.365,
+"text": "tangga. Ia menjamin gaji terendah, bukan"
+},
+{
+"start": 223.365,
+"end": 225.688,
+"text": "menjamin semua gaji ikut naik."
+},
+{
+"start": 226.138,
+"end": 228.398,
+"text": "Kita pakai dua contoh. Sari baru"
+},
+{
+"start": 228.398,
+"end": 231.223,
+"text": "delapan bulan bekerja di Jakarta, dengan"
+},
+{
+"start": 231.223,
+"end": 233.059,
+"text": "gaji sebesar upah minimum."
+},
+{
+"start": 233.509,
+"end": 236.326,
+"text": "Mulai Januari, gaji Sari wajib naik menjadi"
+},
+{
+"start": 236.326,
+"end": 238.815,
+"text": "enam juta seratus tiga puluh enam ribu"
+},
+{
+"start": 238.815,
+"end": 241.632,
+"text": "rupiah. Naik empat ratus tujuh ribu rupiah."
+},
+{
+"start": 242.082,
+"end": 244.171,
+"text": "Raka sudah tiga tahun bekerja, dengan"
+},
+{
+"start": 244.171,
+"end": 246.26,
+"text": "gaji enam setengah juta rupiah, sudah"
+},
+{
+"start": 246.26,
+"end": 248.01,
+"text": "di atas upah minimum yang baru."
+},
+{
+"start": 248.46,
+"end": 250.489,
+"text": "Untuk Raka, tidak ada aturan yang"
+},
+{
+"start": 250.489,
+"end": 253.563,
+"text": "mewajibkan perusahaan menaikkan gajinya tujuh koma"
+},
+{
+"start": 253.563,
+"end": 256.575,
+"text": "satu persen. Kenaikannya bergantung pada struktur"
+},
+{
+"start": 256.575,
+"end": 258.789,
+"text": "skala upah dan kebijakan perusahaan."
+},
+{
+"start": 259.239,
+"end": 260.523,
+"text": "Raka: Jadi yang baru masuk naik"
+},
+{
+"start": 260.523,
+"end": 261.89,
+"text": "empat ratus ribu, yang sudah tiga"
+},
+{
+"start": 261.89,
+"end": 263.299,
+"text": "tahun bisa tidak naik sama sekali?"
+},
+{
+"start": 263.749,
+"end": 265.924,
+"text": "Bisa saja terjadi. Dan inilah yang"
+},
+{
+"start": 265.924,
+"end": 267.972,
+"text": "sering memicu rasa tidak adil di"
+},
+{
+"start": 267.972,
+"end": 270.467,
+"text": "tempat kerja, ketika gaji karyawan baru"
+},
+{
+"start": 270.467,
+"end": 272.387,
+"text": "hampir menyusul karyawan lama."
+},
+{
+"start": 272.837,
+"end": 276.182,
+"text": "Makanya struktur dan skala upah penting. Perusahaan"
+},
+{
+"start": 276.182,
+"end": 280.052,
+"text": "memang wajib menyusunnya, dan pekerja berhak mengetahuinya."
+},
+{
+"start": 280.502,
+"end": 283.6,
+"text": "Bagian keempat. Kenaikan empat ratus tujuh"
+},
+{
+"start": 283.6,
+"end": 286.182,
+"text": "ribu itu, sebenarnya terasa berapa?"
+},
+{
+"start": 286.632,
+"end": 288.81,
+"text": "Gaji Sari naik tujuh koma satu"
+},
+{
+"start": 288.81,
+"end": 291.424,
+"text": "persen. Tapi harga barang juga naik."
+},
+{
+"start": 291.874,
+"end": 295.604,
+"text": "Badan Pusat Statistik mencatat inflasi Oktober 2026"
+},
+{
+"start": 295.604,
+"end": 298.675,
+"text": "sebesar tiga koma dua tiga persen setahun."
+},
+{
+"start": 298.675,
+"end": 301.38,
+"text": "Di Jakarta, dua koma lima dua persen."
+},
+{
+"start": 301.83,
+"end": 304.623,
+"text": "Kalau dihitung dengan inflasi Jakarta, kenaikan nyata"
+},
+{
+"start": 304.623,
+"end": 306.678,
+"text": "gaji Sari bukan empat ratus tujuh ribu,"
+},
+{
+"start": 306.678,
+"end": 308.891,
+"text": "tetapi setara sekitar dua ratus lima puluh"
+},
+{
+"start": 308.891,
+"end": 310.946,
+"text": "enam ribu rupiah dengan harga hari ini."
+},
+{
+"start": 311.396,
+"end": 314.136,
+"text": "Dan yang paling terasa justru kebutuhan dapur."
+},
+{
+"start": 314.136,
+"end": 316.756,
+"text": "Kelompok makanan naik empat koma delapan dua"
+},
+{
+"start": 316.756,
+"end": 319.674,
+"text": "persen dalam setahun, lebih cepat dari rata-rata."
+},
+{
+"start": 320.124,
+"end": 322.496,
+"text": "Belum lagi suku bunga. Bank Indonesia"
+},
+{
+"start": 322.496,
+"end": 324.74,
+"text": "baru saja menaikkan BI Rate menjadi"
+},
+{
+"start": 324.74,
+"end": 327.561,
+"text": "enam persen, untuk menahan pelemahan rupiah."
+},
+{
+"start": 328.011,
+"end": 331.091,
+"text": "Kalau kamu punya cicilan dengan bunga mengambang,"
+},
+{
+"start": 331.091,
+"end": 334.359,
+"text": "misalnya kredit rumah non-subsidi atau kartu kredit,"
+},
+{
+"start": 334.359,
+"end": 337.501,
+"text": "cicilannya bisa ikut naik. Sebaliknya, KPR subsidi"
+},
+{
+"start": 337.501,
+"end": 339.889,
+"text": "dengan bunga tetap tidak ikut berubah."
+},
+{
+"start": 340.339,
+"end": 341.733,
+"text": "Jadi kenaikan gaji di atas"
+},
+{
+"start": 341.733,
+"end": 343.287,
+"text": "kertas dan kenaikan yang kamu"
+},
+{
+"start": 343.287,
+"end": 345.002,
+"text": "rasakan bisa berbeda cukup jauh."
+},
+{
+"start": 345.452,
+"end": 349.019,
+"text": "Bagian kelima. Setelah ini, apa yang"
+},
+{
+"start": 349.019,
+"end": 352.189,
+"text": "bisa terjadi? Ada tiga skenario."
+},
+{
+"start": 352.639,
+"end": 355.777,
+"text": "Skenario pertama, perusahaan patuh. Gaji pekerja"
+},
+{
+"start": 355.777,
+"end": 358.0,
+"text": "baru naik sesuai upah minimum, dan"
+},
+{
+"start": 358.0,
+"end": 361.203,
+"text": "banyak perusahaan ikut menyesuaikan gaji karyawan"
+},
+{
+"start": 361.203,
+"end": 363.622,
+"text": "lama supaya jarak gajinya tetap adil."
+},
+{
+"start": 364.072,
+"end": 367.389,
+"text": "Skenario kedua, perusahaan menahan biaya. Apindo"
+},
+{
+"start": 367.389,
+"end": 370.776,
+"text": "sudah mengingatkan soal efisiensi. Bentuknya bisa"
+},
+{
+"start": 370.776,
+"end": 373.678,
+"text": "rekrutmen yang lebih sedikit, lebih banyak"
+},
+{
+"start": 373.678,
+"end": 376.788,
+"text": "pekerja kontrak, atau mesin yang menggantikan"
+},
+{
+"start": 376.788,
+"end": 379.898,
+"text": "sebagian pekerjaan. Usaha padat karya seperti"
+},
+{
+"start": 379.898,
+"end": 382.386,
+"text": "tekstil dan alas kaki paling rentan."
+},
+{
+"start": 382.836,
+"end": 385.239,
+"text": "Ini nyambung dengan video saya sebelumnya"
+},
+{
+"start": 385.239,
+"end": 387.642,
+"text": "tentang pesangon yang wajib dititipkan ke"
+},
+{
+"start": 387.642,
+"end": 389.869,
+"text": "negara. Biaya pekerja tahun depan bisa"
+},
+{
+"start": 389.869,
+"end": 391.569,
+"text": "naik dari dua arah sekaligus."
+},
+{
+"start": 392.019,
+"end": 395.706,
+"text": "Skenario ketiga, angkanya berubah lagi. Serikat pekerja"
+},
+{
+"start": 395.706,
+"end": 398.656,
+"text": "menyiapkan gugatan dan aksi, dan di beberapa"
+},
+{
+"start": 398.656,
+"end": 401.874,
+"text": "daerah upah minimum sektoral juga masih dibahas."
+},
+{
+"start": 402.324,
+"end": 406.13,
+"text": "Sekali lagi, ini analisis kemungkinan, bukan kepastian."
+},
+{
+"start": 406.13,
+"end": 409.451,
+"text": "Hasil akhirnya bergantung pada keputusan di tiap"
+},
+{
+"start": 409.451,
+"end": 411.526,
+"text": "daerah dan di tiap perusahaan."
+},
+{
+"start": 411.976,
+"end": 414.05,
+"text": "Bagian keenam. Empat hal yang"
+},
+{
+"start": 414.05,
+"end": 416.195,
+"text": "perlu kamu cek mulai sekarang."
+},
+{
+"start": 416.645,
+"end": 419.346,
+"text": "Pertama, cek apakah gajimu di bawah upah"
+},
+{
+"start": 419.346,
+"end": 422.318,
+"text": "minimum atau UMK daerahmu. Membayar di bawah"
+},
+{
+"start": 422.318,
+"end": 425.829,
+"text": "upah minimum adalah pelanggaran, dan bisa dilaporkan"
+},
+{
+"start": 425.829,
+"end": 427.315,
+"text": "ke dinas tenaga kerja."
+},
+{
+"start": 427.765,
+"end": 430.284,
+"text": "Kedua, kalau kamu sudah bekerja lebih"
+},
+{
+"start": 430.284,
+"end": 432.87,
+"text": "dari satu tahun, tanyakan struktur dan"
+},
+{
+"start": 432.87,
+"end": 435.389,
+"text": "skala upah di perusahaanmu. Itu dasar"
+},
+{
+"start": 435.389,
+"end": 437.84,
+"text": "kenaikan gajimu, bukan upah minimum."
+},
+{
+"start": 438.29,
+"end": 440.723,
+"text": "Ketiga, cek UMK daerahmu yang dijadwalkan"
+},
+{
+"start": 440.723,
+"end": 443.037,
+"text": "keluar tanggal dua puluh enam November."
+},
+{
+"start": 443.487,
+"end": 447.011,
+"text": "Dan keempat, hitung kenaikan nyatamu sendiri: kenaikan"
+},
+{
+"start": 447.011,
+"end": 449.948,
+"text": "gaji dikurangi inflasi, lalu lihat cicilanmu."
+},
+{
+"start": 450.398,
+"end": 453.111,
+"text": "Kalau kita tarik benang merahnya, upah minimum"
+},
+{
+"start": 453.111,
+"end": 455.942,
+"text": "itu lantai yang melindungi pekerja paling bawah."
+},
+{
+"start": 455.942,
+"end": 458.713,
+"text": "Tapi naik atau tidaknya gajimu, ditentukan oleh"
+},
+{
+"start": 458.713,
+"end": 460.6,
+"text": "hal-hal yang jarang dibicarakan."
+},
+{
+"start": 461.05,
+"end": 464.394,
+"text": "Sekarang giliranmu. Tulis di kolom komentar: kamu"
+},
+{
+"start": 464.394,
+"end": 467.26,
+"text": "kerja di daerah mana, upah minimumnya naik"
+},
+{
+"start": 467.26,
+"end": 469.716,
+"text": "berapa, dan apakah gajimu ikut naik?"
+},
+{
+"start": 470.166,
+"end": 472.644,
+"text": "Kalau video ini berguna, bagikan ke"
+},
+{
+"start": 472.644,
+"end": 475.405,
+"text": "teman kerjamu, terutama yang baru dapat"
+},
+{
+"start": 475.405,
+"end": 478.025,
+"text": "kabar UMP naik. Subscribe, dan sampai"
+},
+{
+"start": 478.025,
+"end": 479.866,
+"text": "jumpa di video berikutnya."
+},
+{
+"start": 480.316,
+"end": 483.79,
+"text": "Video ini adalah penjelasan berdasarkan pemberitaan per"
+},
+{
+"start": 483.79,
+"end": 486.317,
+"text": "dua puluh satu November 2026. Angka upah"
+},
+{
+"start": 486.317,
+"end": 489.223,
+"text": "minimum di beberapa daerah masih bisa berubah."
+}
+]

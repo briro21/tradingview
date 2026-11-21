@@ -1,0 +1,247 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Kenaikan nyata · Spreadsheet Film</title>
+<style>
+@font-face{font-family:'Inter';src:url(fonts/Inter.ttf) format('truetype');font-weight:100 900;font-display:block}
+html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}
+</style></head>
+<body><canvas id="c" width="1920" height="1080"></canvas>
+<script>
+// Kenaikan nyata gaji Sari — Spreadsheet Film (OpusCar style "spreadsheet", own build; shell grammar adapted from the
+// library demo, MIT). UMP 2027 video, narration lines 38–44 (t = 0 at line 38). Data: UMP DKI 2026/2027 (Kepgub 1270/2026),
+// BPS inflation Oct 2026 (3.23% national, 2.52% Jakarta, food 4.82%), BI Rate 5.75% -> 6.00% (RDG 17-18 Nov 2026).
+const W = 1920, H = 1080, DUR = 58.82;
+const cv = document.getElementById('c'), g = cv.getContext('2d');
+const UI = "'Inter',sans-serif";
+const clamp = (x, a, b) => Math.max(a, Math.min(b, x)), lerp = (a, b, t) => a + (b - a) * t;
+const seg = (t, a, b) => clamp((t - a) / (b - a), 0, 1);
+const eio = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+const eo = t => 1 - Math.pow(1 - t, 3), ss = t => t * t * (3 - 2 * t);
+const hexA = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+const mix = (a, b, t) => { const A = hexA(a), B = hexA(b); return '#' + A.map((v, i) => Math.round(v + (B[i] - v) * clamp(t, 0, 1)).toString(16).padStart(2, '0')).join(''); };
+const rp = n => n.toLocaleString('id-ID');
+
+// palette: office conditional-format hues; the red is the film's shared persimmon accent
+const INK = '#17120a', AMBER = '#ffb21f', OK = '#b8f25a', OK_INK = '#2c4a00', NO = '#D0573A', BLUE = '#2f6fe0', PURP = '#b03ad6', NOTE = '#fff4c7', GREEN_D = '#3D6B59';
+
+// ---------- shell geometry ----------
+const TITLE_H = 30, TOOL_H = 40, FBAR_H = 50, ROWH_W = 54, TABS_H = 28, STAT_H = 26;
+const SHEET_B = H - TABS_H - STAT_H, RH = 24;
+const colName = i => String.fromCharCode(65 + i);
+
+
+// ---------- columns ----------
+const BASE = [40, 330, 220, 30, 260, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70];
+const NC = BASE.length;
+let CX = new Float64Array(NC + 1), CWs = new Float64Array(NC);
+function layout(t) { for (let i = 0; i < NC; i++) CWs[i] = BASE[i]; CX[0] = 0; for (let i = 0; i < NC; i++) CX[i + 1] = CX[i] + CWs[i]; }
+const colX = i => CX[clamp(i, 0, NC)];
+const RED = '#e8382d';
+
+// ---------- rows: label (col B), value (col C), note (col E) ----------
+// fx: formula typed into the value cell over [a, b], Enter at e
+const ROWS = [
+  { r: 3, label: 'Gaji Sari 2026', lt: .3, v: rp(5729876), vt: .6, name: 'Gaji_2026' },
+  { r: 4, label: 'Gaji Sari 2027', lt: .45, v: rp(6136941), vt: .8, name: 'Gaji_2027' },
+  { r: 5, label: 'Kenaikan', lt: 1.0, v: rp(407065), fx: [['=', INK], ['Gaji_2027', BLUE], ['-', INK], ['Gaji_2026', PURP]], a: 1.2, b: 2.2, e: 2.4, fill: OK, ink: OK_INK, note: '+7,1%', nt: 2.6, name: 'Kenaikan' },
+  { r: 7, label: 'Inflasi nasional (Okt)', lt: 5.3, v: '3,23%', fx: [['3,23%', INK]], a: 7.0, b: 7.8, e: 8.9, name: 'Inflasi_RI', note: 'BPS', nt: 9.2 },
+  { r: 8, label: 'Inflasi Jakarta', lt: 12.0, v: '2,52%', fx: [['2,52%', INK]], a: 12.2, b: 12.9, e: 13.2, name: 'Inflasi_DKI', note: 'BPS', nt: 13.4 },
+  { r: 10, label: 'Gaji 2027, harga hari ini', lt: 15.2, v: rp(5986091), fx: [['=', INK], ['Gaji_2027', BLUE], ['/(1+', INK], ['Inflasi_DKI', PURP], [')', INK]], a: 15.4, b: 17.4, e: 17.8, name: 'Gaji_riil' },
+  { r: 11, label: 'KENAIKAN NYATA', lt: 18.0, v: rp(256215), fx: [['=', INK], ['Gaji_riil', BLUE], ['-', INK], ['Gaji_2026', PURP]], a: 18.2, b: 19.8, e: 20.2, fill: AMBER, ink: INK, note: 'bukan 407.065', nt: 20.6, name: 'Kenaikan_nyata', big: true },
+  { r: 13, label: 'Inflasi makanan', lt: 24.8, v: '4,82%', fx: [['4,82%', INK]], a: 27.6, b: 28.4, e: 28.8, fill: RED, ink: '#fff', note: 'lebih cepat dari rata-rata', nt: 30.1, name: 'Inflasi_makan' },
+  { r: 15, label: 'BI Rate', lt: 33.5, v: '6,00%', fx: [['6,00%', INK]], a: 36.0, b: 36.8, e: 38.1, name: 'BI_Rate', note: 'dari 5,75%', nt: 38.4 },
+  { r: 16, label: 'Cicilan bunga mengambang', lt: 41.4, v: 'BISA NAIK', vt: 47.7, fill: RED, ink: '#fff', note: 'KPR non-subsidi, kartu kredit', nt: 44.5 },
+  { r: 17, label: 'KPR subsidi bunga tetap', lt: 47.9, v: 'TETAP', vt: 50.9, fill: OK, ink: OK_INK },
+];
+const TITLE_T = .1;
+function editing(t) { for (const R of ROWS) if (R.fx && t >= R.a && t < R.e) return R; return null; }
+function typedParts(R, t) { const L = R.fx.flatMap(([s, c]) => [...s].map(ch => [ch, c])); return t >= R.b ? L : L.slice(0, Math.floor(seg(t, R.a, R.b) * L.length + 1e-6)); }
+function selection(t) {
+  if (t >= 53.6) return { b: [1, 4, 11, 11] };
+  let cur = null; for (const R of ROWS) { const s = R.fx ? R.a - .2 : (R.vt ?? R.lt) - .2; if (t >= s) cur = R; }
+  return cur ? { b: [2, 2, cur.r, cur.r] } : { b: [1, 1, 1, 1] };
+}
+
+// ---------- camera ----------
+const CK = [
+  { t: 0, cx: 420, cy: 110, z: 2.0 }, { t: 4.8, cx: 430, cy: 120, z: 2.05 },
+  { t: 5.6, cx: 430, cy: 190, z: 2.0 }, { t: 14.8, cx: 440, cy: 205, z: 2.05 },
+  { t: 15.6, cx: 440, cy: 250, z: 2.05 }, { t: 24.2, cx: 450, cy: 260, z: 2.15 },
+  { t: 25.0, cx: 450, cy: 320, z: 2.05 }, { t: 33.0, cx: 450, cy: 325, z: 2.05 },
+  { t: 33.8, cx: 450, cy: 385, z: 2.0 }, { t: 53.0, cx: 460, cy: 395, z: 2.05 },
+  { t: 54.2, cx: 420, cy: 250, z: 1.35, e: 'eio' }, { t: DUR, cx: 420, cy: 255, z: 1.38 },
+];
+let CAM, HDR, SHEET_Y, VCX, VCY, VW, VH;
+function camera(t) {
+  let q = 0; while (q < CK.length - 2 && t > CK[q + 1].t) q++;
+  const A = CK[q], B = CK[q + 1], u = (B.e === 'eio' ? eio : ss)(seg(t, A.t, B.t));
+  return { x: lerp(A.cx, B.cx, u), y: lerp(A.cy, B.cy, u), z: Math.exp(lerp(Math.log(A.z), Math.log(B.z), u)) };
+}
+const X = wx => VCX + (wx - CAM.x) * CAM.z, Y = wy => VCY + (wy - CAM.y) * CAM.z;
+const XC = i => Math.round(X(colX(i))), YR = j => Math.round(Y(j * RH));
+function box(c0, c1, r0, r1) { const x = XC(c0), y = YR(r0); return [x, y, XC(c1 + 1) - x, YR(r1 + 1) - y]; }
+
+// ---------- helpers ----------
+const rect = (x, y, w, h, f) => { g.fillStyle = f; g.fillRect(x, y, w, h); };
+function text(s, x, y, font, col, align = 'left', base = 'middle') { g.font = font; g.fillStyle = col; g.textAlign = align; g.textBaseline = base; g.fillText(s, x, y); }
+const line = (x1, y1, x2, y2, col, w = 1) => { g.strokeStyle = col; g.lineWidth = w; g.beginPath(); g.moveTo(x1, y1); g.lineTo(x2, y2); g.stroke(); };
+const tw = (s, font) => { g.font = font; return g.measureText(s).width; };
+function tri(x, y, s, col, dir = 'down') { g.fillStyle = col; g.beginPath(); if (dir === 'down') { g.moveTo(x - s, y - s / 2); g.lineTo(x + s, y - s / 2); g.lineTo(x, y + s / 2); } else if (dir === 'left') { g.moveTo(x + s / 2, y - s); g.lineTo(x + s / 2, y + s); g.lineTo(x - s / 2, y); } else { g.moveTo(x - s / 2, y - s); g.lineTo(x - s / 2, y + s); g.lineTo(x + s / 2, y); } g.fill(); }
+const popK = (t, t0, d = .22, amt = .3) => t >= t0 && t < t0 + d ? 1 + amt * (1 - (t - t0) / d) : 1;
+const flash = (t, t0) => t >= t0 && t < t0 + .12 ? 1 - (t - t0) / .12 : 0;
+function refBox(x, y, w, h, col, lw = 2.5) { g.lineWidth = lw; g.strokeStyle = col; g.strokeRect(x + 1, y + 1, w - 1, h - 1); g.fillStyle = col; for (const [a, b] of [[x, y], [x + w, y], [x, y + h], [x + w, y + h]]) g.fillRect(a - 3.5, b - 3.5, 7, 7); }
+
+
+function drawSheet(t) {
+  const z = CAM.z;
+  g.save(); g.beginPath(); g.rect(ROWH_W, SHEET_Y, VW, VH); g.clip();
+  rect(ROWH_W, SHEET_Y, VW, VH, '#ffffff');
+  const xl = CAM.x - (VCX - ROWH_W) / z, xr = CAM.x + (W - VCX) / z;
+  const j0 = Math.max(0, Math.floor((CAM.y - (VCY - SHEET_Y) / z) / RH)), j1 = Math.ceil((CAM.y + (SHEET_B - VCY) / z) / RH) + 1;
+  g.beginPath();
+  for (let i = 0; i <= NC && colX(i) <= xr + 1; i++) { const x = XC(i) + .5; g.moveTo(x, SHEET_Y); g.lineTo(x, SHEET_B); }
+  for (let j = j0; j <= j1; j++) { const y = YR(j) + .5; g.moveTo(ROWH_W, y); g.lineTo(W, y); }
+  g.strokeStyle = '#dad9d3'; g.lineWidth = 1; g.stroke();
+  // title (merged B2:E2)
+  if (t >= TITLE_T) { const [x, y, w, h] = box(1, 4, 1, 1); rect(x, y, w, h, NOTE); g.strokeStyle = INK; g.lineWidth = 1.5; g.strokeRect(x + .5, y + .5, w - 1, h - 1);
+    text('KENAIKAN NYATA GAJI SARI', x + 10 * z, y + h / 2 + 1, `800 ${15 * z}px ${UI}`, INK); text('UMP DKI 2027', x + w - 10 * z, y + h / 2 + 1, `700 ${12 * z}px ${UI}`, '#77766f', 'right'); }
+  const ed = editing(t);
+  for (const R of ROWS) {
+    if (t >= R.lt) { const [x, y, w, h] = box(1, 1, R.r, R.r); text(R.label, x + 6 * z, y + h / 2 + 1, `${R.big ? 800 : 600} ${14 * z}px ${UI}`, INK); }
+    const vt = R.fx ? R.e : R.vt;
+    if (ed === R) {
+      const [x, y, w, h] = box(2, 2, R.r, R.r); rect(x, y, w, h, '#fff');
+      let tx = x + 6 * z; const f = `700 ${14 * z}px ${UI}`; for (const [ch, col] of typedParts(R, t)) { text(ch, tx, y + h / 2 + 1, f, col); tx += tw(ch, f); }
+      if (Math.floor(t * 8) % 2 === 0) rect(tx + 2, y + h * .2, 2.5, h * .6, INK);
+    } else if (vt != null && t >= vt) {
+      const [x, y, w, h] = box(2, 2, R.r, R.r);
+      if (R.fill) { rect(x, y, w, h, R.fill); g.strokeStyle = 'rgba(6,4,18,0.35)'; g.lineWidth = 1; g.strokeRect(x + .5, y + .5, w - 1, h - 1); }
+      const k = popK(t, vt); text(R.v, x + w - 6 * z, y + h / 2 + 1, `${R.big ? 800 : 700} ${(R.big ? 17 : 15) * z * k}px ${UI}`, R.ink || INK, 'right');
+      const fl = flash(t, vt); if (fl) { g.globalAlpha = fl * .9; rect(x, y, w, h, '#fff'); g.globalAlpha = 1; }
+    }
+    if (R.note && t >= R.nt) { const [x, y, w, h] = box(4, 4, R.r, R.r); text(R.note, x + 8 * z, y + h / 2 + 1, `600 ${12.5 * z}px ${UI}`, R.fill === AMBER || R.big ? RED : '#77766f'); }
+  }
+  // reference boxes while a formula is typed
+  if (ed && ed.fx.length > 2) {
+    const names = ed.fx.filter(([s, c]) => c === BLUE || c === PURP);
+    for (const [s, c] of names) { const Rr = ROWS.find(q => q.name === s); if (Rr) refBox(...box(2, 2, Rr.r, Rr.r), c); }
+  }
+  // the closing comparison: two values side by side
+  if (t >= 53.6) { const a = eo(seg(t, 53.6, 54.1)); g.globalAlpha = a; refBox(...box(2, 2, 5, 5), OK_INK, 3); refBox(...box(2, 2, 11, 11), RED, 3); g.globalAlpha = 1; }
+  drawSelection(t);
+  g.restore();
+}
+function drawSelection(t) {
+  const S = selection(t); if (!S.b) return;
+  const [c0, c1, r0, r1] = S.b; const [x, y, w, h] = box(c0, c1, r0, r1);
+  const lw = 3.5; g.lineWidth = lw; g.strokeStyle = INK; g.strokeRect(x - lw / 2, y - lw / 2, w + lw, h + lw);
+  const o = lw + 3; g.lineWidth = 2; g.strokeStyle = '#fff'; g.strokeRect(x - o, y - o, w + 2 * o, h + 2 * o);
+  g.setLineDash([7, 5]); g.lineDashOffset = -t * 60; g.strokeStyle = AMBER; g.strokeRect(x - o, y - o, w + 2 * o, h + 2 * o); g.setLineDash([]);
+  const hs = S.drag ? 13 : 10; rect(x + w - hs / 2 + 1, y + h - hs / 2 + 1, hs, hs, INK); g.strokeStyle = AMBER; g.lineWidth = 2; g.strokeRect(x + w - hs / 2 + 1, y + h - hs / 2 + 1, hs, hs);
+}
+// ---------- headers & shell ----------
+function drawHeaders(t) {
+  const z = CAM.z, S = selection(t), top = SHEET_Y - HDR;
+  rect(0, top, W, HDR, '#ecebe6');
+  g.save(); g.beginPath(); g.rect(ROWH_W, top, VW, HDR); g.clip();
+  const xl = CAM.x - (VCX - ROWH_W) / z, xr = CAM.x + (W - VCX) / z, fsz = Math.min(18, 12 * Math.sqrt(Math.max(1, z)));
+  for (let i = 0; i < NC && colX(i) < xr; i++) {
+    if (colX(i + 1) < xl) continue;
+    const x = XC(i), w = XC(i + 1) - x, on = S.b && i >= S.b[0] && i <= S.b[1];
+    if (on) rect(x, top, w, HDR, '#ffd98a');
+    if (w > 16) text(colName(i), x + w / 2, top + HDR / 2 + 1, `${on ? 700 : 500} ${fsz}px ${UI}`, on ? INK : '#55554f', 'center');
+    line(x + .5, top + 4, x + .5, SHEET_Y, '#c4c3bc');
+  }
+  g.restore();
+  line(0, SHEET_Y - .5, W, SHEET_Y - .5, '#9a9a94');
+  rect(0, SHEET_Y, ROWH_W, VH, '#ecebe6');
+  g.save(); g.beginPath(); g.rect(0, SHEET_Y, ROWH_W, VH); g.clip();
+  const j0 = Math.max(0, Math.floor((CAM.y - (VCY - SHEET_Y) / z) / RH)), j1 = Math.ceil((CAM.y + (SHEET_B - VCY) / z) / RH);
+  for (let j = j0; j <= j1; j++) {
+    const y = YR(j), h = YR(j + 1) - y, on = S.b && j >= S.b[2] && j <= S.b[3];
+    if (on) rect(0, y, ROWH_W, h, '#ffd98a');
+    if (h > 9) text(String(j + 1), ROWH_W - 8, y + h / 2 + 1, `${on ? 700 : 500} ${Math.min(fsz, h - 1)}px ${UI}`, on ? INK : '#5a5a54', 'right');
+    line(6, y + .5, ROWH_W, y + .5, '#cfcec8');
+  }
+  g.restore();
+  line(ROWH_W - .5, top, ROWH_W - .5, SHEET_B, '#9a9a94');
+  rect(0, top, ROWH_W, HDR, '#e0dfd9');
+}
+function appIcon(x, y, s) { rect(x, y, s, s, INK); const q = s / 3, cols = [OK, NO, BLUE, AMBER, OK, NO, '#dfe6f3', OK, BLUE]; for (let n = 0; n < 9; n++) rect(x + (n % 3) * q + 1, y + Math.floor(n / 3) * q + 1, q - 2, q - 2, cols[n]); }
+
+function formulaLine(t) {
+  const ed = editing(t);
+  if (ed) return { parts: typedParts(ed, t), caret: true, name: ed.name };
+  let cur = null; for (const R of ROWS) { const s = R.fx ? R.a : (R.vt ?? R.lt); if (t >= s) cur = R; }
+  if (t >= 53.6) return { parts: [['Di atas kertas +407.065', INK]], after: 'terasa ± 256.215', name: 'Ringkasan' };
+  if (!cur) return { parts: [], name: 'B2' };
+  return { parts: cur.fx || [[cur.v, INK]], after: cur.fx && cur.fx.length > 1 ? '= ' + cur.v : (cur.note || ''), name: cur.name || ('C' + (cur.r + 1)) };
+}
+function drawChrome(t) {
+  rect(0, 0, W, TITLE_H, '#dcdbd5');
+  for (let n = 0; n < 3; n++) { g.fillStyle = '#c6c5bf'; g.beginPath(); g.arc(20 + n * 20, TITLE_H / 2, 6, 0, 7); g.fill(); }
+  appIcon(84, 8, 14); text('kenaikan-nyata-gaji.sheet', 106, TITLE_H / 2 + 1, `500 13px ${UI}`, '#333');
+  text('Data: Kepgub DKI 1270/2026 · BPS Oktober 2026 · Bank Indonesia', W / 2, TITLE_H / 2 + 1, `500 12px ${UI}`, '#77766f', 'center');
+  line(0, TITLE_H - .5, W, TITLE_H - .5, '#b5b4ae');
+  const ty = TITLE_H; rect(0, ty, W, TOOL_H, '#f1f0eb');
+  let x = 14; const m = ty + TOOL_H / 2;
+  const btn = (w, draw, pressed) => { if (pressed) { rect(x, ty + 6, w, TOOL_H - 12, '#ffe2a3'); g.strokeStyle = '#c9a24f'; g.lineWidth = 1; g.strokeRect(x + .5, ty + 6.5, w - 1, TOOL_H - 13); } draw(x); x += w + 4; };
+  const sep = () => { line(x + 2.5, ty + 9, x + 2.5, ty + TOOL_H - 9, '#c8c7c1'); x += 10; };
+  btn(116, a => { rect(a, m - 12, 116, 24, '#fff'); g.strokeStyle = '#bbbab4'; g.lineWidth = 1; g.strokeRect(a + .5, m - 11.5, 115, 23); text('Inter', a + 8, m + 1, `13px ${UI}`, '#222'); tri(a + 104, m, 4, '#666'); });
+  btn(46, a => { rect(a, m - 12, 46, 24, '#fff'); g.strokeStyle = '#bbbab4'; g.strokeRect(a + .5, m - 11.5, 45, 23); text('11', a + 8, m + 1, `13px ${UI}`, '#222'); tri(a + 36, m, 4, '#666'); }); sep();
+  btn(26, a => text('B', a + 13, m + 1, `800 15px ${UI}`, '#222', 'center'));
+  btn(26, a => text('I', a + 13, m + 1, `italic 500 15px ${UI}`, '#222', 'center')); sep();
+  btn(26, a => text('%', a + 13, m + 1, `500 15px ${UI}`, '#222', 'center'));
+  btn(36, a => text('Rp', a + 18, m + 1, `600 13px ${UI}`, '#222', 'center'));
+  btn(26, a => text('Σ', a + 13, m + 1, `500 16px ${UI}`, '#222', 'center'));
+  const cfOn = false;
+  btn(170, a => { [INK, OK, NO, BLUE, AMBER].forEach((c, n) => rect(a + 8 + n * 5, m - 7, 5, 14, c)); text('Conditional format', a + 40, m + 1, `500 13px ${UI}`, '#222'); tri(a + 158, m, 4, '#666'); }, cfOn);
+  btn(380, a => text('Aturan: lebih kecil dari angka di atas kertas → merah', a + 10, m + 1, `500 13px ${UI}`, '#444'));
+  line(0, ty + TOOL_H - .5, W, ty + TOOL_H - .5, '#c8c7c1');
+  // formula bar
+  const fy = TITLE_H + TOOL_H, fm = fy + FBAR_H / 2 + 1; rect(0, fy, W, FBAR_H, '#f8f7f3');
+  rect(10, fy + 9, 170, FBAR_H - 18, '#fff'); g.strokeStyle = '#b3b2ac'; g.lineWidth = 1; g.strokeRect(10.5, fy + 9.5, 169, FBAR_H - 19);
+  const F = formulaLine(t);
+  text(F.name || '', 22, fm, `700 16px ${UI}`, INK); tri(168, fm, 4, '#777');
+  g.strokeStyle = '#b03030'; g.lineWidth = 2; g.beginPath(); g.moveTo(196, fm - 6); g.lineTo(208, fm + 6); g.moveTo(208, fm - 6); g.lineTo(196, fm + 6); g.stroke();
+  g.strokeStyle = '#2a7a3a'; g.beginPath(); g.moveTo(223, fm); g.lineTo(228, fm + 5); g.lineTo(238, fm - 6); g.stroke();
+  text('fx', 260, fm, `italic 700 17px ${UI}`, '#333', 'center');
+  rect(282, fy + 6, W - 292, FBAR_H - 12, '#fff'); g.strokeStyle = '#b3b2ac'; g.strokeRect(282.5, fy + 6.5, W - 293, FBAR_H - 13);
+  let fx = 298;
+  for (const [s, col] of F.parts) { text(s, fx, fm, `700 26px ${UI}`, col); fx += tw(s, `700 26px ${UI}`); }
+  if (F.caret && Math.floor(t * 8) % 2 === 0) rect(fx + 3, fy + 13, 2.5, FBAR_H - 26, INK);
+  if (F.after) text(F.after, fx + 22, fm, `600 22px ${UI}`, F.afterCol || '#7a7a74');
+  line(0, fy + FBAR_H - .5, W, fy + FBAR_H - .5, '#b5b4ae');
+  // tabs + status
+  const by = SHEET_B; rect(0, by, W, TABS_H, '#e5e4de'); line(0, by + .5, W, by + .5, '#9a9a94');
+  tri(18, by + TABS_H / 2, 5, '#888', 'left'); tri(36, by + TABS_H / 2, 5, '#888', 'right');
+  let tx = 56;
+  for (const [name, on] of [['Sari', true], ['Sumber', false], ['+', false]]) {
+    g.font = `${on ? 700 : 500} 13px ${UI}`; const w = g.measureText(name).width + 28;
+    if (on) { rect(tx, by, w, TABS_H - 3, '#fff'); line(tx, by + TABS_H - 3, tx + w, by + TABS_H - 3, AMBER, 3); }
+    text(name, tx + w / 2, by + TABS_H / 2, `${on ? 700 : 500} 13px ${UI}`, on ? INK : '#555', 'center');
+    line(tx + w + .5, by + 5, tx + w + .5, by + TABS_H - 5, '#b5b4ae'); tx += w;
+  }
+  const sy = by + TABS_H, sm = sy + STAT_H / 2 + 1; rect(0, sy, W, STAT_H, INK);
+  let mode = editing(t) ? 'Edit' : 'Ready', msg = t >= 53.6 ? 'Kenaikan di atas kertas Rp407.065 · terasa ± Rp256.215 dengan harga hari ini' : t >= 20.2 ? 'Kenaikan nyata = gaji 2027 dibagi (1 + inflasi Jakarta) − gaji 2026' : '';
+  rect(0, sy, 74, STAT_H, mode === 'Recalc' ? AMBER : mode === 'Ready' ? INK : '#3a3326');
+  text(mode, 37, sm, `700 12px ${UI}`, mode === 'Recalc' ? INK : '#fff', 'center');
+  text(msg, 88, sm, `500 12px ${UI}`, 'rgba(255,255,255,0.82)');
+  const zx = W - 270, zk = clamp((Math.log(CAM.z) - Math.log(.3)) / (Math.log(3.2) - Math.log(.3)), 0, 1);
+  rect(zx, sm - 1, 9, 2, '#fff'); line(zx + 18, sm, zx + 178, sm, 'rgba(255,255,255,0.4)', 2);
+  rect(zx + 18 + 160 * zk - 4, sy + 6, 8, STAT_H - 12, AMBER);
+  rect(zx + 186, sm - 1, 10, 2, '#fff'); rect(zx + 190, sm - 5, 2, 10, '#fff');
+  text(Math.round(CAM.z * 100) + '%', W - 16, sm, `700 12px ${UI}`, '#fff', 'right');
+}
+
+function render(t) {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1;
+  layout(t); CAM = camera(t);
+  HDR = Math.round(clamp(26 * Math.sqrt(CAM.z), 26, 38));
+  SHEET_Y = TITLE_H + TOOL_H + FBAR_H + HDR; VW = W - ROWH_W; VH = SHEET_B - SHEET_Y;
+  VCX = ROWH_W + VW / 2; VCY = SHEET_Y + VH / 2 - 80;           // frame above the video's caption band
+  rect(0, 0, W, H, '#fff');
+  drawSheet(t); drawHeaders(t); drawChrome(t);
+}
+window.DUR = DUR; window.render = render;
+document.fonts.load(`700 20px Inter`).then(() => Promise.all([500, 600, 800].map(w => document.fonts.load(`${w} 20px Inter`)))).then(() => { window.READY = true; });
+</script></body></html>

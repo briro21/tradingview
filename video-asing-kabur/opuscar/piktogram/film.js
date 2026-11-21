@@ -96,8 +96,71 @@
     c.save(); c.globalAlpha = m; c.font = `500 ${.1 * R}px "DM Mono"`; c.fillStyle = CREAM; c.fillText('MARGIN TIPIS', -.8 * R, .66 * R); c.restore();
   };
 
+
+  // ── UMP 2027 pictograms ──
+  P.slip = (c, R, p, col, far) => {            // a pay slip with the new minimum wage
+    rrect(c, -.55 * R, -.72 * R, 1.1 * R, 1.4 * R, .06 * R, col);
+    rrect(c, -.55 * R, -.72 * R, 1.1 * R, .28 * R, .06 * R, far);
+    c.save(); c.font = `900 ${.16 * R}px "Inter Tight"`; c.fillStyle = CREAM; c.fillText('SLIP GAJI', -.45 * R, -.52 * R); c.restore();
+    for (let k = 0; k < 3; k++) seg(c, [-.42 * R, -.25 * R + k * .17 * R], [.15 * R, -.25 * R + k * .17 * R], .05 * R, far);
+    const a = E.oBack(clamp(p * 2 - .2)); rrect(c, -.45 * R, .3 * R, .9 * R * a, .26 * R, .05 * R, G.UMB);
+    c.save(); c.globalAlpha = clamp(a); c.font = `900 ${.2 * R}px "Inter Tight"`; c.fillStyle = INK; c.fillText('Rp6.136.941', -.4 * R, .5 * R); c.restore();
+  };
+  P.upCoins = (c, R, p, col, far) => {         // coins stack up, an arrow rises
+    const n = Math.min(6, Math.floor(p * 9));
+    for (let k = 0; k < n; k++) rrect(c, -.55 * R, .5 * R - k * .16 * R, .55 * R, .12 * R, .06 * R, ACC);
+    const a = E.oExp(clamp(p * 1.6)), top = lerp(.5, -.6, a) * R;
+    seg(c, [.4 * R, .6 * R], [.4 * R, top], .16 * R, col); poly(c, [[.18 * R, top + .05 * R], [.62 * R, top + .05 * R], [.4 * R, top - .22 * R]], col);
+  };
+  P.island = (c, R, p, col, far) => {          // sun over the sea, a generic island
+    const a = E.oExp(clamp(p * 2)); disc(c, .25 * R, -.25 * R, .3 * R * a, G.UMB);
+    poly(c, [[-.8 * R, .2 * R], [-.3 * R, -.05 * R], [.1 * R, .2 * R]], col);
+    for (let k = 0; k < 3; k++) { c.save(); c.translate(0, .32 * R + k * .16 * R + Math.sin(p * 8 + k) * .02 * R); c.beginPath(); for (let x = -.85; x <= .85; x += .05) c.lineTo(x * R, Math.sin(x * 9 + p * 6) * .03 * R); c.strokeStyle = k ? far : col; c.lineWidth = .06 * R; c.lineCap = 'round'; c.stroke(); c.restore(); }
+  };
+  P.pin = (c, R, p, col, far) => {             // a map pin dropping onto a region
+    const a = E.oBack(clamp(p * 2)), y = lerp(-1.2, -.25, a) * R;
+    poly(c, [[-.7 * R, .55 * R], [-.2 * R, .25 * R], [.3 * R, .45 * R], [.75 * R, .2 * R], [.75 * R, .62 * R], [-.7 * R, .7 * R]], far);
+    disc(c, 0, y - .12 * R, .3 * R, col); poly(c, [[-.26 * R, y], [.26 * R, y], [0, y + .38 * R]], col); disc(c, 0, y - .12 * R, .12 * R, G.UMB);
+  };
+  P.tug = (c, R, p, col, far) => {             // two sides pull on the same wage
+    const sw = Math.sin(p * 10) * .04 * R;
+    seg(c, [-.75 * R + sw, .05 * R], [.75 * R + sw, .05 * R], .04 * R, col);
+    for (const [s, cc] of [[-1, col], [1, far]]) { const x = s * .62 * R + sw; disc(c, x, -.35 * R, .1 * R, cc); seg(c, [x, -.22 * R], [x - s * .08 * R, .2 * R], .13 * R, cc); seg(c, [x - s * .08 * R, .2 * R], [x - s * .2 * R, .55 * R], .09 * R, cc); seg(c, [x - s * .08 * R, .2 * R], [x + s * .08 * R, .55 * R], .09 * R, cc); seg(c, [x, -.1 * R], [x - s * .2 * R, .05 * R], .07 * R, cc); }
+    disc(c, sw, .05 * R, .16 * R, G.UMB); c.save(); c.font = `900 ${.14 * R}px "Inter Tight"`; c.fillStyle = INK; c.textAlign = 'center'; c.fillText('Rp', sw, .1 * R); c.restore();
+  };
+  P.twoBars = (c, R, p, col, far) => {         // new and old wages both adjusted
+    const a = E.oExp(clamp(p * 2)), b = E.oExp(clamp(p * 2 - .5));
+    rrect(c, -.6 * R, .6 * R - (.45 + .25 * a) * R, .45 * R, (.45 + .25 * a) * R, .08 * R, col);
+    rrect(c, .1 * R, .6 * R - (.75 + .2 * b) * R, .45 * R, (.75 + .2 * b) * R, .08 * R, G.UMB);
+    seg(c, [-.75 * R, .65 * R], [.75 * R, .65 * R], .05 * R, far);
+    c.save(); c.font = `500 ${.1 * R}px "DM Mono"`; c.fillStyle = CREAM; c.fillText('BARU', -.58 * R, .82 * R); c.fillText('LAMA', .12 * R, .82 * R); c.restore();
+  };
+  P.twoArrows = (c, R, p, col, far) => {       // labour cost rises from two sides
+    rrect(c, -.3 * R, -.1 * R, .6 * R, .6 * R, .06 * R, col);
+    c.save(); c.font = `900 ${.18 * R}px "Inter Tight"`; c.fillStyle = CREAM; c.textAlign = 'center'; c.fillText('BIAYA', 0, .25 * R); c.restore();
+    const a = E.oExp(clamp(p * 2)), b = E.oExp(clamp(p * 2 - .4));
+    seg(c, [-.85 * R, -.55 * R], [lerp(-.85, -.38, a) * R, lerp(-.55, -.18, a) * R], .1 * R, G.UMB);
+    seg(c, [.85 * R, -.55 * R], [lerp(.85, .38, b) * R, lerp(-.55, -.18, b) * R], .1 * R, ACC);
+    c.save(); c.font = `500 ${.1 * R}px "DM Mono"`; c.fillStyle = col; c.fillText('UMP', -.85 * R, -.65 * R); c.textAlign = 'right'; c.fillText('PESANGON', .85 * R, -.65 * R); c.restore();
+  };
+
   // ───────── the two scenes: [start, hue, title, second line, meta, pictogram] ─────────
   const SCENES = {
+    umpHook: { dur: 23.45, tag: 'UPAH MINIMUM 2027', cards: [
+      [0, 'coral', 'JAKARTA', 'UMP 2027: Rp6.136.941', 'MULAI JANUARI', 'slip'],
+      [6.29, 'yellow', '+RP407 RB', 'naik 7,1% dari 2026', 'KENAIKAN', 'upCoins'],
+      [10.53, 'teal', 'BALI +42%', 'dari Rp3,2 juta ke Rp4,6 juta', 'TERTINGGI', 'island'],
+      [13.88, 'sky', 'JABAR +29%', 'menjadi Rp3 juta', 'JAWA BARAT', 'pin'],
+      [17.46, 'navy', 'DITOLAK', 'buruh menolak, pengusaha keberatan', 'DUA PIHAK', 'tug'],
+    ] },
+    umpSkenario: { dur: 49.69, tag: 'SETELAH UMP NAIK', cards: [
+      [0, 'teal', 'PATUH', 'gaji baru & lama disesuaikan', 'SKENARIO 1', 'twoBars'],
+      [11.43, 'navy', 'TAHAN BIAYA', 'Apindo ingatkan soal efisiensi', 'SKENARIO 2', 'scale'],
+      [18.14, 'sky', 'KONTRAK & MESIN', 'rekrutmen lebih sedikit', 'SKENARIO 2', 'contract'],
+      [24.15, 'coral', 'PADAT KARYA', 'tekstil & alas kaki paling rentan', 'SKENARIO 2', 'labour'],
+      [30.2, 'yellow', 'DUA ARAH', 'UMP naik + dana cadangan pesangon', 'BIAYA PEKERJA', 'twoArrows'],
+      [39.38, 'ink', 'BISA BERUBAH', 'gugatan & upah sektoral masih dibahas', 'SKENARIO 3', 'tug'],
+    ] },
     austria: { dur: 24.99, tag: 'BELAJAR DARI AUSTRIA', cards: [
       [0, 'coral', 'AUSTRIA', 'sistem pesangon baru sejak 2003', 'ABFERTIGUNG NEU', 'flag'],
       [4.3, 'yellow', '1,53%', 'dari gaji, disetor tiap bulan', 'OLEH PERUSAHAAN', 'coinJar'],

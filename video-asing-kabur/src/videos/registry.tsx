@@ -74,6 +74,10 @@ import {timeline as psg} from './pesangon/storyboard';
 import psgCaptions from './pesangon/captions.json';
 import psgLines from './pesangon/lines.json';
 import psgMeta from './pesangon/meta.json';
+import {timeline as ump} from './ump-2027/storyboard';
+import umpCaptions from './ump-2027/captions.json';
+import umpLines from './ump-2027/lines.json';
+import umpMeta from './ump-2027/meta.json';
 import {ThumbData} from './Thumb';
 import {Cue, durationOf, LineT, makeL, Seg, WhatIf} from './WhatIf';
 
@@ -100,6 +104,7 @@ export const VIDEOS: Video[] = [
   {slug: 'ihsg-crash', lines: ihcLines, captions: ihcCaptions, timeline: ihc, thumbs: ihcMeta.thumbs},
   {slug: 'badak-jawa', lines: bdkLines, captions: bdkCaptions, timeline: bdk, thumbs: bdkMeta.thumbs},
   {slug: 'pesangon', lines: psgLines, captions: psgCaptions, timeline: psg, thumbs: psgMeta.thumbs, chapters: psgMeta.chapters},
+  {slug: 'ump-2027', lines: umpLines, captions: umpCaptions, timeline: ump, thumbs: umpMeta.thumbs, chapters: umpMeta.chapters},
 ];
 
 // Komposisi hanya menerima slug (props Remotion harus bisa di-JSON-kan); storyboard dicari di sini.
