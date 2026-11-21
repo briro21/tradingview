@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Tiga pertanyaan · Briefing Board</title>
+<style>
+  @font-face { font-family: 'LXGW Marker Gothic'; src: url('kit/fonts/LXGWMarkerGothic-Regular.ttf') format('truetype'); font-weight: 400; }
+  @font-face { font-family: 'Noto Sans SC'; src: url('kit/fonts/Inter.ttf') format('truetype'); font-weight: 100 900; }
+  @font-face { font-family: 'Archivo'; src: url('kit/fonts/Archivo-VF.ttf') format('truetype'); font-weight: 100 900; font-stretch: 62% 125%; }
+  @font-face { font-family: 'Plex Mono'; src: url('kit/fonts/IBMPlexMono-Medium.ttf') format('truetype'); font-weight: 500; }
+  @font-face { font-family: 'Plex Mono'; src: url('kit/fonts/IBMPlexMono-SemiBold.ttf') format('truetype'); font-weight: 600; }
+  html, body { margin: 0; background: #8F8B83; overflow: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module">
+  import { setScene, renderScene, loadFonts } from './kit/board.js';
+  const cv = document.getElementById('c');
+  cv.width = innerWidth; cv.height = innerHeight;
+  await loadFonts('ABCDEFGHIJKLMNOPQRSTUVWXYZ?');
+  const s = await (await fetch('scenes/film.json')).json();
+  const cur = await setScene(s); window.DUR = cur.dur;
+  window.render = t => renderScene(cv, t);
+  window.render(0);
+  window.READY = true;
+</script>
+</body>
+</html>
