@@ -38,7 +38,7 @@ export const timeline = (L: (i: number, d?: number) => number): Seg[] => [
 
   // BAGIAN 3
   {start: L(26, -0.2), el: <N.Part n={3} title="Apakah gajimu ikut naik?" at={L(26)} />, sfx: 'boom'},
-  {start: K(27), el: <S.Split at={K(28)} left="MASA KERJA < 1 TAHUN: UPAH MINIMUM" right="1 TAHUN ATAU LEBIH: SKALA UPAH" lines={[{text: 'PP Pengupahan, Pasal 24', at: K(27), size: 52}]} />},
+  {start: K(27), el: <N.Kinetic words={[w('Masa kerja < 1 tahun', K(27), undefined, 80), w('→ UPAH MINIMUM', K(27, 1), C.green, 110), w('1 tahun atau lebih', K(28), undefined, 80), w('→ STRUKTUR & SKALA UPAH', K(28, 1), BLUE, 100)]} mark="PP 36/2021" />, sfx: 'whoosh'},
   {start: K(29), el: <N.Clip src="opuscar/ump-lantai-16x9.mp4" />, sfx: 'whoosh'},
   {start: K(34), el: <T.Dialog set="street" left={[{who: 'kamu', face: 'serius'}]} right={[{who: 'raka', pose: 'headInHands', face: 'sedih'}]} talks={[{name: 'Raka', who: 'raka', text: 'Jadi yang baru masuk naik empat ratus ribu, yang sudah tiga tahun bisa tidak naik sama sekali?', at: K(34), side: 'right'}]} />},
   {start: K(35), el: <N.Kinetic words={[w('Gaji karyawan baru', K(35), undefined, 90), w('hampir MENYUSUL karyawan lama', K(35, 2), C.red, 104)]} dark mark="ADIL?" />, sfx: 'thump'},
