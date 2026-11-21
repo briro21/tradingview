@@ -1,29 +1,36 @@
 <!doctype html><html><head><meta charset="utf-8"><title>Thumbnail pesangon</title><style>
 @font-face{font-family:M;src:url(montserrat-latin-900-normal.woff2) format('woff2');font-weight:900}
-html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#F1E8D8}
-.bg{position:absolute;inset:0;background-size:cover}
-.shade{position:absolute;inset:0}
-.t{position:absolute;font-family:M;font-weight:900;line-height:.92;letter-spacing:-2px}
-.ink{color:#1d1f1c;-webkit-text-stroke:0;text-shadow:0 0 0 #000}
-.box{display:inline-block;padding:6px 22px 14px;margin-top:10px}
-.red{background:#D0573A;color:#fff}
-.yel{background:#F2BA1D;color:#1d1f1c}
-.tag{position:absolute;font-family:M;font-weight:900;font-size:30px;color:#fff;background:#1d1f1c;padding:8px 16px;border-radius:6px}
+html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#16213a}
+.abs{position:absolute}
+.bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.t{position:absolute;font-family:M;font-weight:900;line-height:.95;letter-spacing:-2px;color:#fff;
+   text-shadow:0 6px 0 rgba(0,0,0,.35),0 0 24px rgba(0,0,0,.45);-webkit-text-stroke:3px #0d1220;paint-order:stroke fill}
+.y{color:#FFD23F}.r{color:#FF5A3C}
+.hl{display:inline-block;background:#FFD23F;color:#141414;-webkit-text-stroke:0;text-shadow:none;padding:2px 18px 10px;transform:rotate(-2deg)}
+.chip{position:absolute;font-family:M;font-weight:900;background:#E63B2E;color:#fff;border:5px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.45)}
 </style></head><body><div id="r"></div><script>
 const v = new URLSearchParams(location.search).get('v') || '1';
-const R = document.getElementById('r');
+const arrow = (d, w = 26) => `<svg class="abs" style="left:0;top:0" width="1280" height="720" viewBox="0 0 1280 720"><defs><marker id="h" markerWidth="4" markerHeight="4" refX="2.2" refY="2" orient="auto"><path d="M0,0 L4,2 L0,4 z" fill="#FF5A3C"/></marker></defs><path d="${d}" fill="none" stroke="#0d1220" stroke-width="${w + 10}" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#FF5A3C" stroke-width="${w}" stroke-linecap="round" marker-end="url(#h)"/></svg>`;
 const S = {
-  1: `<div class="bg" style="background-image:url(bg1.jpg);background-position:center;"></div>
-      <div class="shade" style="background:linear-gradient(90deg,rgba(241,232,216,.96) 0%,rgba(241,232,216,.8) 36%,rgba(241,232,216,0) 55%)"></div>
-      <div class="t ink" style="left:56px;top:190px;font-size:118px">PESANGON<br><span class="box red" style="font-size:112px">DITITIPKAN?</span></div>`,
-  2: `<div class="bg" style="background-image:url(bg2.jpg);background-position:center;"></div>
-      <div class="shade" style="background:linear-gradient(90deg,rgba(241,232,216,.97) 0%,rgba(241,232,216,.8) 36%,rgba(241,232,216,0) 55%)"></div>
-      <div class="t" style="left:56px;top:170px;font-size:210px;color:#D0573A">8.475</div>
-      <div class="t ink" style="left:60px;top:380px;font-size:104px"><span class="box yel">MENUNGGU</span></div>`,
-  3: `<div class="bg" style="background-image:url(bg3.jpg);background-position:center;"></div>
-      <div class="shade" style="background:linear-gradient(270deg,rgba(241,232,216,.97) 0%,rgba(241,232,216,.8) 36%,rgba(241,232,216,0) 55%)"></div>
-      <div class="t ink" style="right:60px;top:150px;font-size:190px;text-align:right">KAS<br><span class="box red" style="font-size:150px">KOSONG</span></div>`,
+  // the money leaves the factory for the state: who holds my severance now?
+  1: `<div class="bg" style="background-image:url(bg1.jpg)"></div>
+      <div class="abs" style="inset:0;background:radial-gradient(ellipse at 85% 10%,rgba(22,33,58,.95) 0%,rgba(22,33,58,.6) 35%,rgba(22,33,58,0) 60%)"></div>
+      ${arrow('M 270 300 C 410 170, 630 190, 800 380')}
+      <div class="t" style="right:44px;top:44px;font-size:104px;text-align:right">PESANGONMU<br><span class="y">KE NEGARA?</span></div>`,
+  // 8,475 workers still waiting
+  2: `<div class="bg" style="background-image:url(bg2.jpg)"></div>
+      <div class="abs" style="inset:0;background:linear-gradient(90deg,rgba(20,22,28,.96) 0%,rgba(20,22,28,.85) 40%,rgba(20,22,28,0) 64%)"></div>
+      <div class="t" style="left:48px;top:120px;font-size:230px;color:#FF5A3C">8.475</div>
+      <div class="t" style="left:52px;top:350px;font-size:96px"><span class="hl">BELUM DIBAYAR</span></div>`,
+  // company cash box vs the state: safe or risky?
+  3: `<div class="bg" style="background-image:url(bg3a.jpg);right:50%;background-position:40% 50%"></div>
+      <div class="bg" style="background-image:url(bg3b.jpg);left:50%;background-position:50% 60%"></div>
+      <div class="abs" style="left:636px;top:0;width:8px;height:720px;background:#fff"></div>
+      <div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(13,18,32,.0) 45%,rgba(13,18,32,.88) 100%)"></div>
+      <div class="chip" style="left:250px;top:110px;width:150px;height:150px;font-size:110px">✕</div>
+      <div class="chip" style="left:900px;top:90px;width:150px;height:150px;font-size:110px;background:#2F6FE0">?</div>
+      <div class="t" style="left:0;right:0;top:470px;font-size:120px;text-align:center">AMAN ATAU <span class="y">RISIKO?</span></div>`,
 };
-R.innerHTML = S[v];
+document.getElementById('r').innerHTML = S[v];
 document.fonts.load('900 40px M').then(() => { window.READY = true; });
 </script></body></html>

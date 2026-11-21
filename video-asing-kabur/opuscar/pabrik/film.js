@@ -347,7 +347,7 @@ function months(g, t) {
 export function render(g, t, Q) {
   iso.g = g; iso.cam = camAt(t); iso.alpha = 1;
   { const q = new URLSearchParams(location.search).get('cam'); if (q) { const [x, y, k] = q.split(',').map(Number); iso.cam = { x, y, z: 0, k }; } }
-  g.fillStyle = C.bg; g.fillRect(0, 0, W, H);
+  { const b = new URLSearchParams(location.search).get('bg'); g.fillStyle = b ? '#' + b : C.bg; } g.fillRect(0, 0, W, H);
   // ground: yard, then the factory floor (darkens when the lights go out)
   fillPoly(g, [[-.3, -15], [17.5, -15], [17.5, -.3], [-.3, -.3]].map(([x, y]) => iso.P(x, y, 0)), YARD);
   g.save(); g.strokeStyle = C.apronJoint; g.lineWidth = 1.2;

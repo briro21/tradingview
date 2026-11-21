@@ -127,7 +127,7 @@ function law(t) {
 export function render(g, t) {
   iso.g = g; iso.cam = cam(t); iso.alpha = 1; iso.keep = false;
   { const q = new URLSearchParams(location.search).get('cam'); if (q) { const [x, y, k] = q.split(',').map(Number); iso.cam = { x, y, z: 0, k }; } }
-  g.fillStyle = BG; g.fillRect(0, 0, W, H);
+  { const b = new URLSearchParams(location.search).get('bg'); g.fillStyle = b ? '#' + b : BG; } g.fillRect(0, 0, W, H);
   // faint iso dot lattice
   g.save(); g.fillStyle = 'rgba(46,37,34,.08)'; for (let i = -6; i < 40; i++) for (let j = -14; j < 30; j++) { const [x, y] = iso.P(i * 1.5, j * 1.5, ZB - 3); if (x > 0 && x < W && y > 0 && y < H) g.fillRect(x, y, 2, 2); } g.restore();
   // focus + context in beat 3: everything but the money fades toward warm grey

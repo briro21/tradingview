@@ -4,10 +4,10 @@
 **Judul:** Pesangonmu Wajib Dititipkan ke Negara Mulai 2027. Aman atau Berisiko?
 
 ## Opsi 2: thumbnail `pesangon-thumb-2.png`
-**Judul:** 8.475 Buruh Masih Menunggu Pesangon. Aturan Baru Ini Mau Mengubahnya
+**Judul:** 8.475 Buruh Belum Dibayar Pesangon. Aturan Baru Ini Mau Mengubahnya
 
 ## Opsi 3: thumbnail `pesangon-thumb-3.png`
-**Judul:** Pabrik Pailit, Kasnya Kosong: Kenapa Pesangon Kini Wajib Dititipkan ke Negara
+**Judul:** Pesangonmu Pindah dari Kas Pabrik ke Negara: Aman atau Berisiko?
 
 ---
 
