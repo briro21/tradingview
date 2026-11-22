@@ -1,17 +1,17 @@
 Part four. Nobody can replace him.
 
-You've probably heard the reassurance: whatever Nvidia loses, AMD and Broadcom will pick up. Zitron thinks that misses what Jensen actually did.
+The reassurance goes: whatever Nvidia loses, AMD and Broadcom pick up. Zitron says that misses what Jensen did.
 
-Start with cash. Over the past twelve months, he says, Apple generated around one hundred thirty-six billion dollars of free cash flow. Nvidia, about one hundred twenty-seven billion. Microsoft, around seventy-six. And Broadcom? About thirty-nine billion. Roughly a quarter of Nvidia's.
+Start with cash. Over the past year, he says, Apple generated around $136 billion of free cash flow. Nvidia, about $127 billion. Microsoft, around $76 billion. And Broadcom? About $39 billion. Roughly a quarter of Nvidia's.
 
-Here's the catch. Broadcom, he says, has already broken what he calls Jensen's golden rule: never hold your customers' bags. He says Broadcom is backstopping around sixty billion dollars of debt to lease chips to Anthropic. Jensen, in his view, would never have done that. Rivals did try copying his deals, Zitron says. They didn't work, because only Jensen had the balance sheet to back them.
+Broadcom, he says, already broke what he calls Jensen's golden rule: never hold your customers' bags. He says Broadcom is backstopping around $60 billion of debt to lease chips to Anthropic. Jensen, in his view, never would have. Rivals tried copying his deals, but only Jensen had the balance sheet.
 
-Then there were the giant headlines. The Wall Street Journal now reports, he says, that the firms behind a widely covered half-trillion dollar AI infrastructure fund aren't committed to raising any money, and that the number isn't meaningful. He also recalls Nvidia's hundred billion dollar plan with OpenAI, which he says Jensen later called never a commitment.
+Then there were the giant headlines. The Journal now reports, he says, that the firms behind a half-trillion dollar AI fund aren't committed to raising any money, and the number isn't meaningful. Then Nvidia's $100 billion plan with OpenAI, which Jensen later called never a commitment.
 
-And Nvidia kept writing smaller checks to keep buyers alive. Perplexity, the AI search startup, is getting around three billion dollars, he says, because it's one of the few companies that buys a lot of AI computing power.
+And Nvidia kept writing smaller checks to keep buyers alive. Perplexity, the AI search startup, gets around $3 billion, he says, because it buys so much compute.
 
-His conclusion: this industry ran on Jensen's word and Nvidia's balance sheet. He even points to reports that Jensen told customers to start collecting prepayments from their own customers. To Zitron, that's a warning that the money was running out.
+His conclusion: this industry ran on Jensen's word and Nvidia's balance sheet. He points to reports that Jensen told customers to collect prepayments from their own customers. To Zitron, a sign the money was running out.
 
-If this is helping you follow the AI money story, subscribing is how you'll catch the next case file.
+If this helps you follow the AI money, subscribe to catch the next case file.
 
 Because without that backstop, some companies are suddenly very exposed.

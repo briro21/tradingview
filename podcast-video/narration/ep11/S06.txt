@@ -1,13 +1,13 @@
 Part six. Who pays?
 
-Start with gamers. Steve doesn't expect graphics card prices to fall any time soon. And don't wait for a flood of cheap used parts, he says, because these data center chips were never built for ordinary computers.
+Start with gamers. Steve doesn't expect graphics card prices to fall any time soon. And don't wait for cheap used parts, he says: these data center chips were never built for ordinary computers.
 
-Then towns. Steve describes a data center his team visited for a documentary. Seventy-seven million dollars in tax breaks, in a relatively poor area. Fewer than twenty employees. Local hires, he says, mostly work in security, landscaping and cleaning. Zitron adds that once construction ends, many of these sites need only fifty or sixty people. And the planned West Virginia site, Steve says, may clear one of the few remaining chestnut-producing forests in the country. The fallout, he says, lands on the people it always lands on. Not the billionaires.
+Then towns. Steve describes a data center his team visited. $77 million in tax breaks, in a relatively poor area. Fewer than 20 employees. Local hires, he says, mostly work in security, landscaping and cleaning. Once construction ends, Zitron adds, many sites need only 50 or 60 people. And the planned West Virginia site, Steve says, may clear one of America's last chestnut-producing forests. The fallout lands on the people it always lands on. Not the billionaires.
 
-Then the economy. Zitron argues that the old industry slogan, that buying more chips grows the economy, has been oversold. As Steve recalls it, the slogan was simply: GPUs equal GDP. He says an economist he spoke with agreed that the way official statistics adjust software prices may have overstated software's contribution to growth since twenty twenty-two. That's his argument, not a settled finding.
+Then the economy. Zitron argues the industry's promise, that buying chips grows the economy, was oversold. Steve's version of the slogan: GPUs equal GDP. An economist told Zitron that official statistics may have overstated software's contribution to growth since 2022. That's his argument, not a settled finding.
 
-So here's your watch list. Does Nvidia file its quarterly report by December fourth? Does Anthropic clear the twenty-one billion dollar bar? Can OpenAI raise money early next year? And does a neocloud run out of road?
+So here's your watch list. Does Nvidia file its quarterly report by December 4th? Does Anthropic clear the $21 billion bar? Can OpenAI raise money early next year? And does a neocloud run out of road?
 
-To be fair to the other side: Nvidia still posted record numbers, and Anthropic's shares are above their listing price. Zitron's view is that those numbers rest on a confidence game, and the man who ran it is gone. This is his analysis, not financial advice.
+To be fair to the other side: Nvidia still posted record numbers, and Anthropic's shares are above their listing price. Zitron's view: those numbers rest on a confidence game, and the man who ran it is gone. This is his analysis, not financial advice.
 
-This was an hour and a half in ten minutes. The links to the full episodes are in the description. And if you want more of the biggest conversations explained like this, subscribe.
+That's an hour and a half in ten minutes. The full episodes are linked below. For more big conversations explained like this, subscribe.

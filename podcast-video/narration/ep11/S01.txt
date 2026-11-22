@@ -1,15 +1,13 @@
 Part one. The debut.
 
-So how did the biggest AI listing of the year actually go? Anthropic, the maker of Claude, listed at eighty-three dollars a share. As Zitron recorded his latest monologue, it was trading higher, but struggling to stay above one hundred. His verdict: definitely not the massive return people were expecting.
+How did the year's biggest AI listing go? Anthropic, the maker of Claude, listed at $83 a share. As Zitron recorded, it traded higher, but struggled to stay above $100. His verdict: not the massive return people expected. But first days say little. So let's look at the business.
 
-He adds a fair warning. A new stock's first days say almost nothing about the business. So let's look at the business.
+First, growth. Citing spending data from Ramp, he says Anthropic's growth this quarter is trending toward 15 to 25%. A quarter ago, it was 47%. A few quarters before that, around 150%. That's not a rocket anymore. That's a rocket running out of fuel.
 
-First, growth. Using data from the spending platform Ramp, he says Anthropic's revenue growth this quarter is trending toward fifteen to twenty-five percent. A quarter ago, it was forty-seven. A few quarters before that, around one hundred fifty. That's not a rocket anymore. That's a rocket running out of fuel.
+Now the bills. Anthropic has signed up for $895 billion of commitments, mostly computing power that hasn't even started. And $435 billion of that, he says, can't be cancelled.
 
-Now the bills. Anthropic has signed up for eight hundred ninety-five billion dollars of commitments, mostly for computing power that hasn't even started yet. And four hundred thirty-five billion of that, he says, can't be cancelled.
+Here's the number that really matters. The Financial Times' Robert Armstrong calculated that for a decent return, Anthropic would need about $600 billion of revenue a year by 2030. Microsoft, with monopolies across office software, made about $331 billion last year. Anthropic would need nearly twice that.
 
-But here's the number that really matters. The Financial Times' Robert Armstrong calculated that to earn a decent return on all of that, Anthropic would need about six hundred billion dollars of revenue a year by twenty thirty. Microsoft, with monopolies across half of office software, made about three hundred thirty-one billion last year. Anthropic would need nearly twice that.
-
-To be fair, it has a cushion. Zitron puts its cash at over two hundred billion dollars after the IPO. But big prepayments on those computing contracts are coming, and he says anything under twenty-one billion dollars of revenue this quarter would be a problem. Even fifteen percent growth, in his math, wouldn't be enough.
+To be fair, there's a cushion: over $200 billion in cash after the IPO, by Zitron's count. But big prepayments are coming, and he says anything under $21 billion of revenue this quarter would be a problem. Even 15% growth, in his math, isn't enough.
 
 Which raises the obvious question. Who was buying these shares, and why?

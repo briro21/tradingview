@@ -1,12 +1,12 @@
 Part five. The death watch.
 
-So who's most exposed? Zitron points at the so-called neoclouds. They borrow money, buy Nvidia chips, use those same chips as collateral, then rent the computing power to a handful of AI companies. Often the very companies Nvidia itself invested in. Debt, chips, collateral, customers, and back to debt.
+So who's most exposed? Zitron points at the so-called neoclouds. They borrow money, buy Nvidia chips, use those chips as collateral, then rent the computing power to a few AI companies, often ones Nvidia invested in. Debt, chips, collateral, customers, and back to debt.
 
-He's put two of them on what he calls a death watch. Nscale, which he says just told investors it needs more money than expected, and is still negotiating backing for a forty-five billion dollar data center for Anthropic in West Virginia. And Firmus, an Australian data center company that cut its IPO, then pulled it. Meanwhile Lambda, another chip renter, hopes to go public next year.
+He's put two of them on what he calls a death watch. Nscale, which he says needs more money than expected, and is still negotiating backing for a $45 billion data center for Anthropic in West Virginia. And Firmus, an Australian data center company that cut its IPO, then pulled it. Lambda, another chip renter, hopes to list next year.
 
-Why does Jensen matter here? Because banks lent to these companies, he argues, believing Nvidia would step in if anything went wrong. Now a bank asks one question: is Nvidia backing this? And if the answer is we're still waiting to hear, the money doesn't come.
+Why does Jensen matter here? Banks lent to these companies, he argues, believing Nvidia would step in if anything went wrong. Now banks ask one question: is Nvidia backing this? If the answer is still waiting, the money doesn't come.
 
-It only takes one, he says. One insolvency, and lenders start asking whether the whole sector is just debt stacked on the same chips and the same customers. Think of a tower where every floor rests on the same beam.
+It only takes one, he says. One insolvency, and lenders ask whether the whole sector is debt stacked on the same chips and customers. A tower where every floor rests on one beam.
 
 Steve offers a fair counterpoint. Blaming one man isn't quite right, he says. They were all part of this together.
 

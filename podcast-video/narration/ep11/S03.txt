@@ -1,15 +1,15 @@
 Part three. The missing filing.
 
-Nvidia reported earnings this week, under its interim chief executive, Colette Kress, the former finance chief. On the surface, it was the same old story: record numbers, beat expectations, raised the forecast.
+Nvidia reported earnings this week, under interim chief executive Colette Kress, the former finance chief. On the surface: record numbers, beat expectations, raised forecast.
 
-But Zitron spotted what wasn't there. Normally, Nvidia files its detailed quarterly report, the ten-Q, around the same time as earnings. This time, nothing. The deadline, he says, is December fourth, and Kress promised it within the coming weeks.
+But Zitron spotted what wasn't there. Normally, Nvidia files its quarterly report, the ten-Q, alongside earnings. This time, nothing. The deadline, he says, is December 4th, and Kress promised it within the coming weeks.
 
-Bulls say it's just extra checks during the investigation into Jensen Huang. Zitron isn't convinced. Kress was the finance chief, the scandal broke only a week before earnings, so the document was likely nearly done. His words: we need answers from Nvidia.
+Bulls say it's just extra checks during the investigation into Jensen Huang. Zitron isn't convinced: the scandal broke just a week before earnings, so the filing was likely nearly done. His words: we need answers from Nvidia.
 
-On the scandal, he cites the Wall Street Journal, which he says now puts chip sales through Megaspeed at around twelve billion dollars. Those are reports and allegations, not findings.
+On the scandal, he cites the Wall Street Journal, which he says now puts chip sales through Megaspeed at around $12 billion. Those are reports and allegations, not findings.
 
-Then his guest, Steve from the hardware channel Gamers Nexus, pulls up something from Nvidia's own numbers. Revenue booked to Singapore went from about seven hundred sixty million dollars in one quarter to about four billion a year later. Over one fiscal year it reached roughly twenty-four billion. And then it vanished from the breakdown, after Nvidia changed how it reports revenue by location. Steve's question is simple: a company that can tell when one of its drivers leaks to a reviewer can't track where its own chips end up?
+Then his guest, Steve from the hardware channel Gamers Nexus, pulls up Nvidia's own numbers. Revenue booked to Singapore went from about $760 million in one quarter to about $4 billion a year later. Over one fiscal year, roughly $24 billion. And then it vanished from the breakdown, after Nvidia changed how it reports revenue by region. Steve's question: a company that can tell when a driver leaks to a reviewer can't track its own chips?
 
-And one more thing doesn't add up for Zitron. In August, Nvidia promised seventy percent growth next year. Yet the Journal reported Jensen had worried about a glut of spare chip-making capacity. You can't easily have both.
+One more thing doesn't add up for Zitron. In August, Nvidia promised 70% growth next year. Yet the Journal reported Jensen worried about a glut of chip-making capacity. You can't easily have both.
 
-The board, he says, has made clear Jensen isn't coming back. So the real question is whether anyone can do what he did.
+The board, he says, has made clear Jensen isn't coming back. So can anyone do what he did?
