@@ -94,8 +94,9 @@ for sid in order:
                         r["rt"] = round(off + words[j][1] - 0.06, 3)
                     else:
                         r["rt"] = it["t"]
-            if it.get("rows"):   # a rich scene starts with its first row, never after it
-                it["t"] = min([it["t"]] + [r["rt"] for r in it["rows"]])
+            if it.get("rows"):   # a rich scene starts on its first data word: until then the
+                # narration runs as big kinetic words instead of an empty chart
+                it["t"] = min(r["rt"] for r in it["rows"])
             if it.get("noteAt"):
                 j = find(words, it["noteAt"], w0)
                 assert w0 <= j < w1, (sid, b["at"], "note", it["noteAt"])
@@ -104,7 +105,7 @@ for sid in order:
                 used.add(it["name"])
             items.append(it)
         # the cut must open on the new image: the first unbound item is already formed as the whip lands
-        if not b.get("drawn") and not part and items and not items[0].get("at"):
+        if not b.get("drawn") and not part and items and not items[0].get("at") and not items[0].get("rows"):
             items[0]["t"] = round(t0 - 0.7, 3)
         shots.append({"id": f"{sid}.{bi}", "t0": round(t0, 3), "part": part, "drawn": bool(b.get("drawn")), "items": items})
     off += tm["frames"] / 30

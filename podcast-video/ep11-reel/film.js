@@ -31,7 +31,7 @@ function look(i) {
 const D = { paper: '#F1E6CF', ink: '#1B2A4A', cobalt: '#2F5BD3', pink: '#E85D8C', yellow: '#F2B53B', red: '#D62E2E' };
 let DOSSIER = false;
 const pal = (lk) => lk === 'dossier' ? { bg: D.paper, ink: D.ink, dim: '#3B4A6B', fillc: '#E6D5B0', dossier: true }
-  : lk === 'paper' ? { bg: C.paper, ink: C.paperInk, dim: '#4A4740', fillc: '#E2DCCF' }
+  : lk === 'paper' || lk === 'chart' || lk === 'sheet' ? { bg: C.paper, ink: C.paperInk, dim: '#4A4740', fillc: '#E2DCCF' }
   : lk === 'red' ? { bg: C.accent, ink: '#141414', dim: '#2A0B08', fillc: '#D9302A' }
   : { bg: C.bg, ink: C.ink, dim: C.dim, fillc: '#2A2A31' };
 const colorOf = (c, P) => (c === RED ? (P.dossier ? D.red : P.bg === C.accent ? '#FFFFFF' : C.accent) : P.ink);
