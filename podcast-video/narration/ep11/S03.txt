@@ -1,0 +1,13 @@
+Part three. The missing filing.
+
+Nvidia reported earnings this week under its interim chief executive, Colette Kress, the company's former finance chief. The headline numbers did what Nvidia's numbers always do: they beat expectations and raised the forecast.
+
+But Zitron points to what was missing. Usually, Nvidia files its detailed quarterly report, the ten-Q, around the same time as its earnings. This time, it didn't. He says the deadline is December fourth, and Kress promised the filing within the coming weeks.
+
+Bulls say the delay is about extra checks during the investigation into Jensen Huang. Zitron doesn't buy it. Kress was the finance chief, he argues, and the scandal broke only a week before earnings, so the document was likely close to finished. His words: we need answers from Nvidia.
+
+On the scandal itself, he cites the Wall Street Journal, which he says now puts chip sales through Megaspeed at about twelve billion dollars. These remain reports and allegations, not findings. Steve from Gamers Nexus adds a detail from Nvidia's own filings. Revenue booked to Singapore, he says, rose from about seven hundred sixty-two million dollars in one quarter to about four billion a year later, reaching roughly twenty-three point six billion for a fiscal year, and then vanished from the breakdown after Nvidia changed how it reports revenue by location.
+
+He also flags a contradiction. In August, Nvidia guided for seventy percent growth in its next fiscal year. Yet the Journal reported that Jensen had been worried about a glut of spare chip-making capacity at TSMC. To Zitron, you can't easily have both.
+
+And the board, he says, has made clear it won't bring Jensen back. Which leads to the question everyone is asking on social media: can someone else simply take his place?

@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ep, title = sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else sys.argv[1]
-reel, tpl = ROOT / f"{ep}-reel", ROOT / "ep9-reel"
+reel, tpl = ROOT / f"{ep}-reel", ROOT / "ep10-reel"   # template = newest engine (dossier look)
 (reel / "audio").mkdir(parents=True, exist_ok=True)
 (reel / "assets").mkdir(exist_ok=True)
 if reel != tpl:
@@ -28,8 +28,9 @@ for p in (ROOT / "public/thumbs").glob("photo_*.png"):
 t = json.loads((ROOT / f"src/episodes/{ep}/timing.json").read_text())
 keys = sorted(t)
 d = round(sum(v["frames"] for v in t.values()) / 30, 3)
-json.dump({"title": title, "duration": d, "formats": ["16x9"], "poster": 0}, open(reel / "film.json", "w"), indent=1)
-b = json.loads((tpl / "beats.json").read_text()) if (tpl / "beats.json").exists() else json.loads((ROOT / "ep8-reel/beats.json").read_text())
+import datetime
+json.dump({"title": title, "duration": d, "formats": ["16x9"], "poster": 0, "case": int(ep[2:]), "date": datetime.date.today().strftime("%b %Y")}, open(reel / "film.json", "w"), indent=1)
+b = json.loads((ROOT / "ep8-reel/beats.json").read_text())
 P, O = b["period"], b["offset"]
 n = int((d - O) / P) + 1
 b["beats"] = [round(O + i * P, 5) for i in range(n)]

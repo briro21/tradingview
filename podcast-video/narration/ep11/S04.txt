@@ -1,0 +1,15 @@
+Part four. Nobody can replace him.
+
+A popular reassurance goes like this: whatever demand Nvidia loses will simply move to AMD and Broadcom. Zitron thinks that misunderstands what Jensen actually did.
+
+He starts with cash. He lists the biggest free cash flows of the past twelve months: Apple at around one hundred thirty-six billion dollars, Nvidia at about one hundred twenty-seven billion, Microsoft at around seventy-six billion. Broadcom, at about thirty-nine billion, has roughly a quarter of Nvidia's, and a weaker credit rating.
+
+And Broadcom, he says, has already broken what he calls Jensen's cardinal rule: never hold your customers' bags. He says Broadcom is backstopping around sixty billion dollars of debt deals to lease chips to Anthropic. Jensen, in his view, would never have done that. He points to Perplexity too, the AI search startup that, he says, is getting around three billion dollars from Nvidia. The reason, in his view, is that Perplexity is one of the few companies that buys meaningful amounts of AI computing power.
+
+Then there are the big announcements. Zitron says the Wall Street Journal has now reported that the investment firms behind a widely covered half-trillion dollar AI infrastructure fund aren't committed to raising any money, and that the figure isn't meaningful. He also recalls Nvidia's hundred billion dollar plan with OpenAI, which, he says, Jensen later described as never a commitment.
+
+His conclusion: the industry ran on Jensen's word and Nvidia's balance sheet. He even points to reports that Jensen had told customers to start getting prepayments from their own customers. To Zitron, that sounds like a warning that the money was running out.
+
+If this video is helping you follow the AI money story, subscribing is how you'll catch the next case file.
+
+Because without that backstop, some companies are suddenly exposed.

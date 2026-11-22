@@ -1,0 +1,45 @@
+=== TITLE (pick one) ===
+Ed Zitron on the Anthropic IPO: "The Last Money Out the Door"
+Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?
+Anthropic Went Public. Ed Zitron Says the Math Doesn't Work.
+
+=== THUMBNAILS ===
+A = first frame (dossier: "THE LAST MONEY / OUT THE DOOR") -> out/ep11-thumbnail-A.png
+B = "WHO PAYS NOW?" -> out/ep11-thumbnail-B.png
+
+=== DESCRIPTION (copy-paste) ===
+Anthropic's IPO is trading, Nvidia's quarterly filing hasn't arrived, and a "$500 billion" AI fund turned out, by one report, not to be meaningful. Ed Zitron calls the $26 billion big tech put into Anthropic's IPO "the last money out the door."
+An hour and a half of Ed Zitron on Better Offline, explained in 10 animated minutes.
+
+Zitron walks through Anthropic's $895 billion of commitments and slowing growth, OpenAI's $11 billion raise, Nvidia's missing 10-Q, why AMD and Broadcom can't simply replace Jensen Huang, and the neoclouds he has put on "death watch." Steve from Gamers Nexus adds what it means for gamers, data center towns and the economy, and pushes back on blaming one man for everything.
+
+This is an independent animated summary and commentary. It presents Ed Zitron's and Steve Burke's views as they stated them, not as established fact, and is not financial advice. Allegations mentioned are reports, not findings. Narration is AI-generated. All credit for the original episodes goes to Better Offline (Ed Zitron, with Steve from Gamers Nexus). Listen to the full episodes:
+▶ Better Offline: Into The Jensenverse w/ GamersNexus https://www.youtube.com/watch?v=8p7A8EV5NNA
+▶ Better Offline: Monologue: The Home Stretch https://www.youtube.com/watch?v=yH5gb1IL8q8
+
+CHAPTERS
+0:00 The last money out the door
+0:22 Part 1: The debut
+2:01 Part 2: The last money out the door
+3:51 Part 3: The missing filing
+5:41 Part 4: Nobody can replace him
+7:35 Part 5: The death watch
+9:07 Part 6: Who pays?
+
+Previously:
+▶ Ed Zitron: The AI Bubble Was One Man. Now He's Gone. [link]
+▶ Ed Zitron WARNS: Generative AI Is a $1 Trillion Con https://www.youtube.com/watch?v=5uqe1EsO-F0
+
+PHOTO CREDITS
+Ed Zitron photo: Web Summit, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Ed_Zitron_speaking_at_the_Web_Summit.jpg (background removed and cropped)
+
+Subscribe for more of the biggest conversations explained in 10 animated minutes.
+
+#AIBubble #EdZitron #AnthropicIPO #Nvidia #OpenAI #Anthropic
+
+=== TAGS ===
+Ed Zitron, Anthropic IPO, Anthropic stock, Nvidia earnings, Nvidia 10-Q, AI bubble, OpenAI, Better Offline, Gamers Nexus, neoclouds, CoreWeave, Nscale, Broadcom, AMD, Jensen Huang, Colette Kress, AI stocks, AI crash, data centers, tech bubble
+
+=== PINNED COMMENT ===
+Last week Zitron said the AI bubble was one man. This week, who pays? Part 1 here: [link to Ep10]
+What's your bet: does Nvidia file its 10-Q by December 4?

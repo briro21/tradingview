@@ -1,0 +1,223 @@
+1
+00:00:00,112 --> 00:00:00,550
+Part two.
+
+2
+00:00:00,962 --> 00:00:02,125
+The last money out the door.
+
+3
+00:00:02,550 --> 00:00:04,750
+Here is the detail Zitron keeps coming back
+
+4
+00:00:04,762 --> 00:00:04,988
+to.
+
+5
+00:00:05,400 --> 00:00:07,625
+Nvidia, Microsoft, Google,
+
+6
+00:00:07,875 --> 00:00:11,288
+AMD, TSMC, Broadcom and Micron,
+
+7
+00:00:11,638 --> 00:00:15,212
+together, put about twenty-six billion dollars into Anthropic's
+
+8
+00:00:15,225 --> 00:00:15,725
+IPO.
+
+9
+00:00:16,150 --> 00:00:17,713
+These are Anthropic's suppliers.
+
+10
+00:00:18,125 --> 00:00:18,725
+In his view,
+
+11
+00:00:19,125 --> 00:00:21,112
+they were pumping up a customer with cash,
+
+12
+00:00:21,350 --> 00:00:22,650
+so that they keep getting paid,
+
+13
+00:00:22,975 --> 00:00:24,925
+and so the venture investors could cash out.
+
+14
+00:00:25,350 --> 00:00:26,650
+He calls it the last money out the
+
+15
+00:00:26,662 --> 00:00:27,013
+door.
+
+16
+00:00:27,438 --> 00:00:28,938
+That matters, he says,
+
+17
+00:00:29,175 --> 00:00:30,525
+because of who comes next.
+
+18
+00:00:30,938 --> 00:00:33,825
+OpenAI just raised eleven billion dollars at a
+
+19
+00:00:33,838 --> 00:00:36,725
+one point two five trillion dollar valuation,
+
+20
+00:00:37,100 --> 00:00:39,662
+after reportedly hoping for thirty billion at one
+
+21
+00:00:39,675 --> 00:00:40,575
+point four trillion.
+
+22
+00:00:40,988 --> 00:00:43,462
+Zitron also finds it odd that one Bloomberg
+
+23
+00:00:43,475 --> 00:00:46,050
+report stressed the money had actually been wired
+
+24
+00:00:46,125 --> 00:00:46,812
+and received.
+
+25
+00:00:47,225 --> 00:00:49,300
+In years of reading funding announcements,
+
+26
+00:00:49,475 --> 00:00:50,050
+he says,
+
+27
+00:00:50,438 --> 00:00:52,150
+he had never seen a reporter feel the
+
+28
+00:00:52,162 --> 00:00:53,175
+need to say that.
+
+29
+00:00:53,588 --> 00:00:55,312
+And the numbers Zitron cites are rough.
+
+30
+00:00:55,762 --> 00:00:58,462
+He says OpenAI lost ten point nine billion
+
+31
+00:00:58,475 --> 00:00:59,888
+dollars in its third quarter,
+
+32
+00:01:00,250 --> 00:01:02,175
+on about ten billion dollars of revenue.
+
+33
+00:01:02,588 --> 00:01:04,438
+Its margins, he notes dryly,
+
+34
+00:01:04,688 --> 00:01:05,400
+are improving:
+
+35
+00:01:05,800 --> 00:01:08,100
+from around minus one hundred fifty percent to
+
+36
+00:01:08,112 --> 00:01:09,912
+around minus one hundred percent.
+
+37
+00:01:10,325 --> 00:01:11,238
+Its newest model,
+
+38
+00:01:11,462 --> 00:01:13,462
+he adds, got a cold reception,
+
+39
+00:01:13,875 --> 00:01:16,612
+even from people who usually cheer every release.
+
+40
+00:01:17,038 --> 00:01:19,312
+So what is the pitch for OpenAI's next
+
+41
+00:01:19,325 --> 00:01:21,375
+round, which he expects it will need in
+
+42
+00:01:21,388 --> 00:01:23,212
+the first quarter of twenty twenty-seven?
+
+43
+00:01:23,625 --> 00:01:25,888
+Investors would be buying a company with worse
+
+44
+00:01:26,000 --> 00:01:27,400
+economics than Anthropic,
+
+45
+00:01:27,700 --> 00:01:28,925
+at a similar valuation.
+
+46
+00:01:29,338 --> 00:01:30,638
+And its biggest backers,
+
+47
+00:01:30,750 --> 00:01:32,938
+he says, put in only a few hundred
+
+48
+00:01:32,950 --> 00:01:34,275
+million dollars this time,
+
+49
+00:01:34,575 --> 00:01:36,975
+because they are running low on cash themselves.
+
+50
+00:01:37,400 --> 00:01:38,412
+His question is simple.
+
+51
+00:01:38,825 --> 00:01:42,050
+After Anthropic soaked up so much institutional and
+
+52
+00:01:42,062 --> 00:01:42,812
+retail money,
+
+53
+00:01:43,188 --> 00:01:44,700
+who actually has the money left,
+
+54
+00:01:45,125 --> 00:01:46,550
+even if they wanted to invest?
+
+55
+00:01:46,962 --> 00:01:48,775
+And the biggest supplier of all has its
+
+56
+00:01:48,788 --> 00:01:49,337
+own problem.

@@ -275,3 +275,16 @@ export const V3Ep10C: React.FC = () => (
     </div>
   </Bg>
 );
+
+// ---------- Episode 11: Who pays now? (A = frame 0 of the motion film) ----------
+
+/** B: "WHO PAYS NOW?". */
+export const V3Ep11B: React.FC = () => (
+  <Bg dark>
+    <Guest n={11} height={700} left={10} src="thumbs/photo_zitron.png" />
+    <div style={{ position: "absolute", right: 60, top: 170, textAlign: "right" }}>
+      <Big size={150} color="#FFFFFF">WHO PAYS</Big>
+      <Big size={220} color={red} style={{ marginTop: 4 }}>NOW?</Big>
+    </div>
+  </Bg>
+);

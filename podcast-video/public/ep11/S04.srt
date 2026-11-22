@@ -1,0 +1,243 @@
+1
+00:00:00,112 --> 00:00:00,638
+Part four.
+
+2
+00:00:01,050 --> 00:00:02,088
+Nobody can replace him.
+
+3
+00:00:02,500 --> 00:00:04,450
+A popular reassurance goes like this:
+
+4
+00:00:04,750 --> 00:00:07,637
+whatever demand Nvidia loses will simply move to
+
+5
+00:00:07,700 --> 00:00:09,237
+AMD and Broadcom.
+
+6
+00:00:09,650 --> 00:00:12,788
+Zitron thinks that misunderstands what Jensen actually did.
+
+7
+00:00:13,212 --> 00:00:14,138
+He starts with cash.
+
+8
+00:00:14,575 --> 00:00:17,025
+He lists the biggest free cash flows of
+
+9
+00:00:17,038 --> 00:00:18,450
+the past twelve months:
+
+10
+00:00:18,838 --> 00:00:21,438
+Apple at around one hundred thirty-six billion dollars,
+
+11
+00:00:21,738 --> 00:00:24,263
+Nvidia at about one hundred twenty-seven billion,
+
+12
+00:00:24,562 --> 00:00:26,662
+Microsoft at around seventy-six billion.
+
+13
+00:00:27,088 --> 00:00:27,625
+Broadcom,
+
+14
+00:00:28,000 --> 00:00:29,362
+at about thirty-nine billion,
+
+15
+00:00:29,725 --> 00:00:31,700
+has roughly a quarter of Nvidia's,
+
+16
+00:00:31,925 --> 00:00:33,050
+and a weaker credit rating.
+
+17
+00:00:33,462 --> 00:00:34,138
+And Broadcom,
+
+18
+00:00:34,525 --> 00:00:35,062
+he says,
+
+19
+00:00:35,425 --> 00:00:37,950
+has already broken what he calls Jensen's cardinal
+
+20
+00:00:37,962 --> 00:00:38,250
+rule:
+
+21
+00:00:38,700 --> 00:00:40,312
+never hold your customers' bags.
+
+22
+00:00:40,738 --> 00:00:43,838
+He says Broadcom is backstopping around sixty billion
+
+23
+00:00:43,850 --> 00:00:46,238
+dollars of debt deals to lease chips to
+
+24
+00:00:46,250 --> 00:00:46,862
+Anthropic.
+
+25
+00:00:47,275 --> 00:00:47,700
+Jensen,
+
+26
+00:00:48,138 --> 00:00:48,700
+in his view,
+
+27
+00:00:49,125 --> 00:00:50,200
+would never have done that.
+
+28
+00:00:50,638 --> 00:00:52,100
+He points to Perplexity too,
+
+29
+00:00:52,375 --> 00:00:53,912
+the AI search startup that,
+
+30
+00:00:54,088 --> 00:00:56,762
+he says, is getting around three billion dollars
+
+31
+00:00:56,775 --> 00:00:57,438
+from Nvidia.
+
+32
+00:00:57,862 --> 00:00:58,375
+The reason,
+
+33
+00:00:58,750 --> 00:00:59,363
+in his view,
+
+34
+00:00:59,775 --> 00:01:01,650
+is that Perplexity is one of the few
+
+35
+00:01:01,662 --> 00:01:04,862
+companies that buys meaningful amounts of AI computing
+
+36
+00:01:04,875 --> 00:01:05,262
+power.
+
+37
+00:01:05,688 --> 00:01:07,050
+Then there are the big announcements.
+
+38
+00:01:07,462 --> 00:01:10,225
+Zitron says the Wall Street Journal has now reported
+
+39
+00:01:10,238 --> 00:01:12,975
+that the investment firms behind a widely covered
+
+40
+00:01:12,988 --> 00:01:16,800
+half-trillion dollar AI infrastructure fund aren't committed to
+
+41
+00:01:16,812 --> 00:01:17,988
+raising any money,
+
+42
+00:01:18,312 --> 00:01:19,788
+and that the figure isn't meaningful.
+
+43
+00:01:20,225 --> 00:01:23,125
+He also recalls Nvidia's hundred billion dollar plan
+
+44
+00:01:23,138 --> 00:01:24,112
+with OpenAI,
+
+45
+00:01:24,538 --> 00:01:25,612
+which, he says,
+
+46
+00:01:25,900 --> 00:01:28,400
+Jensen later described as never a commitment.
+
+47
+00:01:28,825 --> 00:01:29,488
+His conclusion:
+
+48
+00:01:29,875 --> 00:01:32,788
+the industry ran on Jensen's word and Nvidia's
+
+49
+00:01:32,800 --> 00:01:33,538
+balance sheet.
+
+50
+00:01:33,950 --> 00:01:36,025
+He even points to reports that Jensen had
+
+51
+00:01:36,038 --> 00:01:38,725
+told customers to start getting prepayments from their
+
+52
+00:01:38,738 --> 00:01:39,562
+own customers.
+
+53
+00:01:39,975 --> 00:01:40,488
+To Zitron,
+
+54
+00:01:40,850 --> 00:01:42,387
+that sounds like a warning that the money
+
+55
+00:01:42,400 --> 00:01:43,175
+was running out.
+
+56
+00:01:43,588 --> 00:01:45,388
+If this video is helping you follow the
+
+57
+00:01:45,500 --> 00:01:46,612
+AI money story,
+
+58
+00:01:46,900 --> 00:01:49,100
+subscribing is how you'll catch the next case
+
+59
+00:01:49,112 --> 00:01:49,500
+file.
+
+60
+00:01:49,912 --> 00:01:51,250
+Because without that backstop,
+
+61
+00:01:51,538 --> 00:01:53,337
+some companies are suddenly exposed.

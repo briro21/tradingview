@@ -346,11 +346,12 @@ function dossierBg(ctx, t, i) {
   ctx.fillStyle = 'rgba(80,60,30,0.06)'; ctx.fillRect(W / 2 - 2, 0, 4, H);
   // HUD: case number + exhibit chip top-left, REC + date top-right
   ctx.save(); ctx.font = font(30, 800, 'Mono'); ctx.textAlign = 'left'; ctx.fillStyle = D.ink;
-  ctx.fillText('CASE FILE No. 10', 64, 76);
+  ctx.fillText(`CASE FILE No. ${M.CFG.case || ''}`, 64, 76);
   const n = PARTNO(i);
   if (n) { const tx = `EXHIBIT ${n}`; const w = ctx.measureText(tx).width; rrect(ctx, 56, 92, w + 32, 46, 10); ctx.fillStyle = D.ink; ctx.fill(); ctx.fillStyle = D.yellow; ctx.fillText(tx, 72, 126); }
-  ctx.textAlign = 'right'; ctx.fillStyle = D.ink; ctx.fillText('NOV 2026', W - 64, 76);
-  if (Math.floor(t * 2) % 2 === 0) { ctx.fillStyle = D.red; ctx.beginPath(); ctx.arc(W - 64 - ctx.measureText('NOV 2026').width - 26, 66, 10, 0, M.TAU); ctx.fill(); }
+  const DATE = (M.CFG.date || '').toUpperCase();
+  ctx.textAlign = 'right'; ctx.fillStyle = D.ink; ctx.fillText(DATE, W - 64, 76);
+  if (Math.floor(t * 2) % 2 === 0) { ctx.fillStyle = D.red; ctx.beginPath(); ctx.arc(W - 64 - ctx.measureText(DATE).width - 26, 66, 10, 0, M.TAU); ctx.fill(); }
   ctx.restore();
 }
 
