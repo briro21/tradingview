@@ -51,6 +51,10 @@ the transcript.
   must be >= 10:00**; if TTS comes out short, add transcript-backed lines, never filler.
 - `S00` hook 70-85 words: most shocking concrete fact, guest + claim, an OPEN LOOP that S06 pays off.
 - `S01`-`S06`: "Part n. Title." then ~250-290 words; each ends on a line pulling into the next.
+- Retention writing: every number gets a comparison the viewer already knows ("$600B a year,
+  nearly twice Microsoft"); one image per part ("a rocket running out of fuel"); a mid-part
+  re-hook question every ~60 s; vary attribution (not "Zitron says" every line); the subscribe
+  ask sits mid-video (end of S04), framed as a benefit.
 - `S06` ends exactly: "This was [length] in ten minutes. The link to the full episode is in the
   description. And if you want more of the biggest conversations explained like this, subscribe."
 - Every opinion/number/forecast attributed ("Cuban says…"). Include the host's strongest pushback.
@@ -74,8 +78,18 @@ Long runs: put them in the background (the output file stays empty until the scr
 Beat DSL (`src/board/dsl.ts`): `T` display text, `H` hand/UI text, `I(icon,x,y,s)`, `N` counter,
 `U/S/X/O/A` underline/strike/cross/circle/arrow, `P(src,x,y,w,h)` photo. Panel 1600x900.
 Typical beat: `I(icon, 400, 430, 2)` left, `T(...)` at x=1100 right, `H(...)` lines below.
+**Rotate scene kinds — never two of the same look in a row, and never more than ~40% claim cards.**
+Rich scenes (`src/board/charts.ts`, after Lemo-Opuscar styles; drawn only by the motion engine):
+`BARS(title, rows, {note, noteAt})` paper bar chart, `LINE` points over time, `SHEET(title, rows,
+{formula})` spreadsheet with cells filling (row `color`: red/amber/lime/blue), `FLOW(center, rows,
+{amount})` money flowing into a centre or `{dir:"loop"}` a cycle, `TIMELINE` dated stops.
+Each row `{label, value?, text?, at?, hi?}` lands on its own `at` word (must be inside the beat);
+`hi` = the red record with a pencil ring. Use them for every comparison, trend, money flow,
+deadline. Other kinds: `N` counter for one big number, `P` photo + quote, list beats.
+Keep a shot <= ~22 s: split long ones on a natural sentence.
 - `at`: 3-6 exact narration words where the beat starts; item `at` for staggered reveals.
-- First beat of S00 `drawn: true` with the guest photo = thumbnail A (frame 0 = thumbnail).
+- First beat of S00 `drawn: true` with the guest photo + the hook number. Thumbnail A is a separate
+  `V3EpNA` still (a film frame carries burned captions).
 - Avoid glyphs the fonts lack: no `≈ ≠`; `→` is drawn by the engine; `AIs` becomes "AIS" in caps.
 - New icons go at the end of `ICONS` in `src/board/icons.ts` (100x100 box, `fill: red` = accent).
 - Validate (both must report 0):

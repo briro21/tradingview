@@ -1,15 +1,15 @@
 Part one. The debut.
 
-Anthropic, the maker of Claude, is now a public company. Its shares listed at eighty-three dollars. As Zitron recorded his latest monologue, they were trading higher, but struggling to stay above one hundred. His verdict: definitely not the massive return people were expecting.
+So how did the biggest AI listing of the year actually go? Anthropic, the maker of Claude, listed at eighty-three dollars a share. As Zitron recorded his latest monologue, it was trading higher, but struggling to stay above one hundred. His verdict: definitely not the massive return people were expecting.
 
-He is careful to add that the price of a new stock in its first days says almost nothing about the company. It's the psychology of the market. So he looks at the business instead.
+He adds a fair warning. A new stock's first days say almost nothing about the business. So let's look at the business.
 
-Growth first. Citing data from the spending platform Ramp, Zitron says Anthropic's revenue growth this quarter is trending toward fifteen to twenty-five percent, down from forty-seven percent the quarter before. Even allowing for seasonal swings, he argues, this is no longer a company in rapid growth.
+First, growth. Using data from the spending platform Ramp, he says Anthropic's revenue growth this quarter is trending toward fifteen to twenty-five percent. A quarter ago, it was forty-seven. A few quarters before that, around one hundred fifty. That's not a rocket anymore. That's a rocket running out of fuel.
 
-Then the bills. Anthropic has eight hundred ninety-five billion dollars of commitments, mostly for computing power that hasn't started yet. Four hundred thirty-five billion of that, he says, can't be cancelled.
+Now the bills. Anthropic has signed up for eight hundred ninety-five billion dollars of commitments, mostly for computing power that hasn't even started yet. And four hundred thirty-five billion of that, he says, can't be cancelled.
 
-He quotes a calculation from Robert Armstrong at the Financial Times: to earn a twenty percent return on all that invested capital, Anthropic would need about six hundred billion dollars of revenue a year by twenty thirty. For context, Microsoft, with monopolies across several kinds of software, made about three hundred thirty-one billion in its last fiscal year.
+But here's the number that really matters. The Financial Times' Robert Armstrong calculated that to earn a decent return on all of that, Anthropic would need about six hundred billion dollars of revenue a year by twenty thirty. Microsoft, with monopolies across half of office software, made about three hundred thirty-one billion last year. Anthropic would need nearly twice that.
 
-To be fair, Anthropic now has a huge cushion. Thanks to the IPO, Zitron puts its cash at over two hundred billion dollars. But he says big prepayments on its computing contracts are coming, and he's heard that anything less than twenty-one billion dollars of revenue this quarter would be a problem.
+To be fair, it has a cushion. Zitron puts its cash at over two hundred billion dollars after the IPO. But big prepayments on those computing contracts are coming, and he says anything under twenty-one billion dollars of revenue this quarter would be a problem. Even fifteen percent growth, in his math, wouldn't be enough.
 
-So who was buying, and why?
+Which raises the obvious question. Who was buying these shares, and why?

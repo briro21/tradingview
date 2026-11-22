@@ -1,13 +1,13 @@
 Part six. Who pays?
 
-Start with gamers. Steve doesn't expect hardware prices to get much better any time soon, and he doesn't see a flood of cheap second-hand parts coming, because these chips and long-term contracts were never built for ordinary computers.
+Start with gamers. Steve doesn't expect graphics card prices to fall any time soon. And don't wait for a flood of cheap used parts, he says, because these data center chips were never built for ordinary computers.
 
-Then communities. Steve describes a data center his team visited for a documentary. It received seventy-seven million dollars in tax breaks, in a relatively poor area, and has fewer than twenty employees. Local hires, he says, mostly work in security, landscaping and cleaning. Zitron adds that once construction ends, many of these sites need only around fifty or sixty people. And Steve mentions the planned West Virginia site, which he says may clear one of the few remaining chestnut-producing forests in the country. The fallout, he says, lands mostly on the people it always lands on. Not the billionaires.
+Then towns. Steve describes a data center his team visited for a documentary. Seventy-seven million dollars in tax breaks, in a relatively poor area. Fewer than twenty employees. Local hires, he says, mostly work in security, landscaping and cleaning. Zitron adds that once construction ends, many of these sites need only fifty or sixty people. And the planned West Virginia site, Steve says, may clear one of the few remaining chestnut-producing forests in the country. The fallout, he says, lands on the people it always lands on. Not the billionaires.
 
-And the economy. Zitron argues that the idea that buying more chips grows the economy has been oversold. He says an economist he spoke with agreed that the way official statistics adjust software prices may have overstated software's contribution to growth since twenty twenty-two. That is his argument, not a settled finding.
+Then the economy. Zitron argues that the old industry slogan, that buying more chips grows the economy, has been oversold. As Steve recalls it, the slogan was simply: GPUs equal GDP. He says an economist he spoke with agreed that the way official statistics adjust software prices may have overstated software's contribution to growth since twenty twenty-two. That's his argument, not a settled finding.
 
-So what should you watch? Four things. Whether Nvidia files its quarterly report by December fourth. Whether Anthropic's next quarter clears the twenty-one billion dollar bar Zitron mentions. Whether OpenAI can raise money early next year. And whether any of the neoclouds runs out of road.
+So here's your watch list. Does Nvidia file its quarterly report by December fourth? Does Anthropic clear the twenty-one billion dollar bar? Can OpenAI raise money early next year? And does a neocloud run out of road?
 
-This is Zitron's analysis, not financial advice. Nvidia still posted record numbers, and Anthropic's shares are above their listing price. Zitron's view is that those numbers depend on a confidence game, and that the person who ran it is gone.
+To be fair to the other side: Nvidia still posted record numbers, and Anthropic's shares are above their listing price. Zitron's view is that those numbers rest on a confidence game, and the man who ran it is gone. This is his analysis, not financial advice.
 
-This was an hour and a half in ten minutes. The link to the full episodes is in the description. And if you want more of the biggest conversations explained like this, subscribe.
+This was an hour and a half in ten minutes. The links to the full episodes are in the description. And if you want more of the biggest conversations explained like this, subscribe.

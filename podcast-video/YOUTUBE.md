@@ -374,7 +374,7 @@ This is an independent animated summary and commentary. All credit for the origi
 CHAPTERS
 0:00 AI just dropped 700 math results
 0:27 Part 1: The night math changed
-2:01 Part 2: What AI actually solved
+2:04 Part 2: What AI actually solved
 4:01 Part 3: Is AI really creative?
 5:33 Part 4: Why mathematicians are mourning
 7:07 Part 5: What AI can't take from us
@@ -608,7 +608,7 @@ CHAPTERS
 0:00 OpenAI lost $20.9 billion
 0:29 Part 1: A trillion dollars, for what?
 2:12 Part 2: The subsidy ($200 vs $14,000)
-3:51 Part 3: Adoption, or pressure?
+3:45 Part 3: Adoption, or pressure?
 5:38 Part 4: The myths
 7:20 Part 5: 2027
 8:57 Part 6: What would prove him wrong?
@@ -887,7 +887,7 @@ Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?
 Anthropic Went Public. Ed Zitron Says the Math Doesn't Work.
 
 === THUMBNAILS ===
-A = first frame (dossier: "THE LAST MONEY / OUT THE DOOR") -> out/ep11-thumbnail-A.png
+A = "$26B / THE LAST MONEY OUT THE DOOR" (Ep11ThumbA) -> out/ep11-thumbnail-A.png
 B = "WHO PAYS NOW?" -> out/ep11-thumbnail-B.png
 
 === DESCRIPTION (copy-paste) ===
@@ -903,11 +903,11 @@ This is an independent animated summary and commentary. It presents Ed Zitron's 
 CHAPTERS
 0:00 The last money out the door
 0:22 Part 1: The debut
-2:01 Part 2: The last money out the door
-3:51 Part 3: The missing filing
-5:41 Part 4: Nobody can replace him
-7:35 Part 5: The death watch
-9:07 Part 6: Who pays?
+2:04 Part 2: The last money out the door
+3:45 Part 3: The missing filing
+5:36 Part 4: Nobody can replace him
+7:31 Part 5: The death watch
+8:55 Part 6: Who pays?
 
 Previously:
 ▶ Ed Zitron: The AI Bubble Was One Man. Now He's Gone. [link]

@@ -67,6 +67,8 @@ for sid in order:
         items = []
         for it in b["items"]:
             it = dict(it)
+            if "rows" in it:
+                it["rows"] = [dict(r) for r in it["rows"]]
             if "text" in it:
                 it["text"] = fix(it["text"])
             for kk in ("prefix", "suffix"):
@@ -82,6 +84,22 @@ for sid in order:
                 t = cursor
             cursor = (t if t >= 0 else cursor) + (0.55 if it["k"] in ("icon", "image") else 0.4)
             it["t"] = round(t, 3)
+            # rich scenes (bars/line/sheet/flow/timeline): every row lands on its own word
+            for key in ("rows",):
+                for r in it.get(key, []):
+                    r = r
+                    if r.get("at"):
+                        j = find(words, r["at"], w0)
+                        assert w0 <= j < w1, (sid, b["at"], "row", r["at"])
+                        r["rt"] = round(off + words[j][1] - 0.06, 3)
+                    else:
+                        r["rt"] = it["t"]
+            if it.get("rows"):   # a rich scene starts with its first row, never after it
+                it["t"] = min([it["t"]] + [r["rt"] for r in it["rows"]])
+            if it.get("noteAt"):
+                j = find(words, it["noteAt"], w0)
+                assert w0 <= j < w1, (sid, b["at"], "note", it["noteAt"])
+                it["nt"] = round(off + words[j][1] - 0.06, 3)
             if it["k"] == "icon":
                 used.add(it["name"])
             items.append(it)

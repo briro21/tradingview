@@ -7,197 +7,209 @@ Part one.
 The debut.
 
 3
-00:00:01,788 --> 00:00:03,612
-Anthropic, the maker of Claude,
+00:00:01,788 --> 00:00:03,625
+So how did the biggest AI listing of
 
 4
-00:00:04,012 --> 00:00:05,200
-is now a public company.
+00:00:03,638 --> 00:00:04,688
+the year actually go?
 
 5
-00:00:05,612 --> 00:00:07,837
-Its shares listed at eighty-three dollars.
+00:00:05,100 --> 00:00:06,950
+Anthropic, the maker of Claude,
 
 6
-00:00:08,250 --> 00:00:10,425
-As Zitron recorded his latest monologue,
+00:00:07,338 --> 00:00:09,225
+listed at eighty-three dollars a share.
 
 7
-00:00:10,688 --> 00:00:11,700
-they were trading higher,
+00:00:09,638 --> 00:00:11,850
+As Zitron recorded his latest monologue,
 
 8
-00:00:11,988 --> 00:00:13,900
-but struggling to stay above one hundred.
+00:00:12,088 --> 00:00:13,062
+it was trading higher,
 
 9
-00:00:14,325 --> 00:00:17,238
-His verdict: definitely not the massive return people
+00:00:13,350 --> 00:00:15,300
+but struggling to stay above one hundred.
 
 10
-00:00:17,250 --> 00:00:17,925
-were expecting.
+00:00:15,725 --> 00:00:18,638
+His verdict: definitely not the massive return people
 
 11
-00:00:18,362 --> 00:00:20,000
-He is careful to add that the price
+00:00:18,650 --> 00:00:19,325
+were expecting.
 
 12
-00:00:20,012 --> 00:00:21,762
-of a new stock in its first days
+00:00:19,750 --> 00:00:20,738
+He adds a fair warning.
 
 13
-00:00:21,888 --> 00:00:23,875
-says almost nothing about the company.
+00:00:21,138 --> 00:00:23,425
+A new stock's first days say almost nothing
 
 14
-00:00:24,288 --> 00:00:25,838
-It's the psychology of the market.
+00:00:23,438 --> 00:00:24,312
+about the business.
 
 15
-00:00:26,262 --> 00:00:27,712
-So he looks at the business instead.
+00:00:24,738 --> 00:00:25,850
+So let's look at the business.
 
 16
-00:00:28,125 --> 00:00:28,850
-Growth first.
+00:00:26,312 --> 00:00:27,075
+First, growth.
 
 17
-00:00:29,275 --> 00:00:31,375
-Citing data from the spending platform Ramp,
+00:00:27,488 --> 00:00:29,588
+Using data from the spending platform Ramp,
 
 18
-00:00:31,750 --> 00:00:34,637
-Zitron says Anthropic's revenue growth this quarter is
+00:00:29,862 --> 00:00:32,438
+he says Anthropic's revenue growth this quarter is
 
 19
-00:00:34,650 --> 00:00:37,225
-trending toward fifteen to twenty-five percent,
+00:00:32,450 --> 00:00:35,113
+trending toward fifteen to twenty-five percent.
 
 20
-00:00:37,600 --> 00:00:39,988
-down from forty-seven percent the quarter before.
+00:00:35,525 --> 00:00:36,275
+A quarter ago,
 
 21
-00:00:40,400 --> 00:00:42,300
-Even allowing for seasonal swings,
+00:00:36,525 --> 00:00:37,438
+it was forty-seven.
 
 22
-00:00:42,500 --> 00:00:45,012
-he argues, this is no longer a company
+00:00:37,850 --> 00:00:39,162
+A few quarters before that,
 
 23
-00:00:45,138 --> 00:00:46,062
-in rapid growth.
+00:00:39,525 --> 00:00:40,550
+around one hundred fifty.
 
 24
-00:00:46,488 --> 00:00:47,175
-Then the bills.
+00:00:40,975 --> 00:00:42,150
+That's not a rocket anymore.
 
 25
-00:00:47,588 --> 00:00:50,650
-Anthropic has eight hundred ninety-five billion dollars of
+00:00:42,575 --> 00:00:44,162
+That's a rocket running out of fuel.
 
 26
-00:00:50,662 --> 00:00:53,925
-commitments, mostly for computing power that hasn't started
+00:00:44,575 --> 00:00:45,275
+Now the bills.
 
 27
-00:00:53,938 --> 00:00:54,250
-yet.
+00:00:45,688 --> 00:00:48,425
+Anthropic has signed up for eight hundred ninety-five
 
 28
-00:00:54,700 --> 00:00:56,463
-Four hundred thirty-five billion of that,
+00:00:48,488 --> 00:00:49,988
+billion dollars of commitments,
 
 29
-00:00:56,850 --> 00:00:58,525
-he says, can't be cancelled.
+00:00:50,300 --> 00:00:52,888
+mostly for computing power that hasn't even started
 
 30
-00:00:58,962 --> 00:01:01,412
-He quotes a calculation from Robert Armstrong at
+00:00:52,900 --> 00:00:53,200
+yet.
 
 31
-00:01:01,425 --> 00:01:02,538
-the Financial Times:
+00:00:53,625 --> 00:00:55,600
+And four hundred thirty-five billion of that,
 
 32
-00:01:02,788 --> 00:01:04,888
-to earn a twenty percent return on all
+00:00:55,975 --> 00:00:57,625
+he says, can't be cancelled.
 
 33
-00:01:04,900 --> 00:01:06,012
-that invested capital,
+00:00:58,050 --> 00:00:59,862
+But here's the number that really matters.
 
 34
-00:01:06,375 --> 00:01:09,062
-Anthropic would need about six hundred billion dollars
+00:01:00,288 --> 00:01:02,962
+The Financial Times' Robert Armstrong calculated that to
 
 35
-00:01:09,075 --> 00:01:10,988
-of revenue a year by twenty thirty.
+00:01:02,975 --> 00:01:05,212
+earn a decent return on all of that,
 
 36
-00:01:11,450 --> 00:01:13,012
-For context, Microsoft,
+00:01:05,600 --> 00:01:08,325
+Anthropic would need about six hundred billion dollars
 
 37
-00:01:13,175 --> 00:01:15,762
-with monopolies across several kinds of software,
+00:01:08,338 --> 00:01:10,275
+of revenue a year by twenty thirty.
 
 38
-00:01:16,125 --> 00:01:18,638
-made about three hundred thirty-one billion in its
+00:01:10,700 --> 00:01:13,912
+Microsoft, with monopolies across half of office software,
 
 39
-00:01:18,650 --> 00:01:19,750
-last fiscal year.
+00:01:14,275 --> 00:01:17,012
+made about three hundred thirty-one billion last year.
 
 40
-00:01:20,162 --> 00:01:20,800
-To be fair,
+00:01:17,425 --> 00:01:19,388
+Anthropic would need nearly twice that.
 
 41
-00:01:21,188 --> 00:01:23,275
-Anthropic now has a huge cushion.
+00:01:19,812 --> 00:01:20,462
+To be fair,
 
 42
-00:01:23,725 --> 00:01:24,738
-Thanks to the IPO,
+00:01:20,762 --> 00:01:21,512
+it has a cushion.
 
 43
-00:01:25,112 --> 00:01:27,450
+00:01:21,925 --> 00:01:24,112
 Zitron puts its cash at over two hundred
 
 44
-00:01:27,462 --> 00:01:28,350
-billion dollars.
+00:01:24,125 --> 00:01:25,875
+billion dollars after the IPO.
 
 45
-00:01:28,775 --> 00:01:31,137
-But he says big prepayments on its computing
+00:01:26,312 --> 00:01:29,087
+But big prepayments on those computing contracts are
 
 46
-00:01:31,150 --> 00:01:32,262
-contracts are coming,
+00:01:29,100 --> 00:01:29,475
+coming,
 
 47
-00:01:32,650 --> 00:01:34,850
-and he's heard that anything less than twenty-one
+00:01:29,875 --> 00:01:32,425
+and he says anything under twenty-one billion dollars
 
 48
-00:01:34,862 --> 00:01:36,862
-billion dollars of revenue this quarter would be
+00:01:32,438 --> 00:01:34,175
+of revenue this quarter would be a problem.
 
 49
-00:01:36,875 --> 00:01:37,400
-a problem.
+00:01:34,588 --> 00:01:36,087
+Even fifteen percent growth,
 
 50
-00:01:37,812 --> 00:01:38,575
-So who was buying,
+00:01:36,362 --> 00:01:37,025
+in his math,
 
 51
-00:01:38,600 --> 00:01:39,025
+00:01:37,238 --> 00:01:38,050
+wouldn't be enough.
+
+52
+00:01:38,475 --> 00:01:39,975
+Which raises the obvious question.
+
+53
+00:01:40,412 --> 00:01:41,538
+Who was buying these shares,
+
+54
+00:01:41,562 --> 00:01:42,012
 and why?

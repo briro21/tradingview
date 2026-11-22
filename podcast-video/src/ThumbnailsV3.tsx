@@ -276,7 +276,19 @@ export const V3Ep10C: React.FC = () => (
   </Bg>
 );
 
-// ---------- Episode 11: Who pays now? (A = frame 0 of the motion film) ----------
+// ---------- Episode 11: Who pays now? ----------
+
+/** A: "$26B / THE LAST MONEY OUT THE DOOR". */
+export const V3Ep11A: React.FC = () => (
+  <Bg dark>
+    <Guest n={11} height={700} left={10} src="thumbs/photo_zitron.png" />
+    <div style={{ position: "absolute", right: 60, top: 110, textAlign: "right" }}>
+      <Big size={200} color={yellow}>$26B</Big>
+      <Big size={100} color="#FFFFFF" style={{ marginTop: 6 }}>THE LAST MONEY</Big>
+      <Big size={120} color={red} style={{ marginTop: 4 }}>OUT THE DOOR</Big>
+    </div>
+  </Bg>
+);
 
 /** B: "WHO PAYS NOW?". */
 export const V3Ep11B: React.FC = () => (

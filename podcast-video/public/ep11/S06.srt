@@ -11,233 +11,233 @@ Who pays?
 Start with gamers.
 
 4
-00:00:03,450 --> 00:00:06,100
-Steve doesn't expect hardware prices to get much
+00:00:03,450 --> 00:00:06,212
+Steve doesn't expect graphics card prices to fall
 
 5
-00:00:06,112 --> 00:00:07,438
-better any time soon,
+00:00:06,225 --> 00:00:07,025
+any time soon.
 
 6
-00:00:07,812 --> 00:00:09,375
-and he doesn't see a flood of cheap
+00:00:07,438 --> 00:00:08,987
+And don't wait for a flood of cheap
 
 7
-00:00:09,388 --> 00:00:10,575
-second-hand parts coming,
+00:00:09,000 --> 00:00:10,525
+used parts, he says,
 
 8
-00:00:10,862 --> 00:00:13,550
-because these chips and long-term contracts were never
+00:00:10,788 --> 00:00:12,975
+because these data center chips were never built
 
 9
-00:00:13,562 --> 00:00:15,087
-built for ordinary computers.
+00:00:12,988 --> 00:00:14,262
+for ordinary computers.
 
 10
-00:00:15,512 --> 00:00:16,388
-Then communities.
+00:00:14,688 --> 00:00:15,338
+Then towns.
 
 11
-00:00:16,812 --> 00:00:19,400
+00:00:15,762 --> 00:00:18,350
 Steve describes a data center his team visited
 
 12
-00:00:19,412 --> 00:00:20,338
+00:00:18,362 --> 00:00:19,288
 for a documentary.
 
 13
-00:00:20,750 --> 00:00:23,800
-It received seventy-seven million dollars in tax breaks,
+00:00:19,712 --> 00:00:22,162
+Seventy-seven million dollars in tax breaks,
 
 14
-00:00:24,050 --> 00:00:25,650
-in a relatively poor area,
+00:00:22,438 --> 00:00:24,062
+in a relatively poor area.
 
 15
-00:00:26,038 --> 00:00:27,875
-and has fewer than twenty employees.
+00:00:24,512 --> 00:00:25,900
+Fewer than twenty employees.
 
 16
-00:00:28,288 --> 00:00:29,850
+00:00:26,312 --> 00:00:27,875
 Local hires, he says,
 
 17
-00:00:30,138 --> 00:00:31,538
+00:00:28,162 --> 00:00:29,562
 mostly work in security,
 
 18
-00:00:31,888 --> 00:00:33,238
+00:00:29,912 --> 00:00:31,263
 landscaping and cleaning.
 
 19
-00:00:33,650 --> 00:00:35,725
+00:00:31,675 --> 00:00:33,750
 Zitron adds that once construction ends,
 
 20
-00:00:36,100 --> 00:00:38,550
-many of these sites need only around fifty
+00:00:34,050 --> 00:00:36,425
+many of these sites need only fifty or
 
 21
-00:00:38,650 --> 00:00:39,550
-or sixty people.
+00:00:36,438 --> 00:00:37,200
+sixty people.
 
 22
-00:00:39,962 --> 00:00:42,762
-And Steve mentions the planned West Virginia site,
+00:00:37,612 --> 00:00:39,300
+And the planned West Virginia site,
 
 23
-00:00:43,125 --> 00:00:44,550
-which he says may clear one of the
+00:00:39,600 --> 00:00:41,838
+Steve says, may clear one of the few
 
 24
-00:00:44,562 --> 00:00:47,562
-few remaining chestnut-producing forests in the country.
+00:00:41,850 --> 00:00:44,525
+remaining chestnut-producing forests in the country.
 
 25
-00:00:47,988 --> 00:00:48,550
-The fallout,
+00:00:44,950 --> 00:00:46,438
+The fallout, he says,
 
 26
-00:00:48,912 --> 00:00:51,162
-he says, lands mostly on the people it
+00:00:46,800 --> 00:00:48,788
+lands on the people it always lands on.
 
 27
-00:00:51,188 --> 00:00:52,138
-always lands on.
-
-28
-00:00:52,550 --> 00:00:53,550
+00:00:49,200 --> 00:00:50,200
 Not the billionaires.
 
+28
+00:00:50,625 --> 00:00:51,388
+Then the economy.
+
 29
-00:00:53,962 --> 00:00:54,725
-And the economy.
+00:00:51,800 --> 00:00:54,275
+Zitron argues that the old industry slogan,
 
 30
-00:00:55,138 --> 00:00:57,500
-Zitron argues that the idea that buying more
+00:00:54,588 --> 00:00:56,862
+that buying more chips grows the economy,
 
 31
-00:00:57,512 --> 00:01:00,050
-chips grows the economy has been oversold.
+00:00:57,212 --> 00:00:58,200
+has been oversold.
 
 32
-00:01:00,475 --> 00:01:02,612
-He says an economist he spoke with agreed
+00:00:58,612 --> 00:00:59,575
+As Steve recalls it,
 
 33
-00:01:02,625 --> 00:01:05,663
-that the way official statistics adjust software prices
+00:00:59,850 --> 00:01:00,975
+the slogan was simply:
 
 34
-00:01:05,838 --> 00:01:09,275
-may have overstated software's contribution to growth since
+00:01:01,412 --> 00:01:03,188
+GPUs equal GDP.
 
 35
-00:01:09,288 --> 00:01:10,025
-twenty twenty-two.
+00:01:03,612 --> 00:01:05,750
+He says an economist he spoke with agreed
 
 36
-00:01:10,450 --> 00:01:11,325
-That is his argument,
+00:01:05,762 --> 00:01:08,800
+that the way official statistics adjust software prices
 
 37
-00:01:11,625 --> 00:01:12,600
-not a settled finding.
+00:01:08,975 --> 00:01:12,413
+may have overstated software's contribution to growth since
 
 38
-00:01:13,012 --> 00:01:13,975
-So what should you watch?
+00:01:12,425 --> 00:01:13,162
+twenty twenty-two.
 
 39
-00:01:14,412 --> 00:01:14,938
-Four things.
+00:01:13,588 --> 00:01:14,400
+That's his argument,
 
 40
-00:01:15,350 --> 00:01:18,225
-Whether Nvidia files its quarterly report by December
+00:01:14,688 --> 00:01:15,675
+not a settled finding.
 
 41
-00:01:18,238 --> 00:01:18,700
-fourth.
+00:01:16,100 --> 00:01:17,225
+So here's your watch list.
 
 42
-00:01:19,112 --> 00:01:22,262
-Whether Anthropic's next quarter clears the twenty-one billion
+00:01:17,638 --> 00:01:20,338
+Does Nvidia file its quarterly report by December
 
 43
-00:01:22,275 --> 00:01:24,138
-dollar bar Zitron mentions.
+00:01:20,350 --> 00:01:20,775
+fourth?
 
 44
-00:01:24,562 --> 00:01:27,175
-Whether OpenAI can raise money early next year.
+00:01:21,188 --> 00:01:23,875
+Does Anthropic clear the twenty-one billion dollar bar?
 
 45
-00:01:27,588 --> 00:01:29,538
-And whether any of the neoclouds runs out
+00:01:24,288 --> 00:01:26,400
+Can OpenAI raise money early next year?
 
 46
-00:01:29,550 --> 00:01:29,988
-of road.
+00:01:26,812 --> 00:01:28,475
+And does a neocloud run out of road?
 
 47
-00:01:30,400 --> 00:01:31,938
-This is Zitron's analysis,
+00:01:28,900 --> 00:01:30,238
+To be fair to the other side:
 
 48
-00:01:32,150 --> 00:01:33,438
-not financial advice.
-
-49
-00:01:33,850 --> 00:01:36,075
+00:01:30,650 --> 00:01:32,812
 Nvidia still posted record numbers,
 
-50
-00:01:36,312 --> 00:01:38,975
+49
+00:01:33,050 --> 00:01:35,650
 and Anthropic's shares are above their listing price.
 
-51
-00:01:39,388 --> 00:01:41,788
-Zitron's view is that those numbers depend on
+50
+00:01:36,062 --> 00:01:38,425
+Zitron's view is that those numbers rest on
 
-52
-00:01:41,800 --> 00:01:42,675
+51
+00:01:38,438 --> 00:01:39,387
 a confidence game,
 
+52
+00:01:39,688 --> 00:01:41,100
+and the man who ran it is gone.
+
 53
-00:01:43,075 --> 00:01:44,412
-and that the person who ran it is
+00:01:41,512 --> 00:01:42,700
+This is his analysis,
 
 54
-00:01:44,425 --> 00:01:44,738
-gone.
+00:01:42,900 --> 00:01:44,150
+not financial advice.
 
 55
-00:01:45,162 --> 00:01:46,512
+00:01:44,575 --> 00:01:45,925
 This was an hour and a half in
 
 56
-00:01:46,525 --> 00:01:47,225
+00:01:45,938 --> 00:01:46,637
 ten minutes.
 
 57
-00:01:47,650 --> 00:01:49,638
-The link to the full episodes is in
+00:01:47,062 --> 00:01:48,912
+The links to the full episodes are in
 
 58
-00:01:49,650 --> 00:01:50,300
+00:01:48,925 --> 00:01:49,600
 the description.
 
 59
-00:01:50,712 --> 00:01:52,088
+00:01:50,012 --> 00:01:51,388
 And if you want more of the biggest
 
 60
-00:01:52,100 --> 00:01:53,875
+00:01:51,400 --> 00:01:53,175
 conversations explained like this,
 
 61
-00:01:54,100 --> 00:01:54,700
+00:01:53,400 --> 00:01:54,000
 subscribe.

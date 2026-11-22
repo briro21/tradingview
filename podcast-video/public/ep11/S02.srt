@@ -7,217 +7,217 @@ Part two.
 The last money out the door.
 
 3
-00:00:02,550 --> 00:00:04,750
-Here is the detail Zitron keeps coming back
+00:00:02,525 --> 00:00:04,138
+Look at who wrote the biggest checks.
 
 4
-00:00:04,762 --> 00:00:04,988
-to.
+00:00:04,550 --> 00:00:05,000
+Nvidia.
 
 5
-00:00:05,400 --> 00:00:07,625
-Nvidia, Microsoft, Google,
+00:00:05,412 --> 00:00:06,062
+Microsoft.
 
 6
-00:00:07,875 --> 00:00:11,288
-AMD, TSMC, Broadcom and Micron,
+00:00:06,475 --> 00:00:06,825
+Google.
 
 7
-00:00:11,638 --> 00:00:15,212
-together, put about twenty-six billion dollars into Anthropic's
+00:00:07,238 --> 00:00:07,750
+AMD.
 
 8
-00:00:15,225 --> 00:00:15,725
-IPO.
+00:00:08,162 --> 00:00:08,875
+TSMC.
 
 9
-00:00:16,150 --> 00:00:17,713
-These are Anthropic's suppliers.
+00:00:09,300 --> 00:00:09,738
+Broadcom.
 
 10
-00:00:18,125 --> 00:00:18,725
-In his view,
+00:00:10,150 --> 00:00:10,625
+Micron.
 
 11
-00:00:19,125 --> 00:00:21,112
-they were pumping up a customer with cash,
+00:00:11,038 --> 00:00:14,500
+Together, about twenty-six billion dollars into the IPO.
 
 12
-00:00:21,350 --> 00:00:22,650
-so that they keep getting paid,
+00:00:14,912 --> 00:00:15,500
+Notice something?
 
 13
-00:00:22,975 --> 00:00:24,925
-and so the venture investors could cash out.
+00:00:15,925 --> 00:00:17,488
+These are Anthropic's suppliers.
 
 14
-00:00:25,350 --> 00:00:26,650
-He calls it the last money out the
+00:00:17,900 --> 00:00:18,812
+In Zitron's view,
 
 15
-00:00:26,662 --> 00:00:27,013
-door.
+00:00:19,200 --> 00:00:20,550
+they were topping up a customer,
 
 16
-00:00:27,438 --> 00:00:28,938
-That matters, he says,
+00:00:20,925 --> 00:00:22,575
+so that customer can keep paying them,
 
 17
-00:00:29,175 --> 00:00:30,525
-because of who comes next.
+00:00:22,962 --> 00:00:24,800
+and so early investors could cash out.
 
 18
-00:00:30,938 --> 00:00:33,825
-OpenAI just raised eleven billion dollars at a
+00:00:25,225 --> 00:00:26,700
+That's why he calls it the last money
 
 19
-00:00:33,838 --> 00:00:36,725
-one point two five trillion dollar valuation,
+00:00:26,712 --> 00:00:27,312
+out the door.
 
 20
-00:00:37,100 --> 00:00:39,662
-after reportedly hoping for thirty billion at one
+00:00:27,725 --> 00:00:29,888
+And retail investors who bought near the top,
 
 21
-00:00:39,675 --> 00:00:40,575
-point four trillion.
+00:00:30,250 --> 00:00:32,975
+he notes, faced almost immediate losses.
 
 22
-00:00:40,988 --> 00:00:43,462
-Zitron also finds it odd that one Bloomberg
+00:00:33,412 --> 00:00:35,387
+Here's why that matters for everyone else.
 
 23
-00:00:43,475 --> 00:00:46,050
-report stressed the money had actually been wired
+00:00:35,812 --> 00:00:37,900
+The next big AI company in line is
 
 24
-00:00:46,125 --> 00:00:46,812
-and received.
+00:00:37,912 --> 00:00:38,588
+OpenAI.
 
 25
-00:00:47,225 --> 00:00:49,300
-In years of reading funding announcements,
+00:00:39,000 --> 00:00:41,012
+It just raised eleven billion dollars,
 
 26
-00:00:49,475 --> 00:00:50,050
-he says,
+00:00:41,212 --> 00:00:43,438
+at a one point two five trillion dollar
 
 27
-00:00:50,438 --> 00:00:52,150
-he had never seen a reporter feel the
+00:00:43,450 --> 00:00:44,113
+valuation.
 
 28
-00:00:52,162 --> 00:00:53,175
-need to say that.
+00:00:44,525 --> 00:00:46,362
+Reports say it wanted thirty billion,
 
 29
-00:00:53,588 --> 00:00:55,312
-And the numbers Zitron cites are rough.
+00:00:46,638 --> 00:00:47,875
+at one point four trillion.
 
 30
-00:00:55,762 --> 00:00:58,462
-He says OpenAI lost ten point nine billion
+00:00:48,288 --> 00:00:50,838
+Zitron even found it odd that one Bloomberg
 
 31
-00:00:58,475 --> 00:00:59,888
-dollars in its third quarter,
+00:00:50,850 --> 00:00:53,425
+report stressed the money had actually been wired
 
 32
-00:01:00,250 --> 00:01:02,175
-on about ten billion dollars of revenue.
+00:00:53,500 --> 00:00:54,200
+and received.
 
 33
-00:01:02,588 --> 00:01:04,438
-Its margins, he notes dryly,
+00:00:54,612 --> 00:00:56,400
+In years of reading funding news,
 
 34
-00:01:04,688 --> 00:01:05,400
-are improving:
+00:00:56,775 --> 00:00:58,462
+he says, he'd never seen that.
 
 35
-00:01:05,800 --> 00:01:08,100
-from around minus one hundred fifty percent to
+00:00:58,875 --> 00:01:00,075
+And OpenAI's numbers,
 
 36
-00:01:08,112 --> 00:01:09,912
-around minus one hundred percent.
+00:01:00,275 --> 00:01:01,050
+as he cites them,
 
 37
-00:01:10,325 --> 00:01:11,238
-Its newest model,
+00:01:01,338 --> 00:01:01,900
+are rough.
 
 38
-00:01:11,462 --> 00:01:13,462
-he adds, got a cold reception,
+00:01:02,300 --> 00:01:04,525
+A loss of ten point nine billion dollars
 
 39
-00:01:13,875 --> 00:01:16,612
-even from people who usually cheer every release.
+00:01:04,537 --> 00:01:05,287
+in one quarter,
 
 40
-00:01:17,038 --> 00:01:19,312
-So what is the pitch for OpenAI's next
+00:01:05,662 --> 00:01:07,588
+on about ten billion dollars of revenue.
 
 41
-00:01:19,325 --> 00:01:21,375
-round, which he expects it will need in
+00:01:08,000 --> 00:01:09,938
+Yes, its margins are improving:
 
 42
-00:01:21,388 --> 00:01:23,212
-the first quarter of twenty twenty-seven?
+00:01:10,325 --> 00:01:12,438
+from around minus one hundred fifty percent,
 
 43
-00:01:23,625 --> 00:01:25,888
-Investors would be buying a company with worse
+00:01:12,738 --> 00:01:14,162
+to around minus one hundred.
 
 44
-00:01:26,000 --> 00:01:27,400
-economics than Anthropic,
+00:01:14,588 --> 00:01:16,788
+And its newest model got a cold reception,
 
 45
-00:01:27,700 --> 00:01:28,925
-at a similar valuation.
+00:01:17,188 --> 00:01:18,812
+even from its usual cheerleaders.
 
 46
-00:01:29,338 --> 00:01:30,638
-And its biggest backers,
+00:01:19,238 --> 00:01:22,012
+He expects OpenAI to need more money early
 
 47
-00:01:30,750 --> 00:01:32,938
-he says, put in only a few hundred
+00:01:22,025 --> 00:01:22,588
+next year.
 
 48
-00:01:32,950 --> 00:01:34,275
-million dollars this time,
+00:01:23,012 --> 00:01:24,262
+But its biggest backers,
 
 49
-00:01:34,575 --> 00:01:36,975
-because they are running low on cash themselves.
+00:01:24,362 --> 00:01:26,700
+he says, chipped in only a few hundred
 
 50
-00:01:37,400 --> 00:01:38,412
-His question is simple.
+00:01:26,712 --> 00:01:27,663
+million this time,
 
 51
-00:01:38,825 --> 00:01:42,050
-After Anthropic soaked up so much institutional and
+00:01:27,950 --> 00:01:29,925
+because they're short on cash themselves.
 
 52
-00:01:42,062 --> 00:01:42,812
-retail money,
+00:01:30,338 --> 00:01:31,525
+So his question is blunt.
 
 53
-00:01:43,188 --> 00:01:44,700
-who actually has the money left,
+00:01:31,938 --> 00:01:34,262
+After Anthropic soaked up this much money,
 
 54
-00:01:45,125 --> 00:01:46,550
-even if they wanted to invest?
+00:01:34,625 --> 00:01:36,238
+who's left to fund OpenAI?
 
 55
-00:01:46,962 --> 00:01:48,775
-And the biggest supplier of all has its
+00:01:36,650 --> 00:01:38,613
+And the biggest supplier of all just went
 
 56
-00:01:48,788 --> 00:01:49,337
-own problem.
+00:01:38,625 --> 00:01:40,000
+quiet on something important.

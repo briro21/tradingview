@@ -1,13 +1,13 @@
 Part five. The death watch.
 
-Zitron's sharpest prediction is about the so-called neoclouds. These are companies that raise debt to buy Nvidia chips, using those same chips as collateral, then rent the computing power to a small group of AI customers. Often the same customers Nvidia itself has invested in.
+So who's most exposed? Zitron points at the so-called neoclouds. They borrow money, buy Nvidia chips, use those same chips as collateral, then rent the computing power to a handful of AI companies. Often the very companies Nvidia itself invested in. Debt, chips, collateral, customers, and back to debt.
 
-He has put two of them on what he calls a death watch. The first is Nscale, which, he says, recently told investors it needs to raise more money than expected, and which is still negotiating backing for a forty-five billion dollar data center project for Anthropic in West Virginia. The second is Firmus, an Australian data center company that cut its IPO and then pulled it. And Lambda, another chip renter, is hoping to go public next year, which only works if investors still trust the sector.
+He's put two of them on what he calls a death watch. Nscale, which he says just told investors it needs more money than expected, and is still negotiating backing for a forty-five billion dollar data center for Anthropic in West Virginia. And Firmus, an Australian data center company that cut its IPO, then pulled it. Meanwhile Lambda, another chip renter, hopes to go public next year.
 
-His point is about confidence. Banks lent to these companies, he argues, because they believed Nvidia would step in if anything went wrong. Without that implicit guarantee, a bank asks a simple question: is Nvidia backing this? And if the answer is we're still waiting to hear, the money doesn't come.
+Why does Jensen matter here? Because banks lent to these companies, he argues, believing Nvidia would step in if anything went wrong. Now a bank asks one question: is Nvidia backing this? And if the answer is we're still waiting to hear, the money doesn't come.
 
-It doesn't need all of them to fail, he says. One insolvency could make lenders ask whether the whole sector is just debt stacked on the same chips and the same customers.
+It only takes one, he says. One insolvency, and lenders start asking whether the whole sector is just debt stacked on the same chips and the same customers. Think of a tower where every floor rests on the same beam.
 
-His guest, Steve from the hardware channel Gamers Nexus, adds a fair counterpoint. Blaming everything on one man isn't quite right, he says. They were all part of this together.
+Steve offers a fair counterpoint. Blaming one man isn't quite right, he says. They were all part of this together.
 
-So what does any of this mean for people who never bought a single share?
+So what does all this mean for people who never bought a single share?

@@ -1,17 +1,15 @@
 Part two. The last money out the door.
 
-Here is the detail Zitron keeps coming back to. Nvidia, Microsoft, Google, AMD, TSMC, Broadcom and Micron, together, put about twenty-six billion dollars into Anthropic's IPO.
+Look at who wrote the biggest checks. Nvidia. Microsoft. Google. AMD. TSMC. Broadcom. Micron. Together, about twenty-six billion dollars into the IPO.
 
-These are Anthropic's suppliers. In his view, they were pumping up a customer with cash, so that they keep getting paid, and so the venture investors could cash out. He calls it the last money out the door.
+Notice something? These are Anthropic's suppliers. In Zitron's view, they were topping up a customer, so that customer can keep paying them, and so early investors could cash out. That's why he calls it the last money out the door. And retail investors who bought near the top, he notes, faced almost immediate losses.
 
-That matters, he says, because of who comes next. OpenAI just raised eleven billion dollars at a one point two five trillion dollar valuation, after reportedly hoping for thirty billion at one point four trillion. Zitron also finds it odd that one Bloomberg report stressed the money had actually been wired and received. In years of reading funding announcements, he says, he had never seen a reporter feel the need to say that.
+Here's why that matters for everyone else. The next big AI company in line is OpenAI. It just raised eleven billion dollars, at a one point two five trillion dollar valuation. Reports say it wanted thirty billion, at one point four trillion. Zitron even found it odd that one Bloomberg report stressed the money had actually been wired and received. In years of reading funding news, he says, he'd never seen that.
 
-And the numbers Zitron cites are rough. He says OpenAI lost ten point nine billion dollars in its third quarter, on about ten billion dollars of revenue. Its margins, he notes dryly, are improving: from around minus one hundred fifty percent to around minus one hundred percent.
+And OpenAI's numbers, as he cites them, are rough. A loss of ten point nine billion dollars in one quarter, on about ten billion dollars of revenue. Yes, its margins are improving: from around minus one hundred fifty percent, to around minus one hundred. And its newest model got a cold reception, even from its usual cheerleaders.
 
-Its newest model, he adds, got a cold reception, even from people who usually cheer every release.
+He expects OpenAI to need more money early next year. But its biggest backers, he says, chipped in only a few hundred million this time, because they're short on cash themselves.
 
-So what is the pitch for OpenAI's next round, which he expects it will need in the first quarter of twenty twenty-seven? Investors would be buying a company with worse economics than Anthropic, at a similar valuation. And its biggest backers, he says, put in only a few hundred million dollars this time, because they are running low on cash themselves.
+So his question is blunt. After Anthropic soaked up this much money, who's left to fund OpenAI?
 
-His question is simple. After Anthropic soaked up so much institutional and retail money, who actually has the money left, even if they wanted to invest?
-
-And the biggest supplier of all has its own problem.
+And the biggest supplier of all just went quiet on something important.

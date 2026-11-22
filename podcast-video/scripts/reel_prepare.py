@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ep, title = sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else sys.argv[1]
-reel, tpl = ROOT / f"{ep}-reel", ROOT / "ep10-reel"   # template = newest engine (dossier look)
+reel, tpl = ROOT / f"{ep}-reel", ROOT / "ep11-reel"   # template = newest engine (dossier look + rich scenes)
 (reel / "audio").mkdir(parents=True, exist_ok=True)
 (reel / "assets").mkdir(exist_ok=True)
 if reel != tpl:
