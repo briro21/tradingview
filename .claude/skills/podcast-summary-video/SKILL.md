@@ -194,3 +194,14 @@ a CTA after minute 2 reaches almost nobody. Traffic is search-led; non-Ed topics
   timestamps, PINNED COMMENT (a question + link to the previous related video), hashtags, the
   AI-narration + ElevenLabs line and the source credit unchanged.
 - Shorts: 1 per episode for now (Shorts audience is mostly outside the target market).
+
+### Retention lessons from Ep10's curve (Nov 23)
+Ep10: 100% -> 33% by 0:30, ~25% by 1:40, then a gentle slope to ~12% at 11:05 (the middle holds).
+Average view duration is decided in the first 30-100 s, not the middle.
+- Part 1 continues the hook's claim. No backstory before Part 2 (Ep10's Part 1 opened on 2019
+  history after a "he just resigned" hook and lost another quarter of viewers).
+- The thumbnail's number or claim is spoken AND on screen before 0:30.
+- 0-3 s: the voice starts on the number, no intro.
+- Target: >= 45% at 0:30 (Ep9). Below that, fix the hook, not the middle.
+- High CTR (14%) pulls casual browse viewers who bounce early; pick thumbnails in Test & Compare
+  by watch time, and prefer text-led thumbnails that read as an explainer, not an interview clip.
