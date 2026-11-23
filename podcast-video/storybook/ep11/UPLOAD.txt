@@ -1,0 +1,71 @@
+=== TITLE ===
+Ed Zitron on the Anthropic IPO: "The Last Money Out the Door"
+
+(backup titles)
+Ed Zitron: Big Tech's $26 Billion Was "the Last Money Out the Door"
+Anthropic IPO Explained: Ed Zitron Says Nobody Is Left to Pay
+
+=== THUMBNAIL ===
+Upload C as the main one: out/ep11-thumbnail-C.png  ("$26B / NOBODY LEFT / TO PAY?")
+Test & Compare (Studio > thumbnail > Test & compare): C + A + B
+  A = out/ep11-thumbnail-A.png  ("$26B / THE LAST MONEY OUT THE DOOR")
+  B = out/ep11-thumbnail-B.png  ("WHO PAYS NOW?")
+
+=== DESCRIPTION (copy everything between the lines) ===
+--------------------------------------------------------------------------------
+Ed Zitron breaks down the Anthropic IPO: why he calls the $26 billion that Nvidia, Microsoft, Google and four other suppliers put in "the last money out the door," why Nvidia's quarterly 10-Q still hasn't arrived, and which AI companies he has put on "death watch."
+Recorded Nov 18-20; share prices as of then.
+
+An hour and a half of Better Offline, explained in 11 animated minutes:
+- Anthropic's $895 billion of commitments vs. its slowing growth
+- OpenAI's $11 billion raise and who's left to fund it
+- Nvidia's missing filing and the Singapore revenue that vanished
+- Why AMD and Broadcom can't simply replace Jensen Huang
+- The neoclouds on Zitron's death watch
+- Who pays: gamers, data center towns and the economy (with Steve from Gamers Nexus, who pushes back on blaming one man)
+
+0:00 The last money out the door
+0:21 Part 1: The debut
+2:07 Part 2: The last money out the door
+3:47 Part 3: The missing filing
+5:41 Part 4: Nobody can replace him
+7:29 Part 5: The death watch
+8:56 Part 6: Who pays?
+
+This is an independent animated summary and commentary. It presents Ed Zitron's and Steve Burke's views as they stated them, not as established fact, and is not financial advice. Allegations mentioned are reports, not findings. Narration is AI-generated (voice by ElevenLabs, elevenlabs.io). All credit for the original episodes goes to Better Offline (Ed Zitron, with Steve from Gamers Nexus). Listen to the full episodes:
+▶ Better Offline: Into The Jensenverse w/ GamersNexus https://www.youtube.com/watch?v=8p7A8EV5NNA
+▶ Better Offline: Monologue: The Home Stretch https://www.youtube.com/watch?v=yH5gb1IL8q8
+
+Watch next:
+▶ Ed Zitron: The AI Bubble Was One Man. Now He's Gone. https://www.youtube.com/watch?v=NsIjnu23ysM
+▶ Ed Zitron WARNS: Generative AI Is a $1 Trillion Con https://www.youtube.com/watch?v=5uqe1EsO-F0
+
+PHOTO CREDITS
+Ed Zitron photo: Web Summit, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Ed_Zitron_speaking_at_the_Web_Summit.jpg (background removed and cropped)
+
+Subscribe for the AI money story, explained every week.
+
+#EdZitron #AnthropicIPO #AIBubble
+--------------------------------------------------------------------------------
+
+=== TAGS (Studio > Show more > Tags) ===
+Ed Zitron, Anthropic IPO, Anthropic stock, Nvidia earnings, Nvidia 10-Q, AI bubble, OpenAI, Better Offline, Gamers Nexus, neoclouds, CoreWeave, Nscale, Broadcom, AMD, Jensen Huang, Colette Kress, AI stocks, AI crash, data centers, tech bubble, Anthropic IPO explained, Anthropic stock, ANT stock
+
+=== PINNED COMMENT ===
+Last week Zitron said the AI bubble was one man. This week: who pays? Part 1 here: https://www.youtube.com/watch?v=NsIjnu23ysM
+What's your bet: does Nvidia file its 10-Q by December 4?
+
+=== STUDIO SETTINGS ===
+- Video language + title/description language: English
+- Altered or synthetic content: No (animated summary; AI voice is disclosed in the description)
+- Category: News & Politics (or Education)
+- Schedule: Tuesday Nov 24, 04:00 WIB (= Monday 4 pm New York)
+
+=== END SCREEN (last 20 s: 10:55-11:15) ===
+Left slot: Ed Zitron: The AI Bubble Was One Man. Now He's Gone. https://www.youtube.com/watch?v=NsIjnu23ysM
+Right slot: Ed Zitron WARNS: Generative AI Is a $1 Trillion Con https://www.youtube.com/watch?v=5uqe1EsO-F0
+Round slot (bottom centre): Subscribe
+
+=== CARDS ===
+2:41  Ed Zitron WARNS: Generative AI Is a $1 Trillion Con   teaser: "Zitron's case on OpenAI"
+5:44  Ed Zitron: The AI Bubble Was One Man                  teaser: "Why Jensen was the bubble"

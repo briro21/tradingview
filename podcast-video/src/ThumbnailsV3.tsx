@@ -290,6 +290,18 @@ export const V3Ep11A: React.FC = () => (
   </Bg>
 );
 
+/** C: "$26B / NOBODY LEFT / TO PAY?" (complements the title instead of repeating it). */
+export const V3Ep11C: React.FC = () => (
+  <Bg dark>
+    <Guest n={11} height={700} left={10} src="thumbs/photo_zitron.png" />
+    <div style={{ position: "absolute", right: 60, top: 110, textAlign: "right" }}>
+      <Big size={200} color={yellow}>$26B</Big>
+      <Big size={120} color="#FFFFFF" style={{ marginTop: 6 }}>NOBODY LEFT</Big>
+      <Big size={140} color={red} style={{ marginTop: 4 }}>TO PAY?</Big>
+    </div>
+  </Bg>
+);
+
 /** B: "WHO PAYS NOW?". */
 export const V3Ep11B: React.FC = () => (
   <Bg dark>
