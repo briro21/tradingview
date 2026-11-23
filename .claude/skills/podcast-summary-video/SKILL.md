@@ -205,3 +205,13 @@ Average view duration is decided in the first 30-100 s, not the middle.
 - Target: >= 45% at 0:30 (Ep9). Below that, fix the hook, not the middle.
 - High CTR (14%) pulls casual browse viewers who bounce early; pick thumbnails in Test & Compare
   by watch time, and prefer text-led thumbnails that read as an explainer, not an interview clip.
+
+### Ep8 ("$1T Con", 44% at 0:30, flat middle ~25% -> ~20%) vs Ep10 (33%, middle -> ~12%)
+Both had the same free TTS voice, so the voice was not the difference. What Ep8 did:
+- Hook = one shocking number + a twist ("that's not a bug, it's the business model") + a big-brand
+  source (The Diary of a CEO, which people search) + a ROADMAP of what's coming + an open loop paid
+  at the end ("and the one thing that would prove him wrong").
+- Part 1 stayed on the hook's claim (spending numbers), no history lesson.
+- Thumbnail: dark, tight face, 2-3 word quote ("IT'S A CON").
+Ep10 lacked the roadmap and open loop and opened Part 1 on 2019 backstory.
+Ep8's only sharp drop is the last ~15 s (outro): the 20 s end screen now catches those viewers.
