@@ -374,7 +374,7 @@ This is an independent animated summary and commentary. All credit for the origi
 CHAPTERS
 0:00 AI just dropped 700 math results
 0:27 Part 1: The night math changed
-2:04 Part 2: What AI actually solved
+2:07 Part 2: What AI actually solved
 4:01 Part 3: Is AI really creative?
 5:33 Part 4: Why mathematicians are mourning
 7:07 Part 5: What AI can't take from us
@@ -608,7 +608,7 @@ CHAPTERS
 0:00 OpenAI lost $20.9 billion
 0:29 Part 1: A trillion dollars, for what?
 2:12 Part 2: The subsidy ($200 vs $14,000)
-3:45 Part 3: Adoption, or pressure?
+3:47 Part 3: Adoption, or pressure?
 5:38 Part 4: The myths
 7:20 Part 5: 2027
 8:57 Part 6: What would prove him wrong?
@@ -824,7 +824,7 @@ Two hours of Ed Zitron, on Better Offline and Tech Won't Save Us, explained in 1
 
 Zitron argues that Nvidia kept the AI boom alive by backstopping its biggest customers, walks through the Megaspeed chip-smuggling reports and allegations (China denies the spying claims; the cases are allegations, not verdicts), and breaks down Anthropic's $895 billion of commitments and OpenAI's fundraising. Ed Elson of Prof G Markets pushes back: the music is still playing for the strongest companies, and Anthropic deserves credit for not hiding its losses.
 
-This is an independent animated summary and commentary. It presents Ed Zitron's and Ed Elson's views as they stated them, not as established fact, and is not financial advice. Narration is AI-generated. All credit for the original conversations goes to Better Offline (Ed Zitron, with Ed Elson) and Tech Won't Save Us (Paris Marx, with Ed Zitron). Watch the full episodes:
+This is an independent animated summary and commentary. It presents Ed Zitron's and Ed Elson's views as they stated them, not as established fact, and is not financial advice. Narration is AI-generated (voice by ElevenLabs, elevenlabs.io). All credit for the original conversations goes to Better Offline (Ed Zitron, with Ed Elson) and Tech Won't Save Us (Paris Marx, with Ed Zitron). Watch the full episodes:
 ▶ Better Offline: JensenGate and Anthropic's IPO w/ Ed Elson https://www.youtube.com/watch?v=RCpgwpdvDu8
 ▶ Tech Won't Save Us: Nvidia's Crisis Could Herald an AI Collapse w/ Ed Zitron https://www.youtube.com/watch?v=jcPLs0DFYKw
 
@@ -896,18 +896,18 @@ An hour and a half of Ed Zitron on Better Offline, explained in 10 animated minu
 
 Zitron walks through Anthropic's $895 billion of commitments and slowing growth, OpenAI's $11 billion raise, Nvidia's missing 10-Q, why AMD and Broadcom can't simply replace Jensen Huang, and the neoclouds he has put on "death watch." Steve from Gamers Nexus adds what it means for gamers, data center towns and the economy, and pushes back on blaming one man for everything.
 
-This is an independent animated summary and commentary. It presents Ed Zitron's and Steve Burke's views as they stated them, not as established fact, and is not financial advice. Allegations mentioned are reports, not findings. Narration is AI-generated. All credit for the original episodes goes to Better Offline (Ed Zitron, with Steve from Gamers Nexus). Listen to the full episodes:
+This is an independent animated summary and commentary. It presents Ed Zitron's and Steve Burke's views as they stated them, not as established fact, and is not financial advice. Allegations mentioned are reports, not findings. Narration is AI-generated (voice by ElevenLabs, elevenlabs.io). All credit for the original episodes goes to Better Offline (Ed Zitron, with Steve from Gamers Nexus). Listen to the full episodes:
 ▶ Better Offline: Into The Jensenverse w/ GamersNexus https://www.youtube.com/watch?v=8p7A8EV5NNA
 ▶ Better Offline: Monologue: The Home Stretch https://www.youtube.com/watch?v=yH5gb1IL8q8
 
 CHAPTERS
 0:00 The last money out the door
-0:22 Part 1: The debut
-2:04 Part 2: The last money out the door
-3:45 Part 3: The missing filing
-5:36 Part 4: Nobody can replace him
-7:31 Part 5: The death watch
-8:55 Part 6: Who pays?
+0:21 Part 1: The debut
+2:07 Part 2: The last money out the door
+3:47 Part 3: The missing filing
+5:41 Part 4: Nobody can replace him
+7:29 Part 5: The death watch
+8:56 Part 6: Who pays?
 
 Previously:
 ▶ Ed Zitron: The AI Bubble Was One Man. Now He's Gone. [link]

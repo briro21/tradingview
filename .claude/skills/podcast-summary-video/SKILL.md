@@ -64,6 +64,21 @@ the transcript.
 
 ## 2. Voice-over
 
+**Default voice: ElevenLabs "Brian"** (from Ep11). The API key is a network secret on the
+environment (host api.elevenlabs.io, header xi-api-key, the `sk_...` secret, not the key ID).
+```
+python3 scripts/generate_voiceover_el.py --episode epN --dry          # chars to generate vs budget
+python3 scripts/generate_voiceover_el.py --episode epN --budget 9000  # speed 0.9 default
+```
+- The free plan is 10,000 chars/month: keep the whole narration <= ~9,000 chars. Write numbers as
+  digits ("$895 billion", "47%", "2030") — ElevenLabs reads them correctly and it saves ~15% chars.
+  Brian at 0.9 speaks ~140 wpm: ~1,500 words = ~11 min.
+- `voice_cache/epN/` (committed) holds every take keyed by text+voice+model: re-running never pays
+  again; only a scene whose text changed is generated. Commit the cache right after generating.
+- Free plan needs attribution: description line "voice by ElevenLabs, elevenlabs.io".
+- `scene` anchors must then use the digit form (`at: "$895 billion"`).
+
+Fallback (free, edge-tts):
 ```
 python3 scripts/list_proper_nouns.py narration/epN/*.txt        # show the user; fix scripts/pronunciation.json
 SSL_CERT_FILE=/root/.ccr/ca-bundle.crt python3 scripts/generate_voiceover.py --episode epN

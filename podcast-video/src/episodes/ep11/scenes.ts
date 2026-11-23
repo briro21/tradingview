@@ -53,42 +53,42 @@ const S00: Beat[] = [
 const S01: Beat[] = [
   { at: "Part one. The debut.", items: title("EXHIBIT 1", "THE DEBUT", "bell") },
   {
-    at: "So how did the biggest",
-    items: [N(83, 800, 330, { prefix: "$", size: 220, at: "eighty-three" }), H("listing price per share", 800, 470, { size: 60 }), T("STUCK NEAR $100", 800, 620, { size: 100, color: red, at: "one hundred" })],
+    at: "How did the year's biggest",
+    items: [N(83, 800, 330, { prefix: "$", size: 220, at: "$83" }), H("listing price per share", 800, 470, { size: 60 }), T("STUCK NEAR $100", 800, 620, { size: 100, color: red, at: "above $100" })],
   },
   {
-    at: "His verdict: definitely not the",
-    items: [P(ZITRON, 400, 450, 440, 520), T("\"NOT THE MASSIVE", 1100, 300, { size: 90 }), T("RETURN\"", 1100, 430, { size: 120, color: red }), H("but first days say little", 1100, 580, { size: 52, at: "almost nothing" })],
+    at: "His verdict: not the massive",
+    items: [P(ZITRON, 400, 450, 440, 520), T("\"NOT THE MASSIVE", 1100, 300, { size: 90 }), T("RETURN\"", 1100, 430, { size: 120, color: red }), H("but first days say little", 1100, 580, { size: 52, at: "say little" })],
   },
   {
-    at: "First, growth. Using data from",
+    at: "First, growth. Citing spending",
     items: [LINE("Anthropic revenue growth per quarter", [
-      { label: "earlier", value: 150, text: "~150%", at: "one hundred fifty" },
-      { label: "last quarter", value: 47, text: "47%", at: "forty-seven" },
-      { label: "this quarter", value: 20, text: "15-25%", hi: true, at: "fifteen to twenty-five" },
+      { label: "earlier", value: 150, text: "~150%", at: "around 150%" },
+      { label: "last quarter", value: 47, text: "47%", at: "47%" },
+      { label: "this quarter", value: 20, text: "15-25%", hi: true, at: "15 to 25%" },
     ], { note: "a rocket running out of fuel", noteAt: "running out of fuel" })],
   },
   {
     at: "Now the bills. Anthropic has",
     items: [SHEET("anthropic_commitments.xlsx", [
-      { label: "Commitments, mostly compute", value: 895, text: "$895B", at: "eight hundred ninety-five" },
-      { label: "... of which can't be cancelled", value: 435, text: "$435B", color: "red", at: "four hundred thirty-five" },
+      { label: "Commitments, mostly compute", value: 895, text: "$895B", at: "$895 billion" },
+      { label: "... of which can't be cancelled", value: 435, text: "$435B", color: "red", at: "$435 billion" },
     ], { formula: "=SUM(compute_contracts)" })],
   },
   {
-    at: "But here's the number that",
+    at: "Here's the number that really",
     items: [BARS("Revenue per year", [
-      { label: "Anthropic needs (2030)", value: 600, text: "$600B", hi: true, at: "six hundred billion" },
-      { label: "Microsoft, last year", value: 331, text: "$331B", at: "three hundred thirty-one" },
+      { label: "Anthropic needs (2030)", value: 600, text: "$600B", hi: true, at: "$600 billion" },
+      { label: "Microsoft, last year", value: 331, text: "$331B", at: "$331 billion" },
     ], { note: "nearly twice Microsoft", noteAt: "nearly twice" })],
   },
   {
-    at: "To be fair, it has",
+    at: "To be fair, there's a",
     items: [SHEET("anthropic_cash.xlsx", [
-      { label: "Cash after the IPO", value: 200, text: "$200B+", color: "lime", at: "two hundred billion" },
+      { label: "Cash after the IPO", value: 200, text: "$200B+", color: "lime", at: "$200 billion" },
       { label: "Prepayments on compute", text: "coming", color: "amber", at: "prepayments" },
-      { label: "Revenue bar this quarter", value: 21, text: "$21B", color: "red", at: "twenty-one billion" },
-    ], { formula: "=IF(revenue<21B,\"problem\")", note: "even 15% growth isn't enough", noteAt: "wouldn't be enough" })],
+      { label: "Revenue bar this quarter", value: 21, text: "$21B", color: "red", at: "$21 billion" },
+    ], { formula: "=IF(revenue<21B,\"problem\")", note: "even 15% growth isn't enough", noteAt: "isn't enough" })],
   },
   {
     at: "Which raises the obvious question.",
@@ -112,26 +112,26 @@ const S02: Beat[] = [
     ], { dir: "loop", title: "Topping up a customer" })],
   },
   {
-    at: "That's why he calls it",
-    items: [I("door", 400, 430, 2), T("EARLY INVESTORS: OUT", 1100, 290, { size: 84, at: "last money" }), T("RETAIL: LOSSES", 1100, 430, { size: 100, color: red, at: "immediate losses" }), H("his view", 1100, 560, { size: 52 })],
+    at: "That's the last money out",
+    items: [I("door", 400, 430, 2), T("EARLY INVESTORS: OUT", 1100, 290, { size: 84, at: "last money" }), T("RETAIL: LOSSES", 1100, 430, { size: 100, color: red, at: "almost immediately" }), H("his view", 1100, 560, { size: 52 })],
   },
   {
     at: "Here's why that matters for",
     items: [BARS("OpenAI's raise", [
-      { label: "Wanted (reports)", value: 30, text: "$30B", at: "thirty billion" },
-      { label: "Got", value: 11, text: "$11B", hi: true, at: "eleven billion" },
-    ], { note: "at $1.25T, not $1.4T", noteAt: "one point four" })],
+      { label: "Wanted (reports)", value: 30, text: "$30B", at: "$30 billion" },
+      { label: "Got", value: 11, text: "$11B", hi: true, at: "$11 billion" },
+    ], { note: "at $1.25T, not $1.4T", noteAt: "$1.4 trillion" })],
   },
   {
-    at: "Zitron even found it odd",
-    items: [I("scroll", 400, 430, 2), T("\"WIRED AND", 1100, 300, { size: 110 }), T("RECEIVED\"", 1100, 440, { size: 120, color: red, at: "wired" }), H("never seen that in funding news", 1100, 580, { size: 50, at: "never seen" })],
+    at: "Oddly, one Bloomberg report",
+    items: [I("scroll", 400, 430, 2), T("\"WIRED AND", 1100, 300, { size: 110 }), T("RECEIVED\"", 1100, 440, { size: 120, color: red, at: "wired" }), H("never seen that in funding news", 1100, 580, { size: 50, at: "never seen that" })],
   },
   {
     at: "And OpenAI's numbers, as he",
     items: [BARS("OpenAI, one quarter", [
-      { label: "Revenue", value: 10, text: "$10B", at: "ten billion dollars of revenue" },
-      { label: "Loss", value: 10.9, text: "$10.9B", hi: true, at: "ten point nine" },
-    ], { note: "margins: -150% → -100%", noteAt: "minus one hundred" })],
+      { label: "Revenue", value: 10, text: "$10B", at: "$10 billion of revenue" },
+      { label: "Loss", value: 10.9, text: "$10.9B", hi: true, at: "$10.9 billion" },
+    ], { note: "margins: -150% → -100%", noteAt: "minus 100%" })],
   },
   {
     at: "He expects OpenAI to need",
@@ -151,14 +151,14 @@ const S03: Beat[] = [
   { at: "Part three. The missing filing.", items: title("EXHIBIT 3", "THE MISSING FILING", "scroll") },
   {
     at: "Nvidia reported earnings this week,",
-    items: [I("chart", 400, 430, 2), T("RECORD NUMBERS", 1100, 280, { size: 96, at: "record numbers" }), H("beat expectations", 1100, 410, { size: 56, at: "beat expectations" }), H("raised the forecast", 1100, 500, { size: 56, at: "raised the forecast" }), H("interim CEO: Colette Kress", 1100, 610, { size: 48, at: "Colette Kress" })],
+    items: [I("chart", 400, 430, 2), T("RECORD NUMBERS", 1100, 280, { size: 96, at: "record numbers" }), H("beat expectations", 1100, 410, { size: 56, at: "beat expectations" }), H("raised the forecast", 1100, 500, { size: 56, at: "raised forecast" }), H("interim CEO: Colette Kress", 1100, 610, { size: 48, at: "Colette Kress" })],
   },
   {
     at: "But Zitron spotted what wasn't",
     items: [TIMELINE("Nvidia's quarterly report (10-Q)", [
-      { label: "Earnings out", text: "THIS WEEK", at: "same time as earnings" },
+      { label: "Earnings out", text: "THIS WEEK", at: "alongside earnings" },
       { label: "10-Q: nothing yet", text: "MISSING", hi: true, at: "This time, nothing" },
-      { label: "Filing deadline", text: "DEC 4", at: "December fourth" },
+      { label: "Filing deadline", text: "DEC 4", at: "December 4th" },
     ], { note: "Kress: \"within the coming weeks\"", noteAt: "coming weeks" })],
   },
   {
@@ -167,24 +167,24 @@ const S03: Beat[] = [
   },
   {
     at: "On the scandal, he cites",
-    items: [N(12, 800, 320, { prefix: "~$", suffix: "B", size: 200, at: "twelve billion" }), H("chip sales via Megaspeed (WSJ)", 800, 480, { size: 60 }), T("REPORTS, NOT FINDINGS", 800, 630, { size: 90, color: red, at: "not findings" })],
+    items: [N(12, 800, 320, { prefix: "~$", suffix: "B", size: 200, at: "$12 billion" }), H("chip sales via Megaspeed (WSJ)", 800, 480, { size: 60 }), T("REPORTS, NOT FINDINGS", 800, 630, { size: 90, color: red, at: "not findings" })],
   },
   {
     at: "Then his guest, Steve from",
     items: [LINE("Nvidia revenue booked to Singapore", [
-      { label: "one quarter", value: 0.76, text: "$0.76B", at: "seven hundred sixty" },
-      { label: "a year later", value: 4, text: "$4B", at: "four billion" },
-      { label: "fiscal year", value: 24, text: "$24B", at: "twenty-four" },
+      { label: "one quarter", value: 0.76, text: "$0.76B", at: "$760 million" },
+      { label: "a year later", value: 4, text: "$4B", at: "$4 billion" },
+      { label: "fiscal year", value: 24, text: "$24B", at: "$24 billion" },
       { label: "now", value: 0, text: "GONE", hi: true, at: "vanished" },
     ])],
   },
   {
-    at: "Steve's question is simple: a",
+    at: "Steve's question: a company",
     items: [I("magnifier", 400, 430, 2), T("TRACKS A LEAKED", 1100, 270, { size: 90, at: "leaks to a reviewer" }), T("DRIVER...", 1100, 390, { size: 100 }), T("BUT NOT ITS CHIPS?", 1100, 530, { size: 90, color: red, at: "own chips" })],
   },
   {
-    at: "And one more thing doesn't",
-    items: [I("scales", 400, 430, 2), T("PROMISE: +70%", 1100, 290, { size: 100, at: "seventy percent" }), T("WORRY: A GLUT", 1100, 430, { size: 100, color: red, at: "glut" }), H("you can't easily have both", 1100, 570, { size: 54, at: "have both" })],
+    at: "One more thing doesn't add",
+    items: [I("scales", 400, 430, 2), T("PROMISE: +70%", 1100, 290, { size: 100, at: "70% growth" }), T("WORRY: A GLUT", 1100, 430, { size: 100, color: red, at: "glut" }), H("you can't easily have both", 1100, 570, { size: 54, at: "have both" })],
   },
   {
     at: "The board, he says, has",
@@ -195,7 +195,7 @@ const S03: Beat[] = [
 const S04: Beat[] = [
   { at: "Part four. Nobody can replace", items: title("EXHIBIT 4", "NOBODY CAN REPLACE HIM", "chess") },
   {
-    at: "You've probably heard the reassurance:",
+    at: "The reassurance goes: whatever",
     items: [I("chip", 400, 430, 2), T("\"AMD & BROADCOM", 1100, 300, { size: 90 }), T("WILL PICK IT UP\"", 1100, 430, { size: 96, at: "pick up" }), H("Zitron: misses what Jensen did", 1100, 570, { size: 50, color: red, at: "misses" })],
   },
   {
@@ -208,13 +208,13 @@ const S04: Beat[] = [
     ], { note: "about a quarter of Nvidia's", noteAt: "quarter of Nvidia's" })],
   },
   {
-    at: "Here's the catch. Broadcom, he",
+    at: "Broadcom, he says, already broke",
     items: [I("briefcase", 400, 430, 2), T("GOLDEN RULE:", 1100, 270, { size: 90 }), T("NEVER HOLD", 1100, 390, { size: 100 }), T("THE BAGS", 1100, 510, { size: 110, color: red, at: "customers' bags" })],
   },
   {
     at: "He says Broadcom is backstopping",
     items: [FLOW("ANTHROPIC", [
-      { label: "Broadcom backstop", hi: true, at: "backstopping" }, { label: "$60B debt", at: "sixty billion" }, { label: "Leased chips", at: "lease chips" },
+      { label: "Broadcom backstop", hi: true, at: "backstopping" }, { label: "$60B debt", at: "$60 billion" }, { label: "Leased chips", at: "lease chips" },
     ], { dir: "loop", title: "Holding a customer's bag" })],
   },
   {
@@ -223,15 +223,15 @@ const S04: Beat[] = [
   },
   {
     at: "And Nvidia kept writing smaller",
-    items: [N(3, 800, 320, { prefix: "~$", suffix: "B", size: 220, at: "three billion" }), H("to Perplexity, a big buyer of compute", 800, 480, { size: 58, at: "buys a lot" }), I("money", 800, 680, 1.3)],
+    items: [N(3, 800, 320, { prefix: "~$", suffix: "B", size: 220, at: "$3 billion" }), H("to Perplexity, a big buyer of compute", 800, 480, { size: 58, at: "buys so much" }), I("money", 800, 680, 1.3)],
   },
   {
     at: "His conclusion: this industry ran",
     items: [P(ZITRON, 400, 450, 440, 520), T("JENSEN'S WORD", 1100, 280, { size: 100, at: "Jensen's word" }), T("+ NVIDIA'S CASH", 1100, 410, { size: 96, at: "balance sheet" }), H("\"collect prepayments\" = a warning", 1100, 560, { size: 50, color: red, at: "prepayments" })],
   },
   {
-    at: "If this is helping you",
-    items: [I("bell", 800, 360, 2.2, { at: "subscribing" }), O(800, 360, 170, 170, red, { at: "subscribing" }), T("NEXT CASE FILE", 800, 640, { size: 100, color: red, at: "next case file" })],
+    at: "If this helps you follow",
+    items: [I("bell", 800, 360, 2.2, { at: "subscribe to catch" }), O(800, 360, 170, 170, red, { at: "subscribe to catch" }), T("NEXT CASE FILE", 800, 640, { size: 100, color: red, at: "next case file" })],
   },
   {
     at: "Because without that backstop, some",
@@ -252,7 +252,7 @@ const S05: Beat[] = [
     at: "He's put two of them",
     items: [TIMELINE("Zitron's death watch", [
       { label: "Nscale: needs more money", text: "NSCALE", hi: true, at: "Nscale" },
-      { label: "$45B West Virginia site", text: "BACKING?", at: "forty-five billion" },
+      { label: "$45B West Virginia site", text: "BACKING?", at: "$45 billion" },
       { label: "Firmus: IPO cut, then pulled", text: "FIRMUS", hi: true, at: "Firmus" },
       { label: "Lambda hopes to list", text: "NEXT YEAR", at: "Lambda" },
     ])],
@@ -263,7 +263,7 @@ const S05: Beat[] = [
   },
   {
     at: "It only takes one, he",
-    items: [I("domino", 400, 430, 2), T("ONE INSOLVENCY", 1100, 290, { size: 96, color: red, at: "One insolvency" }), H("same chips, same customers", 1100, 420, { size: 56, at: "same chips" }), H("every floor on the same beam", 1100, 520, { size: 56, at: "same beam" })],
+    items: [I("domino", 400, 430, 2), T("ONE INSOLVENCY", 1100, 290, { size: 96, color: red, at: "One insolvency" }), H("same chips, same customers", 1100, 420, { size: 56, at: "same chips" }), H("every floor on one beam", 1100, 520, { size: 56, at: "one beam" })],
   },
   {
     at: "Steve offers a fair counterpoint.",
@@ -284,9 +284,9 @@ const S06: Beat[] = [
   {
     at: "Then towns. Steve describes a",
     items: [BARS("One data center", [
-      { label: "Tax breaks", value: 77, text: "$77M", hi: true, at: "seventy-seven" },
-      { label: "Employees", value: 20, text: "< 20", at: "Fewer than twenty" },
-      { label: "Jobs after build", value: 55, text: "50-60", at: "fifty or sixty" },
+      { label: "Tax breaks", value: 77, text: "$77M", hi: true, at: "$77 million" },
+      { label: "Employees", value: 20, text: "< 20", at: "Fewer than 20" },
+      { label: "Jobs after build", value: 55, text: "50-60", at: "50 or 60" },
     ], { note: "local hires: security, landscaping, cleaning", noteAt: "cleaning" })],
   },
   {
@@ -298,14 +298,14 @@ const S06: Beat[] = [
     items: [I("factory", 400, 430, 2), T("MORE CHIPS =", 1100, 300, { size: 110 }), T("MORE GROWTH?", 1100, 440, { size: 110, color: red }), H("Zitron: oversold", 1100, 580, { size: 56, at: "oversold" })],
   },
   {
-    at: "As Steve recalls it, the",
+    at: "Steve's version of the",
     items: [T("\"GPUS = GDP\"", 800, 300, { size: 170, at: "GPUs equal GDP" }), H("stats may have overstated software's growth since 2022", 800, 480, { size: 48, at: "overstated" }), H("his argument, not a settled finding", 800, 590, { size: 54, color: red, at: "settled finding" })],
   },
   {
     at: "So here's your watch list.",
     items: [TIMELINE("Your watch list", [
-      { label: "Nvidia files its 10-Q", text: "DEC 4", hi: true, at: "December fourth" },
-      { label: "Anthropic vs the $21B bar", text: "THIS QTR", at: "twenty-one billion" },
+      { label: "Nvidia files its 10-Q", text: "DEC 4", hi: true, at: "December 4th" },
+      { label: "Anthropic vs the $21B bar", text: "THIS QTR", at: "$21 billion" },
       { label: "OpenAI's next raise", text: "EARLY 2027", at: "raise money" },
       { label: "A neocloud runs out of road", text: "ANY DAY", at: "out of road" },
     ])],
@@ -315,10 +315,10 @@ const S06: Beat[] = [
     items: [I("scales", 400, 430, 2), T("THE BALANCE", 1100, 260, { size: 96 }), H("Nvidia: record numbers", 1100, 380, { size: 56, at: "record numbers" }), H("Anthropic: above its listing price", 1100, 480, { size: 52, at: "listing price" }), T("\"A CONFIDENCE GAME\"", 1100, 610, { size: 80, color: red, at: "confidence game" }), H("not financial advice", 1100, 720, { size: 46, at: "not financial advice" })],
   },
   {
-    at: "This was an hour and",
+    at: "That's an hour and a",
     items: [
       T("90 MIN → 10 MIN", 800, 230, { size: 86 }),
-      H("full episodes in the description", 800, 390, { size: 56, at: "links to the full" }),
+      H("full episodes in the description", 800, 390, { size: 56, at: "linked below" }),
       I("bell", 800, 690, 1.4, { at: "subscribe" }),
       O(800, 690, 120, 120, red, { at: "subscribe" }),
     ],
