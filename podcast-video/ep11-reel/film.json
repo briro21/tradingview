@@ -1,10 +1,59 @@
 {
  "title": "Ed Zitron on the Anthropic IPO",
- "duration": 655.6,
+ "duration": 675.6,
  "formats": [
   "16x9"
  ],
  "poster": 0,
  "case": 11,
- "date": "Nov 2026"
+ "date": "Nov 2026",
+ "endscreen": 20,
+ "ctaAt": 122.5,
+ "cta": "The AI money story, explained every week",
+ "nexts": [
+  [
+   40,
+   "COMING UP",
+   "who really paid for this IPO"
+  ],
+  [
+   155,
+   "NEXT",
+   "why OpenAI should be worried"
+  ],
+  [
+   206,
+   "NEXT",
+   "the filing Nvidia hasn't sent"
+  ],
+  [
+   261,
+   "COMING UP",
+   "Nvidia's disappearing Singapore revenue"
+  ],
+  [
+   322,
+   "NEXT",
+   "why AMD and Broadcom can't replace Jensen"
+  ],
+  [
+   393,
+   "COMING UP",
+   "the companies on Zitron's death watch"
+  ],
+  [
+   497,
+   "NEXT",
+   "who pays: gamers, towns, the economy"
+  ],
+  [
+   576,
+   "STILL TO COME",
+   "your December watch list"
+  ]
+ ],
+ "endVideos": [
+  "Ed Zitron: The AI Bubble Was One Man",
+  "Ed Zitron WARNS: Generative AI Is a $1 Trillion Con"
+ ]
 }

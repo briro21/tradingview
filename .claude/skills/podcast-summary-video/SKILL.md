@@ -176,3 +176,21 @@ teaser (2-3 hard-cut hits) → one-sentence intro (<= `introMaxSeconds`) → bod
 Send the final MP4, SRT, thumbnails and Shorts with SendUserFile; pull a frame from each encoded
 file and ffprobe it (duration >= 10:00, video + audio) before saying it is done. Summarise in
 Indonesian: titles ↔ thumbnails, chapters, credits to keep, what was not verified by watching.
+
+## Retention + growth layer (from the Nov 23 analytics)
+
+Data: new hook lifted 0:30 retention 36.7% -> 44.5% (keep it). CTR can be 14% while average view
+duration is ~1:40, so the middle and the payoff speed matter more than length. 6.1k views -> +4 subs:
+a CTA after minute 2 reaches almost nobody. Traffic is search-led; non-Ed topics died (~6 views).
+
+- Length: target 8-9 min (>= 8:00), cut weak segments rather than pad. The 10-minute rule is dropped.
+- Spoken subscribe ask at ~1:45 with one reason: "Subscribe for the AI money story, explained every week."
+- `epN-reel/film.json` (kept by reel_prepare): `ctaAt` (on-screen subscribe card, 4 s, top right,
+  bell), `cta` text, `nexts` [[t, "NEXT"|"COMING UP"|"STILL TO COME", teaser], ...] every 60-90 s
+  on shots whose top right is free (claim/photo/counter shots, not sheets), `endscreen` seconds
+  (default 20, appended after the narration: "WATCH NEXT" + two 16:9 slots + round subscribe slot),
+  `endVideos` [left, right] titles. All visual: changing them never regenerates the voice.
+- youtube.txt carries: titles (name + number), chapters, END SCREEN + CARDS instructions with
+  timestamps, PINNED COMMENT (a question + link to the previous related video), hashtags, the
+  AI-narration + ElevenLabs line and the source credit unchanged.
+- Shorts: 1 per episode for now (Shorts audience is mostly outside the target market).

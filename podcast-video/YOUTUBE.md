@@ -618,7 +618,7 @@ Ed Zitron photo: Web Summit, CC BY 2.0, https://commons.wikimedia.org/wiki/File:
 Steven Bartlett photo: Craig Campbell, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Craig_Campbell_%26_Steven_Bartlett.png
 (both background removed and cropped)
 
-Subscribe for more of the biggest conversations explained in 10 animated minutes.
+Subscribe for the AI money story, explained every week.
 
 #AIBubble #EdZitron #DiaryOfACEO #OpenAI #Nvidia #AI #StevenBartlett
 ```
@@ -885,6 +885,7 @@ No new Shorts this week: post the four Ep10 Shorts instead (2-3 per week).
 Ed Zitron on the Anthropic IPO: "The Last Money Out the Door"
 Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?
 Anthropic Went Public. Ed Zitron Says the Math Doesn't Work.
+Ed Zitron: Big Tech's $26 Billion Was "the Last Money Out the Door"
 
 === THUMBNAILS ===
 A = "$26B / THE LAST MONEY OUT THE DOOR" (Ep11ThumbA) -> out/ep11-thumbnail-A.png
@@ -910,7 +911,7 @@ CHAPTERS
 8:56 Part 6: Who pays?
 
 Previously:
-▶ Ed Zitron: The AI Bubble Was One Man. Now He's Gone. [link]
+▶ Ed Zitron: The AI Bubble Was One Man. Now He's Gone. https://www.youtube.com/watch?v=NsIjnu23ysM
 ▶ Ed Zitron WARNS: Generative AI Is a $1 Trillion Con https://www.youtube.com/watch?v=5uqe1EsO-F0
 
 PHOTO CREDITS
@@ -924,6 +925,17 @@ Subscribe for more of the biggest conversations explained in 10 animated minutes
 Ed Zitron, Anthropic IPO, Anthropic stock, Nvidia earnings, Nvidia 10-Q, AI bubble, OpenAI, Better Offline, Gamers Nexus, neoclouds, CoreWeave, Nscale, Broadcom, AMD, Jensen Huang, Colette Kress, AI stocks, AI crash, data centers, tech bubble
 
 === PINNED COMMENT ===
-Last week Zitron said the AI bubble was one man. This week, who pays? Part 1 here: [link to Ep10]
+Last week Zitron said the AI bubble was one man. This week, who pays? Part 1 here: https://www.youtube.com/watch?v=NsIjnu23ysM
 What's your bet: does Nvidia file its 10-Q by December 4?
+
+=== END SCREEN (Studio > Editor > End screen, last 20 s: 10:55-11:15) ===
+The video ends on a 20 s "WATCH NEXT" screen with two dashed slots and a round slot. Add:
+- Video (left slot): Ed Zitron: The AI Bubble Was One Man. Now He's Gone. https://www.youtube.com/watch?v=NsIjnu23ysM
+- Video (right slot): Ed Zitron WARNS: Generative AI Is a $1 Trillion Con https://www.youtube.com/watch?v=5uqe1EsO-F0
+- Subscribe (round slot, bottom centre)
+Drag each element onto its slot so the dashed frames sit behind them.
+
+=== CARDS (Studio > Editor > Cards) ===
+- 2:41  Video: Ed Zitron WARNS: Generative AI Is a $1 Trillion Con  (as OpenAI's numbers come up)  teaser: "Zitron's case on OpenAI"
+- 5:44  Video: Ed Zitron: The AI Bubble Was One Man  (as Part 4 asks who can replace Jensen)  teaser: "Why Jensen was the bubble"
 ```

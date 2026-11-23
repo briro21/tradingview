@@ -29,7 +29,16 @@ t = json.loads((ROOT / f"src/episodes/{ep}/timing.json").read_text())
 keys = sorted(t)
 d = round(sum(v["frames"] for v in t.values()) / 30, 3)
 import datetime
-json.dump({"title": title, "duration": d, "formats": ["16x9"], "poster": 0, "case": int(ep[2:]), "date": datetime.date.today().strftime("%b %Y")}, open(reel / "film.json", "w"), indent=1)
+# keep per-episode settings (ctaAt, nexts, endscreen, endVideos...) already in film.json
+fj = reel / "film.json"
+cfg = json.loads(fj.read_text()) if fj.exists() else {}
+cfg.update({"title": title, "formats": ["16x9"], "poster": 0, "case": int(ep[2:])})
+cfg.setdefault("date", datetime.date.today().strftime("%b %Y"))
+cfg.setdefault("endscreen", 20)   # seconds of end screen after the narration (YouTube end-screen elements go on top)
+narr = d                          # narration end; the film runs on into the end screen
+d = round(narr + cfg["endscreen"], 3)
+cfg["duration"] = d
+json.dump(cfg, open(fj, "w"), indent=1)
 b = json.loads((ROOT / "ep8-reel/beats.json").read_text())
 P, O = b["period"], b["offset"]
 n = int((d - O) / P) + 1
@@ -46,8 +55,8 @@ for i, k in enumerate(keys):
     fl.append(f"[{i}:a]aresample=48000,apad,atrim=0:{t[k]['frames'] / 30:.4f},asetpts=N/SR/TB[a{i}]")
 fl.append("".join(f"[a{i}]" for i in range(len(keys))) + f"concat=n={len(keys)}:v=0:a=1,pan=stereo|c0=c0|c1=c0[o]")
 ff = lambda *a: subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *a], check=True)
-ff(*ins, "-filter_complex", ";".join(fl), "-map", "[o]", "-c:a", "pcm_s16le", str(reel / "audio/vo.wav"))
-ff("-i", str(ROOT / "ep8-reel/audio/music.wav"), "-af", f"atrim=0:{d},afade=t=out:st={d - 3}:d=3", "-c:a", "pcm_s16le", str(reel / "audio/music.wav"))
+ff(*ins, "-filter_complex", ";".join(fl) + ";[o]apad[p]", "-map", "[p]", "-t", f"{d}", "-c:a", "pcm_s16le", str(reel / "audio/vo.wav"))
+ff("-i", str(ROOT / "ep8-reel/audio/music.wav"), "-af", f"aloop=loop=-1:size=2e9,atrim=0:{d},afade=t=out:st={d - 4}:d=4", "-c:a", "pcm_s16le", str(reel / "audio/music.wav"))
 
 src = subprocess.run([str(ROOT / "scripts/export_scenes.sh"), ep], check=True, capture_output=True, text=True).stdout
 tmp = reel / ".src.json"

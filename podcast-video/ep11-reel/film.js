@@ -756,6 +756,79 @@ function drawCaption(ctx, t) {
 // under the captions' backing, filling across each part (no corner labels).
 const PARTS = SHOTS.filter((s) => s.part).map((s) => s.t0);
 
+// ------------------------------------------------------------ retention overlays (film.json)
+// NEXT chips: a one-line teaser of what's coming, top right, ~5 s. Subscribe card: one concrete
+// reason, early (ctaAt), ~4 s. End screen: room for two YouTube end-screen videos + subscribe.
+let NEXTS = [], CTA_AT = null, CTA_TXT = '';   // read from film.json once the film has loaded (overlayInit)
+function slideIn(t, a, len) {   // 0..1 in, hold, out
+  const u = t - a; if (u < 0 || u > len) return 0;
+  return Math.min(M.spring(u, SPRING.snappy), E.inOutCubic(clamp((len - u) / 0.35)));
+}
+function pill(ctx, x, y, h, label, text, k, red) {   // right-aligned at x
+  ctx.save();
+  ctx.font = font(26, 800, 'Mono'); const lw = ctx.measureText(label).width;
+  ctx.font = font(38, 600, UI); const tw = ctx.measureText(text).width;
+  const w = lw + tw + 84, x0 = x - w + (1 - k) * (w + 60);
+  ctx.globalAlpha = clamp(k * 1.5);
+  rrect(ctx, x0, y, w, h, h / 2); ctx.fillStyle = 'rgba(16,16,20,0.92)'; ctx.fill();
+  ctx.strokeStyle = red ? C.accent : 'rgba(255,255,255,0.18)'; ctx.lineWidth = 3; ctx.stroke();
+  rrect(ctx, x0 + 10, y + 10, lw + 28, h - 20, (h - 20) / 2); ctx.fillStyle = C.accent; ctx.fill();
+  ctx.fillStyle = '#FFFFFF'; ctx.textAlign = 'left'; ctx.font = font(26, 800, 'Mono'); ctx.fillText(label, x0 + 24, y + h / 2 + 9);
+  ctx.font = font(38, 600, UI); ctx.fillStyle = '#F4F1EA'; ctx.fillText(text, x0 + lw + 58, y + h / 2 + 12);
+  ctx.restore();
+  return x0;
+}
+function overlays(ctx, t) {
+  for (const [a, label, text] of NEXTS) { const k = slideIn(t, a, 5); if (k > 0) pill(ctx, W - 40, 90, 70, label + ' ›', text, k, false); }
+  if (CTA_AT != null) {
+    const k = slideIn(t, CTA_AT, 4);
+    if (k > 0) {
+      const x0 = pill(ctx, W - 40, 90, 84, 'SUBSCRIBE', CTA_TXT, k, true);
+      // a bell that rings once
+      const u = t - CTA_AT, sw = Math.sin(u * 18) * Math.exp(-u * 2.5) * 0.35;
+      ctx.save(); ctx.globalAlpha = clamp(k * 1.5); ctx.translate(x0 - 50, 132); ctx.rotate(sw);
+      ctx.fillStyle = C.accent; ctx.beginPath(); ctx.arc(0, 0, 36, 0, M.TAU); ctx.fill();
+      ctx.fillStyle = '#FFFFFF'; ctx.beginPath(); ctx.moveTo(-16, 10); ctx.quadraticCurveTo(-16, -20, 0, -20); ctx.quadraticCurveTo(16, -20, 16, 10); ctx.closePath(); ctx.fill();
+      ctx.fillRect(-20, 8, 40, 6); ctx.beginPath(); ctx.arc(0, 18, 6, 0, M.TAU); ctx.fill();
+      ctx.restore();
+    }
+  }
+}
+function endScreen(ctx, t, u) {
+  // brand paper + slow halftone, two 16:9 slots (YouTube's video elements sit on them) + subscribe slot
+  fill(ctx, D.paper);
+  ctx.save(); ctx.globalAlpha = 0.5; halftone(ctx, '#E9A3A3', 26, 0.4 + u * 0.01, (x, y) => clamp(1 - y / H), 0.6); ctx.restore();
+  const k = E.outCubic(clamp(u / 0.8));
+  ctx.textAlign = 'center'; ctx.fillStyle = D.ink; ctx.globalAlpha = k;
+  ctx.font = font(96, 400, 'Slab'); ctx.fillText('WATCH NEXT', W / 2, 170);
+  ctx.font = font(38, 600, UI); ctx.fillText('The AI money story continues', W / 2, 232);
+  const vids = M.CFG.endVideos || [];
+  [[150, 300], [1010, 300]].forEach(([x, y], j) => {
+    const w = 760, h = 428;
+    ctx.save(); ctx.translate(0, (1 - k) * 40);
+    rrect(ctx, x, y, w, h, 18); ctx.fillStyle = D.ink; ctx.fill();
+    ctx.setLineDash([16, 12]); ctx.strokeStyle = D.red; ctx.lineWidth = 5; rrect(ctx, x - 10, y - 10, w + 20, h + 20, 24); ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle = 'rgba(241,230,207,0.75)'; ctx.font = font(36, 600, UI); ctx.textAlign = 'center';
+    const ws = (vids[j] || '').split(' '), lines = []; let cur = '';
+    for (const wd of ws) { const t2 = cur ? cur + ' ' + wd : wd; if (ctx.measureText(t2).width > w - 80 && cur) { lines.push(cur); cur = wd; } else cur = t2; }
+    lines.push(cur);
+    lines.forEach((ln, li) => ctx.fillText(ln, x + w / 2, y + h / 2 + 12 + (li - (lines.length - 1) / 2) * 48));
+    ctx.restore();
+  });
+  // subscribe slot (round element)
+  ctx.save(); ctx.globalAlpha = k; ctx.fillStyle = D.red; ctx.beginPath(); ctx.arc(W / 2, 880, 92, 0, M.TAU); ctx.fill();
+  ctx.fillStyle = D.paper; ctx.font = font(30, 800, 'Mono'); ctx.textAlign = 'center'; ctx.fillText('SUBSCRIBE', W / 2, 891);
+  ctx.restore();
+  ctx.globalAlpha = 1;
+}
+function overlayInit() {
+  NEXTS = M.CFG.nexts || []; CTA_AT = M.CFG.ctaAt ?? null; CTA_TXT = M.CFG.cta || '';
+  for (const [a] of NEXTS) HITS.push([U(a + 0.05), 'next chip', 'whoosh', { len: 0.3, gain: 0.08, pan: 0.5 }]);
+  if (CTA_AT != null) HITS.push([U(CTA_AT + 0.05), 'subscribe card', 'impact', { gain: 0.25 }]);
+  HITS.push([U(DATA.duration + 0.05), 'end screen', 'impact', { gain: 0.4 }]);
+  HITS.sort((p, q) => p[0] - q[0]);
+}
+
 // ------------------------------------------------------------ the film
 function shotIndex(t) {
   let lo = 0, hi = SHOTS.length - 1, best = 0;
@@ -771,8 +844,9 @@ M.film({
     const i = shotIndex(t), a = t - SHOTS[i].t0;
     return a < WHIP + 0.05 && i > 0 ? 8 : 3;   // blur where the whips move fast
   },
-  init(ctx, IMG) { IMGS = IMG; for (const s of SHOTS) for (const it of s.items) if (it.k === 'path') pathOf(it.d); for (const n in DATA.icons) for (const st of DATA.icons[n]) pathOf(st.d); },
+  init(ctx, IMG) { IMGS = IMG; overlayInit(); for (const s of SHOTS) for (const it of s.items) if (it.k === 'path') pathOf(it.d); for (const n in DATA.icons) for (const st of DATA.icons[n]) pathOf(st.d); },
   draw(ctx, u, t) {
+    if (t >= DATA.duration) { endScreen(ctx, t, t - DATA.duration); return; }
     const i = shotIndex(t);
     const s = SHOTS[i];
     const a = t - s.t0;
@@ -803,6 +877,7 @@ M.film({
       drawShot(ctx, i, t);
     }
     if (look(i) !== 'dossier' && !(i > 0 && a < WHIP)) chapterChrome(ctx, t, ['chart', 'sheet'].includes(look(i)) ? 'paper' : look(i));
+    overlays(ctx, t);
     drawCaption(ctx, t);
   },
   post(ctx, u, t) {
