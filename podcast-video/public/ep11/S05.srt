@@ -1,179 +1,167 @@
 1
-00:00:00,112 --> 00:00:00,650
-Part five.
+00:00:00,000 --> 00:00:01,602
+Part five. The death watch.
 
 2
-00:00:01,075 --> 00:00:01,850
-The death watch.
-
-3
-00:00:02,262 --> 00:00:03,488
+00:00:02,032 --> 00:00:03,355
 So who's most exposed?
 
-4
-00:00:03,900 --> 00:00:06,050
+3
+00:00:04,133 --> 00:00:06,861
 Zitron points at the so-called neoclouds.
 
-5
-00:00:06,475 --> 00:00:07,262
+4
+00:00:06,931 --> 00:00:07,790
 They borrow money,
 
-6
-00:00:07,488 --> 00:00:08,625
+5
+00:00:07,883 --> 00:00:09,207
 buy Nvidia chips,
 
+6
+00:00:09,369 --> 00:00:10,971
+use those chips as collateral,
+
 7
-00:00:08,925 --> 00:00:10,812
-use those same chips as collateral,
+00:00:11,169 --> 00:00:13,050
+then rent the computing power to a few
 
 8
-00:00:11,200 --> 00:00:13,350
-then rent the computing power to a handful
+00:00:13,084 --> 00:00:16,335
+AI companies, often ones Nvidia invested in.
 
 9
-00:00:13,362 --> 00:00:14,412
-of AI companies.
-
-10
-00:00:14,825 --> 00:00:17,912
-Often the very companies Nvidia itself invested in.
-
-11
-00:00:18,338 --> 00:00:20,213
+00:00:16,764 --> 00:00:18,854
 Debt, chips, collateral,
 
-12
-00:00:20,425 --> 00:00:22,088
+10
+00:00:19,086 --> 00:00:21,083
 customers, and back to debt.
 
-13
-00:00:22,512 --> 00:00:23,600
+11
+00:00:21,641 --> 00:00:23,254
 He's put two of them on what he
 
-14
-00:00:23,612 --> 00:00:24,750
+12
+00:00:23,347 --> 00:00:24,752
 calls a death watch.
 
+13
+00:00:24,984 --> 00:00:28,038
+Nscale, which he says needs more money than
+
+14
+00:00:28,084 --> 00:00:31,544
+expected, and is still negotiating backing for a
+
 15
-00:00:25,162 --> 00:00:27,812
-Nscale, which he says just told investors it
+00:00:31,625 --> 00:00:33,831
+$45 billion data center
 
 16
-00:00:27,825 --> 00:00:29,713
-needs more money than expected,
+00:00:34,191 --> 00:00:36,002
+for Anthropic in West Virginia.
 
 17
-00:00:30,088 --> 00:00:32,750
-and is still negotiating backing for a forty-five
-
-18
-00:00:32,812 --> 00:00:35,287
-billion dollar data center for Anthropic in West
-
-19
-00:00:35,300 --> 00:00:35,787
-Virginia.
-
-20
-00:00:36,200 --> 00:00:38,863
+00:00:36,362 --> 00:00:40,031
 And Firmus, an Australian data center company that
 
-21
-00:00:38,875 --> 00:00:39,787
+18
+00:00:40,100 --> 00:00:41,331
 cut its IPO,
 
-22
-00:00:40,075 --> 00:00:40,725
+19
+00:00:41,494 --> 00:00:42,271
 then pulled it.
 
-23
-00:00:41,138 --> 00:00:43,250
-Meanwhile Lambda, another chip renter,
+20
+00:00:42,840 --> 00:00:44,675
+Lambda, another chip renter,
 
-24
-00:00:43,625 --> 00:00:45,100
-hopes to go public next year.
+21
+00:00:44,837 --> 00:00:46,230
+hopes to list next year.
 
-25
-00:00:45,525 --> 00:00:46,762
+22
+00:00:47,136 --> 00:00:48,854
 Why does Jensen matter here?
 
-26
-00:00:47,188 --> 00:00:49,062
-Because banks lent to these companies,
+23
+00:00:49,214 --> 00:00:50,932
+Banks lent to these companies,
 
-27
-00:00:49,238 --> 00:00:52,088
+24
+00:00:50,956 --> 00:00:53,939
 he argues, believing Nvidia would step in if
 
-28
-00:00:52,238 --> 00:00:53,175
+25
+00:00:54,009 --> 00:00:55,089
 anything went wrong.
 
-29
-00:00:53,588 --> 00:00:55,188
-Now a bank asks one question:
+26
+00:00:55,867 --> 00:00:57,596
+Now banks ask one question:
 
-30
-00:00:55,638 --> 00:00:56,950
+27
+00:00:57,910 --> 00:00:59,605
 is Nvidia backing this?
 
-31
-00:00:57,362 --> 00:00:58,975
-And if the answer is we're still waiting
+28
+00:01:00,174 --> 00:01:01,683
+If the answer is still waiting,
 
-32
-00:00:58,988 --> 00:01:00,725
-to hear, the money doesn't come.
+29
+00:01:01,753 --> 00:01:02,879
+the money doesn't come.
 
-33
-00:01:01,138 --> 00:01:01,950
+30
+00:01:03,309 --> 00:01:04,539
 It only takes one,
 
-34
-00:01:02,238 --> 00:01:02,788
+31
+00:01:04,574 --> 00:01:05,259
 he says.
+
+32
+00:01:05,747 --> 00:01:08,835
+One insolvency, and lenders ask whether the whole
+
+33
+00:01:08,870 --> 00:01:10,797
+sector is debt stacked on the same chips
+
+34
+00:01:10,820 --> 00:01:11,621
+and customers.
 
 35
-00:01:03,212 --> 00:01:06,025
-One insolvency, and lenders start asking whether the
+00:01:12,051 --> 00:01:14,814
+A tower where every floor rests on one
 
 36
-00:01:06,038 --> 00:01:08,138
-whole sector is just debt stacked on the
+00:01:14,884 --> 00:01:15,395
+beam.
 
 37
-00:01:08,150 --> 00:01:10,300
-same chips and the same customers.
-
-38
-00:01:10,762 --> 00:01:12,975
-Think of a tower where every floor rests
-
-39
-00:01:12,988 --> 00:01:13,800
-on the same beam.
-
-40
-00:01:14,212 --> 00:01:15,875
+00:01:16,068 --> 00:01:17,984
 Steve offers a fair counterpoint.
 
-41
-00:01:16,288 --> 00:01:17,962
+38
+00:01:18,889 --> 00:01:20,654
 Blaming one man isn't quite right,
 
-42
-00:01:18,200 --> 00:01:18,775
+39
+00:01:20,689 --> 00:01:21,398
 he says.
 
-43
-00:01:19,200 --> 00:01:20,612
+40
+00:01:21,757 --> 00:01:23,754
 They were all part of this together.
 
-44
-00:01:21,025 --> 00:01:22,488
+41
+00:01:24,184 --> 00:01:25,821
 So what does all this mean for people
 
-45
-00:01:22,500 --> 00:01:23,837
+42
+00:01:25,844 --> 00:01:27,725
 who never bought a single share?

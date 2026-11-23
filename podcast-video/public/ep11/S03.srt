@@ -1,227 +1,195 @@
 1
-00:00:00,112 --> 00:00:00,625
-Part three.
+00:00:00,000 --> 00:00:02,020
+Part three. The missing filing.
 
 2
-00:00:01,050 --> 00:00:01,888
-The missing filing.
-
-3
-00:00:02,300 --> 00:00:04,400
+00:00:02,589 --> 00:00:04,795
 Nvidia reported earnings this week,
 
+3
+00:00:04,899 --> 00:00:07,721
+under interim chief executive Colette Kress,
+
 4
-00:00:04,700 --> 00:00:06,550
-under its interim chief executive,
+00:00:08,081 --> 00:00:09,567
+the former finance chief.
 
 5
-00:00:06,762 --> 00:00:09,300
-Colette Kress, the former finance chief.
+00:00:09,927 --> 00:00:10,948
+On the surface:
 
 6
-00:00:09,712 --> 00:00:10,538
-On the surface,
+00:00:11,378 --> 00:00:12,411
+record numbers,
 
 7
-00:00:10,738 --> 00:00:12,250
-it was the same old story:
+00:00:12,771 --> 00:00:15,720
+beat expectations, raised forecast.
 
 8
-00:00:12,688 --> 00:00:14,913
-record numbers, beat expectations,
-
-9
-00:00:15,225 --> 00:00:16,338
-raised the forecast.
-
-10
-00:00:16,762 --> 00:00:18,438
+00:00:16,149 --> 00:00:18,576
 But Zitron spotted what wasn't there.
 
+9
+00:00:19,145 --> 00:00:22,036
+Normally, Nvidia files its quarterly report,
+
+10
+00:00:22,117 --> 00:00:24,846
+the ten-Q, alongside earnings.
+
 11
-00:00:18,850 --> 00:00:22,225
-Normally, Nvidia files its detailed quarterly report,
-
-12
-00:00:22,500 --> 00:00:23,125
-the ten-Q,
-
-13
-00:00:23,500 --> 00:00:25,150
-around the same time as earnings.
-
-14
-00:00:25,562 --> 00:00:26,512
+00:00:25,113 --> 00:00:26,215
 This time, nothing.
 
-15
-00:00:26,938 --> 00:00:28,225
+12
+00:00:26,889 --> 00:00:28,305
 The deadline, he says,
 
-16
-00:00:28,512 --> 00:00:29,525
-is December fourth,
+13
+00:00:28,328 --> 00:00:29,640
+is December 4th,
 
-17
-00:00:29,800 --> 00:00:31,950
+14
+00:00:29,873 --> 00:00:32,543
 and Kress promised it within the coming weeks.
 
-18
-00:00:32,375 --> 00:00:34,575
+15
+00:00:33,216 --> 00:00:35,619
 Bulls say it's just extra checks during the
 
-19
-00:00:34,588 --> 00:00:36,588
+16
+00:00:35,666 --> 00:00:37,814
 investigation into Jensen Huang.
 
+17
+00:00:38,382 --> 00:00:39,857
+Zitron isn't convinced:
+
+18
+00:00:39,938 --> 00:00:42,516
+the scandal broke just a week before earnings,
+
+19
+00:00:42,876 --> 00:00:45,186
+so the filing was likely nearly done.
+
 20
-00:00:37,000 --> 00:00:38,338
-Zitron isn't convinced.
-
-21
-00:00:38,750 --> 00:00:40,450
-Kress was the finance chief,
-
-22
-00:00:40,700 --> 00:00:43,175
-the scandal broke only a week before earnings,
-
-23
-00:00:43,450 --> 00:00:45,400
-so the document was likely nearly done.
-
-24
-00:00:45,825 --> 00:00:48,075
+00:00:45,674 --> 00:00:48,530
 His words: we need answers from Nvidia.
 
-25
-00:00:48,488 --> 00:00:49,150
+21
+00:00:49,307 --> 00:00:50,248
 On the scandal,
 
-26
-00:00:49,525 --> 00:00:51,000
+22
+00:00:50,283 --> 00:00:51,908
 he cites the Wall Street Journal,
 
-27
-00:00:51,350 --> 00:00:53,137
+23
+00:00:52,070 --> 00:00:54,439
 which he says now puts chip sales through
 
-28
-00:00:53,150 --> 00:00:55,725
-Megaspeed at around twelve billion dollars.
+24
+00:00:54,474 --> 00:00:56,192
+Megaspeed at around $12 billion.
 
-29
-00:00:56,138 --> 00:00:57,875
+25
+00:00:56,761 --> 00:00:58,526
 Those are reports and allegations,
 
-30
-00:00:58,112 --> 00:00:58,938
+26
+00:00:58,560 --> 00:00:59,431
 not findings.
 
-31
-00:00:59,350 --> 00:01:00,150
+27
+00:01:00,000 --> 00:01:00,790
 Then his guest,
 
-32
-00:01:00,400 --> 00:01:02,662
+28
+00:01:00,894 --> 00:01:03,773
 Steve from the hardware channel Gamers Nexus,
 
+29
+00:01:03,936 --> 00:01:05,654
+pulls up Nvidia's own numbers.
+
+30
+00:01:06,560 --> 00:01:09,915
+Revenue booked to Singapore went from about $760
+
+31
+00:01:09,996 --> 00:01:11,749
+million in one quarter
+
+32
+00:01:12,214 --> 00:01:14,605
+to about $4 billion a year later.
+
 33
-00:01:02,925 --> 00:01:05,350
-pulls up something from Nvidia's own numbers.
+00:01:15,256 --> 00:01:16,730
+Over one fiscal year,
 
 34
-00:01:05,762 --> 00:01:08,512
-Revenue booked to Singapore went from about seven
+00:01:16,951 --> 00:01:18,390
+roughly $24 billion.
 
 35
-00:01:08,525 --> 00:01:11,363
-hundred sixty million dollars in one quarter to
-
-36
-00:01:11,375 --> 00:01:13,138
-about four billion a year later.
-
-37
-00:01:13,550 --> 00:01:16,138
-Over one fiscal year it reached roughly twenty-four
-
-38
-00:01:16,150 --> 00:01:16,538
-billion.
-
-39
-00:01:16,950 --> 00:01:18,500
+00:01:19,040 --> 00:01:21,084
 And then it vanished from the breakdown,
 
-40
-00:01:18,900 --> 00:01:21,488
+36
+00:01:21,386 --> 00:01:24,393
 after Nvidia changed how it reports revenue by
 
+37
+00:01:24,486 --> 00:01:25,008
+region.
+
+38
+00:01:25,647 --> 00:01:26,738
+Steve's question:
+
+39
+00:01:27,168 --> 00:01:29,234
+a company that can tell when a driver
+
+40
+00:01:29,339 --> 00:01:31,545
+leaks to a reviewer can't track its own
+
 41
-00:01:21,500 --> 00:01:22,125
-location.
+00:01:31,591 --> 00:01:32,207
+chips?
 
 42
-00:01:22,550 --> 00:01:24,125
-Steve's question is simple:
+00:01:33,263 --> 00:01:35,492
+One more thing doesn't add up for Zitron.
 
 43
-00:01:24,588 --> 00:01:26,238
-a company that can tell when one of
+00:01:35,980 --> 00:01:39,428
+In August, Nvidia promised 70% growth next year.
 
 44
-00:01:26,250 --> 00:01:28,575
-its drivers leaks to a reviewer can't track
+00:01:40,101 --> 00:01:42,562
+Yet the Journal reported Jensen worried about a
 
 45
-00:01:28,738 --> 00:01:29,863
-where its own chips end up?
+00:01:42,644 --> 00:01:44,687
+glut of chip-making capacity.
 
 46
-00:01:30,275 --> 00:01:32,062
-And one more thing doesn't add up for
-
-47
-00:01:32,075 --> 00:01:32,550
-Zitron.
-
-48
-00:01:32,962 --> 00:01:36,262
-In August, Nvidia promised seventy percent growth next
-
-49
-00:01:36,275 --> 00:01:36,538
-year.
-
-50
-00:01:36,950 --> 00:01:39,488
-Yet the Journal reported Jensen had worried about
-
-51
-00:01:39,500 --> 00:01:41,738
-a glut of spare chip-making capacity.
-
-52
-00:01:42,150 --> 00:01:43,400
+00:01:45,256 --> 00:01:46,684
 You can't easily have both.
 
-53
-00:01:43,825 --> 00:01:44,250
-The board,
+47
+00:01:47,114 --> 00:01:48,251
+The board, he says,
 
-54
-00:01:44,675 --> 00:01:45,225
-he says,
-
-55
-00:01:45,575 --> 00:01:47,812
+48
+00:01:48,391 --> 00:01:50,933
 has made clear Jensen isn't coming back.
 
-56
-00:01:48,225 --> 00:01:50,325
-So the real question is whether anyone can
-
-57
-00:01:50,338 --> 00:01:51,100
-do what he did.
+49
+00:01:51,607 --> 00:01:53,453
+So can anyone do what he did?

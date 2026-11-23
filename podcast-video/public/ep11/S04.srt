@@ -1,251 +1,191 @@
 1
-00:00:00,112 --> 00:00:00,638
+00:00:00,000 --> 00:00:00,731
 Part four.
 
 2
-00:00:01,050 --> 00:00:02,088
+00:00:01,498 --> 00:00:02,624
 Nobody can replace him.
 
 3
-00:00:02,500 --> 00:00:04,138
-You've probably heard the reassurance:
+00:00:02,926 --> 00:00:04,203
+The reassurance goes:
 
 4
-00:00:04,425 --> 00:00:05,750
+00:00:04,563 --> 00:00:06,002
 whatever Nvidia loses,
 
 5
-00:00:06,000 --> 00:00:08,012
-AMD and Broadcom will pick up.
+00:00:06,072 --> 00:00:07,709
+AMD and Broadcom pick up.
 
 6
-00:00:08,425 --> 00:00:10,938
-Zitron thinks that misses what Jensen actually did.
+00:00:08,371 --> 00:00:10,600
+Zitron says that misses what Jensen did.
 
 7
-00:00:11,350 --> 00:00:12,188
+00:00:10,971 --> 00:00:11,981
 Start with cash.
 
 8
-00:00:12,600 --> 00:00:14,012
-Over the past twelve months,
+00:00:12,759 --> 00:00:13,502
+Over the past year,
 
 9
-00:00:14,138 --> 00:00:17,425
-he says, Apple generated around one hundred thirty-six
+00:00:13,537 --> 00:00:17,299
+he says, Apple generated around $136 billion of
 
 10
-00:00:17,438 --> 00:00:19,275
-billion dollars of free cash flow.
+00:00:17,334 --> 00:00:18,147
+free cash flow.
 
 11
-00:00:19,688 --> 00:00:20,225
-Nvidia,
+00:00:18,518 --> 00:00:20,910
+Nvidia, about $127 billion.
 
 12
-00:00:20,588 --> 00:00:22,338
-about one hundred twenty-seven billion.
+00:00:21,653 --> 00:00:23,801
+Microsoft, around $76 billion.
 
 13
-00:00:22,750 --> 00:00:24,750
-Microsoft, around seventy-six.
-
-14
-00:00:25,175 --> 00:00:25,787
+00:00:24,219 --> 00:00:25,380
 And Broadcom?
 
-15
-00:00:26,200 --> 00:00:27,462
-About thirty-nine billion.
+14
+00:00:25,797 --> 00:00:27,249
+About $39 billion.
 
-16
-00:00:27,875 --> 00:00:29,412
+15
+00:00:28,119 --> 00:00:29,838
 Roughly a quarter of Nvidia's.
 
+16
+00:00:30,256 --> 00:00:31,498
+Broadcom, he says,
+
 17
-00:00:29,850 --> 00:00:30,588
-Here's the catch.
+00:00:31,533 --> 00:00:34,900
+already broke what he calls Jensen's golden rule:
 
 18
-00:00:31,012 --> 00:00:31,537
-Broadcom,
-
-19
-00:00:31,912 --> 00:00:32,438
-he says,
-
-20
-00:00:32,800 --> 00:00:35,312
-has already broken what he calls Jensen's golden
-
-21
-00:00:35,325 --> 00:00:35,600
-rule:
-
-22
-00:00:36,050 --> 00:00:37,700
+00:00:35,364 --> 00:00:37,187
 never hold your customers' bags.
 
+19
+00:00:37,535 --> 00:00:40,809
+He says Broadcom is backstopping around $60 billion
+
+20
+00:00:40,971 --> 00:00:42,992
+of debt to lease chips to Anthropic.
+
+21
+00:00:43,421 --> 00:00:44,675
+Jensen, in his view,
+
+22
+00:00:44,768 --> 00:00:45,615
+never would have.
+
 23
-00:00:38,125 --> 00:00:41,225
-He says Broadcom is backstopping around sixty billion
+00:00:46,521 --> 00:00:48,727
+Rivals tried copying his deals,
 
 24
-00:00:41,238 --> 00:00:43,888
-dollars of debt to lease chips to Anthropic.
+00:00:48,820 --> 00:00:50,759
+but only Jensen had the balance sheet.
 
 25
-00:00:44,300 --> 00:00:44,725
-Jensen,
-
-26
-00:00:45,162 --> 00:00:45,725
-in his view,
-
-27
-00:00:46,150 --> 00:00:47,225
-would never have done that.
-
-28
-00:00:47,638 --> 00:00:49,550
-Rivals did try copying his deals,
-
-29
-00:00:49,800 --> 00:00:50,638
-Zitron says.
-
-30
-00:00:51,062 --> 00:00:51,725
-They didn't work,
-
-31
-00:00:51,962 --> 00:00:54,075
-because only Jensen had the balance sheet to
-
-32
-00:00:54,088 --> 00:00:54,562
-back them.
-
-33
-00:00:54,988 --> 00:00:56,425
+00:00:51,328 --> 00:00:53,034
 Then there were the giant headlines.
 
-34
-00:00:56,850 --> 00:00:58,662
-The Wall Street Journal now reports,
+26
+00:00:53,463 --> 00:00:54,915
+The Journal now reports,
 
-35
-00:00:58,775 --> 00:01:01,375
-he says, that the firms behind a widely
+27
+00:00:54,938 --> 00:00:58,386
+he says, that the firms behind a half-trillion
 
-36
-00:01:01,388 --> 00:01:05,337
-covered half-trillion dollar AI infrastructure fund aren't committed
+28
+00:00:58,432 --> 00:00:59,559
+dollar AI fund
 
-37
-00:01:05,350 --> 00:01:06,638
-to raising any money,
+29
+00:00:59,918 --> 00:01:01,846
+aren't committed to raising any money,
 
-38
-00:01:07,025 --> 00:01:08,588
-and that the number isn't meaningful.
+30
+00:01:02,159 --> 00:01:03,703
+and the number isn't meaningful.
 
-39
-00:01:09,025 --> 00:01:11,950
-He also recalls Nvidia's hundred billion dollar plan
+31
+00:01:04,191 --> 00:01:06,722
+Then Nvidia's $100 billion plan
 
-40
-00:01:11,962 --> 00:01:12,938
-with OpenAI,
+32
+00:01:07,151 --> 00:01:10,252
+with OpenAI, which Jensen later called never a
 
-41
-00:01:13,312 --> 00:01:15,288
-which he says Jensen later called never a
-
-42
-00:01:15,300 --> 00:01:15,800
+33
+00:01:10,321 --> 00:01:10,995
 commitment.
 
-43
-00:01:16,212 --> 00:01:18,762
+34
+00:01:11,355 --> 00:01:14,025
 And Nvidia kept writing smaller checks to keep
 
-44
-00:01:18,775 --> 00:01:19,587
+35
+00:01:14,095 --> 00:01:15,198
 buyers alive.
 
-45
-00:01:20,025 --> 00:01:22,150
+36
+00:01:15,766 --> 00:01:18,367
 Perplexity, the AI search startup,
 
-46
-00:01:22,425 --> 00:01:24,475
-is getting around three billion dollars,
+37
+00:01:18,599 --> 00:01:20,213
+gets around $3 billion,
 
-47
-00:01:24,638 --> 00:01:26,525
-he says, because it's one of the few
+38
+00:01:20,294 --> 00:01:22,941
+he says, because it buys so much compute.
 
-48
-00:01:26,538 --> 00:01:29,088
-companies that buys a lot of AI computing
+39
+00:01:23,429 --> 00:01:26,936
+His conclusion: this industry ran on Jensen's word
 
-49
-00:01:29,100 --> 00:01:29,488
-power.
+40
+00:01:26,982 --> 00:01:28,503
+and Nvidia's balance sheet.
 
-50
-00:01:29,912 --> 00:01:30,600
-His conclusion:
+41
+00:01:28,933 --> 00:01:31,789
+He points to reports that Jensen told customers
 
-51
-00:01:31,038 --> 00:01:33,950
-this industry ran on Jensen's word and Nvidia's
+42
+00:01:31,986 --> 00:01:34,680
+to collect prepayments from their own customers.
 
-52
-00:01:33,962 --> 00:01:34,700
-balance sheet.
+43
+00:01:35,109 --> 00:01:37,663
+To Zitron, a sign the money was running
 
-53
-00:01:35,112 --> 00:01:37,400
-He even points to reports that Jensen told
-
-54
-00:01:37,412 --> 00:01:40,262
-customers to start collecting prepayments from their own
-
-55
-00:01:40,275 --> 00:01:40,925
-customers.
-
-56
-00:01:41,338 --> 00:01:41,862
-To Zitron,
-
-57
-00:01:42,225 --> 00:01:43,837
-that's a warning that the money was running
-
-58
-00:01:43,850 --> 00:01:44,137
+44
+00:01:37,733 --> 00:01:38,128
 out.
 
-59
-00:01:44,550 --> 00:01:46,387
-If this is helping you follow the AI
+45
+00:01:38,615 --> 00:01:40,682
+If this helps you follow the AI money,
 
-60
-00:01:46,400 --> 00:01:48,975
-money story, subscribing is how you'll catch the
+46
+00:01:40,763 --> 00:01:42,841
+subscribe to catch the next case file.
 
-61
-00:01:48,988 --> 00:01:49,950
-next case file.
-
-62
-00:01:50,362 --> 00:01:51,700
+47
+00:01:43,329 --> 00:01:45,035
 Because without that backstop,
 
-63
-00:01:51,988 --> 00:01:54,100
+48
+00:01:45,059 --> 00:01:47,648
 some companies are suddenly very exposed.
