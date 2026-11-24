@@ -1,0 +1,71 @@
+=== TITLE ===
+Anthropic IPO, Boom or Bust? Gary Marcus vs Aaron Levie
+
+(backup titles)
+Bull vs Bear: Gary Marcus and Aaron Levie on the $1.4 Trillion Anthropic IPO
+Anthropic IPO Explained: The Skeptic vs the CEO Who's Buying Shares
+
+=== THUMBNAIL ===
+Main: out/ep12-thumbnail-A.png  ("ANTHROPIC IPO / BOOM OR BUST?", both faces)
+Test & Compare: A + B + C
+  B = out/ep12-thumbnail-B.png  ("$1.4T / EVER PROFITABLE?", Marcus)
+  C = out/ep12-thumbnail-C.png  ("BEAR VS BULL / ANTHROPIC IPO")
+
+=== DESCRIPTION (copy everything between the lines) ===
+--------------------------------------------------------------------------------
+Days before Anthropic's record IPO, AI skeptic Gary Marcus made the case against it on Big Technology. Then Box CEO Aaron Levie made the case for it. Then the market voted. Here's the bear case, the bull case, what happened on listing day, and the one number both of them say will decide it.
+Recorded before the Nov 19 listing; share prices as of Nov 20.
+
+Two hours of Big Technology, explained in 8 animated minutes:
+- Marcus: why a great product can still be a bad business (the lemonade test)
+- The "trillion-pound baby": growth from +147% to +47% a quarter
+- Levie: $1.4B to $17B a quarter, and 11,900 big customers
+- Round two: what each side conceded
+- Listing day: $83 to ~$111 to ~$87
+
+0:00 Bull vs Bear
+0:27 Part 1: The bear case
+1:40 Part 2: The trillion-pound baby
+3:12 Part 3: The bull case
+4:45 Part 4: Round two
+6:25 Part 5: Then the market voted
+7:02 Part 6: The deciding number
+
+This is an independent animated summary and commentary. It presents Gary Marcus's and Aaron Levie's views as they stated them, not as established fact, and is not financial advice. Allegations mentioned are reports, not findings. Narration is AI-generated (voice by ElevenLabs, elevenlabs.io). All credit for the original episodes goes to Big Technology Podcast (Alex Kantrowitz, with Gary Marcus and Aaron Levie). Watch the full episodes:
+▶ Why The Anthropic IPO Will Fail — With Gary Marcus https://www.youtube.com/watch?v=9Y4HDQnvCas
+▶ Why Anthropic Will Succeed On The Public Market — With Aaron Levie https://www.youtube.com/watch?v=2n24npKhP6g
+
+Watch next:
+▶ Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble? https://www.youtube.com/watch?v=dXh1BTEHYMc
+▶ Ed Zitron WARNS: Generative AI Is a $1 Trillion Con https://www.youtube.com/watch?v=5uqe1EsO-F0
+
+PHOTO CREDITS
+Gary Marcus photo: Web Summit, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Gary_Marcus_at_Web_Summit_2022.jpeg (background removed, cropped, mirrored)
+Aaron Levie photo: TechCrunch, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Aaron_Levie.jpg (background removed, cropped)
+Ed Zitron photo: Web Summit, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Ed_Zitron_speaking_at_the_Web_Summit.jpg (background removed and cropped)
+
+Subscribe for the AI money story, explained every week.
+
+#AnthropicIPO #AIBubble #GaryMarcus
+--------------------------------------------------------------------------------
+
+=== TAGS ===
+Anthropic IPO, Anthropic stock, ANT stock, Anthropic IPO explained, Gary Marcus, Aaron Levie, Box, Big Technology Podcast, Alex Kantrowitz, AI bubble, bull vs bear, Claude, Claude Code, AI agents, AI stocks, tech IPO, Ed Zitron
+
+=== PINNED COMMENT ===
+Bear or bull: who's right about Anthropic, Marcus or Levie? Tell us below.
+Last episode, Ed Zitron called the IPO "the last money out the door": https://www.youtube.com/watch?v=dXh1BTEHYMc
+
+=== STUDIO SETTINGS ===
+- Video language + title/description language: English
+- Category: News & Politics (or Education)
+- Schedule: Thursday Nov 26, 04:00 WIB (= Wednesday 4 pm New York, the day before Thanksgiving)
+
+=== END SCREEN (last 20 s: 7:55-8:15) ===
+Left slot: Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble? https://www.youtube.com/watch?v=dXh1BTEHYMc
+Right slot: Ed Zitron WARNS: Generative AI Is a $1 Trillion Con https://www.youtube.com/watch?v=5uqe1EsO-F0
+Round slot (bottom centre): Subscribe
+
+=== CARDS ===
+1:42  Ed Zitron WARNS: Generative AI Is a $1 Trillion Con   teaser: "Zitron's take on the AI money"
+7:31  Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?   teaser: "The $21B bar, explained"
