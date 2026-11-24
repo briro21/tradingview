@@ -312,3 +312,40 @@ export const V3Ep11B: React.FC = () => (
     </div>
   </Bg>
 );
+
+// ---------- Episode 12: Bull vs Bear on the Anthropic IPO (Marcus vs Levie) ----------
+const M12 = "thumbs/photo_marcus.png", L12 = "thumbs/photo_levie.png";
+const center: React.CSSProperties = { position: "absolute", left: 0, right: 0, textAlign: "center" };
+
+/** A: both faces, "ANTHROPIC IPO / BOOM / OR BUST?". */
+export const V3Ep12A: React.FC = () => (
+  <Bg dark>
+    <Guest n={12} height={660} left={-110} src={M12} />
+    <Guest n={12} height={660} left={800} src={L12} />
+    <div style={{ ...center, top: 30 }}><Big size={96} color="#FFFFFF">ANTHROPIC IPO</Big></div>
+    <div style={{ ...center, top: 200, textShadow: "0 6px 24px #000" }}><Big size={160} color={yellow}>BOOM</Big><Big size={120} color={red} style={{ marginTop: 6 }}>OR BUST?</Big></div>
+  </Bg>
+);
+
+/** B: the bear alone, "$1.4T / EVER PROFITABLE?". */
+export const V3Ep12B: React.FC = () => (
+  <Bg dark>
+    <Guest n={12} height={700} left={10} src={M12} />
+    <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
+      <Big size={190} color={yellow}>$1.4T</Big>
+      <Big size={110} color="#FFFFFF" style={{ marginTop: 6 }}>EVER</Big>
+      <Big size={120} color={red} style={{ marginTop: 4 }}>PROFITABLE?</Big>
+    </div>
+  </Bg>
+);
+
+/** C: "BEAR vs BULL" labels over the two faces. */
+export const V3Ep12C: React.FC = () => (
+  <Bg dark>
+    <Guest n={12} height={660} left={-110} src={M12} />
+    <Guest n={12} height={660} left={800} src={L12} />
+    <div style={{ position: "absolute", left: 60, top: 40 }}><Big size={130} color={red}>BEAR</Big></div>
+    <div style={{ position: "absolute", right: 60, top: 40 }}><Big size={130} color="#3DDC84">BULL</Big></div>
+    <div style={{ ...center, top: 260, textShadow: "0 6px 24px #000" }}><Big size={150} color="#FFFFFF">VS</Big><Big size={72} color={yellow} style={{ marginTop: 10 }}>ANTHROPIC IPO</Big></div>
+  </Bg>
+);

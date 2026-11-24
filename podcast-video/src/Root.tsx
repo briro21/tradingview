@@ -16,7 +16,7 @@ import { ThumbM, ThumbN, ThumbO } from "./episodes/ep5/Thumbnails";
 import { EP6_FRAMES, Episode6 } from "./episodes/ep6/Video";
 import { ThumbP, ThumbQ, ThumbR } from "./episodes/ep6/Thumbnails";
 import { EP7_FRAMES, Episode7 } from "./episodes/ep7/Video";
-import { V3Ep1, V3Ep2, V3Ep3, V3Ep4, V3Ep5, V3Ep6, V3Ep8A, V3Ep8B, V3Ep8C, V3Ep9A, V3Ep9B, V3Ep9C, V3Ep10B, V3Ep10C, V3Ep11A, V3Ep11B, V3Ep11C } from "./ThumbnailsV3";
+import { V3Ep1, V3Ep2, V3Ep3, V3Ep4, V3Ep5, V3Ep6, V3Ep8A, V3Ep8B, V3Ep8C, V3Ep9A, V3Ep9B, V3Ep9C, V3Ep10B, V3Ep10C, V3Ep11A, V3Ep11B, V3Ep11C, V3Ep12A, V3Ep12B, V3Ep12C } from "./ThumbnailsV3";
 import { EP8_FRAMES, Episode8 } from "./episodes/ep8/Video";
 import { Opening, openingProps } from "./opening/Opening";
 import { ColdOpen } from "./opening/ColdOpen";
@@ -339,6 +339,9 @@ export const Root: React.FC = () => (
     <Still id="Ep11ThumbA" component={V3Ep11A} width={1280} height={720} />
     <Still id="Ep11ThumbB" component={V3Ep11B} width={1280} height={720} />
     <Still id="Ep11ThumbC" component={V3Ep11C} width={1280} height={720} />
+    <Still id="Ep12ThumbA" component={V3Ep12A} width={1280} height={720} />
+    <Still id="Ep12ThumbB" component={V3Ep12B} width={1280} height={720} />
+    <Still id="Ep12ThumbC" component={V3Ep12C} width={1280} height={720} />
     <Still id="Ep10ThumbB" component={V3Ep10B} width={1280} height={720} />
     <Still id="Ep10ThumbC" component={V3Ep10C} width={1280} height={720} />
     <Still id="Ep8ThumbA" component={V3Ep8A} width={1280} height={720} />
