@@ -12,7 +12,7 @@ const LEVIE = "thumbs/photo_levie.png";
 
 /** Marcus vs Levie in 30 seconds. */
 export const SH27: Beat[] = [
-  { at: "Gary Marcus says Anthropic", drawn: true, items: [P(MARCUS, 500, 380, 520, 576), T("BEAR:", 500, 800, { size: 120 }), T("EVER PROFITABLE?", 500, 950, { size: 104, color: red })] },
+  { at: "Gary Marcus says Anthropic", drawn: true, items: [P(MARCUS, 500, 380, 520, 576), T("BEAR:", 500, 800, { size: 120 }), T("EVER PROFITABLE?", 500, 950, { size: 84, color: red })] },
   { at: "Box CEO Aaron Levie says", items: [P(LEVIE, 500, 380, 460, 520), T("BULL:", 500, 800, { size: 120 }), T("WALLETS ARE VOTING", 500, 950, { size: 90, color: red, at: "voting with their wallets" })] },
   { at: "Marcus: growth fell from", items: [I("cliff", 500, 330, 2.2), T("147% → 47%", 500, 640, { size: 130, color: red, at: "47%" }), H("growth per quarter", 500, 800, { size: 66 })] },
   { at: "Levie: revenue went from", items: [I("rocket", 500, 330, 2.2), T("$1.4B → $17B", 500, 640, { size: 120, color: red, at: "$17 billion" }), H("revenue per quarter", 500, 800, { size: 66 })] },
