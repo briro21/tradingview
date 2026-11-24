@@ -61,7 +61,7 @@ Last episode, Ed Zitron's take: https://www.youtube.com/watch?v=dXh1BTEHYMc
 === STUDIO SETTINGS ===
 - Video language + title/description language: English
 - Category: News & Politics (or Education)
-- Schedule: Thursday Nov 26, 04:00 WIB (= Wednesday 4 pm New York, the day before Thanksgiving)
+- Schedule: Wednesday Nov 25, 04:00 WIB (= Tuesday 4 pm New York). Fallback: Thursday Nov 26, 04:00 WIB if Ep11 is still climbing fast in its first 24 h.
 
 === END SCREEN (last 20 s: 8:00-8:20) ===
 Left slot: Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble? https://www.youtube.com/watch?v=dXh1BTEHYMc
