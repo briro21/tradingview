@@ -7,7 +7,7 @@
  "case": 12,
  "date": "Nov 2026",
  "endscreen": 20,
- "duration": 494.533,
+ "duration": 499.567,
  "nexts": [
   [
    72,
@@ -38,5 +38,6 @@
  "endVideos": [
   "Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?",
   "Ed Zitron WARNS: Generative AI Is a $1 Trillion Con"
- ]
+ ],
+ "endAsk": "Comment below: which podcast should we break down next?"
 }

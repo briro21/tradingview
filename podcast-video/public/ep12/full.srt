@@ -869,3 +869,11 @@ explained every week,
 218
 00:07:53,315 --> 00:07:54,487
 subscribe.
+
+219
+00:07:54,533 --> 00:07:56,019
+And tell us in the comments:
+
+220
+00:07:56,507 --> 00:07:59,502
+which long podcast should we break down next?

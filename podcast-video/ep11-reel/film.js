@@ -801,7 +801,7 @@ function endScreen(ctx, t, u) {
   const k = E.outCubic(clamp(u / 0.8));
   ctx.textAlign = 'center'; ctx.fillStyle = D.ink; ctx.globalAlpha = k;
   ctx.font = font(96, 400, 'Slab'); ctx.fillText('WATCH NEXT', W / 2, 170);
-  ctx.font = font(38, 600, UI); ctx.fillText('The AI money story continues', W / 2, 232);
+  ctx.font = font(38, 600, UI); ctx.fillText(M.CFG.endAsk || 'The AI money story continues', W / 2, 232);
   const vids = M.CFG.endVideos || [];
   [[150, 300], [1010, 300]].forEach(([x, y], j) => {
     const w = 760, h = 428;

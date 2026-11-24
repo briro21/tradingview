@@ -215,3 +215,10 @@ Both had the same free TTS voice, so the voice was not the difference. What Ep8 
 - Thumbnail: dark, tight face, 2-3 word quote ("IT'S A CON").
 Ep10 lacked the roadmap and open loop and opened Part 1 on 2019 backstory.
 Ep8's only sharp drop is the last ~15 s (outro): the 20 s end screen now catches those viewers.
+
+### Viewer ask: "which podcast next?" (from Ep12)
+- After the S06 subscribe line, a separate tiny scene S07 (~75 chars, so S06's voice is never
+  regenerated): "And tell us in the comments: which long podcast should we break down next?"
+  Scene: text only (WHICH PODCAST / SHOULD WE DO NEXT? / tell us in the comments).
+- film.json `endAsk` puts the same ask under WATCH NEXT on the end screen.
+- Pinned comment leads with the ask; read the replies before each topic-research round.

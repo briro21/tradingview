@@ -279,4 +279,12 @@ const S06: Beat[] = [
   },
 ];
 
-export const EP12_SCENES: Record<string, Beat[]> = { S00, S01, S02, S03, S04, S05, S06 };
+// Viewer ask: which podcast next (comments = engagement + research for the next episode).
+const S07: Beat[] = [
+  {
+    at: "And tell us in the",
+    items: [T("WHICH PODCAST", 800, 300, { size: 130 }), T("SHOULD WE DO NEXT?", 800, 460, { size: 110, color: red, at: "break down next" }), H("tell us in the comments", 800, 620, { size: 64, at: "comments" })],
+  },
+];
+
+export const EP12_SCENES: Record<string, Beat[]> = { S00, S01, S02, S03, S04, S05, S06, S07 };
