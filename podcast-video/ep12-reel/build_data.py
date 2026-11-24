@@ -1,0 +1,170 @@
+"""Turn the Ep8 whiteboard beats (src/episodes/ep8/scenes.ts, exported to JSON) into the reel's data.js.
+
+    python3 ep8-reel/build_data.py <src.json>
+
+src.json = {scenes, icons, theme, timing} (exported from the Remotion sources with esbuild).
+Every shot keeps its beat's content and its narration phrase, so picture stays locked to the voice.
+Writes ep8-reel/data.js: shots (seconds on the film timeline), captions, icons, HITS (in beats).
+"""
+
+import json
+import re
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+src = json.load(open(sys.argv[1]))
+grid = json.load(open(HERE / "beats.json"))
+P, O = grid["period"], grid["offset"]
+U = lambda t: round((t - O) / P, 4)
+
+norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
+SUBS = {"≈": "~", "≠": "isn't", "tokens isn't revenue": "tokens aren't revenue"}
+
+
+def fix(s):
+    for a, b in SUBS.items():
+        s = s.replace(a, b)
+    return s
+
+
+def find(words, phrase, start=0):
+    t = norm(phrase)
+    for i in range(start, len(words)):
+        j, x = i, ""
+        while j < len(words) and len(x) < len(t):
+            x += norm(words[j][0])
+            j += 1
+        if x == t:
+            return i
+    return -1
+
+
+shots, captions, hits, used, allwords = [], [], [], set(), []
+off = 0.0
+order = list(src["scenes"].keys())
+for sid in order:
+    tm = src["timing"][sid]
+    words = tm["words"]
+    beats = src["scenes"][sid]
+    idx = [0] * len(beats)
+    k = 0
+    for bi, b in enumerate(beats):
+        i = find(words, b["at"], k)
+        assert i >= 0, (sid, b["at"])
+        idx[bi] = i
+        k = i + 1
+    for w in words:
+        allwords.append([fix(w[0]), round(off + w[1], 3), round(off + w[2], 3)])
+    for c in tm["cues"]:
+        captions.append([round(off + c[0], 3), round(off + c[1], 3), fix(c[2])])
+    for bi, b in enumerate(beats):
+        w0 = idx[bi]
+        w1 = idx[bi + 1] if bi + 1 < len(beats) else len(words)
+        t0 = 0.0 if (sid == order[0] and bi == 0) else off + max(0.0, words[w0][1] - 0.12)
+        part = b["at"].lower().startswith("part ")
+        cursor = t0 + (0.35 if part else 0.25)
+        items = []
+        for it in b["items"]:
+            it = dict(it)
+            if "rows" in it:
+                it["rows"] = [dict(r) for r in it["rows"]]
+            if "text" in it:
+                it["text"] = fix(it["text"])
+            for kk in ("prefix", "suffix"):
+                if kk in it:
+                    it[kk] = fix(it[kk])
+            if b.get("drawn"):
+                t = -1.0
+            elif it.get("at"):
+                j = find(words, it["at"], w0)
+                assert w0 <= j < w1, (sid, b["at"], it["at"])
+                t = max(cursor - 0.15, off + words[j][1] - 0.06)
+            else:
+                t = cursor
+            cursor = (t if t >= 0 else cursor) + (0.55 if it["k"] in ("icon", "image") else 0.4)
+            it["t"] = round(t, 3)
+            # rich scenes (bars/line/sheet/flow/timeline): every row lands on its own word
+            for key in ("rows",):
+                for r in it.get(key, []):
+                    r = r
+                    if r.get("at"):
+                        j = find(words, r["at"], w0)
+                        assert w0 <= j < w1, (sid, b["at"], "row", r["at"])
+                        r["rt"] = round(off + words[j][1] - 0.06, 3)
+                    else:
+                        r["rt"] = it["t"]
+            if it.get("rows"):   # a rich scene starts on its first data word: until then the
+                # narration runs as big kinetic words instead of an empty chart
+                it["t"] = min(r["rt"] for r in it["rows"])
+            if it.get("noteAt"):
+                j = find(words, it["noteAt"], w0)
+                assert w0 <= j < w1, (sid, b["at"], "note", it["noteAt"])
+                it["nt"] = round(off + words[j][1] - 0.06, 3)
+            if it["k"] == "icon":
+                used.add(it["name"])
+            items.append(it)
+        # the cut must open on the new image: the first unbound item is already formed as the whip lands
+        if not b.get("drawn") and not part and items and not items[0].get("at") and not items[0].get("rows"):
+            items[0]["t"] = round(t0 - 0.7, 3)
+        shots.append({"id": f"{sid}.{bi}", "t0": round(t0, 3), "part": part, "drawn": bool(b.get("drawn")), "items": items})
+    off += tm["frames"] / 30
+
+# Real people get their real (freely licensed) photos: Wikimedia Commons, see docs/credits.md.
+NAMES = {"ZITRON": "zitron", "ED ZITRON": "zitron", "BARTLETT": "bartlett", "CUBAN": "cuban", "MARK CUBAN": "cuban", "MARCUS": "marcus", "GARY MARCUS": "marcus", "LEVIE": "levie", "AARON LEVIE": "levie"}
+for i, s in enumerate(shots):
+    s["t1"] = shots[i + 1]["t0"] if i + 1 < len(shots) else round(off, 3)
+for s in shots:
+    said = " ".join(w[0] for w in allwords if s["t0"] <= w[1] < s["t1"])
+    for it in s["items"]:
+        if it["k"] == "image":  # licensed photos: cold open stands on the frame edge, others sit in place
+            it["src"] = it["src"].split("/")[-1]
+            if not s["drawn"]:
+                it["anchor"] = "center"
+    has_photo = {it["src"].split("/")[-1].split("_")[1].split(".")[0] for it in s["items"] if it["k"] == "image"}
+    for i, it in enumerate(list(s["items"])):
+        if it["k"] == "icon" and it["name"] == "person" and "Zitron" in said and "intern" not in said:
+            s["items"][s["items"].index(it)] = {"k": "image", "src": "photo_zitron.png", "x": it["x"], "y": it["y"],
+                                                 "w": 0, "h": 250 * it.get("s", 1), "anchor": "center", "t": it["t"]}
+            has_photo.add("zitron")
+    for it in list(s["items"]):
+        who = NAMES.get(it.get("text", "").upper()) if it["k"] == "text" else None
+        if who and who not in has_photo:
+            size = it.get("size", 80)
+            r = 62 if size < 100 else 72
+            est = len(it["text"]) * size * 0.47
+            s["items"].append({"k": "face", "who": who, "x": round(it["x"] - est / 2 - r - 22), "y": it["y"], "r": r, "t": it["t"]})
+
+for i, s in enumerate(shots):
+    s["t1"] = shots[i + 1]["t0"] if i + 1 < len(shots) else round(off, 3)
+    s["dir"] = 1 if i % 2 == 0 else -1
+
+# Sound: one accent per visual event, voiced by sfx.mjs. Kept sparse: it sits under a voice.
+RED = src["theme"]["red"]
+for i, s in enumerate(shots):
+    if i:
+        if s["part"]:
+            hits.append([U(s["t0"]), f"{s['id']} part card", "impact", {"gain": 0.45}])
+        else:
+            hits.append([U(s["t0"] + 0.18), f"{s['id']} whip", "whoosh", {"len": 0.35, "gain": 0.16, "pan": 0.3 * s["dir"]}])
+    for it in s["items"]:
+        if it["t"] < 0:
+            continue
+        if it["k"] == "text" and it.get("font") != "hand" and it.get("color") == RED and it.get("size", 64) >= 90:
+            hits.append([U(it["t"]), f"{s['id']} slam {it['text'][:16]}", "thud", {"gain": 0.3}])
+        elif it["k"] == "count":
+            hits.append([U(it["t"] + 0.9), f"{s['id']} count lands", "bell", {"pitch": "D6", "gain": 0.12}])
+        elif it["k"] == "image":
+            hits.append([U(it["t"] + 0.25), f"{s['id']} portrait", "thud", {"gain": 0.3}])
+        elif it["k"] == "icon":
+            hits.append([U(it["t"] + 0.2), f"{s['id']} icon {it['name']}", "pop", {"pitch": "A5", "gain": 0.1}])
+hits.sort(key=lambda h: h[0])
+
+icons = {n: src["icons"][n] for n in sorted(used)}
+missing = used - set(src["icons"])
+assert not missing, missing
+data = {"duration": round(off, 3), "shots": shots, "captions": captions, "words": allwords, "icons": icons, "theme": src["theme"]}
+(HERE / "data.js").write_text("// generated by build_data.py, do not edit\nexport const DATA = " + json.dumps(data) + ";\nexport const HITS = " + json.dumps(hits) + ";\n")
+gaps = [(shots[i + 1]["t0"] - s["t0"], s["id"]) for i, s in enumerate(shots[:-1])]
+print(f"{len(shots)} shots, {len(captions)} captions, {len(icons)} icons, {len(hits)} hits, duration {off:.2f}s")
+print("longest shots:", sorted(gaps, reverse=True)[:5])

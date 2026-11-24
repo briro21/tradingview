@@ -225,9 +225,9 @@ function drawItem(ctx, it, age, P, shotAge) {
 }
 
 // Real photos (Wikimedia Commons, docs/credits.md). Face circle in sticker pixels.
-const FACES = { zitron: { src: 'photo_zitron.png', cx: 380, cy: 400, r: 235 }, bartlett: { src: 'photo_bartlett.png', cx: 210, cy: 300, r: 195 }, cuban: { src: 'photo_cuban.png', cx: 420, cy: 470, r: 255 } };
+const FACES = { zitron: { src: 'photo_zitron.png', cx: 380, cy: 400, r: 235 }, bartlett: { src: 'photo_bartlett.png', cx: 210, cy: 300, r: 195 }, cuban: { src: 'photo_cuban.png', cx: 420, cy: 470, r: 255 }, marcus: { src: 'photo_marcus.png', cx: 405, cy: 295, r: 175 }, levie: { src: 'photo_levie.png', cx: 371, cy: 268, r: 165 } };
 function faceBadge(ctx, who, x, y, r) {
-  const f = FACES[who], img = IMGS[f.src];
+  const f = FACES[who], img = f && IMGS[f.src];
   if (!img || r <= 1) return;
   ctx.save();
   ctx.beginPath(); ctx.arc(x, y, r + Math.max(3, r * 0.08), 0, M.TAU); ctx.fillStyle = '#FFFFFF'; ctx.fill();
@@ -301,7 +301,7 @@ function drawBars(ctx, it) {
     ctx.font = font(58, 400, DISPLAY); ctx.fillStyle = r.hi ? PAPER.red : PAPER.ink; ctx.textAlign = 'left';
     ctx.fillText(fmtVal(r, k), x0 + w + 20, y + 20);
     const tw = ctx.measureText(fmtVal(r, 1)).width;
-    if (r.hi) ring(ctx, x0 + w + 20 + tw / 2, y + 2, tw / 2 + 46, 62, clamp((NOW - r.rt - 0.7) / 0.5), PAPER.red);
+    if (r.hi) ring(ctx, x0 + w + 20 + tw / 2, y + 2, tw / 2 + 30, 62, clamp((NOW - r.rt - 0.7) / 0.5), PAPER.red);
   });
   ctx.strokeStyle = PAPER.ink; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x0, top - 20); ctx.lineTo(x0, bot + 10); ctx.stroke();
   note(ctx, it, 640, 930, PAPER.red);
@@ -719,7 +719,7 @@ function drawCaption(ctx, t) {
   let rise = 0, img = null;
   if (who && !onScreen(t, who)) {
     const a = M.spring(t - nameTime(c) + 0.08, SPRING.bouncy);
-    img = IMGS[FACES[who].src];
+    img = FACES[who] && IMGS[FACES[who].src];
     rise = img ? clamp(a) * (1 - E.inCubic(clamp((t - (c.b + 0.2)) / 0.35))) : 0;
   }
   const sw = img ? 360 * img.width / img.height : 0;
