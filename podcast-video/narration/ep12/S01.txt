@@ -1,0 +1,13 @@
+Part one. The bear case.
+
+First, a surprise. Gary Marcus, the scientist who spent years saying chatbots alone would hit a wall, actually praises Anthropic. He says its coding tool, Claude Code, mixes language models with classic rule-based software, which is exactly what he argued AI needed.
+
+So the product isn't his problem. The price is. Going in, the IPO was expected to value Anthropic at up to $1.4 trillion. Marcus wrote that the company has never made a profit, except for one quarter he calls anomalous and heavily subsidized. And it carries nearly $900 billion in future commitments.
+
+His analogy: you can make the world's best lemonade, but if you sell it for less than the lemons cost, it's still a bad business.
+
+His bottom line is blunt. He wouldn't be shocked to see Anthropic go out of business. His most likely outcome? It gets sold, for a lot less than a trillion dollars.
+
+If you want the AI money story explained like this every week, subscribe now, so you don't miss the next one.
+
+So why is he so sure the growth won't last?

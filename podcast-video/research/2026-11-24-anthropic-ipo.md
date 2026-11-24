@@ -44,3 +44,19 @@ up. Here's the case against it, in ten minutes."
   "not financial advice" line, independent-summary wording.
 - Use the existing cold-open + teaser structure and hook variants A/B.
 - Re-check the YouTube Research tab before producing; trends go stale fast.
+
+---
+## Verification notes (added 2026-11-24, before production)
+- The $69.3B figure is stale: the IPO priced Nov 18 at $83 (980M shares, about $81B; up to about
+  $93B with the 147M-share underwriter option) and began trading Nov 19. Opened ~$111.50, closed
+  day one ~$97.17, ~$86.72 on Friday Nov 20 (ABC, CNBC, Yahoo Finance). Hook rewritten accordingly.
+- Marcus episode: Big Technology, published Nov 17, recorded the week before the listing.
+- Big Technology ran the matching bull case: "Why The Anthropic IPO Will Succeed — With Aaron
+  Levie" (Nov 19, ~59 min). Episode 12 = Bull vs Bear from both (about 2 hours of audio).
+- Marcus is "becoming more optimistic about the technology" (praises Claude Code as
+  neurosymbolic); title "Will Never Break Even" is NOT supported by the transcript - dropped.
+- Several numbers in the episode are the HOST's (five customers = 19% of revenue, Goldman,
+  SoftBank, S-1 compute-efficiency chart): attributed to Alex Kantrowitz or the S-1, not Marcus.
+- Transcripts: Whisper small.en from the RSS audio (scratchpad, not committed).
+- Photos: Gary Marcus (Athena Vouloumanos, CC BY 4.0), Aaron Levie (TechCrunch, CC BY 4.0) on
+  Wikimedia Commons.

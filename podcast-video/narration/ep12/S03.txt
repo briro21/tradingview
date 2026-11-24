@@ -1,0 +1,13 @@
+Part three. The bull case.
+
+Aaron Levie runs Box, which sends huge amounts of business work through AI models. He starts with a disclaimer: he's not giving financial advice, and he won't say what the shares are worth. But on the market itself, he's very bullish.
+
+His first number: Anthropic's revenue went from $1.4 billion in the third quarter of last year to $17 billion this third quarter. Twelve times. He doesn't expect that again, he says, but the direction holds.
+
+His second number: customers spending at least $100,000 a year grew from about 950 to about 11,900. Companies, he says, are voting with their wallets.
+
+Why will it keep going? Because coding was just the start. Once AI agents can use computers and write their own software, almost every job becomes code-adjacent: product design, cybersecurity, research, sales. For the first time in office work, Levie says, output isn't limited by how fast people can type. The only limit is how much computing power you buy.
+
+And his favorite chart, from Anthropic's own filing: in early 2025, every dollar spent on computing brought back 40 cents. This year, a dollar seventy-two. People, he says, should update their views.
+
+So how does he answer Marcus?

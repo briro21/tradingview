@@ -1,0 +1,11 @@
+Part two. The trillion-pound baby.
+
+Marcus has a favorite joke. A father tweets that his baby doubled its weight in a month, and projects that by college, the kid will weigh a trillion pounds. Growth like that, Marcus says, always tails off.
+
+And he thinks Anthropic's already has. In the second quarter, revenue grew 147%, during what he calls the token-maxing fad, when companies told staff to use as much AI as they could. In the third quarter, growth was 47%.
+
+Then there's competition. Since 2023, he has argued that everyone is building the same thing, which means price wars. Cheaper Chinese models made that real this year, he says. That leaves Anthropic one niche: the very top-end models. Host Alex Kantrowitz put it this way: if an associate professor can do the job, why pay the full professor? And each step up costs more. One billion to impress users this year, Marcus warns, ten billion next year, a hundred billion after that.
+
+Kantrowitz added more pressure: five customers make up 19% of revenue, and some big ones are pulling back. Marcus's conclusion: Anthropic has to stay a rocket. Every customer who pulls back makes escape velocity harder.
+
+That's the bear case. Now meet the man who thinks it's wrong.

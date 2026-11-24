@@ -1,0 +1,15 @@
+Part four. Round two.
+
+Kantrowitz put Marcus's biggest worries to Levie.
+
+The debt? Levie says everything depends on one thing: whether growth continues at some level. If the revenue comes, the commitments are fine. If it doesn't, they blow up the company.
+
+Token-maxing? He calls it a two-week fashion, not the reason Anthropic's revenue run rate passed $80 billion.
+
+Diminishing returns? He says improving a model for one field, like cybersecurity or law, costs millions in training data, not hundreds of billions. And each of those fields is worth trillions of dollars of work.
+
+Cheap Chinese and open models? Levie sees a rising tide. Companies use a top model to plan and cheap models for the bulk work, so they spend more on both. Marcus answers with a warning: more than a dozen studies, he says, show companies struggling to get a return, and hallucinations haven't gone away.
+
+Marcus gave ground too. He called his doubt about raising the money his weakest argument, as reports said the IPO was oversubscribed. He didn't dispute the tenfold revenue growth. And he agreed that the fallout from Jensen Huang's scandal could help Anthropic against Chinese rivals. "The best argument you've made," he told the host.
+
+And on one point, Levie conceded outright. Could the bills come due before the industries change? "Absolutely possible," he said.
