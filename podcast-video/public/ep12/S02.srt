@@ -1,0 +1,151 @@
+1
+00:00:00,000 --> 00:00:00,871
+Part two.
+
+2
+00:00:01,231 --> 00:00:02,891
+The trillion-pound baby.
+
+3
+00:00:03,796 --> 00:00:05,317
+Marcus has a favorite joke.
+
+4
+00:00:05,631 --> 00:00:08,208
+A father tweets that his baby doubled its
+
+5
+00:00:08,255 --> 00:00:09,114
+weight in a month,
+
+6
+00:00:09,474 --> 00:00:11,180
+and projects that by college,
+
+7
+00:00:11,204 --> 00:00:13,340
+the kid will weigh a trillion pounds.
+
+8
+00:00:14,245 --> 00:00:15,128
+Growth like that,
+
+9
+00:00:15,174 --> 00:00:17,670
+Marcus says, always tails off.
+
+10
+00:00:18,030 --> 00:00:20,492
+And he thinks Anthropic's already has.
+
+11
+00:00:20,840 --> 00:00:22,024
+In the second quarter,
+
+12
+00:00:22,279 --> 00:00:24,729
+revenue grew 147%,
+
+13
+00:00:24,752 --> 00:00:27,411
+during what he calls the token-maxing fad,
+
+14
+00:00:27,643 --> 00:00:29,814
+when companies told staff to use as much
+
+15
+00:00:29,907 --> 00:00:31,312
+AI as they could.
+
+16
+00:00:31,672 --> 00:00:32,879
+In the third quarter,
+
+17
+00:00:33,076 --> 00:00:35,062
+growth was 47%.
+
+18
+00:00:35,840 --> 00:00:37,256
+Then there's competition.
+
+19
+00:00:37,453 --> 00:00:40,193
+Since 2023, he has argued that everyone is
+
+20
+00:00:40,263 --> 00:00:41,679
+building the same thing,
+
+21
+00:00:42,039 --> 00:00:43,908
+which means price wars.
+
+22
+00:00:44,338 --> 00:00:46,730
+Cheaper Chinese models made that real this year,
+
+23
+00:00:46,765 --> 00:00:50,039
+he says. That leaves Anthropic one niche:
+
+24
+00:00:50,398 --> 00:00:52,163
+the very top-end models.
+
+25
+00:00:52,523 --> 00:00:55,216
+Host Alex Kantrowitz put it this way:
+
+26
+00:00:55,785 --> 00:00:58,386
+if an associate professor can do the job,
+
+27
+00:00:58,746 --> 00:01:00,395
+why pay the full professor?
+
+28
+00:01:00,824 --> 00:01:02,763
+And each step up costs more.
+
+29
+00:01:03,251 --> 00:01:05,991
+One billion to impress users this year,
+
+30
+00:01:06,420 --> 00:01:08,998
+Marcus warns, ten billion next year,
+
+31
+00:01:09,265 --> 00:01:11,006
+a hundred billion after that.
+
+32
+00:01:11,436 --> 00:01:13,270
+Kantrowitz added more pressure:
+
+33
+00:01:13,758 --> 00:01:16,893
+five customers make up 19% of revenue,
+
+34
+00:01:17,160 --> 00:01:19,261
+and some big ones are pulling back.
+
+35
+00:01:20,039 --> 00:01:23,975
+Marcus's conclusion: Anthropic has to stay a rocket.
+
+36
+00:01:24,462 --> 00:01:27,434
+Every customer who pulls back makes escape velocity
+
+37
+00:01:27,515 --> 00:01:29,466
+harder. That's the bear case.
+
+38
+00:01:29,501 --> 00:01:31,811
+Now meet the man who thinks it's wrong.

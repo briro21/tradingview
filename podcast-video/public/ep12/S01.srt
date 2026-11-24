@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:00,859
+Part one.
+
+2
+00:00:01,289 --> 00:00:02,252
+The bear case.
+
+3
+00:00:02,682 --> 00:00:03,901
+First, a surprise.
+
+4
+00:00:04,389 --> 00:00:07,546
+Gary Marcus, the scientist who spent years saying
+
+5
+00:00:07,628 --> 00:00:09,578
+chatbots alone would hit a wall,
+
+6
+00:00:09,845 --> 00:00:11,877
+actually praises Anthropic.
+
+7
+00:00:12,365 --> 00:00:13,909
+He says its coding tool,
+
+8
+00:00:14,176 --> 00:00:17,960
+Claude Code, mixes language models with classic rule-based
+
+9
+00:00:17,984 --> 00:00:18,773
+software,
+
+10
+00:00:19,133 --> 00:00:21,745
+which is exactly what he argued AI needed.
+
+11
+00:00:22,105 --> 00:00:24,056
+So the product isn't his problem.
+
+12
+00:00:24,416 --> 00:00:25,321
+The price is.
+
+13
+00:00:25,890 --> 00:00:28,700
+Going in, the IPO was expected to value
+
+14
+00:00:28,746 --> 00:00:31,498
+Anthropic at up to $1.4 trillion.
+
+15
+00:00:32,275 --> 00:00:34,318
+Marcus wrote that the company has never made
+
+16
+00:00:34,342 --> 00:00:34,992
+a profit,
+
+17
+00:00:35,352 --> 00:00:37,569
+except for one quarter he calls anomalous and
+
+18
+00:00:37,639 --> 00:00:38,765
+heavily subsidized.
+
+19
+00:00:39,125 --> 00:00:42,202
+And it carries nearly $900 billion in future
+
+20
+00:00:42,236 --> 00:00:42,910
+commitments.
+
+21
+00:00:43,339 --> 00:00:45,580
+His analogy: you can make the world's best
+
+22
+00:00:45,661 --> 00:00:47,879
+lemonade, but if you sell it for less
+
+23
+00:00:47,902 --> 00:00:49,167
+than the lemons cost,
+
+24
+00:00:49,214 --> 00:00:50,491
+it's still a bad business.
+
+25
+00:00:50,920 --> 00:00:52,511
+His bottom line is blunt.
+
+26
+00:00:52,871 --> 00:00:55,146
+He wouldn't be shocked to see Anthropic go
+
+27
+00:00:55,216 --> 00:00:56,145
+out of business.
+
+28
+00:00:57,050 --> 00:00:58,919
+His most likely outcome?
+
+29
+00:00:59,047 --> 00:01:00,185
+It gets sold,
+
+30
+00:01:00,382 --> 00:01:02,553
+for a lot less than a trillion dollars.
+
+31
+00:01:03,041 --> 00:01:05,328
+If you want the AI money story explained
+
+32
+00:01:05,351 --> 00:01:06,350
+like this every week,
+
+33
+00:01:06,431 --> 00:01:08,950
+subscribe now, so you don't miss the next
+
+34
+00:01:09,020 --> 00:01:09,333
+one.
+
+35
+00:01:09,763 --> 00:01:11,621
+So why is he so sure the growth
+
+36
+00:01:11,655 --> 00:01:12,677
+won't last?

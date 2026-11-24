@@ -1,0 +1,183 @@
+1
+00:00:00,000 --> 00:00:00,755
+Part four.
+
+2
+00:00:01,660 --> 00:00:02,694
+Round two.
+
+3
+00:00:03,053 --> 00:00:06,142
+Kantrowitz put Marcus's biggest worries to Levie.
+
+4
+00:00:06,455 --> 00:00:07,303
+The debt?
+
+5
+00:00:07,976 --> 00:00:10,530
+Levie says everything depends on one thing:
+
+6
+00:00:10,797 --> 00:00:13,084
+whether growth continues at some level.
+
+7
+00:00:13,444 --> 00:00:14,919
+If the revenue comes,
+
+8
+00:00:15,023 --> 00:00:16,417
+the commitments are fine.
+
+9
+00:00:16,776 --> 00:00:17,635
+If it doesn't,
+
+10
+00:00:17,705 --> 00:00:18,843
+they blow up the company.
+
+11
+00:00:19,748 --> 00:00:21,165
+Token-maxing?
+
+12
+00:00:21,525 --> 00:00:23,742
+He calls it a two-week fashion,
+
+13
+00:00:24,056 --> 00:00:27,365
+not the reason Anthropic's revenue run rate passed
+
+14
+00:00:27,411 --> 00:00:28,491
+$80 billion.
+
+15
+00:00:29,164 --> 00:00:30,430
+Diminishing returns?
+
+16
+00:00:30,859 --> 00:00:33,460
+He says improving a model for one field,
+
+17
+00:00:33,820 --> 00:00:35,828
+like cybersecurity or law,
+
+18
+00:00:36,026 --> 00:00:38,034
+costs millions in training data,
+
+19
+00:00:38,173 --> 00:00:39,706
+not hundreds of billions.
+
+20
+00:00:40,066 --> 00:00:42,388
+And each of those fields is worth trillions
+
+21
+00:00:42,423 --> 00:00:43,468
+of dollars of work.
+
+22
+00:00:44,245 --> 00:00:46,358
+Cheap Chinese and open models?
+
+23
+00:00:47,264 --> 00:00:49,122
+Levie sees a rising tide.
+
+24
+00:00:49,389 --> 00:00:52,001
+Companies use a top model to plan and
+
+25
+00:00:52,047 --> 00:00:53,707
+cheap models for the bulk work,
+
+26
+00:00:54,021 --> 00:00:55,577
+so they spend more on both.
+
+27
+00:00:56,355 --> 00:00:58,119
+Marcus answers with a warning:
+
+28
+00:00:58,607 --> 00:01:00,221
+more than a dozen studies,
+
+29
+00:01:00,244 --> 00:01:03,053
+he says, show companies struggling to get a
+
+30
+00:01:03,135 --> 00:01:03,855
+return,
+
+31
+00:01:04,284 --> 00:01:06,978
+and hallucinations haven't gone away.
+
+32
+00:01:07,756 --> 00:01:09,172
+Marcus gave ground too.
+
+33
+00:01:09,532 --> 00:01:11,471
+He called his doubt about raising the money
+
+34
+00:01:11,552 --> 00:01:12,830
+his weakest argument,
+
+35
+00:01:13,189 --> 00:01:16,278
+as reports said the IPO was oversubscribed.
+
+36
+00:01:16,765 --> 00:01:19,378
+He didn't dispute the tenfold revenue growth.
+
+37
+00:01:19,807 --> 00:01:22,141
+And he agreed that the fallout from Jensen
+
+38
+00:01:22,210 --> 00:01:23,128
+Huang's scandal
+
+39
+00:01:23,557 --> 00:01:26,111
+could help Anthropic against Chinese rivals.
+
+40
+00:01:26,599 --> 00:01:28,805
+"The best argument you've made," he told the
+
+41
+00:01:28,851 --> 00:01:29,350
+host.
+
+42
+00:01:30,024 --> 00:01:31,011
+And on one point,
+
+43
+00:01:31,208 --> 00:01:32,706
+Levie conceded outright.
+
+44
+00:01:33,193 --> 00:01:35,353
+Could the bills come due before the industries
+
+45
+00:01:35,399 --> 00:01:36,015
+change?
+
+46
+00:01:36,688 --> 00:01:39,521
+"Absolutely possible," he said.

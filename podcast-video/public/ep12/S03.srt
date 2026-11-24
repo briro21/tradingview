@@ -1,0 +1,167 @@
+1
+00:00:00,000 --> 00:00:00,848
+Part three.
+
+2
+00:00:01,277 --> 00:00:02,183
+The bull case.
+
+3
+00:00:02,670 --> 00:00:04,598
+Aaron Levie runs Box,
+
+4
+00:00:04,795 --> 00:00:06,908
+which sends huge amounts of business work through
+
+5
+00:00:06,954 --> 00:00:07,883
+AI models.
+
+6
+00:00:08,313 --> 00:00:09,845
+He starts with a disclaimer:
+
+7
+00:00:10,205 --> 00:00:12,272
+he's not giving financial advice,
+
+8
+00:00:12,504 --> 00:00:13,932
+and he won't say what the shares are
+
+9
+00:00:13,967 --> 00:00:14,431
+worth.
+
+10
+00:00:14,791 --> 00:00:16,254
+But on the market itself,
+
+11
+00:00:16,393 --> 00:00:17,473
+he's very bullish.
+
+12
+00:00:17,833 --> 00:00:18,808
+His first number:
+
+13
+00:00:18,971 --> 00:00:22,663
+Anthropic's revenue went from $1.4 billion
+
+14
+00:00:23,023 --> 00:00:24,671
+in the third quarter of last year
+
+15
+00:00:25,031 --> 00:00:27,794
+to $17 billion this third quarter.
+
+16
+00:00:28,572 --> 00:00:31,103
+Twelve times. He doesn't expect that again,
+
+17
+00:00:31,185 --> 00:00:33,297
+he says, but the direction holds.
+
+18
+00:00:33,657 --> 00:00:34,760
+His second number:
+
+19
+00:00:35,027 --> 00:00:38,812
+customers spending at least $100,000 a year
+
+20
+00:00:39,381 --> 00:00:43,677
+grew from about 950 to about 11,900.
+
+21
+00:00:44,350 --> 00:00:45,360
+Companies, he says,
+
+22
+00:00:45,383 --> 00:00:46,776
+are voting with their wallets.
+
+23
+00:00:47,554 --> 00:00:48,982
+Why will it keep going?
+
+24
+00:00:49,342 --> 00:00:51,421
+Because coding was just the start.
+
+25
+00:00:52,094 --> 00:00:54,672
+Once AI agents can use computers and write
+
+26
+00:00:54,695 --> 00:00:55,833
+their own software,
+
+27
+00:00:56,192 --> 00:00:58,770
+almost every job becomes code-adjacent:
+
+28
+00:00:59,548 --> 00:01:02,067
+product design, cybersecurity,
+
+29
+00:01:02,299 --> 00:01:03,925
+research, sales.
+
+30
+00:01:04,598 --> 00:01:06,583
+For the first time in office work,
+
+31
+00:01:06,630 --> 00:01:10,415
+Levie says, output isn't limited by how fast
+
+32
+00:01:10,485 --> 00:01:11,448
+people can type.
+
+33
+00:01:12,017 --> 00:01:14,455
+The only limit is how much computing power
+
+34
+00:01:14,502 --> 00:01:16,951
+you buy. And his favorite chart,
+
+35
+00:01:17,114 --> 00:01:19,041
+from Anthropic's own filing:
+
+36
+00:01:19,703 --> 00:01:21,619
+in early 2025,
+
+37
+00:01:21,735 --> 00:01:24,614
+every dollar spent on computing brought back 40
+
+38
+00:01:24,684 --> 00:01:26,309
+cents. This year,
+
+39
+00:01:26,402 --> 00:01:28,016
+a dollar seventy-two.
+
+40
+00:01:28,782 --> 00:01:29,885
+People, he says,
+
+41
+00:01:30,082 --> 00:01:31,348
+should update their views.
+
+42
+00:01:31,708 --> 00:01:33,484
+So how does he answer Marcus?
