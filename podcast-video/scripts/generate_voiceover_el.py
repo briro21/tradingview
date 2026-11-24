@@ -77,6 +77,7 @@ def main() -> None:
     ap.add_argument("--speed", type=float, default=0.9, help="ElevenLabs speed for newly generated scenes (0.7-1.2)")
     ap.add_argument("--budget", type=int, default=9000, help="max characters this run may spend")
     ap.add_argument("--dry", action="store_true", help="only report what would be generated")
+    ap.add_argument("--only", help="comma list of scenes to generate into the cache now (e.g. S05,S06); no outputs written")
     args = ap.parse_args()
 
     src, out = ROOT / "narration" / args.episode, ROOT / "public" / args.episode
@@ -85,7 +86,8 @@ def main() -> None:
     cache.mkdir(parents=True, exist_ok=True)
     scenes = [(f.stem, " ".join(f.read_text(encoding="utf-8").split())) for f in sorted(src.glob("S*.txt"))]
 
-    todo = [(s, t) for s, t in scenes if not (cache / f"{s}.{key_of(t, args.voice)}.json").exists()]
+    only = set(args.only.split(",")) if args.only else None
+    todo = [(s, t) for s, t in scenes if not (cache / f"{s}.{key_of(t, args.voice)}.json").exists() and (only is None or s in only)]
     need = sum(len(t) for _, t in todo)
     for s, t in scenes:
         print(f"{s}: {len(t):5d} chars  {'GENERATE' if (s, t) in todo else 'cached'}")
@@ -96,6 +98,15 @@ def main() -> None:
         return
 
     settings = {"stability": 0.4, "similarity_boost": 0.75, "style": 0.3, "speed": args.speed}
+    if only is not None:   # partial run: fill the cache with these scenes, write nothing else
+        for s, t in todo:
+            k = key_of(t, args.voice)
+            d = call_api(t, args.voice, settings)
+            (cache / f"{s}.{k}.mp3").write_bytes(base64.b64decode(d["audio_base64"]))
+            (cache / f"{s}.{k}.json").write_text(json.dumps({"text": t, "voice": args.voice, "model": MODEL, "settings": settings,
+                                                            "alignment": d["alignment"]}), encoding="utf-8")
+            print(f"{s}: cached ({len(t)} chars)")
+        return
     full, offset, timing = [], 0.0, {}
     for s, t in scenes:
         k = key_of(t, args.voice)
