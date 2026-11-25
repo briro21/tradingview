@@ -7,7 +7,7 @@
 
 ## Description (with chapters)
 ```
-Days before Anthropic's record IPO, AI skeptic Gary Marcus made the case against it on Big Technology. Then Box CEO Aaron Levie made the case for it. Then the market voted. Here's the bear case, the bull case, what happened on listing day, and the one number both of them say will decide it.
+Anthropic raised more than $80 billion in the biggest IPO in history. Boom or bust? Days before the listing, AI skeptic Gary Marcus made the case against it on Big Technology. Then Box CEO Aaron Levie made the case for it. Then the market voted. Here's the bear case, the bull case, what happened on listing day, and the one number both of them say will decide it.
 Recorded before the Nov 19 listing and before Nvidia reinstated Jensen Huang on Nov 23; share prices as of Nov 20.
 
 Two hours of Big Technology, explained in 8 animated minutes:
