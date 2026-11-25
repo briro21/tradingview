@@ -14,7 +14,7 @@ Test & Compare: A + B + C
 === DESCRIPTION (copy everything between the lines) ===
 --------------------------------------------------------------------------------
 Days before Anthropic's record IPO, AI skeptic Gary Marcus made the case against it on Big Technology. Then Box CEO Aaron Levie made the case for it. Then the market voted. Here's the bear case, the bull case, what happened on listing day, and the one number both of them say will decide it.
-Recorded before the Nov 19 listing; share prices as of Nov 20.
+Recorded before the Nov 19 listing and before Nvidia reinstated Jensen Huang on Nov 23; share prices as of Nov 20.
 
 Two hours of Big Technology, explained in 8 animated minutes:
 - Marcus: why a great product can still be a bad business (the lemonade test)
@@ -24,12 +24,12 @@ Two hours of Big Technology, explained in 8 animated minutes:
 - Listing day: $83 to ~$111 to ~$87
 
 0:00 Bull vs Bear
-0:27 Part 1: The bear case
-1:40 Part 2: The trillion-pound baby
-3:12 Part 3: The bull case
-4:45 Part 4: Round two
-6:25 Part 5: Then the market voted
-7:02 Part 6: The deciding number
+0:30 Part 1: The bear case
+1:43 Part 2: The trillion-pound baby
+3:15 Part 3: The bull case
+4:48 Part 4: Round two
+6:28 Part 5: Then the market voted
+7:05 Part 6: The deciding number
 
 This is an independent animated summary and commentary. It presents Gary Marcus's and Aaron Levie's views as they stated them, not as established fact, and is not financial advice. Allegations mentioned are reports, not findings. Narration is AI-generated (voice by ElevenLabs, elevenlabs.io). All credit for the original episodes goes to Big Technology Podcast (Alex Kantrowitz, with Gary Marcus and Aaron Levie). Watch the full episodes:
 ▶ Why The Anthropic IPO Will Fail — With Gary Marcus https://www.youtube.com/watch?v=9Y4HDQnvCas
@@ -60,14 +60,14 @@ Last episode, Ed Zitron's take: https://www.youtube.com/watch?v=dXh1BTEHYMc
 
 === STUDIO SETTINGS ===
 - Video language + title/description language: English
+- Schedule: Saturday Nov 28, 04:00 WIB (per the Nov 25 evaluation; no other long video before it)
 - Category: News & Politics (or Education)
-- Schedule: Wednesday Nov 25, 04:00 WIB (= Tuesday 4 pm New York). Fallback: Thursday Nov 26, 04:00 WIB if Ep11 is still climbing fast in its first 24 h.
 
-=== END SCREEN (last 20 s: 8:00-8:20) ===
+=== END SCREEN (last 20 s: 8:03-8:23) ===
 Left slot: Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble? https://www.youtube.com/watch?v=dXh1BTEHYMc
 Right slot: Ed Zitron WARNS: Generative AI Is a $1 Trillion Con https://www.youtube.com/watch?v=5uqe1EsO-F0
 Round slot (bottom centre): Subscribe
 
 === CARDS ===
-1:42  Ed Zitron WARNS: Generative AI Is a $1 Trillion Con   teaser: "Zitron's take on the AI money"
-7:31  Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?   teaser: "The $21B bar, explained"
+1:45  Ed Zitron WARNS: Generative AI Is a $1 Trillion Con   teaser: "Zitron's take on the AI money"
+7:34  Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?   teaser: "The $21B bar, explained"

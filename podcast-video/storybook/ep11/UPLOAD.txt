@@ -69,3 +69,6 @@ Round slot (bottom centre): Subscribe
 === CARDS ===
 2:41  Ed Zitron WARNS: Generative AI Is a $1 Trillion Con   teaser: "Zitron's case on OpenAI"
 5:44  Ed Zitron: The AI Bubble Was One Man                  teaser: "Why Jensen was the bubble"
+
+=== CORRECTION (paste as the FIRST line of the published description, Nov 25) ===
+Update (Nov 23): Nvidia's board reinstated Jensen Huang as CEO after this video was made. The video reflects what was known when the episodes were recorded.

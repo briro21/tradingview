@@ -22,3 +22,16 @@ export const SH27: Beat[] = [
     items: [T("2 HRS", 500, 230, { size: 120 }), A(500, 320, 500, 420, red), T("8 MIN", 500, 520, { size: 140, color: red }), H("bull vs bear, animated", 500, 660, { size: 70 }), I("bell", 500, 900, 1.6), O(500, 900, 210, 210, red)],
   },
 ];
+
+/** The bull case in 30 seconds. */
+export const SH28: Beat[] = [
+  { at: "Box CEO Aaron Levie makes", drawn: true, items: [P(LEVIE, 500, 380, 520, 576), T("THE BULL CASE", 500, 800, { size: 110 }), T("FOR ANTHROPIC", 500, 950, { size: 96, color: red })] },
+  { at: "His numbers: revenue up", items: [I("rocket", 500, 330, 2.2), T("12x IN A YEAR", 500, 620, { size: 110, at: "twelve times" }), T("$1.4B → $17B", 500, 770, { size: 110, color: red, at: "$17 billion" })] },
+  { at: "Customers spending $100,000 a", items: [I("crowd", 500, 330, 2.2), T("BIG CUSTOMERS", 500, 620, { size: 110 }), T("950 → 11,900", 500, 770, { size: 120, color: red, at: "11,900" })] },
+  { at: "And every dollar spent", items: [I("chip", 500, 330, 2.2), T("$1 OF COMPUTE", 500, 620, { size: 110 }), T("→ $1.72 BACK", 500, 770, { size: 120, color: red, at: "$1.72" })] },
+  { at: "Gary Marcus says the growth", items: [P(MARCUS, 500, 380, 460, 520), T("THE BEAR:", 500, 800, { size: 110 }), T("GROWTH IS FADING", 500, 950, { size: 96, color: red, at: "already fading" })] },
+  {
+    at: "The full bull versus bear",
+    items: [T("2 HRS", 500, 230, { size: 120 }), A(500, 320, 500, 420, red), T("8 MIN", 500, 520, { size: 140, color: red }), H("bull vs bear, animated", 500, 660, { size: 70 }), I("bell", 500, 900, 1.6), O(500, 900, 210, 210, red)],
+  },
+];

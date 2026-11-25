@@ -22,7 +22,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from generate_voiceover import FPS, scene_timing, to_cues, write_srt  # noqa: E402
+from generate_voiceover import FPS, apply_pron, load_pron, restore_display, scene_timing, to_cues, write_srt  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 VOICES = {"brian": "nPczCjzI2devNBz1zQrb", "george": "JBFqnCBsd6RMkjVDRZzb", "sarah": "EXAVITQu4vr4xnSDxMaL"}
@@ -84,7 +84,14 @@ def main() -> None:
     cache = ROOT / "voice_cache" / args.episode
     out.mkdir(parents=True, exist_ok=True)
     cache.mkdir(parents=True, exist_ok=True)
-    scenes = [(f.stem, " ".join(f.read_text(encoding="utf-8").split())) for f in sorted(src.glob("S*.txt"))]
+    pron = load_pron()
+    scenes = [(f.stem, apply_pron(" ".join(f.read_text(encoding="utf-8").split()), pron)) for f in sorted(src.glob("S*.txt"))]
+    # length guard: Brian at 0.9 speaks ~137 wpm; warn before spending characters on a long draft
+    reel_cfg = ROOT / f"{args.episode}-reel" / "film.json"
+    target = json.loads(reel_cfg.read_text()).get("targetDurationSeconds", 510) if reel_cfg.exists() else 510
+    est = sum(len(t.split()) for _, t in scenes) / 137 * 60
+    if est > target:
+        print(f"WARNING: estimated narration {est / 60:.1f} min > target {target / 60:.1f} min: cut the weakest segment first")
 
     only = set(args.only.split(",")) if args.only else None
     todo = [(s, t) for s, t in scenes if not (cache / f"{s}.{key_of(t, args.voice)}.json").exists() and (only is None or s in only)]
@@ -123,6 +130,8 @@ def main() -> None:
         al = json.loads(meta.read_text(encoding="utf-8"))["alignment"]
         (out / f"{s}.mp3").write_bytes(mp3.read_bytes())
         words = words_from_alignment(al)
+        if pron:
+            words = restore_display(words, pron)   # captions keep the display spelling
         cues = to_cues(words)
         write_srt(out / f"{s}.srt", cues)
         dur = duration_of(mp3)

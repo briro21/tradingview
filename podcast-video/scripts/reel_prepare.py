@@ -63,4 +63,6 @@ tmp = reel / ".src.json"
 tmp.write_text(src)
 subprocess.run([sys.executable, str(reel / "build_data.py"), str(tmp)], check=True)
 tmp.unlink()
+if narr > cfg.get("targetDurationSeconds", 510):
+    print(f"WARNING: narration {narr:.0f}s > targetDurationSeconds {cfg.get('targetDurationSeconds', 510)}s: cut the weakest segment")
 print(f"{reel.name}: {d}s ready -> render with motion-reel render.mjs --film {reel.name}")

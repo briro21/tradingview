@@ -7,30 +7,35 @@
  "case": 12,
  "date": "Nov 2026",
  "endscreen": 20,
- "duration": 499.567,
+ "duration": 502.9,
  "nexts": [
   [
-   72,
+   75.3,
    "COMING UP",
    "why he thinks the growth won't last"
   ],
   [
-   150,
+   153.3,
    "NEXT",
    "the man who thinks Marcus is wrong"
   ],
   [
-   258,
+   198.5,
+   "NEXT",
+   "his answer to every Marcus worry"
+  ],
+  [
+   261.3,
    "COMING UP",
    "Levie answers Marcus, point by point"
   ],
   [
-   343,
+   346.3,
    "NEXT",
    "what each side conceded"
   ],
   [
-   411,
+   414.3,
    "STILL TO COME",
    "the one number that decides it"
   ]
@@ -39,5 +44,7 @@
   "Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?",
   "Ed Zitron WARNS: Generative AI Is a $1 Trillion Con"
  ],
- "endAsk": "Comment below: which podcast should we break down next?"
+ "endAsk": "Comment below: which podcast should we break down next?",
+ "coldOpenLook": "dark",
+ "targetDurationSeconds": 510
 }

@@ -194,7 +194,7 @@ const Panel: React.FC<{ t: number; sched: Sched[]; id: string; frame: number; la
     const paths = s.segs.map((seg, j) => {
       const sp = Math.min(1, Math.max(0, (drawn - acc) / seg.len));
       if (active && sp > 0 && sp < 1) {
-        const pt = getPointAtLength(seg.d, seg.len * sp);
+        const pt = getPointAtLength(seg.d, seg.len * sp)!;
         tip = { x: s.ox + pt.x * s.k, y: s.oy + pt.y * s.k, color: seg.color };
       }
       acc += seg.len;
@@ -218,7 +218,7 @@ const Panel: React.FC<{ t: number; sched: Sched[]; id: string; frame: number; la
     });
     if (active && p >= 1 && !tip) {
       const last = s.segs[s.segs.length - 1];
-      const pt = getPointAtLength(last.d, last.len);
+      const pt = getPointAtLength(last.d, last.len)!;
       tip = { x: s.ox + pt.x * s.k, y: s.oy + pt.y * s.k, color: last.color };
     }
     return (

@@ -345,6 +345,15 @@ export const Root: React.FC = () => (
       height={1920}
       durationInFrames={TIMING.SH27.frames}
     />
+    <Composition
+      id="Ep12Short2"
+      component={ShortsVideo}
+      defaultProps={{ id: "SH28" as const }}
+      fps={FPS}
+      width={1080}
+      height={1920}
+      durationInFrames={TIMING.SH28.frames}
+    />
     <Still id="Ep11ThumbA" component={V3Ep11A} width={1280} height={720} />
     <Still id="Ep11ThumbB" component={V3Ep11B} width={1280} height={720} />
     <Still id="Ep11ThumbC" component={V3Ep11C} width={1280} height={720} />

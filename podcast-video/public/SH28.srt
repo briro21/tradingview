@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:03,077
+Box CEO Aaron Levie makes the bull case
+
+2
+00:00:03,123 --> 00:00:05,108
+for Anthropic. His numbers:
+
+3
+00:00:05,584 --> 00:00:07,454
+revenue up twelve times in a year,
+
+4
+00:00:07,709 --> 00:00:11,401
+from $1.4 billion to $17 billion a quarter.
+
+5
+00:00:12,040 --> 00:00:14,629
+Customers spending $100,000 a year:
+
+6
+00:00:14,814 --> 00:00:17,287
+from 950 to 11,900.
+
+7
+00:00:17,578 --> 00:00:19,969
+And every dollar spent on computing now brings
+
+8
+00:00:20,016 --> 00:00:21,432
+back $1.72.
+
+9
+00:00:21,815 --> 00:00:24,126
+Gary Marcus says the growth is already fading.
+
+10
+00:00:24,509 --> 00:00:26,459
+The full bull versus bear breakdown is on
+
+11
+00:00:26,494 --> 00:00:27,260
+the channel.

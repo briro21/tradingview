@@ -1,0 +1,86 @@
+# ep12 metadata
+
+## Title options
+1. Anthropic IPO, Boom or Bust? Gary Marcus vs Aaron Levie
+2. Bull vs Bear: Gary Marcus and Aaron Levie on the $1.4 Trillion Anthropic IPO
+3. Anthropic IPO Explained: The Skeptic vs the CEO Who's Buying Shares
+
+## Description (with chapters)
+```
+Days before Anthropic's record IPO, AI skeptic Gary Marcus made the case against it on Big Technology. Then Box CEO Aaron Levie made the case for it. Then the market voted. Here's the bear case, the bull case, what happened on listing day, and the one number both of them say will decide it.
+Recorded before the Nov 19 listing and before Nvidia reinstated Jensen Huang on Nov 23; share prices as of Nov 20.
+
+Two hours of Big Technology, explained in 8 animated minutes:
+- Marcus: why a great product can still be a bad business (the lemonade test)
+- The "trillion-pound baby": growth from +147% to +47% a quarter
+- Levie: $1.4B to $17B a quarter, and 11,900 big customers
+- Round two: what each side conceded
+- Listing day: $83 to ~$111 to ~$87
+
+0:00 Bull vs Bear
+0:30 Part 1: The bear case
+1:43 Part 2: The trillion-pound baby
+3:15 Part 3: The bull case
+4:48 Part 4: Round two
+6:28 Part 5: Then the market voted
+7:05 Part 6: The deciding number
+
+This is an independent animated summary and commentary. It presents Gary Marcus's and Aaron Levie's views as they stated them, not as established fact, and is not financial advice. Allegations mentioned are reports, not findings. Narration is AI-generated (voice by ElevenLabs, elevenlabs.io). All credit for the original episodes goes to Big Technology Podcast (Alex Kantrowitz, with Gary Marcus and Aaron Levie). Watch the full episodes:
+▶ Why The Anthropic IPO Will Fail — With Gary Marcus https://www.youtube.com/watch?v=9Y4HDQnvCas
+▶ Why Anthropic Will Succeed On The Public Market — With Aaron Levie https://www.youtube.com/watch?v=2n24npKhP6g
+
+Watch next:
+▶ Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble? https://www.youtube.com/watch?v=dXh1BTEHYMc
+▶ Ed Zitron WARNS: Generative AI Is a $1 Trillion Con https://www.youtube.com/watch?v=5uqe1EsO-F0
+
+PHOTO CREDITS
+Gary Marcus photo: Web Summit, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Gary_Marcus_at_Web_Summit_2022.jpeg (background removed, cropped, mirrored)
+Aaron Levie photo: TechCrunch, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Aaron_Levie.jpg (background removed, cropped)
+Ed Zitron photo: Web Summit, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Ed_Zitron_speaking_at_the_Web_Summit.jpg (background removed and cropped)
+
+Which podcast should we break down next? Tell us in the comments.
+Subscribe for the AI money story, explained every week.
+
+#AnthropicIPO #AIBubble #GaryMarcus
+```
+
+## Tags
+```
+Anthropic IPO, Anthropic stock, ANT stock, Anthropic IPO explained, Gary Marcus, Aaron Levie, Box, Big Technology Podcast, Alex Kantrowitz, AI bubble, bull vs bear, Claude, Claude Code, AI agents, AI stocks, tech IPO, Ed Zitron
+```
+
+## Pinned Comment
+```
+Which long podcast should we break down next? Reply with the episode (and a link if you have one). We read every comment and pick the next video from here.
+Bear or bull on Anthropic? Tell us that too.
+Last episode, Ed Zitron's take: https://www.youtube.com/watch?v=dXh1BTEHYMc
+```
+
+## End Screen
+```
+Left slot: Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble? https://www.youtube.com/watch?v=dXh1BTEHYMc
+Right slot: Ed Zitron WARNS: Generative AI Is a $1 Trillion Con https://www.youtube.com/watch?v=5uqe1EsO-F0
+Round slot (bottom centre): Subscribe
+```
+
+## Cards
+```
+1:45  Ed Zitron WARNS: Generative AI Is a $1 Trillion Con   teaser: "Zitron's take on the AI money"
+7:34  Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?   teaser: "The $21B bar, explained"
+```
+
+## Thumbnail
+```
+Main: out/ep12-thumbnail-A.png  ("ANTHROPIC IPO / BOOM OR BUST?", both faces)
+Test & Compare: A + B + C
+  B = out/ep12-thumbnail-B.png  ("$1.4T / EVER PROFITABLE?", Marcus)
+  C = out/ep12-thumbnail-C.png  ("BEAR VS BULL / ANTHROPIC IPO")
+```
+
+## Checks
+- [x] 3 title options
+- [x] chapters from 0:00, in order
+- [x] AI-narration disclosure
+- [x] source credit + link
+- [x] not financial advice
+- [x] independent-summary wording

@@ -24,7 +24,10 @@ function look(i) {
   const s = SHOTS[i];
   const rich = s.part ? null : richOf(s);
   if (rich) return rich.k === 'bars' || rich.k === 'line' ? 'chart' : rich.k === 'sheet' ? 'sheet' : 'dark';
-  if (s.id.startsWith('S00') || s.part) return 'dossier';
+  // cold open look (film.json coldOpenLook): 'dark' (default since Nov 25: Ed #1's dark opening held
+  // 44.5% at 0:30, the two dossier openings 33-38%) or 'dossier'. Part cards stay dossier.
+  if (s.part || (s.id.startsWith('S00') && (M.CFG.coldOpenLook || 'dark') === 'dossier')) return 'dossier';
+  if (s.id.startsWith('S00')) return 'dark';
   return i % 3 === 2 ? 'paper' : 'dark';
 }
 // Halftone Dossier inks (Lemo-Opuscar style): cream paper, navy ink, cobalt overprint, pink dots, stamp red

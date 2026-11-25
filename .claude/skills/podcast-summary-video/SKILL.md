@@ -222,3 +222,24 @@ Ep8's only sharp drop is the last ~15 s (outro): the 20 s end screen now catches
   Scene: text only (WHICH PODCAST / SHOULD WE DO NEXT? / tell us in the comments).
 - film.json `endAsk` puts the same ask under WATCH NEXT on the end screen.
 - Pinned comment leads with the ask; read the replies before each topic-research round.
+
+### Pre-render gates (from the Nov 25 evaluation: CTR fine, retention the problem)
+Run after reel_prepare, fix every flag, then render:
+```
+python3 scripts/check_reel_pacing.py epN     # static >6 s, repeated scene kind, NEXT gaps, CTA 1:30-2:00,
+                                             # part card before 0:30, length > targetDurationSeconds
+python3 scripts/promise_check.py epN --thumb "THUMB TEXT"   # title + thumbnail terms said/shown in 15 s
+python3 scripts/make_metadata.py epN         # storybook/epN/metadata.md + disclosure/credit/NFA checks
+```
+- film.json: `coldOpenLook` "dark" (default; Ed #1's dark opening held 44.5% at 0:30, the dossier
+  openings 33-38%), `targetDurationSeconds` (default 510; voice script warns before spending).
+- Hook = a number in the first words + the title's exact words (e.g. "boom or bust") + the
+  people in the title, all inside 15 s; the first part card lands after 0:30.
+- Items inside a beat must be listed in spoken order (anchors are searched forward).
+- Pronunciation: scripts/pronunciation.json now also feeds the ElevenLabs script (display text
+  kept in captions). Check a name against the person's own voice before adding it (Ed Zitron:
+  "I'm your host, Ed Zitron" at ~2:26 of Better Offline monologues).
+- After news changes a story (e.g. Jensen Huang reinstated Nov 23), add an "Update:" first line
+  to every affected published description.
+- package.json is committed now (it was lost with a container reset once): `npm install` restores
+  node_modules; the music bed is rebuilt with motion-reel beats.py --synth (see ep8-reel/audio/loop_music.py).

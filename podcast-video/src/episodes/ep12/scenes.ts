@@ -22,17 +22,21 @@ const title = (n: string, name: string, icon: string): Beat["items"] => [
 
 const S00: Beat[] = [
   {
-    at: "Days before Anthropic's record",
+    at: "More than $80 billion.",
     drawn: true,
-    items: [P(MARCUS, 255, 470, 640, 820), T("THE BEAR CASE", 1120, 300, { size: 120 }), T("EVER PROFITABLE?", 1120, 450, { size: 120, color: red, at: "never turn a profit" }), H("Gary Marcus", 1120, 600, { size: 60 })],
+    items: [N(80, 800, 380, { prefix: "$", suffix: "B+", size: 260, color: red }), T("THE BIGGEST IPO IN HISTORY", 800, 600, { size: 80, at: "biggest IPO" })],
+  },
+  {
+    at: "So is it a boom,",
+    items: [P(LEVIE, 430, 400, 380, 440), T("BOOM", 430, 740, { size: 130, color: blue }), H("Aaron Levie", 430, 850, { size: 50 }), P(MARCUS, 1170, 400, 380, 440, { at: "a bust" }), T("OR BUST?", 1170, 740, { size: 120, color: red, at: "a bust" }), H("Gary Marcus", 1170, 850, { size: 50, at: "a bust" })],
+  },
+  {
+    at: "Days before the listing, AI's",
+    items: [P(MARCUS, 400, 450, 440, 520), T("THE BEAR", 1100, 280, { size: 120 }), H("Gary Marcus", 1100, 400, { size: 60, at: "Gary Marcus" }), T("EVER PROFITABLE?", 1100, 540, { size: 96, color: red, at: "never turn a profit" })],
   },
   {
     at: "Then, on the same show,",
-    items: [P(LEVIE, 400, 450, 440, 520), T("THE BULL CASE", 1100, 300, { size: 110 }), H("Aaron Levie, CEO of Box", 1100, 430, { size: 56, at: "Aaron Levie" })],
-  },
-  {
-    at: "Then the market voted.",
-    items: [T("THEN THE MARKET", 800, 330, { size: 120 }), T("VOTED", 800, 490, { size: 160, color: red })],
+    items: [P(LEVIE, 400, 450, 440, 520), T("THE BULL", 1100, 280, { size: 120 }), H("Aaron Levie, CEO of Box", 1100, 400, { size: 56, at: "Aaron Levie" }), T("MAKES THE CASE", 1100, 540, { size: 90, color: red, at: "case for it" })],
   },
   {
     at: "This is two hours of",
@@ -50,7 +54,7 @@ const S01: Beat[] = [
   { at: "Part one. The bear case.", items: title("EXHIBIT 1", "THE BEAR CASE", "chart") },
   {
     at: "First, a surprise. Gary Marcus,",
-    items: [P(MARCUS, 400, 450, 440, 520), T("THE SKEPTIC", 1100, 270, { size: 100 }), T("PRAISES CLAUDE CODE", 1100, 400, { size: 80, color: red, at: "actually praises" }), H("language models + classic software", 1100, 530, { size: 50, at: "classic rule-based" })],
+    items: [P(MARCUS, 400, 450, 440, 520), T("THE SKEPTIC", 1100, 270, { size: 100, at: "the scientist" }), H("\"chatbots alone would hit a wall\"", 1100, 380, { size: 46, at: "hit a wall" }), T("PRAISES CLAUDE CODE", 1100, 490, { size: 76, color: red, at: "actually praises" }), H("its coding tool", 1100, 590, { size: 46, color: blue, at: "coding tool" }), H("language models + classic software", 1100, 670, { size: 46, at: "classic rule-based" })],
   },
   {
     at: "So the product isn't his",
@@ -58,7 +62,7 @@ const S01: Beat[] = [
       { label: "Expected IPO valuation", text: "up to $1.4T", at: "$1.4 trillion" },
       { label: "Profitable quarters (Marcus)", text: "1, \"anomalous\"", color: "amber", at: "never made a profit" },
       { label: "Future commitments", value: 900, text: "~$900B", color: "red", at: "$900 billion" },
-    ], { formula: "=PROFIT(anthropic)" })],
+    ], { formula: "=PROFIT(anthropic)", note: "the product isn't the problem. The price is.", noteAt: "future commitments" })],
   },
   {
     at: "His analogy: you can make",
@@ -66,7 +70,7 @@ const S01: Beat[] = [
   },
   {
     at: "His bottom line is blunt.",
-    items: [I("skull", 400, 430, 2), T("\"WOULDN'T BE SHOCKED\"", 1100, 260, { size: 76 }), H("if it went out of business", 1100, 380, { size: 52, at: "out of business" }), T("MOST LIKELY: SOLD", 1100, 520, { size: 90, color: red, at: "It gets sold" }), H("for far less than $1 trillion", 1100, 640, { size: 52, at: "less than a trillion" })],
+    items: [P(MARCUS, 400, 450, 440, 520), T("\"WOULDN'T BE SHOCKED\"", 1100, 260, { size: 76 }), H("if it went out of business", 1100, 380, { size: 52, at: "out of business" }), T("MOST LIKELY: SOLD", 1100, 520, { size: 90, color: red, at: "It gets sold" }), H("for far less than $1 trillion", 1100, 640, { size: 52, at: "less than a trillion" })],
   },
   {
     at: "If you want the AI",
@@ -93,7 +97,7 @@ const S02: Beat[] = [
     items: [BARS("Anthropic revenue growth, quarter on quarter", [
       { label: "Q2 (token-maxing)", value: 147, text: "+147%", at: "147%" },
       { label: "Q3", value: 47, text: "+47%", hi: true, at: "growth was 47%" },
-    ])],
+    ], { note: "the token-maxing fad", noteAt: "companies told staff" })],
   },
   {
     at: "Then there's competition. Since 2023,",
@@ -105,7 +109,7 @@ const S02: Beat[] = [
   },
   {
     at: "That leaves Anthropic one niche:",
-    items: [I("gradcap", 400, 430, 2), T("ASSOCIATE PROFESSOR?", 1100, 280, { size: 76, at: "associate professor" }), T("OR FULL PROFESSOR?", 1100, 410, { size: 84, color: red, at: "full professor" }), H("the host's analogy", 1100, 540, { size: 50, at: "Alex Kantrowitz" })],
+    items: [I("gradcap", 400, 430, 2), T("ONE NICHE: TOP-END MODELS", 1100, 160, { size: 56, at: "top-end models" }), T("ASSOCIATE PROFESSOR?", 1100, 280, { size: 76, at: "associate professor" }), T("OR FULL PROFESSOR?", 1100, 410, { size: 84, color: red, at: "full professor" }), H("the host's analogy", 1100, 540, { size: 50, at: "Alex Kantrowitz" })],
   },
   {
     at: "And each step up costs",
@@ -125,7 +129,7 @@ const S02: Beat[] = [
   },
   {
     at: "That's the bear case. Now",
-    items: [P(LEVIE, 400, 450, 440, 520), T("NOW:", 1100, 300, { size: 110 }), T("THE BULL", 1100, 440, { size: 140, color: red, at: "thinks it's wrong" })],
+    items: [T("NOW MEET", 800, 320, { size: 120 }), T("THE BULL", 800, 480, { size: 160, color: red, at: "thinks it's wrong" })],
   },
 ];
 
@@ -133,7 +137,7 @@ const S03: Beat[] = [
   { at: "Part three. The bull case.", items: title("EXHIBIT 3", "THE BULL CASE", "rocket") },
   {
     at: "Aaron Levie runs Box, which",
-    items: [P(LEVIE, 400, 450, 440, 520), T("NOT FINANCIAL ADVICE", 1100, 280, { size: 76, at: "not giving financial advice" }), T("BUT VERY BULLISH", 1100, 410, { size: 96, color: red, at: "very bullish" })],
+    items: [P(LEVIE, 400, 450, 440, 520), H("Box routes work through AI", 1100, 170, { size: 46, at: "through AI models" }), T("NOT FINANCIAL ADVICE", 1100, 280, { size: 76, at: "not giving financial advice" }), H("no price target", 1100, 390, { size: 52, at: "what the shares are worth" }), T("BUT VERY BULLISH", 1100, 510, { size: 96, color: red, at: "very bullish" })],
   },
   {
     at: "His first number: Anthropic's revenue",
@@ -153,6 +157,7 @@ const S03: Beat[] = [
     at: "Why will it keep going?",
     items: [FLOW("AI AGENTS", [
       { label: "Coding", at: "coding was just" },
+      { label: "Agents use computers", hi: true, at: "use computers" },
       { label: "Product design", at: "product design" },
       { label: "Cybersecurity", at: "cybersecurity" },
       { label: "Research", at: "research" },
@@ -182,9 +187,11 @@ const S04: Beat[] = [
     at: "Kantrowitz put Marcus's biggest worries",
     items: [SHEET("bear_vs_bull.xlsx", [
       { label: "$900B of commitments", text: "depends on growth", color: "amber", at: "The debt?" },
-      { label: "Token-maxing", text: "\"two-week fashion\"", color: "lime", at: "Token-maxing?" },
+      { label: "If the revenue comes", text: "commitments fine", color: "lime", at: "commitments are fine" },
+      { label: "If it doesn't", text: "blows up the company", color: "red", at: "blow up the company" },
+      { label: "Token-maxing", text: "\"two-week fashion\"", color: "lime", at: "two-week fashion" },
       { label: "Revenue run rate", text: "$80B+", color: "blue", at: "passed $80 billion" },
-    ], { formula: "=LEVIE(marcus_worries)" })],
+    ], { formula: "=LEVIE(marcus_worries)", note: "\"everything depends on growth\"", noteAt: "whether growth continues" })],
   },
   {
     at: "Diminishing returns? He says improving",
@@ -251,14 +258,14 @@ const S06: Beat[] = [
   { at: "Part six. The deciding number.", items: title("EXHIBIT 6", "THE DECIDING NUMBER", "magnifier") },
   {
     at: "Strip away the babies and",
-    items: [P(MARCUS, 450, 380, 400, 480), P(LEVIE, 1150, 380, 400, 480), T("SAME BET, OPPOSITE SIDES", 800, 800, { size: 70, color: red, at: "opposite directions" })],
+    items: [P(MARCUS, 450, 380, 400, 480), P(LEVIE, 1150, 380, 400, 480), T("SAME BET, OPPOSITE SIDES", 800, 800, { size: 70, color: red, at: "opposite directions" }), H("Levie: if growth continues", 1150, 700, { size: 44, at: "everything depends" }), H("Marcus: stay a rocket", 450, 700, { size: 44, at: "stay a rocket" })],
   },
   {
     at: "So the number to watch",
     items: [BARS("Anthropic growth, quarter on quarter", [
       { label: "Q4: next quarter", value: 0, text: "?", hi: true, at: "next quarter's growth" },
       { label: "Q3", value: 47, text: "+47%", at: "from 47%" },
-    ], { note: "up: bull case. down: bear case.", noteAt: "bear case does" })],
+    ], { note: "up: bull case. down: bear case.", noteAt: "keeps sliding" })],
   },
   {
     at: "And as Ed Zitron argued",
@@ -266,7 +273,7 @@ const S06: Beat[] = [
   },
   {
     at: "This is their analysis, not",
-    items: [I("scales", 800, 360, 2.2), T("NOT FINANCIAL ADVICE", 800, 640, { size: 96, color: red, at: "not financial advice" })],
+    items: [T("THEIR ANALYSIS", 800, 340, { size: 120 }), T("NOT FINANCIAL ADVICE", 800, 500, { size: 100, color: red, at: "not financial advice" })],
   },
   {
     at: "This was two hours of",
