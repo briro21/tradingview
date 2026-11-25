@@ -1,879 +1,895 @@
 1
-00:00:00,000 --> 00:00:02,705
-Days before Anthropic's record IPO,
+00:00:00,000 --> 00:00:01,289
+More than $80 billion.
 
 2
-00:00:02,937 --> 00:00:06,002
-AI's best-known skeptic made the case against it.
+00:00:01,602 --> 00:00:03,808
+That's what Anthropic raised in the biggest IPO
 
 3
-00:00:06,571 --> 00:00:08,858
-Gary Marcus said the company might never turn
+00:00:03,843 --> 00:00:04,470
+in history.
 
 4
-00:00:08,893 --> 00:00:09,543
-a profit.
+00:00:04,899 --> 00:00:05,968
+So is it a boom,
 
 5
-00:00:09,973 --> 00:00:11,378
-Then, on the same show,
+00:00:06,327 --> 00:00:07,221
+or a bust?
 
 6
-00:00:11,575 --> 00:00:14,257
-Box CEO Aaron Levie made the case for
+00:00:08,127 --> 00:00:09,497
+Days before the listing,
 
 7
-00:00:14,303 --> 00:00:14,559
-it.
+00:00:09,578 --> 00:00:11,169
+AI's best-known skeptic,
 
 8
-00:00:14,988 --> 00:00:16,266
-Then the market voted.
+00:00:11,238 --> 00:00:14,129
+Gary Marcus, said the company might never turn
 
 9
-00:00:16,695 --> 00:00:19,458
-This is two hours of Big Technology in
+00:00:14,164 --> 00:00:14,861
+a profit.
 
 10
-00:00:19,505 --> 00:00:20,271
-eight minutes:
+00:00:15,348 --> 00:00:16,591
+Then, on the same show,
 
 11
-00:00:20,840 --> 00:00:21,838
-the bear case,
+00:00:16,660 --> 00:00:19,214
+Box CEO Aaron Levie made the case for
 
 12
-00:00:21,873 --> 00:00:22,651
-the bull case,
+00:00:19,261 --> 00:00:19,435
+it.
 
 13
-00:00:22,686 --> 00:00:23,951
-what actually happened,
+00:00:19,923 --> 00:00:22,059
+This is two hours of Big Technology in
 
 14
-00:00:24,149 --> 00:00:26,146
-and the one number both of them agree
+00:00:22,105 --> 00:00:22,883
+eight minutes:
 
 15
-00:00:26,192 --> 00:00:27,307
-will decide it.
+00:00:23,243 --> 00:00:24,218
+the bear case,
 
 16
-00:00:27,367 --> 00:00:28,226
-Part one.
+00:00:24,532 --> 00:00:25,495
+the bull case,
 
 17
-00:00:28,656 --> 00:00:29,619
-The bear case.
+00:00:25,855 --> 00:00:27,272
+what actually happened,
 
 18
-00:00:30,049 --> 00:00:31,268
-First, a surprise.
+00:00:27,504 --> 00:00:29,513
+and the one number both of them agree
 
 19
-00:00:31,756 --> 00:00:34,913
-Gary Marcus, the scientist who spent years saying
+00:00:29,582 --> 00:00:30,650
+will decide it.
 
 20
-00:00:34,995 --> 00:00:36,945
-chatbots alone would hit a wall,
+00:00:30,700 --> 00:00:31,559
+Part one.
 
 21
-00:00:37,212 --> 00:00:39,244
-actually praises Anthropic.
+00:00:31,989 --> 00:00:32,952
+The bear case.
 
 22
-00:00:39,732 --> 00:00:41,276
-He says its coding tool,
+00:00:33,382 --> 00:00:34,601
+First, a surprise.
 
 23
-00:00:41,543 --> 00:00:45,327
-Claude Code, mixes language models with classic rule-based
+00:00:35,089 --> 00:00:38,246
+Gary Marcus, the scientist who spent years saying
 
 24
-00:00:45,351 --> 00:00:46,140
-software,
+00:00:38,328 --> 00:00:40,278
+chatbots alone would hit a wall,
 
 25
-00:00:46,500 --> 00:00:49,112
-which is exactly what he argued AI needed.
+00:00:40,545 --> 00:00:42,577
+actually praises Anthropic.
 
 26
-00:00:49,472 --> 00:00:51,423
-So the product isn't his problem.
+00:00:43,065 --> 00:00:44,609
+He says its coding tool,
 
 27
-00:00:51,783 --> 00:00:52,688
-The price is.
+00:00:44,876 --> 00:00:48,660
+Claude Code, mixes language models with classic rule-based
 
 28
-00:00:53,257 --> 00:00:56,067
-Going in, the IPO was expected to value
+00:00:48,684 --> 00:00:49,473
+software,
 
 29
-00:00:56,113 --> 00:00:58,865
-Anthropic at up to $1.4 trillion.
+00:00:49,833 --> 00:00:52,445
+which is exactly what he argued AI needed.
 
 30
-00:00:59,642 --> 00:01:01,685
-Marcus wrote that the company has never made
+00:00:52,805 --> 00:00:54,756
+So the product isn't his problem.
 
 31
-00:01:01,709 --> 00:01:02,359
-a profit,
+00:00:55,116 --> 00:00:56,021
+The price is.
 
 32
-00:01:02,719 --> 00:01:04,936
-except for one quarter he calls anomalous and
+00:00:56,590 --> 00:00:59,400
+Going in, the IPO was expected to value
 
 33
-00:01:05,006 --> 00:01:06,132
-heavily subsidized.
+00:00:59,446 --> 00:01:02,198
+Anthropic at up to $1.4 trillion.
 
 34
-00:01:06,492 --> 00:01:09,569
-And it carries nearly $900 billion in future
+00:01:02,975 --> 00:01:05,018
+Marcus wrote that the company has never made
 
 35
-00:01:09,603 --> 00:01:10,277
-commitments.
+00:01:05,042 --> 00:01:05,692
+a profit,
 
 36
-00:01:10,706 --> 00:01:12,947
-His analogy: you can make the world's best
+00:01:06,052 --> 00:01:08,269
+except for one quarter he calls anomalous and
 
 37
-00:01:13,028 --> 00:01:15,246
-lemonade, but if you sell it for less
+00:01:08,339 --> 00:01:09,465
+heavily subsidized.
 
 38
-00:01:15,269 --> 00:01:16,534
-than the lemons cost,
+00:01:09,825 --> 00:01:12,902
+And it carries nearly $900 billion in future
 
 39
-00:01:16,581 --> 00:01:17,858
-it's still a bad business.
+00:01:12,936 --> 00:01:13,610
+commitments.
 
 40
-00:01:18,287 --> 00:01:19,878
-His bottom line is blunt.
+00:01:14,039 --> 00:01:16,280
+His analogy: you can make the world's best
 
 41
-00:01:20,238 --> 00:01:22,513
-He wouldn't be shocked to see Anthropic go
+00:01:16,361 --> 00:01:18,579
+lemonade, but if you sell it for less
 
 42
-00:01:22,583 --> 00:01:23,512
-out of business.
+00:01:18,602 --> 00:01:19,867
+than the lemons cost,
 
 43
-00:01:24,417 --> 00:01:26,286
-His most likely outcome?
+00:01:19,914 --> 00:01:21,191
+it's still a bad business.
 
 44
-00:01:26,414 --> 00:01:27,552
-It gets sold,
+00:01:21,620 --> 00:01:23,211
+His bottom line is blunt.
 
 45
-00:01:27,749 --> 00:01:29,920
-for a lot less than a trillion dollars.
+00:01:23,571 --> 00:01:25,846
+He wouldn't be shocked to see Anthropic go
 
 46
-00:01:30,408 --> 00:01:32,695
-If you want the AI money story explained
+00:01:25,916 --> 00:01:26,845
+out of business.
 
 47
-00:01:32,718 --> 00:01:33,717
-like this every week,
+00:01:27,750 --> 00:01:29,619
+His most likely outcome?
 
 48
-00:01:33,798 --> 00:01:36,317
-subscribe now, so you don't miss the next
+00:01:29,747 --> 00:01:30,885
+It gets sold,
 
 49
-00:01:36,387 --> 00:01:36,700
-one.
+00:01:31,082 --> 00:01:33,253
+for a lot less than a trillion dollars.
 
 50
-00:01:37,130 --> 00:01:38,988
-So why is he so sure the growth
+00:01:33,741 --> 00:01:36,028
+If you want the AI money story explained
 
 51
-00:01:39,022 --> 00:01:40,044
-won't last?
+00:01:36,051 --> 00:01:37,050
+like this every week,
 
 52
-00:01:40,100 --> 00:01:40,971
-Part two.
+00:01:37,131 --> 00:01:39,650
+subscribe now, so you don't miss the next
 
 53
-00:01:41,331 --> 00:01:42,991
-The trillion-pound baby.
+00:01:39,720 --> 00:01:40,033
+one.
 
 54
-00:01:43,896 --> 00:01:45,417
-Marcus has a favorite joke.
+00:01:40,463 --> 00:01:42,321
+So why is he so sure the growth
 
 55
-00:01:45,731 --> 00:01:48,308
-A father tweets that his baby doubled its
+00:01:42,355 --> 00:01:43,377
+won't last?
 
 56
-00:01:48,355 --> 00:01:49,214
-weight in a month,
+00:01:43,433 --> 00:01:44,304
+Part two.
 
 57
-00:01:49,574 --> 00:01:51,280
-and projects that by college,
+00:01:44,664 --> 00:01:46,324
+The trillion-pound baby.
 
 58
-00:01:51,304 --> 00:01:53,440
-the kid will weigh a trillion pounds.
+00:01:47,229 --> 00:01:48,750
+Marcus has a favorite joke.
 
 59
-00:01:54,345 --> 00:01:55,228
-Growth like that,
+00:01:49,064 --> 00:01:51,641
+A father tweets that his baby doubled its
 
 60
-00:01:55,274 --> 00:01:57,770
-Marcus says, always tails off.
+00:01:51,688 --> 00:01:52,547
+weight in a month,
 
 61
-00:01:58,130 --> 00:02:00,592
-And he thinks Anthropic's already has.
+00:01:52,907 --> 00:01:54,613
+and projects that by college,
 
 62
-00:02:00,940 --> 00:02:02,124
-In the second quarter,
+00:01:54,637 --> 00:01:56,773
+the kid will weigh a trillion pounds.
 
 63
-00:02:02,379 --> 00:02:04,829
-revenue grew 147%,
+00:01:57,678 --> 00:01:58,561
+Growth like that,
 
 64
-00:02:04,852 --> 00:02:07,511
-during what he calls the token-maxing fad,
+00:01:58,607 --> 00:02:01,103
+Marcus says, always tails off.
 
 65
-00:02:07,743 --> 00:02:09,914
-when companies told staff to use as much
+00:02:01,463 --> 00:02:03,925
+And he thinks Anthropic's already has.
 
 66
-00:02:10,007 --> 00:02:11,412
-AI as they could.
+00:02:04,273 --> 00:02:05,457
+In the second quarter,
 
 67
-00:02:11,772 --> 00:02:12,979
-In the third quarter,
+00:02:05,712 --> 00:02:08,162
+revenue grew 147%,
 
 68
-00:02:13,176 --> 00:02:15,162
-growth was 47%.
+00:02:08,185 --> 00:02:10,844
+during what he calls the token-maxing fad,
 
 69
-00:02:15,940 --> 00:02:17,356
-Then there's competition.
+00:02:11,076 --> 00:02:13,247
+when companies told staff to use as much
 
 70
-00:02:17,553 --> 00:02:20,293
-Since 2023, he has argued that everyone is
+00:02:13,340 --> 00:02:14,745
+AI as they could.
 
 71
-00:02:20,363 --> 00:02:21,779
-building the same thing,
+00:02:15,105 --> 00:02:16,312
+In the third quarter,
 
 72
-00:02:22,139 --> 00:02:24,008
-which means price wars.
+00:02:16,509 --> 00:02:18,495
+growth was 47%.
 
 73
-00:02:24,438 --> 00:02:26,830
-Cheaper Chinese models made that real this year,
+00:02:19,273 --> 00:02:20,689
+Then there's competition.
 
 74
-00:02:26,865 --> 00:02:30,139
-he says. That leaves Anthropic one niche:
+00:02:20,886 --> 00:02:23,626
+Since 2023, he has argued that everyone is
 
 75
-00:02:30,498 --> 00:02:32,263
-the very top-end models.
+00:02:23,696 --> 00:02:25,112
+building the same thing,
 
 76
-00:02:32,623 --> 00:02:35,316
-Host Alex Kantrowitz put it this way:
+00:02:25,472 --> 00:02:27,341
+which means price wars.
 
 77
-00:02:35,885 --> 00:02:38,486
-if an associate professor can do the job,
+00:02:27,771 --> 00:02:30,163
+Cheaper Chinese models made that real this year,
 
 78
-00:02:38,846 --> 00:02:40,495
-why pay the full professor?
+00:02:30,198 --> 00:02:33,472
+he says. That leaves Anthropic one niche:
 
 79
-00:02:40,924 --> 00:02:42,863
-And each step up costs more.
+00:02:33,831 --> 00:02:35,596
+the very top-end models.
 
 80
-00:02:43,351 --> 00:02:46,091
-One billion to impress users this year,
+00:02:35,956 --> 00:02:38,649
+Host Alex Kantrowitz put it this way:
 
 81
-00:02:46,520 --> 00:02:49,098
-Marcus warns, ten billion next year,
+00:02:39,218 --> 00:02:41,819
+if an associate professor can do the job,
 
 82
-00:02:49,365 --> 00:02:51,106
-a hundred billion after that.
+00:02:42,179 --> 00:02:43,828
+why pay the full professor?
 
 83
-00:02:51,536 --> 00:02:53,370
-Kantrowitz added more pressure:
+00:02:44,257 --> 00:02:46,196
+And each step up costs more.
 
 84
-00:02:53,858 --> 00:02:56,993
-five customers make up 19% of revenue,
+00:02:46,684 --> 00:02:49,424
+One billion to impress users this year,
 
 85
-00:02:57,260 --> 00:02:59,361
-and some big ones are pulling back.
+00:02:49,853 --> 00:02:52,431
+Marcus warns, ten billion next year,
 
 86
-00:03:00,139 --> 00:03:04,075
-Marcus's conclusion: Anthropic has to stay a rocket.
+00:02:52,698 --> 00:02:54,439
+a hundred billion after that.
 
 87
-00:03:04,562 --> 00:03:07,534
-Every customer who pulls back makes escape velocity
+00:02:54,869 --> 00:02:56,703
+Kantrowitz added more pressure:
 
 88
-00:03:07,615 --> 00:03:09,566
-harder. That's the bear case.
+00:02:57,191 --> 00:03:00,326
+five customers make up 19% of revenue,
 
 89
-00:03:09,601 --> 00:03:11,911
-Now meet the man who thinks it's wrong.
+00:03:00,593 --> 00:03:02,694
+and some big ones are pulling back.
 
 90
-00:03:11,967 --> 00:03:12,815
-Part three.
+00:03:03,472 --> 00:03:07,408
+Marcus's conclusion: Anthropic has to stay a rocket.
 
 91
-00:03:13,244 --> 00:03:14,150
-The bull case.
+00:03:07,895 --> 00:03:10,867
+Every customer who pulls back makes escape velocity
 
 92
-00:03:14,637 --> 00:03:16,565
-Aaron Levie runs Box,
+00:03:10,948 --> 00:03:12,899
+harder. That's the bear case.
 
 93
-00:03:16,762 --> 00:03:18,875
-which sends huge amounts of business work through
+00:03:12,934 --> 00:03:15,244
+Now meet the man who thinks it's wrong.
 
 94
-00:03:18,921 --> 00:03:19,850
-AI models.
+00:03:15,300 --> 00:03:16,148
+Part three.
 
 95
-00:03:20,280 --> 00:03:21,812
-He starts with a disclaimer:
+00:03:16,577 --> 00:03:17,483
+The bull case.
 
 96
-00:03:22,172 --> 00:03:24,239
-he's not giving financial advice,
+00:03:17,970 --> 00:03:19,898
+Aaron Levie runs Box,
 
 97
-00:03:24,471 --> 00:03:25,899
-and he won't say what the shares are
+00:03:20,095 --> 00:03:22,208
+which sends huge amounts of business work through
 
 98
-00:03:25,934 --> 00:03:26,398
-worth.
+00:03:22,254 --> 00:03:23,183
+AI models.
 
 99
-00:03:26,758 --> 00:03:28,221
-But on the market itself,
+00:03:23,613 --> 00:03:25,145
+He starts with a disclaimer:
 
 100
-00:03:28,360 --> 00:03:29,440
-he's very bullish.
+00:03:25,505 --> 00:03:27,572
+he's not giving financial advice,
 
 101
-00:03:29,800 --> 00:03:30,775
-His first number:
+00:03:27,804 --> 00:03:29,232
+and he won't say what the shares are
 
 102
-00:03:30,938 --> 00:03:34,630
-Anthropic's revenue went from $1.4 billion
+00:03:29,267 --> 00:03:29,731
+worth.
 
 103
-00:03:34,990 --> 00:03:36,638
-in the third quarter of last year
+00:03:30,091 --> 00:03:31,554
+But on the market itself,
 
 104
-00:03:36,998 --> 00:03:39,761
-to $17 billion this third quarter.
+00:03:31,693 --> 00:03:32,773
+he's very bullish.
 
 105
-00:03:40,539 --> 00:03:43,070
-Twelve times. He doesn't expect that again,
+00:03:33,133 --> 00:03:34,108
+His first number:
 
 106
-00:03:43,152 --> 00:03:45,264
-he says, but the direction holds.
+00:03:34,271 --> 00:03:37,963
+Anthropic's revenue went from $1.4 billion
 
 107
-00:03:45,624 --> 00:03:46,727
-His second number:
+00:03:38,323 --> 00:03:39,971
+in the third quarter of last year
 
 108
-00:03:46,994 --> 00:03:50,779
-customers spending at least $100,000 a year
+00:03:40,331 --> 00:03:43,094
+to $17 billion this third quarter.
 
 109
-00:03:51,348 --> 00:03:55,644
-grew from about 950 to about 11,900.
+00:03:43,872 --> 00:03:46,403
+Twelve times. He doesn't expect that again,
 
 110
-00:03:56,317 --> 00:03:57,327
-Companies, he says,
+00:03:46,485 --> 00:03:48,597
+he says, but the direction holds.
 
 111
-00:03:57,350 --> 00:03:58,743
-are voting with their wallets.
+00:03:48,957 --> 00:03:50,060
+His second number:
 
 112
-00:03:59,521 --> 00:04:00,949
-Why will it keep going?
+00:03:50,327 --> 00:03:54,112
+customers spending at least $100,000 a year
 
 113
-00:04:01,309 --> 00:04:03,388
-Because coding was just the start.
+00:03:54,681 --> 00:03:58,977
+grew from about 950 to about 11,900.
 
 114
-00:04:04,061 --> 00:04:06,639
-Once AI agents can use computers and write
+00:03:59,650 --> 00:04:00,660
+Companies, he says,
 
 115
-00:04:06,662 --> 00:04:07,800
-their own software,
+00:04:00,683 --> 00:04:02,076
+are voting with their wallets.
 
 116
-00:04:08,159 --> 00:04:10,737
-almost every job becomes code-adjacent:
+00:04:02,854 --> 00:04:04,282
+Why will it keep going?
 
 117
-00:04:11,515 --> 00:04:14,034
-product design, cybersecurity,
+00:04:04,642 --> 00:04:06,721
+Because coding was just the start.
 
 118
-00:04:14,266 --> 00:04:15,892
-research, sales.
+00:04:07,394 --> 00:04:09,972
+Once AI agents can use computers and write
 
 119
-00:04:16,565 --> 00:04:18,550
-For the first time in office work,
+00:04:09,995 --> 00:04:11,133
+their own software,
 
 120
-00:04:18,597 --> 00:04:22,382
-Levie says, output isn't limited by how fast
+00:04:11,492 --> 00:04:14,070
+almost every job becomes code-adjacent:
 
 121
-00:04:22,452 --> 00:04:23,415
-people can type.
+00:04:14,848 --> 00:04:17,367
+product design, cybersecurity,
 
 122
-00:04:23,984 --> 00:04:26,422
-The only limit is how much computing power
+00:04:17,599 --> 00:04:19,225
+research, sales.
 
 123
-00:04:26,469 --> 00:04:28,918
-you buy. And his favorite chart,
+00:04:19,898 --> 00:04:21,883
+For the first time in office work,
 
 124
-00:04:29,081 --> 00:04:31,008
-from Anthropic's own filing:
+00:04:21,930 --> 00:04:25,715
+Levie says, output isn't limited by how fast
 
 125
-00:04:31,670 --> 00:04:33,586
-in early 2025,
+00:04:25,785 --> 00:04:26,748
+people can type.
 
 126
-00:04:33,702 --> 00:04:36,581
-every dollar spent on computing brought back 40
+00:04:27,317 --> 00:04:29,755
+The only limit is how much computing power
 
 127
-00:04:36,651 --> 00:04:38,276
-cents. This year,
+00:04:29,802 --> 00:04:32,251
+you buy. And his favorite chart,
 
 128
-00:04:38,369 --> 00:04:39,983
-a dollar seventy-two.
+00:04:32,414 --> 00:04:34,341
+from Anthropic's own filing:
 
 129
-00:04:40,749 --> 00:04:41,852
-People, he says,
+00:04:35,003 --> 00:04:36,919
+in early 2025,
 
 130
-00:04:42,049 --> 00:04:43,315
-should update their views.
+00:04:37,035 --> 00:04:39,914
+every dollar spent on computing brought back 40
 
 131
-00:04:43,675 --> 00:04:45,451
-So how does he answer Marcus?
+00:04:39,984 --> 00:04:41,609
+cents. This year,
 
 132
-00:04:45,600 --> 00:04:46,355
-Part four.
+00:04:41,702 --> 00:04:43,316
+a dollar seventy-two.
 
 133
-00:04:47,260 --> 00:04:48,294
-Round two.
+00:04:44,082 --> 00:04:45,185
+People, he says,
 
 134
-00:04:48,653 --> 00:04:51,742
-Kantrowitz put Marcus's biggest worries to Levie.
+00:04:45,382 --> 00:04:46,648
+should update their views.
 
 135
-00:04:52,055 --> 00:04:52,903
-The debt?
+00:04:47,008 --> 00:04:48,784
+So how does he answer Marcus?
 
 136
-00:04:53,576 --> 00:04:56,130
-Levie says everything depends on one thing:
+00:04:48,933 --> 00:04:49,688
+Part four.
 
 137
-00:04:56,397 --> 00:04:58,684
-whether growth continues at some level.
+00:04:50,593 --> 00:04:51,627
+Round two.
 
 138
-00:04:59,044 --> 00:05:00,519
-If the revenue comes,
+00:04:51,986 --> 00:04:55,075
+Kantrowitz put Marcus's biggest worries to Levie.
 
 139
-00:05:00,623 --> 00:05:02,017
-the commitments are fine.
+00:04:55,388 --> 00:04:56,236
+The debt?
 
 140
-00:05:02,376 --> 00:05:03,235
-If it doesn't,
+00:04:56,909 --> 00:04:59,463
+Levie says everything depends on one thing:
 
 141
-00:05:03,305 --> 00:05:04,443
-they blow up the company.
+00:04:59,730 --> 00:05:02,017
+whether growth continues at some level.
 
 142
-00:05:05,348 --> 00:05:06,765
-Token-maxing?
+00:05:02,377 --> 00:05:03,852
+If the revenue comes,
 
 143
-00:05:07,125 --> 00:05:09,342
-He calls it a two-week fashion,
+00:05:03,956 --> 00:05:05,350
+the commitments are fine.
 
 144
-00:05:09,656 --> 00:05:12,965
-not the reason Anthropic's revenue run rate passed
+00:05:05,709 --> 00:05:06,568
+If it doesn't,
 
 145
-00:05:13,011 --> 00:05:14,091
-$80 billion.
+00:05:06,638 --> 00:05:07,776
+they blow up the company.
 
 146
-00:05:14,764 --> 00:05:16,030
-Diminishing returns?
+00:05:08,681 --> 00:05:10,098
+Token-maxing?
 
 147
-00:05:16,459 --> 00:05:19,060
-He says improving a model for one field,
+00:05:10,458 --> 00:05:12,675
+He calls it a two-week fashion,
 
 148
-00:05:19,420 --> 00:05:21,428
-like cybersecurity or law,
+00:05:12,989 --> 00:05:16,298
+not the reason Anthropic's revenue run rate passed
 
 149
-00:05:21,626 --> 00:05:23,634
-costs millions in training data,
+00:05:16,344 --> 00:05:17,424
+$80 billion.
 
 150
-00:05:23,773 --> 00:05:25,306
-not hundreds of billions.
+00:05:18,097 --> 00:05:19,363
+Diminishing returns?
 
 151
-00:05:25,666 --> 00:05:27,988
-And each of those fields is worth trillions
+00:05:19,792 --> 00:05:22,393
+He says improving a model for one field,
 
 152
-00:05:28,023 --> 00:05:29,068
-of dollars of work.
+00:05:22,753 --> 00:05:24,761
+like cybersecurity or law,
 
 153
-00:05:29,845 --> 00:05:31,958
-Cheap Chinese and open models?
+00:05:24,959 --> 00:05:26,967
+costs millions in training data,
 
 154
-00:05:32,864 --> 00:05:34,722
-Levie sees a rising tide.
+00:05:27,106 --> 00:05:28,639
+not hundreds of billions.
 
 155
-00:05:34,989 --> 00:05:37,601
-Companies use a top model to plan and
+00:05:28,999 --> 00:05:31,321
+And each of those fields is worth trillions
 
 156
-00:05:37,647 --> 00:05:39,307
-cheap models for the bulk work,
+00:05:31,356 --> 00:05:32,401
+of dollars of work.
 
 157
-00:05:39,621 --> 00:05:41,177
-so they spend more on both.
+00:05:33,178 --> 00:05:35,291
+Cheap Chinese and open models?
 
 158
-00:05:41,955 --> 00:05:43,719
-Marcus answers with a warning:
+00:05:36,197 --> 00:05:38,055
+Levie sees a rising tide.
 
 159
-00:05:44,207 --> 00:05:45,821
-more than a dozen studies,
+00:05:38,322 --> 00:05:40,934
+Companies use a top model to plan and
 
 160
-00:05:45,844 --> 00:05:48,653
-he says, show companies struggling to get a
+00:05:40,980 --> 00:05:42,640
+cheap models for the bulk work,
 
 161
-00:05:48,735 --> 00:05:49,455
-return,
+00:05:42,954 --> 00:05:44,510
+so they spend more on both.
 
 162
-00:05:49,884 --> 00:05:52,578
-and hallucinations haven't gone away.
+00:05:45,288 --> 00:05:47,052
+Marcus answers with a warning:
 
 163
-00:05:53,356 --> 00:05:54,772
-Marcus gave ground too.
+00:05:47,540 --> 00:05:49,154
+more than a dozen studies,
 
 164
-00:05:55,132 --> 00:05:57,071
-He called his doubt about raising the money
+00:05:49,177 --> 00:05:51,986
+he says, show companies struggling to get a
 
 165
-00:05:57,152 --> 00:05:58,430
-his weakest argument,
+00:05:52,068 --> 00:05:52,788
+return,
 
 166
-00:05:58,789 --> 00:06:01,878
-as reports said the IPO was oversubscribed.
+00:05:53,217 --> 00:05:55,911
+and hallucinations haven't gone away.
 
 167
-00:06:02,365 --> 00:06:04,978
-He didn't dispute the tenfold revenue growth.
+00:05:56,689 --> 00:05:58,105
+Marcus gave ground too.
 
 168
-00:06:05,407 --> 00:06:07,741
-And he agreed that the fallout from Jensen
+00:05:58,465 --> 00:06:00,404
+He called his doubt about raising the money
 
 169
-00:06:07,810 --> 00:06:08,728
-Huang's scandal
+00:06:00,485 --> 00:06:01,763
+his weakest argument,
 
 170
-00:06:09,157 --> 00:06:11,711
-could help Anthropic against Chinese rivals.
+00:06:02,122 --> 00:06:05,211
+as reports said the IPO was oversubscribed.
 
 171
-00:06:12,199 --> 00:06:14,405
-"The best argument you've made," he told the
+00:06:05,698 --> 00:06:08,311
+He didn't dispute the tenfold revenue growth.
 
 172
-00:06:14,451 --> 00:06:14,950
-host.
+00:06:08,740 --> 00:06:11,074
+And he agreed that the fallout from Jensen
 
 173
-00:06:15,624 --> 00:06:16,611
-And on one point,
+00:06:11,143 --> 00:06:12,061
+Huang's scandal
 
 174
-00:06:16,808 --> 00:06:18,306
-Levie conceded outright.
+00:06:12,490 --> 00:06:15,044
+could help Anthropic against Chinese rivals.
 
 175
-00:06:18,793 --> 00:06:20,953
-Could the bills come due before the industries
+00:06:15,532 --> 00:06:17,738
+"The best argument you've made," he told the
 
 176
-00:06:20,999 --> 00:06:21,615
-change?
+00:06:17,784 --> 00:06:18,283
+host.
 
 177
-00:06:22,288 --> 00:06:25,121
-"Absolutely possible," he said.
+00:06:18,957 --> 00:06:19,944
+And on one point,
 
 178
-00:06:25,167 --> 00:06:26,804
-Part five. Then the market voted.
+00:06:20,141 --> 00:06:21,639
+Levie conceded outright.
 
 179
-00:06:27,373 --> 00:06:28,604
-On November 19th,
+00:06:22,126 --> 00:06:24,286
+Could the bills come due before the industries
 
 180
-00:06:28,650 --> 00:06:31,761
-Anthropic listed at $83 a share.
+00:06:24,332 --> 00:06:24,948
+change?
 
 181
-00:06:32,121 --> 00:06:34,873
-It opened around $111 and closed its first
+00:06:25,621 --> 00:06:28,454
+"Absolutely possible," he said.
 
 182
-00:06:34,908 --> 00:06:36,475
-day near $97.
+00:06:28,500 --> 00:06:30,137
+Part five. Then the market voted.
 
 183
-00:06:36,905 --> 00:06:39,900
-By Friday, it had slipped to about $87,
+00:06:30,706 --> 00:06:31,937
+On November 19th,
 
 184
-00:06:39,923 --> 00:06:41,479
-still above its listing price,
+00:06:31,983 --> 00:06:35,094
+Anthropic listed at $83 a share.
 
 185
-00:06:41,839 --> 00:06:43,441
-as tech stocks fell around it.
+00:06:35,454 --> 00:06:38,206
+It opened around $111 and closed its first
 
 186
-00:06:43,871 --> 00:06:45,612
-The deal raised more than $80 billion,
+00:06:38,241 --> 00:06:39,808
+day near $97.
 
 187
-00:06:45,694 --> 00:06:48,689
-and up to $93 billion if the underwriters
+00:06:40,238 --> 00:06:43,233
+By Friday, it had slipped to about $87,
 
 188
-00:06:48,724 --> 00:06:49,943
-take their extra shares.
+00:06:43,256 --> 00:06:44,812
+still above its listing price,
 
 189
-00:06:50,430 --> 00:06:52,671
-So far, neither man is proven right.
+00:06:45,172 --> 00:06:46,774
+as tech stocks fell around it.
 
 190
-00:06:52,903 --> 00:06:53,670
-On the show,
+00:06:47,204 --> 00:06:48,945
+The deal raised more than $80 billion,
 
 191
-00:06:53,716 --> 00:06:56,154
-both sides agreed the first day says little.
+00:06:49,027 --> 00:06:52,022
+and up to $93 billion if the underwriters
 
 192
-00:06:56,514 --> 00:06:58,232
-The real test is time.
+00:06:52,057 --> 00:06:53,276
+take their extra shares.
 
 193
-00:06:58,546 --> 00:07:00,508
-Which brings us back to the one number
+00:06:53,763 --> 00:06:56,004
+So far, neither man is proven right.
 
 194
-00:07:00,601 --> 00:07:02,505
-both of them agree will decide it.
+00:06:56,236 --> 00:06:57,003
+On the show,
 
 195
-00:07:02,567 --> 00:07:04,726
-Part six. The deciding number.
+00:06:57,049 --> 00:06:59,487
+both sides agreed the first day says little.
 
 196
-00:07:05,086 --> 00:07:07,014
-Strip away the babies and the lemonade,
+00:06:59,847 --> 00:07:01,565
+The real test is time.
 
 197
-00:07:07,211 --> 00:07:09,057
-and both men are making the same bet
+00:07:01,879 --> 00:07:03,841
+Which brings us back to the one number
 
 198
-00:07:09,103 --> 00:07:10,439
-in opposite directions.
+00:07:03,934 --> 00:07:05,838
+both of them agree will decide it.
 
 199
-00:07:11,112 --> 00:07:14,003
-Levie says everything depends on whether growth continues.
+00:07:05,900 --> 00:07:08,059
+Part six. The deciding number.
 
 200
-00:07:14,432 --> 00:07:16,987
-Marcus says Anthropic has to stay a rocket.
+00:07:08,419 --> 00:07:10,347
+Strip away the babies and the lemonade,
 
 201
-00:07:17,346 --> 00:07:19,494
-So the number to watch is next quarter's
+00:07:10,544 --> 00:07:12,390
+and both men are making the same bet
 
 202
-00:07:19,541 --> 00:07:22,687
-growth. If it bounces back from 47%,
+00:07:12,436 --> 00:07:13,772
+in opposite directions.
 
 203
-00:07:22,710 --> 00:07:23,999
-the bull case gets stronger.
+00:07:14,445 --> 00:07:17,336
+Levie says everything depends on whether growth continues.
 
 204
-00:07:24,568 --> 00:07:27,691
-If it keeps sliding while those $900 billion
+00:07:17,765 --> 00:07:20,320
+Marcus says Anthropic has to stay a rocket.
 
 205
-00:07:27,761 --> 00:07:29,026
-in commitments come due,
+00:07:20,679 --> 00:07:22,827
+So the number to watch is next quarter's
 
 206
-00:07:29,386 --> 00:07:30,570
-the bear case does.
+00:07:22,874 --> 00:07:26,020
+growth. If it bounces back from 47%,
 
 207
-00:07:31,058 --> 00:07:33,113
-And as Ed Zitron argued in our last
+00:07:26,043 --> 00:07:27,332
+the bull case gets stronger.
 
 208
-00:07:33,183 --> 00:07:33,868
-episode,
+00:07:27,901 --> 00:07:31,024
+If it keeps sliding while those $900 billion
 
 209
-00:07:34,355 --> 00:07:37,653
-anything under about $21 billion in revenue this
+00:07:31,094 --> 00:07:32,359
+in commitments come due,
 
 210
-00:07:37,722 --> 00:07:39,301
-quarter would be a problem.
+00:07:32,719 --> 00:07:33,903
+the bear case does.
 
 211
-00:07:39,870 --> 00:07:41,507
-This is their analysis,
+00:07:34,391 --> 00:07:36,446
+And as Ed Zitron argued in our last
 
 212
-00:07:41,600 --> 00:07:43,109
-not financial advice.
+00:07:36,516 --> 00:07:37,201
+episode,
 
 213
-00:07:43,597 --> 00:07:46,035
-This was two hours of Big Technology in
+00:07:37,688 --> 00:07:40,986
+anything under about $21 billion in revenue this
 
 214
-00:07:46,082 --> 00:07:46,825
-eight minutes.
+00:07:41,055 --> 00:07:42,634
+quarter would be a problem.
 
 215
-00:07:47,185 --> 00:07:49,344
-Both full episodes are linked below.
+00:07:43,203 --> 00:07:44,840
+This is their analysis,
 
 216
-00:07:49,774 --> 00:07:51,654
-And for the AI money story,
+00:07:44,933 --> 00:07:46,442
+not financial advice.
 
 217
-00:07:51,747 --> 00:07:53,187
-explained every week,
+00:07:46,930 --> 00:07:49,368
+This was two hours of Big Technology in
 
 218
-00:07:53,315 --> 00:07:54,487
-subscribe.
+00:07:49,415 --> 00:07:50,158
+eight minutes.
 
 219
-00:07:54,533 --> 00:07:56,019
-And tell us in the comments:
+00:07:50,518 --> 00:07:52,677
+Both full episodes are linked below.
 
 220
-00:07:56,507 --> 00:07:59,502
+00:07:53,107 --> 00:07:54,987
+And for the AI money story,
+
+221
+00:07:55,080 --> 00:07:56,520
+explained every week,
+
+222
+00:07:56,648 --> 00:07:57,820
+subscribe.
+
+223
+00:07:57,867 --> 00:07:59,353
+And tell us in the comments:
+
+224
+00:07:59,841 --> 00:08:02,836
 which long podcast should we break down next?

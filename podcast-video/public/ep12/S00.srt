@@ -1,59 +1,75 @@
 1
-00:00:00,000 --> 00:00:02,705
-Days before Anthropic's record IPO,
+00:00:00,000 --> 00:00:01,289
+More than $80 billion.
 
 2
-00:00:02,937 --> 00:00:06,002
-AI's best-known skeptic made the case against it.
+00:00:01,602 --> 00:00:03,808
+That's what Anthropic raised in the biggest IPO
 
 3
-00:00:06,571 --> 00:00:08,858
-Gary Marcus said the company might never turn
+00:00:03,843 --> 00:00:04,470
+in history.
 
 4
-00:00:08,893 --> 00:00:09,543
-a profit.
+00:00:04,899 --> 00:00:05,968
+So is it a boom,
 
 5
-00:00:09,973 --> 00:00:11,378
-Then, on the same show,
+00:00:06,327 --> 00:00:07,221
+or a bust?
 
 6
-00:00:11,575 --> 00:00:14,257
-Box CEO Aaron Levie made the case for
+00:00:08,127 --> 00:00:09,497
+Days before the listing,
 
 7
-00:00:14,303 --> 00:00:14,559
-it.
+00:00:09,578 --> 00:00:11,169
+AI's best-known skeptic,
 
 8
-00:00:14,988 --> 00:00:16,266
-Then the market voted.
+00:00:11,238 --> 00:00:14,129
+Gary Marcus, said the company might never turn
 
 9
-00:00:16,695 --> 00:00:19,458
-This is two hours of Big Technology in
+00:00:14,164 --> 00:00:14,861
+a profit.
 
 10
-00:00:19,505 --> 00:00:20,271
-eight minutes:
+00:00:15,348 --> 00:00:16,591
+Then, on the same show,
 
 11
-00:00:20,840 --> 00:00:21,838
-the bear case,
+00:00:16,660 --> 00:00:19,214
+Box CEO Aaron Levie made the case for
 
 12
-00:00:21,873 --> 00:00:22,651
-the bull case,
+00:00:19,261 --> 00:00:19,435
+it.
 
 13
-00:00:22,686 --> 00:00:23,951
-what actually happened,
+00:00:19,923 --> 00:00:22,059
+This is two hours of Big Technology in
 
 14
-00:00:24,149 --> 00:00:26,146
-and the one number both of them agree
+00:00:22,105 --> 00:00:22,883
+eight minutes:
 
 15
-00:00:26,192 --> 00:00:27,307
+00:00:23,243 --> 00:00:24,218
+the bear case,
+
+16
+00:00:24,532 --> 00:00:25,495
+the bull case,
+
+17
+00:00:25,855 --> 00:00:27,272
+what actually happened,
+
+18
+00:00:27,504 --> 00:00:29,513
+and the one number both of them agree
+
+19
+00:00:29,582 --> 00:00:30,650
 will decide it.
