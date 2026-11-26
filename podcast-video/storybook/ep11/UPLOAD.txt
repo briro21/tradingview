@@ -71,4 +71,4 @@ Round slot (bottom centre): Subscribe
 5:44  Ed Zitron: The AI Bubble Was One Man                  teaser: "Why Jensen was the bubble"
 
 === CORRECTION (paste as the FIRST line of the published description, Nov 25) ===
-Update (Nov 23): Nvidia's board reinstated Jensen Huang as CEO after this video was made. The video reflects what was known when the episodes were recorded.
+Update (Nov 25): Anthropic shares fell below their $83 IPO price on Nov 24, and Nvidia reinstated Jensen Huang as CEO on Nov 23. The video reflects what was known when the episodes were recorded.

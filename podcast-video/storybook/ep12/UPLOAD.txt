@@ -71,3 +71,10 @@ Round slot (bottom centre): Subscribe
 === CARDS ===
 1:45  Ed Zitron WARNS: Generative AI Is a $1 Trillion Con   teaser: "Zitron's take on the AI money"
 7:34  Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?   teaser: "The $21B bar, explained"
+
+=== CORRECTION (published; paste as the FIRST line of the description, Nov 26) ===
+Update (Nov 25): Anthropic shares fell below their $83 IPO price on Nov 24 (about $79 on Nov 25), and the underwriters took all their extra shares, so the deal raised about $93 billion. Nvidia reinstated Jensen Huang as CEO on Nov 23. The video reflects prices as of Nov 20.
+
+=== PINNED COMMENT (replace, Nov 26) ===
+Update: since we made this, Anthropic fell below its $83 IPO price (about $79 on Nov 25). Score one for the bear? Or is this the dip Levie would buy?
+And which long podcast should we break down next? Reply with the episode. We read every comment.
