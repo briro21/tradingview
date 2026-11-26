@@ -1,0 +1,9 @@
+Part two. The bankers' game.
+
+Damodaran says bankers have one job in an IPO: price it so the stock pops on day one. He expected an open around $90 to $95. But he said the opening price is irrelevant. What matters is where it closes, because insiders could start selling from day one. Same door, he said, with people trying to get in and people trying to get out.
+
+His line in the sand: if it fell to $71 or $72, it would start to get interesting for him.
+
+Here's what happened. Anthropic opened around $111 and closed its first day near $97. Four trading days later, it fell below $83. By Wednesday, it was near $79, closing in on his $77.
+
+But even at his number, he wasn't rushing to buy. It needs to drop a lot, he said. And the reason has nothing to do with AI.

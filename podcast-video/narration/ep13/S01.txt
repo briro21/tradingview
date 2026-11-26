@@ -1,0 +1,11 @@
+Part one. The $77 math.
+
+Damodaran first valued Anthropic on November 2nd. He told what he calls a big, uplifting story: a trillion dollars in revenue a year within about a decade, more than any company on earth makes today. Margins of 27.5%. A cost of capital of 9.7%. And one more step most people skip: he treated the compute contracts like debt, worth about $500 billion, and subtracted them. His answer was $1.475 trillion for the whole company.
+
+Then the world changed. The midterm election, he says, brought in a Congress more hostile to data centers and to AI. So he raised the cost of building compute and added a regulatory drag. That cut about $100 billion, to roughly $1.35 trillion.
+
+Then he divided by the shares, including a big pile of options. His answer: $77 a share. Moments later, the IPO priced at $83. His reaction: it terrifies me that I'm so close to a banker's price.
+
+If you want the AI money story explained like this every week, subscribe now, so you don't miss the next one.
+
+So what did he expect the market to do next?

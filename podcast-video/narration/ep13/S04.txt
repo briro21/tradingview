@@ -1,0 +1,13 @@
+Part four. The one number.
+
+Damodaran's first rule of corporate finance: young companies that aren't making money shouldn't borrow. Anthropic, he says, broke it by signing hundreds of billions in compute commitments without the earnings to back them.
+
+What buys time is cash. After the IPO, he expects about $200 billion, enough to cover the next two or three years of those bills. But only if revenue roughly doubles every year in the near term.
+
+That's the one number he says drives everything. If revenue comes in, profits come, the commitments get paid, and the risk goes away. If it doesn't, everything else falls apart.
+
+Host Ed Elson pointed out that growth was already slowing, from 47% a quarter toward 15 to 25%. Damodaran blames competition: OpenAI underpricing, and cheaper open models. Most businesses don't need Claude, he says. It's overkill. His advice: build models powerful enough, but not too powerful.
+
+And even if AI helps cure diseases, he warns, the value may flow to all of us, not to Anthropic's shareholders.
+
+So why hasn't he written it off?
