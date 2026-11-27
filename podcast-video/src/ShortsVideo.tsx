@@ -13,6 +13,7 @@ import { SH15, SH16, SH17, SH18 } from "./scenes/EP8Shorts";
 import { SH19, SH20, SH21, SH22 } from "./scenes/EP9Shorts";
 import { SH23, SH24, SH25, SH26 } from "./scenes/EP10Shorts";
 import { SH27, SH28 } from "./scenes/EP12Shorts";
+import { SH29 } from "./scenes/EP13Shorts";
 import { TIMING } from "./timing";
 import { ShortId } from "./timeline";
 
@@ -50,6 +51,7 @@ const SHORTS: Record<ShortId, { beats: Beat[]; label: string }> = {
   SH26: { beats: SH26, label: "Better Offline · Ed Zitron" },
   SH27: { beats: SH27, label: "Big Technology · Marcus vs Levie" },
   SH28: { beats: SH28, label: "Big Technology · the bull case" },
+  SH29: { beats: SH29, label: "Prof G Markets · Aswath Damodaran" },
 };
 
 // YouTube Shorts 1080×1920.

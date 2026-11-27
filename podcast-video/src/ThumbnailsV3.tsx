@@ -349,3 +349,41 @@ export const V3Ep12C: React.FC = () => (
     <div style={{ ...center, top: 260, textShadow: "0 6px 24px #000" }}><Big size={150} color="#FFFFFF">VS</Big><Big size={72} color={yellow} style={{ marginTop: 10 }}>ANTHROPIC IPO</Big></div>
   </Bg>
 );
+
+// ---------- Episode 13: Damodaran's $77 Anthropic (Prof G Markets) ----------
+const D13 = "thumbs/photo_damodaran.png";
+
+/** A: "$77 / A SHARE?". */
+export const V3Ep13A: React.FC = () => (
+  <Bg dark>
+    <Guest n={13} height={700} left={10} src={D13} />
+    <div style={{ position: "absolute", right: 60, top: 120, textAlign: "right" }}>
+      <Big size={260} color={yellow}>$77</Big>
+      <Big size={120} color={red} style={{ marginTop: 6 }}>A SHARE?</Big>
+    </div>
+  </Bg>
+);
+
+/** B: "DESIGNED IN HELL". */
+export const V3Ep13B: React.FC = () => (
+  <Bg dark>
+    <Guest n={13} height={700} left={10} src={D13} />
+    <div style={{ position: "absolute", right: 60, top: 150, textAlign: "right" }}>
+      <Big size={140} color="#FFFFFF">"DESIGNED</Big>
+      <Big size={170} color={red} style={{ marginTop: 6 }}>IN HELL"</Big>
+    </div>
+  </Bg>
+);
+
+/** C: "$83 / NOW $79 / HE SAID $77". */
+export const V3Ep13C: React.FC = () => (
+  <Bg dark>
+    <Guest n={13} height={700} left={10} src={D13} />
+    <div style={{ position: "absolute", right: 60, top: 110, textAlign: "right" }}>
+      <Big size={110} color="#FFFFFF">IPO: $83</Big>
+      <Big size={130} color={red} style={{ marginTop: 6 }}>NOW: $79</Big>
+      <Big size={124} color={yellow} style={{ marginTop: 6 }}>HE SAID $77</Big>
+    </div>
+  </Bg>
+);
+
