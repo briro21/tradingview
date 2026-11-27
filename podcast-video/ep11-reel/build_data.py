@@ -111,7 +111,7 @@ for sid in order:
     off += tm["frames"] / 30
 
 # Real people get their real (freely licensed) photos: Wikimedia Commons, see docs/credits.md.
-NAMES = {"ZITRON": "zitron", "ED ZITRON": "zitron", "BARTLETT": "bartlett", "CUBAN": "cuban", "MARK CUBAN": "cuban", "MARCUS": "marcus", "GARY MARCUS": "marcus", "LEVIE": "levie", "AARON LEVIE": "levie"}
+NAMES = {"ZITRON": "zitron", "ED ZITRON": "zitron", "BARTLETT": "bartlett", "CUBAN": "cuban", "MARK CUBAN": "cuban", "MARCUS": "marcus", "GARY MARCUS": "marcus", "LEVIE": "levie", "AARON LEVIE": "levie", "DAMODARAN": "damodaran", "ASWATH DAMODARAN": "damodaran"}
 for i, s in enumerate(shots):
     s["t1"] = shots[i + 1]["t0"] if i + 1 < len(shots) else round(off, 3)
 for s in shots:

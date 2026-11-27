@@ -228,7 +228,7 @@ function drawItem(ctx, it, age, P, shotAge) {
 }
 
 // Real photos (Wikimedia Commons, docs/credits.md). Face circle in sticker pixels.
-const FACES = { zitron: { src: 'photo_zitron.png', cx: 380, cy: 400, r: 235 }, bartlett: { src: 'photo_bartlett.png', cx: 210, cy: 300, r: 195 }, cuban: { src: 'photo_cuban.png', cx: 420, cy: 470, r: 255 }, marcus: { src: 'photo_marcus.png', cx: 405, cy: 295, r: 175 }, levie: { src: 'photo_levie.png', cx: 371, cy: 268, r: 165 } };
+const FACES = { zitron: { src: 'photo_zitron.png', cx: 380, cy: 400, r: 235 }, bartlett: { src: 'photo_bartlett.png', cx: 210, cy: 300, r: 195 }, cuban: { src: 'photo_cuban.png', cx: 420, cy: 470, r: 255 }, marcus: { src: 'photo_marcus.png', cx: 405, cy: 295, r: 175 }, levie: { src: 'photo_levie.png', cx: 371, cy: 268, r: 165 }, damodaran: { src: 'photo_damodaran.png', cx: 400, cy: 372, r: 200 } };
 function faceBadge(ctx, who, x, y, r) {
   const f = FACES[who], img = f && IMGS[f.src];
   if (!img || r <= 1) return;
@@ -241,12 +241,12 @@ function faceBadge(ctx, who, x, y, r) {
   ctx.restore();
 }
 // who does a caption name? (the face pops beside it, unless that person is already on screen)
-const WHO = (ws) => { const s = ws.map((w) => w[0]).join(' '); return /Cuban/.test(s) ? 'cuban' : /Zitron/.test(s) ? 'zitron' : /Bartlett/.test(s) ? 'bartlett' : /Marcus/.test(s) ? 'marcus' : /Levie/.test(s) ? 'levie' : null; };
+const WHO = (ws) => { const s = ws.map((w) => w[0]).join(' '); return /Cuban/.test(s) ? 'cuban' : /Zitron/.test(s) ? 'zitron' : /Bartlett/.test(s) ? 'bartlett' : /Marcus/.test(s) ? 'marcus' : /Levie/.test(s) ? 'levie' : /Damodaran/.test(s) ? 'damodaran' : null; };
 function onScreen(t, who) {
   const s = SHOTS[shotIndex(t)];
   return s.items.some((it) => it.t <= t && ((it.k === 'image' && it.src.includes(who)) || (it.k === 'face' && it.who === who)));
 }
-function nameTime(c) { const w = c.ws.find((w) => /Cuban|Zitron|Bartlett|Marcus|Levie/.test(w[0])); return w ? w[1] : c.a; }
+function nameTime(c) { const w = c.ws.find((w) => /Cuban|Zitron|Bartlett|Marcus|Levie|Damodaran/.test(w[0])); return w ? w[1] : c.a; }
 
 
 // ============================================================ rich scenes (Lemo-Opuscar grammar)
@@ -841,7 +841,7 @@ function shotIndex(t) {
 
 M.film({
   fonts: [font(100, 400, DISPLAY), font(40, 600, UI), font(40, 700, UI), font(100, 400, 'Slab'), font(30, 800, 'Mono')],
-  images: { 'photo_zitron.png': 'assets/photo_zitron.png', 'photo_bartlett.png': 'assets/photo_bartlett.png', 'photo_cuban.png': 'assets/photo_cuban.png', 'photo_marcus.png': 'assets/photo_marcus.png', 'photo_levie.png': 'assets/photo_levie.png' },
+  images: { 'photo_zitron.png': 'assets/photo_zitron.png', 'photo_bartlett.png': 'assets/photo_bartlett.png', 'photo_cuban.png': 'assets/photo_cuban.png', 'photo_marcus.png': 'assets/photo_marcus.png', 'photo_levie.png': 'assets/photo_levie.png', 'photo_damodaran.png': 'assets/photo_damodaran.png' },
   hits: HITS,
   samples: (t) => {
     const i = shotIndex(t), a = t - SHOTS[i].t0;

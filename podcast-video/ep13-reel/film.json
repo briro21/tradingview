@@ -1,0 +1,45 @@
+{
+ "title": "Damodaran's $77 Anthropic",
+ "formats": [
+  "16x9"
+ ],
+ "poster": 0,
+ "case": 13,
+ "date": "Nov 2026",
+ "endscreen": 20,
+ "duration": 460.233,
+ "coldOpenLook": "dark",
+ "targetDurationSeconds": 510,
+ "nexts": [
+  [
+   86,
+   "COMING UP",
+   "what he expected on day one"
+  ],
+  [
+   137.5,
+   "NEXT",
+   "the share he calls \"designed in hell\""
+  ],
+  [
+   225,
+   "COMING UP",
+   "the one number that decides everything"
+  ],
+  [
+   290.5,
+   "NEXT",
+   "why he might still buy"
+  ],
+  [
+   365,
+   "STILL TO COME",
+   "what it means for you"
+  ]
+ ],
+ "endVideos": [
+  "Anthropic IPO, Boom or Bust? Gary Marcus vs Aaron Levie",
+  "Ed Zitron WARNS: After Jensen, Who Pays for the AI Bubble?"
+ ],
+ "endAsk": "Comment below: which podcast should we break down next?"
+}
