@@ -1,0 +1,119 @@
+1
+00:00:00,000 --> 00:00:00,929
+Part five.
+
+2
+00:00:01,358 --> 00:00:03,216
+Why he might still buy.
+
+3
+00:00:03,704 --> 00:00:05,921
+Damodaran thinks AI ends up with two or
+
+4
+00:00:05,956 --> 00:00:06,966
+three big players,
+
+5
+00:00:07,233 --> 00:00:10,194
+and Anthropic, the most focused on business customers,
+
+6
+00:00:10,228 --> 00:00:11,041
+is one of them.
+
+7
+00:00:11,819 --> 00:00:14,129
+Once its agents learn a bank's data and
+
+8
+00:00:14,199 --> 00:00:15,581
+its bankers, he says,
+
+9
+00:00:15,813 --> 00:00:17,705
+they get sticky and hard to replace.
+
+10
+00:00:18,042 --> 00:00:21,757
+So his $1.475 trillion is,
+
+11
+00:00:22,210 --> 00:00:23,220
+in his words,
+
+12
+00:00:23,336 --> 00:00:25,286
+the optimist hat firmly on.
+
+13
+00:00:25,623 --> 00:00:27,864
+He'd consider Anthropic at a discount,
+
+14
+00:00:28,119 --> 00:00:30,256
+as one company in a portfolio.
+
+15
+00:00:30,882 --> 00:00:32,090
+Never as a big bet.
+
+16
+00:00:32,427 --> 00:00:34,481
+The same rule applies to Nvidia.
+
+17
+00:00:34,771 --> 00:00:37,407
+He sold the shares he bought in 2018,
+
+18
+00:00:37,720 --> 00:00:39,299
+but he has a limit order to buy
+
+19
+00:00:39,404 --> 00:00:41,598
+back at $140.
+
+20
+00:00:42,086 --> 00:00:44,779
+He thought the CEO question mattered less than
+
+21
+00:00:44,826 --> 00:00:45,870
+the China question.
+
+22
+00:00:46,300 --> 00:00:48,587
+And he thought Jensen Huang was unlikely to
+
+23
+00:00:48,634 --> 00:00:49,330
+come back.
+
+24
+00:00:50,108 --> 00:00:51,014
+Five days later,
+
+25
+00:00:51,049 --> 00:00:52,976
+Nvidia's board reinstated him,
+
+26
+00:00:53,208 --> 00:00:55,727
+a reminder that even the best valuation is
+
+27
+00:00:55,774 --> 00:00:56,575
+a forecast.
+
+28
+00:00:57,005 --> 00:00:58,224
+His rule for both:
+
+29
+00:00:58,584 --> 00:01:01,637
+concentrating your portfolio in one AI stock is
+
+30
+00:01:01,707 --> 00:01:02,461
+deadly.

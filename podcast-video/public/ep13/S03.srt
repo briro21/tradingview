@@ -1,0 +1,123 @@
+1
+00:00:00,000 --> 00:00:00,882
+Part three.
+
+2
+00:00:01,242 --> 00:00:02,438
+Designed in hell.
+
+3
+00:00:03,007 --> 00:00:05,724
+Most tech founders keep control with special voting
+
+4
+00:00:05,770 --> 00:00:06,304
+shares.
+
+5
+00:00:06,734 --> 00:00:08,104
+Anthropic went further.
+
+6
+00:00:08,464 --> 00:00:10,913
+Damodaran describes a single founder share,
+
+7
+00:00:11,227 --> 00:00:12,643
+held by seven founders,
+
+8
+00:00:12,875 --> 00:00:15,569
+carrying 50.01% of the votes.
+
+9
+00:00:16,057 --> 00:00:18,622
+He calls the structure one designed in hell
+
+10
+00:00:18,692 --> 00:00:19,644
+for shareholders.
+
+11
+00:00:20,131 --> 00:00:21,374
+His comparison:
+
+12
+00:00:21,734 --> 00:00:24,857
+the golden shares governments kept when they privatized
+
+13
+00:00:24,903 --> 00:00:27,341
+companies in the 1980s and 90s,
+
+14
+00:00:27,608 --> 00:00:29,199
+like in Margaret Thatcher's Britain.
+
+15
+00:00:29,628 --> 00:00:30,511
+One share,
+
+16
+00:00:30,940 --> 00:00:33,471
+but a veto over the big decisions.
+
+17
+00:00:33,901 --> 00:00:36,292
+And he sees a twist the founders may
+
+18
+00:00:36,374 --> 00:00:37,500
+not have thought through.
+
+19
+00:00:38,173 --> 00:00:40,727
+If AI ever causes a scandal,
+
+20
+00:00:40,890 --> 00:00:43,700
+an activist government could target that one share.
+
+21
+00:00:44,187 --> 00:00:46,335
+Take it, pay the price of an ordinary
+
+22
+00:00:46,416 --> 00:00:50,561
+share, and suddenly control the company's biggest decisions.
+
+23
+00:00:51,049 --> 00:00:53,057
+The founders could fight that in court,
+
+24
+00:00:53,092 --> 00:00:53,800
+he says.
+
+25
+00:00:54,230 --> 00:00:55,762
+But it paints a target.
+
+26
+00:00:56,250 --> 00:00:58,293
+There's a practical problem too.
+
+27
+00:00:58,967 --> 00:01:01,498
+If the business needs to change course,
+
+28
+00:01:01,857 --> 00:01:03,866
+who can make the founders listen?
+
+29
+00:01:04,539 --> 00:01:06,954
+Maybe only a falling stock price,
+
+30
+00:01:07,314 --> 00:01:09,462
+which he calls a blunt instrument.
+
+31
+00:01:09,949 --> 00:01:12,492
+So what would make the business itself work?

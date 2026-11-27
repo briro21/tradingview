@@ -1,0 +1,835 @@
+1
+00:00:00,000 --> 00:00:01,765
+Seventy-seven dollars.
+
+2
+00:00:02,125 --> 00:00:04,098
+That's what Aswath Damodaran,
+
+3
+00:00:04,191 --> 00:00:06,327
+the NYU professor many call the dean of
+
+4
+00:00:06,362 --> 00:00:07,268
+valuation,
+
+5
+00:00:07,628 --> 00:00:09,938
+said one share of Anthropic was worth.
+
+6
+00:00:10,426 --> 00:00:12,423
+He worked it out minutes before the IPO
+
+7
+00:00:12,504 --> 00:00:14,176
+priced at $83.
+
+8
+00:00:14,536 --> 00:00:15,325
+Within a week,
+
+9
+00:00:15,360 --> 00:00:17,845
+the stock fell to about $79.
+
+10
+00:00:18,205 --> 00:00:19,679
+On Prof G Markets,
+
+11
+00:00:19,842 --> 00:00:20,968
+he showed his math,
+
+12
+00:00:21,328 --> 00:00:24,195
+the share structure he calls designed in hell,
+
+13
+00:00:24,764 --> 00:00:27,017
+the one number he says decides everything,
+
+14
+00:00:27,284 --> 00:00:28,921
+and why he might still buy.
+
+15
+00:00:29,594 --> 00:00:30,581
+This is that hour,
+
+16
+00:00:30,604 --> 00:00:31,904
+in eight minutes.
+
+17
+00:00:31,967 --> 00:00:32,977
+Part one.
+
+18
+00:00:33,407 --> 00:00:35,380
+The $77 math.
+
+19
+00:00:35,740 --> 00:00:38,480
+Damodaran first valued Anthropic on November 2nd.
+
+20
+00:00:38,828 --> 00:00:40,210
+He told what he calls a big,
+
+21
+00:00:40,233 --> 00:00:41,383
+uplifting story:
+
+22
+00:00:41,743 --> 00:00:43,879
+a trillion dollars in revenue a year within
+
+23
+00:00:43,914 --> 00:00:44,854
+about a decade,
+
+24
+00:00:45,214 --> 00:00:47,327
+more than any company on earth makes today.
+
+25
+00:00:48,094 --> 00:00:50,474
+Margins of 27.5%.
+
+26
+00:00:50,775 --> 00:00:53,492
+A cost of capital of 9.7%.
+
+27
+00:00:53,841 --> 00:00:55,733
+And one more step most people skip:
+
+28
+00:00:55,930 --> 00:00:58,485
+he treated the compute contracts like debt,
+
+29
+00:00:58,740 --> 00:01:00,238
+worth about $500 billion,
+
+30
+00:01:00,795 --> 00:01:01,967
+and subtracted them.
+
+31
+00:01:02,316 --> 00:01:05,903
+His answer was $1.475 trillion for the whole
+
+32
+00:01:05,938 --> 00:01:06,461
+company.
+
+33
+00:01:06,937 --> 00:01:08,051
+Then the world changed.
+
+34
+00:01:08,400 --> 00:01:09,851
+The midterm election,
+
+35
+00:01:09,920 --> 00:01:12,835
+he says, brought in a Congress more hostile
+
+36
+00:01:12,858 --> 00:01:14,936
+to data centers and to AI.
+
+37
+00:01:15,296 --> 00:01:17,246
+So he raised the cost of building compute
+
+38
+00:01:17,293 --> 00:01:19,104
+and added a regulatory drag.
+
+39
+00:01:19,592 --> 00:01:21,182
+That cut about $100 billion,
+
+40
+00:01:21,960 --> 00:01:23,829
+to roughly $1.35 trillion.
+
+41
+00:01:24,259 --> 00:01:25,617
+Then he divided by the shares,
+
+42
+00:01:25,641 --> 00:01:27,347
+including a big pile of options.
+
+43
+00:01:27,777 --> 00:01:30,644
+His answer: $77 a share.
+
+44
+00:01:31,132 --> 00:01:34,046
+Moments later, the IPO priced at $83.
+
+45
+00:01:34,406 --> 00:01:37,262
+His reaction: it terrifies me that I'm so
+
+46
+00:01:37,355 --> 00:01:38,795
+close to a banker's price.
+
+47
+00:01:39,224 --> 00:01:41,163
+If you want the AI money story explained
+
+48
+00:01:41,187 --> 00:01:42,348
+like this every week,
+
+49
+00:01:42,545 --> 00:01:44,820
+subscribe now, so you don't miss the next
+
+50
+00:01:44,890 --> 00:01:45,192
+one.
+
+51
+00:01:45,680 --> 00:01:47,363
+So what did he expect the market to
+
+52
+00:01:47,433 --> 00:01:48,315
+do next?
+
+53
+00:01:48,367 --> 00:01:49,354
+Part two.
+
+54
+00:01:49,714 --> 00:01:51,037
+The bankers' game.
+
+55
+00:01:51,467 --> 00:01:54,160
+Damodaran says bankers have one job in an
+
+56
+00:01:54,242 --> 00:01:55,066
+IPO:
+
+57
+00:01:55,496 --> 00:01:57,562
+price it so the stock pops on day
+
+58
+00:01:57,643 --> 00:01:58,073
+one.
+
+59
+00:01:58,503 --> 00:02:02,136
+He expected an open around $90 to $95.
+
+60
+00:02:02,496 --> 00:02:04,842
+But he said the opening price is irrelevant.
+
+61
+00:02:05,271 --> 00:02:07,175
+What matters is where it closes,
+
+62
+00:02:07,373 --> 00:02:09,962
+because insiders could start selling from day one.
+
+63
+00:02:10,635 --> 00:02:12,028
+Same door, he said,
+
+64
+00:02:12,260 --> 00:02:14,292
+with people trying to get in and people
+
+65
+00:02:14,327 --> 00:02:15,441
+trying to get out.
+
+66
+00:02:16,219 --> 00:02:17,404
+His line in the sand:
+
+67
+00:02:17,636 --> 00:02:19,888
+if it fell to $71 or
+
+68
+00:02:20,248 --> 00:02:22,872
+$72, it would start to get interesting for
+
+69
+00:02:22,941 --> 00:02:23,232
+him.
+
+70
+00:02:24,474 --> 00:02:25,333
+Here's what happened.
+
+71
+00:02:25,495 --> 00:02:29,106
+Anthropic opened around $111 and closed its first
+
+72
+00:02:29,153 --> 00:02:30,801
+day near $97.
+
+73
+00:02:31,231 --> 00:02:32,694
+Four trading days later,
+
+74
+00:02:32,775 --> 00:02:34,586
+it fell below $83.
+
+75
+00:02:34,946 --> 00:02:37,140
+By Wednesday, it was near $79,
+
+76
+00:02:37,210 --> 00:02:39,253
+closing in on his $77.
+
+77
+00:02:39,613 --> 00:02:40,635
+But even at his number,
+
+78
+00:02:40,658 --> 00:02:41,970
+he wasn't rushing to buy.
+
+79
+00:02:42,284 --> 00:02:43,515
+It needs to drop a lot,
+
+80
+00:02:43,549 --> 00:02:45,953
+he said. And the reason has nothing to
+
+81
+00:02:46,034 --> 00:02:47,067
+do with AI.
+
+82
+00:02:47,133 --> 00:02:48,015
+Part three.
+
+83
+00:02:48,375 --> 00:02:49,571
+Designed in hell.
+
+84
+00:02:50,140 --> 00:02:52,857
+Most tech founders keep control with special voting
+
+85
+00:02:52,903 --> 00:02:53,437
+shares.
+
+86
+00:02:53,867 --> 00:02:55,237
+Anthropic went further.
+
+87
+00:02:55,597 --> 00:02:58,046
+Damodaran describes a single founder share,
+
+88
+00:02:58,360 --> 00:02:59,776
+held by seven founders,
+
+89
+00:03:00,008 --> 00:03:02,702
+carrying 50.01% of the votes.
+
+90
+00:03:03,190 --> 00:03:05,755
+He calls the structure one designed in hell
+
+91
+00:03:05,825 --> 00:03:06,777
+for shareholders.
+
+92
+00:03:07,264 --> 00:03:08,507
+His comparison:
+
+93
+00:03:08,867 --> 00:03:11,990
+the golden shares governments kept when they privatized
+
+94
+00:03:12,036 --> 00:03:14,474
+companies in the 1980s and 90s,
+
+95
+00:03:14,741 --> 00:03:16,332
+like in Margaret Thatcher's Britain.
+
+96
+00:03:16,761 --> 00:03:17,644
+One share,
+
+97
+00:03:18,073 --> 00:03:20,604
+but a veto over the big decisions.
+
+98
+00:03:21,034 --> 00:03:23,425
+And he sees a twist the founders may
+
+99
+00:03:23,507 --> 00:03:24,633
+not have thought through.
+
+100
+00:03:25,306 --> 00:03:27,860
+If AI ever causes a scandal,
+
+101
+00:03:28,023 --> 00:03:30,833
+an activist government could target that one share.
+
+102
+00:03:31,320 --> 00:03:33,468
+Take it, pay the price of an ordinary
+
+103
+00:03:33,549 --> 00:03:37,694
+share, and suddenly control the company's biggest decisions.
+
+104
+00:03:38,182 --> 00:03:40,190
+The founders could fight that in court,
+
+105
+00:03:40,225 --> 00:03:40,933
+he says.
+
+106
+00:03:41,363 --> 00:03:42,895
+But it paints a target.
+
+107
+00:03:43,383 --> 00:03:45,426
+There's a practical problem too.
+
+108
+00:03:46,100 --> 00:03:48,631
+If the business needs to change course,
+
+109
+00:03:48,990 --> 00:03:50,999
+who can make the founders listen?
+
+110
+00:03:51,672 --> 00:03:54,087
+Maybe only a falling stock price,
+
+111
+00:03:54,447 --> 00:03:56,595
+which he calls a blunt instrument.
+
+112
+00:03:57,082 --> 00:03:59,625
+So what would make the business itself work?
+
+113
+00:03:59,700 --> 00:04:00,548
+Part four.
+
+114
+00:04:00,977 --> 00:04:02,022
+The one number.
+
+115
+00:04:02,800 --> 00:04:05,551
+Damodaran's first rule of corporate finance:
+
+116
+00:04:06,039 --> 00:04:08,431
+young companies that aren't making money shouldn't borrow.
+
+117
+00:04:08,791 --> 00:04:10,300
+Anthropic, he says,
+
+118
+00:04:10,532 --> 00:04:12,552
+broke it by signing hundreds of billions in
+
+119
+00:04:12,634 --> 00:04:15,304
+compute commitments without the earnings to back them.
+
+120
+00:04:15,733 --> 00:04:17,440
+What buys time is cash.
+
+121
+00:04:17,800 --> 00:04:19,054
+After the IPO,
+
+122
+00:04:19,100 --> 00:04:20,876
+he expects about $200 billion,
+
+123
+00:04:21,364 --> 00:04:22,955
+enough to cover the next two or three
+
+124
+00:04:22,989 --> 00:04:24,162
+years of those bills.
+
+125
+00:04:24,522 --> 00:04:27,181
+But only if revenue roughly doubles every year
+
+126
+00:04:27,227 --> 00:04:28,109
+in the near term.
+
+127
+00:04:28,597 --> 00:04:31,221
+That's the one number he says drives everything.
+
+128
+00:04:31,650 --> 00:04:33,055
+If revenue comes in,
+
+129
+00:04:33,136 --> 00:04:34,204
+profits come,
+
+130
+00:04:34,564 --> 00:04:36,015
+the commitments get paid,
+
+131
+00:04:36,097 --> 00:04:37,374
+and the risk goes away.
+
+132
+00:04:37,803 --> 00:04:38,721
+If it doesn't,
+
+133
+00:04:38,918 --> 00:04:40,567
+everything else falls apart.
+
+134
+00:04:41,135 --> 00:04:43,306
+Host Ed Elson pointed out that growth was
+
+135
+00:04:43,376 --> 00:04:47,230
+already slowing, from 47% a quarter toward 15
+
+136
+00:04:47,311 --> 00:04:48,438
+to 25%.
+
+137
+00:04:48,832 --> 00:04:50,771
+Damodaran blames competition:
+
+138
+00:04:51,224 --> 00:04:54,417
+OpenAI underpricing, and cheaper open models.
+
+139
+00:04:55,264 --> 00:04:56,832
+Most businesses don't need Claude,
+
+140
+00:04:56,878 --> 00:04:57,459
+he says.
+
+141
+00:04:57,981 --> 00:04:58,979
+It's overkill.
+
+142
+00:04:59,815 --> 00:05:02,555
+His advice: build models powerful enough,
+
+143
+00:05:02,799 --> 00:05:03,961
+but not too powerful.
+
+144
+00:05:04,297 --> 00:05:06,155
+And even if AI helps cure diseases,
+
+145
+00:05:06,178 --> 00:05:06,875
+he warns,
+
+146
+00:05:07,362 --> 00:05:09,197
+the value may flow to all of us,
+
+147
+00:05:09,870 --> 00:05:11,704
+not to Anthropic's shareholders.
+
+148
+00:05:12,378 --> 00:05:14,235
+So why hasn't he written it off?
+
+149
+00:05:14,300 --> 00:05:15,229
+Part five.
+
+150
+00:05:15,658 --> 00:05:17,516
+Why he might still buy.
+
+151
+00:05:18,004 --> 00:05:20,221
+Damodaran thinks AI ends up with two or
+
+152
+00:05:20,256 --> 00:05:21,266
+three big players,
+
+153
+00:05:21,533 --> 00:05:24,494
+and Anthropic, the most focused on business customers,
+
+154
+00:05:24,528 --> 00:05:25,341
+is one of them.
+
+155
+00:05:26,119 --> 00:05:28,429
+Once its agents learn a bank's data and
+
+156
+00:05:28,499 --> 00:05:29,881
+its bankers, he says,
+
+157
+00:05:30,113 --> 00:05:32,005
+they get sticky and hard to replace.
+
+158
+00:05:32,342 --> 00:05:36,057
+So his $1.475 trillion is,
+
+159
+00:05:36,510 --> 00:05:37,520
+in his words,
+
+160
+00:05:37,636 --> 00:05:39,586
+the optimist hat firmly on.
+
+161
+00:05:39,923 --> 00:05:42,164
+He'd consider Anthropic at a discount,
+
+162
+00:05:42,419 --> 00:05:44,556
+as one company in a portfolio.
+
+163
+00:05:45,182 --> 00:05:46,390
+Never as a big bet.
+
+164
+00:05:46,727 --> 00:05:48,781
+The same rule applies to Nvidia.
+
+165
+00:05:49,071 --> 00:05:51,707
+He sold the shares he bought in 2018,
+
+166
+00:05:52,020 --> 00:05:53,599
+but he has a limit order to buy
+
+167
+00:05:53,704 --> 00:05:55,898
+back at $140.
+
+168
+00:05:56,386 --> 00:05:59,079
+He thought the CEO question mattered less than
+
+169
+00:05:59,126 --> 00:06:00,170
+the China question.
+
+170
+00:06:00,600 --> 00:06:02,887
+And he thought Jensen Huang was unlikely to
+
+171
+00:06:02,934 --> 00:06:03,630
+come back.
+
+172
+00:06:04,408 --> 00:06:05,314
+Five days later,
+
+173
+00:06:05,349 --> 00:06:07,276
+Nvidia's board reinstated him,
+
+174
+00:06:07,508 --> 00:06:10,027
+a reminder that even the best valuation is
+
+175
+00:06:10,074 --> 00:06:10,875
+a forecast.
+
+176
+00:06:11,305 --> 00:06:12,524
+His rule for both:
+
+177
+00:06:12,884 --> 00:06:15,937
+concentrating your portfolio in one AI stock is
+
+178
+00:06:16,007 --> 00:06:16,761
+deadly.
+
+179
+00:06:16,833 --> 00:06:17,936
+Part six.
+
+180
+00:06:18,296 --> 00:06:19,527
+What it means for you.
+
+181
+00:06:20,432 --> 00:06:22,754
+Ed Elson says that for AI stocks,
+
+182
+00:06:22,789 --> 00:06:24,345
+the bubble has already popped.
+
+183
+00:06:24,774 --> 00:06:26,713
+Damodaran is more struck by the rest of
+
+184
+00:06:26,748 --> 00:06:29,244
+the market, which held up as AI and
+
+185
+00:06:29,314 --> 00:06:30,080
+tech fell.
+
+186
+00:06:30,649 --> 00:06:32,460
+He thinks we're closer to the bottom than
+
+187
+00:06:32,553 --> 00:06:33,551
+two months ago,
+
+188
+00:06:33,818 --> 00:06:35,478
+but waiting for the exact bottom,
+
+189
+00:06:35,501 --> 00:06:36,198
+he says,
+
+190
+00:06:36,674 --> 00:06:39,402
+is an exercise in futility.
+
+191
+00:06:39,890 --> 00:06:42,003
+So his advice for people who never bought
+
+192
+00:06:42,038 --> 00:06:42,572
+tech:
+
+193
+00:06:43,245 --> 00:06:46,322
+add some, at better prices than before.
+
+194
+00:06:47,216 --> 00:06:48,342
+Not all your money,
+
+195
+00:06:48,365 --> 00:06:50,525
+and not necessarily Anthropic.
+
+196
+00:06:51,001 --> 00:06:54,147
+The number to watch next is Anthropic's revenue.
+
+197
+00:06:54,507 --> 00:06:55,923
+If it keeps doubling,
+
+198
+00:06:56,121 --> 00:06:57,908
+his trillion dollar story holds.
+
+199
+00:06:58,582 --> 00:07:01,972
+If not, $77 may still be too high.
+
+200
+00:07:02,460 --> 00:07:04,004
+This is his analysis,
+
+201
+00:07:04,097 --> 00:07:05,490
+not financial advice.
+
+202
+00:07:05,919 --> 00:07:08,044
+That was an hour of Prof G Markets
+
+203
+00:07:08,079 --> 00:07:08,891
+in eight minutes.
+
+204
+00:07:09,205 --> 00:07:11,318
+The full episode is linked below.
+
+205
+00:07:11,550 --> 00:07:13,976
+Tell us in the comments which long podcast
+
+206
+00:07:14,023 --> 00:07:15,404
+we should break down next.
+
+207
+00:07:15,892 --> 00:07:17,587
+And for the AI money story,
+
+208
+00:07:17,634 --> 00:07:18,934
+explained every week,
+
+209
+00:07:19,027 --> 00:07:20,176
+subscribe.

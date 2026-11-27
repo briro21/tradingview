@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:00,848
+Part four.
+
+2
+00:00:01,277 --> 00:00:02,322
+The one number.
+
+3
+00:00:03,100 --> 00:00:05,851
+Damodaran's first rule of corporate finance:
+
+4
+00:00:06,339 --> 00:00:08,731
+young companies that aren't making money shouldn't borrow.
+
+5
+00:00:09,091 --> 00:00:10,600
+Anthropic, he says,
+
+6
+00:00:10,832 --> 00:00:12,852
+broke it by signing hundreds of billions in
+
+7
+00:00:12,934 --> 00:00:15,604
+compute commitments without the earnings to back them.
+
+8
+00:00:16,033 --> 00:00:17,740
+What buys time is cash.
+
+9
+00:00:18,100 --> 00:00:19,354
+After the IPO,
+
+10
+00:00:19,400 --> 00:00:21,176
+he expects about $200 billion,
+
+11
+00:00:21,664 --> 00:00:23,255
+enough to cover the next two or three
+
+12
+00:00:23,289 --> 00:00:24,462
+years of those bills.
+
+13
+00:00:24,822 --> 00:00:27,481
+But only if revenue roughly doubles every year
+
+14
+00:00:27,527 --> 00:00:28,409
+in the near term.
+
+15
+00:00:28,897 --> 00:00:31,521
+That's the one number he says drives everything.
+
+16
+00:00:31,950 --> 00:00:33,355
+If revenue comes in,
+
+17
+00:00:33,436 --> 00:00:34,504
+profits come,
+
+18
+00:00:34,864 --> 00:00:36,315
+the commitments get paid,
+
+19
+00:00:36,397 --> 00:00:37,674
+and the risk goes away.
+
+20
+00:00:38,103 --> 00:00:39,021
+If it doesn't,
+
+21
+00:00:39,218 --> 00:00:40,867
+everything else falls apart.
+
+22
+00:00:41,435 --> 00:00:43,606
+Host Ed Elson pointed out that growth was
+
+23
+00:00:43,676 --> 00:00:47,530
+already slowing, from 47% a quarter toward 15
+
+24
+00:00:47,611 --> 00:00:48,738
+to 25%.
+
+25
+00:00:49,132 --> 00:00:51,071
+Damodaran blames competition:
+
+26
+00:00:51,524 --> 00:00:54,717
+OpenAI underpricing, and cheaper open models.
+
+27
+00:00:55,564 --> 00:00:57,132
+Most businesses don't need Claude,
+
+28
+00:00:57,178 --> 00:00:57,759
+he says.
+
+29
+00:00:58,281 --> 00:00:59,279
+It's overkill.
+
+30
+00:01:00,115 --> 00:01:02,855
+His advice: build models powerful enough,
+
+31
+00:01:03,099 --> 00:01:04,261
+but not too powerful.
+
+32
+00:01:04,597 --> 00:01:06,455
+And even if AI helps cure diseases,
+
+33
+00:01:06,478 --> 00:01:07,175
+he warns,
+
+34
+00:01:07,662 --> 00:01:09,497
+the value may flow to all of us,
+
+35
+00:01:10,170 --> 00:01:12,004
+not to Anthropic's shareholders.
+
+36
+00:01:12,678 --> 00:01:14,535
+So why hasn't he written it off?

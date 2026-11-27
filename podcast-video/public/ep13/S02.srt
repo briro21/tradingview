@@ -1,0 +1,115 @@
+1
+00:00:00,000 --> 00:00:00,987
+Part two.
+
+2
+00:00:01,347 --> 00:00:02,670
+The bankers' game.
+
+3
+00:00:03,100 --> 00:00:05,793
+Damodaran says bankers have one job in an
+
+4
+00:00:05,875 --> 00:00:06,699
+IPO:
+
+5
+00:00:07,129 --> 00:00:09,195
+price it so the stock pops on day
+
+6
+00:00:09,276 --> 00:00:09,706
+one.
+
+7
+00:00:10,136 --> 00:00:13,769
+He expected an open around $90 to $95.
+
+8
+00:00:14,129 --> 00:00:16,475
+But he said the opening price is irrelevant.
+
+9
+00:00:16,904 --> 00:00:18,808
+What matters is where it closes,
+
+10
+00:00:19,006 --> 00:00:21,595
+because insiders could start selling from day one.
+
+11
+00:00:22,268 --> 00:00:23,661
+Same door, he said,
+
+12
+00:00:23,893 --> 00:00:25,925
+with people trying to get in and people
+
+13
+00:00:25,960 --> 00:00:27,074
+trying to get out.
+
+14
+00:00:27,852 --> 00:00:29,037
+His line in the sand:
+
+15
+00:00:29,269 --> 00:00:31,521
+if it fell to $71 or
+
+16
+00:00:31,881 --> 00:00:34,505
+$72, it would start to get interesting for
+
+17
+00:00:34,574 --> 00:00:34,865
+him.
+
+18
+00:00:36,107 --> 00:00:36,966
+Here's what happened.
+
+19
+00:00:37,128 --> 00:00:40,739
+Anthropic opened around $111 and closed its first
+
+20
+00:00:40,786 --> 00:00:42,434
+day near $97.
+
+21
+00:00:42,864 --> 00:00:44,327
+Four trading days later,
+
+22
+00:00:44,408 --> 00:00:46,219
+it fell below $83.
+
+23
+00:00:46,579 --> 00:00:48,773
+By Wednesday, it was near $79,
+
+24
+00:00:48,843 --> 00:00:50,886
+closing in on his $77.
+
+25
+00:00:51,246 --> 00:00:52,268
+But even at his number,
+
+26
+00:00:52,291 --> 00:00:53,603
+he wasn't rushing to buy.
+
+27
+00:00:53,917 --> 00:00:55,148
+It needs to drop a lot,
+
+28
+00:00:55,182 --> 00:00:57,586
+he said. And the reason has nothing to
+
+29
+00:00:57,667 --> 00:00:58,700
+do with AI.

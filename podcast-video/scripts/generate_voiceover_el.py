@@ -141,6 +141,7 @@ def main() -> None:
         print(f"{s}: {dur:6.2f}s  {timing[s]['frames']} frames  {len(cues)} cues")
     write_srt(out / "full.srt", full)
     dest = ROOT / "src" / "episodes" / args.episode
+    dest.mkdir(parents=True, exist_ok=True)
     (dest / "timing.json").write_text(json.dumps(timing), encoding="utf-8")
     print(f"full.srt: {len(full)} cues, total {offset:.2f}s")
 
